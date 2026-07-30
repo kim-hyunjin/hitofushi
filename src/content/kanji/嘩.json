@@ -1,0 +1,11 @@
+{
+  "character": "嘩",
+  "onyomi": ["カ"],
+  "kunyomi": ["かまびすしい"],
+  "basicMeaning": "시끄럽다",
+  "wordMeaning": "喧嘩라는 단어에서 시끄럽게 다투는 의미를 함께 만듭니다.",
+  "mnemonic": "여러 말이 한꺼번에 입(口) 밖으로 튀어나오는 장면을 떠올려 보세요.",
+  "examples": [
+    { "word": "喧嘩", "reading": "けんか", "meaning": "싸움, 말다툼" }
+  ]
+}

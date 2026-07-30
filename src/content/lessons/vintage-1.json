@@ -1,0 +1,121 @@
+{
+  "songSlug": "vintage",
+  "lessonNumber": 1,
+  "title": "상처받지 않으려는 마음",
+  "subtitle": "부정 표현과 문장을 잇는 말",
+  "description": "네 문장을 천천히 읽으며 ‘하고 싶지 않다’, ‘~하는 것은’, ‘~지만’ 같은 핵심 표현을 익힙니다.",
+  "estimatedMinutes": 18,
+  "sentences": [
+    {
+      "id": "vintage-1-1",
+      "original": "口喧嘩なんかしたくもないから",
+      "ruby": [
+        { "text": "口喧嘩", "reading": "くちげんか" },
+        { "text": "なんかしたくもないから" }
+      ],
+      "hiragana": "くちげんか なんか したくも ない から",
+      "pronunciationKo": "쿠치겐카 난카 시타쿠모 나이카라",
+      "translationKo": "말다툼 같은 건 하고 싶지 않으니까",
+      "grammarIds": ["noun-nanka", "verb-tai", "takunai", "takumonai", "kara"],
+      "kanjiIds": ["口", "喧", "嘩"]
+    },
+    {
+      "id": "vintage-1-2",
+      "original": "細心の注意を払って生きてた",
+      "ruby": [
+        { "text": "細心", "reading": "さいしん" },
+        { "text": "の" },
+        { "text": "注意", "reading": "ちゅうい" },
+        { "text": "を" },
+        { "text": "払", "reading": "はら" },
+        { "text": "って" },
+        { "text": "生", "reading": "い" },
+        { "text": "きてた" }
+      ],
+      "hiragana": "さいしん の ちゅうい を はらって いきてた",
+      "pronunciationKo": "사이신노 추우이오 하랏테 이키테타",
+      "translationKo": "세심한 주의를 기울이며 살아왔어",
+      "grammarIds": ["noun-no-noun", "chui-wo-harau", "teiru", "teita-teta"],
+      "kanjiIds": ["細", "心", "注", "意", "払", "生"]
+    },
+    {
+      "id": "vintage-1-3",
+      "original": "率先して自分のことをけなすのは",
+      "ruby": [
+        { "text": "率先", "reading": "そっせん" },
+        { "text": "して" },
+        { "text": "自分", "reading": "じぶん" },
+        { "text": "のことをけなすのは" }
+      ],
+      "hiragana": "そっせんして じぶん の こと を けなす のは",
+      "pronunciationKo": "솟센시테 지분노 코토오 케나스노와",
+      "translationKo": "솔선해서 자신을 깎아내리는 것은",
+      "grammarIds": ["jibun-no-koto", "verb-nominalizer-no", "nowa"],
+      "kanjiIds": ["率", "先", "自", "分"]
+    },
+    {
+      "id": "vintage-1-4",
+      "original": "楽だけど虚しくて",
+      "ruby": [
+        { "text": "楽", "reading": "らく" },
+        { "text": "だけど" },
+        { "text": "虚", "reading": "むな" },
+        { "text": "しくて" }
+      ],
+      "hiragana": "らく だけど むなしくて",
+      "pronunciationKo": "라쿠다케도 무나시쿠테",
+      "translationKo": "편하기는 하지만 허무해서",
+      "grammarIds": ["kedo", "i-adjective-kute"],
+      "kanjiIds": ["楽", "虚"]
+    }
+  ],
+  "vocabulary": [
+    { "id": "kuchigenka", "term": "口喧嘩", "reading": "くちげんか", "meaning": "말다툼", "note": "口(입)로 하는 喧嘩(싸움)" },
+    { "id": "saishin", "term": "細心", "reading": "さいしん", "meaning": "세심함" },
+    { "id": "chuui", "term": "注意", "reading": "ちゅうい", "meaning": "주의" },
+    { "id": "chuui-wo-harau", "term": "注意を払う", "reading": "ちゅういをはらう", "meaning": "주의를 기울이다", "note": "직역보다 하나의 표현으로 익혀요." },
+    { "id": "ikiru", "term": "生きる", "reading": "いきる", "meaning": "살다" },
+    { "id": "sossensuru", "term": "率先する", "reading": "そっせんする", "meaning": "솔선하다" },
+    { "id": "jibun", "term": "自分", "reading": "じぶん", "meaning": "자신" },
+    { "id": "kenasu", "term": "けなす", "reading": "けなす", "meaning": "헐뜯다, 깎아내리다" },
+    { "id": "raku", "term": "楽", "reading": "らく", "meaning": "편함" },
+    { "id": "munashii", "term": "虚しい", "reading": "むなしい", "meaning": "허무하다" }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "prompt": "‘なんか’가 이 문장에서 더하는 뉘앙스는 무엇일까요?",
+      "options": ["~같은 건, ~따위", "~때문에", "~와 함께", "~일지도 모른다"],
+      "answerIndex": 0,
+      "explanation": "명사 뒤의 なんか는 대상을 가볍게 낮추거나 ‘~같은 건’이라고 화제로 꺼냅니다."
+    },
+    {
+      "id": "q2",
+      "prompt": "‘したくもない’와 가장 가까운 뜻은?",
+      "options": ["하고 싶기도 하다", "하고 싶지는 않다", "하고 싶지도 않다", "하지 않아도 된다"],
+      "answerIndex": 2,
+      "explanation": "したい의 부정형 したくない에 も가 들어가 ‘하고 싶지도 않다’는 강조가 됩니다."
+    },
+    {
+      "id": "q3",
+      "prompt": "‘生きてた’의 원래 긴 형태는?",
+      "options": ["生きている", "生きていた", "生きたくない", "生きてみた"],
+      "answerIndex": 1,
+      "explanation": "회화와 노래에서는 〜ていた의 い가 빠져 〜てた로 자주 줄어듭니다."
+    },
+    {
+      "id": "q4",
+      "prompt": "‘けなすのは’에서 の의 역할은?",
+      "options": ["소유를 표시한다", "동사를 명사처럼 만든다", "장소를 표시한다", "질문을 만든다"],
+      "answerIndex": 1,
+      "explanation": "동사 기본형 뒤의 の는 앞의 행동 전체를 ‘~하는 것’으로 명사화합니다."
+    },
+    {
+      "id": "q5",
+      "prompt": "‘虚しくて’의 기본형은?",
+      "options": ["虚し", "虚しい", "虚しさ", "虚しかった"],
+      "answerIndex": 1,
+      "explanation": "い형용사 虚しい가 문장을 잇는 くて형으로 바뀐 모습입니다."
+    }
+  ]
+}

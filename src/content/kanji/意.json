@@ -1,0 +1,12 @@
+{
+  "character": "意",
+  "onyomi": ["イ"],
+  "kunyomi": [],
+  "basicMeaning": "뜻, 생각, 마음",
+  "wordMeaning": "注意에서 의식과 마음을 대상에 두는 의미를 나타냅니다.",
+  "mnemonic": "머릿속 생각이 마음에 또렷하게 자리 잡는 장면을 떠올려 보세요.",
+  "examples": [
+    { "word": "意味", "reading": "いみ", "meaning": "의미" },
+    { "word": "注意", "reading": "ちゅうい", "meaning": "주의" }
+  ]
+}

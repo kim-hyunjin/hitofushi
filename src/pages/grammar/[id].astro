@@ -1,0 +1,51 @@
+---
+import { getCollection, render, type CollectionEntry } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { withBase } from '../../lib/paths';
+
+export async function getStaticPaths() {
+  const entries = await getCollection('grammar');
+  return entries.map((entry) => ({
+    params: { id: entry.id },
+    props: { entry },
+  }));
+}
+
+interface Props {
+  entry: CollectionEntry<'grammar'>;
+}
+
+const { entry } = Astro.props;
+const { Content } = await render(entry);
+---
+
+<BaseLayout title={entry.data.title} description={entry.data.summary}>
+  <article class="detail-page shell">
+    <a class="breadcrumb" href={withBase('/songs/vintage/lessons/1/')}>첫 단원</a>
+    <header class="detail-header">
+      <div>
+        <p class="eyebrow">GRAMMAR · {entry.data.level}</p>
+        <h1>{entry.data.title}</h1>
+        <p>{entry.data.summary}</p>
+      </div>
+      <code>{entry.data.pattern}</code>
+    </header>
+
+    <div class="detail-grid">
+      <div class="prose">
+        <Content />
+      </div>
+      <aside class="example-panel">
+        <p class="eyebrow">예문</p>
+        {
+          entry.data.examples.map((example) => (
+            <div class="example-item">
+              <p lang="ja">{example.japanese}</p>
+              <p>{example.korean}</p>
+            </div>
+          ))
+        }
+      </aside>
+    </div>
+  </article>
+</BaseLayout>

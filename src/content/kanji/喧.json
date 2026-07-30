@@ -1,0 +1,12 @@
+{
+  "character": "喧",
+  "onyomi": ["ケン"],
+  "kunyomi": ["やかましい"],
+  "basicMeaning": "시끄럽다, 떠들썩하다",
+  "wordMeaning": "口喧嘩에서 말소리가 높아지는 다툼의 성격을 나타냅니다.",
+  "mnemonic": "입(口)에서 시끄러운 소리가 크게 퍼지는 장면을 떠올려 보세요.",
+  "examples": [
+    { "word": "喧嘩", "reading": "けんか", "meaning": "싸움" },
+    { "word": "喧騒", "reading": "けんそう", "meaning": "떠들썩함" }
+  ]
+}

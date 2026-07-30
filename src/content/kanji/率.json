@@ -1,0 +1,12 @@
+{
+  "character": "率",
+  "onyomi": ["リツ", "ソツ"],
+  "kunyomi": ["ひきいる"],
+  "basicMeaning": "비율, 이끌다",
+  "wordMeaning": "率先에서 남보다 앞서 행동하는 의미를 만듭니다.",
+  "mnemonic": "흩어진 사람들을 한 방향으로 이끌어 앞에 서는 모습을 떠올려 보세요.",
+  "examples": [
+    { "word": "率先", "reading": "そっせん", "meaning": "솔선" },
+    { "word": "確率", "reading": "かくりつ", "meaning": "확률" }
+  ]
+}

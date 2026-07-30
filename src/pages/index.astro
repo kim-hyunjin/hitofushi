@@ -1,0 +1,80 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { withBase } from '../lib/paths';
+---
+
+<BaseLayout
+  title="J-POP 일본어 교실"
+  description="J-POP 가사를 한 소절씩 읽으며 일본어 문법, 어휘, 한자를 익히는 입문 학습 사이트"
+>
+  <section class="home-hero">
+    <div class="shell hero-grid">
+      <div class="hero-copy">
+        <p class="eyebrow">노래 한 소절이 오늘의 교재</p>
+        <h1>
+          외우기 전에,<br />
+          <em>마음으로 읽는 일본어</em>
+        </h1>
+        <p class="hero-description">
+          좋아하는 가사를 원문부터 천천히 읽어요. 후리가나와 발음 도움은
+          필요할 때만 곁에 두고, 문법과 한자는 문장 안에서 만납니다.
+        </p>
+        <div class="hero-actions">
+          <a class="primary-link" href={withBase('/songs/vintage/lessons/1/')}>
+            첫 단원 시작하기 <span aria-hidden="true">→</span>
+          </a>
+          <a class="text-link" href={withBase('/songs/vintage/')}>노래 소개 보기</a>
+        </div>
+      </div>
+      <div class="hero-sample" aria-label="학습 예시">
+        <span class="sample-label">TODAY'S LINE · 01</span>
+        <p lang="ja">
+          <ruby>口喧嘩<rt>くちげんか</rt></ruby>なんか<br />
+          したくもないから
+        </p>
+        <div class="sample-divider"></div>
+        <small>말다툼 같은 건 하고 싶지 않으니까</small>
+      </div>
+    </div>
+  </section>
+
+  <section class="shell home-section">
+    <div class="section-intro">
+      <p class="eyebrow">한 문장을 세 번 만나요</p>
+      <h2>처음에는 친절하게, 나중에는 온전히</h2>
+      <p>읽기 도움을 단계적으로 줄이며 일본어 원문에 가까워집니다.</p>
+    </div>
+    <div class="mode-preview-grid">
+      <article>
+        <span>01</span>
+        <h3>입문 모드</h3>
+        <p>후리가나, 히라가나 문장, 한국어식 발음과 번역을 모두 봅니다.</p>
+      </article>
+      <article>
+        <span>02</span>
+        <h3>초급 모드</h3>
+        <p>한국어식 발음을 내려놓고 후리가나와 번역에 집중합니다.</p>
+      </article>
+      <article>
+        <span>03</span>
+        <h3>읽기 모드</h3>
+        <p>원문을 먼저 읽고, 어려운 한자의 읽기는 직접 확인합니다.</p>
+      </article>
+    </div>
+  </section>
+
+  <section class="shell current-course">
+    <div>
+      <p class="eyebrow">첫 번째 곡</p>
+      <h2>Vintage</h2>
+      <p>상처받지 않으려는 마음을 담은 네 문장으로 부정 표현과 연결 표현을 배워요.</p>
+    </div>
+    <div class="course-stats">
+      <span><strong>4</strong> 문장</span>
+      <span><strong>10</strong> 단어</span>
+      <span><strong>15</strong> 한자</span>
+      <span><strong>18</strong> 분</span>
+    </div>
+    <a class="primary-link" href={withBase('/songs/vintage/')}>학습 내용 살펴보기</a>
+  </section>
+</BaseLayout>

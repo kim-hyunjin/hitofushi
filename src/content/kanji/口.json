@@ -1,0 +1,12 @@
+{
+  "character": "口",
+  "onyomi": ["コウ", "ク"],
+  "kunyomi": ["くち"],
+  "basicMeaning": "입, 입구",
+  "wordMeaning": "口喧嘩에서 말을 주고받는 ‘입’을 뜻합니다.",
+  "mnemonic": "네모난 입을 정면에서 바라본 모습이라고 떠올려 보세요.",
+  "examples": [
+    { "word": "口", "reading": "くち", "meaning": "입" },
+    { "word": "入口", "reading": "いりぐち", "meaning": "입구" }
+  ]
+}

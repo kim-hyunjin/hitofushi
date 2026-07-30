@@ -1,0 +1,80 @@
+import type { ReadingMode } from './types';
+
+export const STORAGE_KEY = 'jpop-japanese-progress';
+export const PROGRESS_EVENT = 'jpop-progress-change';
+
+export interface ProgressState {
+  version: 1;
+  completedSentences: string[];
+  quizScores: Record<string, number>;
+  favoriteVocabulary: string[];
+  readingMode: ReadingMode;
+  showTranslations: boolean;
+}
+
+export const defaultProgress: ProgressState = {
+  version: 1,
+  completedSentences: [],
+  quizScores: {},
+  favoriteVocabulary: [],
+  readingMode: 'beginner',
+  showTranslations: true,
+};
+
+function isReadingMode(value: unknown): value is ReadingMode {
+  return value === 'beginner' || value === 'elementary' || value === 'reading';
+}
+
+export function normalizeProgress(value: unknown): ProgressState {
+  if (!value || typeof value !== 'object') return { ...defaultProgress };
+
+  const candidate = value as Partial<ProgressState>;
+  return {
+    version: 1,
+    completedSentences: Array.isArray(candidate.completedSentences)
+      ? candidate.completedSentences.filter((item): item is string => typeof item === 'string')
+      : [],
+    quizScores:
+      candidate.quizScores && typeof candidate.quizScores === 'object'
+        ? Object.fromEntries(
+            Object.entries(candidate.quizScores).filter(
+              ([key, score]) => typeof key === 'string' && typeof score === 'number',
+            ),
+          )
+        : {},
+    favoriteVocabulary: Array.isArray(candidate.favoriteVocabulary)
+      ? candidate.favoriteVocabulary.filter((item): item is string => typeof item === 'string')
+      : [],
+    readingMode: isReadingMode(candidate.readingMode)
+      ? candidate.readingMode
+      : defaultProgress.readingMode,
+    showTranslations:
+      typeof candidate.showTranslations === 'boolean'
+        ? candidate.showTranslations
+        : defaultProgress.showTranslations,
+  };
+}
+
+export function loadProgress(): ProgressState {
+  if (typeof window === 'undefined') return { ...defaultProgress };
+
+  try {
+    const saved = window.localStorage.getItem(STORAGE_KEY);
+    return saved ? normalizeProgress(JSON.parse(saved)) : { ...defaultProgress };
+  } catch {
+    return { ...defaultProgress };
+  }
+}
+
+export function saveProgress(next: ProgressState): void {
+  window.localStorage.setItem(STORAGE_KEY, JSON.stringify(next));
+  window.dispatchEvent(new CustomEvent(PROGRESS_EVENT, { detail: next }));
+}
+
+export function updateProgress(
+  updater: (current: ProgressState) => ProgressState,
+): ProgressState {
+  const next = normalizeProgress(updater(loadProgress()));
+  saveProgress(next);
+  return next;
+}

@@ -1,0 +1,12 @@
+{
+  "character": "払",
+  "onyomi": ["フツ"],
+  "kunyomi": ["はらう"],
+  "basicMeaning": "털다, 치르다",
+  "wordMeaning": "注意を払う에서 관심과 주의를 ‘기울이다’라는 결합 표현을 만듭니다.",
+  "mnemonic": "손으로 먼지를 털어 내며 한곳을 꼼꼼히 살피는 장면을 떠올려 보세요.",
+  "examples": [
+    { "word": "払う", "reading": "はらう", "meaning": "털다, 지불하다" },
+    { "word": "支払う", "reading": "しはらう", "meaning": "지불하다" }
+  ]
+}

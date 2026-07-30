@@ -1,0 +1,77 @@
+---
+import { getCollection, type CollectionEntry } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { withBase } from '../../lib/paths';
+
+export async function getStaticPaths() {
+  const entries = await getCollection('kanji');
+  return entries.map((entry) => ({
+    params: { character: entry.data.character },
+    props: { entry },
+  }));
+}
+
+interface Props {
+  entry: CollectionEntry<'kanji'>;
+}
+
+const { entry } = Astro.props;
+const kanji = entry.data;
+---
+
+<BaseLayout title={`한자 ${kanji.character}`} description={`${kanji.character}의 기본 의미와 단어 속 의미`}>
+  <article class="detail-page shell">
+    <a class="breadcrumb" href={withBase('/songs/vintage/lessons/1/')}>첫 단원</a>
+    <header class="kanji-header">
+      <div class="kanji-glyph" lang="ja">{kanji.character}</div>
+      <div>
+        <p class="eyebrow">KANJI NOTE</p>
+        <h1>{kanji.basicMeaning}</h1>
+        <dl class="reading-list">
+          <div>
+            <dt>음독</dt>
+            <dd>{kanji.onyomi.length ? kanji.onyomi.join(' · ') : '—'}</dd>
+          </div>
+          <div>
+            <dt>훈독</dt>
+            <dd>{kanji.kunyomi.length ? kanji.kunyomi.join(' · ') : '—'}</dd>
+          </div>
+        </dl>
+      </div>
+    </header>
+
+    <div class="kanji-explanation-grid">
+      <section>
+        <span>01</span>
+        <h2>사전적 기본 의미</h2>
+        <p>{kanji.basicMeaning}</p>
+      </section>
+      <section>
+        <span>02</span>
+        <h2>이 단어에서의 의미</h2>
+        <p>{kanji.wordMeaning}</p>
+      </section>
+      <section class="mnemonic-card">
+        <span>03</span>
+        <h2>기억을 위한 연상법</h2>
+        <p>{kanji.mnemonic}</p>
+        <small>학습용 연상이며 실제 한자 어원 설명이 아닙니다.</small>
+      </section>
+    </div>
+
+    <section class="kanji-examples">
+      <p class="eyebrow">함께 기억할 단어</p>
+      <div>
+        {
+          kanji.examples.map((example) => (
+            <article>
+              <strong lang="ja">{example.word}</strong>
+              <span lang="ja">{example.reading}</span>
+              <p>{example.meaning}</p>
+            </article>
+          ))
+        }
+      </div>
+    </section>
+  </article>
+</BaseLayout>

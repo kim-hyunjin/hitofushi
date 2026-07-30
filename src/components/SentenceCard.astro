@@ -1,0 +1,71 @@
+---
+import type { LessonSentence } from '../lib/types';
+import SentenceProgress from './SentenceProgress';
+import { withBase } from '../lib/paths';
+
+interface GrammarLink {
+  id: string;
+  label: string;
+}
+
+interface Props {
+  sentence: LessonSentence;
+  number: number;
+  grammar: GrammarLink[];
+}
+
+const { sentence, number, grammar } = Astro.props;
+---
+
+<article class="sentence-card">
+  <header class="sentence-heading">
+    <span class="sentence-number">{String(number).padStart(2, '0')}</span>
+    <SentenceProgress sentenceId={sentence.id} client:visible />
+  </header>
+
+  <p class="sentence-original" lang="ja">
+    {
+      sentence.ruby.map((segment) =>
+        segment.reading ? (
+          <ruby tabindex="0">
+            {segment.text}<rt>{segment.reading}</rt>
+          </ruby>
+        ) : (
+          segment.text
+        ),
+      )
+    }
+  </p>
+  <div class="reading-layers">
+    <p class="layer-hiragana" lang="ja">
+      <span>ひらがな</span>{sentence.hiragana}
+    </p>
+    <p class="layer-pronunciation">
+      <span>발음 도움</span>{sentence.pronunciationKo}
+    </p>
+    <p class="layer-translation">
+      <span>뜻</span>{sentence.translationKo}
+    </p>
+  </div>
+
+  <footer class="sentence-links">
+    <div>
+      <span class="link-label">문법</span>
+      {
+        grammar.map((item) => (
+          <a href={withBase(`/grammar/${item.id}/`)}>{item.label}</a>
+        ))
+      }
+    </div>
+    <div>
+      <span class="link-label">한자</span>
+      {
+        sentence.kanjiIds.map((character) => (
+          <a class="kanji-chip" href={withBase(`/kanji/${character}/`)} lang="ja">
+            {character}
+          </a>
+        ))
+      }
+    </div>
+  </footer>
+</article>

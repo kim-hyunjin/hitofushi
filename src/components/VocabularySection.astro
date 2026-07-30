@@ -1,0 +1,32 @@
+---
+import type { VocabularyItem } from '../lib/types';
+import FavoriteButton from './FavoriteButton';
+
+interface Props {
+  items: VocabularyItem[];
+}
+
+const { items } = Astro.props;
+---
+
+<div class="vocabulary-list">
+  {
+    items.map((item) => (
+      <article class="vocabulary-item">
+        <div>
+          <p class="vocabulary-term">
+            <strong lang="ja">{item.term}</strong>
+            <span lang="ja">{item.reading}</span>
+          </p>
+          <p>{item.meaning}</p>
+          {item.note && <small>{item.note}</small>}
+        </div>
+        <FavoriteButton
+          vocabularyId={item.id}
+          label={item.term}
+          client:visible
+        />
+      </article>
+    ))
+  }
+</div>

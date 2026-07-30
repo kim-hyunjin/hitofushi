@@ -1,0 +1,12 @@
+{
+  "character": "楽",
+  "onyomi": ["ガク", "ラク"],
+  "kunyomi": ["たのしい", "たのしむ"],
+  "basicMeaning": "즐겁다, 편하다, 음악",
+  "wordMeaning": "楽（らく）로 읽어 힘들지 않고 ‘편함’을 나타냅니다.",
+  "mnemonic": "좋아하는 음악을 들으며 몸과 마음이 편해지는 장면을 떠올려 보세요.",
+  "examples": [
+    { "word": "楽", "reading": "らく", "meaning": "편함" },
+    { "word": "音楽", "reading": "おんがく", "meaning": "음악" }
+  ]
+}

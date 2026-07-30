@@ -1,0 +1,52 @@
+---
+import '../styles/global.css';
+import { withBase } from '../lib/paths';
+
+interface Props {
+  title: string;
+  description: string;
+}
+
+const { title, description } = Astro.props;
+const pageTitle = title === 'J-POP 일본어 교실' ? title : `${title} | J-POP 일본어 교실`;
+---
+
+<!doctype html>
+<html lang="ko" data-reading-mode="beginner" data-show-translations="true">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="description" content={description} />
+    <meta name="theme-color" content="#17324d" />
+    <title>{pageTitle}</title>
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">본문으로 건너뛰기</a>
+    <header class="site-header">
+      <div class="shell header-inner">
+        <a class="brand" href={withBase('/')}>
+          <span class="brand-mark" aria-hidden="true">あ</span>
+          <span>
+            <strong>J-POP 일본어</strong>
+            <small>한 소절씩, 내 속도로</small>
+          </span>
+        </a>
+        <nav aria-label="주요 메뉴">
+          <a href={withBase('/songs/vintage/')}>노래</a>
+          <a href={withBase('/songs/vintage/lessons/1/')}>첫 단원</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main-content">
+      <slot />
+    </main>
+
+    <footer class="site-footer">
+      <div class="shell footer-inner">
+        <p><strong>한국어식 발음은 잠깐 쓰는 보조 바퀴예요.</strong></p>
+        <p>익숙해지면 후리가나와 일본어 소리에 더 집중해 보세요.</p>
+      </div>
+    </footer>
+  </body>
+</html>
