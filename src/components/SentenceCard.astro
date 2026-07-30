@@ -69,3 +69,174 @@ const { sentence, number, grammar } = Astro.props;
     </div>
   </footer>
 </article>
+
+<style>
+  .sentence-card {
+    position: relative;
+    overflow: hidden;
+    padding: 1.35rem;
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    background: var(--surface);
+  }
+
+  .sentence-card::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0.28rem;
+    height: 100%;
+    background: var(--accent);
+    transform: scaleY(0);
+    transform-origin: bottom;
+    transition: transform 180ms ease;
+  }
+
+  .sentence-card:hover::before {
+    transform: scaleY(1);
+  }
+
+  .sentence-heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-bottom: 1.3rem;
+  }
+
+  .sentence-number {
+    color: var(--accent);
+    font-family: Georgia, serif;
+    font-size: 1rem;
+  }
+
+  .sentence-heading :global(.sentence-check) {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    padding: 0.35rem 0.55rem;
+    border: 1px solid var(--line);
+    border-radius: 99rem;
+    background: transparent;
+    color: var(--ink-soft);
+    font-size: 0.72rem;
+    font-weight: 750;
+    cursor: pointer;
+  }
+
+  .sentence-heading :global(.sentence-check.is-complete) {
+    border-color: var(--mint);
+    background: #e7f2ed;
+    color: #1d624a;
+  }
+
+  .sentence-original {
+    margin-bottom: 1.3rem;
+    font-family: "Noto Serif JP", "Yu Mincho", serif;
+    font-size: clamp(1.45rem, 6.5vw, 2rem);
+    letter-spacing: 0.025em;
+    line-height: 2;
+  }
+
+  .sentence-original rt {
+    color: var(--accent-dark);
+  }
+
+  .reading-layers {
+    display: grid;
+    gap: 0.7rem;
+  }
+
+  .reading-layers p {
+    display: grid;
+    grid-template-columns: 4.6rem 1fr;
+    gap: 0.7rem;
+    margin: 0;
+    color: var(--ink-soft);
+    font-size: 0.88rem;
+  }
+
+  .reading-layers p > span {
+    color: #8b8175;
+    font-size: 0.68rem;
+    font-weight: 800;
+  }
+
+  .layer-translation {
+    color: var(--ink) !important;
+    font-weight: 700;
+  }
+
+  .sentence-links {
+    display: grid;
+    gap: 0.8rem;
+    margin-top: 1.35rem;
+    padding-top: 1rem;
+    border-top: 1px dashed var(--line);
+  }
+
+  .sentence-links > div {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.38rem;
+  }
+
+  .sentence-links a {
+    padding: 0.28rem 0.5rem;
+    border-radius: 0.45rem;
+    background: #ece9e1;
+    font-size: 0.72rem;
+    font-weight: 700;
+  }
+
+  .sentence-links a:hover {
+    background: var(--accent-pale);
+    color: var(--accent-dark);
+  }
+
+  .sentence-links .kanji-chip {
+    min-width: 2rem;
+    text-align: center;
+    font-size: 0.9rem;
+  }
+
+  .link-label {
+    width: 2.8rem;
+    color: #8b8175;
+    font-size: 0.68rem;
+    font-weight: 800;
+  }
+
+  :global(html[data-reading-mode="elementary"]) .layer-hiragana,
+  :global(html[data-reading-mode="elementary"]) .layer-pronunciation,
+  :global(html[data-reading-mode="reading"]) .layer-hiragana,
+  :global(html[data-reading-mode="reading"]) .layer-pronunciation {
+    display: none;
+  }
+
+  :global(html[data-reading-mode="reading"]) .sentence-original rt {
+    visibility: hidden;
+  }
+
+  :global(html[data-reading-mode="reading"]) .sentence-original ruby:hover rt,
+  :global(html[data-reading-mode="reading"]) .sentence-original ruby:focus rt {
+    visibility: visible;
+  }
+
+  :global(html[data-show-translations="false"]) .layer-translation {
+    display: none;
+  }
+
+  @media (min-width: 42rem) {
+    .sentence-card {
+      padding: 1.8rem;
+    }
+
+    .sentence-links {
+      grid-template-columns: 1fr auto;
+      align-items: start;
+    }
+  }
+</style>

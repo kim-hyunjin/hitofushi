@@ -75,3 +75,139 @@ const kanji = entry.data;
     </section>
   </article>
 </BaseLayout>
+
+<style>
+  .kanji-header {
+    display: grid;
+    gap: 1.5rem;
+    padding-bottom: 2.5rem;
+    border-bottom: 1px solid var(--ink);
+  }
+
+  .kanji-header h1 {
+    margin-bottom: 0.6rem;
+    font-family: Georgia, "Noto Serif KR", serif;
+    font-size: clamp(2.3rem, 9vw, 4.5rem);
+    font-weight: 500;
+    letter-spacing: -0.06em;
+    line-height: 1.08;
+  }
+
+  .kanji-glyph {
+    display: grid;
+    width: 8rem;
+    aspect-ratio: 1;
+    place-items: center;
+    border-radius: 50%;
+    background: var(--ink);
+    color: var(--paper);
+    font-family: "Noto Serif JP", serif;
+    font-size: 5rem;
+  }
+
+  .reading-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem 2rem;
+    margin: 0;
+  }
+
+  .reading-list div {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 0.5rem;
+  }
+
+  .reading-list dt {
+    color: var(--ink-soft);
+    font-size: 0.75rem;
+    font-weight: 800;
+  }
+
+  .reading-list dd {
+    margin: 0;
+    font-size: 0.85rem;
+  }
+
+  .kanji-explanation-grid {
+    display: grid;
+    gap: 1rem;
+    padding: 2.5rem 0 4rem;
+  }
+
+  .kanji-explanation-grid section {
+    padding: 1.25rem;
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    background: var(--surface);
+  }
+
+  .kanji-explanation-grid section > span {
+    color: var(--accent);
+    font-family: Georgia, serif;
+  }
+
+  .kanji-explanation-grid h2 {
+    margin: 0.7rem 0 0.4rem;
+    font-size: 1.05rem;
+  }
+
+  .kanji-explanation-grid p {
+    margin-bottom: 0;
+    color: var(--ink-soft);
+  }
+
+  .kanji-explanation-grid .mnemonic-card {
+    background: var(--accent-pale);
+  }
+
+  .mnemonic-card small {
+    display: block;
+    margin-top: 0.9rem;
+    color: #7c2d20;
+  }
+
+  .kanji-examples > div {
+    display: grid;
+    gap: 0.7rem;
+  }
+
+  .kanji-examples article {
+    display: grid;
+    grid-template-columns: minmax(4rem, auto) 1fr;
+    gap: 0 0.8rem;
+    padding: 1rem 0;
+    border-top: 1px solid var(--line);
+  }
+
+  .kanji-examples strong {
+    grid-row: span 2;
+    font-family: "Noto Serif JP", serif;
+    font-size: 1.4rem;
+  }
+
+  .kanji-examples span {
+    color: var(--accent-dark);
+    font-size: 0.78rem;
+  }
+
+  .kanji-examples p {
+    margin: 0;
+  }
+
+  @media (min-width: 42rem) {
+    .kanji-header {
+      grid-template-columns: auto 1fr;
+      align-items: center;
+    }
+
+    .kanji-glyph {
+      width: 11rem;
+      font-size: 6.8rem;
+    }
+
+    .kanji-explanation-grid {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+</style>

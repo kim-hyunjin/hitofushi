@@ -30,3 +30,74 @@ const { items } = Astro.props;
     ))
   }
 </div>
+
+<style>
+  .vocabulary-list {
+    display: grid;
+    gap: 0.65rem;
+  }
+
+  .vocabulary-item {
+    display: flex;
+    min-width: 0;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 0.8rem;
+    padding: 1rem;
+    border-bottom: 1px solid var(--line);
+    background: rgb(255 253 248 / 60%);
+  }
+
+  .vocabulary-item p {
+    margin-bottom: 0.15rem;
+  }
+
+  .vocabulary-item small {
+    color: var(--ink-soft);
+  }
+
+  .vocabulary-term {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 0.7rem;
+  }
+
+  .vocabulary-term strong {
+    font-family: "Noto Serif JP", serif;
+    font-size: 1.15rem;
+  }
+
+  .vocabulary-term span {
+    color: var(--accent-dark);
+    font-size: 0.78rem;
+  }
+
+  .vocabulary-item :global(.favorite-button) {
+    flex: 0 0 auto;
+    width: 2.5rem;
+    aspect-ratio: 1;
+    border: 0;
+    border-radius: 50%;
+    background: #ece9e1;
+    color: #8b8175;
+    font-size: 1.25rem;
+    cursor: pointer;
+  }
+
+  .vocabulary-item :global(.favorite-button.is-favorite) {
+    background: #fff1bd;
+    color: #a47100;
+  }
+
+  @media (min-width: 42rem) {
+    .vocabulary-list {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    .vocabulary-item {
+      border: 1px solid var(--line);
+      border-radius: 0.9rem;
+    }
+  }
+</style>

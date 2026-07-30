@@ -1,6 +1,7 @@
 import { useState } from 'preact/hooks';
 import { updateProgress } from '../lib/progress';
 import type { QuizQuestion } from '../lib/types';
+import styles from './Quiz.module.css';
 
 interface Props {
   lessonId: string;
@@ -47,15 +48,15 @@ export default function Quiz({ lessonId, questions }: Props) {
 
   if (finished) {
     return (
-      <div class="quiz-result" aria-live="polite">
-        <span class="result-mark" aria-hidden="true">できた!</span>
+      <div class={styles.result} aria-live="polite">
+        <span class={styles.resultMark} aria-hidden="true">できた!</span>
         <h3>{questions.length}문제 중 {score}문제 정답</h3>
         <p>
           {score === questions.length
             ? '완벽해요. 이제 가사를 소리 내어 읽어 보세요.'
             : '틀린 표현을 문장 카드에서 한 번 더 확인해 보세요.'}
         </p>
-        <button type="button" class="primary-button" onClick={restart}>
+        <button type="button" class={styles.primaryButton} onClick={restart}>
           다시 풀기
         </button>
       </div>
@@ -63,19 +64,19 @@ export default function Quiz({ lessonId, questions }: Props) {
   }
 
   return (
-    <div class="quiz-card">
-      <div class="quiz-meta">
+    <div class={styles.card}>
+      <div class={styles.meta}>
         <span>문제 {index + 1} / {questions.length}</span>
         <span>현재 {score}점</span>
       </div>
       <div
-        class="quiz-progress"
+        class={styles.progress}
         aria-label={`퀴즈 진행률 ${index + 1}/${questions.length}`}
       >
         <span style={{ width: `${((index + 1) / questions.length) * 100}%` }} />
       </div>
       <h3>{question.prompt}</h3>
-      <div class="quiz-options">
+      <div class={styles.options}>
         {question.options.map((option, optionIndex) => {
           const isAnswer = optionIndex === question.answerIndex;
           const isSelected = optionIndex === selected;
@@ -83,14 +84,14 @@ export default function Quiz({ lessonId, questions }: Props) {
             selected === null
               ? ''
               : isAnswer
-                ? ' is-correct'
+                ? styles.correct
                 : isSelected
-                  ? ' is-wrong'
+                  ? styles.wrong
                   : '';
           return (
             <button
               type="button"
-              class={`quiz-option${stateClass}`}
+              class={`${styles.option} ${stateClass}`}
               disabled={selected !== null}
               onClick={() => choose(optionIndex)}
             >
@@ -101,12 +102,12 @@ export default function Quiz({ lessonId, questions }: Props) {
         })}
       </div>
       {selected !== null && (
-        <div class="quiz-feedback" aria-live="polite">
+        <div class={styles.feedback} aria-live="polite">
           <strong>
             {selected === question.answerIndex ? '정답이에요!' : '한 번 더 기억해 둘까요?'}
           </strong>
           <p>{question.explanation}</p>
-          <button type="button" class="primary-button" onClick={advance}>
+          <button type="button" class={styles.primaryButton} onClick={advance}>
             {index === questions.length - 1 ? '결과 보기' : '다음 문제'}
           </button>
         </div>

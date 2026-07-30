@@ -1,0 +1,94 @@
+.readingControls {
+  display: grid;
+  gap: 1rem;
+  margin-bottom: 3.7rem;
+  padding: 1.25rem;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--surface);
+  box-shadow: var(--shadow);
+}
+
+.readingControls h2 {
+  margin: 0;
+  font-size: 1.15rem;
+}
+
+.modeOptions {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 0.25rem;
+  border-radius: 0.8rem;
+  background: #ede9df;
+}
+
+.modeButton {
+  min-height: 2.55rem;
+  border: 0;
+  border-radius: 0.62rem;
+  background: transparent;
+  color: var(--ink-soft);
+  font-size: 0.85rem;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.modeButton.active {
+  background: var(--white);
+  color: var(--ink);
+  box-shadow: 0 2px 8px rgb(23 50 77 / 10%);
+}
+
+.translationToggle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.7rem;
+  color: var(--ink-soft);
+  font-size: 0.82rem;
+  font-weight: 750;
+  cursor: pointer;
+}
+
+.translationToggle input {
+  order: 2;
+  width: 2.8rem;
+  height: 1.55rem;
+  appearance: none;
+  border-radius: 99rem;
+  background: #c9c8c4;
+  cursor: pointer;
+  transition: background 160ms ease;
+}
+
+.translationToggle input::before {
+  content: "";
+  display: block;
+  width: 1.15rem;
+  aspect-ratio: 1;
+  margin: 0.2rem;
+  border-radius: 50%;
+  background: var(--white);
+  box-shadow: 0 1px 4px rgb(0 0 0 / 20%);
+  transition: transform 160ms ease;
+}
+
+.translationToggle input:checked {
+  background: var(--accent);
+}
+
+.translationToggle input:checked::before {
+  transform: translateX(1.25rem);
+}
+
+@media (min-width: 42rem) {
+  .readingControls {
+    grid-template-columns: 1fr auto auto;
+    align-items: center;
+    padding: 1.25rem 1.5rem;
+  }
+
+  .translationToggle {
+    min-width: 8rem;
+  }
+}

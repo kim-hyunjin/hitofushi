@@ -6,6 +6,7 @@ import {
   updateProgress,
 } from '../lib/progress';
 import type { ReadingMode } from '../lib/types';
+import styles from './ReadingControls.module.css';
 
 const modes: { id: ReadingMode; label: string; hint: string }[] = [
   { id: 'beginner', label: '입문', hint: '모든 읽기 도움 표시' },
@@ -50,16 +51,16 @@ export default function ReadingControls() {
   };
 
   return (
-    <section class="reading-controls" aria-labelledby="reading-mode-title">
+    <section class={styles.readingControls} aria-labelledby="reading-mode-title">
       <div>
         <p class="eyebrow">읽기 설정</p>
         <h2 id="reading-mode-title">지금의 나에게 맞춰 보기</h2>
       </div>
-      <div class="mode-options" role="group" aria-label="읽기 모드">
+      <div class={styles.modeOptions} role="group" aria-label="읽기 모드">
         {modes.map((item) => (
           <button
             type="button"
-            class={mode === item.id ? 'mode-button is-active' : 'mode-button'}
+            class={`${styles.modeButton} ${mode === item.id ? styles.active : ''}`}
             aria-pressed={mode === item.id}
             onClick={() => chooseMode(item.id)}
             title={item.hint}
@@ -68,7 +69,7 @@ export default function ReadingControls() {
           </button>
         ))}
       </div>
-      <label class="translation-toggle">
+      <label class={styles.translationToggle}>
         <input
           type="checkbox"
           checked={showTranslations}

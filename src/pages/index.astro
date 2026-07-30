@@ -78,3 +78,231 @@ import { withBase } from '../lib/paths';
     <a class="primary-link" href={withBase('/songs/vintage/')}>학습 내용 살펴보기</a>
   </section>
 </BaseLayout>
+
+<style>
+  .home-hero {
+    position: relative;
+    overflow: hidden;
+    padding: 4rem 0 4.5rem;
+  }
+
+  .home-hero::after {
+    content: "歌";
+    position: absolute;
+    z-index: -1;
+    right: -2rem;
+    bottom: -8rem;
+    color: rgb(23 50 77 / 3%);
+    font-family: Georgia, serif;
+    font-size: 22rem;
+    line-height: 1;
+  }
+
+  .hero-grid {
+    display: grid;
+    gap: 2.2rem;
+  }
+
+  .hero-copy h1 {
+    max-width: 12ch;
+    margin-bottom: 1.4rem;
+    font-family: Georgia, "Noto Serif KR", serif;
+    font-size: clamp(2.7rem, 10vw, 5.7rem);
+    font-weight: 500;
+    letter-spacing: -0.065em;
+    line-height: 1.08;
+  }
+
+  .hero-copy h1 em {
+    color: var(--accent);
+    font-style: normal;
+  }
+
+  .hero-description {
+    max-width: 36rem;
+    margin-bottom: 1.8rem;
+    color: var(--ink-soft);
+    font-size: 1rem;
+  }
+
+  .hero-actions {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 1.25rem;
+  }
+
+  .text-link {
+    padding: 0.5rem 0;
+    border-bottom: 1px solid currentColor;
+    font-size: 0.9rem;
+    font-weight: 750;
+  }
+
+  .hero-sample {
+    position: relative;
+    align-self: end;
+    padding: 2rem 1.5rem 1.6rem;
+    border: 1px solid rgb(23 50 77 / 12%);
+    border-radius: 50% 50% 1.5rem 1.5rem;
+    background: var(--ink);
+    color: var(--white);
+    box-shadow: var(--shadow);
+  }
+
+  .hero-sample::before {
+    content: "";
+    position: absolute;
+    top: 1.25rem;
+    right: 1.25rem;
+    width: 0.8rem;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    background: var(--accent);
+  }
+
+  .sample-label {
+    color: var(--mint);
+    font-size: 0.68rem;
+    font-weight: 800;
+    letter-spacing: 0.12em;
+  }
+
+  .hero-sample > p {
+    margin: 1.6rem 0;
+    font-family: "Noto Serif JP", "Yu Mincho", serif;
+    font-size: clamp(1.6rem, 7vw, 2.6rem);
+    letter-spacing: 0.04em;
+    line-height: 1.7;
+  }
+
+  .sample-divider {
+    width: 3.5rem;
+    height: 2px;
+    margin-bottom: 1rem;
+    background: var(--accent);
+  }
+
+  .hero-sample small {
+    color: #dce5e8;
+  }
+
+  .home-section,
+  .current-course {
+    margin-bottom: 5rem;
+  }
+
+  .mode-preview-grid {
+    display: grid;
+    overflow: hidden;
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    background: var(--surface);
+  }
+
+  .mode-preview-grid article {
+    padding: 1.6rem;
+    border-bottom: 1px solid var(--line);
+  }
+
+  .mode-preview-grid article:last-child {
+    border: 0;
+  }
+
+  .mode-preview-grid article > span {
+    color: var(--accent);
+    font-family: Georgia, serif;
+    font-size: 0.85rem;
+  }
+
+  .mode-preview-grid h3 {
+    margin: 0.7rem 0 0.45rem;
+    font-size: 1.1rem;
+  }
+
+  .mode-preview-grid p {
+    margin-bottom: 0;
+    color: var(--ink-soft);
+    font-size: 0.9rem;
+  }
+
+  .current-course {
+    display: grid;
+    gap: 1.5rem;
+    padding: 2rem;
+    border-radius: var(--radius);
+    background: var(--mint);
+  }
+
+  .current-course h2 {
+    margin-bottom: 0.4rem;
+    font-family: Georgia, serif;
+    font-size: 2.3rem;
+  }
+
+  .current-course p {
+    margin-bottom: 0;
+  }
+
+  .course-stats {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.7rem;
+  }
+
+  .course-stats span {
+    padding: 0.8rem;
+    border-radius: 0.75rem;
+    background: rgb(255 255 255 / 38%);
+    color: var(--ink-soft);
+    font-size: 0.8rem;
+  }
+
+  .course-stats strong {
+    display: block;
+    color: var(--ink);
+    font-family: Georgia, serif;
+    font-size: 1.5rem;
+  }
+
+  @media (min-width: 42rem) {
+    .hero-grid {
+      grid-template-columns: 1.2fr 0.8fr;
+      align-items: center;
+    }
+
+    .hero-sample {
+      padding: 2.7rem 2.2rem 2rem;
+    }
+
+    .mode-preview-grid {
+      grid-template-columns: repeat(3, 1fr);
+    }
+
+    .mode-preview-grid article {
+      min-height: 13rem;
+      border-right: 1px solid var(--line);
+      border-bottom: 0;
+    }
+
+    .current-course {
+      grid-template-columns: 1.2fr 1fr;
+      align-items: center;
+      padding: 2.5rem;
+    }
+
+    .current-course :global(.primary-link) {
+      justify-self: start;
+    }
+
+    .course-stats {
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
+
+  @media (min-width: 64rem) {
+    .home-hero {
+      padding: 6rem 0 7rem;
+    }
+  }
+</style>

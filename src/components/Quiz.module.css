@@ -1,0 +1,148 @@
+.primaryButton {
+  display: inline-flex;
+  min-height: 3rem;
+  align-items: center;
+  justify-content: center;
+  gap: 1.2rem;
+  padding: 0.72rem 1.1rem;
+  border: 0;
+  border-radius: 0.7rem;
+  background: var(--ink);
+  color: var(--white);
+  font-weight: 800;
+  cursor: pointer;
+  box-shadow: 0 8px 20px rgb(23 50 77 / 14%);
+  transition:
+    transform 160ms ease,
+    background 160ms ease;
+}
+
+.primaryButton:hover {
+  background: #244968;
+  transform: translateY(-2px);
+}
+
+.card,
+.result {
+  padding: 1.2rem;
+  border-radius: var(--radius);
+  background: var(--surface);
+}
+
+.meta {
+  display: flex;
+  justify-content: space-between;
+  color: var(--ink-soft);
+  font-size: 0.75rem;
+  font-weight: 750;
+}
+
+.progress {
+  height: 0.42rem;
+  overflow: hidden;
+  margin: 0.6rem 0 1.5rem;
+  border-radius: 99rem;
+  background: #dedbd3;
+}
+
+.progress span {
+  display: block;
+  height: 100%;
+  border-radius: inherit;
+  background: var(--accent);
+  transition: width 220ms ease;
+}
+
+.card h3 {
+  margin-bottom: 1.2rem;
+  font-size: 1.2rem;
+}
+
+.options {
+  display: grid;
+  gap: 0.55rem;
+}
+
+.option {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  min-height: 3rem;
+  padding: 0.6rem 0.8rem;
+  border: 1px solid var(--line);
+  border-radius: 0.75rem;
+  background: var(--white);
+  color: var(--ink);
+  text-align: left;
+  cursor: pointer;
+}
+
+.option:hover:not(:disabled) {
+  border-color: var(--ink);
+}
+
+.option span {
+  display: grid;
+  width: 1.7rem;
+  flex: 0 0 auto;
+  aspect-ratio: 1;
+  place-items: center;
+  border-radius: 50%;
+  background: #ece9e1;
+  font-size: 0.72rem;
+  font-weight: 800;
+}
+
+.option.correct {
+  border-color: #5c9c7f;
+  background: #e7f2ed;
+}
+
+.option.wrong {
+  border-color: #d76b59;
+  background: #fce8e3;
+}
+
+.feedback {
+  margin-top: 1rem;
+  padding: 1rem;
+  border-radius: 0.75rem;
+  background: #f2eee6;
+}
+
+.feedback p {
+  margin: 0.25rem 0 0.8rem;
+  color: var(--ink-soft);
+  font-size: 0.86rem;
+}
+
+.result {
+  text-align: center;
+}
+
+.resultMark {
+  color: var(--accent);
+  font-family: Georgia, serif;
+  font-size: 1.1rem;
+  font-style: italic;
+}
+
+.result h3 {
+  margin: 0.7rem 0 0.35rem;
+  font-size: 1.5rem;
+}
+
+.result p {
+  color: var(--ink-soft);
+}
+
+@media (min-width: 42rem) {
+  .card,
+  .result {
+    padding: 2rem;
+  }
+
+  .options {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

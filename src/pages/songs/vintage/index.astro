@@ -58,3 +58,131 @@ if (!lesson) {
     </article>
   </section>
 </BaseLayout>
+
+<style>
+  .song-hero {
+    overflow: hidden;
+    padding: 3.5rem 0;
+    background: var(--ink);
+    color: var(--white);
+  }
+
+  .song-hero :global(.breadcrumb) {
+    color: #b9c6d0;
+  }
+
+  .song-hero :global(.eyebrow) {
+    color: var(--yellow);
+  }
+
+  .song-hero-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+  }
+
+  .song-hero h1 {
+    margin-bottom: 0.6rem;
+    font-family: Georgia, serif;
+    font-size: clamp(3.6rem, 16vw, 7rem);
+    font-style: italic;
+    font-weight: 500;
+    letter-spacing: -0.06em;
+    line-height: 0.9;
+  }
+
+  .song-kicker {
+    margin-bottom: 0;
+    color: #c7d0d8;
+  }
+
+  .song-disc {
+    display: none;
+    width: 14rem;
+    aspect-ratio: 1;
+    place-items: center;
+    border-radius: 50%;
+    background:
+      radial-gradient(
+        circle,
+        var(--paper) 0 9%,
+        transparent 10% 18%,
+        rgb(255 255 255 / 16%) 19% 20%,
+        transparent 21%
+      ),
+      repeating-radial-gradient(circle, #203e59 0 4px, #19344d 5px 8px);
+    box-shadow: 0 2rem 5rem rgb(0 0 0 / 25%);
+  }
+
+  .song-disc span {
+    display: grid;
+    width: 2.6rem;
+    aspect-ratio: 1;
+    place-items: center;
+    border-radius: 50%;
+    background: var(--accent);
+  }
+
+  .song-overview {
+    padding: 4rem 0 5rem;
+  }
+
+  .lesson-list-card {
+    display: grid;
+    gap: 1.2rem;
+    padding: 1.5rem;
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    background: var(--surface);
+    box-shadow: var(--shadow);
+  }
+
+  .lesson-index {
+    color: var(--accent);
+    font-family: Georgia, serif;
+    font-size: 2rem;
+  }
+
+  .lesson-summary > span {
+    color: var(--ink-soft);
+    font-size: 0.8rem;
+    font-weight: 750;
+  }
+
+  .lesson-summary h3 {
+    margin: 0.3rem 0;
+    font-size: 1.4rem;
+  }
+
+  .lesson-summary p {
+    color: var(--ink-soft);
+  }
+
+  .lesson-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+  }
+
+  .lesson-tags span {
+    padding: 0.3rem 0.6rem;
+    border-radius: 99rem;
+    background: var(--accent-pale);
+    color: #7c2d20;
+    font-size: 0.75rem;
+    font-weight: 750;
+  }
+
+  @media (min-width: 42rem) {
+    .song-disc {
+      display: grid;
+    }
+
+    .lesson-list-card {
+      grid-template-columns: 4rem 1fr auto;
+      align-items: center;
+      padding: 2rem;
+    }
+  }
+</style>

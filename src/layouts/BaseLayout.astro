@@ -50,3 +50,118 @@ const pageTitle = title === 'J-POP 일본어 교실' ? title : `${title} | J-POP
     </footer>
   </body>
 </html>
+
+<style>
+  .skip-link {
+    position: fixed;
+    z-index: 100;
+    top: 0.5rem;
+    left: 0.5rem;
+    padding: 0.7rem 1rem;
+    border-radius: 0.5rem;
+    background: var(--ink);
+    color: var(--white);
+    transform: translateY(-150%);
+  }
+
+  .skip-link:focus {
+    transform: translateY(0);
+  }
+
+  .site-header {
+    position: relative;
+    z-index: 10;
+    border-bottom: 1px solid rgb(23 50 77 / 12%);
+    background: rgb(247 243 234 / 88%);
+    backdrop-filter: blur(1rem);
+  }
+
+  .header-inner {
+    min-height: 4.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+  }
+
+  .brand {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.7rem;
+    line-height: 1.15;
+  }
+
+  .brand-mark {
+    display: grid;
+    width: 2.4rem;
+    aspect-ratio: 1;
+    place-items: center;
+    border-radius: 50%;
+    background: var(--ink);
+    color: var(--paper);
+    font-family: Georgia, serif;
+    font-size: 1.2rem;
+  }
+
+  .brand strong,
+  .brand small {
+    display: block;
+  }
+
+  .brand strong {
+    font-size: 0.95rem;
+    letter-spacing: -0.03em;
+  }
+
+  .brand small {
+    margin-top: 0.2rem;
+    color: var(--ink-soft);
+    font-size: 0.68rem;
+  }
+
+  .site-header nav {
+    display: flex;
+    gap: 0.35rem;
+  }
+
+  .site-header nav a {
+    padding: 0.5rem 0.65rem;
+    border-radius: 99rem;
+    color: var(--ink-soft);
+    font-size: 0.8rem;
+    font-weight: 700;
+  }
+
+  .site-header nav a:hover {
+    background: var(--white);
+    color: var(--ink);
+  }
+
+  .site-footer {
+    padding: 2.2rem 0;
+    background: var(--ink);
+    color: var(--white);
+  }
+
+  .footer-inner {
+    display: grid;
+    gap: 0.2rem;
+  }
+
+  .footer-inner p {
+    margin: 0;
+    color: #bdc9d2;
+    font-size: 0.8rem;
+  }
+
+  .footer-inner strong {
+    color: var(--yellow);
+  }
+
+  @media (min-width: 42rem) {
+    .site-header nav a {
+      padding-inline: 0.9rem;
+      font-size: 0.85rem;
+    }
+  }
+</style>

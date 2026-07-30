@@ -170,3 +170,220 @@ const orderedKanji = [...new Set(lessonKanji)].map((character) => kanjiMap.get(c
     </div>
   </div>
 </BaseLayout>
+
+<style>
+  .lesson-hero {
+    padding: 2.5rem 0 3rem;
+    background: var(--ink);
+    color: var(--white);
+  }
+
+  .lesson-hero :global(.breadcrumb) {
+    color: #b9c6d0;
+  }
+
+  .lesson-hero :global(.eyebrow) {
+    color: var(--yellow);
+  }
+
+  .lesson-title-row {
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    gap: 1rem;
+  }
+
+  .lesson-title-row h1 {
+    margin-bottom: 0.35rem;
+    font-family: Georgia, "Noto Serif KR", serif;
+    font-size: clamp(2.2rem, 9vw, 4.3rem);
+    font-weight: 500;
+    letter-spacing: -0.055em;
+    line-height: 1.08;
+  }
+
+  .lesson-title-row p {
+    margin-bottom: 0;
+    color: #becbd4;
+  }
+
+  .lesson-time {
+    display: none;
+    text-align: center;
+  }
+
+  .lesson-time strong,
+  .lesson-time span {
+    display: block;
+  }
+
+  .lesson-time strong {
+    color: var(--yellow);
+    font-family: Georgia, serif;
+    font-size: 3.5rem;
+    line-height: 1;
+  }
+
+  .lesson-time span {
+    font-size: 0.75rem;
+  }
+
+  .lesson-layout {
+    padding: 1.5rem 0 5rem;
+  }
+
+  .lesson-main {
+    min-width: 0;
+  }
+
+  .lesson-section {
+    margin-bottom: 4.7rem;
+  }
+
+  .section-heading {
+    margin-bottom: 1.5rem;
+  }
+
+  .section-heading h2 {
+    margin-bottom: 0.7rem;
+    font-family: Georgia, "Noto Serif KR", serif;
+    font-size: clamp(1.7rem, 6vw, 2.7rem);
+    font-weight: 600;
+    letter-spacing: -0.04em;
+    line-height: 1.2;
+  }
+
+  .section-heading > p {
+    max-width: 28rem;
+    margin-bottom: 0;
+    color: var(--ink-soft);
+    font-size: 0.84rem;
+  }
+
+  .section-heading.compact {
+    margin-bottom: 1rem;
+  }
+
+  .section-heading.compact h2 {
+    font-size: 1.6rem;
+  }
+
+  .sentence-list {
+    display: grid;
+    gap: 1rem;
+  }
+
+  .split-study-section {
+    display: grid;
+    gap: 3.5rem;
+    margin-bottom: 4.7rem;
+  }
+
+  .kanji-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    overflow: hidden;
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    background: var(--surface);
+  }
+
+  .kanji-grid a {
+    display: grid;
+    min-height: 5.2rem;
+    place-content: center;
+    border-right: 1px solid var(--line);
+    border-bottom: 1px solid var(--line);
+    text-align: center;
+  }
+
+  .kanji-grid a:hover {
+    background: var(--accent-pale);
+  }
+
+  .kanji-grid strong {
+    font-family: "Noto Serif JP", serif;
+    font-size: 1.55rem;
+    font-weight: 500;
+  }
+
+  .kanji-grid span {
+    color: var(--ink-soft);
+    font-size: 0.65rem;
+  }
+
+  .mnemonic-notice {
+    margin-top: 0.8rem;
+    color: var(--ink-soft);
+    font-size: 0.72rem;
+  }
+
+  .quiz-section {
+    padding: 1.3rem;
+    border-radius: calc(var(--radius) + 0.25rem);
+    background: #efe9dd;
+  }
+
+  .grammar-link-grid {
+    display: grid;
+    border-top: 1px solid var(--ink);
+  }
+
+  .grammar-link-grid a {
+    display: grid;
+    grid-template-columns: 2.5rem 1fr auto;
+    align-items: center;
+    gap: 0.8rem;
+    min-height: 3.8rem;
+    border-bottom: 1px solid var(--line);
+  }
+
+  .grammar-link-grid a:hover strong {
+    color: var(--accent-dark);
+  }
+
+  .grammar-link-grid span {
+    color: var(--ink-soft);
+    font-size: 0.72rem;
+  }
+
+  .grammar-link-grid span:last-child {
+    color: var(--accent);
+    font-size: 1rem;
+  }
+
+  @media (min-width: 42rem) {
+    .lesson-time {
+      display: block;
+    }
+
+    .section-heading {
+      display: flex;
+      align-items: end;
+      justify-content: space-between;
+      gap: 1rem;
+    }
+
+    .split-study-section {
+      grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+      gap: 2rem;
+    }
+
+    .quiz-section {
+      padding: 2rem;
+    }
+  }
+
+  @media (min-width: 64rem) {
+    .lesson-layout {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) 17rem;
+      gap: 3rem;
+      padding-top: 2rem;
+    }
+
+    .lesson-sidebar {
+      order: 2;
+    }
+  }
+</style>

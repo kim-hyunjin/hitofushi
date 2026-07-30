@@ -49,3 +49,98 @@ const { Content } = await render(entry);
     </div>
   </article>
 </BaseLayout>
+
+<style>
+  .detail-header {
+    display: grid;
+    gap: 1.5rem;
+    padding-bottom: 2.5rem;
+    border-bottom: 1px solid var(--ink);
+  }
+
+  .detail-header h1 {
+    margin-bottom: 0.6rem;
+    font-family: Georgia, "Noto Serif KR", serif;
+    font-size: clamp(2.3rem, 9vw, 4.5rem);
+    font-weight: 500;
+    letter-spacing: -0.06em;
+    line-height: 1.08;
+  }
+
+  .detail-header p:last-child {
+    max-width: 38rem;
+    margin-bottom: 0;
+    color: var(--ink-soft);
+  }
+
+  .detail-header code {
+    align-self: end;
+    justify-self: start;
+    padding: 0.7rem 0.9rem;
+    border-radius: 0.6rem;
+    background: var(--ink);
+    color: var(--yellow);
+    font-family: "Noto Sans JP", monospace;
+    font-size: 0.9rem;
+  }
+
+  .detail-grid {
+    display: grid;
+    gap: 2rem;
+    padding-top: 2.5rem;
+  }
+
+  .prose {
+    font-size: 1rem;
+  }
+
+  .prose :global(p) {
+    max-width: 42rem;
+    margin-bottom: 1.2rem;
+  }
+
+  .prose :global(code) {
+    padding: 0.15rem 0.35rem;
+    border-radius: 0.35rem;
+    background: var(--accent-pale);
+    color: #7c2d20;
+  }
+
+  .example-panel {
+    padding: 1.2rem;
+    border-radius: var(--radius);
+    background: var(--mint);
+  }
+
+  .example-item {
+    padding: 0.9rem 0;
+    border-top: 1px solid rgb(23 50 77 / 16%);
+  }
+
+  .example-item p {
+    margin-bottom: 0.15rem;
+  }
+
+  .example-item p:first-child {
+    font-family: "Noto Serif JP", serif;
+    font-size: 1.12rem;
+    font-weight: 700;
+  }
+
+  .example-item p:last-child {
+    color: var(--ink-soft);
+    font-size: 0.82rem;
+  }
+
+  @media (min-width: 42rem) {
+    .detail-header {
+      grid-template-columns: 1fr auto;
+      align-items: end;
+    }
+
+    .detail-grid {
+      grid-template-columns: minmax(0, 1fr) minmax(16rem, 0.55fr);
+      gap: 4rem;
+    }
+  }
+</style>
