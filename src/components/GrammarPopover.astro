@@ -1,0 +1,247 @@
+---
+import { render, type CollectionEntry } from 'astro:content';
+
+interface Props {
+  entry: CollectionEntry<'grammar'>;
+  popoverId: string;
+  variant?: 'chip' | 'index';
+  sequence?: string;
+}
+
+const {
+  entry,
+  popoverId,
+  variant = 'chip',
+  sequence,
+} = Astro.props;
+const { Content } = await render(entry);
+const titleId = `${popoverId}-title`;
+---
+
+<button
+  type="button"
+  class:list={['trigger', variant]}
+  popovertarget={popoverId}
+  aria-haspopup="dialog"
+>
+  {
+    variant === 'index' ? (
+      <>
+        <span>{sequence}</span>
+        <strong>{entry.data.title}</strong>
+        <span aria-hidden="true">＋</span>
+      </>
+    ) : (
+      entry.data.title
+    )
+  }
+</button>
+
+<div
+  id={popoverId}
+  class="popover"
+  popover="auto"
+  role="dialog"
+  aria-labelledby={titleId}
+>
+  <header>
+    <div>
+      <p>GRAMMAR · {entry.data.level}</p>
+      <h2 id={titleId}>{entry.data.title}</h2>
+    </div>
+    <button
+      type="button"
+      class="close"
+      popovertarget={popoverId}
+      popovertargetaction="hide"
+      aria-label="문법 설명 닫기"
+    >
+      ×
+    </button>
+  </header>
+  <code>{entry.data.pattern}</code>
+  <p class="summary">{entry.data.summary}</p>
+  <div class="prose">
+    <Content />
+  </div>
+  <section class="examples" aria-label="문법 예문">
+    <p>예문</p>
+    {
+      entry.data.examples.map((example) => (
+        <article>
+          <strong lang="ja">{example.japanese}</strong>
+          <span>{example.korean}</span>
+        </article>
+      ))
+    }
+  </section>
+</div>
+
+<style>
+  .trigger {
+    border: 0;
+    color: var(--ink);
+    font: inherit;
+    cursor: pointer;
+  }
+
+  .trigger:hover {
+    color: var(--accent-dark);
+  }
+
+  .chip {
+    padding: 0.28rem 0.5rem;
+    border-radius: 0.45rem;
+    background: #ece9e1;
+    font-size: 0.72rem;
+    font-weight: 700;
+  }
+
+  .chip:hover {
+    background: var(--accent-pale);
+  }
+
+  .index {
+    display: grid;
+    grid-template-columns: 2.5rem 1fr auto;
+    width: 100%;
+    min-height: 3.8rem;
+    align-items: center;
+    gap: 0.8rem;
+    padding: 0;
+    border-bottom: 1px solid var(--line);
+    background: transparent;
+    text-align: left;
+  }
+
+  .index span {
+    color: var(--ink-soft);
+    font-size: 0.72rem;
+  }
+
+  .index span:last-child {
+    color: var(--accent);
+    font-size: 1rem;
+  }
+
+  .popover {
+    width: min(38rem, calc(100% - 1.5rem));
+    max-height: min(42rem, calc(100% - 1.5rem));
+    padding: 0;
+    overflow-y: auto;
+    border: 1px solid var(--line);
+    border-radius: calc(var(--radius) + 0.25rem);
+    background: var(--surface);
+    color: var(--ink);
+    box-shadow: 0 2rem 7rem rgb(23 50 77 / 28%);
+  }
+
+  .popover::backdrop {
+    background: rgb(23 50 77 / 48%);
+    backdrop-filter: blur(0.2rem);
+  }
+
+  .popover header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 1.3rem 1.3rem 1rem;
+    background: var(--ink);
+    color: var(--white);
+  }
+
+  .popover header p {
+    margin-bottom: 0.35rem;
+    color: var(--yellow);
+    font-size: 0.68rem;
+    font-weight: 850;
+    letter-spacing: 0.12em;
+  }
+
+  .popover h2 {
+    margin-bottom: 0;
+    font-family: Georgia, "Noto Serif KR", serif;
+    font-size: clamp(1.8rem, 7vw, 2.7rem);
+    font-weight: 500;
+    letter-spacing: -0.045em;
+    line-height: 1.12;
+  }
+
+  .close {
+    display: grid;
+    flex: 0 0 auto;
+    width: 2.2rem;
+    aspect-ratio: 1;
+    place-items: center;
+    border: 1px solid rgb(255 255 255 / 24%);
+    border-radius: 50%;
+    background: rgb(255 255 255 / 8%);
+    color: var(--white);
+    font-size: 1.4rem;
+    line-height: 1;
+    cursor: pointer;
+  }
+
+  .popover > code {
+    display: inline-block;
+    margin: 1.25rem 1.25rem 0;
+    padding: 0.55rem 0.7rem;
+    border-radius: 0.55rem;
+    background: var(--accent-pale);
+    color: #7c2d20;
+    font-family: "Noto Sans JP", monospace;
+    font-size: 0.8rem;
+  }
+
+  .summary {
+    margin: 1rem 1.25rem 0;
+    color: var(--ink-soft);
+    font-weight: 700;
+  }
+
+  .prose {
+    padding: 1rem 1.25rem 0;
+  }
+
+  .prose :global(p) {
+    margin-bottom: 1rem;
+  }
+
+  .prose :global(code) {
+    padding: 0.12rem 0.3rem;
+    border-radius: 0.3rem;
+    background: #f0ede5;
+    color: var(--accent-dark);
+  }
+
+  .examples {
+    margin-top: 0.4rem;
+    padding: 1.2rem 1.25rem 1.4rem;
+    background: var(--mint);
+  }
+
+  .examples > p {
+    margin-bottom: 0.4rem;
+    color: var(--ink-soft);
+    font-size: 0.68rem;
+    font-weight: 850;
+    letter-spacing: 0.12em;
+  }
+
+  .examples article {
+    display: grid;
+    gap: 0.1rem;
+    padding: 0.65rem 0;
+    border-top: 1px solid rgb(23 50 77 / 16%);
+  }
+
+  .examples strong {
+    font-family: "Noto Serif JP", serif;
+  }
+
+  .examples span {
+    color: var(--ink-soft);
+    font-size: 0.8rem;
+  }
+</style>

@@ -1,0 +1,326 @@
+---
+import type { CollectionEntry } from 'astro:content';
+
+interface Props {
+  entry: CollectionEntry<'kanji'>;
+  popoverId: string;
+  variant?: 'chip' | 'grid';
+}
+
+const {
+  entry,
+  popoverId,
+  variant = 'chip',
+} = Astro.props;
+const kanji = entry.data;
+const titleId = `${popoverId}-title`;
+---
+
+<button
+  type="button"
+  class:list={['trigger', variant]}
+  popovertarget={popoverId}
+  aria-haspopup="dialog"
+  lang="ja"
+>
+  <strong>{kanji.character}</strong>
+  {variant === 'grid' && <span>{kanji.basicMeaning.split(',')[0]}</span>}
+</button>
+
+<div
+  id={popoverId}
+  class="popover"
+  popover="auto"
+  role="dialog"
+  aria-labelledby={titleId}
+>
+  <header>
+    <div class="glyph" lang="ja">{kanji.character}</div>
+    <div class="title">
+      <p>KANJI NOTE</p>
+      <h2 id={titleId}>{kanji.basicMeaning}</h2>
+    </div>
+    <button
+      type="button"
+      class="close"
+      popovertarget={popoverId}
+      popovertargetaction="hide"
+      aria-label="한자 설명 닫기"
+    >
+      ×
+    </button>
+  </header>
+
+  <dl class="readings">
+    <div>
+      <dt>음독</dt>
+      <dd>{kanji.onyomi.length ? kanji.onyomi.join(' · ') : '—'}</dd>
+    </div>
+    <div>
+      <dt>훈독</dt>
+      <dd>{kanji.kunyomi.length ? kanji.kunyomi.join(' · ') : '—'}</dd>
+    </div>
+  </dl>
+
+  <div class="explanations">
+    <section>
+      <span>01</span>
+      <h3>기본 의미</h3>
+      <p>{kanji.basicMeaning}</p>
+    </section>
+    <section>
+      <span>02</span>
+      <h3>이 가사에서</h3>
+      <p>{kanji.wordMeaning}</p>
+    </section>
+    <section class="mnemonic">
+      <span>03</span>
+      <h3>기억 연상법</h3>
+      <p>{kanji.mnemonic}</p>
+      <small>학습용 연상이며 실제 한자 어원 설명이 아닙니다.</small>
+    </section>
+  </div>
+
+  <section class="examples" aria-label="한자 예시 단어">
+    <p>함께 기억할 단어</p>
+    <div>
+      {
+        kanji.examples.map((example) => (
+          <article>
+            <strong lang="ja">{example.word}</strong>
+            <span lang="ja">{example.reading}</span>
+            <p>{example.meaning}</p>
+          </article>
+        ))
+      }
+    </div>
+  </section>
+</div>
+
+<style>
+  .trigger {
+    border: 0;
+    color: var(--ink);
+    font: inherit;
+    cursor: pointer;
+  }
+
+  .chip {
+    min-width: 2rem;
+    padding: 0.28rem 0.5rem;
+    border-radius: 0.45rem;
+    background: #ece9e1;
+    font-size: 0.9rem;
+    text-align: center;
+  }
+
+  .chip:hover {
+    background: var(--accent-pale);
+    color: var(--accent-dark);
+  }
+
+  .chip strong {
+    font-weight: 700;
+  }
+
+  .grid {
+    display: grid;
+    width: 100%;
+    min-height: 5.2rem;
+    place-content: center;
+    border-right: 1px solid var(--line);
+    border-bottom: 1px solid var(--line);
+    background: var(--surface);
+    text-align: center;
+  }
+
+  .grid:hover {
+    background: var(--accent-pale);
+  }
+
+  .grid strong {
+    font-family: "Noto Serif JP", serif;
+    font-size: 1.55rem;
+    font-weight: 500;
+  }
+
+  .grid span {
+    color: var(--ink-soft);
+    font-size: 0.65rem;
+  }
+
+  .popover {
+    width: min(42rem, calc(100% - 1.5rem));
+    max-height: min(44rem, calc(100% - 1.5rem));
+    padding: 0;
+    overflow-y: auto;
+    border: 1px solid var(--line);
+    border-radius: calc(var(--radius) + 0.25rem);
+    background: var(--surface);
+    color: var(--ink);
+    box-shadow: 0 2rem 7rem rgb(23 50 77 / 28%);
+  }
+
+  .popover::backdrop {
+    background: rgb(23 50 77 / 48%);
+    backdrop-filter: blur(0.2rem);
+  }
+
+  .popover header {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    align-items: center;
+    gap: 1rem;
+    padding: 1.2rem;
+    background: var(--ink);
+    color: var(--white);
+  }
+
+  .glyph {
+    display: grid;
+    width: 4rem;
+    aspect-ratio: 1;
+    place-items: center;
+    border-radius: 50%;
+    background: var(--paper);
+    color: var(--ink);
+    font-family: "Noto Serif JP", serif;
+    font-size: 2.5rem;
+  }
+
+  .title p {
+    margin-bottom: 0.25rem;
+    color: var(--yellow);
+    font-size: 0.65rem;
+    font-weight: 850;
+    letter-spacing: 0.12em;
+  }
+
+  .title h2 {
+    margin-bottom: 0;
+    font-family: Georgia, "Noto Serif KR", serif;
+    font-size: clamp(1.4rem, 6vw, 2.4rem);
+    font-weight: 500;
+    letter-spacing: -0.04em;
+    line-height: 1.15;
+  }
+
+  .close {
+    display: grid;
+    width: 2.2rem;
+    aspect-ratio: 1;
+    place-items: center;
+    border: 1px solid rgb(255 255 255 / 24%);
+    border-radius: 50%;
+    background: rgb(255 255 255 / 8%);
+    color: var(--white);
+    font-size: 1.4rem;
+    line-height: 1;
+    cursor: pointer;
+  }
+
+  .readings {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.8rem 1.8rem;
+    margin: 0;
+    padding: 1rem 1.2rem;
+    border-bottom: 1px solid var(--line);
+  }
+
+  .readings div {
+    display: flex;
+    gap: 0.5rem;
+  }
+
+  .readings dt {
+    color: var(--ink-soft);
+    font-size: 0.7rem;
+    font-weight: 850;
+  }
+
+  .readings dd {
+    margin: 0;
+    font-size: 0.8rem;
+  }
+
+  .explanations {
+    display: grid;
+    gap: 0.7rem;
+    padding: 1.2rem;
+  }
+
+  .explanations section {
+    padding: 1rem;
+    border: 1px solid var(--line);
+    border-radius: 0.8rem;
+  }
+
+  .explanations section > span {
+    color: var(--accent);
+    font-family: Georgia, serif;
+  }
+
+  .explanations h3 {
+    margin: 0.45rem 0 0.2rem;
+    font-size: 0.95rem;
+  }
+
+  .explanations p {
+    margin-bottom: 0;
+    color: var(--ink-soft);
+    font-size: 0.84rem;
+  }
+
+  .explanations .mnemonic {
+    background: var(--accent-pale);
+  }
+
+  .mnemonic small {
+    display: block;
+    margin-top: 0.7rem;
+    color: #7c2d20;
+  }
+
+  .examples {
+    padding: 1.2rem;
+    background: var(--mint);
+  }
+
+  .examples > p {
+    margin-bottom: 0.5rem;
+    color: var(--ink-soft);
+    font-size: 0.68rem;
+    font-weight: 850;
+    letter-spacing: 0.12em;
+  }
+
+  .examples article {
+    display: grid;
+    grid-template-columns: minmax(4rem, auto) 1fr;
+    gap: 0 0.8rem;
+    padding: 0.7rem 0;
+    border-top: 1px solid rgb(23 50 77 / 16%);
+  }
+
+  .examples article strong {
+    grid-row: span 2;
+    font-family: "Noto Serif JP", serif;
+  }
+
+  .examples article span {
+    color: var(--accent-dark);
+    font-size: 0.72rem;
+  }
+
+  .examples article p {
+    margin-bottom: 0;
+    font-size: 0.82rem;
+  }
+
+  @media (min-width: 42rem) {
+    .explanations {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+  }
+</style>

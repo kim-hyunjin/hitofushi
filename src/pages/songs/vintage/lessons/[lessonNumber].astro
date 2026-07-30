@@ -7,6 +7,8 @@ import VocabularySection from '../../../../components/VocabularySection.astro';
 import Quiz from '../../../../components/Quiz';
 import Flashcards from '../../../../components/Flashcards';
 import ProgressPanel from '../../../../components/ProgressPanel';
+import GrammarPopover from '../../../../components/GrammarPopover.astro';
+import KanjiPopover from '../../../../components/KanjiPopover.astro';
 import { withBase } from '../../../../lib/paths';
 
 export async function getStaticPaths() {
@@ -31,7 +33,7 @@ const [grammarEntries, kanjiEntries] = await Promise.all([
 
 const lesson = lessonEntry.data;
 const grammarMap = new Map(
-  grammarEntries.map((entry) => [entry.id, entry.data.title]),
+  grammarEntries.map((entry) => [entry.id, entry]),
 );
 const lessonGrammarIds = [...new Set(lesson.sentences.flatMap((item) => item.grammarIds))];
 const missingGrammarIds = lessonGrammarIds.filter((id) => !grammarMap.has(id));
@@ -86,10 +88,8 @@ const orderedKanji = [...new Set(lessonKanji)].map((character) => kanjiMap.get(c
               <SentenceCard
                 sentence={sentence}
                 number={index + 1}
-                grammar={sentence.grammarIds.map((id) => ({
-                  id,
-                  label: grammarMap.get(id) ?? id,
-                }))}
+                grammar={sentence.grammarIds.map((id) => grammarMap.get(id)!)}
+                kanji={sentence.kanjiIds.map((character) => kanjiMap.get(character)!)}
               />
             ))
           }
@@ -126,16 +126,17 @@ const orderedKanji = [...new Set(lessonKanji)].map((character) => kanjiMap.get(c
           </div>
           <div class="kanji-grid">
             {
-              orderedKanji.map((entry) => (
-                <a href={withBase(`/kanji/${entry.data.character}/`)}>
-                  <strong lang="ja">{entry.data.character}</strong>
-                  <span>{entry.data.basicMeaning.split(',')[0]}</span>
-                </a>
+              orderedKanji.map((entry, index) => (
+                <KanjiPopover
+                  entry={entry}
+                  popoverId={`${lessonEntry.id}-kanji-index-${index}`}
+                  variant="grid"
+                />
               ))
             }
           </div>
           <p class="mnemonic-notice">
-            각 상세 페이지의 연상법은 학습용 기억 장치이며 실제 어원 설명이 아닙니다.
+            팝오버의 연상법은 학습용 기억 장치이며 실제 어원 설명이 아닙니다.
           </p>
         </div>
       </section>
@@ -161,11 +162,12 @@ const orderedKanji = [...new Set(lessonKanji)].map((character) => kanjiMap.get(c
         <div class="grammar-link-grid">
           {
             lessonGrammarIds.map((id, index) => (
-              <a href={withBase(`/grammar/${id}/`)}>
-                <span>{String(index + 1).padStart(2, '0')}</span>
-                <strong>{grammarMap.get(id) ?? id}</strong>
-                <span aria-hidden="true">→</span>
-              </a>
+              <GrammarPopover
+                entry={grammarMap.get(id)!}
+                popoverId={`${lessonEntry.id}-grammar-index-${index}`}
+                variant="index"
+                sequence={String(index + 1).padStart(2, '0')}
+              />
             ))
           }
         </div>
@@ -299,30 +301,6 @@ const orderedKanji = [...new Set(lessonKanji)].map((character) => kanjiMap.get(c
     background: var(--surface);
   }
 
-  .kanji-grid a {
-    display: grid;
-    min-height: 5.2rem;
-    place-content: center;
-    border-right: 1px solid var(--line);
-    border-bottom: 1px solid var(--line);
-    text-align: center;
-  }
-
-  .kanji-grid a:hover {
-    background: var(--accent-pale);
-  }
-
-  .kanji-grid strong {
-    font-family: "Noto Serif JP", serif;
-    font-size: 1.55rem;
-    font-weight: 500;
-  }
-
-  .kanji-grid span {
-    color: var(--ink-soft);
-    font-size: 0.65rem;
-  }
-
   .mnemonic-notice {
     margin-top: 0.8rem;
     color: var(--ink-soft);
@@ -338,29 +316,6 @@ const orderedKanji = [...new Set(lessonKanji)].map((character) => kanjiMap.get(c
   .grammar-link-grid {
     display: grid;
     border-top: 1px solid var(--ink);
-  }
-
-  .grammar-link-grid a {
-    display: grid;
-    grid-template-columns: 2.5rem 1fr auto;
-    align-items: center;
-    gap: 0.8rem;
-    min-height: 3.8rem;
-    border-bottom: 1px solid var(--line);
-  }
-
-  .grammar-link-grid a:hover strong {
-    color: var(--accent-dark);
-  }
-
-  .grammar-link-grid span {
-    color: var(--ink-soft);
-    font-size: 0.72rem;
-  }
-
-  .grammar-link-grid span:last-child {
-    color: var(--accent);
-    font-size: 1rem;
   }
 
   @media (min-width: 42rem) {

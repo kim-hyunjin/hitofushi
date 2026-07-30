@@ -1,20 +1,18 @@
 ---
 import type { LessonSentence } from '../lib/types';
+import type { CollectionEntry } from 'astro:content';
 import SentenceProgress from './SentenceProgress';
-import { withBase } from '../lib/paths';
-
-interface GrammarLink {
-  id: string;
-  label: string;
-}
+import GrammarPopover from './GrammarPopover.astro';
+import KanjiPopover from './KanjiPopover.astro';
 
 interface Props {
   sentence: LessonSentence;
   number: number;
-  grammar: GrammarLink[];
+  grammar: CollectionEntry<'grammar'>[];
+  kanji: CollectionEntry<'kanji'>[];
 }
 
-const { sentence, number, grammar } = Astro.props;
+const { sentence, number, grammar, kanji } = Astro.props;
 ---
 
 <article class="sentence-card">
@@ -52,18 +50,22 @@ const { sentence, number, grammar } = Astro.props;
     <div>
       <span class="link-label">문법</span>
       {
-        grammar.map((item) => (
-          <a href={withBase(`/grammar/${item.id}/`)}>{item.label}</a>
+        grammar.map((entry, index) => (
+          <GrammarPopover
+            entry={entry}
+            popoverId={`${sentence.id}-grammar-${index}`}
+          />
         ))
       }
     </div>
     <div>
       <span class="link-label">한자</span>
       {
-        sentence.kanjiIds.map((character) => (
-          <a class="kanji-chip" href={withBase(`/kanji/${character}/`)} lang="ja">
-            {character}
-          </a>
+        kanji.map((entry, index) => (
+          <KanjiPopover
+            entry={entry}
+            popoverId={`${sentence.id}-kanji-${index}`}
+          />
         ))
       }
     </div>
@@ -181,25 +183,6 @@ const { sentence, number, grammar } = Astro.props;
     flex-wrap: wrap;
     align-items: center;
     gap: 0.38rem;
-  }
-
-  .sentence-links a {
-    padding: 0.28rem 0.5rem;
-    border-radius: 0.45rem;
-    background: #ece9e1;
-    font-size: 0.72rem;
-    font-weight: 700;
-  }
-
-  .sentence-links a:hover {
-    background: var(--accent-pale);
-    color: var(--accent-dark);
-  }
-
-  .sentence-links .kanji-chip {
-    min-width: 2rem;
-    text-align: center;
-    font-size: 0.9rem;
   }
 
   .link-label {

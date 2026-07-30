@@ -1,0 +1,81 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import LearningDashboard, {
+  type LearningLessonSummary,
+} from '../components/LearningDashboard';
+import { withBase } from '../lib/paths';
+
+const lessons = (await getCollection('lessons'))
+  .sort((a, b) =>
+    a.data.songSlug.localeCompare(b.data.songSlug) ||
+    a.data.lessonNumber - b.data.lessonNumber
+  );
+
+const lessonSummaries: LearningLessonSummary[] = lessons.map((entry) => {
+  const href = withBase(
+    `/songs/${entry.data.songSlug}/lessons/${entry.data.lessonNumber}/`,
+  );
+
+  return {
+    id: entry.id,
+    lessonNumber: entry.data.lessonNumber,
+    title: entry.data.title,
+    href,
+    sentenceIds: entry.data.sentences.map((sentence) => sentence.id),
+    vocabulary: entry.data.vocabulary.map((item) => ({
+      id: item.id,
+      term: item.term,
+      reading: item.reading,
+      meaning: item.meaning,
+      lessonTitle: entry.data.title,
+      href,
+    })),
+  };
+});
+---
+
+<BaseLayout
+  title="내 학습"
+  description="이 브라우저에 저장된 일본어 문장 진도, 퀴즈 점수와 즐겨찾기 어휘"
+>
+  <section class="learning-hero">
+    <div class="shell">
+      <p class="eyebrow">MY LEARNING</p>
+      <h1>내 학습</h1>
+      <p>
+        익힌 문장과 퀴즈 점수, 다시 보고 싶은 어휘를 한곳에서 확인하세요.
+        기록은 현재 기기의 브라우저에만 저장됩니다.
+      </p>
+    </div>
+  </section>
+
+  <div class="shell learning-page">
+    <LearningDashboard lessons={lessonSummaries} client:load />
+  </div>
+</BaseLayout>
+
+<style>
+  .learning-hero {
+    padding: 3.5rem 0 4rem;
+  }
+
+  .learning-hero h1 {
+    margin-bottom: 0.8rem;
+    font-family: Georgia, "Noto Serif KR", serif;
+    font-size: clamp(3rem, 12vw, 6rem);
+    font-weight: 500;
+    letter-spacing: -0.06em;
+    line-height: 1;
+  }
+
+  .learning-hero p:last-child {
+    max-width: 38rem;
+    margin-bottom: 0;
+    color: var(--ink-soft);
+  }
+
+  .learning-page {
+    padding-bottom: 5rem;
+  }
+</style>
