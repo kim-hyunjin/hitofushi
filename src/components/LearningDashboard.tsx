@@ -6,6 +6,7 @@ import {
 } from '../lib/progress';
 import {
   deriveLearningSummary,
+  isLearningProgressReset,
   type LearningLessonSummary,
 } from '../lib/learningSummary';
 import { downloadProgress, parseProgress } from '../lib/progressTransfer';
@@ -64,7 +65,9 @@ export default function LearningDashboard({ lessons }: Props) {
       favoriteVocabulary: [],
     }));
     setResetMessage(
-      next.completedSentences.length ? '학습 현황을 초기화하지 못했습니다.' : '학습 현황을 초기화했습니다.',
+      isLearningProgressReset(next)
+        ? '학습 현황을 초기화했습니다.'
+        : '학습 현황을 초기화하지 못했습니다.',
     );
   };
 

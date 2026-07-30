@@ -32,6 +32,14 @@ export function percent(completed: number, total: number): number {
   return total > 0 ? Math.round((completed / total) * 100) : 0;
 }
 
+export function isLearningProgressReset(progress: ProgressState): boolean {
+  return (
+    progress.completedSentences.length === 0 &&
+    Object.keys(progress.quizScores).length === 0 &&
+    progress.favoriteVocabulary.length === 0
+  );
+}
+
 export function deriveLearningSummary(
   lessons: LearningLessonSummary[],
   progress: ProgressState,

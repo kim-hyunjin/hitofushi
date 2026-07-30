@@ -1,6 +1,11 @@
 import { describe, expect, it } from 'vitest';
 import { defaultProgress } from './progress';
-import { deriveLearningSummary, percent, type LearningLessonSummary } from './learningSummary';
+import {
+  deriveLearningSummary,
+  isLearningProgressReset,
+  percent,
+  type LearningLessonSummary,
+} from './learningSummary';
 
 const lessons: LearningLessonSummary[] = [
   {
@@ -26,6 +31,24 @@ const lessons: LearningLessonSummary[] = [
 describe('percent', () => {
   it('returns zero for an empty collection', () => {
     expect(percent(0, 0)).toBe(0);
+  });
+});
+
+describe('isLearningProgressReset', () => {
+  it('requires sentences, quiz scores, and favorites to all be empty', () => {
+    expect(isLearningProgressReset(defaultProgress)).toBe(true);
+    expect(
+      isLearningProgressReset({
+        ...defaultProgress,
+        quizScores: { lesson: 80 },
+      }),
+    ).toBe(false);
+    expect(
+      isLearningProgressReset({
+        ...defaultProgress,
+        favoriteVocabulary: ['word'],
+      }),
+    ).toBe(false);
   });
 });
 
