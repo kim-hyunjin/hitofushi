@@ -12,6 +12,12 @@ npm run dev
 
 정적 빌드는 `npm run build`로 확인합니다.
 
+## 학습 자료 추가
+
+새 가사 구간, 다음 단원 또는 새 곡을 추가하려면
+[새 곡과 가사 학습 자료 추가 가이드](docs/ADDING_SONGS_AND_LESSONS.md)를
+참고하세요.
+
 ## GitHub Pages 배포
 
 로컬에서 정적 사이트를 빌드하고 결과물을 `gh-pages` 브랜치에 배포합니다.
