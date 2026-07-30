@@ -3,6 +3,7 @@ import type { LessonSentence } from '../lib/types';
 import type { CollectionEntry } from 'astro:content';
 import SentenceProgress from './SentenceProgress';
 import GrammarPopover from './GrammarPopover.astro';
+import JapaneseSpeechButton from './JapaneseSpeechButton';
 import KanjiPopover from './KanjiPopover.astro';
 
 interface Props {
@@ -13,12 +14,22 @@ interface Props {
 }
 
 const { sentence, number, grammar, kanji } = Astro.props;
+const speechText = sentence.ruby
+  .map((segment) => segment.reading ?? segment.text)
+  .join('');
 ---
 
 <article class="sentence-card">
   <header class="sentence-heading">
     <span class="sentence-number">{String(number).padStart(2, '0')}</span>
-    <SentenceProgress sentenceId={sentence.id} client:visible />
+    <div class="sentence-actions">
+      <JapaneseSpeechButton
+        sentenceId={sentence.id}
+        text={speechText}
+        client:visible
+      />
+      <SentenceProgress sentenceId={sentence.id} client:visible />
+    </div>
   </header>
 
   <p class="sentence-original" lang="ja">
@@ -111,6 +122,13 @@ const { sentence, number, grammar, kanji } = Astro.props;
     color: var(--accent);
     font-family: Georgia, serif;
     font-size: 1rem;
+  }
+
+  .sentence-actions {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    gap: 0.45rem;
   }
 
   .sentence-heading :global(.sentence-check) {

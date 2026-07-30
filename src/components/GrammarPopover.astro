@@ -1,5 +1,6 @@
 ---
 import { render, type CollectionEntry } from 'astro:content';
+import JapaneseSpeechButton from './JapaneseSpeechButton';
 
 interface Props {
   entry: CollectionEntry<'grammar'>;
@@ -67,9 +68,18 @@ const titleId = `${popoverId}-title`;
   <section class="examples" aria-label="문법 예문">
     <p>예문</p>
     {
-      entry.data.examples.map((example) => (
+      entry.data.examples.map((example, index) => (
         <article>
-          <strong lang="ja">{example.japanese}</strong>
+          <div class="example-japanese">
+            <strong lang="ja">{example.japanese}</strong>
+            <JapaneseSpeechButton
+              sentenceId={`${popoverId}-example-${index}`}
+              text={example.japanese}
+              label={`${example.japanese} 발음`}
+              compact
+              client:visible
+            />
+          </div>
           <span>{example.korean}</span>
         </article>
       ))
@@ -238,6 +248,13 @@ const titleId = `${popoverId}-title`;
 
   .examples strong {
     font-family: "Noto Serif JP", serif;
+  }
+
+  .example-japanese {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.8rem;
   }
 
   .examples span {
