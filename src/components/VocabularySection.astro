@@ -1,6 +1,7 @@
 ---
 import type { VocabularyItem } from '../lib/types';
 import FavoriteButton from './FavoriteButton';
+import JapaneseSpeechButton from './JapaneseSpeechButton';
 
 interface Props {
   items: VocabularyItem[];
@@ -21,11 +22,20 @@ const { items } = Astro.props;
           <p>{item.meaning}</p>
           {item.note && <small>{item.note}</small>}
         </div>
-        <FavoriteButton
-          vocabularyId={item.id}
-          label={item.term}
-          client:visible
-        />
+        <div class="vocabulary-actions">
+          <JapaneseSpeechButton
+            sentenceId={`${item.id}-vocabulary`}
+            text={item.reading}
+            label={`${item.term} 발음`}
+            compact
+            client:visible
+          />
+          <FavoriteButton
+            vocabularyId={item.id}
+            label={item.term}
+            client:visible
+          />
+        </div>
       </article>
     ))
   }
@@ -71,6 +81,13 @@ const { items } = Astro.props;
   .vocabulary-term span {
     color: var(--accent-dark);
     font-size: 0.78rem;
+  }
+
+  .vocabulary-actions {
+    display: flex;
+    flex: 0 0 auto;
+    align-items: center;
+    gap: 0.4rem;
   }
 
   .vocabulary-item :global(.favorite-button) {

@@ -8,6 +8,7 @@ import {
   type ProgressState,
   updateProgress,
 } from '../lib/progress';
+import JapaneseSpeechButton from './JapaneseSpeechButton';
 import styles from './LearningDashboard.module.css';
 
 export interface LearningVocabularySummary {
@@ -246,14 +247,25 @@ export default function LearningDashboard({ lessons }: Props) {
         {favoriteVocabulary.length ? (
           <div class={styles.favoriteGrid}>
             {favoriteVocabulary.map((item) => (
-              <a href={item.href} class={styles.favoriteCard}>
-                <div>
-                  <strong lang="ja">{item.term}</strong>
-                  <span lang="ja">{item.reading}</span>
+              <article class={styles.favoriteCard}>
+                <div class={styles.favoriteTerm}>
+                  <a href={item.href}>
+                    <strong lang="ja">{item.term}</strong>
+                    <span lang="ja">{item.reading}</span>
+                  </a>
+                  <JapaneseSpeechButton
+                    sentenceId={`${item.id}-favorite`}
+                    text={item.reading}
+                    label={`${item.term} 발음`}
+                    compact
+                  />
                 </div>
                 <p>{item.meaning}</p>
-                <small>{item.lessonTitle}</small>
-              </a>
+                <a href={item.href} class={styles.favoriteLesson}>
+                  {item.lessonTitle}
+                  <span aria-hidden="true">→</span>
+                </a>
+              </article>
             ))}
           </div>
         ) : (

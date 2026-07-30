@@ -237,8 +237,17 @@
   background: var(--surface);
 }
 
-.favoriteCard > div {
+.favoriteTerm {
   display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.6rem;
+}
+
+.favoriteTerm > a {
+  display: flex;
+  min-width: 0;
+  flex-wrap: wrap;
   align-items: baseline;
   gap: 0.6rem;
 }
@@ -248,7 +257,7 @@
   font-size: 1.15rem;
 }
 
-.favoriteCard span {
+.favoriteTerm > a span {
   color: var(--accent-dark);
   font-size: 0.75rem;
 }
@@ -257,8 +266,17 @@
   margin-bottom: 0;
 }
 
-.favoriteCard small {
+.favoriteLesson {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   color: var(--ink-soft);
+  font-size: 0.72rem;
+  font-weight: 750;
+}
+
+.favoriteLesson span {
+  color: var(--accent);
 }
 
 .emptyState {
