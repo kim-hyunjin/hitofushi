@@ -1,0 +1,12 @@
+{
+  "character": "弱",
+  "onyomi": ["ジャク"],
+  "kunyomi": ["よわ"],
+  "basicMeaning": "약하다",
+  "wordMeaning": "打たれ弱い（うたれよわい）에서 비판이나 역경에 쉽게 상처받음을 뜻합니다.",
+  "mnemonic": "가느다란 활 두 개가 힘없이 휘는 모습을 떠올려 보세요.",
+  "examples": [
+    { "word": "弱い", "reading": "よわい", "meaning": "약하다" },
+    { "word": "弱点", "reading": "じゃくてん", "meaning": "약점" }
+  ]
+}

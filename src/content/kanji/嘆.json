@@ -1,0 +1,12 @@
+{
+  "character": "嘆",
+  "onyomi": ["タン"],
+  "kunyomi": ["なげ"],
+  "basicMeaning": "한탄하다",
+  "wordMeaning": "嘆く（なげく）에서 슬픔이나 답답함을 말로 드러냄을 뜻합니다.",
+  "mnemonic": "입으로 긴 한숨을 내쉬며 답답함을 털어놓는 모습을 떠올려 보세요.",
+  "examples": [
+    { "word": "嘆く", "reading": "なげく", "meaning": "한탄하다" },
+    { "word": "感嘆", "reading": "かんたん", "meaning": "감탄" }
+  ]
+}

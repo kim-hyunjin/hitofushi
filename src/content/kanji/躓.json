@@ -1,0 +1,12 @@
+{
+  "character": "躓",
+  "onyomi": ["チ"],
+  "kunyomi": ["つまず"],
+  "basicMeaning": "걸려 넘어지다",
+  "wordMeaning": "躓く（つまずく）에서 발이 걸리거나 일의 난관에 부딪힘을 뜻합니다.",
+  "mnemonic": "발이 앞의 장애물에 걸려 휘청하는 장면을 떠올려 보세요.",
+  "examples": [
+    { "word": "躓く", "reading": "つまずく", "meaning": "걸려 넘어지다" },
+    { "word": "最初に躓く", "reading": "さいしょにつまずく", "meaning": "처음부터 난관에 부딪히다" }
+  ]
+}

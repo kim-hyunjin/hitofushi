@@ -1,0 +1,124 @@
+{
+  "songSlug": "nichijo",
+  "lessonNumber": 5,
+  "title": "알면서도 내딛지 못할 때",
+  "subtitle": "양보와 가정의 벽 표현하기",
+  "description": "해결책을 알면서도 움직이지 못하는 마음을 읽으며 〜ても와 〜たって의 양보 표현을 익힙니다.",
+  "estimatedMinutes": 18,
+  "sentences": [
+    {
+      "id": "nichijo-5-1",
+      "original": "解決策はいくつかある事",
+      "ruby": [
+        { "text": "解決策", "reading": "かいけつさく" },
+        { "text": "はいくつかある" },
+        { "text": "事", "reading": "こと" }
+      ],
+      "hiragana": "かいけつさく は いくつか ある こと",
+      "pronunciationKo": "카이케츠사쿠와 이쿠츠카 아루 코토",
+      "translationKo": "해결책이 몇 가지 있다는 것",
+      "grammarIds": ["koto-nominalizer"],
+      "kanjiIds": []
+    },
+    {
+      "id": "nichijo-5-2",
+      "original": "分かってても踏み出せない",
+      "ruby": [
+        { "text": "分", "reading": "わ" },
+        { "text": "かってても" },
+        { "text": "踏", "reading": "ふ" },
+        { "text": "み" },
+        { "text": "出", "reading": "だ" },
+        { "text": "せない" }
+      ],
+      "hiragana": "わかってても ふみだせない",
+      "pronunciationKo": "와캇테테모 후미다세나이",
+      "translationKo": "알고 있어도 발을 내디딜 수 없어",
+      "grammarIds": ["temo", "potential-form"],
+      "kanjiIds": ["分"]
+    },
+    {
+      "id": "nichijo-5-3",
+      "original": "ホメオスタシスの7文字に容易く躓いてる心じゃもう",
+      "ruby": [
+        { "text": "ホメオスタシスの7" },
+        { "text": "文字", "reading": "もじ" },
+        { "text": "に" },
+        { "text": "容易", "reading": "たやす" },
+        { "text": "く" },
+        { "text": "躓", "reading": "つまず" },
+        { "text": "いてる" },
+        { "text": "心", "reading": "こころ" },
+        { "text": "じゃもう" }
+      ],
+      "hiragana": "ほめおすたしす の ななもじ に たやすく つまずいてる こころ じゃ もう",
+      "pronunciationKo": "호메오스타시스노 나나모지니 타야스쿠 츠마즈이테루 코코로쟈 모오",
+      "translationKo": "‘호메오스타시스’ 일곱 글자에 너무 쉽게 걸려 넘어지는 마음으로는 이제",
+      "grammarIds": ["teiru"],
+      "kanjiIds": ["躓", "心"]
+    },
+    {
+      "id": "nichijo-5-4",
+      "original": "しんどいなあぁなんて嘆いたって迷惑みたいだ",
+      "ruby": [
+        { "text": "しんどいなあぁなんて" },
+        { "text": "嘆", "reading": "なげ" },
+        { "text": "いたって" },
+        { "text": "迷惑", "reading": "めいわく" },
+        { "text": "みたいだ" }
+      ],
+      "hiragana": "しんどい なあぁ なんて なげいたって めいわく みたいだ",
+      "pronunciationKo": "신도이나아 난테 나게이탓테 메이와쿠미타이다",
+      "translationKo": "‘힘드네’라고 한탄해 봐도 민폐인 것 같아",
+      "grammarIds": ["nante", "tte-concessive", "mitai"],
+      "kanjiIds": ["嘆"]
+    }
+  ],
+  "vocabulary": [
+    { "id": "nichijo-5-kaiketsusaku", "term": "解決策", "reading": "かいけつさく", "meaning": "해결책" },
+    { "id": "nichijo-5-ikutsuka", "term": "いくつか", "reading": "いくつか", "meaning": "몇 가지" },
+    { "id": "nichijo-5-fumidasu", "term": "踏み出す", "reading": "ふみだす", "meaning": "발을 내딛다, 시작하다" },
+    { "id": "nichijo-5-homeosutashisu", "term": "ホメオスタシス", "reading": "ほめおすたしす", "meaning": "항상성", "note": "변화를 피하고 현재 상태를 유지하려는 몸과 마음의 성질을 가리킵니다." },
+    { "id": "nichijo-5-tayasui", "term": "容易い", "reading": "たやすい", "meaning": "쉽다, 수월하다" },
+    { "id": "nichijo-5-tsumazuku", "term": "躓く", "reading": "つまずく", "meaning": "걸려 넘어지다, 난관에 부딪히다" },
+    { "id": "nichijo-5-nageku", "term": "嘆く", "reading": "なげく", "meaning": "한탄하다" },
+    { "id": "nichijo-5-meiwaku", "term": "迷惑", "reading": "めいわく", "meaning": "민폐, 폐" }
+  ],
+  "quiz": [
+    {
+      "id": "nichijo-5-q1",
+      "prompt": "「いくつか」의 뜻은?",
+      "options": ["하나도", "몇 가지", "단 하나", "셀 수 없이"],
+      "answerIndex": 1,
+      "explanation": "정확한 수를 정하지 않고 둘 이상의 몇 가지를 가리킵니다."
+    },
+    {
+      "id": "nichijo-5-q2",
+      "prompt": "「分かってても」와 가장 가까운 뜻은?",
+      "options": ["알고 있어서", "알고 있어도", "알고 싶어서", "알지 못한 채"],
+      "answerIndex": 1,
+      "explanation": "〜てても는 〜ていても가 줄어든 말로 ‘~하고 있어도’라는 양보를 나타냅니다."
+    },
+    {
+      "id": "nichijo-5-q3",
+      "prompt": "가사의 「ホメオスタシス」가 상징하는 것은?",
+      "options": ["새로운 도전", "현재 상태를 유지하려는 힘", "타인의 기대", "완벽한 해결책"],
+      "answerIndex": 1,
+      "explanation": "변화를 원하면서도 익숙한 상태에서 벗어나지 못하게 하는 마음의 관성으로 쓰였습니다."
+    },
+    {
+      "id": "nichijo-5-q4",
+      "prompt": "「躓いてる」의 원래 긴 형태는?",
+      "options": ["躓いていた", "躓いている", "躓いてみる", "躓いてしまう"],
+      "answerIndex": 1,
+      "explanation": "회화에서는 〜ている의 い가 빠져 〜てる가 됩니다."
+    },
+    {
+      "id": "nichijo-5-q5",
+      "prompt": "「嘆いたって」의 의미는?",
+      "options": ["한탄한 다음에", "한탄해 봐도", "한탄하지 않으면", "한탄하려고"],
+      "answerIndex": 1,
+      "explanation": "과거형 뒤의 って는 여기서 〜ても와 비슷한 양보 의미를 냅니다."
+    }
+  ]
+}

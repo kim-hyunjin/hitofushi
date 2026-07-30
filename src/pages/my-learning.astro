@@ -5,6 +5,7 @@ import LearningDashboard, {
   type LearningLessonSummary,
 } from '../components/LearningDashboard';
 import { withBase } from '../lib/paths';
+import { getSong } from '../lib/songs';
 
 const lessons = (await getCollection('lessons'))
   .sort((a, b) =>
@@ -19,6 +20,7 @@ const lessonSummaries: LearningLessonSummary[] = lessons.map((entry) => {
 
   return {
     id: entry.id,
+    songTitle: getSong(entry.data.songSlug)?.title ?? entry.data.songSlug,
     lessonNumber: entry.data.lessonNumber,
     title: entry.data.title,
     href,

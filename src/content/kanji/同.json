@@ -1,0 +1,12 @@
+{
+  "character": "同",
+  "onyomi": ["ドウ"],
+  "kunyomi": ["おな"],
+  "basicMeaning": "같다",
+  "wordMeaning": "同じ（おなじ）로 읽어 서로 다르지 않고 같음을 나타냅니다.",
+  "mnemonic": "한 울타리 안에 같은 물건들이 모여 있는 모습을 떠올려 보세요.",
+  "examples": [
+    { "word": "同じ", "reading": "おなじ", "meaning": "같다" },
+    { "word": "同時", "reading": "どうじ", "meaning": "동시" }
+  ]
+}

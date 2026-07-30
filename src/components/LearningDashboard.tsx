@@ -18,6 +18,7 @@ export interface LearningVocabularySummary {
 
 export interface LearningLessonSummary {
   id: string;
+  songTitle: string;
   lessonNumber: number;
   title: string;
   href: string;
@@ -133,7 +134,9 @@ export default function LearningDashboard({ lessons }: Props) {
             return (
               <article class={styles.lessonCard}>
                 <div class={styles.lessonMeta}>
-                  <span>LESSON {String(lesson.lessonNumber).padStart(2, '0')}</span>
+                  <span>
+                    {lesson.songTitle} · LESSON {String(lesson.lessonNumber).padStart(2, '0')}
+                  </span>
                   <span>{percent}%</span>
                 </div>
                 <h3>{lesson.title}</h3>

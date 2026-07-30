@@ -1,0 +1,138 @@
+{
+  "songSlug": "nichijo",
+  "lessonNumber": 2,
+  "title": "포켓에서 빛난 안부",
+  "subtitle": "가능성과 짐작을 전하는 표현",
+  "description": "때맞춰 도착한 알림이 지친 마음을 알아채는 장면에서 〜得る와 〜みたいだ를 배웁니다.",
+  "estimatedMinutes": 19,
+  "sentences": [
+    {
+      "id": "nichijo-2-1",
+      "original": "そんな時震えたポケットから",
+      "ruby": [
+        { "text": "そんな" },
+        { "text": "時", "reading": "とき" },
+        { "text": "震", "reading": "ふる" },
+        { "text": "えたポケットから" }
+      ],
+      "hiragana": "そんな とき ふるえた ぽけっと から",
+      "pronunciationKo": "손나 토키 후루에타 포켓토카라",
+      "translationKo": "그런 때 진동한 주머니에서",
+      "grammarIds": ["kara"],
+      "kanjiIds": ["震"]
+    },
+    {
+      "id": "nichijo-2-2",
+      "original": "見慣れた文字が光る",
+      "ruby": [
+        { "text": "見慣", "reading": "みな" },
+        { "text": "れた" },
+        { "text": "文字", "reading": "もじ" },
+        { "text": "が" },
+        { "text": "光", "reading": "ひか" },
+        { "text": "る" }
+      ],
+      "hiragana": "みなれた もじ が ひかる",
+      "pronunciationKo": "미나레타 모지가 히카루",
+      "translationKo": "익숙한 글자가 빛나",
+      "grammarIds": [],
+      "kanjiIds": []
+    },
+    {
+      "id": "nichijo-2-3",
+      "original": "その通知ひとつで",
+      "ruby": [
+        { "text": "その" },
+        { "text": "通知", "reading": "つうち" },
+        { "text": "ひとつで" }
+      ],
+      "hiragana": "その つうち ひとつ で",
+      "pronunciationKo": "소노 츠우치 히토츠데",
+      "translationKo": "그 알림 하나로",
+      "grammarIds": [],
+      "kanjiIds": ["通"]
+    },
+    {
+      "id": "nichijo-2-4",
+      "original": "全てを救い得るあなたの間の良さに",
+      "ruby": [
+        { "text": "全", "reading": "すべ" },
+        { "text": "てを" },
+        { "text": "救", "reading": "すく" },
+        { "text": "い" },
+        { "text": "得", "reading": "う" },
+        { "text": "るあなたの" },
+        { "text": "間", "reading": "ま" },
+        { "text": "の" },
+        { "text": "良", "reading": "よ" },
+        { "text": "さに" }
+      ],
+      "hiragana": "すべて を すくいうる あなた の ま の よさ に",
+      "pronunciationKo": "스베테오 스쿠이우루 아나타노 마노 요사니",
+      "translationKo": "모든 것을 구할 수도 있는 당신의 절묘한 타이밍에",
+      "grammarIds": ["eru", "noun-no-noun"],
+      "kanjiIds": ["救"]
+    },
+    {
+      "id": "nichijo-2-5",
+      "original": "しんどいなぁなんて思ってんのバレてるみたいだ",
+      "ruby": [
+        { "text": "しんどいなぁなんて" },
+        { "text": "思", "reading": "おも" },
+        { "text": "ってんのバレてるみたいだ" }
+      ],
+      "hiragana": "しんどい なぁ なんて おもってんの ばれてる みたいだ",
+      "pronunciationKo": "신도이나아 난테 오못텐노 바레테루 미타이다",
+      "translationKo": "‘힘드네’라고 생각하는 게 들킨 것만 같아",
+      "grammarIds": ["nante", "teiru", "verb-nominalizer-no", "mitai"],
+      "kanjiIds": []
+    }
+  ],
+  "vocabulary": [
+    { "id": "nichijo-2-furueru", "term": "震える", "reading": "ふるえる", "meaning": "떨리다, 진동하다" },
+    { "id": "nichijo-2-minareru", "term": "見慣れる", "reading": "みなれる", "meaning": "늘 보아 익숙해지다" },
+    { "id": "nichijo-2-moji", "term": "文字", "reading": "もじ", "meaning": "문자, 글자" },
+    { "id": "nichijo-2-tsuuchi", "term": "通知", "reading": "つうち", "meaning": "통지, 알림" },
+    { "id": "nichijo-2-sukuu", "term": "救う", "reading": "すくう", "meaning": "구하다, 구원하다" },
+    { "id": "nichijo-2-ma-ga-ii", "term": "間が良い", "reading": "まがいい", "meaning": "타이밍이 좋다" },
+    { "id": "nichijo-2-shindoi", "term": "しんどい", "reading": "しんどい", "meaning": "힘들다, 고되다" },
+    { "id": "nichijo-2-bareru", "term": "バレる", "reading": "ばれる", "meaning": "들키다, 탄로 나다" }
+  ],
+  "quiz": [
+    {
+      "id": "nichijo-2-q1",
+      "prompt": "주머니가 「震えた」 이유로 가장 자연스러운 것은?",
+      "options": ["추워서", "알림이 와서", "달리고 있어서", "주머니가 비어서"],
+      "answerIndex": 1,
+      "explanation": "이어지는 見慣れた文字와 通知가 휴대전화 알림이 왔음을 보여 줍니다."
+    },
+    {
+      "id": "nichijo-2-q2",
+      "prompt": "「見慣れた文字」는 무엇을 가리킬까요?",
+      "options": ["처음 보는 뉴스", "익숙한 사람의 이름이나 메시지", "책의 제목", "길 안내판"],
+      "answerIndex": 1,
+      "explanation": "見慣れた는 여러 번 보아 익숙하다는 뜻입니다."
+    },
+    {
+      "id": "nichijo-2-q3",
+      "prompt": "「救い得る」의 의미는?",
+      "options": ["구하려고 한다", "구할 수 있다", "구하지 않는다", "구해 버렸다"],
+      "answerIndex": 1,
+      "explanation": "동사 어간 뒤의 得る는 그 일이 가능함을 다소 문어적으로 나타냅니다."
+    },
+    {
+      "id": "nichijo-2-q4",
+      "prompt": "「間の良さ」가 가리키는 것은?",
+      "options": ["말 사이의 침묵", "절묘한 타이밍", "넓은 공간", "오랜 관계"],
+      "answerIndex": 1,
+      "explanation": "間が良い는 행동이나 연락의 때가 알맞다는 뜻입니다."
+    },
+    {
+      "id": "nichijo-2-q5",
+      "prompt": "「バレてるみたいだ」의 뉘앙스는?",
+      "options": ["분명히 들켰다", "들킨 것 같다", "들키고 싶다", "들킬 리 없다"],
+      "answerIndex": 1,
+      "explanation": "〜みたいだ는 보이는 상황을 바탕으로 한 추측을 나타냅니다."
+    }
+  ]
+}

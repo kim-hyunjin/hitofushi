@@ -17,16 +17,15 @@ src/
 │   ├── GrammarPopover.astro      # 문법 설명 팝오버
 │   └── KanjiPopover.astro        # 한자 설명 팝오버
 └── pages/
-    └── songs/<곡-slug>/          # 곡 소개 화면
+    └── songs/[songSlug]/          # 곡 소개 화면
         └── lessons/
             └── [lessonNumber].astro # 단원 화면을 자동 생성
 ```
 
 문법과 한자는 별도 상세 페이지를 만들지 않습니다. 단원 JSON의 ID와 연결하면
-학습 화면에서 해당 콘텐츠가 팝오버로 표시됩니다. `Vintage`는 동적 단원
-경로를 사용하므로 단원 JSON을 추가하면 단원 페이지와 곡 소개의 단원 목록도
-자동 생성됩니다. 완전히 새로운 곡은 곡 소개 페이지와 그 곡을 담당할 동적
-단원 페이지를 한 번 만들어야 합니다.
+학습 화면에서 해당 콘텐츠가 팝오버로 표시됩니다. 곡 소개와 단원 화면은
+`songSlug`를 사용하는 공통 동적 경로이므로 단원 JSON과 곡 메타데이터를
+추가하면 페이지가 자동 생성됩니다.
 
 ## 어떤 작업을 하면 되나요?
 
@@ -44,8 +43,8 @@ src/
 
 ### 완전히 새로운 곡을 만들 때
 
-새 단원 작업에 더해 `src/pages/songs/<곡-slug>/index.astro`를 만들고,
-홈 화면이나 공통 내비게이션에서 새 곡으로 이동할 수 있는 링크를 추가합니다.
+새 단원 작업에 더해 `src/lib/songs.ts`에 곡 정보를 등록합니다. 노래 목록과
+공통 동적 페이지가 이 정보를 사용해 링크와 소개 화면을 자동 생성합니다.
 
 ## 1. 콘텐츠 범위와 ID 정하기
 
@@ -195,9 +194,8 @@ examples:
 
 ## 5. 단원 페이지 연결 확인하기
 
-`Vintage`의 `src/pages/songs/vintage/lessons/[lessonNumber].astro`는
-`songSlug`가 `vintage`인 모든 단원을 읽고 단원 번호별 페이지를 자동으로
-생성합니다.
+`src/pages/songs/[songSlug]/lessons/[lessonNumber].astro`는 모든 단원을 읽고
+곡 slug와 단원 번호에 맞는 페이지를 자동으로 생성합니다.
 
 예를 들어 `vintage-2.json`의 `lessonNumber`가 `2`이면 다음 URL이 생깁니다.
 
@@ -205,45 +203,15 @@ examples:
 /songs/vintage/lessons/2/
 ```
 
-같은 곡의 단원을 추가할 때는 별도의 Astro 파일을 복사하지 않습니다. 새
-곡을 만들 때만 이 동적 페이지를 새 곡 디렉터리로 복사하고 다음을 수정합니다.
-
-```sh
-mkdir -p src/pages/songs/night-dancer/lessons
-cp 'src/pages/songs/vintage/lessons/[lessonNumber].astro' \
-  'src/pages/songs/night-dancer/lessons/[lessonNumber].astro'
-```
-
-- `getStaticPaths()`에서 비교하는 `songSlug`
-- 상단 breadcrumb의 곡 이름과 `/songs/<곡-slug>/` 링크
-- 새 디렉터리 깊이가 다르다면 `import` 상대 경로
-
 퀴즈와 진행도 ID, 문장·한자 수는 선택된 단원 콘텐츠에서 자동으로 계산됩니다.
 페이지 안의 내부 링크에는 배포 하위 경로를 지원하도록 반드시
 `withBase(...)`를 사용합니다.
 
 ## 6. 새 곡 소개 페이지 만들기
 
-새 곡이라면 기존 `src/pages/songs/vintage/index.astro`를 복사합니다.
-
-```sh
-mkdir -p src/pages/songs/night-dancer
-cp src/pages/songs/vintage/index.astro \
-  src/pages/songs/night-dancer/index.astro
-```
-
-새 페이지에서 다음을 수정합니다.
-
-- 단원을 필터링하는 `songSlug`
-- 페이지 제목과 설명
-- `SONG 01` 같은 곡 순번
-- 곡 제목, 소개 문구, 학습 안내
-- 문법 태그
-- 각 단원의 제목, 요약, 링크
-
-복사한 곡 소개 화면은 `songSlug`가 일치하는 단원을 번호순으로 정렬해
-표시하도록 구성합니다. `vintage` 문자열을 새 곡 slug로 바꾸고 곡별 제목과
-소개 문구를 수정합니다.
+새 곡은 `src/lib/songs.ts`의 `songs` 배열에 slug, 순번, 제목, 아티스트,
+소개 문구를 추가합니다. `src/pages/songs/[songSlug]/index.astro`가
+`songSlug`가 일치하는 단원을 번호순으로 모아 소개와 단원 목록을 생성합니다.
 
 ## 7. 홈과 공통 내비게이션 갱신하기
 

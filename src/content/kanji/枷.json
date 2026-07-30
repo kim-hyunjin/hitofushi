@@ -1,0 +1,12 @@
+{
+  "character": "枷",
+  "onyomi": ["カ"],
+  "kunyomi": ["かせ"],
+  "basicMeaning": "형틀, 족쇄",
+  "wordMeaning": "足枷（あしかせ）에서 행동이나 마음을 옭아매는 족쇄를 뜻합니다.",
+  "mnemonic": "나무로 만든 무거운 형틀이 발을 붙잡는 장면을 떠올려 보세요.",
+  "examples": [
+    { "word": "足枷", "reading": "あしかせ", "meaning": "족쇄, 제약" },
+    { "word": "枷", "reading": "かせ", "meaning": "형틀, 속박" }
+  ]
+}

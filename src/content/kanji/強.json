@@ -1,0 +1,12 @@
+{
+  "character": "強",
+  "onyomi": ["キョウ", "ゴウ"],
+  "kunyomi": ["つよ", "し"],
+  "basicMeaning": "강하다",
+  "wordMeaning": "強がる（つよがる）와 強さ（つよさ）에서 강함과 강한 척함을 나타냅니다.",
+  "mnemonic": "팽팽한 활줄을 당겨도 버티는 강한 힘을 떠올려 보세요.",
+  "examples": [
+    { "word": "強い", "reading": "つよい", "meaning": "강하다" },
+    { "word": "強がる", "reading": "つよがる", "meaning": "강한 척하다" }
+  ]
+}

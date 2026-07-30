@@ -1,0 +1,188 @@
+{
+  "songSlug": "nichijo",
+  "lessonNumber": 6,
+  "title": "말하고 싶을수록 어려운 마음",
+  "subtitle": "인용과 속마음을 나타내기",
+  "description": "자기 마음을 헤아리고 호의를 받아들이기 어려워하는 일곱 문장에서 〜とか와 속마음 표현을 배웁니다.",
+  "estimatedMinutes": 23,
+  "sentences": [
+    {
+      "id": "nichijo-6-1",
+      "original": "何をどうしたいのか 自分の事を推し測る",
+      "ruby": [
+        { "text": "何", "reading": "なに" },
+        { "text": "をどうしたいのか " },
+        { "text": "自分", "reading": "じぶん" },
+        { "text": "の" },
+        { "text": "事", "reading": "こと" },
+        { "text": "を" },
+        { "text": "推", "reading": "お" },
+        { "text": "し" },
+        { "text": "測", "reading": "はか" },
+        { "text": "る" }
+      ],
+      "hiragana": "なに を どう したい のか じぶん の こと を おしはかる",
+      "pronunciationKo": "나니오 도오 시타이노카 지분노 코토오 오시하카루",
+      "translationKo": "무엇을 어떻게 하고 싶은지 내 마음을 헤아려 봐",
+      "grammarIds": ["verb-tai", "jibun-no-koto"],
+      "kanjiIds": ["自", "分", "推"]
+    },
+    {
+      "id": "nichijo-6-2",
+      "original": "辛いとか辞めたいとかそれも日によるみたいだ",
+      "ruby": [
+        { "text": "辛", "reading": "つら" },
+        { "text": "いとか" },
+        { "text": "辞", "reading": "や" },
+        { "text": "めたいとかそれも" },
+        { "text": "日", "reading": "ひ" },
+        { "text": "によるみたいだ" }
+      ],
+      "hiragana": "つらい とか やめたい とか それ も ひ に よる みたいだ",
+      "pronunciationKo": "츠라이토카 야메타이토카 소레모 히니 요루미타이다",
+      "translationKo": "괴롭다거나 그만두고 싶다거나, 그것도 날에 따라 다른 것 같아",
+      "grammarIds": ["toka", "verb-tai", "mitai"],
+      "kanjiIds": ["辞"]
+    },
+    {
+      "id": "nichijo-6-3",
+      "original": "何でも打ち明けてと 言われる度に言えなくなる",
+      "ruby": [
+        { "text": "何", "reading": "なん" },
+        { "text": "でも" },
+        { "text": "打", "reading": "う" },
+        { "text": "ち" },
+        { "text": "明", "reading": "あ" },
+        { "text": "けてと " },
+        { "text": "言", "reading": "い" },
+        { "text": "われる" },
+        { "text": "度", "reading": "たび" },
+        { "text": "に" },
+        { "text": "言", "reading": "い" },
+        { "text": "えなくなる" }
+      ],
+      "hiragana": "なんでも うちあけて と いわれる たび に いえなく なる",
+      "pronunciationKo": "난데모 우치아케테토 이와레루 타비니 이에나쿠나루",
+      "translationKo": "무엇이든 털어놓으라는 말을 들을 때마다 오히려 말할 수 없게 돼",
+      "grammarIds": ["passive", "tabi-ni", "potential-form"],
+      "kanjiIds": []
+    },
+    {
+      "id": "nichijo-6-4",
+      "original": "ご厚意に甘えるのも割とキツいみたいだ",
+      "ruby": [
+        { "text": "ご" },
+        { "text": "厚意", "reading": "こうい" },
+        { "text": "に" },
+        { "text": "甘", "reading": "あま" },
+        { "text": "えるのも" },
+        { "text": "割", "reading": "わり" },
+        { "text": "とキツいみたいだ" }
+      ],
+      "hiragana": "ごこうい に あまえる のも わりと きつい みたいだ",
+      "pronunciationKo": "고코오이니 아마에루노모 와리토 키츠이미타이다",
+      "translationKo": "당신의 호의에 기대는 것도 제법 힘든 것 같아",
+      "grammarIds": ["verb-nominalizer-no", "mitai"],
+      "kanjiIds": ["意", "甘"]
+    },
+    {
+      "id": "nichijo-6-5",
+      "original": "別に大した事ないよ 話すだけで十分だよ",
+      "ruby": [
+        { "text": "別", "reading": "べつ" },
+        { "text": "に" },
+        { "text": "大", "reading": "たい" },
+        { "text": "した" },
+        { "text": "事", "reading": "こと" },
+        { "text": "ないよ " },
+        { "text": "話", "reading": "はな" },
+        { "text": "すだけで" },
+        { "text": "十分", "reading": "じゅうぶん" },
+        { "text": "だよ" }
+      ],
+      "hiragana": "べつに たいした こと ない よ はなす だけ で じゅうぶん だ よ",
+      "pronunciationKo": "베츠니 타이시타 코토 나이요 하나스다케데 쥬우분다요",
+      "translationKo": "별로 대단한 일 아니야, 이야기하는 것만으로 충분해",
+      "grammarIds": [],
+      "kanjiIds": []
+    },
+    {
+      "id": "nichijo-6-6",
+      "original": "打たれ弱いくせして",
+      "ruby": [
+        { "text": "打", "reading": "う" },
+        { "text": "たれ" },
+        { "text": "弱", "reading": "よわ" },
+        { "text": "いくせして" }
+      ],
+      "hiragana": "うたれよわい くせして",
+      "pronunciationKo": "우타레요와이 쿠세시테",
+      "translationKo": "상처에 약한 주제에",
+      "grammarIds": ["passive", "kuse-ni"],
+      "kanjiIds": ["弱"]
+    },
+    {
+      "id": "nichijo-6-7",
+      "original": "あなたにまだ良い顔をしていたい",
+      "ruby": [
+        { "text": "あなたにまだ" },
+        { "text": "良", "reading": "い" },
+        { "text": "い" },
+        { "text": "顔", "reading": "かお" },
+        { "text": "をしていたい" }
+      ],
+      "hiragana": "あなた に まだ いい かお を していたい",
+      "pronunciationKo": "아나타니 마다 이이 카오오 시테이타이",
+      "translationKo": "당신에게는 아직 좋은 모습으로 보이고 싶어",
+      "grammarIds": ["teiru", "verb-tai"],
+      "kanjiIds": ["顔"]
+    }
+  ],
+  "vocabulary": [
+    { "id": "nichijo-6-oshihakaru", "term": "推し測る", "reading": "おしはかる", "meaning": "미루어 헤아리다" },
+    { "id": "nichijo-6-tsurai", "term": "辛い", "reading": "つらい", "meaning": "괴롭다, 힘들다" },
+    { "id": "nichijo-6-yameru", "term": "辞める", "reading": "やめる", "meaning": "그만두다" },
+    { "id": "nichijo-6-uchiakeru", "term": "打ち明ける", "reading": "うちあける", "meaning": "털어놓다, 고백하다" },
+    { "id": "nichijo-6-koui", "term": "厚意", "reading": "こうい", "meaning": "호의, 친절한 마음" },
+    { "id": "nichijo-6-amaeru", "term": "甘える", "reading": "あまえる", "meaning": "응석 부리다, 호의에 기대다" },
+    { "id": "nichijo-6-utareyowai", "term": "打たれ弱い", "reading": "うたれよわい", "meaning": "비판이나 역경에 약하다" },
+    { "id": "nichijo-6-ii-kao", "term": "良い顔をする", "reading": "いいかおをする", "meaning": "좋은 표정을 짓다, 좋은 모습으로 보이다" }
+  ],
+  "quiz": [
+    {
+      "id": "nichijo-6-q1",
+      "prompt": "「推し測る」의 뜻은?",
+      "options": ["정확히 계산하다", "정황으로 미루어 헤아리다", "남에게 떠넘기다", "기억에서 지우다"],
+      "answerIndex": 1,
+      "explanation": "보이지 않는 마음이나 사정을 여러 단서로 짐작한다는 뜻입니다."
+    },
+    {
+      "id": "nichijo-6-q2",
+      "prompt": "「辛いとか辞めたいとか」에서 とか의 역할은?",
+      "options": ["예를 들어 몇 가지를 든다", "하나만 강조한다", "이유를 설명한다", "시간을 나타낸다"],
+      "answerIndex": 0,
+      "explanation": "〜とか〜とか는 비슷한 예를 가볍게 나열합니다."
+    },
+    {
+      "id": "nichijo-6-q3",
+      "prompt": "「言われる度に」의 뜻은?",
+      "options": ["말하기 전에", "말을 들을 때마다", "말을 들었으므로", "말을 듣지 않고"],
+      "answerIndex": 1,
+      "explanation": "〜度に는 어떤 일이 반복될 때마다 같은 결과가 생김을 나타냅니다."
+    },
+    {
+      "id": "nichijo-6-q4",
+      "prompt": "「ご厚意に甘える」의 문맥상 의미는?",
+      "options": ["호의를 거절하다", "호의를 믿고 기대다", "친절을 의심하다", "마음을 숨기다"],
+      "answerIndex": 1,
+      "explanation": "甘える는 상대의 애정이나 친절을 믿고 의지한다는 뜻으로도 씁니다."
+    },
+    {
+      "id": "nichijo-6-q5",
+      "prompt": "「良い顔をしていたい」에 담긴 마음은?",
+      "options": ["상대에게 약한 모습을 보이기 싫다", "혼자 있고 싶다", "관계를 끝내고 싶다", "솔직하게 화내고 싶다"],
+      "answerIndex": 0,
+      "explanation": "힘들어도 소중한 사람 앞에서는 괜찮고 좋은 모습으로 남고 싶은 마음입니다."
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "character": "推",
+  "onyomi": ["スイ"],
+  "kunyomi": ["お"],
+  "basicMeaning": "밀다, 추측하다",
+  "wordMeaning": "推し測る（おしはかる）에서 사정이나 마음을 미루어 짐작함을 뜻합니다.",
+  "mnemonic": "손으로 단서를 앞으로 밀어 답에 가까이 가는 모습을 떠올려 보세요.",
+  "examples": [
+    { "word": "推し測る", "reading": "おしはかる", "meaning": "미루어 헤아리다" },
+    { "word": "推測", "reading": "すいそく", "meaning": "추측" }
+  ]
+}

@@ -2,32 +2,45 @@
 import BaseLayout from '../../../layouts/BaseLayout.astro';
 import { getCollection } from 'astro:content';
 import { withBase } from '../../../lib/paths';
+import { songs, type SongDefinition } from '../../../lib/songs';
 
+export function getStaticPaths() {
+  return songs.map((song) => ({
+    params: { songSlug: song.slug },
+    props: { song },
+  }));
+}
+
+interface Props {
+  song: SongDefinition;
+}
+
+const { song } = Astro.props;
 const lessons = await getCollection('lessons');
 const grammarEntries = await getCollection('grammar');
-const vintageLessons = lessons
-  .filter((entry) => entry.data.songSlug === 'vintage')
+const songLessons = lessons
+  .filter((entry) => entry.data.songSlug === song.slug)
   .sort((a, b) => a.data.lessonNumber - b.data.lessonNumber);
 const grammarMap = new Map(
   grammarEntries.map((entry) => [entry.id, entry.data.title]),
 );
 
-if (!vintageLessons.length) {
-  throw new Error('Vintage lesson content is missing');
+if (!songLessons.length) {
+  throw new Error(`${song.title} lesson content is missing`);
 }
 ---
 
 <BaseLayout
-  title="Vintage"
-  description="Vintage 가사로 배우는 J-POP 일본어 첫 번째 학습 과정"
+  title={song.title}
+  description={`${song.title} 가사로 배우는 J-POP 일본어 학습 과정`}
 >
   <section class="song-hero">
     <div class="shell song-hero-inner">
       <div>
         <a class="breadcrumb" href={withBase('/')}>홈</a>
-        <p class="eyebrow">SONG 01</p>
-        <h1>Vintage</h1>
-        <p class="song-kicker">조심스럽게 살아온 마음을 읽는 네 줄</p>
+        <p class="eyebrow">SONG {String(song.sequence).padStart(2, '0')}</p>
+        <h1>{song.title}</h1>
+        <p class="song-kicker">{song.artist} · {song.kicker}</p>
       </div>
       <div class="song-disc" aria-hidden="true">
         <span>あ</span>
@@ -38,16 +51,13 @@ if (!vintageLessons.length) {
   <section class="shell song-overview">
     <div class="section-intro">
       <p class="eyebrow">학습 안내</p>
-      <h2>일곱 단원으로 읽는 한 곡</h2>
-      <p>
-        상처를 피하던 마음이 함께 쌓은 시간을 사랑하게 되는 흐름을 따라
-        핵심 문법과 어휘, 한자를 차근차근 익힙니다.
-      </p>
+      <h2>{songLessons.length}개 단원으로 읽는 한 곡</h2>
+      <p>{song.description} 핵심 문법과 어휘, 한자를 차근차근 익힙니다.</p>
     </div>
 
     <div class="lesson-list">
       {
-        vintageLessons.map((lesson) => {
+        songLessons.map((lesson) => {
           const grammarIds = [
             ...new Set(lesson.data.sentences.flatMap((sentence) => sentence.grammarIds)),
           ].slice(0, 4);
@@ -69,7 +79,7 @@ if (!vintageLessons.length) {
               </div>
               <a
                 class="primary-link"
-                href={withBase(`/songs/vintage/lessons/${lesson.data.lessonNumber}/`)}
+                href={withBase(`/songs/${song.slug}/lessons/${lesson.data.lessonNumber}/`)}
               >
                 단원 시작 <span aria-hidden="true">→</span>
               </a>

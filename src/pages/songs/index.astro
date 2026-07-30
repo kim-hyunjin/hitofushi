@@ -2,23 +2,28 @@
 import { getCollection } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { withBase } from '../../lib/paths';
+import { songs } from '../../lib/songs';
 
-const vintageLessons = (await getCollection('lessons'))
-  .filter((entry) => entry.data.songSlug === 'vintage')
-  .sort((a, b) => a.data.lessonNumber - b.data.lessonNumber);
-
-const sentenceCount = vintageLessons.reduce(
-  (total, entry) => total + entry.data.sentences.length,
-  0,
-);
-const vocabularyCount = vintageLessons.reduce(
-  (total, entry) => total + entry.data.vocabulary.length,
-  0,
-);
-const estimatedMinutes = vintageLessons.reduce(
-  (total, entry) => total + entry.data.estimatedMinutes,
-  0,
-);
+const lessons = await getCollection('lessons');
+const songCards = songs.map((song) => {
+  const songLessons = lessons.filter((entry) => entry.data.songSlug === song.slug);
+  return {
+    ...song,
+    lessonCount: songLessons.length,
+    sentenceCount: songLessons.reduce(
+      (total, entry) => total + entry.data.sentences.length,
+      0,
+    ),
+    vocabularyCount: songLessons.reduce(
+      (total, entry) => total + entry.data.vocabulary.length,
+      0,
+    ),
+    estimatedMinutes: songLessons.reduce(
+      (total, entry) => total + entry.data.estimatedMinutes,
+      0,
+    ),
+  };
+});
 ---
 
 <BaseLayout
@@ -42,38 +47,43 @@ const estimatedMinutes = vintageLessons.reduce(
       <h2 id="song-list-title">지금 만날 수 있는 곡</h2>
     </div>
 
-    <article class="song-card">
-      <div class="song-number" aria-hidden="true">01</div>
-      <div class="song-copy">
-        <span>J-POP 일본어 · 전곡 과정</span>
-        <h3>Vintage</h3>
-        <p>
-          상처를 피하던 마음이 함께 쌓은 시간과 기억을 사랑하게 되는 흐름을
-          일곱 단원으로 읽습니다.
-        </p>
-        <dl>
-          <div>
-            <dt>단원</dt>
-            <dd>{vintageLessons.length}</dd>
-          </div>
-          <div>
-            <dt>문장</dt>
-            <dd>{sentenceCount}</dd>
-          </div>
-          <div>
-            <dt>어휘</dt>
-            <dd>{vocabularyCount}</dd>
-          </div>
-          <div>
-            <dt>학습 시간</dt>
-            <dd>약 {estimatedMinutes}분</dd>
-          </div>
-        </dl>
-      </div>
-      <a class="primary-link" href={withBase('/songs/vintage/')}>
-        학습 과정 보기 <span aria-hidden="true">→</span>
-      </a>
-    </article>
+    <div class="song-list">
+      {
+        songCards.map((song) => (
+          <article class="song-card">
+            <div class="song-number" aria-hidden="true">
+              {String(song.sequence).padStart(2, '0')}
+            </div>
+            <div class="song-copy">
+              <span>{song.artist} · 전곡 과정</span>
+              <h3>{song.title}</h3>
+              <p>{song.description}</p>
+              <dl>
+                <div>
+                  <dt>단원</dt>
+                  <dd>{song.lessonCount}</dd>
+                </div>
+                <div>
+                  <dt>문장</dt>
+                  <dd>{song.sentenceCount}</dd>
+                </div>
+                <div>
+                  <dt>어휘</dt>
+                  <dd>{song.vocabularyCount}</dd>
+                </div>
+                <div>
+                  <dt>학습 시간</dt>
+                  <dd>약 {song.estimatedMinutes}분</dd>
+                </div>
+              </dl>
+            </div>
+            <a class="primary-link" href={withBase(`/songs/${song.slug}/`)}>
+              학습 과정 보기 <span aria-hidden="true">→</span>
+            </a>
+          </article>
+        ))
+      }
+    </div>
   </section>
 </BaseLayout>
 
@@ -106,6 +116,11 @@ const estimatedMinutes = vintageLessons.reduce(
 
   .catalog-section {
     padding: 4rem 0 5rem;
+  }
+
+  .song-list {
+    display: grid;
+    gap: 1.25rem;
   }
 
   .song-card {

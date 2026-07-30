@@ -1,0 +1,12 @@
+{
+  "character": "救",
+  "onyomi": ["キュウ"],
+  "kunyomi": ["すく"],
+  "basicMeaning": "구하다",
+  "wordMeaning": "救う（すくう）에서 위험이나 괴로움에서 건져 냄을 뜻합니다.",
+  "mnemonic": "도움을 구하는 손을 붙잡아 일으켜 세우는 장면을 떠올려 보세요.",
+  "examples": [
+    { "word": "救う", "reading": "すくう", "meaning": "구하다" },
+    { "word": "救助", "reading": "きゅうじょ", "meaning": "구조" }
+  ]
+}

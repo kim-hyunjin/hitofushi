@@ -1,0 +1,12 @@
+{
+  "character": "凹",
+  "onyomi": ["オウ"],
+  "kunyomi": ["へこ"],
+  "basicMeaning": "오목하다",
+  "wordMeaning": "凹む（へこむ）에서 움푹 들어가거나 기분이 가라앉음을 뜻합니다.",
+  "mnemonic": "글자 한가운데가 실제로 움푹 들어간 모양을 그대로 기억해 보세요.",
+  "examples": [
+    { "word": "凹む", "reading": "へこむ", "meaning": "움푹 들어가다, 풀이 죽다" },
+    { "word": "凹凸", "reading": "おうとつ", "meaning": "요철, 울퉁불퉁함" }
+  ]
+}

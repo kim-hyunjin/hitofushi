@@ -1,0 +1,155 @@
+{
+  "songSlug": "nichijo",
+  "lessonNumber": 4,
+  "title": "마음에 번진 생채기",
+  "subtitle": "비교와 상태의 변화를 읽기",
+  "description": "가라앉은 마음을 피부 트러블에 빗댄 다섯 문장으로 비교, 부정 연결, 변화 표현을 배웁니다.",
+  "estimatedMinutes": 21,
+  "sentences": [
+    {
+      "id": "nichijo-4-1",
+      "original": "凹み過ぎたどん底の最果てよりはまだ良いのに",
+      "ruby": [
+        { "text": "凹", "reading": "へこ" },
+        { "text": "み" },
+        { "text": "過", "reading": "す" },
+        { "text": "ぎたどん" },
+        { "text": "底", "reading": "ぞこ" },
+        { "text": "の" },
+        { "text": "最果", "reading": "さいは" },
+        { "text": "てよりはまだ" },
+        { "text": "良", "reading": "い" },
+        { "text": "いのに" }
+      ],
+      "hiragana": "へこみすぎた どんぞこ の さいはて より は まだ いい のに",
+      "pronunciationKo": "헤코미스기타 돈조코노 사이하테요리와 마다 이이노니",
+      "translationKo": "너무 깊이 가라앉은 밑바닥의 끝보다는 아직 나은데",
+      "grammarIds": ["sugiru", "noni"],
+      "kanjiIds": ["凹"]
+    },
+    {
+      "id": "nichijo-4-2",
+      "original": "そう思えない 割り切れない 心に出来た肌荒れ",
+      "ruby": [
+        { "text": "そう" },
+        { "text": "思", "reading": "おも" },
+        { "text": "えない " },
+        { "text": "割", "reading": "わ" },
+        { "text": "り" },
+        { "text": "切", "reading": "き" },
+        { "text": "れない " },
+        { "text": "心", "reading": "こころ" },
+        { "text": "に" },
+        { "text": "出来", "reading": "でき" },
+        { "text": "た" },
+        { "text": "肌荒", "reading": "はだあ" },
+        { "text": "れ" }
+      ],
+      "hiragana": "そう おもえない わりきれない こころ に できた はだあれ",
+      "pronunciationKo": "소오 오모에나이 와리키레나이 코코로니 데키타 하다아레",
+      "translationKo": "그렇게 생각할 수도, 단념할 수도 없는 마음에 생긴 피부 트러블",
+      "grammarIds": ["potential-form"],
+      "kanjiIds": ["心", "肌"]
+    },
+    {
+      "id": "nichijo-4-3",
+      "original": "塗りたくった細やかな幸せ どれも効かなくて",
+      "ruby": [
+        { "text": "塗", "reading": "ぬ" },
+        { "text": "りたくった" },
+        { "text": "細", "reading": "ささ" },
+        { "text": "やかな" },
+        { "text": "幸", "reading": "しあわ" },
+        { "text": "せ どれも" },
+        { "text": "効", "reading": "き" },
+        { "text": "かなくて" }
+      ],
+      "hiragana": "ぬりたくった ささやかな しあわせ どれも きかなくて",
+      "pronunciationKo": "누리타쿳타 사사야카나 시아와세 도레모 키카나쿠테",
+      "translationKo": "덕지덕지 바른 소소한 행복은 어느 것도 듣지 않아서",
+      "grammarIds": ["te-form"],
+      "kanjiIds": ["細"]
+    },
+    {
+      "id": "nichijo-4-4",
+      "original": "潰せもせずに赤く大きく",
+      "ruby": [
+        { "text": "潰", "reading": "つぶ" },
+        { "text": "せもせずに" },
+        { "text": "赤", "reading": "あか" },
+        { "text": "く" },
+        { "text": "大", "reading": "おお" },
+        { "text": "きく" }
+      ],
+      "hiragana": "つぶせも せずに あかく おおきく",
+      "pronunciationKo": "츠부세모 세즈니 아카쿠 오오키쿠",
+      "translationKo": "터뜨리지도 못한 채 붉고 크게",
+      "grammarIds": ["potential-form", "zuni"],
+      "kanjiIds": []
+    },
+    {
+      "id": "nichijo-4-5",
+      "original": "時間と共に酷くなってく",
+      "ruby": [
+        { "text": "時間", "reading": "じかん" },
+        { "text": "と" },
+        { "text": "共", "reading": "とも" },
+        { "text": "に" },
+        { "text": "酷", "reading": "ひど" },
+        { "text": "くなってく" }
+      ],
+      "hiragana": "じかん と ともに ひどく なってく",
+      "pronunciationKo": "지칸토 토모니 히도쿠 낫테쿠",
+      "translationKo": "시간과 함께 점점 심해져 가",
+      "grammarIds": ["to-tomo-ni", "teiku-teku"],
+      "kanjiIds": ["酷"]
+    }
+  ],
+  "vocabulary": [
+    { "id": "nichijo-4-hekomu", "term": "凹む", "reading": "へこむ", "meaning": "움푹 들어가다, 풀이 죽다" },
+    { "id": "nichijo-4-donzoko", "term": "どん底", "reading": "どんぞこ", "meaning": "밑바닥, 최악의 상태" },
+    { "id": "nichijo-4-saihate", "term": "最果て", "reading": "さいはて", "meaning": "맨 끝, 가장 먼 곳" },
+    { "id": "nichijo-4-warikiru", "term": "割り切る", "reading": "わりきる", "meaning": "깔끔히 단념하다, 분명히 구분하다" },
+    { "id": "nichijo-4-hadaare", "term": "肌荒れ", "reading": "はだあれ", "meaning": "피부 트러블" },
+    { "id": "nichijo-4-nuritakuru", "term": "塗りたくる", "reading": "ぬりたくる", "meaning": "마구 칠하다, 덕지덕지 바르다" },
+    { "id": "nichijo-4-kiku", "term": "効く", "reading": "きく", "meaning": "효과가 있다, 듣다" },
+    { "id": "nichijo-4-hidoi", "term": "酷い", "reading": "ひどい", "meaning": "심하다, 지독하다" }
+  ],
+  "quiz": [
+    {
+      "id": "nichijo-4-q1",
+      "prompt": "감정 표현으로 쓰인 「凹む」의 뜻은?",
+      "options": ["기뻐하다", "풀이 죽다", "화를 터뜨리다", "침착해지다"],
+      "answerIndex": 1,
+      "explanation": "원래 움푹 들어간다는 말에서 기분이 가라앉는다는 뜻으로도 씁니다."
+    },
+    {
+      "id": "nichijo-4-q2",
+      "prompt": "「最果てよりはまだ良い」의 의미는?",
+      "options": ["최악의 끝보다도 못하다", "최악의 끝보다는 그나마 낫다", "가장 먼 곳이 좋다", "끝까지 가고 싶다"],
+      "answerIndex": 1,
+      "explanation": "よりは는 비교 기준을 제시해 ‘~보다는’이라는 뜻을 만듭니다."
+    },
+    {
+      "id": "nichijo-4-q3",
+      "prompt": "가사에서 「肌荒れ」는 무엇의 비유일까요?",
+      "options": ["즐거운 추억", "마음에 생긴 해결되지 않는 상처", "새로운 취미", "주말의 피로"],
+      "answerIndex": 1,
+      "explanation": "마음의 불편함이 점점 붉고 커지는 피부 트러블처럼 그려집니다."
+    },
+    {
+      "id": "nichijo-4-q4",
+      "prompt": "「せずに」의 뜻은?",
+      "options": ["하면서", "하지 않고", "하고 나서", "하려고"],
+      "answerIndex": 1,
+      "explanation": "〜ずに는 〜ないで와 비슷하게 어떤 행동을 하지 않은 채임을 나타냅니다."
+    },
+    {
+      "id": "nichijo-4-q5",
+      "prompt": "「酷くなってく」가 나타내는 변화는?",
+      "options": ["점점 나아진다", "점점 심해진다", "갑자기 멈춘다", "이미 끝났다"],
+      "answerIndex": 1,
+      "explanation": "〜てく는 변화가 앞으로 이어져 감을 회화적으로 나타냅니다."
+    }
+  ]
+}

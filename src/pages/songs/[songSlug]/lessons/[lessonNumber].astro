@@ -10,13 +10,16 @@ import ProgressPanel from '../../../../components/ProgressPanel';
 import GrammarPopover from '../../../../components/GrammarPopover.astro';
 import KanjiPopover from '../../../../components/KanjiPopover.astro';
 import { withBase } from '../../../../lib/paths';
+import { getSong } from '../../../../lib/songs';
 
 export async function getStaticPaths() {
   const lessons = await getCollection('lessons');
   return lessons
-    .filter((entry) => entry.data.songSlug === 'vintage')
     .map((lessonEntry) => ({
-      params: { lessonNumber: String(lessonEntry.data.lessonNumber) },
+      params: {
+        songSlug: lessonEntry.data.songSlug,
+        lessonNumber: String(lessonEntry.data.lessonNumber),
+      },
       props: { lessonEntry },
     }));
 }
@@ -32,6 +35,10 @@ const [grammarEntries, kanjiEntries] = await Promise.all([
 ]);
 
 const lesson = lessonEntry.data;
+const song = getSong(lesson.songSlug);
+if (!song) {
+  throw new Error(`Missing song metadata: ${lesson.songSlug}`);
+}
 const grammarMap = new Map(
   grammarEntries.map((entry) => [entry.id, entry]),
 );
@@ -55,7 +62,7 @@ const orderedKanji = [...new Set(lessonKanji)].map((character) => kanjiMap.get(c
 <BaseLayout title={lesson.title} description={lesson.description}>
   <section class="lesson-hero">
     <div class="shell">
-      <a class="breadcrumb" href={withBase('/songs/vintage/')}>Vintage</a>
+      <a class="breadcrumb" href={withBase(`/songs/${song.slug}/`)}>{song.title}</a>
       <div class="lesson-title-row">
         <div>
           <p class="eyebrow">LESSON {String(lesson.lessonNumber).padStart(2, '0')}</p>

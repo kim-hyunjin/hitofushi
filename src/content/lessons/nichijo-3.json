@@ -1,0 +1,133 @@
+{
+  "songSlug": "nichijo",
+  "lessonNumber": 3,
+  "title": "계속 평가되는 하루",
+  "subtitle": "선택지와 공통점을 나란히 놓기",
+  "description": "일상이 기준에 따라 재어지는 후렴을 읽으며 〜か〜か, 〜でも〜でも와 수동형을 익힙니다.",
+  "estimatedMinutes": 17,
+  "sentences": [
+    {
+      "id": "nichijo-3-1",
+      "original": "ノルマ以下か以上か 日常は今日も計られる",
+      "ruby": [
+        { "text": "ノルマ" },
+        { "text": "以下", "reading": "いか" },
+        { "text": "か" },
+        { "text": "以上", "reading": "いじょう" },
+        { "text": "か " },
+        { "text": "日常", "reading": "にちじょう" },
+        { "text": "は" },
+        { "text": "今日", "reading": "きょう" },
+        { "text": "も" },
+        { "text": "計", "reading": "はか" },
+        { "text": "られる" }
+      ],
+      "hiragana": "のるま いか か いじょう か にちじょう は きょう も はかられる",
+      "pronunciationKo": "노루마 이카카 이죠오카 니치죠오와 쿄오모 하카라레루",
+      "translationKo": "할당량 이하인가 이상인가, 일상은 오늘도 평가받아",
+      "grammarIds": ["ka-ka", "passive"],
+      "kanjiIds": ["常", "計"]
+    },
+    {
+      "id": "nichijo-3-2",
+      "original": "スーツでもスウェットでもそれは同じみたいだ",
+      "ruby": [
+        { "text": "スーツでもスウェットでもそれは" },
+        { "text": "同", "reading": "おな" },
+        { "text": "じみたいだ" }
+      ],
+      "hiragana": "すーつ でも すうぇっと でも それ は おなじ みたいだ",
+      "pronunciationKo": "스으츠데모 스웻토데모 소레와 오나지미타이다",
+      "translationKo": "정장을 입어도 운동복을 입어도 그건 똑같은 것 같아",
+      "grammarIds": ["demo", "mitai"],
+      "kanjiIds": ["同"]
+    },
+    {
+      "id": "nichijo-3-3",
+      "original": "変わりないか元気か あなたは今日も気にかける",
+      "ruby": [
+        { "text": "変", "reading": "か" },
+        { "text": "わりないか" },
+        { "text": "元気", "reading": "げんき" },
+        { "text": "か あなたは" },
+        { "text": "今日", "reading": "きょう" },
+        { "text": "も" },
+        { "text": "気", "reading": "き" },
+        { "text": "にかける" }
+      ],
+      "hiragana": "かわりない か げんき か あなた は きょう も き に かける",
+      "pronunciationKo": "카와리나이카 겐키카 아나타와 쿄오모 키니카케루",
+      "translationKo": "별일 없는지 건강한지, 당신은 오늘도 마음을 써 줘",
+      "grammarIds": ["ka-ka"],
+      "kanjiIds": ["気"]
+    },
+    {
+      "id": "nichijo-3-4",
+      "original": "良い日でも悪い日でもそれも同じみたいだ",
+      "ruby": [
+        { "text": "良", "reading": "い" },
+        { "text": "い" },
+        { "text": "日", "reading": "ひ" },
+        { "text": "でも" },
+        { "text": "悪", "reading": "わる" },
+        { "text": "い" },
+        { "text": "日", "reading": "ひ" },
+        { "text": "でもそれも" },
+        { "text": "同", "reading": "おな" },
+        { "text": "じみたいだ" }
+      ],
+      "hiragana": "いい ひ でも わるい ひ でも それ も おなじ みたいだ",
+      "pronunciationKo": "이이 히데모 와루이 히데모 소레모 오나지미타이다",
+      "translationKo": "좋은 날이어도 나쁜 날이어도 그것도 똑같은 것 같아",
+      "grammarIds": ["demo", "mitai"],
+      "kanjiIds": ["悪", "同"]
+    }
+  ],
+  "vocabulary": [
+    { "id": "nichijo-3-noruma", "term": "ノルマ", "reading": "のるま", "meaning": "할당량, 달성 기준" },
+    { "id": "nichijo-3-ika", "term": "以下", "reading": "いか", "meaning": "이하" },
+    { "id": "nichijo-3-ijou", "term": "以上", "reading": "いじょう", "meaning": "이상" },
+    { "id": "nichijo-3-nichijou", "term": "日常", "reading": "にちじょう", "meaning": "일상" },
+    { "id": "nichijo-3-hakaru", "term": "計る", "reading": "はかる", "meaning": "재다, 가늠하다" },
+    { "id": "nichijo-3-suuetto", "term": "スウェット", "reading": "すうぇっと", "meaning": "스웨트셔츠·운동복" },
+    { "id": "nichijo-3-kawarinai", "term": "変わりない", "reading": "かわりない", "meaning": "변함없다, 별일 없다" },
+    { "id": "nichijo-3-ki-ni-kakeru", "term": "気にかける", "reading": "きにかける", "meaning": "마음에 두다, 걱정하다" }
+  ],
+  "quiz": [
+    {
+      "id": "nichijo-3-q1",
+      "prompt": "「以下か以上か」가 나열하는 것은?",
+      "options": ["원인과 결과", "기준보다 낮은지 높은지", "과거와 미래", "찬성과 반대"],
+      "answerIndex": 1,
+      "explanation": "〜か〜か는 두 가능성이나 선택지를 나란히 제시합니다."
+    },
+    {
+      "id": "nichijo-3-q2",
+      "prompt": "「計られる」는 어떤 형태일까요?",
+      "options": ["사역형", "수동형", "명령형", "희망형"],
+      "answerIndex": 1,
+      "explanation": "計る가 計られる로 바뀌어 타인의 기준에 의해 재어지는 수동 의미가 됩니다."
+    },
+    {
+      "id": "nichijo-3-q3",
+      "prompt": "「スーツでもスウェットでも」의 뜻은?",
+      "options": ["정장이라서 운동복도", "정장이든 운동복이든", "정장보다 운동복이", "정장과 운동복 사이"],
+      "answerIndex": 1,
+      "explanation": "명사 뒤의 でも를 반복하면 어느 경우든 결과가 같다는 뜻을 만듭니다."
+    },
+    {
+      "id": "nichijo-3-q4",
+      "prompt": "「気にかける」와 가장 가까운 뜻은?",
+      "options": ["기억에서 지우다", "관심을 두고 걱정하다", "화를 내다", "결정을 미루다"],
+      "answerIndex": 1,
+      "explanation": "상대의 상태를 계속 마음에 두고 살피는 표현입니다."
+    },
+    {
+      "id": "nichijo-3-q5",
+      "prompt": "후렴에서 반복되는 「みたいだ」의 역할은?",
+      "options": ["명령", "추측과 관찰", "과거 회상", "강한 확신"],
+      "answerIndex": 1,
+      "explanation": "화자가 일상의 모습을 관찰하고 그렇게 보인다고 부드럽게 판단합니다."
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "character": "癒",
+  "onyomi": ["ユ"],
+  "kunyomi": ["いや"],
+  "basicMeaning": "치유하다",
+  "wordMeaning": "癒される（いやされる）에서 지친 마음이 위로받고 회복됨을 뜻합니다.",
+  "mnemonic": "아픈 마음 위에 따뜻한 손을 얹어 천천히 낫게 하는 모습을 떠올려 보세요.",
+  "examples": [
+    { "word": "癒す", "reading": "いやす", "meaning": "치유하다" },
+    { "word": "癒される", "reading": "いやされる", "meaning": "위로받다" }
+  ]
+}

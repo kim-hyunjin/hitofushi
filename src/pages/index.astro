@@ -3,13 +3,24 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 import { getCollection } from 'astro:content';
 import HomeLearningCta from '../components/HomeLearningCta';
 import { withBase } from '../lib/paths';
+import { songs } from '../lib/songs';
 
-const vintageLessons = (await getCollection('lessons'))
+const lessons = await getCollection('lessons');
+const songOrder = new Map(songs.map((song) => [song.slug, song.sequence]));
+const orderedLessons = lessons.sort(
+  (a, b) =>
+    (songOrder.get(a.data.songSlug) ?? 999) -
+      (songOrder.get(b.data.songSlug) ?? 999) ||
+    a.data.lessonNumber - b.data.lessonNumber,
+);
+const vintageLessons = orderedLessons
   .filter((entry) => entry.data.songSlug === 'vintage')
   .sort((a, b) => a.data.lessonNumber - b.data.lessonNumber);
-const homeLessonSummaries = vintageLessons.map((entry) => ({
+const homeLessonSummaries = orderedLessons.map((entry) => ({
   id: entry.id,
-  href: withBase(`/songs/vintage/lessons/${entry.data.lessonNumber}/`),
+  href: withBase(
+    `/songs/${entry.data.songSlug}/lessons/${entry.data.lessonNumber}/`,
+  ),
   sentenceIds: entry.data.sentences.map((sentence) => sentence.id),
   vocabularyIds: entry.data.vocabulary.map((item) => item.id),
 }));

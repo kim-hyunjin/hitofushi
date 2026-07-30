@@ -1,0 +1,12 @@
+{
+  "character": "顔",
+  "onyomi": ["ガン"],
+  "kunyomi": ["かお"],
+  "basicMeaning": "얼굴",
+  "wordMeaning": "良い顔（いいかお）에서 상대에게 보이는 표정이나 모습을 뜻합니다.",
+  "mnemonic": "마음의 상태가 그대로 드러나는 얼굴 표정을 떠올려 보세요.",
+  "examples": [
+    { "word": "顔", "reading": "かお", "meaning": "얼굴" },
+    { "word": "笑顔", "reading": "えがお", "meaning": "웃는 얼굴" }
+  ]
+}

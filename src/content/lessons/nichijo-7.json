@@ -1,0 +1,192 @@
+{
+  "songSlug": "nichijo",
+  "lessonNumber": 7,
+  "title": "흔들리는 마음으로 사는 힘",
+  "subtitle": "후렴 복습과 양면적인 감정",
+  "description": "되돌아온 후렴과 마지막 세 문장을 읽으며 평가받는 일상 속에서도 살아가는 힘을 정리합니다.",
+  "estimatedMinutes": 22,
+  "sentences": [
+    {
+      "id": "nichijo-7-1",
+      "original": "ノルマ以下か以上か日常は今日も計られる",
+      "ruby": [
+        { "text": "ノルマ" },
+        { "text": "以下", "reading": "いか" },
+        { "text": "か" },
+        { "text": "以上", "reading": "いじょう" },
+        { "text": "か" },
+        { "text": "日常", "reading": "にちじょう" },
+        { "text": "は" },
+        { "text": "今日", "reading": "きょう" },
+        { "text": "も" },
+        { "text": "計", "reading": "はか" },
+        { "text": "られる" }
+      ],
+      "hiragana": "のるま いか か いじょう か にちじょう は きょう も はかられる",
+      "pronunciationKo": "노루마 이카카 이죠오카 니치죠오와 쿄오모 하카라레루",
+      "translationKo": "할당량 이하인가 이상인가, 일상은 오늘도 평가받아",
+      "grammarIds": ["ka-ka", "passive"],
+      "kanjiIds": ["常", "計"]
+    },
+    {
+      "id": "nichijo-7-2",
+      "original": "スーツでもスウェットでもそれは同じみたいだ",
+      "ruby": [
+        { "text": "スーツでもスウェットでもそれは" },
+        { "text": "同", "reading": "おな" },
+        { "text": "じみたいだ" }
+      ],
+      "hiragana": "すーつ でも すうぇっと でも それ は おなじ みたいだ",
+      "pronunciationKo": "스으츠데모 스웻토데모 소레와 오나지미타이다",
+      "translationKo": "정장을 입어도 운동복을 입어도 그건 똑같은 것 같아",
+      "grammarIds": ["demo", "mitai"],
+      "kanjiIds": []
+    },
+    {
+      "id": "nichijo-7-3",
+      "original": "変わりないか元気か あなたは今日も気にかける",
+      "ruby": [
+        { "text": "変", "reading": "か" },
+        { "text": "わりないか" },
+        { "text": "元気", "reading": "げんき" },
+        { "text": "か あなたは" },
+        { "text": "今日", "reading": "きょう" },
+        { "text": "も" },
+        { "text": "気", "reading": "き" },
+        { "text": "にかける" }
+      ],
+      "hiragana": "かわりない か げんき か あなた は きょう も き に かける",
+      "pronunciationKo": "카와리나이카 겐키카 아나타와 쿄오모 키니카케루",
+      "translationKo": "별일 없는지 건강한지, 당신은 오늘도 마음을 써 줘",
+      "grammarIds": ["ka-ka"],
+      "kanjiIds": ["気"]
+    },
+    {
+      "id": "nichijo-7-4",
+      "original": "良い日でも悪い日でもそれも同じみたいだ",
+      "ruby": [
+        { "text": "良", "reading": "い" },
+        { "text": "い" },
+        { "text": "日", "reading": "ひ" },
+        { "text": "でも" },
+        { "text": "悪", "reading": "わる" },
+        { "text": "い" },
+        { "text": "日", "reading": "ひ" },
+        { "text": "でもそれも" },
+        { "text": "同", "reading": "おな" },
+        { "text": "じみたいだ" }
+      ],
+      "hiragana": "いい ひ でも わるい ひ でも それ も おなじ みたいだ",
+      "pronunciationKo": "이이 히데모 와루이 히데모 소레모 오나지미타이다",
+      "translationKo": "좋은 날이어도 나쁜 날이어도 그것도 똑같은 것 같아",
+      "grammarIds": ["demo", "mitai"],
+      "kanjiIds": ["同"]
+    },
+    {
+      "id": "nichijo-7-5",
+      "original": "変わらない人たちに悩まされては癒される",
+      "ruby": [
+        { "text": "変", "reading": "か" },
+        { "text": "わらない" },
+        { "text": "人", "reading": "ひと" },
+        { "text": "たちに" },
+        { "text": "悩", "reading": "なや" },
+        { "text": "まされては" },
+        { "text": "癒", "reading": "いや" },
+        { "text": "される" }
+      ],
+      "hiragana": "かわらない ひとたち に なやまされて は いやされる",
+      "pronunciationKo": "카와라나이 히토타치니 나야마사레테와 이야사레루",
+      "translationKo": "변함없는 사람들 때문에 괴로워하면서도 다시 위로받아",
+      "grammarIds": ["passive", "tewa-cha"],
+      "kanjiIds": ["悩", "癒"]
+    },
+    {
+      "id": "nichijo-7-6",
+      "original": "強がれるこの強さが割と大事みたいだ",
+      "ruby": [
+        { "text": "強", "reading": "つよ" },
+        { "text": "がれるこの" },
+        { "text": "強", "reading": "つよ" },
+        { "text": "さが" },
+        { "text": "割", "reading": "わり" },
+        { "text": "と" },
+        { "text": "大事", "reading": "だいじ" },
+        { "text": "みたいだ" }
+      ],
+      "hiragana": "つよがれる この つよさ が わりと だいじ みたいだ",
+      "pronunciationKo": "츠요가레루 코노 츠요사가 와리토 다이지미타이다",
+      "translationKo": "강한 척할 수 있는 이 힘이 제법 중요한 것 같아",
+      "grammarIds": ["potential-form", "mitai"],
+      "kanjiIds": ["強"]
+    },
+    {
+      "id": "nichijo-7-7",
+      "original": "不細工な心ひとつ日常を今日も生きる",
+      "ruby": [
+        { "text": "不細工", "reading": "ぶさいく" },
+        { "text": "な" },
+        { "text": "心", "reading": "こころ" },
+        { "text": "ひとつ" },
+        { "text": "日常", "reading": "にちじょう" },
+        { "text": "を" },
+        { "text": "今日", "reading": "きょう" },
+        { "text": "も" },
+        { "text": "生", "reading": "い" },
+        { "text": "きる" }
+      ],
+      "hiragana": "ぶさいくな こころ ひとつ にちじょう を きょう も いきる",
+      "pronunciationKo": "부사이쿠나 코코로 히토츠 니치죠오오 쿄오모 이키루",
+      "translationKo": "서툴고 못난 마음 하나로 오늘도 일상을 살아",
+      "grammarIds": ["noun-no-noun"],
+      "kanjiIds": ["心", "生"]
+    }
+  ],
+  "vocabulary": [
+    { "id": "nichijo-7-nayamasareru", "term": "悩まされる", "reading": "なやまされる", "meaning": "괴롭힘을 당하다, 골치를 앓다" },
+    { "id": "nichijo-7-iyasareru", "term": "癒される", "reading": "いやされる", "meaning": "위로받다, 치유되다" },
+    { "id": "nichijo-7-tsuyogaru", "term": "強がる", "reading": "つよがる", "meaning": "강한 척하다" },
+    { "id": "nichijo-7-tsuyosa", "term": "強さ", "reading": "つよさ", "meaning": "강함, 힘" },
+    { "id": "nichijo-7-warito", "term": "割と", "reading": "わりと", "meaning": "비교적, 제법" },
+    { "id": "nichijo-7-daiji", "term": "大事", "reading": "だいじ", "meaning": "중요함, 소중함" },
+    { "id": "nichijo-7-busaiku", "term": "不細工", "reading": "ぶさいく", "meaning": "못생김, 서투르고 볼품없음", "note": "여기서는 매끈하지 못하고 서툰 마음을 표현합니다." },
+    { "id": "nichijo-7-nichijou-wo-ikiru", "term": "日常を生きる", "reading": "にちじょうをいきる", "meaning": "일상을 살아가다" }
+  ],
+  "quiz": [
+    {
+      "id": "nichijo-7-q1",
+      "prompt": "반복되는 후렴에서 일상은 어떻게 그려지나요?",
+      "options": ["아무 기준도 없는 시간", "끊임없이 기준에 따라 평가되는 삶", "일하지 않는 휴일", "혼자만의 여행"],
+      "answerIndex": 1,
+      "explanation": "ノルマ와 計られる가 일상이 성과 기준으로 평가되는 압박을 보여 줍니다."
+    },
+    {
+      "id": "nichijo-7-q2",
+      "prompt": "「悩まされては癒される」가 보여 주는 관계는?",
+      "options": ["괴로움만 준다", "위로만 준다", "괴롭게도 하고 위로도 한다", "아무 영향도 없다"],
+      "answerIndex": 2,
+      "explanation": "같은 사람들이 마음을 힘들게도 하고 다시 치유해 주기도 하는 양면성이 담겼습니다."
+    },
+    {
+      "id": "nichijo-7-q3",
+      "prompt": "「強がれる」의 기본형은?",
+      "options": ["強い", "強める", "強がる", "強くする"],
+      "answerIndex": 2,
+      "explanation": "強がる의 가능형이 強がれる로, ‘강한 척할 수 있다’는 뜻입니다."
+    },
+    {
+      "id": "nichijo-7-q4",
+      "prompt": "「割と大事」의 뜻은?",
+      "options": ["전혀 중요하지 않다", "생각보다 제법 중요하다", "가장 위험하다", "이미 잊었다"],
+      "answerIndex": 1,
+      "explanation": "割と는 예상과 비교해 꽤, 비교적이라는 정도를 나타냅니다."
+    },
+    {
+      "id": "nichijo-7-q5",
+      "prompt": "마지막 문장이 전하는 태도는?",
+      "options": ["완벽해진 뒤에 살겠다", "서툰 마음까지 안고 오늘을 살아간다", "일상을 모두 포기한다", "다른 사람처럼 변하겠다"],
+      "answerIndex": 1,
+      "explanation": "매끈하지 않은 마음 하나뿐이어도 오늘의 일상을 살아내는 결말입니다."
+    }
+  ]
+}
