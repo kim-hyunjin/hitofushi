@@ -37,7 +37,7 @@ export default function ProgressPanel({ lessonId, sentenceCount }: Props) {
     const url = URL.createObjectURL(blob);
     const anchor = document.createElement('a');
     anchor.href = url;
-    anchor.download = 'jpop-japanese-progress.json';
+    anchor.download = 'hitofushi-progress.json';
     anchor.click();
     URL.revokeObjectURL(url);
   };

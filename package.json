@@ -1,12 +1,12 @@
 {
-  "name": "jpop-japanese",
+  "name": "hitofushi",
   "version": "0.1.0",
   "private": true,
   "type": "module",
   "scripts": {
     "dev": "astro dev",
     "build": "astro check && astro build",
-    "build:pages": "astro check && PUBLIC_BASE_PATH=/jpop-japanese/ PUBLIC_SITE_URL=https://kim-hyunjin.github.io astro build",
+    "build:pages": "astro check && PUBLIC_BASE_PATH=/hitofushi/ PUBLIC_SITE_URL=https://kim-hyunjin.github.io astro build",
     "deploy": "npm run build:pages && gh-pages -d dist --nojekyll",
     "preview": "astro preview",
     "astro": "astro"

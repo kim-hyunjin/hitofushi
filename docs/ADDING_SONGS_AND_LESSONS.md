@@ -268,7 +268,7 @@ npm run deploy
 로컬 검수와 `npm run build`를 먼저 완료합니다.
 
 배포 주소:
-<https://kim-hyunjin.github.io/jpop-japanese/>
+<https://kim-hyunjin.github.io/hitofushi/>
 
 ## 완료 체크리스트
 
