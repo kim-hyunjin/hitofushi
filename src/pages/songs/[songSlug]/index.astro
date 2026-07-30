@@ -3,6 +3,7 @@ import BaseLayout from '../../../layouts/BaseLayout.astro';
 import { getCollection } from 'astro:content';
 import { withBase } from '../../../lib/paths';
 import { songs, type SongDefinition } from '../../../lib/songs';
+import { getLessonsForSong } from '../../../lib/content';
 
 export function getStaticPaths() {
   return songs.map((song) => ({
@@ -16,11 +17,8 @@ interface Props {
 }
 
 const { song } = Astro.props;
-const lessons = await getCollection('lessons');
 const grammarEntries = await getCollection('grammar');
-const songLessons = lessons
-  .filter((entry) => entry.data.songSlug === song.slug)
-  .sort((a, b) => a.data.lessonNumber - b.data.lessonNumber);
+const songLessons = await getLessonsForSong(song.slug);
 const grammarMap = new Map(
   grammarEntries.map((entry) => [entry.id, entry.data.title]),
 );

@@ -1,18 +1,14 @@
 ---
-import { getCollection } from 'astro:content';
 import BaseLayout from '../layouts/BaseLayout.astro';
 import LearningDashboard, {
   type LearningLessonSummary,
 } from '../components/LearningDashboard';
 import ReadingControls from '../components/ReadingControls';
+import { getOrderedLessons } from '../lib/content';
 import { withBase } from '../lib/paths';
 import { getSong } from '../lib/songs';
 
-const lessons = (await getCollection('lessons'))
-  .sort((a, b) =>
-    a.data.songSlug.localeCompare(b.data.songSlug) ||
-    a.data.lessonNumber - b.data.lessonNumber
-  );
+const lessons = await getOrderedLessons();
 
 const lessonSummaries: LearningLessonSummary[] = lessons.map((entry) => {
   const href = withBase(

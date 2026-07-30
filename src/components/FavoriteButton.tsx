@@ -1,5 +1,5 @@
-import { useEffect, useState } from 'preact/hooks';
-import { loadProgress, PROGRESS_EVENT, updateProgress } from '../lib/progress';
+import { useProgress } from '../hooks/useProgress';
+import { updateProgress } from '../lib/progress';
 
 interface Props {
   vocabularyId: string;
@@ -7,20 +7,11 @@ interface Props {
 }
 
 export default function FavoriteButton({ vocabularyId, label }: Props) {
-  const [favorite, setFavorite] = useState(false);
-
-  useEffect(() => {
-    const refresh = () => {
-      setFavorite(loadProgress().favoriteVocabulary.includes(vocabularyId));
-    };
-    refresh();
-    window.addEventListener(PROGRESS_EVENT, refresh);
-    return () => window.removeEventListener(PROGRESS_EVENT, refresh);
-  }, [vocabularyId]);
+  const { progress } = useProgress();
+  const favorite = progress.favoriteVocabulary.includes(vocabularyId);
 
   const toggle = () => {
     const next = !favorite;
-    setFavorite(next);
     updateProgress((current) => ({
       ...current,
       favoriteVocabulary: next
