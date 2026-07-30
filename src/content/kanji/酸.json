@@ -1,0 +1,12 @@
+{
+  "character": "酸",
+  "onyomi": ["サン"],
+  "kunyomi": ["すい", "すっぱい"],
+  "basicMeaning": "시다, 산",
+  "wordMeaning": "酸い（すい）로 읽어 인생의 쓰고 힘든 경험을 비유합니다.",
+  "mnemonic": "레몬을 베어 물었을 때 입안에 퍼지는 신맛을 떠올려 보세요.",
+  "examples": [
+    { "word": "酸い", "reading": "すい", "meaning": "시다" },
+    { "word": "酸味", "reading": "さんみ", "meaning": "신맛" }
+  ]
+}

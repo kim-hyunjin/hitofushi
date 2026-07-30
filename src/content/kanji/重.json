@@ -1,0 +1,12 @@
+{
+  "character": "重",
+  "onyomi": ["ジュウ", "チョウ"],
+  "kunyomi": ["おもい", "かさねる"],
+  "basicMeaning": "무겁다, 겹치다",
+  "wordMeaning": "重ねる（かさねる）로 읽어 시간과 경험을 차곡차곡 쌓는다는 뜻입니다.",
+  "mnemonic": "얇은 종이를 한 장씩 겹쳐 두꺼워지는 모습을 떠올려 보세요.",
+  "examples": [
+    { "word": "重ねる", "reading": "かさねる", "meaning": "겹치다, 쌓다" },
+    { "word": "重い", "reading": "おもい", "meaning": "무겁다" }
+  ]
+}

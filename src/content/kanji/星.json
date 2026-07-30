@@ -1,0 +1,12 @@
+{
+  "character": "星",
+  "onyomi": ["セイ", "ショウ"],
+  "kunyomi": ["ほし"],
+  "basicMeaning": "별",
+  "wordMeaning": "星（ほし）로 읽어 셀 수 없이 많은 추억의 수를 비유합니다.",
+  "mnemonic": "어두운 하늘을 가득 채운 수많은 별을 떠올려 보세요.",
+  "examples": [
+    { "word": "星", "reading": "ほし", "meaning": "별" },
+    { "word": "星空", "reading": "ほしぞら", "meaning": "별이 빛나는 하늘" }
+  ]
+}

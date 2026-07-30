@@ -1,0 +1,12 @@
+{
+  "character": "価",
+  "onyomi": ["カ"],
+  "kunyomi": ["あたい"],
+  "basicMeaning": "값, 가치",
+  "wordMeaning": "価値観（かちかん）에서 무엇을 중요하게 여기는지 나타내는 ‘가치’의 일부입니다.",
+  "mnemonic": "물건의 가격표뿐 아니라 마음속 가치의 저울도 떠올려 보세요.",
+  "examples": [
+    { "word": "価値", "reading": "かち", "meaning": "가치" },
+    { "word": "価格", "reading": "かかく", "meaning": "가격" }
+  ]
+}

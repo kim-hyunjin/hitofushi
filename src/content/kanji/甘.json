@@ -1,0 +1,12 @@
+{
+  "character": "甘",
+  "onyomi": ["カン"],
+  "kunyomi": ["あまい", "あまえる"],
+  "basicMeaning": "달다, 응석 부리다",
+  "wordMeaning": "甘い（あまい）로 읽어 인생의 달콤하고 좋은 경험을 비유합니다.",
+  "mnemonic": "힘든 뒤에 맛보는 달콤한 한입을 떠올려 보세요.",
+  "examples": [
+    { "word": "甘い", "reading": "あまい", "meaning": "달다" },
+    { "word": "甘味", "reading": "かんみ", "meaning": "단맛" }
+  ]
+}

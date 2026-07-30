@@ -1,0 +1,12 @@
+{
+  "character": "愛",
+  "onyomi": ["アイ"],
+  "kunyomi": ["いとしい"],
+  "basicMeaning": "사랑, 사랑스럽다",
+  "wordMeaning": "愛しい（いとしい）로 읽어 깊이 아끼고 소중하게 느끼는 마음을 나타냅니다.",
+  "mnemonic": "상처까지도 품어 주는 따뜻한 마음을 떠올려 보세요.",
+  "examples": [
+    { "word": "愛", "reading": "あい", "meaning": "사랑" },
+    { "word": "愛しい", "reading": "いとしい", "meaning": "사랑스럽다" }
+  ]
+}

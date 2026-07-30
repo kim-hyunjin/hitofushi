@@ -1,0 +1,147 @@
+{
+  "songSlug": "vintage",
+  "lessonNumber": 3,
+  "title": "상처까지 사랑하는 기적",
+  "subtitle": "강조와 인용, 가능 표현",
+  "description": "상처마저 사랑하는 마음과 아직 시작 단계인 두 사람의 후렴 첫 부분을 익힙니다.",
+  "estimatedMinutes": 23,
+  "sentences": [
+    {
+      "id": "vintage-3-1",
+      "original": "傷さえ愛しいというキセキだ",
+      "ruby": [
+        { "text": "傷", "reading": "きず" },
+        { "text": "さえ" },
+        { "text": "愛", "reading": "いと" },
+        { "text": "しいというキセキだ" }
+      ],
+      "hiragana": "きず さえ いとしい という きせき だ",
+      "pronunciationKo": "키즈사에 이토시이토 이우 키세키다",
+      "translationKo": "상처마저 사랑스럽다고 여기는 기적이야",
+      "grammarIds": ["sae", "to-iu"],
+      "kanjiIds": ["傷", "愛"]
+    },
+    {
+      "id": "vintage-3-2",
+      "original": "酸いも甘いもって言えるほど",
+      "ruby": [
+        { "text": "酸", "reading": "す" },
+        { "text": "いも" },
+        { "text": "甘", "reading": "あま" },
+        { "text": "いもって" },
+        { "text": "言", "reading": "い" },
+        { "text": "えるほど" }
+      ],
+      "hiragana": "すい も あまい も って いえる ほど",
+      "pronunciationKo": "스이모 아마이못테 이에루호도",
+      "translationKo": "쓴맛도 단맛도 다 봤다고 말할 정도로",
+      "grammarIds": ["mo-mo", "tte-quotation", "potential-form", "hodo"],
+      "kanjiIds": ["酸", "甘"]
+    },
+    {
+      "id": "vintage-3-3",
+      "original": "何も僕ら始まっちゃないけれど",
+      "ruby": [
+        { "text": "何", "reading": "なに" },
+        { "text": "も" },
+        { "text": "僕", "reading": "ぼく" },
+        { "text": "ら" },
+        { "text": "始", "reading": "はじ" },
+        { "text": "まっちゃないけれど" }
+      ],
+      "hiragana": "なにも ぼくら はじまっちゃ ない けれど",
+      "pronunciationKo": "나니모 보쿠라 하지맛차 나이케레도",
+      "translationKo": "아직 우리에겐 아무것도 시작되지 않았지만",
+      "grammarIds": ["tewa-cha", "kedo"],
+      "kanjiIds": []
+    },
+    {
+      "id": "vintage-3-4",
+      "original": "褪せた思い出もビンテージなんて言って",
+      "ruby": [
+        { "text": "褪", "reading": "あ" },
+        { "text": "せた" },
+        { "text": "思", "reading": "おも" },
+        { "text": "い" },
+        { "text": "出", "reading": "で" },
+        { "text": "もビンテージなんて" },
+        { "text": "言", "reading": "い" },
+        { "text": "って" }
+      ],
+      "hiragana": "あせた おもいで も びんてーじ なんて いって",
+      "pronunciationKo": "아세타 오모이데모 빈테에지난테 잇테",
+      "translationKo": "빛바랜 추억도 빈티지라고 말하며",
+      "grammarIds": ["nante", "te-form"],
+      "kanjiIds": ["褪"]
+    },
+    {
+      "id": "vintage-3-5",
+      "original": "振り返る度に笑えるようにと",
+      "ruby": [
+        { "text": "振", "reading": "ふ" },
+        { "text": "り" },
+        { "text": "返", "reading": "かえ" },
+        { "text": "る" },
+        { "text": "度", "reading": "たび" },
+        { "text": "に" },
+        { "text": "笑", "reading": "わら" },
+        { "text": "えるようにと" }
+      ],
+      "hiragana": "ふりかえる たび に わらえる ように と",
+      "pronunciationKo": "후리카에루 타비니 와라에루 요오니토",
+      "translationKo": "돌아볼 때마다 웃을 수 있기를 바라며",
+      "grammarIds": ["tabi-ni", "potential-form", "you-ni"],
+      "kanjiIds": ["笑"]
+    }
+  ],
+  "vocabulary": [
+    { "id": "vintage-3-kizu", "term": "傷", "reading": "きず", "meaning": "상처" },
+    { "id": "vintage-3-itoshii", "term": "愛しい", "reading": "いとしい", "meaning": "사랑스럽다, 소중하다" },
+    { "id": "vintage-3-kiseki", "term": "キセキ", "reading": "きせき", "meaning": "기적", "note": "가사에서는 가타카나로 적어 의미를 강조합니다." },
+    { "id": "vintage-3-sui-mo-amai-mo", "term": "酸いも甘いも", "reading": "すいもあまいも", "meaning": "세상의 쓴맛과 단맛, 온갖 경험" },
+    { "id": "vintage-3-ieru", "term": "言える", "reading": "いえる", "meaning": "말할 수 있다" },
+    { "id": "vintage-3-hajimaru", "term": "始まる", "reading": "はじまる", "meaning": "시작되다" },
+    { "id": "vintage-3-aseta", "term": "褪せた", "reading": "あせた", "meaning": "빛바랜" },
+    { "id": "vintage-3-omoide", "term": "思い出", "reading": "おもいで", "meaning": "추억" },
+    { "id": "vintage-3-furikaeru", "term": "振り返る", "reading": "ふりかえる", "meaning": "뒤돌아보다, 되돌아보다" },
+    { "id": "vintage-3-tabi-ni", "term": "度に", "reading": "たびに", "meaning": "~할 때마다" },
+    { "id": "vintage-3-waraeru", "term": "笑える", "reading": "わらえる", "meaning": "웃을 수 있다" }
+  ],
+  "quiz": [
+    {
+      "id": "vintage-3-q1",
+      "prompt": "「傷さえ」에서 さえ가 나타내는 뜻은?",
+      "options": ["상처 때문에", "상처마저", "상처 없이", "상처처럼"],
+      "answerIndex": 1,
+      "explanation": "さえ는 예상 밖의 대상까지 포함해 ‘~마저’라고 강조합니다."
+    },
+    {
+      "id": "vintage-3-q2",
+      "prompt": "「酸いも甘いも」는 무엇을 비유할까요?",
+      "options": ["음식 취향", "온갖 인생 경험", "계절 변화", "말투의 차이"],
+      "answerIndex": 1,
+      "explanation": "신맛과 단맛을 함께 들어 좋고 나쁜 여러 경험을 비유하는 관용 표현입니다."
+    },
+    {
+      "id": "vintage-3-q3",
+      "prompt": "「始まっちゃない」의 긴 형태는?",
+      "options": ["始まってはない", "始まりたくない", "始まるしかない", "始まってみたい"],
+      "answerIndex": 0,
+      "explanation": "회화에서 〜ては가 〜ちゃ로 줄어들 수 있습니다."
+    },
+    {
+      "id": "vintage-3-q4",
+      "prompt": "「ビンテージなんて言って」와 가까운 뜻은?",
+      "options": ["빈티지를 사서", "빈티지 같은 건 싫어서", "빈티지라고 말하며", "빈티지를 찾아서"],
+      "answerIndex": 2,
+      "explanation": "なんて가 인용된 말을 가볍게 제시하고 言って가 뒤 행동으로 연결합니다."
+    },
+    {
+      "id": "vintage-3-q5",
+      "prompt": "「振り返る度に」의 뜻은?",
+      "options": ["돌아보기 전에", "돌아보지 않고", "돌아볼 때마다", "돌아본 뒤에만"],
+      "answerIndex": 2,
+      "explanation": "동사 기본형 + 度に는 같은 일이 일어날 때마다라는 뜻입니다."
+    }
+  ]
+}

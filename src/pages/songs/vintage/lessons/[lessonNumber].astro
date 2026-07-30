@@ -1,5 +1,5 @@
 ---
-import { getCollection } from 'astro:content';
+import { getCollection, type CollectionEntry } from 'astro:content';
 import BaseLayout from '../../../../layouts/BaseLayout.astro';
 import ReadingControls from '../../../../components/ReadingControls';
 import SentenceCard from '../../../../components/SentenceCard.astro';
@@ -9,14 +9,25 @@ import Flashcards from '../../../../components/Flashcards';
 import ProgressPanel from '../../../../components/ProgressPanel';
 import { withBase } from '../../../../lib/paths';
 
-const [lessons, grammarEntries, kanjiEntries] = await Promise.all([
-  getCollection('lessons'),
+export async function getStaticPaths() {
+  const lessons = await getCollection('lessons');
+  return lessons
+    .filter((entry) => entry.data.songSlug === 'vintage')
+    .map((lessonEntry) => ({
+      params: { lessonNumber: String(lessonEntry.data.lessonNumber) },
+      props: { lessonEntry },
+    }));
+}
+
+interface Props {
+  lessonEntry: CollectionEntry<'lessons'>;
+}
+
+const { lessonEntry } = Astro.props;
+const [grammarEntries, kanjiEntries] = await Promise.all([
   getCollection('grammar'),
   getCollection('kanji'),
 ]);
-
-const lessonEntry = lessons.find((entry) => entry.id === 'vintage-1');
-if (!lessonEntry) throw new Error('vintage-1 lesson content is missing');
 
 const lesson = lessonEntry.data;
 const grammarMap = new Map(
@@ -65,7 +76,7 @@ const orderedKanji = [...new Set(lessonKanji)].map((character) => kanjiMap.get(c
         <div class="section-heading">
           <div>
             <p class="eyebrow">가사 읽기</p>
-            <h2 id="lyrics-title">네 문장을 내 속도로</h2>
+            <h2 id="lyrics-title">{lesson.sentences.length}문장을 내 속도로</h2>
           </div>
           <p>읽기 모드에서는 한자에 마우스를 올리거나 초점을 맞춰 읽기를 확인하세요.</p>
         </div>
@@ -110,7 +121,7 @@ const orderedKanji = [...new Set(lessonKanji)].map((character) => kanjiMap.get(c
           <div class="section-heading compact">
             <div>
               <p class="eyebrow">한자 노트</p>
-              <h2>이번 단원의 15자</h2>
+              <h2>이번 단원의 {orderedKanji.length}자</h2>
             </div>
           </div>
           <div class="kanji-grid">
@@ -137,7 +148,7 @@ const orderedKanji = [...new Set(lessonKanji)].map((character) => kanjiMap.get(c
           </div>
           <p>최고 점수는 이 기기에 자동 저장됩니다.</p>
         </div>
-        <Quiz lessonId="vintage-1" questions={lesson.quiz} client:visible />
+        <Quiz lessonId={lessonEntry.id} questions={lesson.quiz} client:visible />
       </section>
 
       <section class="lesson-section grammar-index" aria-labelledby="grammar-title">
@@ -163,7 +174,7 @@ const orderedKanji = [...new Set(lessonKanji)].map((character) => kanjiMap.get(c
 
     <div class="lesson-sidebar">
       <ProgressPanel
-        lessonId="vintage-1"
+        lessonId={lessonEntry.id}
         sentenceCount={lesson.sentences.length}
         client:idle
       />

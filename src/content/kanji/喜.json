@@ -1,0 +1,12 @@
+{
+  "character": "喜",
+  "onyomi": ["キ"],
+  "kunyomi": ["よろこぶ"],
+  "basicMeaning": "기뻐하다, 기쁨",
+  "wordMeaning": "喜怒哀楽（きどあいらく）에서 첫 번째 감정인 기쁨을 나타냅니다.",
+  "mnemonic": "좋은 소식을 듣고 활짝 기뻐하는 모습을 떠올려 보세요.",
+  "examples": [
+    { "word": "喜ぶ", "reading": "よろこぶ", "meaning": "기뻐하다" },
+    { "word": "喜び", "reading": "よろこび", "meaning": "기쁨" }
+  ]
+}

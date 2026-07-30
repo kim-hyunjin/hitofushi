@@ -1,0 +1,12 @@
+{
+  "character": "褪",
+  "onyomi": ["タイ"],
+  "kunyomi": ["あせる"],
+  "basicMeaning": "빛바래다, 색이 옅어지다",
+  "wordMeaning": "褪せた（あせた）로 읽어 시간이 지나 색이 바랜 상태를 나타냅니다.",
+  "mnemonic": "오래된 사진이 햇빛을 받아 천천히 색을 잃는 모습을 떠올려 보세요.",
+  "examples": [
+    { "word": "色褪せる", "reading": "いろあせる", "meaning": "색이 바래다" },
+    { "word": "褪色", "reading": "たいしょく", "meaning": "퇴색" }
+  ]
+}

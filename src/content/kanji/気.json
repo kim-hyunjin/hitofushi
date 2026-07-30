@@ -1,0 +1,12 @@
+{
+  "character": "気",
+  "onyomi": ["キ", "ケ"],
+  "kunyomi": [],
+  "basicMeaning": "기운, 마음, 느낌",
+  "wordMeaning": "気付く（きづく）에서 어떤 사실을 알아차리는 마음의 움직임을 나타냅니다.",
+  "mnemonic": "보이지 않지만 분위기와 마음을 움직이는 기운을 떠올려 보세요.",
+  "examples": [
+    { "word": "気付く", "reading": "きづく", "meaning": "깨닫다, 알아차리다" },
+    { "word": "元気", "reading": "げんき", "meaning": "건강함, 활기" }
+  ]
+}

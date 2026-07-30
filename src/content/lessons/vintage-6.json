@@ -1,0 +1,146 @@
+{
+  "songSlug": "vintage",
+  "lessonNumber": 6,
+  "title": "후렴으로 다지는 표현",
+  "subtitle": "관용 표현과 가능형 복습",
+  "description": "반복되는 후렴을 다시 읽으며 〜さえ, 〜ほど, 〜ちゃ, 〜たびに와 의지형을 익숙하게 만듭니다.",
+  "estimatedMinutes": 17,
+  "sentences": [
+    {
+      "id": "vintage-6-1",
+      "original": "酸いも甘いもって言えるほど",
+      "ruby": [
+        { "text": "酸", "reading": "す" },
+        { "text": "いも" },
+        { "text": "甘", "reading": "あま" },
+        { "text": "いもって" },
+        { "text": "言", "reading": "い" },
+        { "text": "えるほど" }
+      ],
+      "hiragana": "すい も あまい も って いえる ほど",
+      "pronunciationKo": "스이모 아마이못테 이에루호도",
+      "translationKo": "쓴맛도 단맛도 다 봤다고 말할 정도로",
+      "grammarIds": ["mo-mo", "tte-quotation", "potential-form", "hodo"],
+      "kanjiIds": ["酸", "甘"]
+    },
+    {
+      "id": "vintage-6-2",
+      "original": "何も僕ら始まっちゃないけれど",
+      "ruby": [
+        { "text": "何", "reading": "なに" },
+        { "text": "も" },
+        { "text": "僕", "reading": "ぼく" },
+        { "text": "ら" },
+        { "text": "始", "reading": "はじ" },
+        { "text": "まっちゃないけれど" }
+      ],
+      "hiragana": "なにも ぼくら はじまっちゃ ない けれど",
+      "pronunciationKo": "나니모 보쿠라 하지맛차 나이케레도",
+      "translationKo": "아직 우리에겐 아무것도 시작되지 않았지만",
+      "grammarIds": ["tewa-cha", "kedo"],
+      "kanjiIds": []
+    },
+    {
+      "id": "vintage-6-3",
+      "original": "褪せた思い出もビンテージなんて言って",
+      "ruby": [
+        { "text": "褪", "reading": "あ" },
+        { "text": "せた" },
+        { "text": "思", "reading": "おも" },
+        { "text": "い" },
+        { "text": "出", "reading": "で" },
+        { "text": "もビンテージなんて" },
+        { "text": "言", "reading": "い" },
+        { "text": "って" }
+      ],
+      "hiragana": "あせた おもいで も びんてーじ なんて いって",
+      "pronunciationKo": "아세타 오모이데모 빈테에지난테 잇테",
+      "translationKo": "빛바랜 추억도 빈티지라고 말하며",
+      "grammarIds": ["nante", "te-form"],
+      "kanjiIds": ["褪"]
+    },
+    {
+      "id": "vintage-6-4",
+      "original": "振り返る度に笑えるようにと",
+      "ruby": [
+        { "text": "振", "reading": "ふ" },
+        { "text": "り" },
+        { "text": "返", "reading": "かえ" },
+        { "text": "る" },
+        { "text": "度", "reading": "たび" },
+        { "text": "に" },
+        { "text": "笑", "reading": "わら" },
+        { "text": "えるようにと" }
+      ],
+      "hiragana": "ふりかえる たび に わらえる ように と",
+      "pronunciationKo": "후리카에루 타비니 와라에루 요오니토",
+      "translationKo": "돌아볼 때마다 웃을 수 있기를 바라며",
+      "grammarIds": ["tabi-ni", "potential-form", "you-ni"],
+      "kanjiIds": ["笑"]
+    },
+    {
+      "id": "vintage-6-5",
+      "original": "大切に日々を重ねよう",
+      "ruby": [
+        { "text": "大切", "reading": "たいせつ" },
+        { "text": "に" },
+        { "text": "日々", "reading": "ひび" },
+        { "text": "を" },
+        { "text": "重", "reading": "かさ" },
+        { "text": "ねよう" }
+      ],
+      "hiragana": "たいせつ に ひび を かさねよう",
+      "pronunciationKo": "타이세츠니 히비오 카사네요오",
+      "translationKo": "하루하루를 소중히 쌓아가자",
+      "grammarIds": ["volitional-form"],
+      "kanjiIds": ["重"]
+    }
+  ],
+  "vocabulary": [
+    { "id": "vintage-6-sui-mo-amai-mo", "term": "酸いも甘いも", "reading": "すいもあまいも", "meaning": "세상의 쓴맛과 단맛, 온갖 경험" },
+    { "id": "vintage-6-ieru-hodo", "term": "言えるほど", "reading": "いえるほど", "meaning": "말할 수 있을 정도로" },
+    { "id": "vintage-6-hajimaccha-nai", "term": "始まっちゃない", "reading": "はじまっちゃない", "meaning": "시작되지 않았다", "note": "始まってはない가 줄어든 회화형입니다." },
+    { "id": "vintage-6-aseta", "term": "褪せた", "reading": "あせた", "meaning": "빛바랜" },
+    { "id": "vintage-6-vintage", "term": "ビンテージ", "reading": "びんてーじ", "meaning": "빈티지, 시간이 지나 가치가 생긴 것" },
+    { "id": "vintage-6-furikaeru", "term": "振り返る", "reading": "ふりかえる", "meaning": "되돌아보다" },
+    { "id": "vintage-6-waraeru", "term": "笑える", "reading": "わらえる", "meaning": "웃을 수 있다" },
+    { "id": "vintage-6-kasaneyou", "term": "重ねよう", "reading": "かさねよう", "meaning": "쌓아가자" }
+  ],
+  "quiz": [
+    {
+      "id": "vintage-6-q1",
+      "prompt": "「言える」는 어떤 동사의 가능형일까요?",
+      "options": ["言う", "行く", "要る", "得る"],
+      "answerIndex": 0,
+      "explanation": "言う가 가능형으로 바뀌면 言える, ‘말할 수 있다’가 됩니다."
+    },
+    {
+      "id": "vintage-6-q2",
+      "prompt": "「〜ちゃ」로 줄어들기 전의 형태는?",
+      "options": ["〜ても", "〜ては", "〜たら", "〜たり"],
+      "answerIndex": 1,
+      "explanation": "〜ては는 편한 말투에서 〜ちゃ로 축약됩니다."
+    },
+    {
+      "id": "vintage-6-q3",
+      "prompt": "가사에서 빛바랜 추억을 무엇에 비유하나요?",
+      "options": ["별", "그림", "빈티지", "상처"],
+      "answerIndex": 2,
+      "explanation": "시간이 지난 추억을 낡아서 더 가치 있는 빈티지에 비유합니다."
+    },
+    {
+      "id": "vintage-6-q4",
+      "prompt": "「笑えるように」가 나타내는 것은?",
+      "options": ["웃을 수 있기를 바라는 목표", "웃었다는 과거", "웃지 말라는 금지", "웃을 필요가 없다는 판단"],
+      "answerIndex": 0,
+      "explanation": "가능형 + ように는 어떤 상태가 가능해지기를 바라는 목표나 소망을 나타냅니다."
+    },
+    {
+      "id": "vintage-6-q5",
+      "prompt": "후렴 마지막의 「重ねよう」를 자연스럽게 옮기면?",
+      "options": ["쌓였을까", "쌓지 않았어", "쌓아가자", "쌓을 수 없어"],
+      "answerIndex": 2,
+      "explanation": "의지형은 함께 하자는 제안으로도 쓰입니다."
+    }
+  ]
+}

@@ -1,6 +1,28 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
 import { withBase } from '../lib/paths';
+
+const vintageLessons = (await getCollection('lessons')).filter(
+  (entry) => entry.data.songSlug === 'vintage',
+);
+const sentenceCount = vintageLessons.reduce(
+  (total, entry) => total + entry.data.sentences.length,
+  0,
+);
+const vocabularyCount = vintageLessons.reduce(
+  (total, entry) => total + entry.data.vocabulary.length,
+  0,
+);
+const kanjiCount = new Set(
+  vintageLessons.flatMap((entry) =>
+    entry.data.sentences.flatMap((sentence) => sentence.kanjiIds),
+  ),
+).size;
+const estimatedMinutes = vintageLessons.reduce(
+  (total, entry) => total + entry.data.estimatedMinutes,
+  0,
+);
 ---
 
 <BaseLayout
@@ -67,13 +89,16 @@ import { withBase } from '../lib/paths';
     <div>
       <p class="eyebrow">첫 번째 곡</p>
       <h2>Vintage</h2>
-      <p>상처받지 않으려는 마음을 담은 네 문장으로 부정 표현과 연결 표현을 배워요.</p>
+      <p>
+        상처를 피하던 마음에서 함께한 시간과 기억을 사랑하는 마음까지,
+        한 곡의 흐름을 일곱 단원으로 배워요.
+      </p>
     </div>
     <div class="course-stats">
-      <span><strong>4</strong> 문장</span>
-      <span><strong>10</strong> 단어</span>
-      <span><strong>15</strong> 한자</span>
-      <span><strong>18</strong> 분</span>
+      <span><strong>{sentenceCount}</strong> 문장</span>
+      <span><strong>{vocabularyCount}</strong> 단어</span>
+      <span><strong>{kanjiCount}</strong> 한자</span>
+      <span><strong>{estimatedMinutes}</strong> 분</span>
     </div>
     <a class="primary-link" href={withBase('/songs/vintage/')}>학습 내용 살펴보기</a>
   </section>

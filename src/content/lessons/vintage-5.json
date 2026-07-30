@@ -1,0 +1,138 @@
+{
+  "songSlug": "vintage",
+  "lessonNumber": 5,
+  "title": "기억을 숨기지 않는 마음",
+  "subtitle": "나열과 양보, 그대로 받아들이기",
+  "description": "희로애락과 낡아 가는 기억까지 숨김없이 끌어안는 다섯 문장을 읽습니다.",
+  "estimatedMinutes": 23,
+  "sentences": [
+    {
+      "id": "vintage-5-1",
+      "original": "喜怒哀楽そしてその間にきらめく想いを抱きしめて",
+      "ruby": [
+        { "text": "喜怒哀楽", "reading": "きどあいらく" },
+        { "text": "そしてその" },
+        { "text": "間", "reading": "あいだ" },
+        { "text": "にきらめく" },
+        { "text": "想", "reading": "おも" },
+        { "text": "いを" },
+        { "text": "抱", "reading": "だ" },
+        { "text": "きしめて" }
+      ],
+      "hiragana": "きどあいらく そして その あいだ に きらめく おもい を だきしめて",
+      "pronunciationKo": "키도아이라쿠 소시테 소노 아이다니 키라메쿠 오모이오 다키시메테",
+      "translationKo": "희로애락, 그리고 그 사이에서 반짝이는 마음을 끌어안고",
+      "grammarIds": ["te-form"],
+      "kanjiIds": ["喜", "怒", "哀"]
+    },
+    {
+      "id": "vintage-5-2",
+      "original": "シワくちゃだったり やけに錆びついたり",
+      "ruby": [
+        { "text": "シワくちゃだったり やけに" },
+        { "text": "錆", "reading": "さ" },
+        { "text": "びついたり" }
+      ],
+      "hiragana": "しわくちゃ だったり やけに さびついたり",
+      "pronunciationKo": "시와쿠차 닷타리 야케니 사비츠이타리",
+      "translationKo": "쭈글쭈글해지기도, 유난히 녹슬기도 하고",
+      "grammarIds": ["tari-tari"],
+      "kanjiIds": []
+    },
+    {
+      "id": "vintage-5-3",
+      "original": "剥がれてしまった記憶があったとしても",
+      "ruby": [
+        { "text": "剥", "reading": "は" },
+        { "text": "がれてしまった" },
+        { "text": "記憶", "reading": "きおく" },
+        { "text": "があったとしても" }
+      ],
+      "hiragana": "はがれて しまった きおく が あった としても",
+      "pronunciationKo": "하가레테 시맛타 키오쿠가 앗타토시테모",
+      "translationKo": "벗겨져 버린 기억이 있다고 해도",
+      "grammarIds": ["te-shimau", "to-shite-mo"],
+      "kanjiIds": ["記", "憶"]
+    },
+    {
+      "id": "vintage-5-4",
+      "original": "何一つ隠し繕うこともなく",
+      "ruby": [
+        { "text": "何一", "reading": "なにひと" },
+        { "text": "つ" },
+        { "text": "隠", "reading": "かく" },
+        { "text": "し" },
+        { "text": "繕", "reading": "つくろ" },
+        { "text": "うこともなく" }
+      ],
+      "hiragana": "なにひとつ かくし つくろう こと も なく",
+      "pronunciationKo": "나니히토츠 카쿠시츠쿠로오 코토모 나쿠",
+      "translationKo": "무엇 하나 숨기거나 꾸미는 일도 없이",
+      "grammarIds": ["hitotsu-mo-nai", "koto-mo-naku"],
+      "kanjiIds": []
+    },
+    {
+      "id": "vintage-5-5",
+      "original": "それさえ愛しいというキセキだ",
+      "ruby": [
+        { "text": "それさえ" },
+        { "text": "愛", "reading": "いと" },
+        { "text": "しいというキセキだ" }
+      ],
+      "hiragana": "それ さえ いとしい という きせき だ",
+      "pronunciationKo": "소레사에 이토시이토 이우 키세키다",
+      "translationKo": "그것마저 사랑스럽다고 여기는 기적이야",
+      "grammarIds": ["sae", "to-iu"],
+      "kanjiIds": ["愛"]
+    }
+  ],
+  "vocabulary": [
+    { "id": "vintage-5-kidoairaku", "term": "喜怒哀楽", "reading": "きどあいらく", "meaning": "희로애락" },
+    { "id": "vintage-5-kirameku", "term": "きらめく", "reading": "きらめく", "meaning": "반짝이다" },
+    { "id": "vintage-5-omoi", "term": "想い", "reading": "おもい", "meaning": "마음, 생각", "note": "思い보다 감정의 깊이를 의식한 표기로 자주 쓰입니다." },
+    { "id": "vintage-5-dakishimeru", "term": "抱きしめる", "reading": "だきしめる", "meaning": "꼭 끌어안다" },
+    { "id": "vintage-5-shiwakucha", "term": "シワくちゃ", "reading": "しわくちゃ", "meaning": "쭈글쭈글함, 주름투성이" },
+    { "id": "vintage-5-yake-ni", "term": "やけに", "reading": "やけに", "meaning": "유난히, 몹시" },
+    { "id": "vintage-5-sabitsuku", "term": "錆びつく", "reading": "さびつく", "meaning": "녹슬다" },
+    { "id": "vintage-5-hagareru", "term": "剥がれる", "reading": "はがれる", "meaning": "벗겨지다" },
+    { "id": "vintage-5-kioku", "term": "記憶", "reading": "きおく", "meaning": "기억" },
+    { "id": "vintage-5-kakushi-tsukurou", "term": "隠し繕う", "reading": "かくしつくろう", "meaning": "숨기고 꾸미다" }
+  ],
+  "quiz": [
+    {
+      "id": "vintage-5-q1",
+      "prompt": "「喜怒哀楽」가 가리키는 것은?",
+      "options": ["네 계절", "사람의 여러 감정", "네 가지 색", "과거와 미래"],
+      "answerIndex": 1,
+      "explanation": "기쁨, 분노, 슬픔, 즐거움을 묶어 사람의 다양한 감정을 나타냅니다."
+    },
+    {
+      "id": "vintage-5-q2",
+      "prompt": "「〜たり、〜たり」는 어떤 기능을 할까요?",
+      "options": ["행동이나 상태를 예로 들어 나열한다", "원인을 하나로 정한다", "반드시 해야 함을 말한다", "두 대상을 비교한다"],
+      "answerIndex": 0,
+      "explanation": "대표적인 행동이나 상태를 몇 가지 들어 ‘~하기도 하고’라고 나열합니다."
+    },
+    {
+      "id": "vintage-5-q3",
+      "prompt": "「剥がれてしまった」에서 しまった가 더하는 느낌은?",
+      "options": ["일부러 시작함", "완료와 아쉬움", "가능성", "반복"],
+      "answerIndex": 1,
+      "explanation": "〜てしまう는 완료를 나타내며 문맥에 따라 유감이나 아쉬움을 더합니다."
+    },
+    {
+      "id": "vintage-5-q4",
+      "prompt": "「あったとしても」와 가장 가까운 뜻은?",
+      "options": ["있었기 때문에", "있었다고 해도", "있을 때마다", "있기 위해서"],
+      "answerIndex": 1,
+      "explanation": "〜としても는 어떤 상황을 가정해도 뒤의 판단은 달라지지 않음을 나타냅니다."
+    },
+    {
+      "id": "vintage-5-q5",
+      "prompt": "「何一つ〜なく」가 강조하는 것은?",
+      "options": ["몇 가지만 남김", "하나도 예외 없이 하지 않음", "한 번만 시도함", "순서대로 진행함"],
+      "answerIndex": 1,
+      "explanation": "何一つ가 부정 표현과 호응해 ‘무엇 하나 ~하지 않고’라는 전면 부정을 만듭니다."
+    }
+  ]
+}

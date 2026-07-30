@@ -4,10 +4,16 @@ import { getCollection } from 'astro:content';
 import { withBase } from '../../../lib/paths';
 
 const lessons = await getCollection('lessons');
-const lesson = lessons.find((entry) => entry.id === 'vintage-1');
+const grammarEntries = await getCollection('grammar');
+const vintageLessons = lessons
+  .filter((entry) => entry.data.songSlug === 'vintage')
+  .sort((a, b) => a.data.lessonNumber - b.data.lessonNumber);
+const grammarMap = new Map(
+  grammarEntries.map((entry) => [entry.id, entry.data.title]),
+);
 
-if (!lesson) {
-  throw new Error('vintage-1 lesson content is missing');
+if (!vintageLessons.length) {
+  throw new Error('Vintage lesson content is missing');
 }
 ---
 
@@ -32,30 +38,46 @@ if (!lesson) {
   <section class="shell song-overview">
     <div class="section-intro">
       <p class="eyebrow">학습 안내</p>
-      <h2>짧지만 촘촘한 첫 단원</h2>
+      <h2>일곱 단원으로 읽는 한 곡</h2>
       <p>
-        부정형, 이유, 명사화, 대비 표현을 한 흐름 안에서 만나고
-        문장에 등장하는 핵심 한자까지 연결합니다.
+        상처를 피하던 마음이 함께 쌓은 시간을 사랑하게 되는 흐름을 따라
+        핵심 문법과 어휘, 한자를 차근차근 익힙니다.
       </p>
     </div>
 
-    <article class="lesson-list-card">
-      <div class="lesson-index">01</div>
-      <div class="lesson-summary">
-        <span>약 {lesson.data.estimatedMinutes}분 · 입문</span>
-        <h3>{lesson.data.title}</h3>
-        <p>{lesson.data.description}</p>
-        <div class="lesson-tags">
-          <span>〜たくもない</span>
-          <span>〜のは</span>
-          <span>〜けど</span>
-          <span>〜くて</span>
-        </div>
-      </div>
-      <a class="primary-link" href={withBase('/songs/vintage/lessons/1/')}>
-        단원 시작 <span aria-hidden="true">→</span>
-      </a>
-    </article>
+    <div class="lesson-list">
+      {
+        vintageLessons.map((lesson) => {
+          const grammarIds = [
+            ...new Set(lesson.data.sentences.flatMap((sentence) => sentence.grammarIds)),
+          ].slice(0, 4);
+
+          return (
+            <article class="lesson-list-card">
+              <div class="lesson-index">
+                {String(lesson.data.lessonNumber).padStart(2, '0')}
+              </div>
+              <div class="lesson-summary">
+                <span>
+                  약 {lesson.data.estimatedMinutes}분 · {lesson.data.sentences.length}문장
+                </span>
+                <h3>{lesson.data.title}</h3>
+                <p>{lesson.data.description}</p>
+                <div class="lesson-tags">
+                  {grammarIds.map((id) => <span>{grammarMap.get(id) ?? id}</span>)}
+                </div>
+              </div>
+              <a
+                class="primary-link"
+                href={withBase(`/songs/vintage/lessons/${lesson.data.lessonNumber}/`)}
+              >
+                단원 시작 <span aria-hidden="true">→</span>
+              </a>
+            </article>
+          );
+        })
+      }
+    </div>
   </section>
 </BaseLayout>
 
@@ -126,6 +148,11 @@ if (!lesson) {
 
   .song-overview {
     padding: 4rem 0 5rem;
+  }
+
+  .lesson-list {
+    display: grid;
+    gap: 1rem;
   }
 
   .lesson-list-card {

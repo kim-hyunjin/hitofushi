@@ -15,14 +15,16 @@ src/
 │   └── kanji/                   # 한자 설명 JSON
 └── pages/
     ├── songs/<곡-slug>/         # 곡 소개 화면
-    │   └── lessons/<번호>.astro # 단원 화면
+    │   └── lessons/
+    │       └── [lessonNumber].astro # 단원 화면을 자동 생성
     ├── grammar/[id].astro       # 모든 문법 파일의 페이지를 자동 생성
     └── kanji/[character].astro  # 모든 한자 파일의 페이지를 자동 생성
 ```
 
-문법과 한자는 파일을 추가하면 상세 페이지가 자동 생성됩니다. 반면 곡 소개와
-단원 페이지는 아직 완전히 동적이지 않으므로, 콘텐츠 파일과 함께 해당 Astro
-페이지를 만들거나 수정해야 합니다.
+문법과 한자는 파일을 추가하면 상세 페이지가 자동 생성됩니다. `Vintage`는
+동적 단원 경로를 사용하므로 단원 JSON을 추가하면 단원 페이지와 곡 소개의
+단원 목록도 자동 생성됩니다. 완전히 새로운 곡은 곡 소개 페이지와 그 곡을
+담당할 동적 단원 페이지를 한 번 만들어야 합니다.
 
 ## 어떤 작업을 하면 되나요?
 
@@ -34,8 +36,9 @@ src/
 
 ### 같은 곡의 다음 단원을 만들 때
 
-새 단원 JSON과 `src/pages/songs/<곡-slug>/lessons/<번호>.astro`를 추가하고,
-곡 소개 페이지의 단원 목록에도 새 단원 링크를 추가합니다.
+`Vintage`라면 새 단원 JSON만 추가합니다. 곡 소개 페이지가 `songSlug`로
+단원을 모아 자동으로 링크를 표시합니다. 다른 곡도 같은 구조를 적용했다면
+동일합니다.
 
 ### 완전히 새로운 곡을 만들 때
 
@@ -188,31 +191,34 @@ examples:
   쓰였는지 설명합니다.
 - `mnemonic`은 학습용 연상법입니다. 실제 자원이나 어원처럼 단정하지 않습니다.
 
-## 5. 단원 페이지 연결하기
+## 5. 단원 페이지 연결 확인하기
 
-현재 단원 페이지는 콘텐츠 파일만으로 자동 생성되지 않습니다. 기존 페이지를
-복사해 새 경로를 만들고 내부의 단원 ID와 화면 문구를 바꿉니다.
+`Vintage`의 `src/pages/songs/vintage/lessons/[lessonNumber].astro`는
+`songSlug`가 `vintage`인 모든 단원을 읽고 단원 번호별 페이지를 자동으로
+생성합니다.
+
+예를 들어 `vintage-2.json`의 `lessonNumber`가 `2`이면 다음 URL이 생깁니다.
+
+```text
+/songs/vintage/lessons/2/
+```
+
+같은 곡의 단원을 추가할 때는 별도의 Astro 파일을 복사하지 않습니다. 새
+곡을 만들 때만 이 동적 페이지를 새 곡 디렉터리로 복사하고 다음을 수정합니다.
 
 ```sh
 mkdir -p src/pages/songs/night-dancer/lessons
-cp src/pages/songs/vintage/lessons/1.astro \
-  src/pages/songs/night-dancer/lessons/1.astro
+cp 'src/pages/songs/vintage/lessons/[lessonNumber].astro' \
+  'src/pages/songs/night-dancer/lessons/[lessonNumber].astro'
 ```
 
-복사한 페이지에서 최소한 다음 항목을 수정합니다.
-
-- `lessons.find(...)`의 ID와 누락 오류 메시지
+- `getStaticPaths()`에서 비교하는 `songSlug`
 - 상단 breadcrumb의 곡 이름과 `/songs/<곡-slug>/` 링크
-- `Quiz`와 `ProgressPanel`에 전달하는 `lessonId`
-- “네 문장”, “15자”처럼 기존 단원 개수에 맞춰 고정된 문구
 - 새 디렉터리 깊이가 다르다면 `import` 상대 경로
 
+퀴즈와 진행도 ID, 문장·한자 수는 선택된 단원 콘텐츠에서 자동으로 계산됩니다.
 페이지 안의 내부 링크에는 배포 하위 경로를 지원하도록 반드시
 `withBase(...)`를 사용합니다.
-
-같은 곡에 2번 단원을 추가한다면
-`src/pages/songs/<곡-slug>/lessons/2.astro`를 만들고, 곡 소개 페이지의 단원
-목록에 `/songs/<곡-slug>/lessons/2/` 링크를 추가합니다.
 
 ## 6. 새 곡 소개 페이지 만들기
 
@@ -233,9 +239,9 @@ cp src/pages/songs/vintage/index.astro \
 - 문법 태그
 - 각 단원의 제목, 요약, 링크
 
-현재 곡 소개 화면은 한 단원만 표시하는 구조입니다. 여러 단원을 추가할 때는
-단원별 `article.lesson-list-card`를 반복하거나, 해당 곡의 단원을
-`songSlug`로 필터링해 `map`으로 렌더링하도록 개선할 수 있습니다.
+복사한 곡 소개 화면은 `songSlug`가 일치하는 단원을 번호순으로 정렬해
+표시하도록 구성합니다. `vintage` 문자열을 새 곡 slug로 바꾸고 곡별 제목과
+소개 문구를 수정합니다.
 
 ## 7. 홈과 공통 내비게이션 갱신하기
 

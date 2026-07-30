@@ -1,0 +1,12 @@
+{
+  "character": "憶",
+  "onyomi": ["オク"],
+  "kunyomi": [],
+  "basicMeaning": "기억하다, 생각하다",
+  "wordMeaning": "記憶（きおく）에서 지나간 일을 마음에 간직하는 뜻을 더합니다.",
+  "mnemonic": "마음 깊은 곳에 오래된 장면을 보관하는 서랍을 떠올려 보세요.",
+  "examples": [
+    { "word": "記憶", "reading": "きおく", "meaning": "기억" },
+    { "word": "追憶", "reading": "ついおく", "meaning": "추억, 회상" }
+  ]
+}

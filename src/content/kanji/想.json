@@ -1,0 +1,12 @@
+{
+  "character": "想",
+  "onyomi": ["ソウ"],
+  "kunyomi": ["おもう"],
+  "basicMeaning": "생각하다, 마음에 그리다",
+  "wordMeaning": "理想（りそう）에서 마음속에 그리는 바람직한 모습을 나타냅니다.",
+  "mnemonic": "마음속에 원하는 미래의 모습을 또렷하게 그려 보세요.",
+  "examples": [
+    { "word": "理想", "reading": "りそう", "meaning": "이상" },
+    { "word": "想像", "reading": "そうぞう", "meaning": "상상" }
+  ]
+}

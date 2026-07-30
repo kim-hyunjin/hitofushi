@@ -1,0 +1,142 @@
+{
+  "songSlug": "vintage",
+  "lessonNumber": 2,
+  "title": "상처 없는 삶이라는 생각",
+  "subtitle": "인용과 명사화, 깨달음을 나타내는 표현",
+  "description": "상처 없는 과거를 이상적으로 여기던 화자가 누군가를 만나 생각이 바뀌는 다섯 문장을 읽습니다.",
+  "estimatedMinutes": 22,
+  "sentences": [
+    {
+      "id": "vintage-2-1",
+      "original": "悲しい過去なんか1つもないのが",
+      "ruby": [
+        { "text": "悲", "reading": "かな" },
+        { "text": "しい" },
+        { "text": "過去", "reading": "かこ" },
+        { "text": "なんか" },
+        { "text": "1つ", "reading": "ひとつ" },
+        { "text": "もないのが" }
+      ],
+      "hiragana": "かなしい かこ なんか ひとつも ない のが",
+      "pronunciationKo": "카나시이 카코 난카 히토츠모 나이노가",
+      "translationKo": "슬픈 과거 같은 건 하나도 없는 게",
+      "grammarIds": ["noun-nanka", "hitotsu-mo-nai", "no-ga"],
+      "kanjiIds": ["悲"]
+    },
+    {
+      "id": "vintage-2-2",
+      "original": "理想的だって価値観を持ってた",
+      "ruby": [
+        { "text": "理想的", "reading": "りそうてき" },
+        { "text": "だって" },
+        { "text": "価値観", "reading": "かちかん" },
+        { "text": "を" },
+        { "text": "持", "reading": "も" },
+        { "text": "ってた" }
+      ],
+      "hiragana": "りそうてき だって かちかん を もってた",
+      "pronunciationKo": "리소오테키 닷테 카치칸오 못테타",
+      "translationKo": "이상적이라는 가치관을 가지고 있었어",
+      "grammarIds": ["datte-quotation", "teita-teta"],
+      "kanjiIds": ["想", "価"]
+    },
+    {
+      "id": "vintage-2-3",
+      "original": "そんな僕は君という人に会えて",
+      "ruby": [
+        { "text": "そんな" },
+        { "text": "僕", "reading": "ぼく" },
+        { "text": "は" },
+        { "text": "君", "reading": "きみ" },
+        { "text": "という" },
+        { "text": "人", "reading": "ひと" },
+        { "text": "に" },
+        { "text": "会", "reading": "あ" },
+        { "text": "えて" }
+      ],
+      "hiragana": "そんな ぼく は きみ という ひと に あえて",
+      "pronunciationKo": "손나 보쿠와 키미토 이우 히토니 아에테",
+      "translationKo": "그런 나는 너라는 사람을 만날 수 있어서",
+      "grammarIds": ["to-iu", "potential-form", "te-form"],
+      "kanjiIds": ["会"]
+    },
+    {
+      "id": "vintage-2-4",
+      "original": "大事なことに気付かされた",
+      "ruby": [
+        { "text": "大事", "reading": "だいじ" },
+        { "text": "なことに" },
+        { "text": "気付", "reading": "きづ" },
+        { "text": "かされた" }
+      ],
+      "hiragana": "だいじ な こと に きづかされた",
+      "pronunciationKo": "다이지나 코토니 키즈카사레타",
+      "translationKo": "소중한 것을 깨닫게 되었어",
+      "grammarIds": ["causative-passive"],
+      "kanjiIds": ["気"]
+    },
+    {
+      "id": "vintage-2-5",
+      "original": "キレイとは傷跡がないことじゃない",
+      "ruby": [
+        { "text": "キレイとは" },
+        { "text": "傷跡", "reading": "きずあと" },
+        { "text": "がないことじゃない" }
+      ],
+      "hiragana": "きれい とは きずあと が ない こと じゃない",
+      "pronunciationKo": "키레이토와 키즈아토가 나이 코토자나이",
+      "translationKo": "아름다움이란 상처 자국이 없는 게 아니야",
+      "grammarIds": ["to-wa", "koto-nominalizer", "janai"],
+      "kanjiIds": ["傷"]
+    }
+  ],
+  "vocabulary": [
+    { "id": "vintage-2-kanashii-kako", "term": "悲しい過去", "reading": "かなしいかこ", "meaning": "슬픈 과거" },
+    { "id": "vintage-2-hitotsu-mo-nai", "term": "1つもない", "reading": "ひとつもない", "meaning": "하나도 없다" },
+    { "id": "vintage-2-risouteki", "term": "理想的", "reading": "りそうてき", "meaning": "이상적" },
+    { "id": "vintage-2-kachikan", "term": "価値観", "reading": "かちかん", "meaning": "가치관" },
+    { "id": "vintage-2-motsu", "term": "持つ", "reading": "もつ", "meaning": "가지다, 지니다" },
+    { "id": "vintage-2-sonna", "term": "そんな", "reading": "そんな", "meaning": "그런" },
+    { "id": "vintage-2-to-iu-hito", "term": "〜という人", "reading": "〜というひと", "meaning": "~라는 사람" },
+    { "id": "vintage-2-aeru", "term": "会える", "reading": "あえる", "meaning": "만날 수 있다" },
+    { "id": "vintage-2-kizukasaseru", "term": "気付かされる", "reading": "きづかされる", "meaning": "깨닫게 되다", "note": "외부의 계기로 깨달았다는 느낌이 있습니다." },
+    { "id": "vintage-2-kizuato", "term": "傷跡", "reading": "きずあと", "meaning": "상처 자국, 흉터" }
+  ],
+  "quiz": [
+    {
+      "id": "vintage-2-q1",
+      "prompt": "「1つもない」의 뜻은 무엇일까요?",
+      "options": ["하나도 없다", "하나만 있다", "몇 개 있다", "하나씩 있다"],
+      "answerIndex": 0,
+      "explanation": "수량 표현에 も와 부정형이 이어지면 ‘하나도 없다’처럼 전면 부정을 나타냅니다."
+    },
+    {
+      "id": "vintage-2-q2",
+      "prompt": "「理想的だって」에서 って의 역할은?",
+      "options": ["장소 표시", "인용", "비교", "소유"],
+      "answerIndex": 1,
+      "explanation": "여기서 って는 ‘이상적이라고’처럼 생각의 내용을 인용합니다."
+    },
+    {
+      "id": "vintage-2-q3",
+      "prompt": "「君という人」와 가장 가까운 뜻은?",
+      "options": ["너와 닮은 사람", "너라는 사람", "너를 만난 사람", "너에게 온 사람"],
+      "answerIndex": 1,
+      "explanation": "명사 + という + 명사는 앞의 이름이나 내용을 뒤 명사에 붙여 설명합니다."
+    },
+    {
+      "id": "vintage-2-q4",
+      "prompt": "「気付かされた」가 더하는 느낌은?",
+      "options": ["일부러 잊었다", "스스로 감췄다", "외부의 계기로 깨닫게 됐다", "계속 고민했다"],
+      "answerIndex": 2,
+      "explanation": "사역수동형은 누군가나 어떤 경험으로 인해 깨닫게 되었다는 느낌을 줍니다."
+    },
+    {
+      "id": "vintage-2-q5",
+      "prompt": "「傷跡がないことじゃない」의 의미는?",
+      "options": ["상처가 없어야 한다", "상처가 없는 것은 아니다", "상처를 지워야 한다", "상처가 생기지 않는다"],
+      "answerIndex": 1,
+      "explanation": "こと가 앞 내용을 명사화하고 じゃない가 그것을 부정합니다."
+    }
+  ]
+}

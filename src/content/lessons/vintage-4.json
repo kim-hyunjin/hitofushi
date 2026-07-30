@@ -1,0 +1,145 @@
+{
+  "songSlug": "vintage",
+  "lessonNumber": 4,
+  "title": "함께 만들어 가는 색",
+  "subtitle": "의지형과 가정, しか〜ない",
+  "description": "둘도 없는 지금을 쌓고 두 사람만이 만들 수 있는 색을 찾아가는 다섯 문장을 배웁니다.",
+  "estimatedMinutes": 21,
+  "sentences": [
+    {
+      "id": "vintage-4-1",
+      "original": "大切に日々を重ねよう かけがえのない今を",
+      "ruby": [
+        { "text": "大切", "reading": "たいせつ" },
+        { "text": "に" },
+        { "text": "日々", "reading": "ひび" },
+        { "text": "を" },
+        { "text": "重", "reading": "かさ" },
+        { "text": "ねよう かけがえのない" },
+        { "text": "今", "reading": "いま" },
+        { "text": "を" }
+      ],
+      "hiragana": "たいせつ に ひび を かさねよう かけがえのない いま を",
+      "pronunciationKo": "타이세츠니 히비오 카사네요오 카케가에노 나이 이마오",
+      "translationKo": "둘도 없는 지금을 소중히 여기며 하루하루를 쌓아가자",
+      "grammarIds": ["volitional-form"],
+      "kanjiIds": ["重"]
+    },
+    {
+      "id": "vintage-4-2",
+      "original": "好きな色なんか特段ないけど",
+      "ruby": [
+        { "text": "好", "reading": "す" },
+        { "text": "きな" },
+        { "text": "色", "reading": "いろ" },
+        { "text": "なんか" },
+        { "text": "特段", "reading": "とくだん" },
+        { "text": "ないけど" }
+      ],
+      "hiragana": "すきな いろ なんか とくだん ない けど",
+      "pronunciationKo": "스키나 이로난카 토쿠단 나이케도",
+      "translationKo": "좋아하는 색 같은 건 딱히 없지만",
+      "grammarIds": ["noun-nanka", "kedo"],
+      "kanjiIds": ["色"]
+    },
+    {
+      "id": "vintage-4-3",
+      "original": "人生が絵画だったならどうだろう？",
+      "ruby": [
+        { "text": "人生", "reading": "じんせい" },
+        { "text": "が" },
+        { "text": "絵画", "reading": "かいが" },
+        { "text": "だったならどうだろう？" }
+      ],
+      "hiragana": "じんせい が かいが だったなら どうだろう",
+      "pronunciationKo": "진세이가 카이가 닷타나라 도오다로오",
+      "translationKo": "인생이 한 폭의 그림이라면 어떨까?",
+      "grammarIds": ["tara", "darou"],
+      "kanjiIds": ["絵", "画"]
+    },
+    {
+      "id": "vintage-4-4",
+      "original": "君との時間を重ねることでしか",
+      "ruby": [
+        { "text": "君", "reading": "きみ" },
+        { "text": "との" },
+        { "text": "時間", "reading": "じかん" },
+        { "text": "を" },
+        { "text": "重", "reading": "かさ" },
+        { "text": "ねることでしか" }
+      ],
+      "hiragana": "きみ との じかん を かさねる こと で しか",
+      "pronunciationKo": "키미토노 지칸오 카사네루 코토데시카",
+      "translationKo": "너와의 시간을 쌓아 가야만",
+      "grammarIds": ["koto-nominalizer", "shika-nai"],
+      "kanjiIds": ["重"]
+    },
+    {
+      "id": "vintage-4-5",
+      "original": "出せない色がきっと好きだ",
+      "ruby": [
+        { "text": "出", "reading": "だ" },
+        { "text": "せない" },
+        { "text": "色", "reading": "いろ" },
+        { "text": "がきっと" },
+        { "text": "好", "reading": "す" },
+        { "text": "きだ" }
+      ],
+      "hiragana": "だせない いろ が きっと すき だ",
+      "pronunciationKo": "다세나이 이로가 킷토 스키다",
+      "translationKo": "너와 시간을 쌓아야만 낼 수 있는 색이 분명 좋아",
+      "grammarIds": ["potential-form", "shika-nai"],
+      "kanjiIds": ["色"]
+    }
+  ],
+  "vocabulary": [
+    { "id": "vintage-4-taisetsu-ni", "term": "大切に", "reading": "たいせつに", "meaning": "소중히" },
+    { "id": "vintage-4-hibi", "term": "日々", "reading": "ひび", "meaning": "나날, 하루하루" },
+    { "id": "vintage-4-kasaneru", "term": "重ねる", "reading": "かさねる", "meaning": "겹치다, 쌓아 가다" },
+    { "id": "vintage-4-kakegae-no-nai", "term": "かけがえのない", "reading": "かけがえのない", "meaning": "둘도 없는, 무엇과도 바꿀 수 없는" },
+    { "id": "vintage-4-tokudan", "term": "特段", "reading": "とくだん", "meaning": "특별히, 딱히" },
+    { "id": "vintage-4-jinsei", "term": "人生", "reading": "じんせい", "meaning": "인생" },
+    { "id": "vintage-4-kaiga", "term": "絵画", "reading": "かいが", "meaning": "회화, 그림" },
+    { "id": "vintage-4-jikan", "term": "時間", "reading": "じかん", "meaning": "시간" },
+    { "id": "vintage-4-koto-de-shika", "term": "〜ことでしか", "reading": "〜ことでしか", "meaning": "~하는 것으로밖에는" },
+    { "id": "vintage-4-dasenai", "term": "出せない", "reading": "だせない", "meaning": "낼 수 없다" },
+    { "id": "vintage-4-kitto", "term": "きっと", "reading": "きっと", "meaning": "분명, 틀림없이" }
+  ],
+  "quiz": [
+    {
+      "id": "vintage-4-q1",
+      "prompt": "「重ねよう」가 나타내는 말하는 이의 태도는?",
+      "options": ["함께 쌓아가자는 의지", "쌓지 말라는 금지", "이미 쌓았다는 회상", "쌓을 수 없다는 포기"],
+      "answerIndex": 0,
+      "explanation": "重ねる의 의지형 重ねよう는 ‘쌓아가자’라는 제안과 의지를 나타냅니다."
+    },
+    {
+      "id": "vintage-4-q2",
+      "prompt": "「かけがえのない」와 가까운 뜻은?",
+      "options": ["흔한", "둘도 없는", "오래된", "예측할 수 없는"],
+      "answerIndex": 1,
+      "explanation": "다른 것으로 대신할 수 없을 만큼 소중하다는 뜻입니다."
+    },
+    {
+      "id": "vintage-4-q3",
+      "prompt": "「人生が絵画だったなら」는 어떤 가정일까요?",
+      "options": ["인생이 그림이라면", "인생이 끝났으므로", "그림을 그릴 때마다", "그림이 아니더라도"],
+      "answerIndex": 0,
+      "explanation": "명사 + だったなら는 ‘~였다면, ~이라면’이라는 가정을 만듭니다."
+    },
+    {
+      "id": "vintage-4-q4",
+      "prompt": "두 줄에 걸친 「ことでしか〜出せない」의 뜻은?",
+      "options": ["~하면 언제나 낼 수 있다", "~하는 것으로밖에 낼 수 없다", "~하기 전에 내다", "~하지 않아도 내다"],
+      "answerIndex": 1,
+      "explanation": "しか는 뒤의 부정형과 호응해 가능한 방법이 그것뿐임을 강조합니다."
+    },
+    {
+      "id": "vintage-4-q5",
+      "prompt": "「きっと」가 더하는 느낌은?",
+      "options": ["아마도 약하게 추측", "분명 그럴 것이라는 확신", "절대로 아니라는 부정", "이미 끝났다는 완료"],
+      "answerIndex": 1,
+      "explanation": "きっと는 말하는 이의 강한 예상이나 확신을 나타냅니다."
+    }
+  ]
+}

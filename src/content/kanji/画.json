@@ -1,0 +1,12 @@
+{
+  "character": "画",
+  "onyomi": ["ガ", "カク"],
+  "kunyomi": [],
+  "basicMeaning": "그림, 획, 계획",
+  "wordMeaning": "絵画（かいが）에서 예술 작품으로서의 그림을 나타냅니다.",
+  "mnemonic": "화면 안에 선을 한 획씩 더해 그림을 완성하는 모습을 떠올려 보세요.",
+  "examples": [
+    { "word": "絵画", "reading": "かいが", "meaning": "회화, 그림" },
+    { "word": "映画", "reading": "えいが", "meaning": "영화" }
+  ]
+}

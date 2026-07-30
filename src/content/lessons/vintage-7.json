@@ -1,0 +1,153 @@
+{
+  "songSlug": "vintage",
+  "lessonNumber": 7,
+  "title": "별처럼 쌓이는 지금",
+  "subtitle": "목적과 시도, 이어지는 변화",
+  "description": "추억이 별처럼 늘어나는 미래를 바라보며 지금의 마음을 말로 남기는 마지막 다섯 문장을 읽습니다.",
+  "estimatedMinutes": 21,
+  "sentences": [
+    {
+      "id": "vintage-7-1",
+      "original": "そして増えた思い出がいつか星の数ほどに",
+      "ruby": [
+        { "text": "そして" },
+        { "text": "増", "reading": "ふ" },
+        { "text": "えた" },
+        { "text": "思", "reading": "おも" },
+        { "text": "い" },
+        { "text": "出", "reading": "で" },
+        { "text": "がいつか" },
+        { "text": "星", "reading": "ほし" },
+        { "text": "の" },
+        { "text": "数", "reading": "かず" },
+        { "text": "ほどに" }
+      ],
+      "hiragana": "そして ふえた おもいで が いつか ほし の かず ほど に",
+      "pronunciationKo": "소시테 후에타 오모이데가 이츠카 호시노 카즈호도니",
+      "translationKo": "그리고 늘어난 추억이 언젠가 별의 수만큼",
+      "grammarIds": ["hodo"],
+      "kanjiIds": ["増", "星"]
+    },
+    {
+      "id": "vintage-7-2",
+      "original": "溢れることがただ嬉しいから",
+      "ruby": [
+        { "text": "溢", "reading": "あふ" },
+        { "text": "れることがただ" },
+        { "text": "嬉", "reading": "うれ" },
+        { "text": "しいから" }
+      ],
+      "hiragana": "あふれる こと が ただ うれしい から",
+      "pronunciationKo": "아후레루 코토가 타다 우레시이카라",
+      "translationKo": "넘쳐나는 일이 그저 기쁘니까",
+      "grammarIds": ["koto-nominalizer", "kara"],
+      "kanjiIds": ["溢"]
+    },
+    {
+      "id": "vintage-7-3",
+      "original": "今の心を歪まないように",
+      "ruby": [
+        { "text": "今", "reading": "いま" },
+        { "text": "の" },
+        { "text": "心", "reading": "こころ" },
+        { "text": "を" },
+        { "text": "歪", "reading": "ゆが" },
+        { "text": "まないように" }
+      ],
+      "hiragana": "いま の こころ を ゆがまない ように",
+      "pronunciationKo": "이마노 코코로오 유가마나이요오니",
+      "translationKo": "지금의 마음을 왜곡하지 않도록",
+      "grammarIds": ["nai-you-ni"],
+      "kanjiIds": ["心", "歪"]
+    },
+    {
+      "id": "vintage-7-4",
+      "original": "例える言葉を探してみるよ",
+      "ruby": [
+        { "text": "例", "reading": "たと" },
+        { "text": "える" },
+        { "text": "言葉", "reading": "ことば" },
+        { "text": "を" },
+        { "text": "探", "reading": "さが" },
+        { "text": "してみるよ" }
+      ],
+      "hiragana": "たとえる ことば を さがして みる よ",
+      "pronunciationKo": "타토에루 코토바오 사가시테미루요",
+      "translationKo": "비유할 말을 찾아볼게",
+      "grammarIds": ["te-miru"],
+      "kanjiIds": []
+    },
+    {
+      "id": "vintage-7-5",
+      "original": "連なってく日々の中を君と重ねる今を",
+      "ruby": [
+        { "text": "連", "reading": "つら" },
+        { "text": "なってく" },
+        { "text": "日々", "reading": "ひび" },
+        { "text": "の" },
+        { "text": "中", "reading": "なか" },
+        { "text": "を" },
+        { "text": "君", "reading": "きみ" },
+        { "text": "と" },
+        { "text": "重", "reading": "かさ" },
+        { "text": "ねる" },
+        { "text": "今", "reading": "いま" },
+        { "text": "を" }
+      ],
+      "hiragana": "つらなってく ひび の なか を きみ と かさねる いま を",
+      "pronunciationKo": "츠라낫테쿠 히비노 나카오 키미토 카사네루 이마오",
+      "translationKo": "이어져 가는 나날 속, 너와 함께 쌓아가는 지금을",
+      "grammarIds": ["teiku-teku", "noun-no-noun"],
+      "kanjiIds": ["連", "重"]
+    }
+  ],
+  "vocabulary": [
+    { "id": "vintage-7-fueru", "term": "増える", "reading": "ふえる", "meaning": "늘어나다" },
+    { "id": "vintage-7-itsuka", "term": "いつか", "reading": "いつか", "meaning": "언젠가" },
+    { "id": "vintage-7-hoshi-no-kazu", "term": "星の数", "reading": "ほしのかず", "meaning": "별의 수" },
+    { "id": "vintage-7-afureru", "term": "溢れる", "reading": "あふれる", "meaning": "넘치다" },
+    { "id": "vintage-7-tada", "term": "ただ", "reading": "ただ", "meaning": "그저, 단지" },
+    { "id": "vintage-7-ureshii", "term": "嬉しい", "reading": "うれしい", "meaning": "기쁘다" },
+    { "id": "vintage-7-yugamu", "term": "歪む", "reading": "ゆがむ", "meaning": "일그러지다, 왜곡되다" },
+    { "id": "vintage-7-tatoeru", "term": "例える", "reading": "たとえる", "meaning": "비유하다" },
+    { "id": "vintage-7-sagashite-miru", "term": "探してみる", "reading": "さがしてみる", "meaning": "찾아보다, 한번 찾아 시도하다" },
+    { "id": "vintage-7-tsuranaru", "term": "連なる", "reading": "つらなる", "meaning": "이어지다, 줄지어 늘어서다" }
+  ],
+  "quiz": [
+    {
+      "id": "vintage-7-q1",
+      "prompt": "「星の数ほど」가 나타내는 정도는?",
+      "options": ["별 하나만큼", "셀 수 없이 많을 만큼", "밤에만", "별보다 작게"],
+      "answerIndex": 1,
+      "explanation": "ほど는 정도를 나타내며 여기서는 별의 수에 비길 만큼 많다는 비유입니다."
+    },
+    {
+      "id": "vintage-7-q2",
+      "prompt": "「溢れることが」에서 こと의 역할은?",
+      "options": ["장소를 나타낸다", "앞 동작을 명사처럼 만든다", "과거를 나타낸다", "질문을 만든다"],
+      "answerIndex": 1,
+      "explanation": "こと는 ‘넘치는 것/일’처럼 앞의 동사를 명사화합니다."
+    },
+    {
+      "id": "vintage-7-q3",
+      "prompt": "「歪まないように」와 가장 가까운 뜻은?",
+      "options": ["일그러지지 않도록", "일그러졌기 때문에", "일그러질 때마다", "일그러져도"],
+      "answerIndex": 0,
+      "explanation": "부정형 + ように는 좋지 않은 상태가 생기지 않도록 하는 목적을 나타냅니다."
+    },
+    {
+      "id": "vintage-7-q4",
+      "prompt": "「探してみる」에서 〜てみる의 뜻은?",
+      "options": ["찾아 버리다", "한번 찾아보다", "찾고 싶지 않다", "계속 찾고 있다"],
+      "answerIndex": 1,
+      "explanation": "동사 て형 + みる는 어떤 행동을 시험 삼아 해 본다는 뜻입니다."
+    },
+    {
+      "id": "vintage-7-q5",
+      "prompt": "「連なってく」의 긴 형태는?",
+      "options": ["連なっていく", "連なってくる", "連なっている", "連なってみる"],
+      "answerIndex": 0,
+      "explanation": "〜ていく의 い가 빠진 말투로, 앞으로 이어져 가는 변화를 나타냅니다."
+    }
+  ]
+}

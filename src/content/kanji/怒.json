@@ -1,0 +1,12 @@
+{
+  "character": "怒",
+  "onyomi": ["ド"],
+  "kunyomi": ["いかる", "おこる"],
+  "basicMeaning": "화내다, 분노",
+  "wordMeaning": "喜怒哀楽（きどあいらく）에서 분노의 감정을 나타냅니다.",
+  "mnemonic": "마음속 열기가 치솟아 화가 난 순간을 떠올려 보세요.",
+  "examples": [
+    { "word": "怒る", "reading": "おこる", "meaning": "화내다" },
+    { "word": "怒り", "reading": "いかり", "meaning": "분노" }
+  ]
+}

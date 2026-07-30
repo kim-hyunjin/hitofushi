@@ -1,0 +1,12 @@
+{
+  "character": "会",
+  "onyomi": ["カイ", "エ"],
+  "kunyomi": ["あう"],
+  "basicMeaning": "만나다, 모이다",
+  "wordMeaning": "会える（あえる）로 읽어 ‘만날 수 있다’는 가능을 나타냅니다.",
+  "mnemonic": "서로 다른 사람들이 한곳에 모여 마주 보는 모습을 떠올려 보세요.",
+  "examples": [
+    { "word": "会う", "reading": "あう", "meaning": "만나다" },
+    { "word": "出会い", "reading": "であい", "meaning": "만남" }
+  ]
+}
