@@ -4,6 +4,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 import LearningDashboard, {
   type LearningLessonSummary,
 } from '../components/LearningDashboard';
+import ReadingControls from '../components/ReadingControls';
 import { withBase } from '../lib/paths';
 import { getSong } from '../lib/songs';
 
@@ -53,6 +54,7 @@ const lessonSummaries: LearningLessonSummary[] = lessons.map((entry) => {
   </section>
 
   <div class="shell learning-page">
+    <ReadingControls client:load />
     <LearningDashboard lessons={lessonSummaries} client:load />
   </div>
 </BaseLayout>

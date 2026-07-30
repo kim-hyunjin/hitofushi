@@ -81,14 +81,7 @@ const orderedKanji = [...new Set(lessonKanji)].map((character) => kanjiMap.get(c
     <div class="lesson-main">
       <ReadingControls client:load />
 
-      <section class="lesson-section" aria-labelledby="lyrics-title">
-        <div class="section-heading">
-          <div>
-            <p class="eyebrow">가사 읽기</p>
-            <h2 id="lyrics-title">{lesson.sentences.length}문장을 내 속도로</h2>
-          </div>
-          <p>읽기 모드에서는 한자에 마우스를 올리거나 초점을 맞춰 읽기를 확인하세요.</p>
-        </div>
+      <section class="lesson-section" aria-label="가사 읽기">
         <div class="sentence-list">
           {
             lesson.sentences.map((sentence, index) => (

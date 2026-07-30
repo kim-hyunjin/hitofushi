@@ -34,39 +34,10 @@
   transition: width 220ms ease;
 }
 
-.actions {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 0.5rem;
-}
-
-.actions button {
-  padding: 0.65rem;
-  border: 1px solid var(--line);
-  border-radius: 0.6rem;
-  background: var(--surface);
-  color: var(--ink);
-  font-size: 0.8rem;
-  font-weight: 750;
-  cursor: pointer;
-}
-
 .panel .storageNote {
-  margin-top: 0.75rem;
+  margin-top: 0.2rem;
   color: #8b8175;
   font-size: 0.67rem;
-}
-
-.visuallyHidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  padding: 0;
-  margin: -1px;
-  overflow: hidden;
-  clip: rect(0, 0, 0, 0);
-  white-space: nowrap;
-  border: 0;
 }
 
 @media (min-width: 64rem) {
