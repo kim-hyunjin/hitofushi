@@ -6,6 +6,8 @@
   "scripts": {
     "dev": "astro dev",
     "build": "astro check && astro build",
+    "build:pages": "astro check && PUBLIC_BASE_PATH=/jpop-japanese/ PUBLIC_SITE_URL=https://kim-hyunjin.github.io astro build",
+    "deploy": "npm run build:pages && gh-pages -d dist --nojekyll",
     "preview": "astro preview",
     "astro": "astro"
   },
@@ -16,6 +18,7 @@
   },
   "devDependencies": {
     "@astrojs/check": "^0.9.10",
+    "gh-pages": "^6.3.0",
     "typescript": "^6.0.3"
   }
 }

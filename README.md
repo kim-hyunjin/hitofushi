@@ -12,13 +12,15 @@ npm run dev
 
 정적 빌드는 `npm run build`로 확인합니다.
 
-## GitHub Pages 경로
+## GitHub Pages 배포
 
-프로젝트 페이지처럼 하위 경로에 배포할 때는 빌드 시 경로를 지정합니다.
+로컬에서 정적 사이트를 빌드하고 결과물을 `gh-pages` 브랜치에 배포합니다.
 
 ```sh
-PUBLIC_BASE_PATH=/저장소이름/ PUBLIC_SITE_URL=https://사용자명.github.io npm run build
+npm run deploy
 ```
+
+배포 주소는 <https://kim-hyunjin.github.io/jpop-japanese/>입니다.
 
 콘텐츠는 `src/content`의 lessons, grammar, kanji 컬렉션으로 분리되어 있습니다.
 문장은 문법 ID와 한자 문자만 참조하므로 공통 설명을 여러 단원에서 재사용할 수
