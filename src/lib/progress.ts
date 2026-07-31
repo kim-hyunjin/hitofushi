@@ -66,15 +66,22 @@ export function loadProgress(): ProgressState {
   }
 }
 
-export function saveProgress(next: ProgressState): void {
-  window.localStorage.setItem(STORAGE_KEY, JSON.stringify(next));
-  window.dispatchEvent(new CustomEvent(PROGRESS_EVENT, { detail: next }));
+export function saveProgress(next: ProgressState): boolean {
+  try {
+    window.localStorage.setItem(STORAGE_KEY, JSON.stringify(next));
+    window.dispatchEvent(new CustomEvent(PROGRESS_EVENT, { detail: next }));
+    return true;
+  } catch {
+    return false;
+  }
 }
 
 export function updateProgress(
   updater: (current: ProgressState) => ProgressState,
 ): ProgressState {
   const next = normalizeProgress(updater(loadProgress()));
-  saveProgress(next);
+  if (!saveProgress(next)) {
+    return loadProgress();
+  }
   return next;
 }

@@ -1,18 +1,10 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
-import { getCollection } from 'astro:content';
 import HomeLearningCta from '../components/HomeLearningCta';
+import { getOrderedLessons } from '../lib/content';
 import { withBase } from '../lib/paths';
-import { songs } from '../lib/songs';
 
-const lessons = await getCollection('lessons');
-const songOrder = new Map(songs.map((song) => [song.slug, song.sequence]));
-const orderedLessons = lessons.sort(
-  (a, b) =>
-    (songOrder.get(a.data.songSlug) ?? 999) -
-      (songOrder.get(b.data.songSlug) ?? 999) ||
-    a.data.lessonNumber - b.data.lessonNumber,
-);
+const orderedLessons = await getOrderedLessons();
 const vintageLessons = orderedLessons
   .filter((entry) => entry.data.songSlug === 'vintage')
   .sort((a, b) => a.data.lessonNumber - b.data.lessonNumber);

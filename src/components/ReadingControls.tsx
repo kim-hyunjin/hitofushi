@@ -1,10 +1,6 @@
-import { useEffect, useState } from 'preact/hooks';
-import {
-  defaultProgress,
-  loadProgress,
-  PROGRESS_EVENT,
-  updateProgress,
-} from '../lib/progress';
+import { useEffect } from 'preact/hooks';
+import { useProgress } from '../hooks/useProgress';
+import { updateProgress } from '../lib/progress';
 import type { ReadingMode } from '../lib/types';
 import styles from './ReadingControls.module.css';
 
@@ -20,33 +16,19 @@ function applyDisplay(mode: ReadingMode, showTranslations: boolean) {
 }
 
 export default function ReadingControls() {
-  const [mode, setMode] = useState<ReadingMode>(defaultProgress.readingMode);
-  const [showTranslations, setShowTranslations] = useState(
-    defaultProgress.showTranslations,
-  );
+  const { progress } = useProgress();
+  const { readingMode: mode, showTranslations } = progress;
 
   useEffect(() => {
-    const refresh = () => {
-      const saved = loadProgress();
-      setMode(saved.readingMode);
-      setShowTranslations(saved.showTranslations);
-      applyDisplay(saved.readingMode, saved.showTranslations);
-    };
-    refresh();
-    window.addEventListener(PROGRESS_EVENT, refresh);
-    return () => window.removeEventListener(PROGRESS_EVENT, refresh);
-  }, []);
+    applyDisplay(mode, showTranslations);
+  }, [mode, showTranslations]);
 
   const chooseMode = (nextMode: ReadingMode) => {
-    setMode(nextMode);
-    applyDisplay(nextMode, showTranslations);
     updateProgress((current) => ({ ...current, readingMode: nextMode }));
   };
 
   const toggleTranslations = () => {
     const next = !showTranslations;
-    setShowTranslations(next);
-    applyDisplay(mode, next);
     updateProgress((current) => ({ ...current, showTranslations: next }));
   };
 

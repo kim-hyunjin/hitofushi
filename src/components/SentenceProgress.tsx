@@ -1,25 +1,16 @@
-import { useEffect, useState } from 'preact/hooks';
-import { loadProgress, PROGRESS_EVENT, updateProgress } from '../lib/progress';
+import { useProgress } from '../hooks/useProgress';
+import { updateProgress } from '../lib/progress';
 
 interface Props {
   sentenceId: string;
 }
 
 export default function SentenceProgress({ sentenceId }: Props) {
-  const [completed, setCompleted] = useState(false);
-
-  useEffect(() => {
-    const refresh = () => {
-      setCompleted(loadProgress().completedSentences.includes(sentenceId));
-    };
-    refresh();
-    window.addEventListener(PROGRESS_EVENT, refresh);
-    return () => window.removeEventListener(PROGRESS_EVENT, refresh);
-  }, [sentenceId]);
+  const { progress } = useProgress();
+  const completed = progress.completedSentences.includes(sentenceId);
 
   const toggle = () => {
     const next = !completed;
-    setCompleted(next);
     updateProgress((current) => ({
       ...current,
       completedSentences: next

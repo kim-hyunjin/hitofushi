@@ -1,6 +1,7 @@
 ---
 import type { CollectionEntry } from 'astro:content';
 import JapaneseSpeechButton from './JapaneseSpeechButton';
+import '../styles/study-popover.css';
 
 interface Props {
   entry: CollectionEntry<'kanji'>;
@@ -30,7 +31,7 @@ const titleId = `${popoverId}-title`;
 
 <div
   id={popoverId}
-  class="popover"
+  class="popover study-popover"
   popover="auto"
   role="dialog"
   aria-labelledby={titleId}
@@ -43,7 +44,7 @@ const titleId = `${popoverId}-title`;
     </div>
     <button
       type="button"
-      class="close"
+      class="close study-popover-close"
       popovertarget={popoverId}
       popovertargetaction="hide"
       aria-label="한자 설명 닫기"
@@ -196,18 +197,6 @@ const titleId = `${popoverId}-title`;
   .popover {
     width: min(42rem, calc(100% - 1.5rem));
     max-height: min(44rem, calc(100% - 1.5rem));
-    padding: 0;
-    overflow-y: auto;
-    border: 1px solid var(--line);
-    border-radius: calc(var(--radius) + 0.25rem);
-    background: var(--surface);
-    color: var(--ink);
-    box-shadow: 0 2rem 7rem rgb(23 50 77 / 28%);
-  }
-
-  .popover::backdrop {
-    background: rgb(23 50 77 / 48%);
-    backdrop-filter: blur(0.2rem);
   }
 
   .popover header {
@@ -250,17 +239,6 @@ const titleId = `${popoverId}-title`;
   }
 
   .close {
-    display: grid;
-    width: 2.2rem;
-    aspect-ratio: 1;
-    place-items: center;
-    border: 1px solid rgb(255 255 255 / 24%);
-    border-radius: 50%;
-    background: rgb(255 255 255 / 8%);
-    color: var(--white);
-    font-size: 1.4rem;
-    line-height: 1;
-    cursor: pointer;
   }
 
   .readings {

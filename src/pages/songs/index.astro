@@ -1,10 +1,10 @@
 ---
-import { getCollection } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getOrderedLessons } from '../../lib/content';
 import { withBase } from '../../lib/paths';
 import { songs } from '../../lib/songs';
 
-const lessons = await getCollection('lessons');
+const lessons = await getOrderedLessons();
 const songCards = songs.map((song) => {
   const songLessons = lessons.filter((entry) => entry.data.songSlug === song.slug);
   return {

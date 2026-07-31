@@ -11,6 +11,7 @@ import GrammarPopover from '../../../../components/GrammarPopover.astro';
 import KanjiPopover from '../../../../components/KanjiPopover.astro';
 import { withBase } from '../../../../lib/paths';
 import { getSong } from '../../../../lib/songs';
+import { getLessonReferences } from '../../../../lib/content';
 
 export async function getStaticPaths() {
   const lessons = await getCollection('lessons');
@@ -29,28 +30,19 @@ interface Props {
 }
 
 const { lessonEntry } = Astro.props;
-const [grammarEntries, kanjiEntries] = await Promise.all([
-  getCollection('grammar'),
-  getCollection('kanji'),
-]);
+const { grammarMap, kanjiMap } = await getLessonReferences();
 
 const lesson = lessonEntry.data;
 const song = getSong(lesson.songSlug);
 if (!song) {
   throw new Error(`Missing song metadata: ${lesson.songSlug}`);
 }
-const grammarMap = new Map(
-  grammarEntries.map((entry) => [entry.id, entry]),
-);
 const lessonGrammarIds = [...new Set(lesson.sentences.flatMap((item) => item.grammarIds))];
 const missingGrammarIds = lessonGrammarIds.filter((id) => !grammarMap.has(id));
 if (missingGrammarIds.length) {
   throw new Error(`Missing grammar content: ${missingGrammarIds.join(', ')}`);
 }
 
-const kanjiMap = new Map(
-  kanjiEntries.map((entry) => [entry.data.character, entry]),
-);
 const lessonKanji = lesson.sentences.flatMap((item) => item.kanjiIds);
 const missingKanjiIds = [...new Set(lessonKanji)].filter((id) => !kanjiMap.has(id));
 if (missingKanjiIds.length) {
@@ -177,7 +169,7 @@ const orderedKanji = [...new Set(lessonKanji)].map((character) => kanjiMap.get(c
     <div class="lesson-sidebar">
       <ProgressPanel
         lessonId={lessonEntry.id}
-        sentenceCount={lesson.sentences.length}
+        sentenceIds={lesson.sentences.map((sentence) => sentence.id)}
         client:idle
       />
     </div>

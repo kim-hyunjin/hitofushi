@@ -1,0 +1,29 @@
+.study-popover {
+  padding: 0;
+  overflow-y: auto;
+  border: 1px solid var(--line);
+  border-radius: calc(var(--radius) + 0.25rem);
+  background: var(--surface);
+  color: var(--ink);
+  box-shadow: 0 2rem 7rem rgb(23 50 77 / 28%);
+}
+
+.study-popover::backdrop {
+  background: rgb(23 50 77 / 48%);
+  backdrop-filter: blur(0.2rem);
+}
+
+.study-popover-close {
+  display: grid;
+  flex: 0 0 auto;
+  width: 2.2rem;
+  aspect-ratio: 1;
+  place-items: center;
+  border: 1px solid rgb(255 255 255 / 24%);
+  border-radius: 50%;
+  background: rgb(255 255 255 / 8%);
+  color: var(--white);
+  font-size: 1.4rem;
+  line-height: 1;
+  cursor: pointer;
+}
