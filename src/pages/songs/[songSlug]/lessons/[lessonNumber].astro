@@ -49,6 +49,8 @@ if (missingKanjiIds.length) {
   throw new Error(`Missing kanji content: ${missingKanjiIds.join(', ')}`);
 }
 const orderedKanji = [...new Set(lessonKanji)].map((character) => kanjiMap.get(character)!);
+const youtubeWatchUrl = `https://www.youtube.com/watch?v=${song.youtubeVideoId}`;
+const youtubeEmbedUrl = `https://www.youtube-nocookie.com/embed/${song.youtubeVideoId}`;
 ---
 
 <BaseLayout title={lesson.title} description={lesson.description}>
@@ -72,6 +74,28 @@ const orderedKanji = [...new Set(lessonKanji)].map((character) => kanjiMap.get(c
   <div class="shell lesson-layout">
     <div class="lesson-main">
       <ReadingControls client:load />
+
+      <section class="song-player" aria-labelledby="song-player-title">
+        <div class="section-heading compact song-player-heading">
+          <div>
+            <p class="eyebrow">곡 듣기</p>
+            <h2 id="song-player-title">{song.title} 들으며 익히기</h2>
+          </div>
+          <a href={youtubeWatchUrl} target="_blank" rel="noopener noreferrer">
+            YouTube에서 보기
+          </a>
+        </div>
+        <div class="song-player-frame">
+          <iframe
+            src={youtubeEmbedUrl}
+            title={`${song.artist} - ${song.title} 공식 유튜브 영상`}
+            loading="lazy"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </section>
 
       <section class="lesson-section" aria-label="가사 읽기">
         <div class="sentence-list">
@@ -245,6 +269,48 @@ const orderedKanji = [...new Set(lessonKanji)].map((character) => kanjiMap.get(c
     margin-bottom: 4.7rem;
   }
 
+  .song-player {
+    margin: 1.5rem 0 4.7rem;
+  }
+
+  .song-player-heading {
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    gap: 1rem;
+  }
+
+  .song-player-heading h2 {
+    margin-bottom: 0;
+  }
+
+  .song-player-heading > a {
+    flex: 0 0 auto;
+    color: var(--ink-soft);
+    font-size: 0.78rem;
+    font-weight: 700;
+    text-decoration: underline;
+    text-underline-offset: 0.2em;
+  }
+
+  .song-player-frame {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    border-radius: var(--radius);
+    background: var(--ink);
+    box-shadow: 0 1rem 2.5rem rgb(27 36 43 / 12%);
+  }
+
+  .song-player-frame iframe {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+  }
+
   .section-heading {
     margin-bottom: 1.5rem;
   }
@@ -329,6 +395,18 @@ const orderedKanji = [...new Set(lessonKanji)].map((character) => kanjiMap.get(c
 
     .quiz-section {
       padding: 2rem;
+    }
+  }
+
+  @media (max-width: 31.99rem) {
+    .song-player-heading {
+      align-items: start;
+      flex-direction: column;
+    }
+
+    .song-player-frame {
+      height: 200px;
+      aspect-ratio: auto;
     }
   }
 
