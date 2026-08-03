@@ -1,0 +1,1 @@
+import{t as e}from"./JapaneseSpeechButton.DjMP2blO.js";export{e as default};
