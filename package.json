@@ -7,7 +7,7 @@
     "dev": "astro dev",
     "build": "astro check && astro build",
     "test": "vitest run",
-    "build:pages": "astro check && PUBLIC_BASE_PATH=/hitofushi/ PUBLIC_SITE_URL=https://kim-hyunjin.github.io astro build",
+    "build:pages": "astro check && cross-env PUBLIC_BASE_PATH=/hitofushi/ PUBLIC_SITE_URL=https://kim-hyunjin.github.io astro build",
     "deploy": "npm run build:pages && gh-pages -d dist --nojekyll",
     "preview": "astro preview",
     "astro": "astro"
@@ -19,6 +19,7 @@
   },
   "devDependencies": {
     "@astrojs/check": "^0.9.10",
+    "cross-env": "^10.1.0",
     "gh-pages": "^6.3.0",
     "typescript": "^6.0.3",
     "vitest": "^4.1.10"
