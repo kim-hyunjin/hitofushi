@@ -49,8 +49,8 @@ if (!songLessons.length) {
   <section class="shell song-overview">
     <div class="section-intro">
       <p class="eyebrow">학습 안내</p>
-      <h2>{songLessons.length}개 단원으로 읽는 한 곡</h2>
-      <p>{song.description} 핵심 문법과 어휘, 한자를 차근차근 익힙니다.</p>
+      <h2>{songLessons.length + 1}개 단원으로 읽는 한 곡</h2>
+      <p>{song.description} 핵심 문법과 어휘, 한자를 익힌 뒤 가사 전체를 최종 점검합니다.</p>
     </div>
 
     <div class="lesson-list">
@@ -85,6 +85,24 @@ if (!songLessons.length) {
           );
         })
       }
+      <article class="lesson-list-card final-card">
+        <div class="lesson-index">完</div>
+        <div class="lesson-summary">
+          <span>
+            최종 단원 · {songLessons.reduce((total, lesson) => total + lesson.data.sentences.length, 0)}문장
+          </span>
+          <h3>가사 전문과 최종 점검</h3>
+          <p>가사를 처음부터 끝까지 한눈에 읽고, 해석을 떠올리며 이해한 문장을 직접 점검합니다.</p>
+          <div class="lesson-tags">
+            <span>가사 전문</span>
+            <span>이해도 자가점검</span>
+            <span>자동 저장</span>
+          </div>
+        </div>
+        <a class="primary-link" href={withBase(`/songs/${song.slug}/review/`)}>
+          최종 점검 <span aria-hidden="true">→</span>
+        </a>
+      </article>
     </div>
   </section>
 </BaseLayout>
@@ -177,6 +195,15 @@ if (!songLessons.length) {
     color: var(--accent);
     font-family: Georgia, serif;
     font-size: 2rem;
+  }
+
+  .final-card {
+    border-color: #d7b955;
+    background: linear-gradient(135deg, #fffaf0, var(--surface));
+  }
+
+  .final-card .lesson-index {
+    color: #9b7810;
   }
 
   .lesson-summary > span {

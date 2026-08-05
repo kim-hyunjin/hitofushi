@@ -1,0 +1,76 @@
+{
+  "songSlug": "pretender",
+  "lessonNumber": 8,
+  "title": "영원 없이도 아름다운 결말",
+  "subtitle": "후렴 완성 및 〜なら와 〜けれど",
+  "description": "관계를 정의할 수 없다는 후렴을 완성하고, 영원도 약속도 없는 로맨스를 아름답다고 받아들이는 마지막을 읽습니다.",
+  "estimatedMinutes": 24,
+  "sentences": [
+    { "id": "pretender-8-1", "original": "グッバイ", "ruby": [{ "text": "グッバイ" }], "hiragana": "ぐっばい", "pronunciationKo": "굿바이", "translationKo": "굿바이", "grammarIds": [], "kanjiIds": [] },
+    {
+      "id": "pretender-8-2", "original": "それじゃ僕にとって君は何？",
+      "ruby": [{ "text": "それじゃ" }, { "text": "僕", "reading": "ぼく" }, { "text": "にとって" }, { "text": "君", "reading": "きみ" }, { "text": "は" }, { "text": "何", "reading": "なに" }, { "text": "？" }],
+      "hiragana": "それじゃ ぼく に とって きみ は なに",
+      "pronunciationKo": "소레자 보쿠니 톳테 키미와 나니",
+      "translationKo": "그렇다면 나에게 너는 무엇이야?",
+      "grammarIds": ["ni-totte"], "kanjiIds": ["君"]
+    },
+    {
+      "id": "pretender-8-3", "original": "答えは分からない 分かりたくもないのさ",
+      "ruby": [{ "text": "答", "reading": "こた" }, { "text": "えは" }, { "text": "分", "reading": "わ" }, { "text": "からない " }, { "text": "分", "reading": "わ" }, { "text": "かりたくもないのさ" }],
+      "hiragana": "こたえ は わからない わかりたくも ない のさ",
+      "pronunciationKo": "코타에와 와카라나이 와카리타쿠모 나이노사",
+      "translationKo": "답은 모르겠어, 알고 싶지도 않은 거야",
+      "grammarIds": ["takumonai"], "kanjiIds": ["分"]
+    },
+    {
+      "id": "pretender-8-4", "original": "たったひとつ確かなことがあるとするのならば",
+      "ruby": [{ "text": "たったひとつ" }, { "text": "確", "reading": "たし" }, { "text": "かなことがあるとするのならば" }],
+      "hiragana": "たった ひとつ たしか な こと が ある と する の ならば",
+      "pronunciationKo": "탓타 히토츠 타시카나 코토가 아루토 스루노나라바",
+      "translationKo": "단 하나 확실한 것이 있다고 한다면",
+      "grammarIds": ["koto-nominalizer", "naraba"], "kanjiIds": ["確"]
+    },
+    { "id": "pretender-8-5", "original": "「君は綺麗だ」", "ruby": [{ "text": "「" }, { "text": "君", "reading": "きみ" }, { "text": "は" }, { "text": "綺麗", "reading": "きれい" }, { "text": "だ」" }], "hiragana": "きみ は きれい だ", "pronunciationKo": "키미와 키레이다", "translationKo": "‘너는 아름다워’", "grammarIds": [], "kanjiIds": ["君", "綺", "麗"] },
+    {
+      "id": "pretender-8-6", "original": "それもこれもロマンスの定めなら悪くないよな",
+      "ruby": [{ "text": "それもこれもロマンスの" }, { "text": "定", "reading": "さだ" }, { "text": "めなら" }, { "text": "悪", "reading": "わる" }, { "text": "くないよな" }],
+      "hiragana": "それ も これ も ろまんす の さだめ なら わるく ない よ な",
+      "pronunciationKo": "소레모 코레모 로만스노 사다메나라 와루쿠나이요나",
+      "translationKo": "이것도 저것도 로맨스의 숙명이라면 나쁘지 않겠지",
+      "grammarIds": ["mo-mo", "noun-no-noun", "naraba"], "kanjiIds": ["悪"]
+    },
+    {
+      "id": "pretender-8-7", "original": "永遠も約束もないけれど",
+      "ruby": [{ "text": "永遠", "reading": "えいえん" }, { "text": "も" }, { "text": "約束", "reading": "やくそく" }, { "text": "もないけれど" }],
+      "hiragana": "えいえん も やくそく も ない けれど",
+      "pronunciationKo": "에이엔모 야쿠소쿠모 나이케레도",
+      "translationKo": "영원도 약속도 없지만",
+      "grammarIds": ["mo-mo", "kedo"], "kanjiIds": []
+    },
+    {
+      "id": "pretender-8-8", "original": "とても「綺麗だ」",
+      "ruby": [{ "text": "とても「" }, { "text": "綺麗", "reading": "きれい" }, { "text": "だ」" }],
+      "hiragana": "とても きれい だ",
+      "pronunciationKo": "토테모 키레이다",
+      "translationKo": "정말 ‘아름다워’",
+      "grammarIds": [], "kanjiIds": ["綺", "麗"]
+    }
+  ],
+  "vocabulary": [
+    { "id": "pretender-8-sadame", "term": "定め", "reading": "さだめ", "meaning": "운명, 숙명" },
+    { "id": "pretender-8-warukunai", "term": "悪くない", "reading": "わるくない", "meaning": "나쁘지 않다" },
+    { "id": "pretender-8-eien", "term": "永遠", "reading": "えいえん", "meaning": "영원" },
+    { "id": "pretender-8-yakusoku", "term": "約束", "reading": "やくそく", "meaning": "약속" },
+    { "id": "pretender-8-keredo", "term": "けれど", "reading": "けれど", "meaning": "하지만, ~지만" },
+    { "id": "pretender-8-totemo", "term": "とても", "reading": "とても", "meaning": "매우, 정말" },
+    { "id": "pretender-8-kirei", "term": "綺麗", "reading": "きれい", "meaning": "아름다움, 깨끗함" }
+  ],
+  "quiz": [
+    { "id": "pretender-8-q1", "prompt": "「それもこれも」의 뜻은?", "options": ["그것만", "이것만", "이것도 저것도", "아무것도"], "answerIndex": 2, "explanation": "AもBも는 여러 대상을 함께 포괄해 ‘A도 B도’를 나타냅니다." },
+    { "id": "pretender-8-q2", "prompt": "「定め」는 이 문맥에서 무엇을 뜻하나요?", "options": ["규칙표", "숙명", "약속", "결론"], "answerIndex": 1, "explanation": "사람의 뜻만으로 바꾸기 어려운 정해진 흐름, 즉 숙명을 뜻합니다." },
+    { "id": "pretender-8-q3", "prompt": "「悪くないよな」에 가장 가까운 느낌은?", "options": ["절대로 나쁘다", "나쁘지 않다고 스스로 수긍한다", "좋은지 묻지 않는다", "상대에게 명령한다"], "answerIndex": 1, "explanation": "부정 표현과 문장 끝 よな가 체념 속에서도 관계를 긍정해 보려는 독백을 만듭니다." },
+    { "id": "pretender-8-q4", "prompt": "「永遠も約束もない」의 구조는?", "options": ["둘 중 하나를 고른다", "영원과 약속을 모두 부정한다", "둘을 비교한다", "둘의 순서를 정한다"], "answerIndex": 1, "explanation": "AもBも + 부정형은 A도 B도 없다는 전면 부정을 나타냅니다." },
+    { "id": "pretender-8-q5", "prompt": "마지막 「とても綺麗だ」가 보여 주는 결말은?", "options": ["관계를 완전히 후회한다", "영원하지 않아도 사랑의 아름다움은 인정한다", "다른 사람을 찾는다", "운명을 바꾸겠다고 결심한다"], "answerIndex": 1, "explanation": "약속된 미래는 없어도 함께한 로맨스 자체의 아름다움을 받아들이며 끝납니다." }
+  ]
+}

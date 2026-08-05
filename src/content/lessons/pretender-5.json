@@ -1,0 +1,83 @@
+{
+  "songSlug": "pretender",
+  "lessonNumber": 5,
+  "title": "연애의 논리와 닿지 않는 마음",
+  "subtitle": "비유와 전면 부정, 되돌아온 소망",
+  "description": "남들이 말하는 연애의 논리가 낯선 풍경처럼 멀게 느껴지고, 다른 가능성을 다시 상상하는 일곱 문장을 읽습니다.",
+  "estimatedMinutes": 25,
+  "sentences": [
+    {
+      "id": "pretender-5-1", "original": "誰かが偉そうに 語る恋愛の論理",
+      "ruby": [{ "text": "誰", "reading": "だれ" }, { "text": "かが" }, { "text": "偉", "reading": "えら" }, { "text": "そうに " }, { "text": "語", "reading": "かた" }, { "text": "る" }, { "text": "恋愛", "reading": "れんあい" }, { "text": "の" }, { "text": "論理", "reading": "ろんり" }],
+      "hiragana": "だれか が えらそう に かたる れんあい の ろんり",
+      "pronunciationKo": "다레카가 에라소오니 카타루 렌아이노 론리",
+      "translationKo": "누군가가 잘난 듯이 말하는 연애의 논리",
+      "grammarIds": ["noun-no-noun"], "kanjiIds": ["恋", "愛"]
+    },
+    {
+      "id": "pretender-5-2", "original": "何ひとつとしてピンとこなくて",
+      "ruby": [{ "text": "何", "reading": "なに" }, { "text": "ひとつとしてピンとこなくて" }],
+      "hiragana": "なに ひとつ として ぴん と こなくて",
+      "pronunciationKo": "나니 히토츠토 시테 핀토 코나쿠테",
+      "translationKo": "무엇 하나 와닿지 않아서",
+      "grammarIds": ["te-form"], "kanjiIds": []
+    },
+    {
+      "id": "pretender-5-3", "original": "飛行機の窓から見下ろした 知らない街の夜景みたいだ",
+      "ruby": [{ "text": "飛行機", "reading": "ひこうき" }, { "text": "の" }, { "text": "窓", "reading": "まど" }, { "text": "から" }, { "text": "見下", "reading": "みお" }, { "text": "ろした " }, { "text": "知", "reading": "し" }, { "text": "らない" }, { "text": "街", "reading": "まち" }, { "text": "の" }, { "text": "夜景", "reading": "やけい" }, { "text": "みたいだ" }],
+      "hiragana": "ひこうき の まど から みおろした しらない まち の やけい みたいだ",
+      "pronunciationKo": "히코오키노 마도카라 미오로시타 시라나이 마치노 야케이 미타이다",
+      "translationKo": "비행기 창문에서 내려다본 낯선 거리의 야경 같아",
+      "grammarIds": ["noun-no-noun", "kara", "mitai"], "kanjiIds": ["夜"]
+    },
+    {
+      "id": "pretender-5-4", "original": "もっと違う設定で もっと違う関係で",
+      "ruby": [{ "text": "もっと" }, { "text": "違", "reading": "ちが" }, { "text": "う" }, { "text": "設定", "reading": "せってい" }, { "text": "で もっと" }, { "text": "違", "reading": "ちが" }, { "text": "う" }, { "text": "関係", "reading": "かんけい" }, { "text": "で" }],
+      "hiragana": "もっと ちがう せってい で もっと ちがう かんけい で",
+      "pronunciationKo": "못토 치가우 셋테이데 못토 치가우 칸케이데",
+      "translationKo": "좀 더 다른 설정으로, 좀 더 다른 관계로",
+      "grammarIds": [], "kanjiIds": []
+    },
+    {
+      "id": "pretender-5-5", "original": "出会える世界線 選べたらよかった",
+      "ruby": [{ "text": "出会", "reading": "であ" }, { "text": "える" }, { "text": "世界線", "reading": "せかいせん" }, { "text": " " }, { "text": "選", "reading": "えら" }, { "text": "べたらよかった" }],
+      "hiragana": "であえる せかいせん えらべたら よかった",
+      "pronunciationKo": "데아에루 세카이센 에라베타라 요캇타",
+      "translationKo": "서로 만날 수 있는 세계선을 고를 수 있었다면 좋았을 텐데",
+      "grammarIds": ["potential-form", "tara-conditional"], "kanjiIds": ["会"]
+    },
+    {
+      "id": "pretender-5-6", "original": "いたって純な心で 叶った恋を抱きしめて",
+      "ruby": [{ "text": "いたって" }, { "text": "純", "reading": "じゅん" }, { "text": "な" }, { "text": "心", "reading": "こころ" }, { "text": "で " }, { "text": "叶", "reading": "かな" }, { "text": "った" }, { "text": "恋", "reading": "こい" }, { "text": "を" }, { "text": "抱", "reading": "だ" }, { "text": "きしめて" }],
+      "hiragana": "いたって じゅん な こころ で かなった こい を だきしめて",
+      "pronunciationKo": "이탓테 준나 코코로데 카낫타 코이오 다키시메테",
+      "translationKo": "더없이 순수한 마음으로 이루어진 사랑을 끌어안고",
+      "grammarIds": ["te-form"], "kanjiIds": ["心", "恋"]
+    },
+    {
+      "id": "pretender-5-7", "original": "「好きだ」とか無責任に言えたらいいな そう願っても虚しいのさ",
+      "ruby": [{ "text": "「" }, { "text": "好", "reading": "す" }, { "text": "きだ」とか" }, { "text": "無責任", "reading": "むせきにん" }, { "text": "に" }, { "text": "言", "reading": "い" }, { "text": "えたらいいな そう" }, { "text": "願", "reading": "ねが" }, { "text": "っても" }, { "text": "虚", "reading": "むな" }, { "text": "しいのさ" }],
+      "hiragana": "すき だ とか むせきにん に いえたら いい な そう ねがっても むなしい のさ",
+      "pronunciationKo": "스키다토카 무세키닌니 이에타라 이이나 소오 네갓테모 무나시이노사",
+      "translationKo": "‘좋아해’ 같은 말을 무책임하게 할 수 있다면 좋겠어, 그렇게 바라 봐도 허무할 뿐이야",
+      "grammarIds": ["toka", "potential-form", "tara-ii", "temo"], "kanjiIds": ["虚"]
+    }
+  ],
+  "vocabulary": [
+    { "id": "pretender-5-erasou", "term": "偉そう", "reading": "えらそう", "meaning": "잘난 듯함, 거드름 피움" },
+    { "id": "pretender-5-renai-no-ronri", "term": "恋愛の論理", "reading": "れんあいのろんり", "meaning": "연애의 논리" },
+    { "id": "pretender-5-pin-to-konai", "term": "ピンとこない", "reading": "ぴんとこない", "meaning": "와닿지 않다, 감이 오지 않다" },
+    { "id": "pretender-5-miorosu", "term": "見下ろす", "reading": "みおろす", "meaning": "내려다보다" },
+    { "id": "pretender-5-yakei", "term": "夜景", "reading": "やけい", "meaning": "야경" },
+    { "id": "pretender-5-kanatta-koi", "term": "叶った恋", "reading": "かなったこい", "meaning": "이루어진 사랑" },
+    { "id": "pretender-5-musekinin", "term": "無責任", "reading": "むせきにん", "meaning": "무책임함" },
+    { "id": "pretender-5-munashii", "term": "虚しい", "reading": "むなしい", "meaning": "허무하다" }
+  ],
+  "quiz": [
+    { "id": "pretender-5-q1", "prompt": "「偉そうに」가 나타내는 태도는?", "options": ["겸손한 태도", "잘난 체하는 태도", "불안한 태도", "다정한 태도"], "answerIndex": 1, "explanation": "偉そう는 실제로 훌륭하다는 칭찬보다 잘난 듯이 보이는 태도를 비판적으로 나타냅니다." },
+    { "id": "pretender-5-q2", "prompt": "「何ひとつとして〜ない」의 뜻은?", "options": ["하나는 반드시", "무엇 하나도 ~않다", "하나씩 차례로", "무엇인지 묻다"], "answerIndex": 1, "explanation": "의문 표현과 수량 표현이 부정형과 어울려 전면 부정을 만듭니다." },
+    { "id": "pretender-5-q3", "prompt": "낯선 야경의 비유가 나타내는 것은?", "options": ["연애의 논리가 멀고 실감 나지 않음", "여행을 떠나고 싶은 마음", "도시를 잘 안다는 자신감", "밤을 무서워하는 마음"], "answerIndex": 0, "explanation": "보이기는 하지만 자기 삶과 연결되지 않는 낯선 풍경처럼 연애 이론이 와닿지 않음을 표현합니다." },
+    { "id": "pretender-5-q4", "prompt": "「叶った恋」는 어떤 사랑인가요?", "options": ["끝난 사랑", "숨긴 사랑", "이루어진 사랑", "잊은 사랑"], "answerIndex": 2, "explanation": "叶う는 소원이나 바람이 이루어지다는 뜻입니다." },
+    { "id": "pretender-5-q5", "prompt": "「言えたらいいな」의 기본 동사는?", "options": ["聞く", "語る", "言う", "願う"], "answerIndex": 2, "explanation": "言う의 가능형 言える에 〜たらいい가 붙었습니다." }
+  ]
+}

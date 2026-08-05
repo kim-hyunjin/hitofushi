@@ -1,0 +1,12 @@
+{
+  "character": "命",
+  "onyomi": ["メイ", "ミョウ"],
+  "kunyomi": ["いのち"],
+  "basicMeaning": "목숨, 운명, 명령",
+  "wordMeaning": "運命（うんめい）에서 쓰여 정해진 삶의 흐름이나 인연을 나타냅니다.",
+  "mnemonic": "한 사람에게 주어진 단 하나의 삶과 그 길을 떠올려 보세요.",
+  "examples": [
+    { "word": "運命", "reading": "うんめい", "meaning": "운명" },
+    { "word": "命", "reading": "いのち", "meaning": "목숨, 생명" }
+  ]
+}

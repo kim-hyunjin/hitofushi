@@ -35,7 +35,7 @@ describe('percent', () => {
 });
 
 describe('isLearningProgressReset', () => {
-  it('requires sentences, quiz scores, and favorites to all be empty', () => {
+  it('requires every saved learning activity to be empty', () => {
     expect(isLearningProgressReset(defaultProgress)).toBe(true);
     expect(
       isLearningProgressReset({
@@ -47,6 +47,12 @@ describe('isLearningProgressReset', () => {
       isLearningProgressReset({
         ...defaultProgress,
         favoriteVocabulary: ['word'],
+      }),
+    ).toBe(false);
+    expect(
+      isLearningProgressReset({
+        ...defaultProgress,
+        lyricsReview: { song: ['sentence'] },
       }),
     ).toBe(false);
   });

@@ -29,6 +29,16 @@ export const songs: SongDefinition[] = [
       '성과로 평가받는 일상의 무게와, 때맞춰 건네온 안부가 주는 위로를 따라갑니다.',
     youtubeVideoId: 'LbtQM793jn8',
   },
+  {
+    slug: 'pretender',
+    sequence: 3,
+    title: 'Pretender',
+    artist: 'Official髭男dism',
+    kicker: '운명이 아니어도 아름다운 마음',
+    description:
+      '이어질 수 없음을 알면서도 놓기 어려운 사랑과, 끝내 남는 아름다움을 따라갑니다.',
+    youtubeVideoId: 'TQ8WlA2GXbk',
+  },
 ];
 
 export function getSong(slug: string) {

@@ -1,0 +1,12 @@
+{
+  "character": "運",
+  "onyomi": ["ウン"],
+  "kunyomi": ["はこぶ"],
+  "basicMeaning": "옮기다, 운",
+  "wordMeaning": "運命（うんめい）에서 쓰여 사람의 힘만으로 바꾸기 어려운 운명을 나타냅니다.",
+  "mnemonic": "삶의 길 위에서 어떤 힘이 사람을 앞으로 실어 나르는 모습을 떠올려 보세요.",
+  "examples": [
+    { "word": "運命", "reading": "うんめい", "meaning": "운명" },
+    { "word": "運ぶ", "reading": "はこぶ", "meaning": "옮기다" }
+  ]
+}

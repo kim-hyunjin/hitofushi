@@ -1,0 +1,12 @@
+{
+  "character": "綺",
+  "onyomi": ["キ"],
+  "kunyomi": [],
+  "basicMeaning": "비단처럼 곱다",
+  "wordMeaning": "綺麗（きれい）에서 쓰여 눈부시고 아름다운 모습을 나타냅니다.",
+  "mnemonic": "정교하게 짜인 비단 무늬의 고운 빛을 떠올려 보세요.",
+  "examples": [
+    { "word": "綺麗", "reading": "きれい", "meaning": "아름답다, 깨끗하다" },
+    { "word": "綺羅", "reading": "きら", "meaning": "아름다운 옷, 화려함" }
+  ]
+}

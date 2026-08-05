@@ -8,6 +8,7 @@ describe('progress transfer', () => {
       ...defaultProgress,
       completedSentences: ['sentence-1'],
       quizScores: { lesson: 90 },
+      lyricsReview: { song: ['sentence-1'] },
     };
 
     expect(parseProgress(serializeProgress(progress))).toEqual(progress);
@@ -22,5 +23,13 @@ describe('progress transfer', () => {
 
   it('rejects invalid JSON', () => {
     expect(() => parseProgress('{')).toThrow();
+  });
+
+  it('normalizes final lyrics review progress', () => {
+    const progress = parseProgress(
+      '{"lyricsReview":{"vintage":["line-1","line-1",2],"broken":"nope"}}',
+    );
+
+    expect(progress.lyricsReview).toEqual({ vintage: ['line-1'] });
   });
 });

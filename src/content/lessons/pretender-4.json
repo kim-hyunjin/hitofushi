@@ -1,0 +1,59 @@
+{
+  "songSlug": "pretender",
+  "lessonNumber": 4,
+  "title": "정의할 수 없는 아름다움",
+  "subtitle": "〜にとって와 가정 〜ならば",
+  "description": "상대가 자신에게 어떤 존재인지 답하지 못하면서도 단 하나의 확신에 도달하는 후렴을 읽습니다.",
+  "estimatedMinutes": 20,
+  "sentences": [
+    { "id": "pretender-4-1", "original": "グッバイ", "ruby": [{ "text": "グッバイ" }], "hiragana": "ぐっばい", "pronunciationKo": "굿바이", "translationKo": "굿바이", "grammarIds": [], "kanjiIds": [] },
+    {
+      "id": "pretender-4-2", "original": "それじゃ僕にとって君は何？",
+      "ruby": [{ "text": "それじゃ" }, { "text": "僕", "reading": "ぼく" }, { "text": "にとって" }, { "text": "君", "reading": "きみ" }, { "text": "は" }, { "text": "何", "reading": "なに" }, { "text": "？" }],
+      "hiragana": "それじゃ ぼく に とって きみ は なに",
+      "pronunciationKo": "소레자 보쿠니 톳테 키미와 나니",
+      "translationKo": "그렇다면 나에게 너는 무엇이야?",
+      "grammarIds": ["ni-totte"], "kanjiIds": ["君"]
+    },
+    {
+      "id": "pretender-4-3", "original": "答えは分からない 分かりたくもないのさ",
+      "ruby": [{ "text": "答", "reading": "こた" }, { "text": "えは" }, { "text": "分", "reading": "わ" }, { "text": "からない " }, { "text": "分", "reading": "わ" }, { "text": "かりたくもないのさ" }],
+      "hiragana": "こたえ は わからない わかりたくも ない のさ",
+      "pronunciationKo": "코타에와 와카라나이 와카리타쿠모 나이노사",
+      "translationKo": "답은 모르겠어, 알고 싶지도 않은 거야",
+      "grammarIds": ["takumonai"], "kanjiIds": ["分"]
+    },
+    {
+      "id": "pretender-4-4", "original": "たったひとつ確かなことがあるとするのならば",
+      "ruby": [{ "text": "たったひとつ" }, { "text": "確", "reading": "たし" }, { "text": "かなことがあるとするのならば" }],
+      "hiragana": "たった ひとつ たしか な こと が ある と する の ならば",
+      "pronunciationKo": "탓타 히토츠 타시카나 코토가 아루토 스루노나라바",
+      "translationKo": "단 하나 확실한 것이 있다고 한다면",
+      "grammarIds": ["koto-nominalizer", "naraba"], "kanjiIds": ["確"]
+    },
+    {
+      "id": "pretender-4-5", "original": "「君は綺麗だ」",
+      "ruby": [{ "text": "「" }, { "text": "君", "reading": "きみ" }, { "text": "は" }, { "text": "綺麗", "reading": "きれい" }, { "text": "だ」" }],
+      "hiragana": "きみ は きれい だ",
+      "pronunciationKo": "키미와 키레이다",
+      "translationKo": "‘너는 아름다워’",
+      "grammarIds": [], "kanjiIds": ["君", "綺", "麗"]
+    }
+  ],
+  "vocabulary": [
+    { "id": "pretender-4-ni-totte", "term": "〜にとって", "reading": "〜にとって", "meaning": "~에게 있어서, ~의 관점에서" },
+    { "id": "pretender-4-kotae", "term": "答え", "reading": "こたえ", "meaning": "답" },
+    { "id": "pretender-4-wakaru", "term": "分かる", "reading": "わかる", "meaning": "알다, 이해하다" },
+    { "id": "pretender-4-tatta", "term": "たった", "reading": "たった", "meaning": "단지, 겨우" },
+    { "id": "pretender-4-hitotsu", "term": "ひとつ", "reading": "ひとつ", "meaning": "하나" },
+    { "id": "pretender-4-tashika", "term": "確か", "reading": "たしか", "meaning": "확실함" },
+    { "id": "pretender-4-kirei", "term": "綺麗", "reading": "きれい", "meaning": "아름다움, 깨끗함" }
+  ],
+  "quiz": [
+    { "id": "pretender-4-q1", "prompt": "「僕にとって」가 세우는 기준은?", "options": ["시간", "화자의 관점", "장소", "상대의 소유"], "answerIndex": 1, "explanation": "にとって는 판단이나 가치가 누구의 입장에서 성립하는지 나타냅니다." },
+    { "id": "pretender-4-q2", "prompt": "「分かりたくもない」의 뜻은?", "options": ["알 수밖에 없다", "알고 싶기도 하다", "알고 싶지도 않다", "이미 알고 있다"], "answerIndex": 2, "explanation": "〜たくもない는 ‘~하고 싶지도 않다’라는 강한 부정입니다." },
+    { "id": "pretender-4-q3", "prompt": "「たったひとつ」가 강조하는 것은?", "options": ["많은 가능성", "오직 하나뿐임", "아무것도 없음", "순서가 첫째임"], "answerIndex": 1, "explanation": "たった가 수량을 극히 적게 한정해 ‘단 하나’를 강조합니다." },
+    { "id": "pretender-4-q4", "prompt": "「あるとするのならば」의 뜻은?", "options": ["있다고 한다면", "없기 때문에", "있어서는 안 된다면", "있었던 뒤에"], "answerIndex": 0, "explanation": "とする가 가정을 세우고 ならば가 그 조건을 이어 줍니다." },
+    { "id": "pretender-4-q5", "prompt": "화자가 끝내 확신하는 한 가지는?", "options": ["둘이 다시 만난다", "자신이 운명의 사람이다", "상대가 아름답다", "답을 이미 알고 있다"], "answerIndex": 2, "explanation": "관계를 정의하지 못해도 ‘君は綺麗だ’만은 확실하다고 말합니다." }
+  ]
+}

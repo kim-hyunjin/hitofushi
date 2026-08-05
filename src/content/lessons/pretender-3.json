@@ -1,0 +1,81 @@
+{
+  "songSlug": "pretender",
+  "lessonNumber": 3,
+  "title": "운명의 사람이 아니라는 고백",
+  "subtitle": "부정과 〜難い, 〜だけで",
+  "description": "이별을 인정하면서도 떠나기 어려운 마음과, 작은 접촉이 불러오는 상반된 감정을 읽습니다.",
+  "estimatedMinutes": 21,
+  "sentences": [
+    { "id": "pretender-3-1", "original": "グッバイ", "ruby": [{ "text": "グッバイ" }], "hiragana": "ぐっばい", "pronunciationKo": "굿바이", "translationKo": "굿바이", "grammarIds": [], "kanjiIds": [] },
+    {
+      "id": "pretender-3-2",
+      "original": "君の運命のヒトは僕じゃない",
+      "ruby": [
+        { "text": "君", "reading": "きみ" }, { "text": "の" },
+        { "text": "運命", "reading": "うんめい" }, { "text": "のヒトは" },
+        { "text": "僕", "reading": "ぼく" }, { "text": "じゃない" }
+      ],
+      "hiragana": "きみ の うんめい の ひと は ぼく じゃない",
+      "pronunciationKo": "키미노 운메이노 히토와 보쿠자나이",
+      "translationKo": "너의 운명의 사람은 내가 아니야",
+      "grammarIds": ["noun-no-noun", "janai"],
+      "kanjiIds": ["君", "運", "命"]
+    },
+    {
+      "id": "pretender-3-3",
+      "original": "辛いけど否めない でも離れ難いのさ",
+      "ruby": [
+        { "text": "辛", "reading": "つら" }, { "text": "いけど" },
+        { "text": "否", "reading": "いな" }, { "text": "めない でも" },
+        { "text": "離", "reading": "はな" }, { "text": "れ" },
+        { "text": "難", "reading": "がた" }, { "text": "いのさ" }
+      ],
+      "hiragana": "つらい けど いなめない でも はなれがたい のさ",
+      "pronunciationKo": "츠라이케도 이나메나이 데모 하나레가타이노사",
+      "translationKo": "괴롭지만 부정할 수 없어, 그래도 떠나기 어려운 거야",
+      "grammarIds": ["kedo", "demo", "masu-stem-gatai"],
+      "kanjiIds": []
+    },
+    {
+      "id": "pretender-3-4",
+      "original": "その髪に触れただけで 痛いや いやでも",
+      "ruby": [
+        { "text": "その" }, { "text": "髪", "reading": "かみ" }, { "text": "に" },
+        { "text": "触", "reading": "ふ" }, { "text": "れただけで " },
+        { "text": "痛", "reading": "いた" }, { "text": "いや いやでも" }
+      ],
+      "hiragana": "その かみ に ふれた だけ で いたい や いや でも",
+      "pronunciationKo": "소노 카미니 후레타 다케데 이타이야 이야데모",
+      "translationKo": "그 머리카락에 닿기만 해도 아파, 아니, 하지만",
+      "grammarIds": ["dake-de", "demo"],
+      "kanjiIds": []
+    },
+    {
+      "id": "pretender-3-5",
+      "original": "甘いな いやいや",
+      "ruby": [{ "text": "甘", "reading": "あま" }, { "text": "いな いやいや" }],
+      "hiragana": "あまい な いやいや",
+      "pronunciationKo": "아마이나 이야이야",
+      "translationKo": "달콤하네, 아니 아니야",
+      "grammarIds": [],
+      "kanjiIds": ["甘"]
+    }
+  ],
+  "vocabulary": [
+    { "id": "pretender-3-unmei-no-hito", "term": "運命のヒト", "reading": "うんめいのひと", "meaning": "운명의 사람" },
+    { "id": "pretender-3-tsurai", "term": "辛い", "reading": "つらい", "meaning": "괴롭다, 힘들다" },
+    { "id": "pretender-3-inamenai", "term": "否めない", "reading": "いなめない", "meaning": "부정할 수 없다" },
+    { "id": "pretender-3-hanaregatai", "term": "離れ難い", "reading": "はなれがたい", "meaning": "떠나기 어렵다" },
+    { "id": "pretender-3-kami", "term": "髪", "reading": "かみ", "meaning": "머리카락" },
+    { "id": "pretender-3-fureru", "term": "触れる", "reading": "ふれる", "meaning": "닿다, 만지다" },
+    { "id": "pretender-3-itai", "term": "痛い", "reading": "いたい", "meaning": "아프다" },
+    { "id": "pretender-3-amai", "term": "甘い", "reading": "あまい", "meaning": "달다, 달콤하다" }
+  ],
+  "quiz": [
+    { "id": "pretender-3-q1", "prompt": "「僕じゃない」의 뜻은?", "options": ["나일지도 몰라", "내가 아니야", "나와 같아", "나여야 해"], "answerIndex": 1, "explanation": "じゃない는 명사를 부정하는 회화적인 표현입니다." },
+    { "id": "pretender-3-q2", "prompt": "「否めない」와 가장 가까운 뜻은?", "options": ["인정할 수 없다", "부정할 수 없다", "잊을 수 없다", "말할 수 없다"], "answerIndex": 1, "explanation": "否む는 부정하다라는 뜻이며, 가능 부정형으로 ‘부정할 수 없다’가 됩니다." },
+    { "id": "pretender-3-q3", "prompt": "「離れ難い」의 難い가 나타내는 것은?", "options": ["쉽게 떠날 수 없음", "떠나라는 명령", "떠난 경험", "떠날 예정"], "answerIndex": 0, "explanation": "동사 어간 + 難い는 감정이나 상황상 그 행동을 하기 매우 어렵다는 뜻입니다." },
+    { "id": "pretender-3-q4", "prompt": "「触れただけで」의 뜻은?", "options": ["닿기 위해서", "닿기 전부터", "닿은 것만으로", "닿지 않더라도"], "answerIndex": 2, "explanation": "だけで는 그 한 가지 조건만으로 결과가 생긴다는 뜻입니다." },
+    { "id": "pretender-3-q5", "prompt": "「痛い」와 「甘い」가 함께 놓인 효과는?", "options": ["감정이 완전히 사라진다", "사랑의 아픔과 달콤함이 동시에 드러난다", "맛을 평가한다", "상대에게 화를 낸다"], "answerIndex": 1, "explanation": "떠나야 하는 아픔과 접촉의 달콤함이 충돌하는 화자의 마음을 보여 줍니다." }
+  ]
+}

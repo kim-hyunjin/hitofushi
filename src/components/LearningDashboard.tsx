@@ -54,7 +54,7 @@ export default function LearningDashboard({ lessons }: Props) {
 
   const resetLearningProgress = () => {
     const confirmed = window.confirm(
-      '익힌 문장, 퀴즈 점수와 즐겨찾기를 모두 초기화할까요? 읽기 설정은 유지됩니다.',
+      '익힌 문장, 퀴즈 점수, 가사 최종 점검과 즐겨찾기를 모두 초기화할까요? 읽기 설정은 유지됩니다.',
     );
     if (!confirmed) return;
 
@@ -62,6 +62,7 @@ export default function LearningDashboard({ lessons }: Props) {
       ...current,
       completedSentences: [],
       quizScores: {},
+      lyricsReview: {},
       favoriteVocabulary: [],
     }));
     setResetMessage(
@@ -80,7 +81,7 @@ export default function LearningDashboard({ lessons }: Props) {
           <p class="eyebrow">학습 기록 관리</p>
           <h2 id="progress-transfer-title">전체 진도 옮기기</h2>
           <p>
-            익힌 문장, 퀴즈 최고 점수, 즐겨찾기 어휘와 읽기 설정을 JSON 파일로
+            익힌 문장, 퀴즈 최고 점수, 가사 최종 점검, 즐겨찾기 어휘와 읽기 설정을 JSON 파일로
             보관하거나 다른 브라우저로 가져올 수 있습니다.
           </p>
         </div>

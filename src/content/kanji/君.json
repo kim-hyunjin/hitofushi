@@ -1,0 +1,12 @@
+{
+  "character": "君",
+  "onyomi": ["クン"],
+  "kunyomi": ["きみ"],
+  "basicMeaning": "그대, 너",
+  "wordMeaning": "君（きみ）로 읽어 화자가 가까이 여기고 사랑하는 상대를 가리킵니다.",
+  "mnemonic": "가까운 사람을 마주 보며 다정하게 ‘너’라고 부르는 장면을 떠올려 보세요.",
+  "examples": [
+    { "word": "君", "reading": "きみ", "meaning": "너, 그대" },
+    { "word": "君たち", "reading": "きみたち", "meaning": "너희들" }
+  ]
+}

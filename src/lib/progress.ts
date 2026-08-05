@@ -7,6 +7,7 @@ export interface ProgressState {
   version: 1;
   completedSentences: string[];
   quizScores: Record<string, number>;
+  lyricsReview: Record<string, string[]>;
   favoriteVocabulary: string[];
   readingMode: ReadingMode;
   showTranslations: boolean;
@@ -16,6 +17,7 @@ export const defaultProgress: ProgressState = {
   version: 1,
   completedSentences: [],
   quizScores: {},
+  lyricsReview: {},
   favoriteVocabulary: [],
   readingMode: 'beginner',
   showTranslations: true,
@@ -40,6 +42,23 @@ export function normalizeProgress(value: unknown): ProgressState {
             Object.entries(candidate.quizScores).filter(
               ([key, score]) => typeof key === 'string' && typeof score === 'number',
             ),
+          )
+        : {},
+    lyricsReview:
+      candidate.lyricsReview && typeof candidate.lyricsReview === 'object'
+        ? Object.fromEntries(
+            Object.entries(candidate.lyricsReview)
+              .filter(([songSlug, sentenceIds]) =>
+                typeof songSlug === 'string' && Array.isArray(sentenceIds),
+              )
+              .map(([songSlug, sentenceIds]) => [
+                songSlug,
+                [...new Set(
+                  (sentenceIds as unknown[]).filter(
+                    (item): item is string => typeof item === 'string',
+                  ),
+                )],
+              ]),
           )
         : {},
     favoriteVocabulary: Array.isArray(candidate.favoriteVocabulary)

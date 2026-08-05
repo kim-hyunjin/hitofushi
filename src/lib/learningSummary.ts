@@ -36,6 +36,7 @@ export function isLearningProgressReset(progress: ProgressState): boolean {
   return (
     progress.completedSentences.length === 0 &&
     Object.keys(progress.quizScores).length === 0 &&
+    Object.values(progress.lyricsReview).every((sentenceIds) => sentenceIds.length === 0) &&
     progress.favoriteVocabulary.length === 0
   );
 }

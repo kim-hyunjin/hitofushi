@@ -1,0 +1,124 @@
+{
+  "songSlug": "pretender",
+  "lessonNumber": 1,
+  "title": "예상대로 시작된 일인극",
+  "subtitle": "〜通り와 조건형 〜ば",
+  "description": "사랑이 시작되자 자신이 주인공이 아니라 관객이었음을 깨닫는 첫 여섯 문장을 읽습니다.",
+  "estimatedMinutes": 23,
+  "sentences": [
+    {
+      "id": "pretender-1-1",
+      "original": "君とのラブストーリー それは予想通り",
+      "ruby": [
+        { "text": "君", "reading": "きみ" },
+        { "text": "とのラブストーリー それは" },
+        { "text": "予想", "reading": "よそう" },
+        { "text": "通", "reading": "どお" },
+        { "text": "り" }
+      ],
+      "hiragana": "きみ との らぶすとーりー それ は よそうどおり",
+      "pronunciationKo": "키미토노 라부스토오리이 소레와 요소오도오리",
+      "translationKo": "너와의 러브스토리, 그건 예상대로",
+      "grammarIds": ["noun-no-noun", "doori"],
+      "kanjiIds": ["君", "想", "通"]
+    },
+    {
+      "id": "pretender-1-2",
+      "original": "いざ始まればひとり芝居だ",
+      "ruby": [
+        { "text": "いざ" },
+        { "text": "始", "reading": "はじ" },
+        { "text": "まればひとり" },
+        { "text": "芝居", "reading": "しばい" },
+        { "text": "だ" }
+      ],
+      "hiragana": "いざ はじまれば ひとりしばい だ",
+      "pronunciationKo": "이자 하지마레바 히토리시바이다",
+      "translationKo": "막상 시작하고 보니 일인극이야",
+      "grammarIds": ["ba-conditional"],
+      "kanjiIds": []
+    },
+    {
+      "id": "pretender-1-3",
+      "original": "ずっとそばにいたって 結局ただの観客だ",
+      "ruby": [
+        { "text": "ずっとそばにいたって " },
+        { "text": "結局", "reading": "けっきょく" },
+        { "text": "ただの" },
+        { "text": "観客", "reading": "かんきゃく" },
+        { "text": "だ" }
+      ],
+      "hiragana": "ずっと そば に いたって けっきょく ただ の かんきゃく だ",
+      "pronunciationKo": "즛토 소바니 이탓테 켓쿄쿠 타다노 칸캬쿠다",
+      "translationKo": "계속 곁에 있어도 결국 그저 관객이야",
+      "grammarIds": ["tte-concessive", "noun-no-noun"],
+      "kanjiIds": []
+    },
+    {
+      "id": "pretender-1-4",
+      "original": "感情のないアイムソーリー それはいつも通り",
+      "ruby": [
+        { "text": "感情", "reading": "かんじょう" },
+        { "text": "のないアイムソーリー それはいつも" },
+        { "text": "通", "reading": "どお" },
+        { "text": "り" }
+      ],
+      "hiragana": "かんじょう の ない あいむそーりー それ は いつもどおり",
+      "pronunciationKo": "칸죠오노 나이 아이무소오리이 소레와 이츠모도오리",
+      "translationKo": "감정 없는 ‘아임 쏘리’, 그건 평소처럼",
+      "grammarIds": ["noun-no-noun", "doori"],
+      "kanjiIds": ["感", "通"]
+    },
+    {
+      "id": "pretender-1-5",
+      "original": "慣れてしまえば悪くはないけど",
+      "ruby": [
+        { "text": "慣", "reading": "な" },
+        { "text": "れてしまえば" },
+        { "text": "悪", "reading": "わる" },
+        { "text": "くはないけど" }
+      ],
+      "hiragana": "なれて しまえば わるく は ない けど",
+      "pronunciationKo": "나레테 시마에바 와루쿠와 나이케도",
+      "translationKo": "익숙해져 버리면 나쁘지는 않겠지만",
+      "grammarIds": ["te-shimau", "ba-conditional", "kedo"],
+      "kanjiIds": ["悪"]
+    },
+    {
+      "id": "pretender-1-6",
+      "original": "君とのロマンスは人生柄 続きはしないことを知った",
+      "ruby": [
+        { "text": "君", "reading": "きみ" },
+        { "text": "とのロマンスは" },
+        { "text": "人生柄", "reading": "じんせいがら" },
+        { "text": " " },
+        { "text": "続", "reading": "つづ" },
+        { "text": "きはしないことを" },
+        { "text": "知", "reading": "し" },
+        { "text": "った" }
+      ],
+      "hiragana": "きみ との ろまんす は じんせいがら つづき は しない こと を しった",
+      "pronunciationKo": "키미토노 로만스와 진세이가라 츠즈키와 시나이 코토오 싯타",
+      "translationKo": "너와의 로맨스는 내 삶의 형편상 이어지지 않을 것을 알았어",
+      "grammarIds": ["noun-no-noun", "koto-nominalizer"],
+      "kanjiIds": ["君", "生"]
+    }
+  ],
+  "vocabulary": [
+    { "id": "pretender-1-yosoudoori", "term": "予想通り", "reading": "よそうどおり", "meaning": "예상대로" },
+    { "id": "pretender-1-iza", "term": "いざ", "reading": "いざ", "meaning": "자, 막상", "note": "결정적인 순간이 실제로 닥쳤음을 강조합니다." },
+    { "id": "pretender-1-hitorishibai", "term": "ひとり芝居", "reading": "ひとりしばい", "meaning": "일인극, 혼자만의 연기" },
+    { "id": "pretender-1-kekkyoku", "term": "結局", "reading": "けっきょく", "meaning": "결국" },
+    { "id": "pretender-1-kankyaku", "term": "観客", "reading": "かんきゃく", "meaning": "관객" },
+    { "id": "pretender-1-kanjou", "term": "感情", "reading": "かんじょう", "meaning": "감정" },
+    { "id": "pretender-1-nareru", "term": "慣れる", "reading": "なれる", "meaning": "익숙해지다" },
+    { "id": "pretender-1-jinseigara", "term": "人生柄", "reading": "じんせいがら", "meaning": "살아온 형편상, 삶의 성격상", "note": "일반적인 정형어라기보다 가사에서 人生과 柄를 결합한 표현입니다." }
+  ],
+  "quiz": [
+    { "id": "pretender-1-q1", "prompt": "「予想通り」의 뜻은?", "options": ["예상대로", "예상과 달리", "갑자기", "언젠가"], "answerIndex": 0, "explanation": "通り는 앞의 기준과 실제가 같다는 뜻으로, 予想通り는 ‘예상대로’입니다." },
+    { "id": "pretender-1-q2", "prompt": "「始まれば」의 기본형은?", "options": ["始める", "始まる", "終わる", "続ける"], "answerIndex": 1, "explanation": "자동사 始まる가 조건형 始まれば로 바뀌었습니다." },
+    { "id": "pretender-1-q3", "prompt": "「いたって」가 나타내는 양보는?", "options": ["곁에 있었기 때문에", "곁에 있어도", "곁에 있기 전에", "곁에 있고 싶어서"], "answerIndex": 1, "explanation": "동사 た형 + って는 회화적으로 ‘~해도’를 나타낼 수 있습니다." },
+    { "id": "pretender-1-q4", "prompt": "화자가 자신을 「観客」라고 부르는 이유는?", "options": ["공연을 좋아해서", "관계의 주인공이 되지 못해서", "연기를 배우려고", "상대를 응원하려고"], "answerIndex": 1, "explanation": "가까이 있어도 사랑의 주인공이 아니라 바라보기만 하는 존재라는 자조가 담겼습니다." },
+    { "id": "pretender-1-q5", "prompt": "「慣れてしまえば」의 しまう가 더하는 느낌은?", "options": ["완료와 체념", "허가", "추측", "명령"], "answerIndex": 0, "explanation": "익숙해지는 일이 끝내 일어나 버린 듯한 완료와 아쉬움의 느낌을 더합니다." }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "songSlug": "pretender",
+  "lessonNumber": 2,
+  "title": "다른 세계선을 바라는 마음",
+  "subtitle": "가능형과 〜たらいい",
+  "description": "설정과 관계, 성격과 가치관이 달랐다면 사랑을 전할 수 있었을지 바라는 네 문장을 읽습니다.",
+  "estimatedMinutes": 19,
+  "sentences": [
+    {
+      "id": "pretender-2-1",
+      "original": "もっと違う設定で もっと違う関係で",
+      "ruby": [
+        { "text": "もっと" }, { "text": "違", "reading": "ちが" }, { "text": "う" },
+        { "text": "設定", "reading": "せってい" }, { "text": "で もっと" },
+        { "text": "違", "reading": "ちが" }, { "text": "う" }, { "text": "関係", "reading": "かんけい" }, { "text": "で" }
+      ],
+      "hiragana": "もっと ちがう せってい で もっと ちがう かんけい で",
+      "pronunciationKo": "못토 치가우 셋테이데 못토 치가우 칸케이데",
+      "translationKo": "좀 더 다른 설정으로, 좀 더 다른 관계로",
+      "grammarIds": [],
+      "kanjiIds": []
+    },
+    {
+      "id": "pretender-2-2",
+      "original": "出会える世界線 選べたらよかった",
+      "ruby": [
+        { "text": "出会", "reading": "であ" }, { "text": "える" },
+        { "text": "世界線", "reading": "せかいせん" }, { "text": " " },
+        { "text": "選", "reading": "えら" }, { "text": "べたらよかった" }
+      ],
+      "hiragana": "であえる せかいせん えらべたら よかった",
+      "pronunciationKo": "데아에루 세카이센 에라베타라 요캇타",
+      "translationKo": "서로 만날 수 있는 세계선을 고를 수 있었다면 좋았을 텐데",
+      "grammarIds": ["potential-form", "tara-conditional"],
+      "kanjiIds": ["会"]
+    },
+    {
+      "id": "pretender-2-3",
+      "original": "もっと違う性格で もっと違う価値観で",
+      "ruby": [
+        { "text": "もっと" }, { "text": "違", "reading": "ちが" }, { "text": "う" },
+        { "text": "性格", "reading": "せいかく" }, { "text": "で もっと" },
+        { "text": "違", "reading": "ちが" }, { "text": "う" }, { "text": "価値観", "reading": "かちかん" }, { "text": "で" }
+      ],
+      "hiragana": "もっと ちがう せいかく で もっと ちがう かちかん で",
+      "pronunciationKo": "못토 치가우 세이카쿠데 못토 치가우 카치칸데",
+      "translationKo": "좀 더 다른 성격으로, 좀 더 다른 가치관으로",
+      "grammarIds": [],
+      "kanjiIds": ["価"]
+    },
+    {
+      "id": "pretender-2-4",
+      "original": "愛を伝えられたらいいな そう願っても無駄だから",
+      "ruby": [
+        { "text": "愛", "reading": "あい" }, { "text": "を" },
+        { "text": "伝", "reading": "つた" }, { "text": "えられたらいいな そう" },
+        { "text": "願", "reading": "ねが" }, { "text": "っても" },
+        { "text": "無駄", "reading": "むだ" }, { "text": "だから" }
+      ],
+      "hiragana": "あい を つたえられたら いい な そう ねがっても むだ だから",
+      "pronunciationKo": "아이오 츠타에라레타라 이이나 소오 네갓테모 무다다카라",
+      "translationKo": "사랑을 전할 수 있다면 좋겠어, 그렇게 바라 봐도 소용없으니까",
+      "grammarIds": ["potential-form", "tara-ii", "temo", "kara"],
+      "kanjiIds": ["愛"]
+    }
+  ],
+  "vocabulary": [
+    { "id": "pretender-2-settei", "term": "設定", "reading": "せってい", "meaning": "설정" },
+    { "id": "pretender-2-kankei", "term": "関係", "reading": "かんけい", "meaning": "관계" },
+    { "id": "pretender-2-deaeru", "term": "出会える", "reading": "であえる", "meaning": "만날 수 있다" },
+    { "id": "pretender-2-sekaisen", "term": "世界線", "reading": "せかいせん", "meaning": "세계선, 서로 다른 가능성의 세계" },
+    { "id": "pretender-2-seikaku", "term": "性格", "reading": "せいかく", "meaning": "성격" },
+    { "id": "pretender-2-kachikan", "term": "価値観", "reading": "かちかん", "meaning": "가치관" },
+    { "id": "pretender-2-ai-wo-tsutaeru", "term": "愛を伝える", "reading": "あいをつたえる", "meaning": "사랑을 전하다" },
+    { "id": "pretender-2-muda", "term": "無駄", "reading": "むだ", "meaning": "헛됨, 소용없음" }
+  ],
+  "quiz": [
+    { "id": "pretender-2-q1", "prompt": "「出会える」는 어떤 형태인가요?", "options": ["수동형", "가능형", "사역형", "명령형"], "answerIndex": 1, "explanation": "出会う의 가능형으로 ‘만날 수 있다’는 뜻입니다." },
+    { "id": "pretender-2-q2", "prompt": "「選べたらよかった」에 담긴 느낌은?", "options": ["지금 선택하라는 명령", "선택할 수 없었던 과거에 대한 아쉬움", "이미 선택한 데 대한 만족", "선택을 거부하는 마음"], "answerIndex": 1, "explanation": "가능형 과거 조건과 よかった가 결합해 실현되지 않은 바람을 나타냅니다." },
+    { "id": "pretender-2-q3", "prompt": "「価値観」의 뜻은?", "options": ["세계관", "가치관", "인생관", "외모"], "answerIndex": 1, "explanation": "무엇에 가치를 두는지에 관한 관점이나 기준을 뜻합니다." },
+    { "id": "pretender-2-q4", "prompt": "「伝えられたらいいな」와 가장 가까운 번역은?", "options": ["전하지 않으면 안 된다", "전할 수 있으면 좋겠다", "전했다고 생각한다", "전하지 말았어야 한다"], "answerIndex": 1, "explanation": "가능형 伝えられる와 〜たらいい가 소망을 만듭니다." },
+    { "id": "pretender-2-q5", "prompt": "「願っても」의 ても는 무엇을 나타내나요?", "options": ["원인", "양보", "목적", "인용"], "answerIndex": 1, "explanation": "바라더라도 결과는 달라지지 않는다는 양보입니다." }
+  ]
+}

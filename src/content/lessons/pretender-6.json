@@ -1,0 +1,60 @@
+{
+  "songSlug": "pretender",
+  "lessonNumber": 6,
+  "title": "맞잡은 손 너머의 끝",
+  "subtitle": "〜たびに와 미래의 부재",
+  "description": "손을 잡고 있는 현재와 상대가 없는 미래가 맞부딪치며 커지는 아픔을 다섯 문장으로 읽습니다.",
+  "estimatedMinutes": 19,
+  "sentences": [
+    { "id": "pretender-6-1", "original": "グッバイ", "ruby": [{ "text": "グッバイ" }], "hiragana": "ぐっばい", "pronunciationKo": "굿바이", "translationKo": "굿바이", "grammarIds": [], "kanjiIds": [] },
+    {
+      "id": "pretender-6-2", "original": "繋いだ手の向こうにエンドライン",
+      "ruby": [{ "text": "繋", "reading": "つな" }, { "text": "いだ" }, { "text": "手", "reading": "て" }, { "text": "の" }, { "text": "向", "reading": "む" }, { "text": "こうにエンドライン" }],
+      "hiragana": "つないだ て の むこう に えんどらいん",
+      "pronunciationKo": "츠나이다 테노 무코오니 엔도라인",
+      "translationKo": "맞잡은 손 너머에 엔드라인",
+      "grammarIds": ["noun-no-noun"], "kanjiIds": []
+    },
+    {
+      "id": "pretender-6-3", "original": "引き伸ばすたびに 疼きだす未来には",
+      "ruby": [{ "text": "引", "reading": "ひ" }, { "text": "き" }, { "text": "伸", "reading": "の" }, { "text": "ばすたびに " }, { "text": "疼", "reading": "うず" }, { "text": "きだす" }, { "text": "未来", "reading": "みらい" }, { "text": "には" }],
+      "hiragana": "ひきのばす たび に うずきだす みらい に は",
+      "pronunciationKo": "히키노바스 타비니 우즈키다스 미라이니와",
+      "translationKo": "끝을 미룰 때마다 욱신거리기 시작하는 미래에는",
+      "grammarIds": ["tabi-ni"], "kanjiIds": []
+    },
+    {
+      "id": "pretender-6-4", "original": "君はいない その事実に Cry…",
+      "ruby": [{ "text": "君", "reading": "きみ" }, { "text": "はいない その" }, { "text": "事実", "reading": "じじつ" }, { "text": "に Cry…" }],
+      "hiragana": "きみ は いない その じじつ に くらい",
+      "pronunciationKo": "키미와 이나이 소노 지지츠니 크라이",
+      "translationKo": "너는 없어, 그 사실에 Cry…",
+      "grammarIds": [], "kanjiIds": ["君"]
+    },
+    {
+      "id": "pretender-6-5", "original": "そりゃ苦しいよな",
+      "ruby": [{ "text": "そりゃ" }, { "text": "苦", "reading": "くる" }, { "text": "しいよな" }],
+      "hiragana": "そりゃ くるしい よ な",
+      "pronunciationKo": "소랴 쿠루시이요나",
+      "translationKo": "그야 괴롭겠지",
+      "grammarIds": [], "kanjiIds": []
+    }
+  ],
+  "vocabulary": [
+    { "id": "pretender-6-tsunagu", "term": "繋ぐ", "reading": "つなぐ", "meaning": "잇다, 잡다" },
+    { "id": "pretender-6-te-no-mukou", "term": "手の向こう", "reading": "てのむこう", "meaning": "손 너머" },
+    { "id": "pretender-6-end-line", "term": "エンドライン", "reading": "えんどらいん", "meaning": "끝을 나타내는 선" },
+    { "id": "pretender-6-hikinobasu", "term": "引き伸ばす", "reading": "ひきのばす", "meaning": "늘이다, 미루다" },
+    { "id": "pretender-6-uzukidasu", "term": "疼きだす", "reading": "うずきだす", "meaning": "욱신거리기 시작하다" },
+    { "id": "pretender-6-mirai", "term": "未来", "reading": "みらい", "meaning": "미래" },
+    { "id": "pretender-6-jijitsu", "term": "事実", "reading": "じじつ", "meaning": "사실" },
+    { "id": "pretender-6-sorya", "term": "そりゃ", "reading": "そりゃ", "meaning": "그야, 그거야", "note": "それは가 줄어든 회화형입니다." }
+  ],
+  "quiz": [
+    { "id": "pretender-6-q1", "prompt": "「繋いだ」의 기본형은?", "options": ["繋ぐ", "離す", "伸ばす", "触れる"], "answerIndex": 0, "explanation": "繋ぐ의 과거형이 繋いだ입니다." },
+    { "id": "pretender-6-q2", "prompt": "가사의 「エンドライン」이 상징하는 것은?", "options": ["새로운 출발", "관계의 예정된 끝", "여행의 목적지", "경기의 승리"], "answerIndex": 1, "explanation": "맞잡은 손 너머에도 결국 관계의 끝이 기다리고 있음을 나타냅니다." },
+    { "id": "pretender-6-q3", "prompt": "「〜たびに」의 뜻은?", "options": ["~하기 전에", "~할 때마다", "~한 뒤에만", "~하지 않도록"], "answerIndex": 1, "explanation": "같은 행동이 일어날 때마다 뒤의 결과도 되풀이됨을 나타냅니다." },
+    { "id": "pretender-6-q4", "prompt": "「疼きだす」의 だす가 나타내는 것은?", "options": ["동작의 시작", "동작의 금지", "동작의 완료", "가능성"], "answerIndex": 0, "explanation": "동사 어간 + だす는 어떤 움직임이나 상태가 시작됨을 나타낼 수 있습니다." },
+    { "id": "pretender-6-q5", "prompt": "「そりゃ」의 원래 형태는?", "options": ["それで", "それを", "それは", "それなら"], "answerIndex": 2, "explanation": "そりゃ는 それは가 줄어든 구어적인 표현입니다." }
+  ]
+}
