@@ -1,5 +1,6 @@
 ---
 import '../styles/global.css';
+import ThemeSelector from '../components/ThemeSelector.astro';
 import { withBase } from '../lib/paths';
 
 interface Props {
@@ -12,12 +13,30 @@ const pageTitle = title === 'HitoFushi' ? title : `${title} | HitoFushi`;
 ---
 
 <!doctype html>
-<html lang="ko" data-reading-mode="beginner" data-show-translations="true">
+<html lang="ko" data-theme="indigo-ume" data-reading-mode="beginner" data-show-translations="true">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
     <meta name="description" content={description} />
-    <meta name="theme-color" content="#17324d" />
+    <meta name="theme-color" content="#26354d" />
+    <script is:inline>
+      (() => {
+        const savedTheme = (() => {
+          try {
+            return localStorage.getItem('hitofushi-theme');
+          } catch {
+            return null;
+          }
+        })();
+        const theme = savedTheme === 'classic' ? 'classic' : 'indigo-ume';
+        document.documentElement.dataset.theme = theme;
+        if (theme === 'classic') {
+          document
+            .querySelector('meta[name="theme-color"]')
+            ?.setAttribute('content', '#17324d');
+        }
+      })();
+    </script>
     <title>{pageTitle}</title>
   </head>
   <body>
@@ -31,10 +50,13 @@ const pageTitle = title === 'HitoFushi' ? title : `${title} | HitoFushi`;
             <small>한 소절씩, 내 속도로</small>
           </span>
         </a>
-        <nav aria-label="주요 메뉴">
-          <a href={withBase('/songs/')}>노래 목록</a>
-          <a href={withBase('/my-learning/')}>내 학습</a>
-        </nav>
+        <div class="header-actions">
+          <nav aria-label="주요 메뉴">
+            <a href={withBase('/songs/')}>노래 목록</a>
+            <a href={withBase('/my-learning/')}>내 학습</a>
+          </nav>
+          <ThemeSelector />
+        </div>
       </div>
     </header>
 
@@ -70,8 +92,8 @@ const pageTitle = title === 'HitoFushi' ? title : `${title} | HitoFushi`;
   .site-header {
     position: relative;
     z-index: 10;
-    border-bottom: 1px solid rgb(23 50 77 / 12%);
-    background: rgb(247 243 234 / 88%);
+    border-bottom: 1px solid rgb(var(--ink-rgb) / 12%);
+    background: rgb(var(--paper-rgb) / 88%);
     backdrop-filter: blur(1rem);
   }
 
@@ -123,6 +145,13 @@ const pageTitle = title === 'HitoFushi' ? title : `${title} | HitoFushi`;
     gap: 0.35rem;
   }
 
+  .header-actions {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 0.55rem;
+  }
+
   .site-header nav a {
     padding: 0.5rem 0.65rem;
     border-radius: 99rem;
@@ -149,7 +178,7 @@ const pageTitle = title === 'HitoFushi' ? title : `${title} | HitoFushi`;
 
   .footer-inner p {
     margin: 0;
-    color: #bdc9d2;
+    color: var(--on-ink-soft);
     font-size: 0.8rem;
   }
 
@@ -161,6 +190,23 @@ const pageTitle = title === 'HitoFushi' ? title : `${title} | HitoFushi`;
     .site-header nav a {
       padding-inline: 0.9rem;
       font-size: 0.85rem;
+    }
+  }
+
+  @media (max-width: 35rem) {
+    .header-inner {
+      min-height: 4.4rem;
+      flex-wrap: wrap;
+      padding-block: 0.65rem;
+    }
+
+    .brand small {
+      display: none;
+    }
+
+    .header-actions {
+      width: 100%;
+      justify-content: space-between;
     }
   }
 </style>

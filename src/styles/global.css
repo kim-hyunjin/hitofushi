@@ -1,16 +1,26 @@
 :root {
-  --ink: #17324d;
-  --ink-soft: #526476;
-  --paper: #f7f3ea;
-  --surface: #fffdf8;
+  --ink: #26354d;
+  --ink-rgb: 38 53 77;
+  --ink-soft: #647080;
+  --paper: #f7f3f1;
+  --paper-rgb: 247 243 241;
+  --surface: #fffaf8;
+  --surface-rgb: 255 250 248;
   --white: #ffffff;
-  --line: #dcd7cc;
-  --accent: #ef6a4c;
-  --accent-dark: #bd412d;
-  --accent-pale: #fde3d9;
-  --mint: #b8d8cb;
-  --yellow: #f2cf68;
-  --shadow: 0 16px 50px rgb(23 50 77 / 9%);
+  --line: #ddd3d2;
+  --accent: #b95d70;
+  --accent-dark: #8f3f51;
+  --accent-pale: #f6dde2;
+  --mint: #bad4c5;
+  --yellow: #dcc16b;
+  --yellow-rgb: 220 193 107;
+  --ink-hover: #354965;
+  --on-ink-soft: #c8d1dc;
+  --on-ink-muted: #dbe2e8;
+  --surface-muted: #eee8e5;
+  --ink-faint: #81777a;
+  --track: #dcd6d3;
+  --shadow: 0 16px 50px rgb(var(--ink-rgb) / 10%);
   --radius: 1.25rem;
   --shell: min(72rem, calc(100% - 2rem));
   font-family:
@@ -18,6 +28,30 @@
   color: var(--ink);
   background: var(--paper);
   font-synthesis: none;
+}
+
+:root[data-theme='classic'] {
+  --ink: #17324d;
+  --ink-rgb: 23 50 77;
+  --ink-soft: #526476;
+  --paper: #f7f3ea;
+  --paper-rgb: 247 243 234;
+  --surface: #fffdf8;
+  --surface-rgb: 255 253 248;
+  --line: #dcd7cc;
+  --accent: #ef6a4c;
+  --accent-dark: #bd412d;
+  --accent-pale: #fde3d9;
+  --mint: #b8d8cb;
+  --yellow: #f2cf68;
+  --yellow-rgb: 242 207 104;
+  --ink-hover: #244968;
+  --on-ink-soft: #bdc9d2;
+  --on-ink-muted: #dce5e8;
+  --surface-muted: #ece9e1;
+  --ink-faint: #8b8175;
+  --track: #dedbd3;
+  --shadow: 0 16px 50px rgb(var(--ink-rgb) / 9%);
 }
 
 * {
@@ -32,7 +66,7 @@ body {
   min-width: 20rem;
   margin: 0;
   background:
-    radial-gradient(circle at 85% 5%, rgb(242 207 104 / 16%), transparent 20rem),
+    radial-gradient(circle at 85% 5%, rgb(var(--yellow-rgb) / 18%), transparent 20rem),
     var(--paper);
   color: var(--ink);
   line-height: 1.65;
@@ -95,14 +129,14 @@ input:focus-visible {
   color: var(--white);
   font-weight: 800;
   cursor: pointer;
-  box-shadow: 0 8px 20px rgb(23 50 77 / 14%);
+  box-shadow: 0 8px 20px rgb(var(--ink-rgb) / 14%);
   transition:
     transform 160ms ease,
     background 160ms ease;
 }
 
 .primary-link:hover {
-  background: #244968;
+  background: var(--ink-hover);
   transform: translateY(-2px);
 }
 
