@@ -1,0 +1,1 @@
+import{i as e,r as t}from"./hooks.module.CC80yzJ6.js";import{n,r,t as i}from"./progress.3IBdQ6QU.js";function a(){let[a,o]=t(n),[s,c]=t(!1);return e(()=>{let e=()=>{o(r()),c(!0)};return e(),window.addEventListener(i,e),window.addEventListener(`storage`,e),()=>{window.removeEventListener(i,e),window.removeEventListener(`storage`,e)}},[]),{progress:a,ready:s}}export{a as t};
