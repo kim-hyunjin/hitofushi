@@ -63,12 +63,6 @@ const pageTitle = title === 'HitoFushi' ? title : `${title} | HitoFushi`;
     <main id="main-content">
       <slot />
     </main>
-
-    <footer class="site-footer">
-      <div class="shell footer-inner">
-        <p><strong>이 사이트는 AI의 도움으로 제작되었습니다.</strong></p>
-      </div>
-    </footer>
   </body>
 </html>
 
@@ -163,27 +157,6 @@ const pageTitle = title === 'HitoFushi' ? title : `${title} | HitoFushi`;
   .site-header nav a:hover {
     background: var(--white);
     color: var(--ink);
-  }
-
-  .site-footer {
-    padding: 2.2rem 0;
-    background: var(--ink);
-    color: var(--white);
-  }
-
-  .footer-inner {
-    display: grid;
-    gap: 0.2rem;
-  }
-
-  .footer-inner p {
-    margin: 0;
-    color: var(--on-ink-soft);
-    font-size: 0.8rem;
-  }
-
-  .footer-inner strong {
-    color: var(--yellow);
   }
 
   @media (min-width: 42rem) {

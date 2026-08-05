@@ -3,11 +3,9 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 import HomeLearningCta from '../components/HomeLearningCta';
 import { getOrderedLessons } from '../lib/content';
 import { withBase } from '../lib/paths';
+import { songs } from '../lib/songs';
 
 const orderedLessons = await getOrderedLessons();
-const vintageLessons = orderedLessons
-  .filter((entry) => entry.data.songSlug === 'vintage')
-  .sort((a, b) => a.data.lessonNumber - b.data.lessonNumber);
 const homeLessonSummaries = orderedLessons.map((entry) => ({
   id: entry.id,
   href: withBase(
@@ -16,23 +14,32 @@ const homeLessonSummaries = orderedLessons.map((entry) => ({
   sentenceIds: entry.data.sentences.map((sentence) => sentence.id),
   vocabularyIds: entry.data.vocabulary.map((item) => item.id),
 }));
-const sentenceCount = vintageLessons.reduce(
-  (total, entry) => total + entry.data.sentences.length,
-  0,
-);
-const vocabularyCount = vintageLessons.reduce(
-  (total, entry) => total + entry.data.vocabulary.length,
-  0,
-);
-const kanjiCount = new Set(
-  vintageLessons.flatMap((entry) =>
-    entry.data.sentences.flatMap((sentence) => sentence.kanjiIds),
-  ),
-).size;
-const estimatedMinutes = vintageLessons.reduce(
-  (total, entry) => total + entry.data.estimatedMinutes,
-  0,
-);
+const courseCards = songs.map((song) => {
+  const songLessons = orderedLessons.filter(
+    (entry) => entry.data.songSlug === song.slug,
+  );
+
+  return {
+    ...song,
+    sentenceCount: songLessons.reduce(
+      (total, entry) => total + entry.data.sentences.length,
+      0,
+    ),
+    vocabularyCount: songLessons.reduce(
+      (total, entry) => total + entry.data.vocabulary.length,
+      0,
+    ),
+    kanjiCount: new Set(
+      songLessons.flatMap((entry) =>
+        entry.data.sentences.flatMap((sentence) => sentence.kanjiIds),
+      ),
+    ).size,
+    estimatedMinutes: songLessons.reduce(
+      (total, entry) => total + entry.data.estimatedMinutes,
+      0,
+    ),
+  };
+});
 ---
 
 <BaseLayout
@@ -93,22 +100,27 @@ const estimatedMinutes = vintageLessons.reduce(
     </div>
   </section>
 
-  <section class="shell current-course">
-    <div>
-      <p class="eyebrow">첫 번째 곡</p>
-      <h2>Vintage</h2>
-      <p>
-        상처를 피하던 마음에서 함께한 시간과 기억을 사랑하는 마음까지,
-        한 곡의 흐름을 일곱 단원으로 배워요.
-      </p>
-    </div>
-    <div class="course-stats">
-      <span><strong>{sentenceCount}</strong> 문장</span>
-      <span><strong>{vocabularyCount}</strong> 단어</span>
-      <span><strong>{kanjiCount}</strong> 한자</span>
-      <span><strong>{estimatedMinutes}</strong> 분</span>
-    </div>
-    <a class="primary-link" href={withBase('/songs/vintage/')}>학습 내용 살펴보기</a>
+  <section class="shell current-courses" aria-label="노래별 학습 과정">
+    {
+      courseCards.map((song) => (
+        <article class="current-course">
+          <div>
+            <p class="eyebrow">{song.sequence}번째 곡</p>
+            <h2>{song.title}</h2>
+            <p>{song.description}</p>
+          </div>
+          <div class="course-stats">
+            <span><strong>{song.sentenceCount}</strong> 문장</span>
+            <span><strong>{song.vocabularyCount}</strong> 단어</span>
+            <span><strong>{song.kanjiCount}</strong> 한자</span>
+            <span><strong>{song.estimatedMinutes}</strong> 분</span>
+          </div>
+          <a class="primary-link" href={withBase(`/songs/${song.slug}/`)}>
+            학습 내용 살펴보기
+          </a>
+        </article>
+      ))
+    }
   </section>
 </BaseLayout>
 
@@ -221,8 +233,13 @@ const estimatedMinutes = vintageLessons.reduce(
   }
 
   .home-section,
-  .current-course {
+  .current-courses {
     margin-bottom: 5rem;
+  }
+
+  .current-courses {
+    display: grid;
+    gap: 1.25rem;
   }
 
   .mode-preview-grid {
