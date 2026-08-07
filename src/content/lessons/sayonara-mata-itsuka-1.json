@@ -33,7 +33,7 @@
       "hiragana": "みあげた さき には つばめ が とんでいた き の ない かお で",
       "pronunciationKo": "미아게타 사키니와 츠바메가 톤데이타 키노나이 카오데",
       "translationKo": "올려다본 곳에는 제비가 날고 있었다, 무심한 얼굴로",
-      "grammarIds": ["teita-teta", "noun-no-noun"],
+      "grammarIds": ["teita-teta"],
       "kanjiIds": ["先", "気", "顔"]
     },
     {
