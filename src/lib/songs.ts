@@ -74,9 +74,9 @@ export const songs: SongDefinition[] = [
     sequence: 7,
     title: '怪獣の花唄',
     artist: 'Vaundy',
-    kicker: '消えない歌と青春の記憶',
+    kicker: '사라지지 않는 노래와 청춘의 기억',
     description:
-      '姿を消した友だちの歌と、眠れない夜に輝いた時間を追うように読みます。',
+      '모습을 감춘 친구의 노래와 잠들지 못한 밤에 빛나던 시간을 따라갑니다.',
     youtubeVideoId: 'UM9XNpgrqVk',
   },
 ];

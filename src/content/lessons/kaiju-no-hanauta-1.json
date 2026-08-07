@@ -33,7 +33,7 @@
       "hiragana": "どこ に いって しまった の",
       "pronunciationKo": "도코니 잇테 시마타노",
       "translationKo": "어디로 가 버린 거야?",
-      "grammarIds": ["te-shimau", "verb-nominalizer-no"],
+      "grammarIds": ["te-shimau", "sentence-final-no"],
       "kanjiIds": []
     },
     {
@@ -63,7 +63,7 @@
       "hiragana": "うたい わらう かお が せんめい だ",
       "pronunciationKo": "우타이 와라우 카오가 센메이다",
       "translationKo": "노래하며 웃는 얼굴이 선명해",
-      "grammarIds": ["te-form"],
+      "grammarIds": ["verb-continuative-form"],
       "kanjiIds": ["歌", "笑", "顔"]
     },
     {
