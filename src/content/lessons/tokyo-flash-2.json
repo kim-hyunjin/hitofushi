@@ -45,7 +45,7 @@
       "hiragana": "STAGE4 の がん に かかっている みたいかい",
       "pronunciationKo": "스테이지 포오노 간니 카캇테이루 미타이카이",
       "translationKo": "STAGE 4의 암에 걸린 것 같니?",
-      "grammarIds": ["teiru", "mitai", "no-kai"],
+      "grammarIds": ["teiru", "mitai"],
       "kanjiIds": ["癌"]
     },
     {
