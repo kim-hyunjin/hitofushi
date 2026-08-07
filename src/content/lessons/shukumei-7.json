@@ -9,7 +9,7 @@
     {"id":"shukumei-7-1","original":"緊張から不安が芽生えて","ruby":[{"text":"緊張","reading":"きんちょう"},{"text":"から"},{"text":"不安","reading":"ふあん"},{"text":"が"},{"text":"芽生","reading":"めば"},{"text":"えて"}],"hiragana":"きんちょう から ふあん が めばえて","pronunciationKo":"킨초오카라 후안가 메바에테","translationKo":"긴장에서 불안이 싹터서","grammarIds":["kara","te-form"],"kanjiIds":[]},
     {"id":"shukumei-7-2","original":"根を張るみたいに 僕らを支配する","ruby":[{"text":"根","reading":"ね"},{"text":"を"},{"text":"張","reading":"は"},{"text":"るみたいに "},{"text":"僕","reading":"ぼく"},{"text":"らを"},{"text":"支配","reading":"しはい"},{"text":"する"}],"hiragana":"ね を はる みたい に ぼくら を しはい する","pronunciationKo":"네오 하루 미타이니 보쿠라오 시하이스루","translationKo":"뿌리를 내리듯 우리를 지배해","grammarIds":["mitai"],"kanjiIds":["僕"]},
     {"id":"shukumei-7-3","original":"そんなものに負けてたまるかと","ruby":[{"text":"そんなものに"},{"text":"負","reading":"ま"},{"text":"けてたまるかと"}],"hiragana":"そんな もの に まけて たまるか と","pronunciationKo":"손나 모노니 마케테 타마루카토","translationKo":"그런 것에 지고 말겠느냐고",
-      "grammarIds":["te-tamaru-ka","tte-quotation"],"kanjiIds":[]},
+      "grammarIds":["te-tamaru-ka","to-quotation"],"kanjiIds":[]},
     {"id":"shukumei-7-4","original":"今 宿命ってやつを燃やして 暴れ出す","ruby":[{"text":"今","reading":"いま"},{"text":" "},{"text":"宿命","reading":"しゅくめい"},{"text":"ってやつを"},{"text":"燃","reading":"も"},{"text":"やして "},{"text":"暴","reading":"あば"},{"text":"れ"},{"text":"出","reading":"だ"},{"text":"す"}],"hiragana":"いま しゅくめい って やつ を もやして あばれだす","pronunciationKo":"이마 슈쿠메잇테 야츠오 모야시테 아바레다스","translationKo":"지금 숙명이라는 녀석을 불태워 힘껏 날뛰기 시작해","grammarIds":["tte-quotation","te-form","verb-stem-dasu"],"kanjiIds":["今","宿","命"]}
   ],
   "vocabulary": [
