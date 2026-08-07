@@ -1,0 +1,74 @@
+{
+  "songSlug": "odoriko",
+  "lessonNumber": 7,
+  "title": "우리가 흩어진 뒤 남는 노래",
+  "subtitle": "〜に乗って와 추측의 〜だろう",
+  "description": "시대가 바뀌어도 사랑으로 살아가고, 두 사람이 사라진 뒤에는 사랑의 노래가 남으리라는 마지막을 두 번 되새깁니다.",
+  "estimatedMinutes": 24,
+  "sentences": [
+    {
+      "id": "odoriko-7-1", "original": "時代に乗って僕たちは",
+      "ruby": [{ "text": "時代", "reading": "じだい" }, { "text": "に" }, { "text": "乗", "reading": "の" }, { "text": "って" }, { "text": "僕", "reading": "ぼく" }, { "text": "たちは" }],
+      "hiragana": "じだい に のって ぼくたち は", "pronunciationKo": "지다이니 놋테 보쿠타치와", "translationKo": "시대의 흐름에 올라탄 우리는",
+      "grammarIds": ["te-form"], "kanjiIds": ["時", "代", "僕"]
+    },
+    {
+      "id": "odoriko-7-2", "original": "変わらず愛に生きるだろう",
+      "ruby": [{ "text": "変", "reading": "か" }, { "text": "わらず" }, { "text": "愛", "reading": "あい" }, { "text": "に" }, { "text": "生", "reading": "い" }, { "text": "きるだろう" }],
+      "hiragana": "かわらず あい に いきる だろう", "pronunciationKo": "카와라즈 아이니 이키루다로오", "translationKo": "변함없이 사랑에 살겠지",
+      "grammarIds": ["zuni", "darou"], "kanjiIds": ["変", "愛", "生"]
+    },
+    {
+      "id": "odoriko-7-3", "original": "僕らが散って残るのは",
+      "ruby": [{ "text": "僕", "reading": "ぼく" }, { "text": "らが" }, { "text": "散", "reading": "ち" }, { "text": "って" }, { "text": "残", "reading": "のこ" }, { "text": "るのは" }],
+      "hiragana": "ぼくら が ちって のこる の は", "pronunciationKo": "보쿠라가 칫테 노코루노와", "translationKo": "우리가 흩어진 뒤 남는 것은",
+      "grammarIds": ["te-form", "verb-nominalizer-no", "nowa"], "kanjiIds": ["僕", "残"]
+    },
+    {
+      "id": "odoriko-7-4", "original": "変わらぬ愛の歌なんだろうな",
+      "ruby": [{ "text": "変", "reading": "か" }, { "text": "わらぬ" }, { "text": "愛", "reading": "あい" }, { "text": "の" }, { "text": "歌", "reading": "うた" }, { "text": "なんだろうな" }],
+      "hiragana": "かわらぬ あい の うた なんだろう な", "pronunciationKo": "카와라누 아이노 우타난다로오나", "translationKo": "변치 않는 사랑의 노래겠지",
+      "grammarIds": ["nu-negative", "noun-no-noun", "darou"], "kanjiIds": ["変", "愛", "歌"]
+    },
+    {
+      "id": "odoriko-7-5", "original": "時代に乗って僕たちは",
+      "ruby": [{ "text": "時代", "reading": "じだい" }, { "text": "に" }, { "text": "乗", "reading": "の" }, { "text": "って" }, { "text": "僕", "reading": "ぼく" }, { "text": "たちは" }],
+      "hiragana": "じだい に のって ぼくたち は", "pronunciationKo": "지다이니 놋테 보쿠타치와", "translationKo": "시대의 흐름에 올라탄 우리는",
+      "grammarIds": ["te-form"], "kanjiIds": ["時", "代", "僕"]
+    },
+    {
+      "id": "odoriko-7-6", "original": "変わらず愛に生きるだろう",
+      "ruby": [{ "text": "変", "reading": "か" }, { "text": "わらず" }, { "text": "愛", "reading": "あい" }, { "text": "に" }, { "text": "生", "reading": "い" }, { "text": "きるだろう" }],
+      "hiragana": "かわらず あい に いきる だろう", "pronunciationKo": "카와라즈 아이니 이키루다로오", "translationKo": "변함없이 사랑에 살겠지",
+      "grammarIds": ["zuni", "darou"], "kanjiIds": ["変", "愛", "生"]
+    },
+    {
+      "id": "odoriko-7-7", "original": "僕らが散って残るのは",
+      "ruby": [{ "text": "僕", "reading": "ぼく" }, { "text": "らが" }, { "text": "散", "reading": "ち" }, { "text": "って" }, { "text": "残", "reading": "のこ" }, { "text": "るのは" }],
+      "hiragana": "ぼくら が ちって のこる の は", "pronunciationKo": "보쿠라가 칫테 노코루노와", "translationKo": "우리가 흩어진 뒤 남는 것은",
+      "grammarIds": ["te-form", "verb-nominalizer-no", "nowa"], "kanjiIds": ["僕", "残"]
+    },
+    {
+      "id": "odoriko-7-8", "original": "変わらぬ愛の歌なんだろうな",
+      "ruby": [{ "text": "変", "reading": "か" }, { "text": "わらぬ" }, { "text": "愛", "reading": "あい" }, { "text": "の" }, { "text": "歌", "reading": "うた" }, { "text": "なんだろうな" }],
+      "hiragana": "かわらぬ あい の うた なんだろう な", "pronunciationKo": "카와라누 아이노 우타난다로오나", "translationKo": "변치 않는 사랑의 노래겠지",
+      "grammarIds": ["nu-negative", "noun-no-noun", "darou"], "kanjiIds": ["変", "愛", "歌"]
+    }
+  ],
+  "vocabulary": [
+    { "id": "odoriko-7-jidai", "term": "時代", "reading": "じだい", "meaning": "시대" },
+    { "id": "odoriko-7-noru", "term": "時代に乗る", "reading": "じだいにのる", "meaning": "시대의 흐름을 타다" },
+    { "id": "odoriko-7-kawarazu", "term": "変わらず", "reading": "かわらず", "meaning": "변함없이" },
+    { "id": "odoriko-7-chiru", "term": "散る", "reading": "ちる", "meaning": "흩어지다, 지다" },
+    { "id": "odoriko-7-nokoru", "term": "残る", "reading": "のこる", "meaning": "남다" },
+    { "id": "odoriko-7-kawaranu", "term": "変わらぬ", "reading": "かわらぬ", "meaning": "변하지 않는", "note": "変わらない와 같은 뜻의 문어적인 부정형입니다." },
+    { "id": "odoriko-7-utau", "term": "歌", "reading": "うた", "meaning": "노래" }
+  ],
+  "quiz": [
+    { "id": "odoriko-7-q1", "prompt": "「時代に乗る」의 문맥상 의미는?", "options": ["시간표를 외우다", "시대의 흐름을 타다", "과거로 돌아가다", "나이를 숨기다"], "answerIndex": 1, "explanation": "乗る는 탈것뿐 아니라 유행이나 시대의 흐름에 올라탄다는 비유에도 쓰입니다." },
+    { "id": "odoriko-7-q2", "prompt": "「変わらず」와 「変わらぬ」의 관계는?", "options": ["서로 반대말이다", "둘 다 ‘변하지 않고/않는’이라는 부정이다", "하나는 과거이고 하나는 미래다", "발음만 같고 뜻은 다르다"], "answerIndex": 1, "explanation": "둘 다 変わる의 부정 표현입니다. 〜ず는 주로 부사적으로, 〜ぬ는 뒤 명사를 꾸미는 문어적 형태로 쓰였습니다." },
+    { "id": "odoriko-7-q3", "prompt": "「僕らが散って残るのは」에서 の의 역할은?", "options": ["僕ら의 소유를 나타낸다", "残る를 ‘남는 것’으로 명사화한다", "질문을 만든다", "歌를 생략한다"], "answerIndex": 1, "explanation": "残るの는 ‘남는 것’이라는 명사 덩어리가 되고 は가 그 내용을 화제로 꺼냅니다." },
+    { "id": "odoriko-7-q4", "prompt": "「なんだろうな」가 주는 말투는?", "options": ["확정적인 명령", "생각을 되새기는 추측과 여운", "상대의 말을 직접 인용", "강한 부정"], "answerIndex": 1, "explanation": "だろう의 추측에 설명의 んだ와 독백의 な가 더해져 ‘아마 ~겠지’라는 사색적인 여운을 남깁니다." },
+    { "id": "odoriko-7-q5", "prompt": "마지막 연에서 두 사람이 흩어진 뒤 남는다고 말하는 것은?", "options": ["피해자의 얼굴", "시대의 유행", "변치 않는 사랑의 노래", "두고 온 꿈"], "answerIndex": 2, "explanation": "사람은 흩어져도 그들이 부른 사랑의 노래는 변치 않고 남으리라는 결말입니다." }
+  ]
+}

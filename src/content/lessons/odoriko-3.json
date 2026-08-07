@@ -1,0 +1,49 @@
+{
+  "songSlug": "odoriko",
+  "lessonNumber": 3,
+  "title": "꿈속에서 한 번 만난 사람",
+  "subtitle": "질문의 の와 〜しか〜ない",
+  "description": "꿈속에 두고 온 만남과, 단 한 번뿐인 만남인데도 생겨난 마음을 대화체로 읽습니다.",
+  "estimatedMinutes": 18,
+  "sentences": [
+    {
+      "id": "odoriko-3-1", "original": "あのね、私あなたに会ったの",
+      "ruby": [{ "text": "あのね、" }, { "text": "私", "reading": "わたし" }, { "text": "あなたに" }, { "text": "会", "reading": "あ" }, { "text": "ったの" }],
+      "hiragana": "あのね わたし あなた に あった の", "pronunciationKo": "아노네, 와타시 아나타니 앗타노", "translationKo": "있잖아, 나 너를 만났어",
+      "grammarIds": ["sentence-final-no"], "kanjiIds": ["私", "会"]
+    },
+    {
+      "id": "odoriko-3-2", "original": "夢の中に置いてきたけどね",
+      "ruby": [{ "text": "夢", "reading": "ゆめ" }, { "text": "の" }, { "text": "中", "reading": "なか" }, { "text": "に" }, { "text": "置", "reading": "お" }, { "text": "いてきたけどね" }],
+      "hiragana": "ゆめ の なか に おいてきた けど ね", "pronunciationKo": "유메노 나카니 오이테키타케도네", "translationKo": "꿈속에 두고 오긴 했지만",
+      "grammarIds": ["noun-no-noun", "teiku-teku", "kedo"], "kanjiIds": ["夢", "置"]
+    },
+    {
+      "id": "odoriko-3-3", "original": "ねぇ、どうして私が好きなの",
+      "ruby": [{ "text": "ねぇ、どうして" }, { "text": "私", "reading": "わたし" }, { "text": "が" }, { "text": "好", "reading": "す" }, { "text": "きなの" }],
+      "hiragana": "ねぇ どうして わたし が すき な の", "pronunciationKo": "네에, 도오시테 와타시가 스키나노", "translationKo": "있잖아, 왜 내가 좋은 거야?",
+      "grammarIds": ["sentence-final-no"], "kanjiIds": ["私"]
+    },
+    {
+      "id": "odoriko-3-4", "original": "一度しか会ったことがないのにね",
+      "ruby": [{ "text": "一度", "reading": "いちど" }, { "text": "しか" }, { "text": "会", "reading": "あ" }, { "text": "ったことがないのにね" }],
+      "hiragana": "いちど しか あった こと が ない のに ね", "pronunciationKo": "이치도시카 앗타코토가 나이노니네", "translationKo": "한 번밖에 만난 적이 없는데 말이야",
+      "grammarIds": ["shika-nai", "koto-nominalizer", "noni"], "kanjiIds": ["会"]
+    }
+  ],
+  "vocabulary": [
+    { "id": "odoriko-3-anone", "term": "あのね", "reading": "あのね", "meaning": "있잖아, 저기 말이야" },
+    { "id": "odoriko-3-yume", "term": "夢", "reading": "ゆめ", "meaning": "꿈" },
+    { "id": "odoriko-3-doushite", "term": "どうして", "reading": "どうして", "meaning": "왜, 어째서" },
+    { "id": "odoriko-3-suki", "term": "好き", "reading": "すき", "meaning": "좋아함, 좋아하다" },
+    { "id": "odoriko-3-ichido", "term": "一度", "reading": "いちど", "meaning": "한 번" },
+    { "id": "odoriko-3-attanokoto", "term": "会ったことがある", "reading": "あったことがある", "meaning": "만난 적이 있다" }
+  ],
+  "quiz": [
+    { "id": "odoriko-3-q1", "prompt": "말을 꺼낼 때 쓰는 「あのね」와 가장 가까운 표현은?", "options": ["잘 가", "있잖아", "어서 와", "그럼에도"], "answerIndex": 1, "explanation": "あのね는 상대의 주의를 부드럽게 끌며 이야기를 시작하는 말입니다." },
+    { "id": "odoriko-3-q2", "prompt": "「夢の中」에서 の의 역할은?", "options": ["두 명사를 잇는다", "질문을 만든다", "장소를 떠난다", "과거를 만든다"], "answerIndex": 0, "explanation": "명사 + の + 명사 구조로 夢가 中를 꾸며 ‘꿈속’이 됩니다." },
+    { "id": "odoriko-3-q3", "prompt": "「好きなの」 끝의 の가 주는 느낌은?", "options": ["딱딱한 명령", "이유나 설명을 묻는 부드러운 질문", "완전한 부정", "강한 금지"], "answerIndex": 1, "explanation": "문장 끝의 の는 회화에서 사정이나 이유를 묻는 부드러운 질문을 만듭니다." },
+    { "id": "odoriko-3-q4", "prompt": "「一度しか〜ない」의 뜻은?", "options": ["한 번도 없다", "한 번밖에 없다", "두 번 이상이다", "언젠가는 있다"], "answerIndex": 1, "explanation": "しか는 뒤의 부정형과 함께 쓰여 범위를 ‘그것뿐’으로 한정합니다." },
+    { "id": "odoriko-3-q5", "prompt": "「会ったことがない」가 말하는 것은?", "options": ["만날 수 없다", "만나지 않을 것이다", "만난 경험이 없다", "만나고 싶지 않다"], "answerIndex": 2, "explanation": "동사 과거형 + ことがある/ない는 과거의 경험 유무를 나타냅니다." }
+  ]
+}

@@ -39,6 +39,16 @@ export const songs: SongDefinition[] = [
       '이어질 수 없음을 알면서도 놓기 어려운 사랑과, 끝내 남는 아름다움을 따라갑니다.',
     youtubeVideoId: 'TQ8WlA2GXbk',
   },
+  {
+    slug: 'odoriko',
+    sequence: 4,
+    title: '踊り子',
+    artist: 'Vaundy',
+    kicker: '돌고 돌아 남는 사랑의 노래',
+    description:
+      '두고 온 기억을 주워 담고, 다시 시작하고 싶은 두 사람의 미래와 변치 않는 사랑을 따라갑니다.',
+    youtubeVideoId: '7HgJIAUtICU',
+  },
 ];
 
 export function getSong(slug: string) {

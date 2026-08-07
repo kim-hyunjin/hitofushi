@@ -1,0 +1,12 @@
+{
+  "character": "僕",
+  "onyomi": ["ボク"],
+  "kunyomi": ["しもべ"],
+  "basicMeaning": "나, 종",
+  "wordMeaning": "僕（ぼく）로 읽어 주로 남성이 자신을 가리키는 부드러운 1인칭으로 씁니다.",
+  "mnemonic": "사람 인변(亻)이 붙은 말로, 화자가 자신을 낮춰 가리키는 모습을 떠올려 보세요.",
+  "examples": [
+    { "word": "僕", "reading": "ぼく", "meaning": "나" },
+    { "word": "僕ら", "reading": "ぼくら", "meaning": "우리" }
+  ]
+}

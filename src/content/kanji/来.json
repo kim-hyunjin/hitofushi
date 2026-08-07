@@ -1,0 +1,12 @@
+{
+  "character": "来",
+  "onyomi": ["ライ"],
+  "kunyomi": ["くる", "きたる"],
+  "basicMeaning": "오다",
+  "wordMeaning": "未来（みらい）에서는 앞으로 다가올 시간을 나타냅니다.",
+  "mnemonic": "먼 곳에서 사람이 이쪽으로 다가오는 모습을 떠올려 보세요.",
+  "examples": [
+    { "word": "来る", "reading": "くる", "meaning": "오다" },
+    { "word": "未来", "reading": "みらい", "meaning": "미래" }
+  ]
+}

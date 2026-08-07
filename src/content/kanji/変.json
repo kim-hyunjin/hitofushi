@@ -1,0 +1,12 @@
+{
+  "character": "変",
+  "onyomi": ["ヘン"],
+  "kunyomi": ["かわる", "かえる"],
+  "basicMeaning": "변하다, 바꾸다",
+  "wordMeaning": "変わる（かわる）는 상태나 모습이 달라지는 것을 나타냅니다.",
+  "mnemonic": "이전과 다른 모습으로 뒤바뀌는 장면을 떠올려 보세요.",
+  "examples": [
+    { "word": "変わる", "reading": "かわる", "meaning": "변하다" },
+    { "word": "変化", "reading": "へんか", "meaning": "변화" }
+  ]
+}
