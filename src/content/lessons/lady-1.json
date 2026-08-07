@@ -1,0 +1,58 @@
+{
+  "songSlug": "lady",
+  "lessonNumber": 1,
+  "title": "영화처럼 다시 만난다면",
+  "subtitle": "〜のように와 〜直す, 조건형 〜たら",
+  "description": "익숙한 두 사람이 처음부터 다시 만나는 장면을 상상하며, 평범하게 이어지는 하루의 결을 읽습니다.",
+  "estimatedMinutes": 23,
+  "sentences": [
+    {
+      "id": "lady-1-1", "original": "例えば僕ら二人 煌めく映画のように",
+      "ruby": [{"text":"例","reading":"たと"},{"text":"えば"},{"text":"僕","reading":"ぼく"},{"text":"ら"},{"text":"二人","reading":"ふたり"},{"text":" "},{"text":"煌","reading":"きら"},{"text":"めく"},{"text":"映画","reading":"えいが"},{"text":"のように"}],
+      "hiragana": "たとえば ぼくら ふたり きらめく えいが の ように", "pronunciationKo": "타토에바 보쿠라 후타리 키라메쿠 에이가노 요오니", "translationKo": "예를 들어 우리 둘이, 반짝이는 영화처럼", "grammarIds": ["you-ni-simile"], "kanjiIds": ["映"]
+    },
+    {
+      "id": "lady-1-2", "original": "出会いなおせたらどうしたい",
+      "ruby": [{"text":"出会","reading":"であ"},{"text":"いなおせたらどうしたい"}],
+      "hiragana": "であいなおせたら どうしたい", "pronunciationKo": "데아이나오세타라 도오시타이", "translationKo": "다시 만날 수 있다면 어떻게 하고 싶어?", "grammarIds": ["verb-naosu", "potential-form", "tara-conditional", "verb-tai"], "kanjiIds": ["会"]
+    },
+    {
+      "id": "lady-1-3", "original": "何も謎めいてない 今日は昨日の続き",
+      "ruby": [{"text":"何","reading":"なに"},{"text":"も"},{"text":"謎","reading":"なぞ"},{"text":"めいてない "},{"text":"今日","reading":"きょう"},{"text":"は"},{"text":"昨日","reading":"きのう"},{"text":"の"},{"text":"続","reading":"つづ"},{"text":"き"}],
+      "hiragana": "なにも なぞめいてない きょう は きのう の つづき", "pronunciationKo": "나니모 나조메이테나이 쿄오와 키노오노 츠즈키", "translationKo": "아무것도 수수께끼 같지 않아, 오늘은 어제의 연속", "grammarIds": ["noun-no-noun"], "kanjiIds": ["日", "続"]
+    },
+    {
+      "id": "lady-1-4", "original": "日々は続くただぼんやり",
+      "ruby": [{"text":"日々","reading":"ひび"},{"text":"は"},{"text":"続","reading":"つづ"},{"text":"くただぼんやり"}],
+      "hiragana": "ひび は つづく ただ ぼんやり", "pronunciationKo": "히비와 츠즈쿠 타다 본야리", "translationKo": "나날은 이어져, 그저 희미하게", "grammarIds": [], "kanjiIds": ["日", "続"]
+    },
+    {
+      "id": "lady-1-5", "original": "微かな足音 シーツの置く場所",
+      "ruby": [{"text":"微","reading":"かす"},{"text":"かな"},{"text":"足音","reading":"あしおと"},{"text":" シーツの"},{"text":"置","reading":"お"},{"text":"く"},{"text":"場所","reading":"ばしょ"}],
+      "hiragana": "かすかな あしおと しーつ の おく ばしょ", "pronunciationKo": "카스카나 아시오토 시이츠노 오쿠 바쇼", "translationKo": "희미한 발소리, 시트를 두는 장소", "grammarIds": ["noun-no-noun"], "kanjiIds": ["足"]
+    },
+    {
+      "id": "lady-1-6", "original": "それだけで全てわかってしまうよ",
+      "ruby": [{"text":"それだけで"},{"text":"全","reading":"すべ"},{"text":"てわかってしまうよ"}],
+      "hiragana": "それだけで すべて わかってしまうよ", "pronunciationKo": "소레다케데 스베테 와캇테시마우요", "translationKo": "그것만으로 전부 알아 버려", "grammarIds": ["dake-de", "te-shimau"], "kanjiIds": ["全"]
+    }
+  ],
+  "vocabulary": [
+    {"id":"lady-1-tatoeba","term":"例えば","reading":"たとえば","meaning":"예를 들면"},
+    {"id":"lady-1-kirameku","term":"煌めく","reading":"きらめく","meaning":"반짝이다, 빛나다"},
+    {"id":"lady-1-deaunaosu","term":"出会いなおす","reading":"であいなおす","meaning":"새롭게 다시 만나다","note":"なおす는 보통 直す로 쓰지만, 가사 표기에 맞춰 히라가나로 적었습니다."},
+    {"id":"lady-1-nazomeku","term":"謎めく","reading":"なぞめく","meaning":"수수께끼 같은 분위기를 띠다"},
+    {"id":"lady-1-hibi","term":"日々","reading":"ひび","meaning":"나날, 하루하루"},
+    {"id":"lady-1-bonyari","term":"ぼんやり","reading":"ぼんやり","meaning":"희미하게, 멍하니"},
+    {"id":"lady-1-kasukana","term":"微かな","reading":"かすかな","meaning":"희미한, 미미한"},
+    {"id":"lady-1-ashioto","term":"足音","reading":"あしおと","meaning":"발소리"},
+    {"id":"lady-1-basho","term":"場所","reading":"ばしょ","meaning":"장소"}
+  ],
+  "quiz": [
+    {"id":"lady-1-q1","prompt":"「映画のように」의 뜻은?","options":["영화 때문에","영화처럼","영화를 보러","영화가 끝나면"],"answerIndex":1,"explanation":"명사 + のように는 그 대상과 닮은 모습을 ‘~처럼’이라고 나타냅니다."},
+    {"id":"lady-1-q2","prompt":"「出会いなおす」의 なおす가 더하는 뜻은?","options":["우연히","함께","다시 새롭게","끝까지"],"answerIndex":2,"explanation":"동사 어간 + 直す는 이미 한 행동을 처음부터 다시 한다는 뜻입니다."},
+    {"id":"lady-1-q3","prompt":"「出会いなおせたら」가 세우는 가정은?","options":["다시 만날 수 있다면","다시 만나지 않아도","다시 만난 뒤에만","다시 만나기 전에"],"answerIndex":0,"explanation":"가능형 なおせる의 과거형에 ら가 붙어 가능성을 가정합니다."},
+    {"id":"lady-1-q4","prompt":"「それだけで」가 강조하는 것은?","options":["그것을 제외하고","그것만으로도","그것과 반대로","그것이 끝난 뒤"],"answerIndex":1,"explanation":"だけ가 범위를 한정하고 で가 원인·수단을 나타냅니다."},
+    {"id":"lady-1-q5","prompt":"첫 단원에서 두 사람의 관계는 어떻게 그려지나요?","options":["아직 서로를 전혀 모른다","작은 생활 습관만으로도 서로를 안다","매일 새로운 수수께끼가 생긴다","어제와 오늘이 완전히 끊겨 있다"],"answerIndex":1,"explanation":"발소리와 시트를 두는 위치만으로도 모든 것을 알 만큼 익숙한 관계입니다."}
+  ]
+}

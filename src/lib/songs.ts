@@ -39,6 +39,16 @@ export const songs: SongDefinition[] = [
       '이어질 수 없음을 알면서도 놓기 어려운 사랑과, 끝내 남는 아름다움을 따라갑니다.',
     youtubeVideoId: 'TQ8WlA2GXbk',
   },
+  {
+    slug: 'lady',
+    sequence: 4,
+    title: 'LADY',
+    artist: '米津玄師',
+    kicker: '익숙한 하루를 다시 사랑하는 방법',
+    description:
+      '서로를 너무 잘 아는 두 사람이 평범한 일상을 오가며 다시 사랑을 써 내려가는 마음을 따라갑니다.',
+    youtubeVideoId: 'DdF-u3fe5pg',
+  },
 ];
 
 export function getSong(slug: string) {

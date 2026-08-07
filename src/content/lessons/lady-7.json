@@ -1,0 +1,32 @@
+{
+  "songSlug": "lady",
+  "lessonNumber": 7,
+  "title": "오가며 써 내려갈 이야기",
+  "subtitle": "후렴 반복으로 다지는 핵심 표현",
+  "description": "처음의 부탁과 소망으로 돌아가, 두 사람이 함께 오가며 써 내려갈 스토리라인을 핵심 표현과 함께 완성합니다.",
+  "estimatedMinutes": 20,
+  "sentences": [
+    {"id":"lady-7-1","original":"レディー 笑わないで聞いて","ruby":[{"text":"レディー "},{"text":"笑","reading":"わら"},{"text":"わないで"},{"text":"聞","reading":"き"},{"text":"いて"}],"hiragana":"れでぃー わらわないで きいて","pronunciationKo":"레디이 와라와나이데 키이테","translationKo":"레이디, 웃지 말고 들어 줘","grammarIds":["naide","te-form"],"kanjiIds":["笑","聞"]},
+    {"id":"lady-7-2","original":"ハニー 見つめ合っていたくて","ruby":[{"text":"ハニー "},{"text":"見","reading":"み"},{"text":"つめ"},{"text":"合","reading":"あ"},{"text":"っていたくて"}],"hiragana":"はにー みつめあって いたくて","pronunciationKo":"하니이 미츠메앗테 이타쿠테","translationKo":"허니, 서로 바라보고 있고 싶어서","grammarIds":["teiru","i-adjective-kute"],"kanjiIds":["見","合"]},
+    {"id":"lady-7-3","original":"君と二人 行ったり来たりしたいだけ","ruby":[{"text":"君","reading":"きみ"},{"text":"と"},{"text":"二人","reading":"ふたり"},{"text":" "},{"text":"行","reading":"い"},{"text":"ったり"},{"text":"来","reading":"き"},{"text":"たりしたいだけ"}],"hiragana":"きみ と ふたり いったり きたり したい だけ","pronunciationKo":"키미토 후타리 잇타리 키타리 시타이다케","translationKo":"너와 둘이 오가고 싶을 뿐이야","grammarIds":["tari-tari","verb-tai"],"kanjiIds":["君","行"]},
+    {"id":"lady-7-4","original":"ベイビー 子供みたいに恋がしたい","ruby":[{"text":"ベイビー "},{"text":"子供","reading":"こども"},{"text":"みたいに"},{"text":"恋","reading":"こい"},{"text":"がしたい"}],"hiragana":"べいびー こども みたいに こい が したい","pronunciationKo":"베이비이 코도모미타이니 코이가 시타이","translationKo":"베이비, 아이처럼 사랑하고 싶어","grammarIds":["mitai","verb-tai"],"kanjiIds":["恋"]},
+    {"id":"lady-7-5","original":"書き散らしていく僕らのストーリーライン","ruby":[{"text":"書","reading":"か"},{"text":"き"},{"text":"散","reading":"ち"},{"text":"らしていく"},{"text":"僕","reading":"ぼく"},{"text":"らのストーリーライン"}],"hiragana":"かきちらしていく ぼくら の すとーりーらいん","pronunciationKo":"카키치라시테이쿠 보쿠라노 스토오리이라인","translationKo":"마구 써 내려가는 우리들의 스토리라인","grammarIds":["teiku-teku","noun-no-noun"],"kanjiIds":["書"]}
+  ],
+  "vocabulary": [
+    {"id":"lady-7-warawanaide","term":"笑わないで","reading":"わらわないで","meaning":"웃지 말고, 웃지 말아 줘"},
+    {"id":"lady-7-mitsumeau","term":"見つめ合う","reading":"みつめあう","meaning":"서로 바라보다"},
+    {"id":"lady-7-ittari-kitari","term":"行ったり来たり","reading":"いったりきたり","meaning":"왔다 갔다 함"},
+    {"id":"lady-7-shitaidake","term":"したいだけ","reading":"したいだけ","meaning":"하고 싶을 뿐"},
+    {"id":"lady-7-kodomo-mitai","term":"子供みたいに","reading":"こどもみたいに","meaning":"아이처럼"},
+    {"id":"lady-7-koi","term":"恋","reading":"こい","meaning":"사랑, 연애"},
+    {"id":"lady-7-kakichirasu","term":"書き散らす","reading":"かきちらす","meaning":"마구 써대다"},
+    {"id":"lady-7-storyline","term":"ストーリーライン","reading":"すとーりーらいん","meaning":"이야기의 줄거리"}
+  ],
+  "quiz": [
+    {"id":"lady-7-q1","prompt":"「笑わないで聞いて」에서 두 행동의 관계는?","options":["웃은 뒤 듣는다","웃지 말고 들어 달라고 부탁한다","듣지 말고 웃는다","웃을 수 있을 때만 듣는다"],"answerIndex":1,"explanation":"〜ないで가 하지 않을 행동을, 뒤 て형이 요청할 행동을 제시합니다."},
+    {"id":"lady-7-q2","prompt":"「見つめ合う」의 合う가 나타내는 것은?","options":["혼자 하는 행동","서로 주고받는 행동","행동의 실패","행동의 금지"],"answerIndex":1,"explanation":"동사 어간 + 合う는 같은 행동을 서로에게 함을 나타냅니다."},
+    {"id":"lady-7-q3","prompt":"후렴의 「したいだけ」가 만드는 어조는?","options":["거창한 목적보다 소박한 바람을 강조한다","상대에게 명령한다","사랑을 부정한다","과거 사실만 보고한다"],"answerIndex":0,"explanation":"だけ는 화자가 원하는 것이 그저 함께 오가는 일뿐이라고 범위를 좁힙니다."},
+    {"id":"lady-7-q4","prompt":"「書き散らしていく」의 いく는?","options":["앞으로 계속됨","과거로 돌아감","완전한 중단","상대가 대신함"],"answerIndex":0,"explanation":"〜ていく는 현재부터 미래로 이어지는 움직임과 변화를 나타냅니다."},
+    {"id":"lady-7-q5","prompt":"곡 전체의 ‘스토리라인’은 어떤 사랑인가요?","options":["완벽한 결말만 향하는 사랑","평범한 반복과 다툼까지 함께 써 가는 사랑","서로를 모른 채 끝나는 사랑","불행을 피하려 혼자 떠나는 사랑"],"answerIndex":1,"explanation":"익숙한 일상, 거짓과 진실, 밀고 당김까지 모두 두 사람이 함께 써 가는 이야기로 받아들입니다."}
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "songSlug": "lady",
+  "lessonNumber": 4,
+  "title": "말하지 않아도 전해지는 진심",
+  "subtitle": "〜ように와 〜だろう, 〜てくる",
+  "description": "어두운 표정과 시시한 말까지 다정히 지나쳐 주는 상대에게서 말보다 먼저 전해진 진심을 읽습니다.",
+  "estimatedMinutes": 19,
+  "sentences": [
+    {"id":"lady-4-1","original":"いつもの暗い顔 チープな戯言","ruby":[{"text":"いつもの"},{"text":"暗","reading":"くら"},{"text":"い"},{"text":"顔","reading":"かお"},{"text":" チープな"},{"text":"戯言","reading":"たわごと"}],"hiragana":"いつも の くらい かお ちーぷ な たわごと","pronunciationKo":"이츠모노 쿠라이 카오 치이푸나 타와고토","translationKo":"언제나의 어두운 얼굴, 시시한 헛소리","grammarIds":["noun-no-noun"],"kanjiIds":["顔"]},
+    {"id":"lady-4-2","original":"見過ごすようにまた優しいんだろう","ruby":[{"text":"見過","reading":"みす"},{"text":"ごすようにまた"},{"text":"優","reading":"やさ"},{"text":"しいんだろう"}],"hiragana":"みすごす ように また やさしいんだろう","pronunciationKo":"미스고스 요오니 마타 야사시인다로오","translationKo":"못 본 체하듯 또 다정하겠지","grammarIds":["you-ni-simile","darou"],"kanjiIds":["見","優"]},
+    {"id":"lady-4-3","original":"見え透いた嘘も隠した本当も","ruby":[{"text":"見","reading":"み"},{"text":"え"},{"text":"透","reading":"す"},{"text":"いた"},{"text":"嘘","reading":"うそ"},{"text":"も"},{"text":"隠","reading":"かく"},{"text":"した"},{"text":"本当","reading":"ほんとう"},{"text":"も"}],"hiragana":"みえすいた うそ も かくした ほんとう も","pronunciationKo":"미에스이타 우소모 카쿠시타 혼토오모","translationKo":"빤히 보이는 거짓말도 숨긴 진실도","grammarIds":["mo-mo"],"kanjiIds":["見"]},
+    {"id":"lady-4-4","original":"その目から伝わってきた","ruby":[{"text":"その"},{"text":"目","reading":"め"},{"text":"から"},{"text":"伝","reading":"つた"},{"text":"わってきた"}],"hiragana":"その め から つたわってきた","pronunciationKo":"소노 메카라 츠타왓테키타","translationKo":"그 눈빛에서 전해져 왔어","grammarIds":["te-kuru"],"kanjiIds":["伝"]}
+  ],
+  "vocabulary": [
+    {"id":"lady-4-itsumono","term":"いつもの","reading":"いつもの","meaning":"평소의, 언제나의"},
+    {"id":"lady-4-kurai","term":"暗い","reading":"くらい","meaning":"어둡다, 침울하다"},
+    {"id":"lady-4-cheap","term":"チープな","reading":"ちーぷな","meaning":"값싼, 조악한, 시시한"},
+    {"id":"lady-4-tawagoto","term":"戯言","reading":"たわごと","meaning":"헛소리, 실없는 말"},
+    {"id":"lady-4-misugosu","term":"見過ごす","reading":"みすごす","meaning":"못 본 체하다, 그냥 지나치다"},
+    {"id":"lady-4-yasashii","term":"優しい","reading":"やさしい","meaning":"다정하다, 상냥하다"},
+    {"id":"lady-4-tsutawaru","term":"伝わる","reading":"つたわる","meaning":"전해지다"},
+    {"id":"lady-4-me","term":"目","reading":"め","meaning":"눈, 눈빛"}
+  ],
+  "quiz": [
+    {"id":"lady-4-q1","prompt":"「いつもの暗い顔」의 の는 무엇을 잇나요?","options":["행동과 결과","수식어와 명사","두 조건","명령과 부탁"],"answerIndex":1,"explanation":"いつもの가 뒤의 暗い顔를 꾸며 ‘평소의 어두운 얼굴’을 만듭니다."},
+    {"id":"lady-4-q2","prompt":"「見過ごすように」의 느낌은?","options":["반드시 붙잡듯","못 본 체하듯","자세히 조사하듯","화를 내듯"],"answerIndex":1,"explanation":"동사 + ように가 뒤 태도의 방식을 비유합니다."},
+    {"id":"lady-4-q3","prompt":"문장 끝 「んだろう」가 만드는 말투는?","options":["확정 명령","추측과 독백","강한 금지","과거 회상만"],"answerIndex":1,"explanation":"だろう는 화자가 스스로 헤아리는 ‘~겠지’라는 추측을 나타냅니다."},
+    {"id":"lady-4-q4","prompt":"「伝わってきた」에서 〜てきた가 나타내는 것은?","options":["마음이 화자에게 전해져 옴","마음을 숨김","마음이 앞으로 멀어짐","전달을 명령함"],"answerIndex":0,"explanation":"〜てくる는 정보나 감각이 화자 쪽으로 다가오는 움직임을 표현할 수 있습니다."},
+    {"id":"lady-4-q5","prompt":"상대의 다정함은 무엇으로 드러나나요?","options":["모든 말을 따져 묻는다","어두운 표정과 실없는 말을 부드럽게 지나쳐 준다","화자를 떠난다","진실만 말하라고 명령한다"],"answerIndex":1,"explanation":"상대는 화자의 익숙한 결점까지 알아보고도 다정하게 받아 줍니다."}
+  ]
+}
