@@ -1,0 +1,50 @@
+{
+  "songSlug": "wasurerumaeni",
+  "lessonNumber": 1,
+  "title": "황혼의 거리에서 떠올린 부탁",
+  "subtitle": "て형의 연결과 〜だけじゃ로 장면 열기",
+  "description": "고개 숙인 채 황혼의 거리를 바라보다 무언가를 떠올리고, 보기만 해서는 안 된다고 부탁하는 도입부를 읽습니다.",
+  "estimatedMinutes": 19,
+  "sentences": [
+    {
+      "id": "wasurerumaeni-1-1", "original": "街の風景にうなだれて",
+      "ruby": [{ "text": "街", "reading": "まち" }, { "text": "の" }, { "text": "風景", "reading": "ふうけい" }, { "text": "にうなだれて" }],
+      "hiragana": "まち の ふうけい に うなだれて", "pronunciationKo": "마치노 후우케이니 우나다레테", "translationKo": "거리의 풍경 앞에 고개를 떨구고",
+      "grammarIds": ["te-form"], "kanjiIds": ["街", "景"]
+    },
+    {
+      "id": "wasurerumaeni-1-2", "original": "街を背景に黄昏て",
+      "ruby": [{ "text": "街", "reading": "まち" }, { "text": "を" }, { "text": "背景", "reading": "はいけい" }, { "text": "に" }, { "text": "黄昏", "reading": "たそが" }, { "text": "れて" }],
+      "hiragana": "まち を はいけい に たそがれて", "pronunciationKo": "마치오 하이케이니 타소가레테", "translationKo": "거리를 배경으로 황혼에 잠겨",
+      "grammarIds": ["te-form"], "kanjiIds": ["街", "景"]
+    },
+    {
+      "id": "wasurerumaeni-1-3", "original": "思い出した",
+      "ruby": [{ "text": "思", "reading": "おも" }, { "text": "い" }, { "text": "出", "reading": "だ" }, { "text": "した" }],
+      "hiragana": "おもいだした", "pronunciationKo": "오모이다시타", "translationKo": "문득 떠올렸어",
+      "grammarIds": [], "kanjiIds": ["思"]
+    },
+    {
+      "id": "wasurerumaeni-1-4", "original": "ねぇお願い 見てるだけじゃ",
+      "ruby": [{ "text": "ねぇ" }, { "text": "お願", "reading": "おねが" }, { "text": "い " }, { "text": "見", "reading": "み" }, { "text": "てるだけじゃ" }],
+      "hiragana": "ねぇ おねがい みてる だけじゃ", "pronunciationKo": "네에 오네가이 미테루다케쟈", "translationKo": "있잖아, 부탁이야. 보고만 있어서는",
+      "grammarIds": ["teiru", "dake-ja"], "kanjiIds": []
+    }
+  ],
+  "vocabulary": [
+    { "id": "wasurerumaeni-1-machi", "term": "街", "reading": "まち", "meaning": "거리, 번화가" },
+    { "id": "wasurerumaeni-1-fuukei", "term": "風景", "reading": "ふうけい", "meaning": "풍경" },
+    { "id": "wasurerumaeni-1-unadareru", "term": "うなだれる", "reading": "うなだれる", "meaning": "고개를 떨구다" },
+    { "id": "wasurerumaeni-1-haikei", "term": "背景", "reading": "はいけい", "meaning": "배경" },
+    { "id": "wasurerumaeni-1-tasogareru", "term": "黄昏れる", "reading": "たそがれる", "meaning": "황혼에 잠기다, 쓸쓸히 생각에 잠기다" },
+    { "id": "wasurerumaeni-1-omoidasu", "term": "思い出す", "reading": "おもいだす", "meaning": "떠올리다, 생각해 내다" },
+    { "id": "wasurerumaeni-1-onegai", "term": "お願い", "reading": "おねがい", "meaning": "부탁, 부탁이야" }
+  ],
+  "quiz": [
+    { "id": "wasurerumaeni-1-q1", "prompt": "「うなだれる」가 나타내는 모습은?", "options": ["고개를 떨구다", "손을 흔들다", "큰 소리로 웃다", "뒤를 돌아보다"], "answerIndex": 0, "explanation": "うなだれる는 실망하거나 생각에 잠겨 고개를 아래로 숙이는 모습을 나타냅니다." },
+    { "id": "wasurerumaeni-1-q2", "prompt": "「街を背景に」의 뜻은?", "options": ["거리를 떠나서", "거리를 배경으로", "거리 때문에", "거리 안쪽까지"], "answerIndex": 1, "explanation": "背景に는 어떤 장면이나 대상을 배경으로 삼는다는 뜻입니다." },
+    { "id": "wasurerumaeni-1-q3", "prompt": "「思い出した」의 기본형은?", "options": ["思い出す", "思い出る", "思い直す", "思い込む"], "answerIndex": 0, "explanation": "思い出した는 ‘떠올리다’라는 뜻의 思い出す가 과거형이 된 형태입니다." },
+    { "id": "wasurerumaeni-1-q4", "prompt": "「見てる」의 줄이지 않은 형태는?", "options": ["見てある", "見ておく", "見ている", "見てみる"], "answerIndex": 2, "explanation": "회화에서는 〜ている의 い가 빠져 〜てる가 자주 됩니다." },
+    { "id": "wasurerumaeni-1-q5", "prompt": "「見てるだけじゃ」가 전달하는 뜻은?", "options": ["보기만 하면 충분하다", "보기만 해서는 안 된다", "보지 않아도 된다", "본 적이 없다"], "answerIndex": 1, "explanation": "〜だけじゃ 뒤에는 충분하지 않다는 부정적 결론이 이어져 ‘~만 해서는’이라는 뜻이 됩니다." }
+  ]
+}

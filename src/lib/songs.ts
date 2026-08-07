@@ -49,6 +49,16 @@ export const songs: SongDefinition[] = [
       '두고 온 기억을 주워 담고, 다시 시작하고 싶은 두 사람의 미래와 변치 않는 사랑을 따라갑니다.',
     youtubeVideoId: '7HgJIAUtICU',
   },
+  {
+    slug: 'wasurerumaeni',
+    sequence: 5,
+    title: '忘れる前に',
+    artist: 'Vaundy',
+    kicker: '꿈이 사라지기 전에 붙잡는 기억',
+    description:
+      '꿈속에서 희미해지는 사랑과 기억을 더듬어 찾고, 완전히 잊기 전에 붙잡으려는 마음을 따라갑니다.',
+    youtubeVideoId: 'Hy7GWPkrZv0',
+  },
 ];
 
 export function getSong(slug: string) {

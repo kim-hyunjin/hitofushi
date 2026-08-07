@@ -1,0 +1,50 @@
+{
+  "songSlug": "wasurerumaeni",
+  "lessonNumber": 3,
+  "title": "꿈속의 희미한 불빛",
+  "subtitle": "〜そうな와 〜ならば로 가능성 상상하기",
+  "description": "꿈속의 두 사람이 꺼질 듯한 불빛을 찾으며 이야기를 나누고, 이것이 꿈이라면 시험해 보자고 제안하는 후렴을 읽습니다.",
+  "estimatedMinutes": 21,
+  "sentences": [
+    {
+      "id": "wasurerumaeni-3-1", "original": "僕ら夢の中",
+      "ruby": [{ "text": "僕", "reading": "ぼく" }, { "text": "ら" }, { "text": "夢", "reading": "ゆめ" }, { "text": "の" }, { "text": "中", "reading": "なか" }],
+      "hiragana": "ぼくら ゆめ の なか", "pronunciationKo": "보쿠라 유메노 나카", "translationKo": "우리는 꿈속에 있어",
+      "grammarIds": ["noun-no-noun"], "kanjiIds": ["僕", "夢"]
+    },
+    {
+      "id": "wasurerumaeni-3-2", "original": "消えそうな灯火探して話をしている",
+      "ruby": [{ "text": "消", "reading": "き" }, { "text": "えそうな" }, { "text": "灯火", "reading": "ともしび" }, { "text": " " }, { "text": "探", "reading": "さが" }, { "text": "して" }, { "text": "話", "reading": "はなし" }, { "text": "をしている" }],
+      "hiragana": "きえそうな ともしび さがして はなし を している", "pronunciationKo": "키에소오나 토모시비 사가시테 하나시오 시테이루", "translationKo": "꺼질 듯한 불빛을 찾으며 이야기를 나누고 있어",
+      "grammarIds": ["youna", "te-form", "teiru"], "kanjiIds": ["灯", "探", "話"]
+    },
+    {
+      "id": "wasurerumaeni-3-3", "original": "これが夢ならば 試そうか",
+      "ruby": [{ "text": "これが" }, { "text": "夢", "reading": "ゆめ" }, { "text": "ならば " }, { "text": "試", "reading": "ため" }, { "text": "そうか" }],
+      "hiragana": "これ が ゆめ ならば ためそう か", "pronunciationKo": "코레가 유메나라바 타메소오카", "translationKo": "이게 꿈이라면 시험해 볼까",
+      "grammarIds": ["naraba", "volitional-form"], "kanjiIds": ["夢", "試"]
+    },
+    {
+      "id": "wasurerumaeni-3-4", "original": "繊細な思い出だけを引っ張り合って",
+      "ruby": [{ "text": "繊細", "reading": "せんさい" }, { "text": "な" }, { "text": "思", "reading": "おも" }, { "text": "い" }, { "text": "出", "reading": "で" }, { "text": "だけを" }, { "text": "引", "reading": "ひ" }, { "text": "っ" }, { "text": "張", "reading": "ぱ" }, { "text": "り" }, { "text": "合", "reading": "あ" }, { "text": "って" }],
+      "hiragana": "せんさいな おもいで だけを ひっぱりあって", "pronunciationKo": "센사이나 오모이데다케오 힛파리앗테", "translationKo": "섬세한 추억만을 서로 잡아당기며",
+      "grammarIds": ["te-form"], "kanjiIds": ["細", "思"]
+    }
+  ],
+  "vocabulary": [
+    { "id": "wasurerumaeni-3-bokura", "term": "僕ら", "reading": "ぼくら", "meaning": "우리들" },
+    { "id": "wasurerumaeni-3-kiesou", "term": "消えそう", "reading": "きえそう", "meaning": "꺼질 듯함, 사라질 듯함" },
+    { "id": "wasurerumaeni-3-tomoshibi", "term": "灯火", "reading": "ともしび", "meaning": "등불, 불빛" },
+    { "id": "wasurerumaeni-3-hanashi", "term": "話をする", "reading": "はなしをする", "meaning": "이야기를 하다" },
+    { "id": "wasurerumaeni-3-tamesu", "term": "試す", "reading": "ためす", "meaning": "시험하다, 시도해 보다" },
+    { "id": "wasurerumaeni-3-sensai", "term": "繊細", "reading": "せんさい", "meaning": "섬세함, 예민함" },
+    { "id": "wasurerumaeni-3-hippariau", "term": "引っ張り合う", "reading": "ひっぱりあう", "meaning": "서로 잡아당기다" }
+  ],
+  "quiz": [
+    { "id": "wasurerumaeni-3-q1", "prompt": "「僕ら」가 가리키는 것은?", "options": ["나 혼자", "너 혼자", "우리들", "그 사람들"], "answerIndex": 2, "explanation": "僕에 복수를 나타내는 ら가 붙어 ‘우리들’이라는 뜻이 됩니다." },
+    { "id": "wasurerumaeni-3-q2", "prompt": "「消えそうな灯火」의 뜻은?", "options": ["이미 꺼진 불", "꺼질 듯한 불빛", "새로 켠 전등", "아주 강한 햇빛"], "answerIndex": 1, "explanation": "동사 어간 + そうな가 뒤 명사를 꾸며 ‘~할 듯한’이라는 모습을 나타냅니다." },
+    { "id": "wasurerumaeni-3-q3", "prompt": "「話をしている」가 나타내는 시간감은?", "options": ["지금 이어지는 행동", "완료된 과거", "아직 없는 계획", "불가능한 행동"], "answerIndex": 0, "explanation": "〜ている는 여기서 이야기를 나누는 동작이 진행 중임을 나타냅니다." },
+    { "id": "wasurerumaeni-3-q4", "prompt": "「夢ならば」의 의미는?", "options": ["꿈이 아니므로", "꿈이라면", "꿈이었지만", "꿈일 때까지"], "answerIndex": 1, "explanation": "〜ならば는 어떤 상황을 가정해 ‘~라면’이라고 조건을 세웁니다." },
+    { "id": "wasurerumaeni-3-q5", "prompt": "「試そうか」가 나타내는 태도는?", "options": ["함께 해 보자는 제안", "강한 금지", "완료 보고", "사과"], "answerIndex": 0, "explanation": "試そう는 試す의 의지형이고, か가 붙어 ‘시험해 볼까’라는 제안이 됩니다." }
+  ]
+}

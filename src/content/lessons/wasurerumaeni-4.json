@@ -1,0 +1,70 @@
+{
+  "songSlug": "wasurerumaeni",
+  "lessonNumber": 4,
+  "title": "꿈인지 확인하는 순간",
+  "subtitle": "수동형, 〜にかこつけて와 사역형 부탁",
+  "description": "폭발과 굉음에 떠밀려 뺨을 꼬집고, 시선을 빼앗은 사람을 바라보며 사랑할 용기를 청하는 환상적인 장면을 읽습니다.",
+  "estimatedMinutes": 27,
+  "sentences": [
+    {
+      "id": "wasurerumaeni-4-1", "original": "泡の暴発に急かされて",
+      "ruby": [{ "text": "泡", "reading": "あわ" }, { "text": "の" }, { "text": "暴発", "reading": "ぼうはつ" }, { "text": "に" }, { "text": "急", "reading": "せ" }, { "text": "かされて" }],
+      "hiragana": "あわ の ぼうはつ に せかされて", "pronunciationKo": "아와노 보오하츠니 세카사레테", "translationKo": "거품의 폭발에 재촉당하고",
+      "grammarIds": ["passive", "te-form"], "kanjiIds": ["泡"]
+    },
+    {
+      "id": "wasurerumaeni-4-2", "original": "空の轟音にかこつけて",
+      "ruby": [{ "text": "空", "reading": "そら" }, { "text": "の" }, { "text": "轟音", "reading": "ごうおん" }, { "text": "にかこつけて" }],
+      "hiragana": "そら の ごうおん に かこつけて", "pronunciationKo": "소라노 고오온니 카코츠케테", "translationKo": "하늘의 굉음을 핑계 삼아",
+      "grammarIds": ["ni-kakotsukete", "te-form"], "kanjiIds": ["空"]
+    },
+    {
+      "id": "wasurerumaeni-4-3", "original": "頬をつねった",
+      "ruby": [{ "text": "頬", "reading": "ほお" }, { "text": "をつねった" }],
+      "hiragana": "ほお を つねった", "pronunciationKo": "호오오 츠넷타", "translationKo": "뺨을 꼬집었어",
+      "grammarIds": [], "kanjiIds": []
+    },
+    {
+      "id": "wasurerumaeni-4-4", "original": "「あれはっ！」",
+      "ruby": [{ "text": "「あれはっ！」" }],
+      "hiragana": "あれ はっ", "pronunciationKo": "아레왓!", "translationKo": "‘저건!’",
+      "grammarIds": [], "kanjiIds": []
+    },
+    {
+      "id": "wasurerumaeni-4-5", "original": "目を奪われた君の横瞳を眺め",
+      "ruby": [{ "text": "目", "reading": "め" }, { "text": "を" }, { "text": "奪", "reading": "うば" }, { "text": "われた" }, { "text": "君", "reading": "きみ" }, { "text": "の" }, { "text": "横瞳", "reading": "よこめ" }, { "text": "を" }, { "text": "眺", "reading": "なが" }, { "text": "め" }],
+      "hiragana": "め を うばわれた きみ の よこめ を ながめ", "pronunciationKo": "메오 우바와레타 키미노 요코메오 나가메", "translationKo": "시선을 빼앗긴 너의 옆눈을 바라보며",
+      "grammarIds": ["passive"], "kanjiIds": ["目", "君"]
+    },
+    {
+      "id": "wasurerumaeni-4-6", "original": "奥に潜んだ竜に、幻の願いを",
+      "ruby": [{ "text": "奥", "reading": "おく" }, { "text": "に" }, { "text": "潜", "reading": "ひそ" }, { "text": "んだ" }, { "text": "竜", "reading": "りゅう" }, { "text": "に、" }, { "text": "幻", "reading": "まぼろし" }, { "text": "の" }, { "text": "願", "reading": "ねが" }, { "text": "いを" }],
+      "hiragana": "おく に ひそんだ りゅう に まぼろし の ねがい を", "pronunciationKo": "오쿠니 히손다 류우니, 마보로시노 네가이오", "translationKo": "깊숙이 숨어 있던 용에게 환상의 소원을",
+      "grammarIds": ["noun-no-noun"], "kanjiIds": []
+    },
+    {
+      "id": "wasurerumaeni-4-7", "original": "「今だけ持たせて、愛する勇気を」",
+      "ruby": [{ "text": "「" }, { "text": "今", "reading": "いま" }, { "text": "だけ" }, { "text": "持", "reading": "も" }, { "text": "たせて、" }, { "text": "愛", "reading": "あい" }, { "text": "する" }, { "text": "勇気", "reading": "ゆうき" }, { "text": "を」" }],
+      "hiragana": "いま だけ もたせて あいする ゆうき を", "pronunciationKo": "이마다케 모타세테, 아이스루 유우키오", "translationKo": "‘지금만은 갖게 해 줘, 사랑할 용기를’",
+      "grammarIds": ["causative", "te-form-request"], "kanjiIds": ["愛", "気"]
+    }
+  ],
+  "vocabulary": [
+    { "id": "wasurerumaeni-4-awa", "term": "泡", "reading": "あわ", "meaning": "거품" },
+    { "id": "wasurerumaeni-4-bouhatsu", "term": "暴発", "reading": "ぼうはつ", "meaning": "오발, 갑작스러운 폭발" },
+    { "id": "wasurerumaeni-4-sekasu", "term": "急かす", "reading": "せかす", "meaning": "재촉하다" },
+    { "id": "wasurerumaeni-4-gouon", "term": "轟音", "reading": "ごうおん", "meaning": "굉음" },
+    { "id": "wasurerumaeni-4-kakotsukeru", "term": "かこつける", "reading": "かこつける", "meaning": "구실로 삼다, 핑계 대다" },
+    { "id": "wasurerumaeni-4-tsuneru", "term": "つねる", "reading": "つねる", "meaning": "꼬집다" },
+    { "id": "wasurerumaeni-4-me-ubawareru", "term": "目を奪われる", "reading": "めをうばわれる", "meaning": "눈길을 빼앗기다, 매료되다" },
+    { "id": "wasurerumaeni-4-hisomu", "term": "潜む", "reading": "ひそむ", "meaning": "숨어 있다, 잠복하다" },
+    { "id": "wasurerumaeni-4-yuuki", "term": "勇気", "reading": "ゆうき", "meaning": "용기" }
+  ],
+  "quiz": [
+    { "id": "wasurerumaeni-4-q1", "prompt": "「急かされて」는 누구의 관점인가요?", "options": ["남을 재촉하는 쪽", "무언가에 재촉당하는 쪽", "재촉을 금지하는 쪽", "재촉할 계획인 쪽"], "answerIndex": 1, "explanation": "急かされる는 急かす의 수동형으로 ‘재촉당하다’라는 뜻입니다." },
+    { "id": "wasurerumaeni-4-q2", "prompt": "「〜にかこつけて」의 의미는?", "options": ["~와 비교해서", "~을 핑계 삼아", "~을 기다리며", "~을 제외하고"], "answerIndex": 1, "explanation": "어떤 일을 명분이나 구실로 내세울 때 〜にかこつけて를 씁니다." },
+    { "id": "wasurerumaeni-4-q3", "prompt": "꿈인지 확인하려고 한 행동은?", "options": ["눈을 감았다", "뺨을 꼬집었다", "소리를 질렀다", "용을 불렀다"], "answerIndex": 1, "explanation": "화자는 하늘의 굉음에 기대어 頬をつねった, 즉 뺨을 꼬집었습니다." },
+    { "id": "wasurerumaeni-4-q4", "prompt": "「目を奪われる」의 자연스러운 뜻은?", "options": ["잠이 들다", "시선을 빼앗기다", "눈을 감추다", "길을 잃다"], "answerIndex": 1, "explanation": "아름답거나 인상적인 대상에 완전히 시선이 끌리는 모습을 나타냅니다." },
+    { "id": "wasurerumaeni-4-q5", "prompt": "「持たせて」에 담긴 부탁은?", "options": ["내가 갖게 해 줘", "네가 버려 줘", "이미 가지고 있어", "절대 갖지 마"], "answerIndex": 0, "explanation": "持つ의 사역형 持たせる가 て형으로 끝나 ‘갖게 해 줘’라는 허락의 부탁이 됩니다." }
+  ]
+}
