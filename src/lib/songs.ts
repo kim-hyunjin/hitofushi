@@ -59,6 +59,16 @@ export const songs: SongDefinition[] = [
       '능숙해진 맞장구와 가짜 미소 사이에서, 끝내 놓지 못하는 관계의 습관을 따라갑니다.',
     youtubeVideoId: 'hS2BVRnQiYI',
   },
+  {
+    slug: 'sayonara-mata-itsuka',
+    sequence: 6,
+    title: 'さよーならまたいつか！',
+    artist: '米津玄師',
+    kicker: '상처를 뚫고 끝내 마주하는 봄',
+    description:
+      '날개를 바라는 마음에서 스스로 구속을 끊고 날아오르기까지, 이별과 재생의 언어를 따라갑니다.',
+    youtubeVideoId: 'TGz8AXN3gLA',
+  },
 ];
 
 export function getSong(slug: string) {
