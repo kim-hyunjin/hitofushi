@@ -1,0 +1,12 @@
+{
+  "character": "思",
+  "onyomi": ["シ"],
+  "kunyomi": ["おもう"],
+  "basicMeaning": "생각하다",
+  "wordMeaning": "思う（おもう）로 읽어 마음속으로 생각하거나 느끼는 것을 나타냅니다.",
+  "mnemonic": "마음속 밭에서 생각이 자라나는 모습을 떠올려 보세요.",
+  "examples": [
+    { "word": "思う", "reading": "おもう", "meaning": "생각하다" },
+    { "word": "思い出", "reading": "おもいで", "meaning": "추억" }
+  ]
+}

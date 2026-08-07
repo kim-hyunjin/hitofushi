@@ -49,6 +49,16 @@ export const songs: SongDefinition[] = [
       '두고 온 기억을 주워 담고, 다시 시작하고 싶은 두 사람의 미래와 변치 않는 사랑을 따라갑니다.',
     youtubeVideoId: '7HgJIAUtICU',
   },
+  {
+    slug: 'tokyo-flash',
+    sequence: 5,
+    title: '東京フラッシュ',
+    artist: 'Vaundy',
+    kicker: '익숙한 미소 뒤에 남은 미련',
+    description:
+      '능숙해진 맞장구와 가짜 미소 사이에서, 끝내 놓지 못하는 관계의 습관을 따라갑니다.',
+    youtubeVideoId: 'hS2BVRnQiYI',
+  },
 ];
 
 export function getSong(slug: string) {

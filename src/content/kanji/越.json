@@ -1,0 +1,12 @@
+{
+  "character": "越",
+  "onyomi": ["エツ"],
+  "kunyomi": ["こす", "こえる"],
+  "basicMeaning": "넘다, 건너다",
+  "wordMeaning": "越し（ごし）는 무엇을 사이에 두거나 그 너머로 이어짐을 나타냅니다.",
+  "mnemonic": "경계 하나를 넘어 반대편을 바라보는 모습을 떠올려 보세요.",
+  "examples": [
+    { "word": "窓越し", "reading": "まどごし", "meaning": "창문 너머로" },
+    { "word": "越える", "reading": "こえる", "meaning": "넘다" }
+  ]
+}
