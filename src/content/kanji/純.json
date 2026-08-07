@@ -1,0 +1,12 @@
+{
+  "character": "純",
+  "onyomi": ["ジュン"],
+  "kunyomi": [],
+  "basicMeaning": "순수하다",
+  "wordMeaning": "単純（たんじゅん）에서 じゅん으로 읽어 섞이거나 복잡하지 않다는 뜻을 만듭니다.",
+  "mnemonic": "다른 것이 섞이지 않은 맑고 곧은 실을 떠올려 보세요.",
+  "examples": [
+    { "word": "単純", "reading": "たんじゅん", "meaning": "단순함" },
+    { "word": "純粋", "reading": "じゅんすい", "meaning": "순수함" }
+  ]
+}

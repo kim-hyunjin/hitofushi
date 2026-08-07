@@ -50,8 +50,18 @@ export const songs: SongDefinition[] = [
     youtubeVideoId: '7HgJIAUtICU',
   },
   {
-    slug: 'sayonara-mata-itsuka',
+    slug: 'tokyo-flash',
     sequence: 5,
+    title: '東京フラッシュ',
+    artist: 'Vaundy',
+    kicker: '익숙한 미소 뒤에 남은 미련',
+    description:
+      '능숙해진 맞장구와 가짜 미소 사이에서, 끝내 놓지 못하는 관계의 습관을 따라갑니다.',
+    youtubeVideoId: 'hS2BVRnQiYI',
+  },
+  {
+    slug: 'sayonara-mata-itsuka',
+    sequence: 6,
     title: 'さよーならまたいつか！',
     artist: '米津玄師',
     kicker: '상처를 뚫고 끝내 마주하는 봄',

@@ -1,0 +1,12 @@
+{
+  "character": "槌",
+  "onyomi": ["ツイ"],
+  "kunyomi": ["つち"],
+  "basicMeaning": "망치",
+  "wordMeaning": "相槌（あいづち）에서는 づち로 소리가 변해 ‘맞장구’를 만듭니다.",
+  "mnemonic": "대화의 박자에 맞춰 작은 망치를 두드리는 모습을 떠올려 보세요.",
+  "examples": [
+    { "word": "相槌", "reading": "あいづち", "meaning": "맞장구" },
+    { "word": "木槌", "reading": "きづち", "meaning": "나무망치" }
+  ]
+}
