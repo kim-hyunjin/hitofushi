@@ -1,0 +1,12 @@
+{
+  "character": "深",
+  "onyomi": ["シン"],
+  "kunyomi": ["ふかい", "ふかまる", "ふかめる"],
+  "basicMeaning": "깊다",
+  "wordMeaning": "深い（ふかい）로 읽어 물리적 깊이뿐 아니라 내용이나 감정의 깊이도 나타냅니다.",
+  "mnemonic": "바닥이 보이지 않는 깊은 물속을 떠올려 보세요.",
+  "examples": [
+    { "word": "深い", "reading": "ふかい", "meaning": "깊다" },
+    { "word": "深夜", "reading": "しんや", "meaning": "심야" }
+  ]
+}

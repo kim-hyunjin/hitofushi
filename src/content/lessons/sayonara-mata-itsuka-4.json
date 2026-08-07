@@ -1,0 +1,85 @@
+{
+  "songSlug": "sayonara-mata-itsuka",
+  "lessonNumber": 4,
+  "title": "지옥 너머에서 보는 봄",
+  "subtitle": "문어적 풍경과 〜こそ의 강한 강조 읽기",
+  "description": "시구처럼 낯선 마을로 걸어 들어가, 남들이 지옥이라 말하는 곳 너머에서 봄을 발견하는 장면을 읽습니다.",
+  "estimatedMinutes": 26,
+  "sentences": [
+    {
+      "id": "sayonara-mata-itsuka-4-1",
+      "original": "しぐるるやしぐるる町へ歩み入る",
+      "ruby": [{ "text": "しぐるるやしぐるる" }, { "text": "町", "reading": "まち" }, { "text": "へ" }, { "text": "歩", "reading": "あゆ" }, { "text": "み" }, { "text": "入", "reading": "い" }, { "text": "る" }],
+      "hiragana": "しぐるる や しぐるる まち へ あゆみいる",
+      "pronunciationKo": "시구루루야 시구루루 마치에 아유미이루",
+      "translationKo": "초겨울비 내리네, 비 내리는 마을로 걸어 들어간다",
+      "grammarIds": [],
+      "kanjiIds": []
+    },
+    {
+      "id": "sayonara-mata-itsuka-4-2",
+      "original": "そこかしこで袖触れる",
+      "ruby": [{ "text": "そこかしこで" }, { "text": "袖", "reading": "そで" }, { "text": "触", "reading": "ふ" }, { "text": "れる" }],
+      "hiragana": "そこかしこ で そで ふれる",
+      "pronunciationKo": "소코카시코데 소데 후레루",
+      "translationKo": "이곳저곳에서 소매가 스친다",
+      "grammarIds": [],
+      "kanjiIds": []
+    },
+    {
+      "id": "sayonara-mata-itsuka-4-3",
+      "original": "見上げた先には何も居なかった",
+      "ruby": [{ "text": "見上", "reading": "みあ" }, { "text": "げた" }, { "text": "先", "reading": "さき" }, { "text": "には" }, { "text": "何", "reading": "なに" }, { "text": "も" }, { "text": "居", "reading": "い" }, { "text": "なかった" }],
+      "hiragana": "みあげた さき には なにも いなかった",
+      "pronunciationKo": "미아게타 사키니와 나니모 이나캇타",
+      "translationKo": "올려다본 곳에는 아무것도 없었다",
+      "grammarIds": ["hitotsu-mo-nai"],
+      "kanjiIds": ["先"]
+    },
+    {
+      "id": "sayonara-mata-itsuka-4-4",
+      "original": "(ああ居なかった)",
+      "ruby": [{ "text": "(ああ" }, { "text": "居", "reading": "い" }, { "text": "なかった)" }],
+      "hiragana": "ああ いなかった",
+      "pronunciationKo": "아아 이나캇타",
+      "translationKo": "아아, 없었다",
+      "grammarIds": [],
+      "kanjiIds": []
+    },
+    {
+      "id": "sayonara-mata-itsuka-4-5",
+      "original": "したり顔で 触らないで 背中を殴りつける的外れ",
+      "ruby": [{ "text": "したり" }, { "text": "顔", "reading": "がお" }, { "text": "で " }, { "text": "触", "reading": "さわ" }, { "text": "らないで " }, { "text": "背中", "reading": "せなか" }, { "text": "を" }, { "text": "殴", "reading": "なぐ" }, { "text": "りつける" }, { "text": "的外", "reading": "まとはず" }, { "text": "れ" }],
+      "hiragana": "したりがお で さわらないで せなか を なぐりつける まとはずれ",
+      "pronunciationKo": "시타리가오데 사와라나이데 세나카오 나구리츠케루 마토하즈레",
+      "translationKo": "득의양양한 얼굴로 건드리지 마, 등을 세게 후려치는 엉뚱한 짓",
+      "grammarIds": ["naide"],
+      "kanjiIds": ["顔"]
+    },
+    {
+      "id": "sayonara-mata-itsuka-4-6",
+      "original": "人が宣う地獄の先にこそ わたしは春を見る",
+      "ruby": [{ "text": "人", "reading": "ひと" }, { "text": "が" }, { "text": "宣", "reading": "のたま" }, { "text": "う" }, { "text": "地獄", "reading": "じごく" }, { "text": "の" }, { "text": "先", "reading": "さき" }, { "text": "にこそ わたしは" }, { "text": "春", "reading": "はる" }, { "text": "を" }, { "text": "見", "reading": "み" }, { "text": "る" }],
+      "hiragana": "ひと が のたまう じごく の さき にこそ わたし は はる を みる",
+      "pronunciationKo": "히토가 노타마우 지고쿠노 사키니코소 와타시와 하루오 미루",
+      "translationKo": "사람들이 지껄이는 지옥의 너머에서야말로 나는 봄을 본다",
+      "grammarIds": ["koso"],
+      "kanjiIds": ["先"]
+    }
+  ],
+  "vocabulary": [
+    { "id": "sayonara-4-shigururu", "term": "しぐるる", "reading": "しぐるる", "meaning": "초겨울비가 내리다", "note": "현대형 時雨れる보다 시적인 옛말 느낌이 강합니다." },
+    { "id": "sayonara-4-sokokashiko", "term": "そこかしこ", "reading": "そこかしこ", "meaning": "이곳저곳, 여기저기" },
+    { "id": "sayonara-4-sode", "term": "袖", "reading": "そで", "meaning": "소매" },
+    { "id": "sayonara-4-shitarigao", "term": "したり顔", "reading": "したりがお", "meaning": "뜻대로 되었다는 듯한 얼굴, 득의양양한 표정" },
+    { "id": "sayonara-4-matohazure", "term": "的外れ", "reading": "まとはずれ", "meaning": "빗나감, 엉뚱함" },
+    { "id": "sayonara-4-notamau", "term": "宣う", "reading": "のたまう", "meaning": "말씀하시다, 잘도 지껄이다", "note": "본래 높임말이지만 현대에는 상대의 말을 비꼬는 용법도 많습니다." }
+  ],
+  "quiz": [
+    { "id": "sayonara-4-q1", "prompt": "「しぐるる」가 나타내는 날씨는?", "options": ["한여름의 소나기", "초겨울 무렵의 비", "봄의 황사", "한밤의 폭설"], "answerIndex": 1, "explanation": "時雨는 늦가을부터 초겨울 무렵 오다 그치기를 반복하는 비를 가리킵니다." },
+    { "id": "sayonara-4-q2", "prompt": "「そこかしこ」의 뜻은?", "options": ["바로 그곳", "어디에도", "이곳저곳", "언젠가"], "answerIndex": 2, "explanation": "そこかしこ는 여러 장소를 두루 가리키는 문어적인 표현입니다." },
+    { "id": "sayonara-4-q3", "prompt": "「何も居なかった」의 뜻은?", "options": ["누군가 있었다", "아무것도 없었다", "무엇이든 있었다", "아무도 오지 않았다"], "answerIndex": 1, "explanation": "何も가 부정형과 호응하여 ‘아무것도 ~않다’라는 뜻을 만듭니다." },
+    { "id": "sayonara-4-q4", "prompt": "「的外れ」의 본래 이미지는?", "options": ["과녁에서 빗나감", "줄을 꽉 묶음", "비를 피함", "문을 열어 둠"], "answerIndex": 0, "explanation": "的은 과녁, 外れ는 빗나감입니다. 말이나 행동이 핵심에서 벗어났을 때도 씁니다." },
+    { "id": "sayonara-4-q5", "prompt": "「地獄の先にこそ」가 강조하는 것은?", "options": ["지옥을 피해야 한다", "바로 지옥의 너머야말로 중요한 곳이다", "지옥은 이미 사라졌다", "지옥까지 갈 수 없다"], "answerIndex": 1, "explanation": "こそ는 앞말을 ‘바로 ~야말로’라는 뜻으로 강하게 선택하고 강조합니다." }
+  ]
+}

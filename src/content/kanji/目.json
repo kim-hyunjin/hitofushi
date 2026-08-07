@@ -2,8 +2,8 @@
   "character": "目",
   "onyomi": ["モク", "ボク"],
   "kunyomi": ["め", "ま"],
-  "basicMeaning": "눈",
-  "wordMeaning": "目（め）로 읽어 보는 기관인 눈이나 시선을 나타냅니다.",
+  "basicMeaning": "눈, 항목",
+  "wordMeaning": "目（め）로 읽어 눈이나 시선을 나타내며, 目が覚める（めがさめる）에서는 잠에서 눈을 뜨는 표현을 만듭니다.",
   "mnemonic": "사람의 눈 모양을 세워 그린 글자라고 떠올려 보세요.",
   "examples": [
     { "word": "目", "reading": "め", "meaning": "눈" },

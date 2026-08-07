@@ -1,0 +1,12 @@
+{
+  "character": "京",
+  "onyomi": ["キョウ", "ケイ"],
+  "kunyomi": ["みやこ"],
+  "basicMeaning": "수도",
+  "wordMeaning": "東京（とうきょう）에서 きょう로 읽어 동쪽의 수도라는 이름을 만듭니다.",
+  "mnemonic": "많은 사람이 모이는 큰 수도의 높은 건물을 떠올려 보세요.",
+  "examples": [
+    { "word": "東京", "reading": "とうきょう", "meaning": "도쿄" },
+    { "word": "上京", "reading": "じょうきょう", "meaning": "도쿄로 올라감" }
+  ]
+}

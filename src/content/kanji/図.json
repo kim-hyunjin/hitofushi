@@ -1,0 +1,12 @@
+{
+  "character": "図",
+  "onyomi": ["ズ", "ト"],
+  "kunyomi": ["はかる"],
+  "basicMeaning": "그림, 꾀하다",
+  "wordMeaning": "合図（あいず）에서 ず로 읽어 의사를 전하는 신호를 나타냅니다.",
+  "mnemonic": "뜻을 한눈에 전하는 그림이나 도표를 떠올려 보세요.",
+  "examples": [
+    { "word": "合図", "reading": "あいず", "meaning": "신호" },
+    { "word": "地図", "reading": "ちず", "meaning": "지도" }
+  ]
+}

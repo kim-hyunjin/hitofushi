@@ -1,0 +1,12 @@
+{
+  "character": "行",
+  "onyomi": ["コウ", "ギョウ"],
+  "kunyomi": ["いく", "ゆく", "おこなう"],
+  "basicMeaning": "가다, 행하다",
+  "wordMeaning": "行こう（いこう）는 行く의 의지형으로 ‘가자, 갈까’를 나타냅니다.",
+  "mnemonic": "길을 따라 한 걸음씩 앞으로 가는 모습을 떠올려 보세요.",
+  "examples": [
+    { "word": "行く", "reading": "いく", "meaning": "가다" },
+    { "word": "旅行", "reading": "りょこう", "meaning": "여행" }
+  ]
+}

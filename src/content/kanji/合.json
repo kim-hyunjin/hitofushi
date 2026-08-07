@@ -1,0 +1,12 @@
+{
+  "character": "合",
+  "onyomi": ["ゴウ", "ガッ", "カッ"],
+  "kunyomi": ["あう", "あわせる"],
+  "basicMeaning": "맞다, 합치다",
+  "wordMeaning": "合図（あいず）에서는 あい로 읽어 서로 뜻을 맞추는 신호를 나타냅니다.",
+  "mnemonic": "두 사람의 타이밍이 딱 맞아 하나가 되는 모습을 떠올려 보세요.",
+  "examples": [
+    { "word": "合図", "reading": "あいず", "meaning": "신호" },
+    { "word": "合う", "reading": "あう", "meaning": "맞다" }
+  ]
+}

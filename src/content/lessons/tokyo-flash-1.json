@@ -1,0 +1,99 @@
+{
+  "songSlug": "tokyo-flash",
+  "lessonNumber": 1,
+  "title": "능숙해진 맞장구",
+  "subtitle": "변화의 〜くなる와 설명의 〜んだ",
+  "description": "관계에 익숙해진 두 사람의 대화를 읽으며 상태 변화, 설명하는 말투, ‘~ 없이’와 ‘~해 오다’를 익힙니다.",
+  "estimatedMinutes": 20,
+  "sentences": [
+    {
+      "id": "tokyo-flash-1-1",
+      "original": "相槌がうまくなったんだ",
+      "ruby": [
+        { "text": "相槌", "reading": "あいづち" },
+        { "text": "がうまくなったんだ" }
+      ],
+      "hiragana": "あいづち が うまく なったんだ",
+      "pronunciationKo": "아이즈치가 우마쿠 낫탄다",
+      "translationKo": "맞장구를 잘 치게 됐어",
+      "grammarIds": ["i-adjective-ku-naru", "n-da"],
+      "kanjiIds": ["相", "槌"]
+    },
+    {
+      "id": "tokyo-flash-1-2",
+      "original": "できてる？ できてる？",
+      "ruby": [{ "text": "できてる？ できてる？" }],
+      "hiragana": "できてる できてる",
+      "pronunciationKo": "데키테루 데키테루",
+      "translationKo": "잘하고 있어? 잘하고 있어?",
+      "grammarIds": ["teiru"],
+      "kanjiIds": []
+    },
+    {
+      "id": "tokyo-flash-1-3",
+      "original": "あぁ、君もうまいね",
+      "ruby": [
+        { "text": "あぁ、" },
+        { "text": "君", "reading": "きみ" },
+        { "text": "もうまいね" }
+      ],
+      "hiragana": "あぁ きみ も うまいね",
+      "pronunciationKo": "아아 키미모 우마이네",
+      "translationKo": "아아, 너도 능숙하네",
+      "grammarIds": [],
+      "kanjiIds": ["君"]
+    },
+    {
+      "id": "tokyo-flash-1-4",
+      "original": "合図なしで攻撃してきたんだ",
+      "ruby": [
+        { "text": "合図", "reading": "あいず" },
+        { "text": "なしで" },
+        { "text": "攻撃", "reading": "こうげき" },
+        { "text": "してきたんだ" }
+      ],
+      "hiragana": "あいず なしで こうげき してきたんだ",
+      "pronunciationKo": "아이즈 나시데 코오게키 시테키탄다",
+      "translationKo": "신호도 없이 공격해 왔어",
+      "grammarIds": ["noun-nashi-de", "te-kuru", "n-da"],
+      "kanjiIds": ["合", "図", "攻", "撃"]
+    },
+    {
+      "id": "tokyo-flash-1-5",
+      "original": "わるくない わるくない",
+      "ruby": [{ "text": "わるくない わるくない" }],
+      "hiragana": "わるくない わるくない",
+      "pronunciationKo": "와루쿠나이 와루쿠나이",
+      "translationKo": "나쁘지 않아, 나쁘지 않아",
+      "grammarIds": [],
+      "kanjiIds": []
+    },
+    {
+      "id": "tokyo-flash-1-6",
+      "original": "あぁ、もういいのかい",
+      "ruby": [{ "text": "あぁ、もういいのかい" }],
+      "hiragana": "あぁ もう いい のかい",
+      "pronunciationKo": "아아 모오 이이노카이",
+      "translationKo": "아아, 이제 된 거니?",
+      "grammarIds": ["no-kai"],
+      "kanjiIds": []
+    }
+  ],
+  "vocabulary": [
+    { "id": "tokyo-flash-1-aizuchi", "term": "相槌", "reading": "あいづち", "meaning": "맞장구", "note": "상대의 말을 듣고 있음을 보여 주는 짧은 반응입니다." },
+    { "id": "tokyo-flash-1-umai", "term": "うまい", "reading": "うまい", "meaning": "잘하다, 능숙하다" },
+    { "id": "tokyo-flash-1-dekiru", "term": "できる", "reading": "できる", "meaning": "되다, 해내다" },
+    { "id": "tokyo-flash-1-aizu", "term": "合図", "reading": "あいず", "meaning": "신호" },
+    { "id": "tokyo-flash-1-nashi", "term": "なし", "reading": "なし", "meaning": "없음, ~ 없이" },
+    { "id": "tokyo-flash-1-kougeki", "term": "攻撃", "reading": "こうげき", "meaning": "공격" },
+    { "id": "tokyo-flash-1-warukunai", "term": "悪くない", "reading": "わるくない", "meaning": "나쁘지 않다" },
+    { "id": "tokyo-flash-1-mou", "term": "もう", "reading": "もう", "meaning": "벌써, 이제" }
+  ],
+  "quiz": [
+    { "id": "tokyo-flash-1-q1", "prompt": "「うまくなった」가 나타내는 변화는?", "options": ["능숙하지 않게 되었다", "능숙해졌다", "능숙해야 한다", "능숙할지도 모른다"], "answerIndex": 1, "explanation": "い형용사 うまい가 うまくなる로 바뀌어 ‘능숙해지다’를 뜻합니다." },
+    { "id": "tokyo-flash-1-q2", "prompt": "「できてる」의 줄지 않은 형태는?", "options": ["できている", "できていた", "できてみる", "できてくる"], "answerIndex": 0, "explanation": "회화에서는 〜ている의 い가 빠져 〜てる가 됩니다." },
+    { "id": "tokyo-flash-1-q3", "prompt": "「合図なしで」와 가장 가까운 뜻은?", "options": ["신호를 위해", "신호와 함께", "신호 없이", "신호 뒤에"], "answerIndex": 2, "explanation": "명사 뒤의 なしで는 그 대상이 없는 상태나 방식을 나타냅니다." },
+    { "id": "tokyo-flash-1-q4", "prompt": "「攻撃してきた」의 〜てきた가 더하는 느낌은?", "options": ["공격을 금지한다", "공격이 화자 쪽으로 가해져 왔다", "공격을 연습한다", "공격을 잊었다"], "answerIndex": 1, "explanation": "〜てくる는 행동이나 변화가 화자 쪽으로 다가오는 방향감을 나타낼 수 있습니다." },
+    { "id": "tokyo-flash-1-q5", "prompt": "문장 끝 「のかい」의 역할은?", "options": ["원인을 나열한다", "상대에게 부드럽게 확인한다", "과거를 회상한다", "명령을 강하게 만든다"], "answerIndex": 1, "explanation": "〜のかい는 친근한 회화에서 상대에게 상황을 묻거나 확인하는 의문 표현입니다." }
+  ]
+}
