@@ -1,0 +1,12 @@
+{
+  "character": "時",
+  "onyomi": ["ジ"],
+  "kunyomi": ["とき"],
+  "basicMeaning": "때, 시간",
+  "wordMeaning": "時代（じだい）에서 일정한 특징을 지닌 시간의 흐름을 나타냅니다.",
+  "mnemonic": "해(日)의 움직임을 살피며 때와 시간을 헤아리는 모습을 떠올려 보세요.",
+  "examples": [
+    { "word": "時", "reading": "とき", "meaning": "때" },
+    { "word": "時代", "reading": "じだい", "meaning": "시대" }
+  ]
+}

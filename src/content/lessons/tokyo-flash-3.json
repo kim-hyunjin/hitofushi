@@ -1,0 +1,158 @@
+{
+  "songSlug": "tokyo-flash",
+  "lessonNumber": 3,
+  "title": "눈을 뜨면 어디로 갈까",
+  "subtitle": "조건형 〜たら와 의지형 〜よう",
+  "description": "대표 후렴을 소리 내어 읽으며 ‘~하면’이라는 조건과 ‘~하자, ~할까’라는 의지형을 반복해서 익힙니다.",
+  "estimatedMinutes": 22,
+  "sentences": [
+    {
+      "id": "tokyo-flash-3-1",
+      "original": "東京フラッシュ",
+      "ruby": [
+        { "text": "東京", "reading": "とうきょう" },
+        { "text": "フラッシュ" }
+      ],
+      "hiragana": "とうきょう ふらっしゅ",
+      "pronunciationKo": "토오쿄오 후랏슈",
+      "translationKo": "도쿄 플래시",
+      "grammarIds": [],
+      "kanjiIds": ["東", "京"]
+    },
+    {
+      "id": "tokyo-flash-3-2",
+      "original": "君の目が覚めたら",
+      "ruby": [
+        { "text": "君", "reading": "きみ" },
+        { "text": "の" },
+        { "text": "目", "reading": "め" },
+        { "text": "が" },
+        { "text": "覚", "reading": "さ" },
+        { "text": "めたら" }
+      ],
+      "hiragana": "きみ の め が さめたら",
+      "pronunciationKo": "키미노 메가 사메타라",
+      "translationKo": "네가 눈을 뜨면",
+      "grammarIds": ["noun-no-noun", "tara-conditional"],
+      "kanjiIds": ["君", "目", "覚"]
+    },
+    {
+      "id": "tokyo-flash-3-3",
+      "original": "どこへ行こう どこへ行こう",
+      "ruby": [
+        { "text": "どこへ" },
+        { "text": "行", "reading": "い" },
+        { "text": "こう どこへ" },
+        { "text": "行", "reading": "い" },
+        { "text": "こう" }
+      ],
+      "hiragana": "どこへ いこう どこへ いこう",
+      "pronunciationKo": "도코에 이코오 도코에 이코오",
+      "translationKo": "어디로 갈까, 어디로 갈까",
+      "grammarIds": ["volitional-form"],
+      "kanjiIds": ["行"]
+    },
+    {
+      "id": "tokyo-flash-3-4",
+      "original": "変わらないよ",
+      "ruby": [
+        { "text": "変", "reading": "か" },
+        { "text": "わらないよ" }
+      ],
+      "hiragana": "かわらないよ",
+      "pronunciationKo": "카와라나이요",
+      "translationKo": "변하지 않아",
+      "grammarIds": [],
+      "kanjiIds": ["変"]
+    },
+    {
+      "id": "tokyo-flash-3-5",
+      "original": "東京フラッシュ",
+      "ruby": [
+        { "text": "東京", "reading": "とうきょう" },
+        { "text": "フラッシュ" }
+      ],
+      "hiragana": "とうきょう ふらっしゅ",
+      "pronunciationKo": "토오쿄오 후랏슈",
+      "translationKo": "도쿄 플래시",
+      "grammarIds": [],
+      "kanjiIds": ["東", "京"]
+    },
+    {
+      "id": "tokyo-flash-3-6",
+      "original": "君と手を繋いだら",
+      "ruby": [
+        { "text": "君", "reading": "きみ" },
+        { "text": "と" },
+        { "text": "手", "reading": "て" },
+        { "text": "を" },
+        { "text": "繋", "reading": "つな" },
+        { "text": "いだら" }
+      ],
+      "hiragana": "きみ と て を つないだら",
+      "pronunciationKo": "키미토 테오 츠나이다라",
+      "translationKo": "너와 손을 잡으면",
+      "grammarIds": ["tara-conditional"],
+      "kanjiIds": ["君", "手", "繋"]
+    },
+    {
+      "id": "tokyo-flash-3-7",
+      "original": "どこへ行こう どこへ行こう",
+      "ruby": [
+        { "text": "どこへ" },
+        { "text": "行", "reading": "い" },
+        { "text": "こう どこへ" },
+        { "text": "行", "reading": "い" },
+        { "text": "こう" }
+      ],
+      "hiragana": "どこへ いこう どこへ いこう",
+      "pronunciationKo": "도코에 이코오 도코에 이코오",
+      "translationKo": "어디로 갈까, 어디로 갈까",
+      "grammarIds": ["volitional-form"],
+      "kanjiIds": ["行"]
+    },
+    {
+      "id": "tokyo-flash-3-8",
+      "original": "変わらないよ",
+      "ruby": [
+        { "text": "変", "reading": "か" },
+        { "text": "わらないよ" }
+      ],
+      "hiragana": "かわらないよ",
+      "pronunciationKo": "카와라나이요",
+      "translationKo": "변하지 않아",
+      "grammarIds": [],
+      "kanjiIds": ["変"]
+    },
+    {
+      "id": "tokyo-flash-3-9",
+      "original": "東京フラッシュ",
+      "ruby": [
+        { "text": "東京", "reading": "とうきょう" },
+        { "text": "フラッシュ" }
+      ],
+      "hiragana": "とうきょう ふらっしゅ",
+      "pronunciationKo": "토오쿄오 후랏슈",
+      "translationKo": "도쿄 플래시",
+      "grammarIds": [],
+      "kanjiIds": ["東", "京"]
+    }
+  ],
+  "vocabulary": [
+    { "id": "tokyo-flash-3-tokyo", "term": "東京", "reading": "とうきょう", "meaning": "도쿄" },
+    { "id": "tokyo-flash-3-flash", "term": "フラッシュ", "reading": "ふらっしゅ", "meaning": "플래시, 순간적인 섬광" },
+    { "id": "tokyo-flash-3-me", "term": "目", "reading": "め", "meaning": "눈" },
+    { "id": "tokyo-flash-3-megasameru", "term": "目が覚める", "reading": "めがさめる", "meaning": "잠에서 깨다, 눈을 뜨다" },
+    { "id": "tokyo-flash-3-doko", "term": "どこ", "reading": "どこ", "meaning": "어디" },
+    { "id": "tokyo-flash-3-iku", "term": "行く", "reading": "いく", "meaning": "가다" },
+    { "id": "tokyo-flash-3-kawaru", "term": "変わる", "reading": "かわる", "meaning": "변하다" },
+    { "id": "tokyo-flash-3-tewotsunagu", "term": "手を繋ぐ", "reading": "てをつなぐ", "meaning": "손을 잡다" }
+  ],
+  "quiz": [
+    { "id": "tokyo-flash-3-q1", "prompt": "「目が覚める」의 뜻은?", "options": ["눈을 감다", "잠에서 깨다", "눈을 피하다", "잠이 들다"], "answerIndex": 1, "explanation": "目が覚める는 잠에서 깨어 의식이 돌아오는 것을 뜻하는 고정 표현입니다." },
+    { "id": "tokyo-flash-3-q2", "prompt": "「覚めたら」의 〜たら가 나타내는 것은?", "options": ["조건", "금지", "비교", "인용"], "answerIndex": 0, "explanation": "동사 과거형 覚めた에 ら가 붙어 ‘눈을 뜨면’이라는 조건을 만듭니다." },
+    { "id": "tokyo-flash-3-q3", "prompt": "「行こう」는 어떤 형태인가요?", "options": ["명령형", "수동형", "의지형", "가능형"], "answerIndex": 2, "explanation": "行く의 의지형 行こう는 ‘가자’ 또는 문맥상 ‘갈까’라는 제안을 나타냅니다." },
+    { "id": "tokyo-flash-3-q4", "prompt": "「手を繋いだら」의 자연스러운 뜻은?", "options": ["손을 놓았으므로", "손을 잡으면", "손을 잡지 않고", "손을 잡고 싶지만"], "answerIndex": 1, "explanation": "繋いだ에 조건형 ら가 붙어 ‘손을 잡으면’이 됩니다." },
+    { "id": "tokyo-flash-3-q5", "prompt": "후렴에서 반복되는 두 핵심 문법은?", "options": ["조건형과 의지형", "수동형과 사역형", "비교와 최상급", "존경어와 겸양어"], "answerIndex": 0, "explanation": "〜たら로 조건을 세우고, 〜よう로 함께 갈 곳을 제안하는 구조가 반복됩니다." }
+  ]
+}

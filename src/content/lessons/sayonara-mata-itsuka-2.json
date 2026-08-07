@@ -1,0 +1,85 @@
+{
+  "songSlug": "sayonara-mata-itsuka",
+  "lessonNumber": 2,
+  "title": "100년 뒤의 약속",
+  "subtitle": "〜ましょう와 〜ないで로 이별 속 약속 건네기",
+  "description": "먼 미래의 재회를 약속하고, 폭우에도 아랑곳하지 않고 날아가는 힘을 선망하는 장면을 읽습니다.",
+  "estimatedMinutes": 23,
+  "sentences": [
+    {
+      "id": "sayonara-mata-itsuka-2-1",
+      "original": "さよなら100年先でまた会いましょう",
+      "ruby": [{ "text": "さよなら100" }, { "text": "年", "reading": "ねん" }, { "text": "先", "reading": "さき" }, { "text": "でまた" }, { "text": "会", "reading": "あ" }, { "text": "いましょう" }],
+      "hiragana": "さよなら ひゃくねんさき で また あいましょう",
+      "pronunciationKo": "사요나라 햐쿠넨사키데 마타 아이마쇼오",
+      "translationKo": "안녕, 100년 뒤에 다시 만납시다",
+      "grammarIds": ["volitional-form"],
+      "kanjiIds": ["先", "会"]
+    },
+    {
+      "id": "sayonara-mata-itsuka-2-2",
+      "original": "心配しないで",
+      "ruby": [{ "text": "心配", "reading": "しんぱい" }, { "text": "しないで" }],
+      "hiragana": "しんぱい しないで",
+      "pronunciationKo": "신파이 시나이데",
+      "translationKo": "걱정하지 마",
+      "grammarIds": ["naide"],
+      "kanjiIds": ["心"]
+    },
+    {
+      "id": "sayonara-mata-itsuka-2-3",
+      "original": "いつの間にか 花が落ちた",
+      "ruby": [{ "text": "いつの" }, { "text": "間", "reading": "ま" }, { "text": "にか " }, { "text": "花", "reading": "はな" }, { "text": "が" }, { "text": "落", "reading": "お" }, { "text": "ちた" }],
+      "hiragana": "いつのま にか はな が おちた",
+      "pronunciationKo": "이츠노마니카 하나가 오치타",
+      "translationKo": "어느새 꽃이 떨어졌다",
+      "grammarIds": [],
+      "kanjiIds": []
+    },
+    {
+      "id": "sayonara-mata-itsuka-2-4",
+      "original": "誰かがわたしに嘘をついた",
+      "ruby": [{ "text": "誰", "reading": "だれ" }, { "text": "かがわたしに" }, { "text": "嘘", "reading": "うそ" }, { "text": "をついた" }],
+      "hiragana": "だれか が わたし に うそ を ついた",
+      "pronunciationKo": "다레카가 와타시니 우소오 츠이타",
+      "translationKo": "누군가가 나에게 거짓말을 했다",
+      "grammarIds": [],
+      "kanjiIds": []
+    },
+    {
+      "id": "sayonara-mata-itsuka-2-5",
+      "original": "土砂降りでも構わず飛んでいく",
+      "ruby": [{ "text": "土砂降", "reading": "どしゃぶ" }, { "text": "りでも" }, { "text": "構", "reading": "かま" }, { "text": "わず" }, { "text": "飛", "reading": "と" }, { "text": "んでいく" }],
+      "hiragana": "どしゃぶり でも かまわず とんでいく",
+      "pronunciationKo": "도샤부리데모 카마와즈 톤데이쿠",
+      "translationKo": "억수같이 비가 내려도 아랑곳하지 않고 날아간다",
+      "grammarIds": ["demo", "zuni", "teiku-teku"],
+      "kanjiIds": []
+    },
+    {
+      "id": "sayonara-mata-itsuka-2-6",
+      "original": "その力が欲しかった",
+      "ruby": [{ "text": "その" }, { "text": "力", "reading": "ちから" }, { "text": "が" }, { "text": "欲", "reading": "ほ" }, { "text": "しかった" }],
+      "hiragana": "その ちから が ほしかった",
+      "pronunciationKo": "소노 치카라가 호시캇타",
+      "translationKo": "그 힘을 원했다",
+      "grammarIds": [],
+      "kanjiIds": []
+    }
+  ],
+  "vocabulary": [
+    { "id": "sayonara-2-hyakunensaki", "term": "100年先", "reading": "ひゃくねんさき", "meaning": "100년 후" },
+    { "id": "sayonara-2-shinpai", "term": "心配", "reading": "しんぱい", "meaning": "걱정" },
+    { "id": "sayonara-2-itsunomanika", "term": "いつの間にか", "reading": "いつのまにか", "meaning": "어느새, 모르는 사이에" },
+    { "id": "sayonara-2-usowotsuku", "term": "嘘をつく", "reading": "うそをつく", "meaning": "거짓말을 하다" },
+    { "id": "sayonara-2-doshaburi", "term": "土砂降り", "reading": "どしゃぶり", "meaning": "억수같이 쏟아지는 비" },
+    { "id": "sayonara-2-kamawazu", "term": "構わず", "reading": "かまわず", "meaning": "개의치 않고, 아랑곳하지 않고" }
+  ],
+  "quiz": [
+    { "id": "sayonara-2-q1", "prompt": "「100年先」는 어느 때를 가리키나요?", "options": ["100년 전", "100년 동안", "100년 후", "100번째 해마다"], "answerIndex": 2, "explanation": "시간 표현 뒤의 先는 현재보다 앞으로 떨어진 시점을 가리킵니다." },
+    { "id": "sayonara-2-q2", "prompt": "「会いましょう」에 담긴 말하는 이의 태도는?", "options": ["재회의 권유와 약속", "만남의 부정", "과거 만남의 회상", "만남의 가능성 질문"], "answerIndex": 0, "explanation": "〜ましょう는 함께 하자는 권유입니다. 이별 뒤 다시 만나자는 약속처럼 들립니다." },
+    { "id": "sayonara-2-q3", "prompt": "문장 끝의 「心配しないで」는?", "options": ["걱정했어", "걱정하지 마", "걱정할 것 같아", "걱정해 줘"], "answerIndex": 1, "explanation": "부정형 + で가 문장 끝에 오면 상대에게 그 행동을 하지 말라고 부드럽게 부탁합니다." },
+    { "id": "sayonara-2-q4", "prompt": "「いつの間にか」와 가장 가까운 표현은?", "options": ["まだ", "わざと", "気づかないうちに", "すぐに"], "answerIndex": 2, "explanation": "気づかないうちに는 ‘알아차리지 못하는 사이에’라는 뜻으로 いつの間にか와 가깝습니다." },
+    { "id": "sayonara-2-q5", "prompt": "「土砂降りでも構わず」의 뜻은?", "options": ["비가 그친 다음에", "폭우라서 포기하고", "폭우인지 확인하며", "폭우에도 아랑곳하지 않고"], "answerIndex": 3, "explanation": "〜でも는 양보를, 構わず는 개의치 않는 태도를 나타냅니다." }
+  ]
+}

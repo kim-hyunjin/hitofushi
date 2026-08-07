@@ -1,0 +1,12 @@
+{
+  "character": "者",
+  "onyomi": ["シャ"],
+  "kunyomi": ["もの"],
+  "basicMeaning": "사람, 자",
+  "wordMeaning": "性愛者（せいあいしゃ）에서 しゃ로 읽어 그러한 성향을 지닌 사람을 나타냅니다.",
+  "mnemonic": "어떤 특징을 가진 한 사람을 가리키는 표지라고 떠올려 보세요.",
+  "examples": [
+    { "word": "医者", "reading": "いしゃ", "meaning": "의사" },
+    { "word": "若者", "reading": "わかもの", "meaning": "젊은이" }
+  ]
+}

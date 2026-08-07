@@ -1,1 +1,12 @@
-{"character":"行","onyomi":["コウ","ギョウ"],"kunyomi":["いく","ゆく","おこなう"],"basicMeaning":"가다, 행하다","wordMeaning":"行く（いく）와 行方（ゆくえ）에서 이동하거나 간 방향을 나타냅니다.","mnemonic":"갈림길 사이로 발걸음을 옮겨 어딘가를 향하는 모습을 떠올려 보세요.","examples":[{"word":"行く","reading":"いく","meaning":"가다"},{"word":"行方","reading":"ゆくえ","meaning":"행방"}]}
+{
+  "character": "行",
+  "onyomi": ["コウ", "ギョウ"],
+  "kunyomi": ["いく", "ゆく", "おこなう"],
+  "basicMeaning": "가다, 행하다",
+  "wordMeaning": "行方（ゆくえ）는 간 방향이나 행방을, 行こう（いこう）는 行く의 의지형으로 ‘가자, 갈까’를 나타냅니다.",
+  "mnemonic": "갈림길 사이로 한 걸음씩 어딘가를 향해 가는 모습을 떠올려 보세요.",
+  "examples": [
+    { "word": "行方", "reading": "ゆくえ", "meaning": "행방" },
+    { "word": "行こう", "reading": "いこう", "meaning": "가자, 갈까" }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "character": "歌",
+  "onyomi": ["カ"],
+  "kunyomi": ["うた", "うたう"],
+  "basicMeaning": "노래, 노래하다",
+  "wordMeaning": "歌（うた）는 노래, 歌う（うたう）는 노래하는 행동을 나타냅니다.",
+  "mnemonic": "입을 열어 소리를 이어 가며 마음을 전하는 모습을 떠올려 보세요.",
+  "examples": [
+    { "word": "歌", "reading": "うた", "meaning": "노래" },
+    { "word": "歌う", "reading": "うたう", "meaning": "노래하다" }
+  ]
+}

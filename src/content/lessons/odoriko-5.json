@@ -1,0 +1,48 @@
+{
+  "songSlug": "odoriko",
+  "lessonNumber": 5,
+  "title": "다시 돌아온 미래의 후렴",
+  "subtitle": "가능형과 조건형 다시 읽기",
+  "description": "두 사람의 미래를 노래하는 후렴을 다시 만나며 가능형과 〜たら 조건을 리듬 속에서 굳힙니다.",
+  "estimatedMinutes": 16,
+  "sentences": [
+    {
+      "id": "odoriko-5-1", "original": "回り出した あの子と僕の未来が",
+      "ruby": [{ "text": "回", "reading": "まわ" }, { "text": "り" }, { "text": "出", "reading": "だ" }, { "text": "した あの" }, { "text": "子", "reading": "こ" }, { "text": "と" }, { "text": "僕", "reading": "ぼく" }, { "text": "の" }, { "text": "未来", "reading": "みらい" }, { "text": "が" }],
+      "hiragana": "まわりだした あのこ と ぼく の みらい が", "pronunciationKo": "마와리다시타 아노코토 보쿠노 미라이가", "translationKo": "돌기 시작한 그 아이와 나의 미래가",
+      "grammarIds": ["verb-stem-dasu", "noun-no-noun"], "kanjiIds": ["僕", "未", "来"]
+    },
+    {
+      "id": "odoriko-5-2", "original": "止まりどっかで またやり直せたら",
+      "ruby": [{ "text": "止", "reading": "と" }, { "text": "まりどっかで またやり" }, { "text": "直", "reading": "なお" }, { "text": "せたら" }],
+      "hiragana": "とまり どっか で また やりなおせたら", "pronunciationKo": "토마리 돗카데 마타 야리나오세타라", "translationKo": "멈추고 어딘가에서 다시 시작할 수 있다면",
+      "grammarIds": ["potential-form", "tara-conditional"], "kanjiIds": []
+    },
+    {
+      "id": "odoriko-5-3", "original": "回り出した あの子と僕が被害者",
+      "ruby": [{ "text": "回", "reading": "まわ" }, { "text": "り" }, { "text": "出", "reading": "だ" }, { "text": "した あの" }, { "text": "子", "reading": "こ" }, { "text": "と" }, { "text": "僕", "reading": "ぼく" }, { "text": "が" }, { "text": "被害者", "reading": "ひがいしゃ" }],
+      "hiragana": "まわりだした あのこ と ぼく が ひがいしゃ", "pronunciationKo": "마와리다시타 아노코토 보쿠가 히가이샤", "translationKo": "돌기 시작한 그 아이와 내가 피해자인",
+      "grammarIds": [], "kanjiIds": ["僕"]
+    },
+    {
+      "id": "odoriko-5-4", "original": "づらでどっかを また練り歩けたらな",
+      "ruby": [{ "text": "づらでどっかを また" }, { "text": "練", "reading": "ね" }, { "text": "り" }, { "text": "歩", "reading": "ある" }, { "text": "けたらな" }],
+      "hiragana": "づら で どっか を また ねりあるけたら な", "pronunciationKo": "즈라데 돗카오 마타 네리아루케타라나", "translationKo": "척하며 어딘가를 다시 떼 지어 걸을 수 있다면",
+      "grammarIds": ["n-zura", "potential-form", "tara-conditional"], "kanjiIds": []
+    }
+  ],
+  "vocabulary": [
+    { "id": "odoriko-5-tomaru", "term": "止まる", "reading": "とまる", "meaning": "멈추다" },
+    { "id": "odoriko-5-mirai", "term": "未来", "reading": "みらい", "meaning": "미래" },
+    { "id": "odoriko-5-yarinaoseru", "term": "やり直せる", "reading": "やりなおせる", "meaning": "다시 할 수 있다" },
+    { "id": "odoriko-5-higaishazura", "term": "被害者づら", "reading": "ひがいしゃづら", "meaning": "피해자인 척하는 태도" },
+    { "id": "odoriko-5-neriarukeru", "term": "練り歩ける", "reading": "ねりあるける", "meaning": "무리를 지어 걸을 수 있다" }
+  ],
+  "quiz": [
+    { "id": "odoriko-5-q1", "prompt": "후렴의 「未来が」는 문법적으로 어떤 상태인가요?", "options": ["뒤 문장과 이어지는 주어", "완결된 명령", "독립된 감탄사", "장소를 나타내는 말"], "answerIndex": 0, "explanation": "が로 끝나며 다음 줄의 止まり로 이어집니다. 노래의 줄바꿈과 문법적 문장 경계가 다를 수 있습니다." },
+    { "id": "odoriko-5-q2", "prompt": "「どっかで」의 で가 표시하는 것은?", "options": ["행동이 이루어지는 장소", "소유자", "직접 목적어", "출발 시간"], "answerIndex": 0, "explanation": "장소 + で는 그곳에서 행동이나 사건이 일어남을 나타냅니다." },
+    { "id": "odoriko-5-q3", "prompt": "「歩けたら」의 기본형은?", "options": ["歩く", "歩ける", "歩かせる", "歩かれる"], "answerIndex": 1, "explanation": "歩けたら는 가능형 歩ける의 과거형 歩けた에 ら가 붙은 형태입니다." },
+    { "id": "odoriko-5-q4", "prompt": "문장 끝 「〜たらな」가 더하는 느낌은?", "options": ["단호한 금지", "이루어지면 좋겠다는 혼잣말", "이미 끝난 사실", "상대에 대한 명령"], "answerIndex": 1, "explanation": "조건형 뒤의 な는 ‘그렇게 된다면 좋을 텐데’라는 바람과 여운을 드러냅니다." },
+    { "id": "odoriko-5-q5", "prompt": "후렴에서 두 번 반복되는 핵심 조건형은?", "options": ["〜ても", "〜たら", "〜ながら", "〜ので"], "answerIndex": 1, "explanation": "やり直せたら와 練り歩けたら가 모두 가능형 + 〜たら 구조입니다." }
+  ]
+}
