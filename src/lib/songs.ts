@@ -70,8 +70,18 @@ export const songs: SongDefinition[] = [
     youtubeVideoId: 'TGz8AXN3gLA',
   },
   {
-    slug: 'kaiju-no-hanauta',
+    slug: 'lady',
     sequence: 7,
+    title: 'LADY',
+    artist: '米津玄師',
+    kicker: '익숙한 하루를 다시 사랑하는 방법',
+    description:
+      '서로를 너무 잘 아는 두 사람이 평범한 일상을 오가며 다시 사랑을 써 내려가는 마음을 따라갑니다.',
+    youtubeVideoId: 'DdF-u3fe5pg',
+  },
+  {
+    slug: 'kaiju-no-hanauta',
+    sequence: 8,
     title: '怪獣の花唄',
     artist: 'Vaundy',
     kicker: '사라지지 않는 노래와 청춘의 기억',
