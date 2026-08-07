@@ -1,0 +1,12 @@
+{
+  "character": "未",
+  "onyomi": ["ミ"],
+  "kunyomi": ["いまだ"],
+  "basicMeaning": "아직, 미처",
+  "wordMeaning": "未来（みらい）에서 아직 오지 않은 때, 곧 미래를 나타내는 첫 글자입니다.",
+  "mnemonic": "아직 다 자라지 않은 나무가 앞으로 뻗어 갈 모습을 떠올려 보세요.",
+  "examples": [
+    { "word": "未来", "reading": "みらい", "meaning": "미래" },
+    { "word": "未定", "reading": "みてい", "meaning": "미정" }
+  ]
+}
