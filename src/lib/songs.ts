@@ -40,8 +40,38 @@ export const songs: SongDefinition[] = [
     youtubeVideoId: 'TQ8WlA2GXbk',
   },
   {
-    slug: 'kaiju-no-hanauta',
+    slug: 'odoriko',
     sequence: 4,
+    title: '踊り子',
+    artist: 'Vaundy',
+    kicker: '돌고 돌아 남는 사랑의 노래',
+    description:
+      '두고 온 기억을 주워 담고, 다시 시작하고 싶은 두 사람의 미래와 변치 않는 사랑을 따라갑니다.',
+    youtubeVideoId: '7HgJIAUtICU',
+  },
+  {
+    slug: 'tokyo-flash',
+    sequence: 5,
+    title: '東京フラッシュ',
+    artist: 'Vaundy',
+    kicker: '익숙한 미소 뒤에 남은 미련',
+    description:
+      '능숙해진 맞장구와 가짜 미소 사이에서, 끝내 놓지 못하는 관계의 습관을 따라갑니다.',
+    youtubeVideoId: 'hS2BVRnQiYI',
+  },
+  {
+    slug: 'sayonara-mata-itsuka',
+    sequence: 6,
+    title: 'さよーならまたいつか！',
+    artist: '米津玄師',
+    kicker: '상처를 뚫고 끝내 마주하는 봄',
+    description:
+      '날개를 바라는 마음에서 스스로 구속을 끊고 날아오르기까지, 이별과 재생의 언어를 따라갑니다.',
+    youtubeVideoId: 'TGz8AXN3gLA',
+  },
+  {
+    slug: 'kaiju-no-hanauta',
+    sequence: 7,
     title: '怪獣の花唄',
     artist: 'Vaundy',
     kicker: '消えない歌と青春の記憶',

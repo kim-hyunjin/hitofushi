@@ -1,0 +1,12 @@
+{
+  "character": "代",
+  "onyomi": ["ダイ", "タイ"],
+  "kunyomi": ["かわる", "かえる", "よ"],
+  "basicMeaning": "대신하다, 시대",
+  "wordMeaning": "時代（じだい）에서는 사람이 살아가는 일정한 시대나 세대를 나타냅니다.",
+  "mnemonic": "한 사람이 다른 사람의 자리를 대신해 이어 가는 모습을 떠올려 보세요.",
+  "examples": [
+    { "word": "時代", "reading": "じだい", "meaning": "시대" },
+    { "word": "代わる", "reading": "かわる", "meaning": "대신하다" }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "character": "絶",
+  "onyomi": ["ゼツ"],
+  "kunyomi": ["たえる", "たやす", "たつ"],
+  "basicMeaning": "끊어지다, 뛰어나다",
+  "wordMeaning": "断崖絶壁（だんがいぜっぺき）에서 ぜつ로 읽어 더없이 가파른 절벽을 강조합니다.",
+  "mnemonic": "이어지던 실이 완전히 끊어진 모습을 떠올려 보세요.",
+  "examples": [
+    { "word": "絶壁", "reading": "ぜっぺき", "meaning": "절벽" },
+    { "word": "絶対", "reading": "ぜったい", "meaning": "절대" }
+  ]
+}

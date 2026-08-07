@@ -1,0 +1,12 @@
+{
+  "character": "東",
+  "onyomi": ["トウ"],
+  "kunyomi": ["ひがし"],
+  "basicMeaning": "동쪽",
+  "wordMeaning": "東京（とうきょう）에서 とう로 읽어 일본의 수도 이름을 만듭니다.",
+  "mnemonic": "나무 사이로 해가 떠오르는 동쪽을 떠올려 보세요.",
+  "examples": [
+    { "word": "東京", "reading": "とうきょう", "meaning": "도쿄" },
+    { "word": "東", "reading": "ひがし", "meaning": "동쪽" }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "songSlug": "odoriko",
+  "lessonNumber": 2,
+  "title": "돌기 시작한 두 사람의 미래",
+  "subtitle": "〜出す와 〜たら로 시작과 바람 말하기",
+  "description": "돌기 시작했다가 멈춘 미래를 다시 시작하고 싶은 후렴의 네 문장을 익힙니다.",
+  "estimatedMinutes": 20,
+  "sentences": [
+    {
+      "id": "odoriko-2-1", "original": "回り出した あの子と僕の未来が",
+      "ruby": [{ "text": "回", "reading": "まわ" }, { "text": "り" }, { "text": "出", "reading": "だ" }, { "text": "した あの" }, { "text": "子", "reading": "こ" }, { "text": "と" }, { "text": "僕", "reading": "ぼく" }, { "text": "の" }, { "text": "未来", "reading": "みらい" }, { "text": "が" }],
+      "hiragana": "まわりだした あのこ と ぼく の みらい が", "pronunciationKo": "마와리다시타 아노코토 보쿠노 미라이가", "translationKo": "돌기 시작한 그 아이와 나의 미래가",
+      "grammarIds": ["verb-stem-dasu", "noun-no-noun"], "kanjiIds": ["僕", "未", "来"]
+    },
+    {
+      "id": "odoriko-2-2", "original": "止まりどっかで またやり直せたら",
+      "ruby": [{ "text": "止", "reading": "と" }, { "text": "まりどっかで またやり" }, { "text": "直", "reading": "なお" }, { "text": "せたら" }],
+      "hiragana": "とまり どっか で また やりなおせたら", "pronunciationKo": "토마리 돗카데 마타 야리나오세타라", "translationKo": "멈추고 어딘가에서 다시 시작할 수 있다면",
+      "grammarIds": ["potential-form", "tara-conditional"], "kanjiIds": []
+    },
+    {
+      "id": "odoriko-2-3", "original": "回り出した あの子と僕が被害者",
+      "ruby": [{ "text": "回", "reading": "まわ" }, { "text": "り" }, { "text": "出", "reading": "だ" }, { "text": "した あの" }, { "text": "子", "reading": "こ" }, { "text": "と" }, { "text": "僕", "reading": "ぼく" }, { "text": "が" }, { "text": "被害者", "reading": "ひがいしゃ" }],
+      "hiragana": "まわりだした あのこ と ぼく が ひがいしゃ", "pronunciationKo": "마와리다시타 아노코토 보쿠가 히가이샤", "translationKo": "돌기 시작한 그 아이와 내가 피해자인",
+      "grammarIds": [], "kanjiIds": ["僕"]
+    },
+    {
+      "id": "odoriko-2-4", "original": "づらでどっかを また練り歩けたらな",
+      "ruby": [{ "text": "づらでどっかを また" }, { "text": "練", "reading": "ね" }, { "text": "り" }, { "text": "歩", "reading": "ある" }, { "text": "けたらな" }],
+      "hiragana": "づら で どっか を また ねりあるけたら な", "pronunciationKo": "즈라데 돗카오 마타 네리아루케타라나", "translationKo": "척하며 어딘가를 다시 떼 지어 걸을 수 있다면",
+      "grammarIds": ["n-zura", "potential-form", "tara-conditional"], "kanjiIds": []
+    }
+  ],
+  "vocabulary": [
+    { "id": "odoriko-2-mawaridasu", "term": "回り出す", "reading": "まわりだす", "meaning": "돌기 시작하다" },
+    { "id": "odoriko-2-mirai", "term": "未来", "reading": "みらい", "meaning": "미래" },
+    { "id": "odoriko-2-yarinaosu", "term": "やり直す", "reading": "やりなおす", "meaning": "다시 하다, 새로 시작하다" },
+    { "id": "odoriko-2-higaisha", "term": "被害者", "reading": "ひがいしゃ", "meaning": "피해자" },
+    { "id": "odoriko-2-zura", "term": "〜づら", "reading": "づら", "meaning": "~인 척하는 얼굴, ~행세" },
+    { "id": "odoriko-2-neriaruku", "term": "練り歩く", "reading": "ねりあるく", "meaning": "무리를 지어 천천히 행진하다" }
+  ],
+  "quiz": [
+    { "id": "odoriko-2-q1", "prompt": "「回り出した」의 〜出す가 나타내는 것은?", "options": ["동작의 시작", "동작의 금지", "동작의 반복", "동작의 완료"], "answerIndex": 0, "explanation": "동사 어간 + 出す는 갑자기 그 동작이 시작됨을 나타냅니다." },
+    { "id": "odoriko-2-q2", "prompt": "「やり直す」의 뜻은?", "options": ["그만두다", "다시 하다", "대신하다", "미루다"], "answerIndex": 1, "explanation": "동사 어간 + 直す는 이미 한 일을 처음부터 다시 한다는 뜻입니다." },
+    { "id": "odoriko-2-q3", "prompt": "「やり直せたら」에 포함된 두 요소는?", "options": ["수동과 명령", "가능과 조건", "사역과 부정", "의지와 과거"], "answerIndex": 1, "explanation": "やり直せる는 가능형이고, 그 과거형에 ら를 붙여 ‘다시 할 수 있다면’이라는 조건을 만듭니다." },
+    { "id": "odoriko-2-q4", "prompt": "「被害者づら」의 뉘앙스는?", "options": ["실제 피해를 객관적으로 설명함", "피해자인 척하는 태도를 낮춰 말함", "피해자를 도와줌", "피해를 예방함"], "answerIndex": 1, "explanation": "명사 뒤의 づら는 그런 얼굴이나 행세를 한다는 비판적·자조적 뉘앙스를 냅니다." },
+    { "id": "odoriko-2-q5", "prompt": "「練り歩く」에 가장 가까운 모습은?", "options": ["혼자 전력 질주한다", "제자리에서 돈다", "무리를 지어 천천히 행진한다", "몰래 숨는다"], "answerIndex": 2, "explanation": "練り歩く는 축제 행렬처럼 여럿이 천천히 거리를 누비는 모습을 나타냅니다." }
+  ]
+}

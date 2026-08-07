@@ -3,10 +3,10 @@
   "onyomi": ["ム"],
   "kunyomi": ["ゆめ"],
   "basicMeaning": "꿈",
-  "wordMeaning": "夢（ゆめ）로 읽어 잠속에서 보는 꿈이나 바라는 세계를 나타냅니다.",
+  "wordMeaning": "夢（ゆめ）로 읽어 잠든 동안 보는 장면이나 이루고 싶은 소망을 나타냅니다.",
   "mnemonic": "밤이 깊어지자 마음속 풍경이 꿈으로 펼쳐지는 장면을 떠올려 보세요.",
   "examples": [
     { "word": "夢", "reading": "ゆめ", "meaning": "꿈" },
-    { "word": "夢中", "reading": "むちゅう", "meaning": "무중, 열중함" }
+    { "word": "夢中", "reading": "むちゅう", "meaning": "몰두함" }
   ]
 }

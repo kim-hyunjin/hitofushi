@@ -1,0 +1,75 @@
+{
+  "songSlug": "sayonara-mata-itsuka",
+  "lessonNumber": 3,
+  "title": "부서져도 날아가라",
+  "subtitle": "명령형과 거친 구어체로 폭발하는 결의 읽기",
+  "description": "사랑과 상처를 통과한 화자가 스스로에게 날개를 펼치고 끝없이 가라고 외치는 첫 후렴을 익힙니다.",
+  "estimatedMinutes": 25,
+  "sentences": [
+    {
+      "id": "sayonara-mata-itsuka-3-1",
+      "original": "誰かと恋に落ちて また砕けて やがて離れ離れ",
+      "ruby": [{ "text": "誰", "reading": "だれ" }, { "text": "かと" }, { "text": "恋", "reading": "こい" }, { "text": "に" }, { "text": "落", "reading": "お" }, { "text": "ちて また" }, { "text": "砕", "reading": "くだ" }, { "text": "けて やがて" }, { "text": "離", "reading": "はな" }, { "text": "れ" }, { "text": "離", "reading": "ばな" }, { "text": "れ" }],
+      "hiragana": "だれか と こい に おちて また くだけて やがて はなればなれ",
+      "pronunciationKo": "다레카토 코이니 오치테 마타 쿠다케테 야가테 하나레바나레",
+      "translationKo": "누군가와 사랑에 빠지고 다시 부서져, 이윽고 서로 멀리 떨어져",
+      "grammarIds": ["te-form"],
+      "kanjiIds": ["恋"]
+    },
+    {
+      "id": "sayonara-mata-itsuka-3-2",
+      "original": "口の中はたと血が滲んで 空に唾を吐く",
+      "ruby": [{ "text": "口", "reading": "くち" }, { "text": "の" }, { "text": "中", "reading": "なか" }, { "text": "はたと" }, { "text": "血", "reading": "ち" }, { "text": "が" }, { "text": "滲", "reading": "にじ" }, { "text": "んで " }, { "text": "空", "reading": "そら" }, { "text": "に" }, { "text": "唾", "reading": "つば" }, { "text": "を" }, { "text": "吐", "reading": "は" }, { "text": "く" }],
+      "hiragana": "くち の なか はたと ち が にじんで そら に つば を はく",
+      "pronunciationKo": "쿠치노 나카 하타토 치가 니진데 소라니 츠바오 하쿠",
+      "translationKo": "입안에 문득 피가 배어 나오고 하늘에 침을 뱉는다",
+      "grammarIds": ["te-form"],
+      "kanjiIds": ["口"]
+    },
+    {
+      "id": "sayonara-mata-itsuka-3-3",
+      "original": "瞬け羽を広げ 気儘に飛べ どこまでもゆけ",
+      "ruby": [{ "text": "瞬", "reading": "またた" }, { "text": "け" }, { "text": "羽", "reading": "はね" }, { "text": "を" }, { "text": "広", "reading": "ひろ" }, { "text": "げ " }, { "text": "気儘", "reading": "きまま" }, { "text": "に" }, { "text": "飛", "reading": "と" }, { "text": "べ どこまでもゆけ" }],
+      "hiragana": "またたけ はね を ひろげ きまま に とべ どこまでも ゆけ",
+      "pronunciationKo": "마타타케 하네오 히로게 키마마니 토베 도코마데모 유케",
+      "translationKo": "빛나라, 날개를 펼쳐라, 마음 가는 대로 날아라, 어디까지든 가라",
+      "grammarIds": ["imperative-form"],
+      "kanjiIds": ["気"]
+    },
+    {
+      "id": "sayonara-mata-itsuka-3-4",
+      "original": "100年先も憶えてるかな",
+      "ruby": [{ "text": "100" }, { "text": "年", "reading": "ねん" }, { "text": "先", "reading": "さき" }, { "text": "も" }, { "text": "憶", "reading": "おぼ" }, { "text": "えてるかな" }],
+      "hiragana": "ひゃくねんさき も おぼえてる かな",
+      "pronunciationKo": "햐쿠넨사키모 오보에테루카나",
+      "translationKo": "100년 뒤에도 기억하고 있을까",
+      "grammarIds": ["teiru"],
+      "kanjiIds": ["先", "憶"]
+    },
+    {
+      "id": "sayonara-mata-itsuka-3-5",
+      "original": "知らねえけれど さよーならまたいつか！",
+      "ruby": [{ "text": "知", "reading": "し" }, { "text": "らねえけれど さよーならまたいつか！" }],
+      "hiragana": "しらねえ けれど さよーなら また いつか",
+      "pronunciationKo": "시라네에케레도 사요오나라 마타 이츠카",
+      "translationKo": "모르겠지만, 안녕—언젠가 다시!",
+      "grammarIds": ["nai-contraction", "kedo"],
+      "kanjiIds": []
+    }
+  ],
+  "vocabulary": [
+    { "id": "sayonara-3-koiniochiru", "term": "恋に落ちる", "reading": "こいにおちる", "meaning": "사랑에 빠지다" },
+    { "id": "sayonara-3-kudakeru", "term": "砕ける", "reading": "くだける", "meaning": "부서지다, 산산이 깨지다" },
+    { "id": "sayonara-3-hanarebanare", "term": "離れ離れ", "reading": "はなればなれ", "meaning": "서로 뿔뿔이 떨어짐" },
+    { "id": "sayonara-3-hatato", "term": "はたと", "reading": "はたと", "meaning": "문득, 갑자기" },
+    { "id": "sayonara-3-nijimu", "term": "滲む", "reading": "にじむ", "meaning": "번지다, 배어 나오다" },
+    { "id": "sayonara-3-kimama", "term": "気儘", "reading": "きまま", "meaning": "마음 가는 대로, 자유분방하게" }
+  ],
+  "quiz": [
+    { "id": "sayonara-3-q1", "prompt": "「恋に落ちる」의 뜻은?", "options": ["사랑을 잊다", "사랑에 빠지다", "사랑을 고백하다", "사랑을 의심하다"], "answerIndex": 1, "explanation": "恋に落ちる는 한국어의 ‘사랑에 빠지다’와 같은 관용 표현입니다." },
+    { "id": "sayonara-3-q2", "prompt": "「離れ離れ」가 강조하는 상태는?", "options": ["나란히 있음", "다시 만남", "서로 떨어져 있음", "몰래 숨음"], "answerIndex": 2, "explanation": "같은 어근을 반복해 사람이나 사물이 서로 멀리 떨어진 상태를 강조합니다." },
+    { "id": "sayonara-3-q3", "prompt": "「瞬け・飛べ・ゆけ」의 공통점은?", "options": ["과거형", "가능형", "명령형", "수동형"], "answerIndex": 2, "explanation": "세 표현 모두 강한 격려와 결의를 만드는 명령형입니다." },
+    { "id": "sayonara-3-q4", "prompt": "「憶えてる」의 줄지 않은 형태는?", "options": ["憶えてある", "憶えている", "憶えてみる", "憶えておく"], "answerIndex": 1, "explanation": "회화와 노래에서는 〜ている의 い가 빠져 〜てる가 됩니다." },
+    { "id": "sayonara-3-q5", "prompt": "표준적인 「知らねえ」의 형태는?", "options": ["知らない", "知りたい", "知らせない", "知れない"], "answerIndex": 0, "explanation": "〜ねえ는 〜ない가 거칠게 줄어든 구어형입니다." }
+  ]
+}

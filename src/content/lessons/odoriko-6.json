@@ -1,0 +1,48 @@
+{
+  "songSlug": "odoriko",
+  "lessonNumber": 6,
+  "title": "마지막으로 도는 후렴",
+  "subtitle": "문장 경계와 자조적인 づら",
+  "description": "마지막 후렴에서 줄을 넘어 이어지는 문장 구조와 피해자인 척한다는 자조적인 표현을 점검합니다.",
+  "estimatedMinutes": 15,
+  "sentences": [
+    {
+      "id": "odoriko-6-1", "original": "回り出した あの子と僕の未来が",
+      "ruby": [{ "text": "回", "reading": "まわ" }, { "text": "り" }, { "text": "出", "reading": "だ" }, { "text": "した あの" }, { "text": "子", "reading": "こ" }, { "text": "と" }, { "text": "僕", "reading": "ぼく" }, { "text": "の" }, { "text": "未来", "reading": "みらい" }, { "text": "が" }],
+      "hiragana": "まわりだした あのこ と ぼく の みらい が", "pronunciationKo": "마와리다시타 아노코토 보쿠노 미라이가", "translationKo": "돌기 시작한 그 아이와 나의 미래가",
+      "grammarIds": ["verb-stem-dasu", "noun-no-noun"], "kanjiIds": ["僕", "未", "来"]
+    },
+    {
+      "id": "odoriko-6-2", "original": "止まりどっかで またやり直せたら",
+      "ruby": [{ "text": "止", "reading": "と" }, { "text": "まりどっかで またやり" }, { "text": "直", "reading": "なお" }, { "text": "せたら" }],
+      "hiragana": "とまり どっか で また やりなおせたら", "pronunciationKo": "토마리 돗카데 마타 야리나오세타라", "translationKo": "멈추고 어딘가에서 다시 시작할 수 있다면",
+      "grammarIds": ["potential-form", "tara-conditional"], "kanjiIds": []
+    },
+    {
+      "id": "odoriko-6-3", "original": "回り出した あの子と僕が被害者",
+      "ruby": [{ "text": "回", "reading": "まわ" }, { "text": "り" }, { "text": "出", "reading": "だ" }, { "text": "した あの" }, { "text": "子", "reading": "こ" }, { "text": "と" }, { "text": "僕", "reading": "ぼく" }, { "text": "が" }, { "text": "被害者", "reading": "ひがいしゃ" }],
+      "hiragana": "まわりだした あのこ と ぼく が ひがいしゃ", "pronunciationKo": "마와리다시타 아노코토 보쿠가 히가이샤", "translationKo": "돌기 시작한 그 아이와 내가 피해자인",
+      "grammarIds": [], "kanjiIds": ["僕"]
+    },
+    {
+      "id": "odoriko-6-4", "original": "づらでどっかを また練り歩けたらな",
+      "ruby": [{ "text": "づらでどっかを また" }, { "text": "練", "reading": "ね" }, { "text": "り" }, { "text": "歩", "reading": "ある" }, { "text": "けたらな" }],
+      "hiragana": "づら で どっか を また ねりあるけたら な", "pronunciationKo": "즈라데 돗카오 마타 네리아루케타라나", "translationKo": "척하며 어딘가를 다시 떼 지어 걸을 수 있다면",
+      "grammarIds": ["n-zura", "potential-form", "tara-conditional"], "kanjiIds": []
+    }
+  ],
+  "vocabulary": [
+    { "id": "odoriko-6-anoko", "term": "あの子", "reading": "あのこ", "meaning": "그 아이" },
+    { "id": "odoriko-6-boku", "term": "僕", "reading": "ぼく", "meaning": "나", "note": "주로 남성이 자신을 가리킬 때 쓰는 1인칭입니다." },
+    { "id": "odoriko-6-mawaridasu", "term": "回り出す", "reading": "まわりだす", "meaning": "돌기 시작하다" },
+    { "id": "odoriko-6-mata", "term": "また", "reading": "また", "meaning": "다시, 또" },
+    { "id": "odoriko-6-zura", "term": "づら", "reading": "づら", "meaning": "~인 척하는 얼굴, ~행세" }
+  ],
+  "quiz": [
+    { "id": "odoriko-6-q1", "prompt": "「あの子と僕の未来」에서 と가 잇는 것은?", "options": ["그 아이와 나", "나와 미래", "아이와 장소", "미래와 피해자"], "answerIndex": 0, "explanation": "명사 A と B는 A와 B를 나란히 연결합니다. 그 전체가 の를 통해 未来를 꾸밉니다." },
+    { "id": "odoriko-6-q2", "prompt": "「あの子と僕が被害者づらで」의 핵심 서술은?", "options": ["둘이 실제 피해자라고 판정한다", "둘이 피해자인 척한다", "아이만 피해자다", "피해자를 찾아간다"], "answerIndex": 1, "explanation": "줄을 넘어 被害者와 づらで가 결합하므로 ‘그 아이와 내가 피해자인 척하며’가 됩니다." },
+    { "id": "odoriko-6-q3", "prompt": "「また」가 반복해서 드러내는 마음은?", "options": ["새로운 상대를 찾음", "과거로부터 완전히 단절함", "두 사람의 시간을 다시 이어 보고 싶음", "기억을 지우고 싶음"], "answerIndex": 2, "explanation": "やり直す와 함께 쓰인 また는 멈춘 관계를 다시 시작하고 싶은 마음을 강조합니다." },
+    { "id": "odoriko-6-q4", "prompt": "후렴의 두 가능형은 어느 것인가요?", "options": ["止まり・回り", "やり直せる・練り歩ける", "被害者・未来", "どっか・また"], "answerIndex": 1, "explanation": "やり直せる와 練り歩ける가 각각 ‘다시 할 수 있다’, ‘행진할 수 있다’를 뜻하는 가능형입니다." },
+    { "id": "odoriko-6-q5", "prompt": "이 후렴의 중심 정서와 가장 가까운 것은?", "options": ["이미 회복했다는 확신", "다시 시작할 수 있기를 바라는 미련", "상대에 대한 무관심", "미래를 향한 명령"], "answerIndex": 1, "explanation": "〜たら와 문장 끝 な가 이루어지지 않은 가능성을 바라보는 미련과 소망을 남깁니다." }
+  ]
+}
