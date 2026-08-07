@@ -1,0 +1,29 @@
+{
+  "songSlug": "shukumei",
+  "lessonNumber": 4,
+  "title": "응원조차 버거웠던 밤",
+  "subtitle": "〜てく, 인용의 って와 〜てしまう",
+  "description": "침묵한 이어폰과 멀어지는 미래, 선의의 응원에도 짜증 났던 솔직한 좌절을 읽습니다.",
+  "estimatedMinutes": 21,
+  "sentences": [
+    {"id":"shukumei-4-1","original":"沈黙が続いたイヤフォン","ruby":[{"text":"沈黙","reading":"ちんもく"},{"text":"が"},{"text":"続","reading":"つづ"},{"text":"いたイヤフォン"}],"hiragana":"ちんもく が つづいた いやふぉん","pronunciationKo":"친모쿠가 츠즈이타 이야폰","translationKo":"침묵이 계속된 이어폰","grammarIds":[],"kanjiIds":[]},
+    {"id":"shukumei-4-2","original":"自分の弱さに遠ざかってく未来","ruby":[{"text":"自分","reading":"じぶん"},{"text":"の"},{"text":"弱","reading":"よわ"},{"text":"さに"},{"text":"遠","reading":"とお"},{"text":"ざかってく"},{"text":"未来","reading":"みらい"}],"hiragana":"じぶん の よわさ に とおざかってく みらい","pronunciationKo":"지분노 요와사니 토오자캇테쿠 미라이","translationKo":"내 나약함 때문에 멀어져 가는 미래","grammarIds":["teiku-teku"],"kanjiIds":["自","分","弱","未","来"]},
+    {"id":"shukumei-4-3","original":"「大丈夫」や「頑張れ」って歌詞に","ruby":[{"text":"「"},{"text":"大丈夫","reading":"だいじょうぶ"},{"text":"」や「"},{"text":"頑張","reading":"がんば"},{"text":"れ」って"},{"text":"歌詞","reading":"かし"},{"text":"に"}],"hiragana":"だいじょうぶ や がんばれ って かし に","pronunciationKo":"다이조오부야 간바렛테 카시니","translationKo":"‘괜찮아’나 ‘힘내’라는 가사에","grammarIds":["noun-ya-noun","tte-quotation"],"kanjiIds":["歌"]},
+    {"id":"shukumei-4-4","original":"苛立ってしまった そんな夜もあった","ruby":[{"text":"苛立","reading":"いらだ"},{"text":"ってしまった そんな"},{"text":"夜","reading":"よる"},{"text":"もあった"}],"hiragana":"いらだって しまった そんな よる も あった","pronunciationKo":"이라닷테 시맛타 손나 요루모 앗타","translationKo":"짜증이 나 버렸어, 그런 밤도 있었어","grammarIds":["te-shimau"],"kanjiIds":["夜"]}
+  ],
+  "vocabulary": [
+    {"id":"shukumei-4-chinmoku","term":"沈黙","reading":"ちんもく","meaning":"침묵"},
+    {"id":"shukumei-4-tsuzuku","term":"続く","reading":"つづく","meaning":"계속되다"},
+    {"id":"shukumei-4-yowasa","term":"弱さ","reading":"よわさ","meaning":"나약함, 약점"},
+    {"id":"shukumei-4-toozakaru","term":"遠ざかる","reading":"とおざかる","meaning":"멀어지다"},
+    {"id":"shukumei-4-daijoubu","term":"大丈夫","reading":"だいじょうぶ","meaning":"괜찮음, 괜찮아"},
+    {"id":"shukumei-4-ganbare","term":"頑張れ","reading":"がんばれ","meaning":"힘내, 분발해"},
+    {"id":"shukumei-4-iradatsu","term":"苛立つ","reading":"いらだつ","meaning":"초조해하다, 짜증 나다"}
+  ],
+  "quiz": [
+    {"id":"shukumei-4-q1","prompt":"「遠ざかってく」의 〜てく가 나타내는 변화는?","options":["미래가 점점 멀어진다","미래가 이미 돌아왔다","미래가 멈췄다","미래를 선택한다"],"answerIndex":0,"explanation":"〜ていく의 축약형 〜てく는 앞으로 이어지며 멀어지는 변화를 나타냅니다."},
+    {"id":"shukumei-4-q2","prompt":"「大丈夫」や「頑張れ」의 や가 하는 역할은?","options":["원인을 말한다","대표적인 예를 나열한다","둘을 비교한다","질문을 만든다"],"answerIndex":1,"explanation":"AやB는 여러 항목 가운데 A와 B 같은 대표 예를 듭니다."},
+    {"id":"shukumei-4-q3","prompt":"「って」가 표시하는 것은?","options":["가사의 내용을 인용한다","시간을 나타낸다","장소를 나타낸다","명령을 약하게 한다"],"answerIndex":0,"explanation":"구어체 って는 앞의 말을 뒤의 歌詞와 연결해 ‘~라는 가사’로 만듭니다."},
+    {"id":"shukumei-4-q4","prompt":"「苛立ってしまった」에 담긴 뉘앙스는?","options":["일부러 화냈다","그만 짜증이 나 버렸다는 유감","곧 진정할 예정이다","짜증 난 척했다"],"answerIndex":1,"explanation":"〜てしまう의 과거형은 원치 않았는데 그렇게 되고 말았다는 유감이나 완료를 담습니다."}
+  ]
+}

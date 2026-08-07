@@ -1,0 +1,12 @@
+{
+  "character": "瞳",
+  "onyomi": ["ドウ"],
+  "kunyomi": ["ひとみ"],
+  "basicMeaning": "눈동자",
+  "wordMeaning": "瞳（ひとみ）로 눈의 중심과 그 안에 비치는 마음을 나타냅니다.",
+  "mnemonic": "아이처럼 맑은 눈의 중심에 선 눈동자를 떠올려 보세요.",
+  "examples": [
+    { "word": "瞳", "reading": "ひとみ", "meaning": "눈동자" },
+    { "word": "瞳孔", "reading": "どうこう", "meaning": "동공" }
+  ]
+}
