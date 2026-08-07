@@ -1,0 +1,35 @@
+{
+  "songSlug": "lady",
+  "lessonNumber": 2,
+  "title": "전부 사랑스러웠던 마음",
+  "subtitle": "AもBも와 〜ないで, 〜たり〜たり",
+  "description": "거짓과 진실까지 품었던 마음에서 시작해, 아이처럼 다시 사랑하고 싶은 첫 후렴을 읽습니다.",
+  "estimatedMinutes": 25,
+  "sentences": [
+    {"id":"lady-2-1","original":"見え透いた嘘も隠した本当も","ruby":[{"text":"見","reading":"み"},{"text":"え"},{"text":"透","reading":"す"},{"text":"いた"},{"text":"嘘","reading":"うそ"},{"text":"も"},{"text":"隠","reading":"かく"},{"text":"した"},{"text":"本当","reading":"ほんとう"},{"text":"も"}],"hiragana":"みえすいた うそ も かくした ほんとう も","pronunciationKo":"미에스이타 우소모 카쿠시타 혼토오모","translationKo":"빤히 보이는 거짓말도 숨긴 진실도","grammarIds":["mo-mo"],"kanjiIds":["見"]},
+    {"id":"lady-2-2","original":"その全て愛おしかった","ruby":[{"text":"その"},{"text":"全","reading":"すべ"},{"text":"て"},{"text":"愛","reading":"いと"},{"text":"おしかった"}],"hiragana":"その すべて いとおしかった","pronunciationKo":"소노 스베테 이토오시캇타","translationKo":"그 모든 것이 사랑스러웠어","grammarIds":[],"kanjiIds":["全","愛"]},
+    {"id":"lady-2-3","original":"レディー 笑わないで聞いて","ruby":[{"text":"レディー "},{"text":"笑","reading":"わら"},{"text":"わないで"},{"text":"聞","reading":"き"},{"text":"いて"}],"hiragana":"れでぃー わらわないで きいて","pronunciationKo":"레디이 와라와나이데 키이테","translationKo":"레이디, 웃지 말고 들어 줘","grammarIds":["naide","te-form"],"kanjiIds":["笑","聞"]},
+    {"id":"lady-2-4","original":"ハニー 見つめ合っていたくて","ruby":[{"text":"ハニー "},{"text":"見","reading":"み"},{"text":"つめ"},{"text":"合","reading":"あ"},{"text":"っていたくて"}],"hiragana":"はにー みつめあって いたくて","pronunciationKo":"하니이 미츠메앗테 이타쿠테","translationKo":"허니, 서로 바라보고 있고 싶어서","grammarIds":["teiru","verb-tai"],"kanjiIds":["見","合"]},
+    {"id":"lady-2-5","original":"君と二人 行ったり来たりしたいだけ","ruby":[{"text":"君","reading":"きみ"},{"text":"と"},{"text":"二人","reading":"ふたり"},{"text":" "},{"text":"行","reading":"い"},{"text":"ったり"},{"text":"来","reading":"き"},{"text":"たりしたいだけ"}],"hiragana":"きみ と ふたり いったり きたり したい だけ","pronunciationKo":"키미토 후타리 잇타리 키타리 시타이다케","translationKo":"너와 둘이 오가고 싶을 뿐이야","grammarIds":["tari-tari","verb-tai"],"kanjiIds":["君","行"]},
+    {"id":"lady-2-6","original":"ベイビー 子供みたいに恋がしたい","ruby":[{"text":"ベイビー "},{"text":"子供","reading":"こども"},{"text":"みたいに"},{"text":"恋","reading":"こい"},{"text":"がしたい"}],"hiragana":"べいびー こども みたいに こい が したい","pronunciationKo":"베이비이 코도모미타이니 코이가 시타이","translationKo":"베이비, 아이처럼 사랑하고 싶어","grammarIds":["mitai","verb-tai"],"kanjiIds":["恋"]},
+    {"id":"lady-2-7","original":"書き散らしていく僕らのストーリーライン","ruby":[{"text":"書","reading":"か"},{"text":"き"},{"text":"散","reading":"ち"},{"text":"らしていく"},{"text":"僕","reading":"ぼく"},{"text":"らのストーリーライン"}],"hiragana":"かきちらしていく ぼくら の すとーりーらいん","pronunciationKo":"카키치라시테이쿠 보쿠라노 스토오리이라인","translationKo":"마구 써 내려가는 우리들의 스토리라인","grammarIds":["teiku-teku","noun-no-noun"],"kanjiIds":["書"]}
+  ],
+  "vocabulary": [
+    {"id":"lady-2-miesuita","term":"見え透いた","reading":"みえすいた","meaning":"빤히 들여다보이는, 속이 뻔한"},
+    {"id":"lady-2-uso","term":"嘘","reading":"うそ","meaning":"거짓말"},
+    {"id":"lady-2-hontou","term":"本当","reading":"ほんとう","meaning":"진실, 사실"},
+    {"id":"lady-2-itooshii","term":"愛おしい","reading":"いとおしい","meaning":"사랑스럽다, 소중하고 애틋하다"},
+    {"id":"lady-2-mitsumeau","term":"見つめ合う","reading":"みつめあう","meaning":"서로 바라보다"},
+    {"id":"lady-2-ittari-kitari","term":"行ったり来たり","reading":"いったりきたり","meaning":"왔다 갔다 함"},
+    {"id":"lady-2-kodomo","term":"子供","reading":"こども","meaning":"아이, 어린이"},
+    {"id":"lady-2-kakichirasu","term":"書き散らす","reading":"かきちらす","meaning":"마구 써대다, 생각나는 대로 쓰다"},
+    {"id":"lady-2-storyline","term":"ストーリーライン","reading":"すとーりーらいん","meaning":"이야기의 줄거리, 이야기선"}
+  ],
+  "quiz": [
+    {"id":"lady-2-q1","prompt":"「嘘も本当も」의 구조가 포괄하는 것은?","options":["거짓말만","진실만","거짓말과 진실 모두","둘 중 하나"],"answerIndex":2,"explanation":"AもBも는 A도 B도 모두 포함합니다."},
+    {"id":"lady-2-q2","prompt":"「笑わないで」에 가장 가까운 뜻은?","options":["웃으면서","웃지 말고","웃었기 때문에","웃을 수 있다면"],"answerIndex":1,"explanation":"ない형 + で는 ‘~하지 않고’ 또는 문장 끝에서 ‘~하지 말아 줘’를 나타냅니다."},
+    {"id":"lady-2-q3","prompt":"「行ったり来たり」는 어떤 움직임인가요?","options":["한 방향으로만 감","왔다 갔다 함","완전히 멈춤","멀리 떠남"],"answerIndex":1,"explanation":"〜たり〜たり가 行く와 来る를 대표 행동으로 나열합니다."},
+    {"id":"lady-2-q4","prompt":"「子供みたいに」의 みたいに는?","options":["아이를 위해","아이와 함께","아이처럼","아이보다"],"answerIndex":2,"explanation":"명사 + みたいに는 닮은 방식이나 상태를 ‘~처럼’이라고 표현합니다."},
+    {"id":"lady-2-q5","prompt":"「書き散らしていく」가 그리는 시간의 방향은?","options":["앞으로 계속 써 감","이미 쓴 것을 지움","쓰기를 포기함","한 번만 적음"],"answerIndex":0,"explanation":"〜ていく는 현재부터 앞으로 이어지는 움직임을 보여 줍니다."}
+  ]
+}

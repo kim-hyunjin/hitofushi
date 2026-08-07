@@ -69,6 +69,16 @@ export const songs: SongDefinition[] = [
       '날개를 바라는 마음에서 스스로 구속을 끊고 날아오르기까지, 이별과 재생의 언어를 따라갑니다.',
     youtubeVideoId: 'TGz8AXN3gLA',
   },
+  {
+    slug: 'lady',
+    sequence: 7,
+    title: 'LADY',
+    artist: '米津玄師',
+    kicker: '익숙한 하루를 다시 사랑하는 방법',
+    description:
+      '서로를 너무 잘 아는 두 사람이 평범한 일상을 오가며 다시 사랑을 써 내려가는 마음을 따라갑니다.',
+    youtubeVideoId: 'DdF-u3fe5pg',
+  },
 ];
 
 export function getSong(slug: string) {
