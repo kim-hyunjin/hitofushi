@@ -1,0 +1,32 @@
+{
+  "songSlug": "lady",
+  "lessonNumber": 3,
+  "title": "생각만으로 눈물이 나는 미래",
+  "subtitle": "조건형 〜たら와 〜た矢先に, 〜くらい",
+  "description": "둘 중 한 사람을 덮칠지도 모를 불행을 상상한 순간, 지금의 나날이 더 선명해지는 네 소절을 읽습니다.",
+  "estimatedMinutes": 20,
+  "sentences": [
+    {"id":"lady-3-1","original":"例えばどっちか一人 ひどい不幸が襲い","ruby":[{"text":"例","reading":"たと"},{"text":"えばどっちか"},{"text":"一人","reading":"ひとり"},{"text":" ひどい"},{"text":"不幸","reading":"ふこう"},{"text":"が"},{"text":"襲","reading":"おそ"},{"text":"い"}],"hiragana":"たとえば どっちか ひとり ひどい ふこう が おそい","pronunciationKo":"타토에바 돗치카 히토리 히도이 후코오가 오소이","translationKo":"예를 들어 둘 중 한 사람에게 끔찍한 불행이 닥쳐","grammarIds":["interrogative-ka"],"kanjiIds":["不","幸"]},
+    {"id":"lady-3-2","original":"二度と会えなくなったら","ruby":[{"text":"二度","reading":"にど"},{"text":"と"},{"text":"会","reading":"あ"},{"text":"えなくなったら"}],"hiragana":"にどと あえなく なったら","pronunciationKo":"니도토 아에나쿠 낫타라","translationKo":"두 번 다시 만날 수 없게 된다면","grammarIds":["potential-form","tara-conditional"],"kanjiIds":["会"]},
+    {"id":"lady-3-3","original":"考えた矢先に 泣けてしまうくらい","ruby":[{"text":"考","reading":"かんが"},{"text":"えた"},{"text":"矢先","reading":"やさき"},{"text":"に "},{"text":"泣","reading":"な"},{"text":"けてしまうくらい"}],"hiragana":"かんがえた やさき に なけてしまう くらい","pronunciationKo":"칸가에타 야사키니 나케테시마우 쿠라이","translationKo":"생각한 바로 그 순간 눈물이 날 정도로","grammarIds":["yasakini","potential-form","te-shimau","kurai"],"kanjiIds":["泣"]},
+    {"id":"lady-3-4","original":"日々は続く一層確かに","ruby":[{"text":"日々","reading":"ひび"},{"text":"は"},{"text":"続","reading":"つづ"},{"text":"く"},{"text":"一層","reading":"いっそう"},{"text":"確","reading":"たし"},{"text":"かに"}],"hiragana":"ひび は つづく いっそう たしか に","pronunciationKo":"히비와 츠즈쿠 잇소오 타시카니","translationKo":"나날은 이어져, 한층 더 확실하게","grammarIds":[],"kanjiIds":["日","続","確"]}
+  ],
+  "vocabulary": [
+    {"id":"lady-3-dotchiraka","term":"どっちか","reading":"どっちか","meaning":"어느 쪽인가, 둘 중 하나"},
+    {"id":"lady-3-hidoi","term":"ひどい","reading":"ひどい","meaning":"심한, 끔찍한"},
+    {"id":"lady-3-fukou","term":"不幸","reading":"ふこう","meaning":"불행"},
+    {"id":"lady-3-osou","term":"襲う","reading":"おそう","meaning":"덮치다, 습격하다"},
+    {"id":"lady-3-nidoto","term":"二度と","reading":"にどと","meaning":"두 번 다시","note":"뒤에 부정 표현을 동반해 ‘두 번 다시 ~않다’가 됩니다."},
+    {"id":"lady-3-yasaki","term":"矢先","reading":"やさき","meaning":"바로 그때, 막 ~하려던 참"},
+    {"id":"lady-3-nakeru","term":"泣ける","reading":"なける","meaning":"저절로 눈물이 나다, 울 수 있다"},
+    {"id":"lady-3-issou","term":"一層","reading":"いっそう","meaning":"한층 더"},
+    {"id":"lady-3-tashikani","term":"確かに","reading":"たしかに","meaning":"확실히, 분명하게"}
+  ],
+  "quiz": [
+    {"id":"lady-3-q1","prompt":"「どっちか一人」가 가리키는 것은?","options":["두 사람 모두","둘 중 한 사람","아무도 아님","제삼자 한 사람"],"answerIndex":1,"explanation":"どっちか는 두 선택지 가운데 어느 한쪽을 가리킵니다."},
+    {"id":"lady-3-q2","prompt":"「二度と会えなくなったら」의 뜻은?","options":["다시 만나게 되면","두 번 만나고 나면","두 번 다시 만날 수 없게 된다면","언제든 만날 수 있다면"],"answerIndex":2,"explanation":"二度と + 부정은 ‘두 번 다시 ~않다’, 〜たら는 조건을 나타냅니다."},
+    {"id":"lady-3-q3","prompt":"「考えた矢先に」가 강조하는 시점은?","options":["생각하기 오래전","생각한 바로 그때","생각을 끝낸 몇 년 뒤","생각하지 않은 동안"],"answerIndex":1,"explanation":"〜た矢先に는 막 행동한 직후의 순간에 결과가 이어짐을 나타냅니다."},
+    {"id":"lady-3-q4","prompt":"「泣けてしまうくらい」에서 くらい의 역할은?","options":["장소 표시","정도의 기준","과거 표시","명령"],"answerIndex":1,"explanation":"눈물이 날 만큼이라는 감정의 정도를 제시합니다."},
+    {"id":"lady-3-q5","prompt":"불행을 상상한 뒤 일상은 어떻게 느껴지나요?","options":["더 모호해진다","완전히 멈춘다","한층 더 확실해진다","아무 의미가 없어진다"],"answerIndex":2,"explanation":"마지막 소절의 一層確かに가 지금 이어지는 나날의 확실함을 강조합니다."}
+  ]
+}

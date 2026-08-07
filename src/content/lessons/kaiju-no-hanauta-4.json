@@ -1,0 +1,34 @@
+{
+  "songSlug": "kaiju-no-hanauta",
+  "lessonNumber": 4,
+  "title": "사라지지 않는 꿈의 노래",
+  "subtitle": "후렴과 흘러가는 시간",
+  "description": "반복되는 후렴을 다지고, 선명한 과거와 섬세한 미래를 대비하는 〜てく 표현을 익힙니다.",
+  "estimatedMinutes": 25,
+  "sentences": [
+    { "id": "kaiju-no-hanauta-4-1", "original": "もっと騒げ怪獣の歌", "ruby": [{ "text": "もっと" }, { "text": "騒", "reading": "さわ" }, { "text": "げ" }, { "text": "怪獣", "reading": "かいじゅう" }, { "text": "の" }, { "text": "歌", "reading": "うた" }], "hiragana": "もっと さわげ かいじゅう の うた", "pronunciationKo": "못토 사와게 카이주우노 우타", "translationKo": "더 크게 울려라, 괴수의 노래", "grammarIds": ["imperative-form", "noun-no-noun"], "kanjiIds": ["怪", "獣", "歌"] },
+    { "id": "kaiju-no-hanauta-4-2", "original": "まだ消えない 夢の歌唱えて", "ruby": [{ "text": "まだ" }, { "text": "消", "reading": "き" }, { "text": "えない " }, { "text": "夢", "reading": "ゆめ" }, { "text": "の" }, { "text": "歌", "reading": "うた" }, { "text": "唱", "reading": "とな" }, { "text": "えて" }], "hiragana": "まだ きえない ゆめ の うた となえて", "pronunciationKo": "마다 키에나이 유메노 우타 토나에테", "translationKo": "아직 사라지지 않은 꿈의 노래를 불러 줘", "grammarIds": ["te-form", "noun-no-noun"], "kanjiIds": ["消", "夢", "歌"] },
+    { "id": "kaiju-no-hanauta-4-3", "original": "君がいつも歌う怪獣の歌", "ruby": [{ "text": "君", "reading": "きみ" }, { "text": "がいつも" }, { "text": "歌", "reading": "うた" }, { "text": "う" }, { "text": "怪獣", "reading": "かいじゅう" }, { "text": "の" }, { "text": "歌", "reading": "うた" }], "hiragana": "きみ が いつも うたう かいじゅう の うた", "pronunciationKo": "키미가 이츠모 우타우 카이주우노 우타", "translationKo": "너가 언제나 부르던 괴수의 노래", "grammarIds": ["noun-no-noun"], "kanjiIds": ["君", "歌", "怪", "獣"] },
+    { "id": "kaiju-no-hanauta-4-4", "original": "まだ消えない 口ずさんでしまうよ", "ruby": [{ "text": "まだ" }, { "text": "消", "reading": "き" }, { "text": "えない " }, { "text": "口", "reading": "くち" }, { "text": "ずさんでしまうよ" }], "hiragana": "まだ きえない くちずさんで しまう よ", "pronunciationKo": "마다 키에나이 쿠치즈산데 시마우요", "translationKo": "아직 사라지지 않아, 나도 모르게 흥얼거리게 돼", "grammarIds": ["te-shimau"], "kanjiIds": ["消", "口"] },
+    { "id": "kaiju-no-hanauta-4-5", "original": "落ちてく過去は鮮明で", "ruby": [{ "text": "落", "reading": "お" }, { "text": "ちてく" }, { "text": "過去", "reading": "かこ" }, { "text": "は" }, { "text": "鮮明", "reading": "せんめい" }, { "text": "で" }], "hiragana": "おちてく かこ は せんめい で", "pronunciationKo": "오치테쿠 카코와 센메이데", "translationKo": "저물어 가는 과거는 선명하고", "grammarIds": ["teiku-teku"], "kanjiIds": ["過"] },
+    { "id": "kaiju-no-hanauta-4-6", "original": "見せたい未来は繊細で", "ruby": [{ "text": "見", "reading": "み" }, { "text": "せたい" }, { "text": "未来", "reading": "みらい" }, { "text": "は" }, { "text": "繊細", "reading": "せんさい" }, { "text": "で" }], "hiragana": "みせたい みらい は せんさい で", "pronunciationKo": "미세타이 미라이와 센사이데", "translationKo": "보여 주고 싶은 미래는 섬세하고", "grammarIds": ["verb-tai"], "kanjiIds": ["見", "未", "細"] },
+    { "id": "kaiju-no-hanauta-4-7", "original": "すぎてく日々には鈍感な君へ", "ruby": [{ "text": "すぎてく" }, { "text": "日々", "reading": "ひび" }, { "text": "には" }, { "text": "鈍感", "reading": "どんかん" }, { "text": "な" }, { "text": "君", "reading": "きみ" }, { "text": "へ" }], "hiragana": "すぎてく ひび には どんかん な きみ へ", "pronunciationKo": "스기테쿠 히비니와 돈칸나 키미에", "translationKo": "흘러가는 나날에는 무딘 너에게", "grammarIds": ["teiku-teku"], "kanjiIds": ["感", "君"] }
+  ],
+  "vocabulary": [
+    { "id": "kaiju-no-hanauta-4-ochiteku", "term": "落ちてく", "reading": "おちてく", "meaning": "떨어져 가다, 저물어 가다", "note": "落ちていく의 축약형입니다." },
+    { "id": "kaiju-no-hanauta-4-kako", "term": "過去", "reading": "かこ", "meaning": "과거" },
+    { "id": "kaiju-no-hanauta-4-miseru", "term": "見せる", "reading": "みせる", "meaning": "보여 주다" },
+    { "id": "kaiju-no-hanauta-4-mirai", "term": "未来", "reading": "みらい", "meaning": "미래" },
+    { "id": "kaiju-no-hanauta-4-sensai", "term": "繊細", "reading": "せんさい", "meaning": "섬세함, 여림" },
+    { "id": "kaiju-no-hanauta-4-hibi", "term": "日々", "reading": "ひび", "meaning": "나날, 매일" },
+    { "id": "kaiju-no-hanauta-4-donkan", "term": "鈍感", "reading": "どんかん", "meaning": "둔감함, 무디림" },
+    { "id": "kaiju-no-hanauta-4-sugiteku", "term": "すぎてく", "reading": "すぎてく", "meaning": "지나가다", "note": "過ぎていく의 축약형입니다." }
+  ],
+  "quiz": [
+    { "id": "kaiju-no-hanauta-4-q1", "prompt": "「落ちてく」의 줄이지 않은 형태는?", "options": ["落ちていく", "落ちている", "落ちてしまう", "落ちたい"], "answerIndex": 0, "explanation": "노래에서 〜ていく의 い가 빠져 〜てく로 축약되었습니다." },
+    { "id": "kaiju-no-hanauta-4-q2", "prompt": "「過去」와 대비되는 단어는?", "options": ["会話", "未来", "夢", "怪獣"], "answerIndex": 1, "explanation": "선명한 과거와 보여 주고 싶은 섬세한 미래가 대비됩니다." },
+    { "id": "kaiju-no-hanauta-4-q3", "prompt": "「見せたい」의 뜻은?", "options": ["보이고 싶다", "보여 주고 싶다", "보지 않았다", "보여 주었다"], "answerIndex": 1, "explanation": "見せる(보여 주다)에 〜たい가 붙어 보여 주고 싶다는 바람을 나타냅니다." },
+    { "id": "kaiju-no-hanauta-4-q4", "prompt": "「鈍感な君」은 어떤 너를 말하나요?", "options": ["시간의 흐름에 무딘 너", "모든 기억이 선명한 너", "미래를 잘 아는 너", "노래를 잊은 너"], "answerIndex": 0, "explanation": "鈍感은 느낌이나 변화를 빠르게 눈치채지 못하는 둔감함을 뜻합니다." },
+    { "id": "kaiju-no-hanauta-4-q5", "prompt": "브리지의 감정 구조로 올바른 것은?", "options": ["과거는 흐리고 미래는 단순하다", "과거는 선명하고 미래는 섬세하다", "과거와 미래가 모두 사라졌다", "현재만이 선명하다"], "answerIndex": 1, "explanation": "鮮明で와 繊細で가 과거와 미래에 각각 다른 질감을 부여합니다." }
+  ]
+}
