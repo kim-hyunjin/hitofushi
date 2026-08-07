@@ -59,6 +59,16 @@ export const songs: SongDefinition[] = [
       '능숙해진 맞장구와 가짜 미소 사이에서, 끝내 놓지 못하는 관계의 습관을 따라갑니다.',
     youtubeVideoId: 'hS2BVRnQiYI',
   },
+  {
+    slug: 'shukumei',
+    sequence: 6,
+    title: '宿命',
+    artist: 'Official髭男dism',
+    kicker: '운명이 아니라도 스스로 불태우는 오늘',
+    description:
+      '불안과 기대의 무게를 끌어안고, 동료와 서로를 비추며 숙명에 맞서는 뜨거운 응원가를 따라갑니다.',
+    youtubeVideoId: '-kgOFJG881I',
+  },
 ];
 
 export function getSong(slug: string) {
