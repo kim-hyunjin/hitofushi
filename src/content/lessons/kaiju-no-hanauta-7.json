@@ -1,0 +1,34 @@
+{
+  "songSlug": "kaiju-no-hanauta",
+  "lessonNumber": 7,
+  "title": "선명한 과거, 섬세한 미래",
+  "subtitle": "반복으로 남는 마지막 여운",
+  "description": "과거와 미래, 흘러가는 나날의 대비를 반복해 읽으며 곡의 마지막 메시지와 핵심 표현을 총정리합니다.",
+  "estimatedMinutes": 22,
+  "sentences": [
+    { "id": "kaiju-no-hanauta-7-1", "original": "落ちてく過去は鮮明で", "ruby": [{ "text": "落", "reading": "お" }, { "text": "ちてく" }, { "text": "過去", "reading": "かこ" }, { "text": "は" }, { "text": "鮮明", "reading": "せんめい" }, { "text": "で" }], "hiragana": "おちてく かこ は せんめい で", "pronunciationKo": "오치테쿠 카코와 센메이데", "translationKo": "저물어 가는 과거는 선명하고", "grammarIds": ["teiku-teku"], "kanjiIds": ["過"] },
+    { "id": "kaiju-no-hanauta-7-2", "original": "見せたい未来は繊細で", "ruby": [{ "text": "見", "reading": "み" }, { "text": "せたい" }, { "text": "未来", "reading": "みらい" }, { "text": "は" }, { "text": "繊細", "reading": "せんさい" }, { "text": "で" }], "hiragana": "みせたい みらい は せんさい で", "pronunciationKo": "미세타이 미라이와 센사이데", "translationKo": "보여 주고 싶은 미래는 섬세하고", "grammarIds": ["verb-tai"], "kanjiIds": ["見", "未", "細"] },
+    { "id": "kaiju-no-hanauta-7-3", "original": "すぎてく日々には鈍感な君へ", "ruby": [{ "text": "すぎてく" }, { "text": "日々", "reading": "ひび" }, { "text": "には" }, { "text": "鈍感", "reading": "どんかん" }, { "text": "な" }, { "text": "君", "reading": "きみ" }, { "text": "へ" }], "hiragana": "すぎてく ひび には どんかん な きみ へ", "pronunciationKo": "스기테쿠 히비니와 돈칸나 키미에", "translationKo": "흘러가는 나날에는 무딘 너에게", "grammarIds": ["teiku-teku"], "kanjiIds": ["感", "君"] },
+    { "id": "kaiju-no-hanauta-7-4", "original": "ooh", "ruby": [{ "text": "ooh" }], "hiragana": "うー", "pronunciationKo": "우-", "translationKo": "우-", "grammarIds": [], "kanjiIds": [] },
+    { "id": "kaiju-no-hanauta-7-5", "original": "落ちてく過去は鮮明で", "ruby": [{ "text": "落", "reading": "お" }, { "text": "ちてく" }, { "text": "過去", "reading": "かこ" }, { "text": "は" }, { "text": "鮮明", "reading": "せんめい" }, { "text": "で" }], "hiragana": "おちてく かこ は せんめい で", "pronunciationKo": "오치테쿠 카코와 센메이데", "translationKo": "저물어 가는 과거는 선명하고", "grammarIds": ["teiku-teku"], "kanjiIds": ["過"] },
+    { "id": "kaiju-no-hanauta-7-6", "original": "見せたい未来は繊細で", "ruby": [{ "text": "見", "reading": "み" }, { "text": "せたい" }, { "text": "未来", "reading": "みらい" }, { "text": "は" }, { "text": "繊細", "reading": "せんさい" }, { "text": "で" }], "hiragana": "みせたい みらい は せんさい で", "pronunciationKo": "미세타이 미라이와 센사이데", "translationKo": "보여 주고 싶은 미래는 섬세하고", "grammarIds": ["verb-tai"], "kanjiIds": ["見", "未", "細"] },
+    { "id": "kaiju-no-hanauta-7-7", "original": "すぎてく日々には鈍感な君へ", "ruby": [{ "text": "すぎてく" }, { "text": "日々", "reading": "ひび" }, { "text": "には" }, { "text": "鈍感", "reading": "どんかん" }, { "text": "な" }, { "text": "君", "reading": "きみ" }, { "text": "へ" }], "hiragana": "すぎてく ひび には どんかん な きみ へ", "pronunciationKo": "스기테쿠 히비니와 돈칸나 키미에", "translationKo": "흘러가는 나날에는 무딘 너에게", "grammarIds": ["teiku-teku"], "kanjiIds": ["感", "君"] }
+  ],
+  "vocabulary": [
+    { "id": "kaiju-no-hanauta-7-senmeide", "term": "鮮明で", "reading": "せんめいで", "meaning": "선명하고" },
+    { "id": "kaiju-no-hanauta-7-sensaide", "term": "繊細で", "reading": "せんさいで", "meaning": "섬세하고" },
+    { "id": "kaiju-no-hanauta-7-kako", "term": "過去", "reading": "かこ", "meaning": "과거" },
+    { "id": "kaiju-no-hanauta-7-mirai", "term": "未来", "reading": "みらい", "meaning": "미래" },
+    { "id": "kaiju-no-hanauta-7-hibi", "term": "日々", "reading": "ひび", "meaning": "나날" },
+    { "id": "kaiju-no-hanauta-7-donkan", "term": "鈍感", "reading": "どんかん", "meaning": "둔감함" },
+    { "id": "kaiju-no-hanauta-7-ochiru", "term": "落ちる", "reading": "おちる", "meaning": "떨어지다, 저물다" },
+    { "id": "kaiju-no-hanauta-7-sugiru", "term": "過ぎる", "reading": "すぎる", "meaning": "지나가다" }
+  ],
+  "quiz": [
+    { "id": "kaiju-no-hanauta-7-q1", "prompt": "마지막에 같은 세 행을 반복하는 효과는?", "options": ["새로운 사건을 소개한다", "과거·미래·현재의 대비에 여운을 남긴다", "노래의 화자를 바꾼다", "이야기를 취소한다"], "answerIndex": 1, "explanation": "이미 들은 대비를 반복해 시간과 기억이라는 곡의 핵심을 마지막에 새깁니다." },
+    { "id": "kaiju-no-hanauta-7-q2", "prompt": "「鮮明で」와 「繊細で」의 で는 어떤 역할을 하나요?", "options": ["뒤 내용으로 상태를 연결한다", "과거를 부정한다", "장소만을 나타낸다", "명령을 만든다"], "answerIndex": 0, "explanation": "나형용사에 で를 붙여 ‘~하고’라는 연결 느낌을 만듭니다." },
+    { "id": "kaiju-no-hanauta-7-q3", "prompt": "「すぎてく日々」의 자연스러운 해석은?", "options": ["멈춰 있는 나날", "흘러가는 나날", "되돌아온 나날", "잊혀진 꿈"], "answerIndex": 1, "explanation": "すぎてく가 日々를 꾸며 계속 지나가는 매일을 나타냅니다." },
+    { "id": "kaiju-no-hanauta-7-q4", "prompt": "이 곡에서 과거는 어떻게 묘사되나요?", "options": ["모호하게", "선명하게", "즐겁기만 하게", "완전히 사라진 것으로"], "answerIndex": 1, "explanation": "鮮明で가 멀어져 가는 과거가 오히려 선명하게 남는 역설을 만듭니다." },
+    { "id": "kaiju-no-hanauta-7-q5", "prompt": "전체 가사에서 「君」에게 가장 전하고 싶은 것은?", "options": ["일상의 일정", "사라지지 않은 노래와 함께 보고 싶은 미래", "새 기타의 가격", "대화의 내용만"], "answerIndex": 1, "explanation": "화자는 너의 노래를 기억하고 대신 부르며, 보여 주고 싶은 미래를 너에게 향하게 합니다." }
+  ]
+}

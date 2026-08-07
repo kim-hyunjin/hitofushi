@@ -1,0 +1,12 @@
+{
+  "character": "見",
+  "onyomi": ["ケン"],
+  "kunyomi": ["みる", "みえる"],
+  "basicMeaning": "보다, 보이다",
+  "wordMeaning": "見ていたい（みていたい）에서 계속 보고 싶다는 뜻을 만듭니다.",
+  "mnemonic": "눈앞의 모습을 놓치지 않고 지켜보는 장면을 떠올려 보세요.",
+  "examples": [
+    { "word": "見る", "reading": "みる", "meaning": "보다" },
+    { "word": "見える", "reading": "みえる", "meaning": "보이다" }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "character": "消",
+  "onyomi": ["ショウ"],
+  "kunyomi": ["きえる", "けす"],
+  "basicMeaning": "사라지다, 끄다",
+  "wordMeaning": "消えない（きえない）에서 기억과 노래가 사라지지 않는다는 뜻입니다.",
+  "mnemonic": "불빛이 꺼져도 마음속 여운은 사라지지 않는 모습을 떠올려 보세요.",
+  "examples": [
+    { "word": "消える", "reading": "きえる", "meaning": "사라지다, 꺼지다" },
+    { "word": "消す", "reading": "けす", "meaning": "지우다, 끄다" }
+  ]
+}

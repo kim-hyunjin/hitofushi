@@ -1,0 +1,12 @@
+{
+  "character": "聞",
+  "onyomi": ["ブン", "モン"],
+  "kunyomi": ["きく", "きこえる"],
+  "basicMeaning": "듣다, 묻다",
+  "wordMeaning": "聞かせる（きかせる）에서 상대에게 소리를 들려주다라는 뜻으로 쓰입니다.",
+  "mnemonic": "문 안으로 들려오는 소리에 귀를 기울이는 장면을 떠올려 보세요.",
+  "examples": [
+    { "word": "聞く", "reading": "きく", "meaning": "듣다, 묻다" },
+    { "word": "新聞", "reading": "しんぶん", "meaning": "신문" }
+  ]
+}
