@@ -39,6 +39,16 @@ export const songs: SongDefinition[] = [
       '이어질 수 없음을 알면서도 놓기 어려운 사랑과, 끝내 남는 아름다움을 따라갑니다.',
     youtubeVideoId: 'TQ8WlA2GXbk',
   },
+  {
+    slug: 'tokyo-flash',
+    sequence: 4,
+    title: '東京フラッシュ',
+    artist: 'Vaundy',
+    kicker: '익숙한 미소 뒤에 남은 미련',
+    description:
+      '능숙해진 맞장구와 가짜 미소 사이에서, 끝내 놓지 못하는 관계의 습관을 따라갑니다.',
+    youtubeVideoId: 'hS2BVRnQiYI',
+  },
 ];
 
 export function getSong(slug: string) {

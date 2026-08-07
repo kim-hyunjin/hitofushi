@@ -1,0 +1,12 @@
+{
+  "character": "草",
+  "onyomi": ["ソウ"],
+  "kunyomi": ["くさ"],
+  "basicMeaning": "풀",
+  "wordMeaning": "仕草（しぐさ）에서 ぐさ로 소리가 변해 몸짓이나 행동거지를 나타냅니다.",
+  "mnemonic": "바람에 따라 부드럽게 움직이는 풀의 몸짓을 떠올려 보세요.",
+  "examples": [
+    { "word": "仕草", "reading": "しぐさ", "meaning": "몸짓" },
+    { "word": "草", "reading": "くさ", "meaning": "풀" }
+  ]
+}

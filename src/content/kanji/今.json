@@ -1,0 +1,12 @@
+{
+  "character": "今",
+  "onyomi": ["コン", "キン"],
+  "kunyomi": ["いま"],
+  "basicMeaning": "지금",
+  "wordMeaning": "今日（きょう）에서는 日과 함께 ‘오늘’을 나타냅니다.",
+  "mnemonic": "바로 이 순간을 손안에 담아 두는 모습을 떠올려 보세요.",
+  "examples": [
+    { "word": "今", "reading": "いま", "meaning": "지금" },
+    { "word": "今日", "reading": "きょう", "meaning": "오늘" }
+  ]
+}

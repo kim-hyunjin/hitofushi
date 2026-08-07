@@ -1,0 +1,12 @@
+{
+  "character": "手",
+  "onyomi": ["シュ"],
+  "kunyomi": ["て", "た"],
+  "basicMeaning": "손",
+  "wordMeaning": "手を繋ぐ（てをつなぐ）에서 て로 읽어 손을 맞잡는 행동을 나타냅니다.",
+  "mnemonic": "손가락을 펼쳐 상대의 손을 잡는 모습을 떠올려 보세요.",
+  "examples": [
+    { "word": "手", "reading": "て", "meaning": "손" },
+    { "word": "上手", "reading": "じょうず", "meaning": "능숙함" }
+  ]
+}

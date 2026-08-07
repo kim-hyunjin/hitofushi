@@ -1,0 +1,85 @@
+{
+  "songSlug": "tokyo-flash",
+  "lessonNumber": 2,
+  "title": "가짜 미소를 붙잡는 말",
+  "subtitle": "부탁의 〜てね·〜てよ와 판단의 〜みたい",
+  "description": "STAY, FAKE, STAGE, AGE로 이어지는 말놀이를 따라가며 부탁, 추측, 수용의 표현을 익힙니다.",
+  "estimatedMinutes": 18,
+  "sentences": [
+    {
+      "id": "tokyo-flash-2-1",
+      "original": "STAYまだここにいてね 君の",
+      "ruby": [
+        { "text": "STAYまだここにいてね " },
+        { "text": "君", "reading": "きみ" },
+        { "text": "の" }
+      ],
+      "hiragana": "STAY まだ ここに いてね きみの",
+      "pronunciationKo": "스테이 마다 코코니 이테네 키미노",
+      "translationKo": "STAY, 아직 여기 있어 줘, 너의",
+      "grammarIds": ["te-ne-yo"],
+      "kanjiIds": ["君"]
+    },
+    {
+      "id": "tokyo-flash-2-2",
+      "original": "FAKEの笑顔をみせてよ みせてよ",
+      "ruby": [
+        { "text": "FAKEの" },
+        { "text": "笑顔", "reading": "えがお" },
+        { "text": "をみせてよ みせてよ" }
+      ],
+      "hiragana": "FAKE の えがお を みせてよ みせてよ",
+      "pronunciationKo": "페이크노 에가오오 미세테요 미세테요",
+      "translationKo": "FAKE인 미소를 보여 줘, 보여 줘",
+      "grammarIds": ["te-ne-yo"],
+      "kanjiIds": ["笑", "顔"]
+    },
+    {
+      "id": "tokyo-flash-2-3",
+      "original": "STAGE4の癌にかかっているみたいかい？",
+      "ruby": [
+        { "text": "STAGE4の" },
+        { "text": "癌", "reading": "がん" },
+        { "text": "にかかっているみたいかい？" }
+      ],
+      "hiragana": "STAGE4 の がん に かかっている みたいかい",
+      "pronunciationKo": "스테이지 포오노 간니 카캇테이루 미타이카이",
+      "translationKo": "STAGE 4의 암에 걸린 것 같니?",
+      "grammarIds": ["teiru", "mitai", "no-kai"],
+      "kanjiIds": ["癌"]
+    },
+    {
+      "id": "tokyo-flash-2-4",
+      "original": "AGE越しの性愛者でいいの",
+      "ruby": [
+        { "text": "AGE" },
+        { "text": "越", "reading": "ご" },
+        { "text": "しの" },
+        { "text": "性愛者", "reading": "せいあいしゃ" },
+        { "text": "でいいの" }
+      ],
+      "hiragana": "AGE ごし の せいあいしゃ で いいの",
+      "pronunciationKo": "에이지 고시노 세이아이샤데 이이노",
+      "translationKo": "AGE 너머의 사랑을 하는 사람이어도 괜찮아",
+      "grammarIds": ["noun-no-noun", "de-ii"],
+      "kanjiIds": ["越", "性", "愛", "者"]
+    }
+  ],
+  "vocabulary": [
+    { "id": "tokyo-flash-2-stay", "term": "STAY", "reading": "ステイ", "meaning": "머무르다, 있어 줘" },
+    { "id": "tokyo-flash-2-fake", "term": "FAKE", "reading": "フェイク", "meaning": "가짜, 거짓된" },
+    { "id": "tokyo-flash-2-egao", "term": "笑顔", "reading": "えがお", "meaning": "웃는 얼굴, 미소" },
+    { "id": "tokyo-flash-2-miseru", "term": "みせる", "reading": "みせる", "meaning": "보여 주다" },
+    { "id": "tokyo-flash-2-gan", "term": "癌にかかる", "reading": "がんにかかる", "meaning": "암에 걸리다" },
+    { "id": "tokyo-flash-2-mitai", "term": "みたい", "reading": "みたい", "meaning": "~인 것 같다" },
+    { "id": "tokyo-flash-2-goshi", "term": "越し", "reading": "ごし", "meaning": "~을 사이에 두고, ~ 너머로" },
+    { "id": "tokyo-flash-2-seiaisha", "term": "性愛者", "reading": "せいあいしゃ", "meaning": "성애자, 성적인 사랑을 하는 사람", "note": "가사의 영어 말놀이와 결합된 독특한 표현입니다." }
+  ],
+  "quiz": [
+    { "id": "tokyo-flash-2-q1", "prompt": "「ここにいてね」의 가장 자연스러운 뜻은?", "options": ["여기에는 없네", "여기에 있어 줘", "여기에서 떠나", "여기에 있었니"], "answerIndex": 1, "explanation": "いて는 いる의 て형이고, ね가 부탁을 부드럽게 만듭니다." },
+    { "id": "tokyo-flash-2-q2", "prompt": "「みせてよ」에서 よ가 더하는 느낌은?", "options": ["부탁하는 마음을 또렷이 한다", "과거형을 만든다", "조건을 나타낸다", "대상을 부정한다"], "answerIndex": 0, "explanation": "동사 て형 뒤의 よ는 상대에게 향한 부탁이나 요구를 강조합니다." },
+    { "id": "tokyo-flash-2-q3", "prompt": "「かかっている」가 나타내는 것은?", "options": ["걸리려는 의지", "걸린 상태의 지속", "걸리지 않은 상태", "걸린 뒤의 가정"], "answerIndex": 1, "explanation": "이 문맥의 〜ている는 어떤 상태가 현재 이어지고 있음을 나타냅니다." },
+    { "id": "tokyo-flash-2-q4", "prompt": "「みたい」의 역할은?", "options": ["확정된 사실을 선언한다", "느낌이나 근거로 추측한다", "상대에게 명령한다", "두 대상을 비교한다"], "answerIndex": 1, "explanation": "〜みたい는 확정하지 않고 ‘~인 것 같다’고 부드럽게 판단합니다." },
+    { "id": "tokyo-flash-2-q5", "prompt": "「〜でいい」와 가장 가까운 뜻은?", "options": ["~이면 괜찮다", "~가 아니어야 한다", "~보다 낫다", "~일 리 없다"], "answerIndex": 0, "explanation": "〜でいい는 앞의 상태나 선택을 충분하다고 받아들입니다." }
+  ]
+}

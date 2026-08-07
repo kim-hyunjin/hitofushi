@@ -1,0 +1,12 @@
+{
+  "character": "撃",
+  "onyomi": ["ゲキ"],
+  "kunyomi": ["うつ"],
+  "basicMeaning": "치다, 쏘다",
+  "wordMeaning": "攻撃（こうげき）에서 げき로 읽어 공격이나 타격을 나타냅니다.",
+  "mnemonic": "강한 충격이 한순간에 전해지는 장면을 떠올려 보세요.",
+  "examples": [
+    { "word": "攻撃", "reading": "こうげき", "meaning": "공격" },
+    { "word": "撃つ", "reading": "うつ", "meaning": "쏘다, 치다" }
+  ]
+}
