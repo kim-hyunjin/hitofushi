@@ -1,0 +1,12 @@
+{
+  "character": "試",
+  "onyomi": ["シ"],
+  "kunyomi": ["こころ（みる）", "ため（す）"],
+  "basicMeaning": "시험하다",
+  "wordMeaning": "試す（ためす）는 실제로 해 보며 결과나 가능성을 확인하는 것을 뜻합니다.",
+  "mnemonic": "말(言)로 방법(式)을 세우고 실제로 시험해 본다고 기억해 보세요.",
+  "examples": [
+    { "word": "試す", "reading": "ためす", "meaning": "시험하다, 시도하다" },
+    { "word": "試験", "reading": "しけん", "meaning": "시험" }
+  ]
+}

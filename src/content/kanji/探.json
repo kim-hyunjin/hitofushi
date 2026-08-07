@@ -1,0 +1,12 @@
+{
+  "character": "探",
+  "onyomi": ["タン"],
+  "kunyomi": ["さが（す）", "さぐ（る）"],
+  "basicMeaning": "찾다",
+  "wordMeaning": "探す（さがす）는 원하는 대상을 찾고, 探る（さぐる）는 손이나 감각으로 더듬어 살핍니다.",
+  "mnemonic": "손(扌)을 깊숙이 뻗어 보이지 않는 것을 찾아내는 모습을 떠올려 보세요.",
+  "examples": [
+    { "word": "探す", "reading": "さがす", "meaning": "찾다" },
+    { "word": "手探り", "reading": "てさぐり", "meaning": "손으로 더듬음" }
+  ]
+}

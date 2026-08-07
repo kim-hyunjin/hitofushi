@@ -14,7 +14,7 @@
     },
     {
       "id": "wasurerumaeni-1-2", "original": "街を背景に黄昏て",
-      "ruby": [{ "text": "街", "reading": "まち" }, { "text": "を" }, { "text": "背景", "reading": "はいけい" }, { "text": "に" }, { "text": "黄昏", "reading": "たそが" }, { "text": "れて" }],
+      "ruby": [{ "text": "街", "reading": "まち" }, { "text": "を" }, { "text": "背景", "reading": "はいけい" }, { "text": "に" }, { "text": "黄昏", "reading": "たそがれ" }, { "text": "て" }],
       "hiragana": "まち を はいけい に たそがれて", "pronunciationKo": "마치오 하이케이니 타소가레테", "translationKo": "거리를 배경으로 황혼에 잠겨",
       "grammarIds": ["te-form"], "kanjiIds": ["街", "景"]
     },

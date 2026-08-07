@@ -1,0 +1,50 @@
+{
+  "songSlug": "wasurerumaeni",
+  "lessonNumber": 8,
+  "title": "꿈을 먹어 버린 바쿠",
+  "subtitle": "의태어의 리듬과 수동형으로 닫는 결말",
+  "description": "미끄러지고 삼키는 듯한 소리가 반복되는 가운데 기억이 흐려지고, 끝내 꿈이 바쿠에게 먹히는 결말을 읽습니다.",
+  "estimatedMinutes": 18,
+  "sentences": [
+    {
+      "id": "wasurerumaeni-8-1", "original": "ツルリ、ツルリ 熱にやられて",
+      "ruby": [{ "text": "ツルリ、ツルリ " }, { "text": "熱", "reading": "ねつ" }, { "text": "にやられて" }],
+      "hiragana": "つるり つるり ねつ に やられて", "pronunciationKo": "츠루리, 츠루리 네츠니 야라레테", "translationKo": "스르륵, 스르륵 열기에 당하고",
+      "grammarIds": ["passive", "te-form"], "kanjiIds": ["熱"]
+    },
+    {
+      "id": "wasurerumaeni-8-2", "original": "ゴクリ、ゴクリ ぼやけ始めて",
+      "ruby": [{ "text": "ゴクリ、ゴクリ ぼやけ" }, { "text": "始", "reading": "はじ" }, { "text": "めて" }],
+      "hiragana": "ごくり ごくり ぼやけ はじめて", "pronunciationKo": "고쿠리, 고쿠리 보야케하지메테", "translationKo": "꿀꺽, 꿀꺽 흐려지기 시작하고",
+      "grammarIds": ["verb-stem-hajimeru", "te-form"], "kanjiIds": []
+    },
+    {
+      "id": "wasurerumaeni-8-3", "original": "ツルリ、ツルリ 君を忘れて",
+      "ruby": [{ "text": "ツルリ、ツルリ " }, { "text": "君", "reading": "きみ" }, { "text": "を" }, { "text": "忘", "reading": "わす" }, { "text": "れて" }],
+      "hiragana": "つるり つるり きみ を わすれて", "pronunciationKo": "츠루리, 츠루리 키미오 와스레테", "translationKo": "스르륵, 스르륵 너를 잊고",
+      "grammarIds": ["te-form"], "kanjiIds": ["君", "忘"]
+    },
+    {
+      "id": "wasurerumaeni-8-4", "original": "ゴクリ、ゴクリ バクに食われた",
+      "ruby": [{ "text": "ゴクリ、ゴクリ バクに" }, { "text": "食", "reading": "く" }, { "text": "われた" }],
+      "hiragana": "ごくり ごくり ばく に くわれた", "pronunciationKo": "고쿠리, 고쿠리 바쿠니 쿠와레타", "translationKo": "꿀꺽, 꿀꺽 바쿠에게 먹혀 버렸어",
+      "grammarIds": ["passive"], "kanjiIds": ["食"]
+    }
+  ],
+  "vocabulary": [
+    { "id": "wasurerumaeni-8-tsururi", "term": "ツルリ", "reading": "つるり", "meaning": "매끈하게 미끄러지는 모양, 스르륵" },
+    { "id": "wasurerumaeni-8-gokuri", "term": "ゴクリ", "reading": "ごくり", "meaning": "꿀꺽 삼키는 소리나 모양" },
+    { "id": "wasurerumaeni-8-netsu", "term": "熱", "reading": "ねつ", "meaning": "열, 열기" },
+    { "id": "wasurerumaeni-8-yarareru", "term": "やられる", "reading": "やられる", "meaning": "당하다, 영향을 받아 넋을 잃다" },
+    { "id": "wasurerumaeni-8-boyakeru", "term": "ぼやける", "reading": "ぼやける", "meaning": "흐릿해지다" },
+    { "id": "wasurerumaeni-8-baku", "term": "バク", "reading": "ばく", "meaning": "맥, 전설에서 꿈을 먹는 존재", "note": "일본의 전승에서 악몽을 먹는다고 여겨지는 상상의 존재를 가리키기도 합니다." },
+    { "id": "wasurerumaeni-8-kuwareru", "term": "食われる", "reading": "くわれる", "meaning": "먹히다", "note": "食べられる보다 거칠고 구어적인 수동 표현입니다." }
+  ],
+  "quiz": [
+    { "id": "wasurerumaeni-8-q1", "prompt": "「ツルリ」가 주로 나타내는 감각은?", "options": ["무겁게 떨어짐", "매끈하게 미끄러짐", "크게 폭발함", "조용히 울림"], "answerIndex": 1, "explanation": "ツルリ는 표면이 매끈하거나 무언가가 미끄러져 빠져나가는 모양을 나타냅니다." },
+    { "id": "wasurerumaeni-8-q2", "prompt": "「ゴクリ」에서 떠올릴 수 있는 소리는?", "options": ["꿀꺽 삼키는 소리", "문을 두드리는 소리", "바람 부는 소리", "유리가 깨지는 소리"], "answerIndex": 0, "explanation": "ゴクリ는 침이나 무언가를 한 번 크게 삼키는 소리와 모양을 나타냅니다." },
+    { "id": "wasurerumaeni-8-q3", "prompt": "「ぼやけ始めて」의 뜻은?", "options": ["선명하게 끝나고", "흐려지기 시작하고", "다시 기억해 내고", "갑자기 빛나고"], "answerIndex": 1, "explanation": "ぼやける의 어간에 始める가 붙어 흐려지는 변화가 시작됨을 나타냅니다." },
+    { "id": "wasurerumaeni-8-q4", "prompt": "「食われた」는 어떤 형태인가요?", "options": ["食う의 수동 과거형", "食べる의 의지형", "食う의 부정형", "食べる의 명령형"], "answerIndex": 0, "explanation": "食う의 수동형 食われる가 과거가 되어 ‘먹혔다’라는 뜻이 됩니다." },
+    { "id": "wasurerumaeni-8-q5", "prompt": "마지막에 바쿠에게 먹힌 것으로 읽히는 것은?", "options": ["도시의 풍경", "화자가 붙잡으려던 꿈과 기억", "하늘의 굉음", "외계인의 별"], "answerIndex": 1, "explanation": "흐릿해지고 상대를 잊은 뒤 꿈을 먹는 바쿠가 등장해, 붙잡으려던 꿈과 기억의 소멸을 마무리합니다." }
+  ]
+}

@@ -14,9 +14,9 @@
     },
     {
       "id": "wasurerumaeni-3-2", "original": "消えそうな灯火探して話をしている",
-      "ruby": [{ "text": "消", "reading": "き" }, { "text": "えそうな" }, { "text": "灯火", "reading": "ともしび" }, { "text": " " }, { "text": "探", "reading": "さが" }, { "text": "して" }, { "text": "話", "reading": "はなし" }, { "text": "をしている" }],
+      "ruby": [{ "text": "消", "reading": "き" }, { "text": "えそうな" }, { "text": "灯火", "reading": "ともしび" }, { "text": "探", "reading": "さが" }, { "text": "して" }, { "text": "話", "reading": "はなし" }, { "text": "をしている" }],
       "hiragana": "きえそうな ともしび さがして はなし を している", "pronunciationKo": "키에소오나 토모시비 사가시테 하나시오 시테이루", "translationKo": "꺼질 듯한 불빛을 찾으며 이야기를 나누고 있어",
-      "grammarIds": ["youna", "te-form", "teiru"], "kanjiIds": ["灯", "探", "話"]
+      "grammarIds": ["sou-na-appearance", "te-form", "teiru"], "kanjiIds": ["灯", "探", "話"]
     },
     {
       "id": "wasurerumaeni-3-3", "original": "これが夢ならば 試そうか",

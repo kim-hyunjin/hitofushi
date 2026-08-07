@@ -1,0 +1,12 @@
+{
+  "character": "熱",
+  "onyomi": ["ネツ"],
+  "kunyomi": ["あつ（い）"],
+  "basicMeaning": "뜨겁다, 열",
+  "wordMeaning": "熱（ねつ）로 읽어 뜨거운 기운이나 체온이 오른 상태를 나타냅니다.",
+  "mnemonic": "아래의 불(灬)이 세차게 타올라 뜨거운 열을 낸다고 기억해 보세요.",
+  "examples": [
+    { "word": "熱", "reading": "ねつ", "meaning": "열" },
+    { "word": "熱い", "reading": "あつい", "meaning": "뜨겁다" }
+  ]
+}

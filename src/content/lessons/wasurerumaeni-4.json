@@ -33,7 +33,7 @@
     {
       "id": "wasurerumaeni-4-5", "original": "目を奪われた君の横瞳を眺め",
       "ruby": [{ "text": "目", "reading": "め" }, { "text": "を" }, { "text": "奪", "reading": "うば" }, { "text": "われた" }, { "text": "君", "reading": "きみ" }, { "text": "の" }, { "text": "横瞳", "reading": "よこめ" }, { "text": "を" }, { "text": "眺", "reading": "なが" }, { "text": "め" }],
-      "hiragana": "め を うばわれた きみ の よこめ を ながめ", "pronunciationKo": "메오 우바와레타 키미노 요코메오 나가메", "translationKo": "시선을 빼앗긴 너의 옆눈을 바라보며",
+      "hiragana": "め を うばわれた きみ の よこめ を ながめ", "pronunciationKo": "메오 우바와레타 키미노 요코메오 나가메", "translationKo": "내 시선을 빼앗은 너의 옆눈을 바라보며",
       "grammarIds": ["passive"], "kanjiIds": ["目", "君"]
     },
     {

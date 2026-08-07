@@ -1,0 +1,12 @@
+{
+  "character": "空",
+  "onyomi": ["クウ"],
+  "kunyomi": ["そら", "あ（く）", "から"],
+  "basicMeaning": "하늘, 비다",
+  "wordMeaning": "空（そら）로 읽으면 머리 위에 펼쳐진 하늘을 뜻합니다.",
+  "mnemonic": "구멍(穴) 아래가 비어 있어 그 너머의 넓은 하늘이 보인다고 떠올려 보세요.",
+  "examples": [
+    { "word": "空", "reading": "そら", "meaning": "하늘" },
+    { "word": "空気", "reading": "くうき", "meaning": "공기" }
+  ]
+}
