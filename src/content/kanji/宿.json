@@ -1,0 +1,12 @@
+{
+  "character": "宿",
+  "onyomi": ["シュク"],
+  "kunyomi": ["やど", "やどる"],
+  "basicMeaning": "묵다, 깃들다, 숙소",
+  "wordMeaning": "宿命（しゅくめい）에서 태어날 때부터 주어진 운명이라는 뜻을 만듭니다.",
+  "mnemonic": "지붕 아래 사람에게 오래전부터 깃들어 있던 운명을 떠올려 보세요.",
+  "examples": [
+    { "word": "宿命", "reading": "しゅくめい", "meaning": "숙명" },
+    { "word": "宿", "reading": "やど", "meaning": "숙소" }
+  ]
+}

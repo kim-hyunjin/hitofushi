@@ -89,6 +89,16 @@ export const songs: SongDefinition[] = [
       '모습을 감춘 친구의 노래와 잠들지 못한 밤에 빛나던 시간을 따라갑니다.',
     youtubeVideoId: 'UM9XNpgrqVk',
   },
+  {
+    slug: 'shukumei',
+    sequence: 9,
+    title: '宿命',
+    artist: 'Official髭男dism',
+    kicker: '운명이 아니라도 스스로 불태우는 오늘',
+    description:
+      '불안과 기대의 무게를 끌어안고, 동료와 서로를 비추며 숙명에 맞서는 뜨거운 응원가를 따라갑니다.',
+    youtubeVideoId: '-kgOFJG881I',
+  },
 ];
 
 export function getSong(slug: string) {
