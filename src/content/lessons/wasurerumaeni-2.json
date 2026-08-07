@@ -1,0 +1,44 @@
+{
+  "songSlug": "wasurerumaeni",
+  "lessonNumber": 2,
+  "title": "잊기 전에 손을 뻗어",
+  "subtitle": "동사의 ない형과 부탁의 て형",
+  "description": "찾는 것은 눈으로 보기만 해서는 발견되지 않습니다. 꿈에서 깨어 잊기 전에 직접 더듬어 찾으라는 부탁을 익힙니다.",
+  "estimatedMinutes": 18,
+  "sentences": [
+    {
+      "id": "wasurerumaeni-2-1", "original": "探し物は全然見つからないよ",
+      "ruby": [{ "text": "探", "reading": "さが" }, { "text": "し" }, { "text": "物", "reading": "もの" }, { "text": "は" }, { "text": "全然", "reading": "ぜんぜん" }, { "text": "見", "reading": "み" }, { "text": "つからないよ" }],
+      "hiragana": "さがしもの は ぜんぜん みつからない よ", "pronunciationKo": "사가시모노와 젠젠 미츠카라나이요", "translationKo": "찾는 것은 전혀 발견되지 않아",
+      "grammarIds": ["negative-form"], "kanjiIds": ["探"]
+    },
+    {
+      "id": "wasurerumaeni-2-2", "original": "お願い 手探り探して",
+      "ruby": [{ "text": "お願", "reading": "おねが" }, { "text": "い " }, { "text": "手探", "reading": "てさぐ" }, { "text": "り" }, { "text": "探", "reading": "さが" }, { "text": "して" }],
+      "hiragana": "おねがい てさぐり さがして", "pronunciationKo": "오네가이 테사구리 사가시테", "translationKo": "부탁이야, 손으로 더듬어 찾아 줘",
+      "grammarIds": ["te-form-request"], "kanjiIds": ["探"]
+    },
+    {
+      "id": "wasurerumaeni-2-3", "original": "夢から覚めて忘れる前に",
+      "ruby": [{ "text": "夢", "reading": "ゆめ" }, { "text": "から" }, { "text": "覚", "reading": "さ" }, { "text": "めて" }, { "text": "忘", "reading": "わす" }, { "text": "れる" }, { "text": "前", "reading": "まえ" }, { "text": "に" }],
+      "hiragana": "ゆめ から さめて わすれる まえ に", "pronunciationKo": "유메카라 사메테 와스레루 마에니", "translationKo": "꿈에서 깨어나 잊기 전에",
+      "grammarIds": ["te-form", "mae-ni"], "kanjiIds": ["夢", "覚", "忘"]
+    }
+  ],
+  "vocabulary": [
+    { "id": "wasurerumaeni-2-sagashimono", "term": "探し物", "reading": "さがしもの", "meaning": "찾는 물건, 찾고 있는 것" },
+    { "id": "wasurerumaeni-2-zenzen", "term": "全然", "reading": "ぜんぜん", "meaning": "전혀", "note": "전통적으로 부정 표현과 어울리며, 현대 회화에서는 긍정 강조에도 쓰입니다." },
+    { "id": "wasurerumaeni-2-mitsukaru", "term": "見つかる", "reading": "みつかる", "meaning": "발견되다, 찾게 되다" },
+    { "id": "wasurerumaeni-2-tesaguri", "term": "手探り", "reading": "てさぐり", "meaning": "손으로 더듬음, 시행착오로 찾음" },
+    { "id": "wasurerumaeni-2-sagasu", "term": "探す", "reading": "さがす", "meaning": "찾다" },
+    { "id": "wasurerumaeni-2-sameru", "term": "覚める", "reading": "さめる", "meaning": "잠이나 꿈에서 깨다" },
+    { "id": "wasurerumaeni-2-maeni", "term": "〜前に", "reading": "〜まえに", "meaning": "~하기 전에" }
+  ],
+  "quiz": [
+    { "id": "wasurerumaeni-2-q1", "prompt": "「探し物」의 뜻은?", "options": ["잃어버린 시간", "찾고 있는 것", "버릴 물건", "이미 발견한 것"], "answerIndex": 1, "explanation": "探し物는 지금 찾고 있는 대상이나 잃어버려 찾는 물건을 뜻합니다." },
+    { "id": "wasurerumaeni-2-q2", "prompt": "「全然」과 가장 자연스럽게 이어지는 가사의 말은?", "options": ["見つからない", "見つかった", "見つけよう", "見つけて"], "answerIndex": 0, "explanation": "이 문장에서 全然은 부정형 見つからない와 어울려 ‘전혀 발견되지 않는다’가 됩니다." },
+    { "id": "wasurerumaeni-2-q3", "prompt": "「探して」가 이 문맥에서 나타내는 말투는?", "options": ["과거 회상", "상대에게 하는 부탁", "가능성 추측", "금지 명령"], "answerIndex": 1, "explanation": "て형으로 문장을 끝내 상대에게 ‘찾아 줘’라고 부탁합니다." },
+    { "id": "wasurerumaeni-2-q4", "prompt": "꿈에서 ‘깨다’에 해당하는 단어는?", "options": ["冷める", "覚める", "醒ます", "止める"], "answerIndex": 1, "explanation": "잠이나 꿈에서 자연스럽게 깨는 것은 覚める라고 합니다." },
+    { "id": "wasurerumaeni-2-q5", "prompt": "「忘れる前に」는 어느 시점을 가리키나요?", "options": ["잊은 뒤", "잊기 전", "잊는 동안", "잊을 때마다"], "answerIndex": 1, "explanation": "동사 기본형 + 前に는 그 동작이 일어나기 전의 시점을 나타냅니다." }
+  ]
+}

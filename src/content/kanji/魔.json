@@ -1,0 +1,12 @@
+{
+  "character": "魔",
+  "onyomi": ["マ"],
+  "kunyomi": [],
+  "basicMeaning": "마귀, 마법",
+  "wordMeaning": "魔法（まほう）에서는 현실을 넘어선 신비한 힘인 마법을 뜻합니다.",
+  "mnemonic": "어두운 집(广) 안에서 삼과 귀신이 뒤섞여 신비한 마법을 부린다고 기억해 보세요.",
+  "examples": [
+    { "word": "魔法", "reading": "まほう", "meaning": "마법" },
+    { "word": "悪魔", "reading": "あくま", "meaning": "악마" }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "songSlug": "wasurerumaeni",
+  "lessonNumber": 6,
+  "title": "마법이 풀리기 전에",
+  "subtitle": "비교의 〜にも負けない와 시간 제한",
+  "description": "매혹을 넘어선 상대를 별의 외계인과 비교하고, 마법이 풀려 인연이 끊기기 전에 마음을 채워 달라고 말합니다.",
+  "estimatedMinutes": 22,
+  "sentences": [
+    {
+      "id": "wasurerumaeni-6-1", "original": "もう君は魅惑を超えた",
+      "ruby": [{ "text": "もう" }, { "text": "君", "reading": "きみ" }, { "text": "は" }, { "text": "魅惑", "reading": "みわく" }, { "text": "を" }, { "text": "超", "reading": "こ" }, { "text": "えた" }],
+      "hiragana": "もう きみ は みわく を こえた", "pronunciationKo": "모오 키미와 미와쿠오 코에타", "translationKo": "이제 너는 매혹의 경지를 넘어섰어",
+      "grammarIds": [], "kanjiIds": ["君"]
+    },
+    {
+      "id": "wasurerumaeni-6-2", "original": "それはもう",
+      "ruby": [{ "text": "それはもう" }],
+      "hiragana": "それ は もう", "pronunciationKo": "소레와 모오", "translationKo": "그건 정말이지",
+      "grammarIds": [], "kanjiIds": []
+    },
+    {
+      "id": "wasurerumaeni-6-3", "original": "某星のエイリアンズにも負けないよ",
+      "ruby": [{ "text": "某星", "reading": "ぼうせい" }, { "text": "のエイリアンズにも" }, { "text": "負", "reading": "ま" }, { "text": "けないよ" }],
+      "hiragana": "ぼうせい の えいりあんず にも まけない よ", "pronunciationKo": "보오세이노 에이리안즈니모 마케나이요", "translationKo": "어느 별의 외계인들에게도 지지 않아",
+      "grammarIds": ["negative-form"], "kanjiIds": ["星"]
+    },
+    {
+      "id": "wasurerumaeni-6-4", "original": "だから 手探り満たして",
+      "ruby": [{ "text": "だから " }, { "text": "手探", "reading": "てさぐ" }, { "text": "り" }, { "text": "満", "reading": "み" }, { "text": "たして" }],
+      "hiragana": "だから てさぐり みたして", "pronunciationKo": "다카라 테사구리 미타시테", "translationKo": "그러니 더듬어 가며 채워 줘",
+      "grammarIds": ["te-form-request"], "kanjiIds": []
+    },
+    {
+      "id": "wasurerumaeni-6-5", "original": "魔法が解けて 途切れる前に",
+      "ruby": [{ "text": "魔法", "reading": "まほう" }, { "text": "が" }, { "text": "解", "reading": "と" }, { "text": "けて " }, { "text": "途切", "reading": "とぎ" }, { "text": "れる" }, { "text": "前", "reading": "まえ" }, { "text": "に" }],
+      "hiragana": "まほう が とけて とぎれる まえ に", "pronunciationKo": "마호오가 토케테 토기레루 마에니", "translationKo": "마법이 풀리고 끊어지기 전에",
+      "grammarIds": ["te-form", "mae-ni"], "kanjiIds": ["魔", "解"]
+    }
+  ],
+  "vocabulary": [
+    { "id": "wasurerumaeni-6-miwaku", "term": "魅惑", "reading": "みわく", "meaning": "매혹" },
+    { "id": "wasurerumaeni-6-koeru", "term": "超える", "reading": "こえる", "meaning": "넘다, 초월하다" },
+    { "id": "wasurerumaeni-6-bousei", "term": "某星", "reading": "ぼうせい", "meaning": "어느 별, 모 별", "note": "某는 이름을 특정하지 않고 ‘어느 ~’라고 할 때 씁니다." },
+    { "id": "wasurerumaeni-6-makenai", "term": "負けない", "reading": "まけない", "meaning": "지지 않다" },
+    { "id": "wasurerumaeni-6-mitasu", "term": "満たす", "reading": "みたす", "meaning": "채우다, 충족시키다" },
+    { "id": "wasurerumaeni-6-mahou", "term": "魔法", "reading": "まほう", "meaning": "마법" },
+    { "id": "wasurerumaeni-6-tokeru", "term": "解ける", "reading": "とける", "meaning": "풀리다, 해제되다" },
+    { "id": "wasurerumaeni-6-togireru", "term": "途切れる", "reading": "とぎれる", "meaning": "도중에 끊기다" }
+  ],
+  "quiz": [
+    { "id": "wasurerumaeni-6-q1", "prompt": "「魅惑を超えた」의 뜻은?", "options": ["매력을 잃었다", "매혹의 경지를 넘어섰다", "유혹을 피했다", "마법을 배웠다"], "answerIndex": 1, "explanation": "魅惑은 사람을 사로잡는 매력이고 超える는 어떤 기준을 넘어선다는 뜻입니다." },
+    { "id": "wasurerumaeni-6-q2", "prompt": "「某星」의 某가 나타내는 것은?", "options": ["정확한 이름", "특정하지 않은 어느 것", "가장 가까운 것", "이미 사라진 것"], "answerIndex": 1, "explanation": "某는 이름을 밝히거나 특정하지 않을 때 ‘어느, 모’라는 뜻으로 씁니다." },
+    { "id": "wasurerumaeni-6-q3", "prompt": "「〜にも負けない」의 자연스러운 뜻은?", "options": ["~에게만 진다", "~에게도 지지 않는다", "~와 싸우지 않는다", "~보다 먼저 진다"], "answerIndex": 1, "explanation": "에도 해당하는 にも와 부정형 負けない가 합쳐져 비교 대상을 강하게 뛰어넘는다고 말합니다." },
+    { "id": "wasurerumaeni-6-q4", "prompt": "「満たして」는 이 문맥에서 어떤 말인가요?", "options": ["채워 달라는 부탁", "비우라는 명령", "채운 과거", "채울 수 없다는 부정"], "answerIndex": 0, "explanation": "て형으로 끝난 満たして는 상대에게 ‘채워 줘’라고 부탁하는 표현입니다." },
+    { "id": "wasurerumaeni-6-q5", "prompt": "화자가 서두르는 이유는?", "options": ["별이 뜨기 전에", "마법이 풀리고 연결이 끊기기 전에", "도시가 밝아지기 전에", "외계인이 오기 전에"], "answerIndex": 1, "explanation": "魔法が解けて、途切れる前に가 꿈같은 연결이 사라질 시간 제한을 만듭니다." }
+  ]
+}

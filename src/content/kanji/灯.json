@@ -1,0 +1,12 @@
+{
+  "character": "灯",
+  "onyomi": ["トウ"],
+  "kunyomi": ["ひ", "ともしび", "とも（す）"],
+  "basicMeaning": "등불",
+  "wordMeaning": "灯火（ともしび）로 읽어 어둠 속을 밝히는 작고 희미한 불빛을 나타냅니다.",
+  "mnemonic": "불(火) 곁에 작은 등잔이 놓여 한 점 불빛을 밝힌다고 기억해 보세요.",
+  "examples": [
+    { "word": "灯火", "reading": "ともしび", "meaning": "등불, 불빛" },
+    { "word": "点灯", "reading": "てんとう", "meaning": "점등" }
+  ]
+}

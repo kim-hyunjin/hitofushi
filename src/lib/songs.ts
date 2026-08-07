@@ -99,6 +99,16 @@ export const songs: SongDefinition[] = [
       '불안과 기대의 무게를 끌어안고, 동료와 서로를 비추며 숙명에 맞서는 뜨거운 응원가를 따라갑니다.',
     youtubeVideoId: '-kgOFJG881I',
   },
+  {
+    slug: 'wasurerumaeni',
+    sequence: 10,
+    title: '忘れる前に',
+    artist: 'Vaundy',
+    kicker: '꿈이 사라지기 전에 붙잡는 기억',
+    description:
+      '꿈속에서 희미해지는 사랑과 기억을 더듬어 찾고, 완전히 잊기 전에 붙잡으려는 마음을 따라갑니다.',
+    youtubeVideoId: 'Hy7GWPkrZv0',
+  },
 ];
 
 export function getSong(slug: string) {

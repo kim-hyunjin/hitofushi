@@ -1,0 +1,12 @@
+{
+  "character": "留",
+  "onyomi": ["リュウ", "ル"],
+  "kunyomi": ["と（める）", "と（まる）"],
+  "basicMeaning": "머무르다, 남기다",
+  "wordMeaning": "書き留める（かきとめる）에서는 잊지 않도록 글로 기록해 남긴다는 뜻입니다.",
+  "mnemonic": "흘러가려는 것을 밭(田)에 붙잡아 머물게 한다고 떠올려 보세요.",
+  "examples": [
+    { "word": "書き留める", "reading": "かきとめる", "meaning": "적어 두다" },
+    { "word": "留学", "reading": "りゅうがく", "meaning": "유학" }
+  ]
+}

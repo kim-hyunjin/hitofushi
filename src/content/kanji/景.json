@@ -1,0 +1,12 @@
+{
+  "character": "景",
+  "onyomi": ["ケイ"],
+  "kunyomi": [],
+  "basicMeaning": "경치",
+  "wordMeaning": "風景（ふうけい）에서는 눈앞에 펼쳐진 경치, 背景（はいけい）에서는 뒤쪽 배경을 뜻합니다.",
+  "mnemonic": "밝은 해(日) 아래 높은 곳(京)에서 멀리 펼쳐진 경치를 바라본다고 기억해 보세요.",
+  "examples": [
+    { "word": "風景", "reading": "ふうけい", "meaning": "풍경" },
+    { "word": "背景", "reading": "はいけい", "meaning": "배경" }
+  ]
+}
