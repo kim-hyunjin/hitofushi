@@ -49,6 +49,16 @@ export const songs: SongDefinition[] = [
       '두고 온 기억을 주워 담고, 다시 시작하고 싶은 두 사람의 미래와 변치 않는 사랑을 따라갑니다.',
     youtubeVideoId: '7HgJIAUtICU',
   },
+  {
+    slug: 'sayonara-mata-itsuka',
+    sequence: 5,
+    title: 'さよーならまたいつか！',
+    artist: '米津玄師',
+    kicker: '상처를 뚫고 끝내 마주하는 봄',
+    description:
+      '날개를 바라는 마음에서 스스로 구속을 끊고 날아오르기까지, 이별과 재생의 언어를 따라갑니다.',
+    youtubeVideoId: 'TGz8AXN3gLA',
+  },
 ];
 
 export function getSong(slug: string) {

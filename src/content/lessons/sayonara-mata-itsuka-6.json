@@ -1,0 +1,75 @@
+{
+  "songSlug": "sayonara-mata-itsuka",
+  "lessonNumber": 6,
+  "title": "태어난 날부터 나였어",
+  "subtitle": "〜んだ와 〜だろう로 마지막 깨달음 선언하기",
+  "description": "되풀이되는 상처와 비상을 지나, 태어난 날부터 자신은 자신이었다고 깨닫는 마지막 후렴을 완성합니다.",
+  "estimatedMinutes": 23,
+  "sentences": [
+    {
+      "id": "sayonara-mata-itsuka-6-1",
+      "original": "(今恋に落ちて また砕けて 離れ離れ)",
+      "ruby": [{ "text": "(" }, { "text": "今", "reading": "いま" }, { "text": "恋", "reading": "こい" }, { "text": "に" }, { "text": "落", "reading": "お" }, { "text": "ちて また" }, { "text": "砕", "reading": "くだ" }, { "text": "けて " }, { "text": "離", "reading": "はな" }, { "text": "れ" }, { "text": "離", "reading": "ばな" }, { "text": "れ)" }],
+      "hiragana": "いま こい に おちて また くだけて はなればなれ",
+      "pronunciationKo": "이마 코이니 오치테 마타 쿠다케테 하나레바나레",
+      "translationKo": "지금 사랑에 빠지고 다시 부서져 서로 멀리 떨어져",
+      "grammarIds": ["te-form"],
+      "kanjiIds": ["恋"]
+    },
+    {
+      "id": "sayonara-mata-itsuka-6-2",
+      "original": "口の中はたと血が滲んで 空に唾を吐く",
+      "ruby": [{ "text": "口", "reading": "くち" }, { "text": "の" }, { "text": "中", "reading": "なか" }, { "text": "はたと" }, { "text": "血", "reading": "ち" }, { "text": "が" }, { "text": "滲", "reading": "にじ" }, { "text": "んで " }, { "text": "空", "reading": "そら" }, { "text": "に" }, { "text": "唾", "reading": "つば" }, { "text": "を" }, { "text": "吐", "reading": "は" }, { "text": "く" }],
+      "hiragana": "くち の なか はたと ち が にじんで そら に つば を はく",
+      "pronunciationKo": "쿠치노 나카 하타토 치가 니진데 소라니 츠바오 하쿠",
+      "translationKo": "입안에 문득 피가 배어 나오고 하늘에 침을 뱉는다",
+      "grammarIds": ["te-form"],
+      "kanjiIds": ["口"]
+    },
+    {
+      "id": "sayonara-mata-itsuka-6-3",
+      "original": "(今羽を広げ 気儘に飛べ どこまでもゆけ)",
+      "ruby": [{ "text": "(" }, { "text": "今", "reading": "いま" }, { "text": "羽", "reading": "はね" }, { "text": "を" }, { "text": "広", "reading": "ひろ" }, { "text": "げ " }, { "text": "気儘", "reading": "きまま" }, { "text": "に" }, { "text": "飛", "reading": "と" }, { "text": "べ どこまでもゆけ)" }],
+      "hiragana": "いま はね を ひろげ きまま に とべ どこまでも ゆけ",
+      "pronunciationKo": "이마 하네오 히로게 키마마니 토베 도코마데모 유케",
+      "translationKo": "지금 날개를 펼쳐, 마음 가는 대로 날아라, 어디까지든 가라",
+      "grammarIds": ["imperative-form"],
+      "kanjiIds": ["気"]
+    },
+    {
+      "id": "sayonara-mata-itsuka-6-4",
+      "original": "生まれた日からわたしでいたんだ",
+      "ruby": [{ "text": "生", "reading": "う" }, { "text": "まれた" }, { "text": "日", "reading": "ひ" }, { "text": "からわたしでいたんだ" }],
+      "hiragana": "うまれた ひ から わたし で いたんだ",
+      "pronunciationKo": "우마레타 히카라 와타시데 이탄다",
+      "translationKo": "태어난 날부터 나는 나로 있었던 거야",
+      "grammarIds": ["kara", "nda-contraction"],
+      "kanjiIds": ["生", "私"]
+    },
+    {
+      "id": "sayonara-mata-itsuka-6-5",
+      "original": "知らなかっただろ さよーならまたいつか！",
+      "ruby": [{ "text": "知", "reading": "し" }, { "text": "らなかっただろ さよーならまたいつか！" }],
+      "hiragana": "しらなかった だろ さよーなら また いつか",
+      "pronunciationKo": "시라나캇타다로 사요오나라 마타 이츠카",
+      "translationKo": "몰랐겠지, 안녕—언젠가 다시!",
+      "grammarIds": ["darou"],
+      "kanjiIds": []
+    }
+  ],
+  "vocabulary": [
+    { "id": "sayonara-6-ima", "term": "今", "reading": "いま", "meaning": "지금" },
+    { "id": "sayonara-6-hanewohirogeru", "term": "羽を広げる", "reading": "はねをひろげる", "meaning": "날개를 펼치다" },
+    { "id": "sayonara-6-umareta-hi", "term": "生まれた日", "reading": "うまれたひ", "meaning": "태어난 날" },
+    { "id": "sayonara-6-watashideiru", "term": "わたしでいる", "reading": "わたしでいる", "meaning": "나 자신으로 있다" },
+    { "id": "sayonara-6-shiranakatta", "term": "知らなかった", "reading": "しらなかった", "meaning": "몰랐다" },
+    { "id": "sayonara-6-mataitsuka", "term": "またいつか", "reading": "またいつか", "meaning": "언젠가 다시" }
+  ],
+  "quiz": [
+    { "id": "sayonara-6-q1", "prompt": "마지막 후렴에서 새로 더해진 단어는?", "options": ["昨日", "今", "まだ", "もしも"], "answerIndex": 1, "explanation": "마지막에는 今가 더해져 비상이 먼 소망이 아니라 바로 현재의 행동이 되었음을 강조합니다." },
+    { "id": "sayonara-6-q2", "prompt": "「気儘に飛べ」의 자연스러운 뜻은?", "options": ["정해진 길로 걸어라", "마음 가는 대로 날아라", "조용히 기다려라", "날지 못하게 하라"], "answerIndex": 1, "explanation": "気儘には 남의 구속을 받지 않고 자기 마음 가는 대로 하는 모습을 나타냅니다." },
+    { "id": "sayonara-6-q3", "prompt": "「生まれた日から」가 나타내는 시작점은?", "options": ["오늘부터", "어른이 된 뒤부터", "태어난 날부터", "헤어진 뒤부터"], "answerIndex": 2, "explanation": "명사 + から는 시간이나 장소의 시작점을 나타냅니다." },
+    { "id": "sayonara-6-q4", "prompt": "「わたしでいたんだ」의 んだ가 더하는 느낌은?", "options": ["이유 없는 나열", "깨달음과 설명의 강조", "정중한 부탁", "가능성의 부정"], "answerIndex": 1, "explanation": "〜んだ는 발견한 사실을 설명하거나 힘주어 밝힐 때 사용합니다." },
+    { "id": "sayonara-6-q5", "prompt": "「知らなかっただろ」의 말투는?", "options": ["몰랐겠지?", "알고 싶습니다", "모르지 마세요", "알았을 때마다"], "answerIndex": 0, "explanation": "だろう의 구어형 だろ는 자신의 추측을 확인하거나 상대에게 도발적으로 되물을 수 있습니다." }
+  ]
+}
