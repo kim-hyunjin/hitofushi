@@ -1,0 +1,30 @@
+{
+  "songSlug": "shukumei",
+  "lessonNumber": 7,
+  "title": "불안에 지지 않겠다는 선언",
+  "subtitle": "〜みたいに와 〜てたまるか",
+  "description": "뿌리를 내리듯 번지는 불안을 정면으로 거부하고 다시 숙명을 불태우는 절정을 읽습니다.",
+  "estimatedMinutes": 22,
+  "sentences": [
+    {"id":"shukumei-7-1","original":"緊張から不安が芽生えて","ruby":[{"text":"緊張","reading":"きんちょう"},{"text":"から"},{"text":"不安","reading":"ふあん"},{"text":"が"},{"text":"芽生","reading":"めば"},{"text":"えて"}],"hiragana":"きんちょう から ふあん が めばえて","pronunciationKo":"킨초오카라 후안가 메바에테","translationKo":"긴장에서 불안이 싹터서","grammarIds":["kara","te-form"],"kanjiIds":[]},
+    {"id":"shukumei-7-2","original":"根を張るみたいに 僕らを支配する","ruby":[{"text":"根","reading":"ね"},{"text":"を"},{"text":"張","reading":"は"},{"text":"るみたいに "},{"text":"僕","reading":"ぼく"},{"text":"らを"},{"text":"支配","reading":"しはい"},{"text":"する"}],"hiragana":"ね を はる みたい に ぼくら を しはい する","pronunciationKo":"네오 하루 미타이니 보쿠라오 시하이스루","translationKo":"뿌리를 내리듯 우리를 지배해","grammarIds":["mitai"],"kanjiIds":["僕"]},
+    {"id":"shukumei-7-3","original":"そんなものに負けてたまるかと","ruby":[{"text":"そんなものに"},{"text":"負","reading":"ま"},{"text":"けてたまるかと"}],"hiragana":"そんな もの に まけて たまるか と","pronunciationKo":"손나 모노니 마케테 타마루카토","translationKo":"그런 것에 지고 말겠느냐고",
+      "grammarIds":["te-tamaru-ka","to-quotation"],"kanjiIds":[]},
+    {"id":"shukumei-7-4","original":"今 宿命ってやつを燃やして 暴れ出す","ruby":[{"text":"今","reading":"いま"},{"text":" "},{"text":"宿命","reading":"しゅくめい"},{"text":"ってやつを"},{"text":"燃","reading":"も"},{"text":"やして "},{"text":"暴","reading":"あば"},{"text":"れ"},{"text":"出","reading":"だ"},{"text":"す"}],"hiragana":"いま しゅくめい って やつ を もやして あばれだす","pronunciationKo":"이마 슈쿠메잇테 야츠오 모야시테 아바레다스","translationKo":"지금 숙명이라는 녀석을 불태워 힘껏 날뛰기 시작해","grammarIds":["tte-quotation","te-form","verb-stem-dasu"],"kanjiIds":["今","宿","命"]}
+  ],
+  "vocabulary": [
+    {"id":"shukumei-7-kinchou","term":"緊張","reading":"きんちょう","meaning":"긴장"},
+    {"id":"shukumei-7-fuan","term":"不安","reading":"ふあん","meaning":"불안"},
+    {"id":"shukumei-7-mebaeru","term":"芽生える","reading":"めばえる","meaning":"싹트다, 생겨나다"},
+    {"id":"shukumei-7-newoharu","term":"根を張る","reading":"ねをはる","meaning":"뿌리를 내리다"},
+    {"id":"shukumei-7-shihai","term":"支配","reading":"しはい","meaning":"지배"},
+    {"id":"shukumei-7-makeru","term":"負ける","reading":"まける","meaning":"지다, 패배하다"},
+    {"id":"shukumei-7-moyasu","term":"燃やす","reading":"もやす","meaning":"태우다, 불사르다"}
+  ],
+  "quiz": [
+    {"id":"shukumei-7-q1","prompt":"불안은 무엇에서 싹트나요?","options":["기대","긴장","기쁨","휴식"],"answerIndex":1,"explanation":"緊張から에서 から가 불안이 시작되는 근원을 나타냅니다."},
+    {"id":"shukumei-7-q2","prompt":"「根を張るみたいに」는 불안을 어떻게 비유하나요?","options":["금세 사라지는 구름","깊게 퍼져 자리를 잡는 뿌리","빠르게 흐르는 물","밝게 빛나는 별"],"answerIndex":1,"explanation":"みたいに는 ‘~처럼’이라는 비유로, 불안이 마음에 깊게 자리 잡는 모습을 그립니다."},
+    {"id":"shukumei-7-q3","prompt":"「負けてたまるか」의 실제 의도는?","options":["져도 괜찮다","질지 묻는다","절대로 지지 않겠다","이미 졌다"],"answerIndex":2,"explanation":"〜てたまるか는 반문의 형태로 강한 거부와 결의를 나타냅니다."},
+    {"id":"shukumei-7-q4","prompt":"마지막에 화자는 불안에 어떻게 맞서나요?","options":["조용히 피한다","숙명을 불태워 격렬하게 움직인다","응원을 끈다","미래를 포기한다"],"answerIndex":1,"explanation":"불안의 지배를 거부하고 宿命을 연료처럼 불태워 행동으로 나아갑니다."}
+  ]
+}

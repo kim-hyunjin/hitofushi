@@ -1,0 +1,30 @@
+{
+  "songSlug": "shukumei",
+  "lessonNumber": 3,
+  "title": "기적보다 빛나는 삶의 보람",
+  "subtitle": "〜なくていい와 〜の限り",
+  "description": "기적이나 아름다움을 요구하지 않고, 온 영혼으로 자신의 숙명을 불태우는 후렴을 읽습니다.",
+  "estimatedMinutes": 23,
+  "sentences": [
+    {"id":"shukumei-3-1","original":"奇跡じゃなくていい 美しくなくていい","ruby":[{"text":"奇跡","reading":"きせき"},{"text":"じゃなくていい "},{"text":"美","reading":"うつく"},{"text":"しくなくていい"}],"hiragana":"きせき じゃなくて いい うつくしく なくて いい","pronunciationKo":"키세키자나쿠테 이이 우츠쿠시쿠나쿠테 이이","translationKo":"기적이 아니어도 돼, 아름답지 않아도 돼","grammarIds":["nakute-ii"],"kanjiIds":["奇","跡"]},
+    {"id":"shukumei-3-2","original":"生きがいってやつが光輝くから","ruby":[{"text":"生","reading":"い"},{"text":"きがいってやつが"},{"text":"光輝","reading":"ひかりかがや"},{"text":"くから"}],"hiragana":"いきがい って やつ が ひかりかがやく から","pronunciationKo":"이키가잇테 야츠가 히카리카가야쿠카라","translationKo":"삶의 보람이라는 녀석이 눈부시게 빛나니까","grammarIds":["tte-quotation","kara"],"kanjiIds":["生","光","輝"]},
+    {"id":"shukumei-3-3","original":"切れないバッテリー 魂の限り","ruby":[{"text":"切","reading":"き"},{"text":"れないバッテリー "},{"text":"魂","reading":"たましい"},{"text":"の"},{"text":"限","reading":"かぎ"},{"text":"り"}],"hiragana":"きれない ばってりー たましい の かぎり","pronunciationKo":"키레나이 밧테리이 타마시이노 카기리","translationKo":"끊어지지 않는 배터리, 영혼이 다하는 한",
+      "grammarIds":["noun-no-kagiri"],"kanjiIds":["魂"]},
+    {"id":"shukumei-3-4","original":"宿命ってやつを燃やして 暴れ出すだけなんだ","ruby":[{"text":"宿命","reading":"しゅくめい"},{"text":"ってやつを"},{"text":"燃","reading":"も"},{"text":"やして "},{"text":"暴","reading":"あば"},{"text":"れ"},{"text":"出","reading":"だ"},{"text":"すだけなんだ"}],"hiragana":"しゅくめい って やつ を もやして あばれだす だけ なんだ","pronunciationKo":"슈쿠메잇테 야츠오 모야시테 아바레다스 다케난다","translationKo":"숙명이라는 녀석을 불태워 힘껏 날뛸 뿐이야","grammarIds":["tte-quotation","te-form","verb-stem-dasu","n-da"],"kanjiIds":["宿","命"]}
+  ],
+  "vocabulary": [
+    {"id":"shukumei-3-kiseki","term":"奇跡","reading":"きせき","meaning":"기적"},
+    {"id":"shukumei-3-utsukushii","term":"美しい","reading":"うつくしい","meaning":"아름답다"},
+    {"id":"shukumei-3-ikigai","term":"生きがい","reading":"いきがい","meaning":"삶의 보람, 살아가는 이유"},
+    {"id":"shukumei-3-yatsu","term":"やつ","reading":"やつ","meaning":"녀석, 것","note":"친근함이나 거친 느낌을 담아 사람·사물을 가리키는 구어입니다."},
+    {"id":"shukumei-3-tamashii","term":"魂","reading":"たましい","meaning":"영혼, 혼"},
+    {"id":"shukumei-3-shukumei","term":"宿命","reading":"しゅくめい","meaning":"숙명, 태어날 때부터 정해진 운명"},
+    {"id":"shukumei-3-abareru","term":"暴れる","reading":"あばれる","meaning":"날뛰다, 격렬하게 움직이다"}
+  ],
+  "quiz": [
+    {"id":"shukumei-3-q1","prompt":"「奇跡じゃなくていい」의 핵심 메시지는?","options":["반드시 기적이어야 한다","기적이 아니어도 괜찮다","기적을 믿지 않는다","기적을 기다린다"],"answerIndex":1,"explanation":"〜なくていい는 어떤 조건을 충족하지 않아도 괜찮다는 허용입니다."},
+    {"id":"shukumei-3-q2","prompt":"「生きがい」에 가장 가까운 뜻은?","options":["생계비","삶의 보람","생활 습관","생일"],"answerIndex":1,"explanation":"生きがい는 살아가는 가치나 이유가 되는 보람을 뜻합니다."},
+    {"id":"shukumei-3-q3","prompt":"「魂の限り」가 나타내는 태도는?","options":["힘을 아낀다","가능한 만큼만 기다린다","혼이 다할 때까지 온 힘을 다한다","한계를 피한다"],"answerIndex":2,"explanation":"명사 + の限り는 가진 범위의 끝까지 최선을 다한다는 뜻입니다."},
+    {"id":"shukumei-3-q4","prompt":"「暴れ出す」의 出す가 더하는 느낌은?","options":["격렬한 움직임이 시작된다","움직임이 끝난다","움직임을 숨긴다","움직임을 부탁한다"],"answerIndex":0,"explanation":"동사 어간 + 出す는 어떤 동작이 갑자기 시작됨을 강조합니다."}
+  ]
+}

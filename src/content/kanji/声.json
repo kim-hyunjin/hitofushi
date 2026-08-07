@@ -1,0 +1,12 @@
+{
+  "character": "声",
+  "onyomi": ["セイ", "ショウ"],
+  "kunyomi": ["こえ"],
+  "basicMeaning": "목소리",
+  "wordMeaning": "声（こえ）로 마음과 몸에서 밖으로 나오는 목소리를 나타냅니다.",
+  "mnemonic": "악기가 울리듯 입 밖으로 퍼지는 소리를 떠올려 보세요.",
+  "examples": [
+    { "word": "声", "reading": "こえ", "meaning": "목소리" },
+    { "word": "声援", "reading": "せいえん", "meaning": "성원, 응원" }
+  ]
+}

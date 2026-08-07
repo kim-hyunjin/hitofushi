@@ -1,0 +1,12 @@
+{
+  "character": "願",
+  "onyomi": ["ガン"],
+  "kunyomi": ["ねがう"],
+  "basicMeaning": "바라다, 소원",
+  "wordMeaning": "願い（ねがい）로 마음속에 이루어지기를 바라는 일을 나타냅니다.",
+  "mnemonic": "근원에서 솟은 마음을 머리 깊이 품고 바라는 모습을 떠올려 보세요.",
+  "examples": [
+    { "word": "願い", "reading": "ねがい", "meaning": "소원, 바람" },
+    { "word": "願う", "reading": "ねがう", "meaning": "바라다" }
+  ]
+}

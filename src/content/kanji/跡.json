@@ -1,0 +1,12 @@
+{
+  "character": "跡",
+  "onyomi": ["セキ"],
+  "kunyomi": ["あと"],
+  "basicMeaning": "자취, 흔적",
+  "wordMeaning": "足跡（あしあと）에서 지나온 길에 남은 발자국이나 흔적을 나타냅니다.",
+  "mnemonic": "발이 지나간 자리에 붉게 남은 흔적을 떠올려 보세요.",
+  "examples": [
+    { "word": "足跡", "reading": "あしあと", "meaning": "발자국, 자취" },
+    { "word": "跡", "reading": "あと", "meaning": "흔적" }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "songSlug": "shukumei",
+  "lessonNumber": 5,
+  "title": "후회와 상처까지 찬양하기",
+  "subtitle": "반복 부정과 〜たい의 결의",
+  "description": "분함과 손바닥의 상처까지 헛되지 않았다고 받아들이며 마지막 한 걸음을 준비합니다.",
+  "estimatedMinutes": 20,
+  "sentences": [
+    {"id":"shukumei-5-1","original":"夢じゃない 夢じゃない あの日の悔しさと","ruby":[{"text":"夢","reading":"ゆめ"},{"text":"じゃない "},{"text":"夢","reading":"ゆめ"},{"text":"じゃない あの"},{"text":"日","reading":"ひ"},{"text":"の"},{"text":"悔","reading":"くや"},{"text":"しさと"}],"hiragana":"ゆめ じゃない ゆめ じゃない あの ひ の くやしさ と","pronunciationKo":"유메자나이 유메자나이 아노 히노 쿠야시사토","translationKo":"꿈이 아니야, 꿈이 아니야, 그날의 분함과","grammarIds":["janai","noun-no-noun"],"kanjiIds":["夢","日"]},
+    {"id":"shukumei-5-2","original":"忘れない 忘れない 掌の爪痕","ruby":[{"text":"忘","reading":"わす"},{"text":"れない "},{"text":"忘","reading":"わす"},{"text":"れない "},{"text":"掌","reading":"てのひら"},{"text":"の"},{"text":"爪痕","reading":"つめあと"}],"hiragana":"わすれない わすれない てのひら の つめあと","pronunciationKo":"와스레나이 와스레나이 테노히라노 츠메아토","translationKo":"잊지 않아, 잊지 않아, 손바닥에 남은 손톱자국","grammarIds":["noun-no-noun"],"kanjiIds":["忘","跡"]},
+    {"id":"shukumei-5-3","original":"無駄じゃない 無駄じゃない それも全て讃えたい","ruby":[{"text":"無駄","reading":"むだ"},{"text":"じゃない "},{"text":"無駄","reading":"むだ"},{"text":"じゃない それも"},{"text":"全","reading":"すべ"},{"text":"て"},{"text":"讃","reading":"たた"},{"text":"えたい"}],"hiragana":"むだ じゃない むだ じゃない それ も すべて たたえたい","pronunciationKo":"무다자나이 무다자나이 소레모 스베테 타타에타이","translationKo":"헛되지 않아, 헛되지 않아, 그 모든 것마저 찬양하고 싶어","grammarIds":["janai","verb-tai"],"kanjiIds":[]},
+    {"id":"shukumei-5-4","original":"もうあと少し","ruby":[{"text":"もうあと"},{"text":"少","reading":"すこ"},{"text":"し"}],"hiragana":"もう あと すこし","pronunciationKo":"모오 아토 스코시","translationKo":"이제 조금만 더","grammarIds":[],"kanjiIds":[]}
+  ],
+  "vocabulary": [
+    {"id":"shukumei-5-kuyashisa","term":"悔しさ","reading":"くやしさ","meaning":"분함, 억울함"},
+    {"id":"shukumei-5-wasureru","term":"忘れる","reading":"わすれる","meaning":"잊다"},
+    {"id":"shukumei-5-tenohira","term":"掌","reading":"てのひら","meaning":"손바닥"},
+    {"id":"shukumei-5-tsumeato","term":"爪痕","reading":"つめあと","meaning":"손톱자국, 깊게 남은 흔적"},
+    {"id":"shukumei-5-muda","term":"無駄","reading":"むだ","meaning":"헛됨, 쓸모없음"},
+    {"id":"shukumei-5-tataeru","term":"讃える","reading":"たたえる","meaning":"기리다, 찬양하다"},
+    {"id":"shukumei-5-atosukoshi","term":"あと少し","reading":"あとすこし","meaning":"조금만 더, 이제 얼마 남지 않음"}
+  ],
+  "quiz": [
+    {"id":"shukumei-5-q1","prompt":"「悔しさ」는 어떤 감정인가요?","options":["편안함","분하고 억울함","놀라움","무료함"],"answerIndex":1,"explanation":"悔しい에서 나온 명사로, 뜻대로 되지 않아 분한 마음을 가리킵니다."},
+    {"id":"shukumei-5-q2","prompt":"「掌の爪痕」이 상징하는 것은?","options":["가벼운 장난","버텨 낸 긴장과 노력의 흔적","새로운 취미","잊어버린 약속"],"answerIndex":1,"explanation":"손바닥에 파인 손톱자국은 힘든 순간을 꽉 견딘 흔적으로 읽힙니다."},
+    {"id":"shukumei-5-q3","prompt":"「それも全て讃えたい」의 태도는?","options":["아픈 경험을 지운다","성공만 인정한다","힘든 과정까지 모두 가치 있게 받아들인다","모든 것을 남 탓으로 돌린다"],"answerIndex":2,"explanation":"앞선 분함과 상처도 無駄가 아니라며 전부 기리고 싶다고 말합니다."},
+    {"id":"shukumei-5-q4","prompt":"「もうあと少し」가 만드는 효과는?","options":["완전한 포기를 알린다","목표가 가까웠다는 긴장과 격려를 더한다","과거를 설명한다","시간을 정확히 계산한다"],"answerIndex":1,"explanation":"‘이제 조금만 더’라는 짧은 말이 다음 걸음을 재촉하는 응원이 됩니다."}
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "songSlug": "shukumei",
+  "lessonNumber": 2,
+  "title": "꿈이 아닌 우리의 흔적",
+  "subtitle": "〜じゃない, 〜だらけ와 희망의 명령형",
+  "description": "눈물과 진흙까지 현실의 증거로 끌어안고, 함께 마음이 닿기를 외치는 대목을 익힙니다.",
+  "estimatedMinutes": 22,
+  "sentences": [
+    {"id":"shukumei-2-1","original":"夢じゃない 夢じゃない 涙の足跡","ruby":[{"text":"夢","reading":"ゆめ"},{"text":"じゃない "},{"text":"夢","reading":"ゆめ"},{"text":"じゃない "},{"text":"涙","reading":"なみだ"},{"text":"の"},{"text":"足跡","reading":"あしあと"}],"hiragana":"ゆめ じゃない ゆめ じゃない なみだ の あしあと","pronunciationKo":"유메자나이 유메자나이 나미다노 아시아토","translationKo":"꿈이 아니야, 꿈이 아니야, 눈물이 남긴 발자국","grammarIds":["janai","noun-no-noun"],"kanjiIds":["夢","跡"]},
+    {"id":"shukumei-2-2","original":"嘘じゃない 嘘じゃない 泥だらけの笑顔","ruby":[{"text":"嘘","reading":"うそ"},{"text":"じゃない "},{"text":"嘘","reading":"うそ"},{"text":"じゃない "},{"text":"泥","reading":"どろ"},{"text":"だらけの"},{"text":"笑顔","reading":"えがお"}],"hiragana":"うそ じゃない うそ じゃない どろだらけ の えがお","pronunciationKo":"우소자나이 우소자나이 도로다라케노 에가오","translationKo":"거짓이 아니야, 거짓이 아니야, 진흙투성이 미소","grammarIds":["janai","noun-darake"],"kanjiIds":["笑","顔"]},
+    {"id":"shukumei-2-3","original":"夢じゃない 夢じゃない 肩を組んで叫びたい","ruby":[{"text":"夢","reading":"ゆめ"},{"text":"じゃない "},{"text":"夢","reading":"ゆめ"},{"text":"じゃない "},{"text":"肩","reading":"かた"},{"text":"を"},{"text":"組","reading":"く"},{"text":"んで"},{"text":"叫","reading":"さけ"},{"text":"びたい"}],"hiragana":"ゆめ じゃない ゆめ じゃない かた を くんで さけびたい","pronunciationKo":"유메자나이 유메자나이 카타오 쿤데 사케비타이","translationKo":"꿈이 아니야, 꿈이 아니야, 어깨동무하고 외치고 싶어","grammarIds":["janai","te-form","verb-tai"],"kanjiIds":["夢"]},
+    {"id":"shukumei-2-4","original":"僕らの想い 届け!","ruby":[{"text":"僕","reading":"ぼく"},{"text":"らの"},{"text":"想","reading":"おも"},{"text":"い "},{"text":"届","reading":"とど"},{"text":"け!"}],"hiragana":"ぼくら の おもい とどけ","pronunciationKo":"보쿠라노 오모이 토도케","translationKo":"우리의 마음아, 닿아라!","grammarIds":["imperative-form"],"kanjiIds":["僕","想"]}
+  ],
+  "vocabulary": [
+    {"id":"shukumei-2-yume","term":"夢","reading":"ゆめ","meaning":"꿈"},
+    {"id":"shukumei-2-namida","term":"涙","reading":"なみだ","meaning":"눈물"},
+    {"id":"shukumei-2-ashiato","term":"足跡","reading":"あしあと","meaning":"발자국, 지나온 흔적"},
+    {"id":"shukumei-2-dorodarake","term":"泥だらけ","reading":"どろだらけ","meaning":"진흙투성이"},
+    {"id":"shukumei-2-egao","term":"笑顔","reading":"えがお","meaning":"웃는 얼굴, 미소"},
+    {"id":"shukumei-2-katawokumu","term":"肩を組む","reading":"かたをくむ","meaning":"어깨동무하다"},
+    {"id":"shukumei-2-todoku","term":"届く","reading":"とどく","meaning":"닿다, 전해지다"}
+  ],
+  "quiz": [
+    {"id":"shukumei-2-q1","prompt":"「夢じゃない」의 뜻은?","options":["꿈을 꾸고 싶다","꿈일지도 모른다","꿈이 아니다","꿈을 잊었다"],"answerIndex":2,"explanation":"명사 뒤의 じゃない는 ‘~이 아니다’라는 보통체 부정입니다."},
+    {"id":"shukumei-2-q2","prompt":"「泥だらけ」가 그리는 모습은?","options":["진흙이 조금 묻은 모습","진흙투성이인 모습","깨끗하게 씻은 모습","비를 피한 모습"],"answerIndex":1,"explanation":"명사 + だらけ는 무언가가 여기저기 가득한 ‘~투성이’를 뜻합니다."},
+    {"id":"shukumei-2-q3","prompt":"「叫びたい」의 화자 마음은?","options":["외치고 싶다","외치지 않았다","외치게 했다","외치면 안 된다"],"answerIndex":0,"explanation":"동사 어간 + たい는 말하는 사람의 바람을 나타냅니다."},
+    {"id":"shukumei-2-q4","prompt":"「届け！」가 명령형으로 쓰인 효과는?","options":["마음이 닿기를 강하게 기원한다","도착 여부를 질문한다","이미 도착했다고 설명한다","조용히 포기한다"],"answerIndex":0,"explanation":"여기서는 누군가를 꾸짖는 명령보다 마음이 전해지기를 힘껏 외치는 표현입니다."}
+  ]
+}
