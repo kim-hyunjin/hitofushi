@@ -1,0 +1,107 @@
+{
+  "songSlug": "kaiju-no-hanauta",
+  "lessonNumber": 1,
+  "title": "대화보다 선명한 노래",
+  "subtitle": "기억과 비교를 말하기",
+  "description": "너의 노래와 웃는 얼굴을 떠올리는 첫 절로 〜のは, 〜よりも, 〜てしまう를 익힙니다.",
+  "estimatedMinutes": 25,
+  "sentences": [
+    {
+      "id": "kaiju-no-hanauta-1-1",
+      "original": "思い出すのは君の歌",
+      "ruby": [{ "text": "思", "reading": "おも" }, { "text": "い" }, { "text": "出", "reading": "だ" }, { "text": "すのは" }, { "text": "君", "reading": "きみ" }, { "text": "の" }, { "text": "歌", "reading": "うた" }],
+      "hiragana": "おもいだす のは きみ の うた",
+      "pronunciationKo": "오모이다스 노와 키미노 우타",
+      "translationKo": "떠오르는 건 너의 노래",
+      "grammarIds": ["nowa", "noun-no-noun"],
+      "kanjiIds": ["君", "歌"]
+    },
+    {
+      "id": "kaiju-no-hanauta-1-2",
+      "original": "会話よりも鮮明だ",
+      "ruby": [{ "text": "会話", "reading": "かいわ" }, { "text": "よりも" }, { "text": "鮮明", "reading": "せんめい" }, { "text": "だ" }],
+      "hiragana": "かいわ よりも せんめい だ",
+      "pronunciationKo": "카이와 요리모 센메이다",
+      "translationKo": "대화보다도 선명해",
+      "grammarIds": ["yori"],
+      "kanjiIds": ["会"]
+    },
+    {
+      "id": "kaiju-no-hanauta-1-3",
+      "original": "どこに行ってしまったの",
+      "ruby": [{ "text": "どこに" }, { "text": "行", "reading": "い" }, { "text": "ってしまったの" }],
+      "hiragana": "どこ に いって しまった の",
+      "pronunciationKo": "도코니 잇테 시마타노",
+      "translationKo": "어디로 가 버린 거야?",
+      "grammarIds": ["te-shimau", "sentence-final-no"],
+      "kanjiIds": []
+    },
+    {
+      "id": "kaiju-no-hanauta-1-4",
+      "original": "いつも探すんだよ",
+      "ruby": [{ "text": "いつも" }, { "text": "探", "reading": "さが" }, { "text": "すんだよ" }],
+      "hiragana": "いつも さがすんだ よ",
+      "pronunciationKo": "이츠모 사가슨다요",
+      "translationKo": "난 언제나 찾고 있어",
+      "grammarIds": ["noda"],
+      "kanjiIds": []
+    },
+    {
+      "id": "kaiju-no-hanauta-1-5",
+      "original": "思い出すのは君の歌",
+      "ruby": [{ "text": "思", "reading": "おも" }, { "text": "い" }, { "text": "出", "reading": "だ" }, { "text": "すのは" }, { "text": "君", "reading": "きみ" }, { "text": "の" }, { "text": "歌", "reading": "うた" }],
+      "hiragana": "おもいだす のは きみ の うた",
+      "pronunciationKo": "오모이다스 노와 키미노 우타",
+      "translationKo": "떠오르는 건 너의 노래",
+      "grammarIds": ["nowa", "noun-no-noun"],
+      "kanjiIds": ["君", "歌"]
+    },
+    {
+      "id": "kaiju-no-hanauta-1-6",
+      "original": "歌い笑う顔が鮮明だ",
+      "ruby": [{ "text": "歌", "reading": "うた" }, { "text": "い" }, { "text": "笑", "reading": "わら" }, { "text": "う" }, { "text": "顔", "reading": "かお" }, { "text": "が" }, { "text": "鮮明", "reading": "せんめい" }, { "text": "だ" }],
+      "hiragana": "うたい わらう かお が せんめい だ",
+      "pronunciationKo": "우타이 와라우 카오가 센메이다",
+      "translationKo": "노래하며 웃는 얼굴이 선명해",
+      "grammarIds": ["verb-continuative-form"],
+      "kanjiIds": ["歌", "笑", "顔"]
+    },
+    {
+      "id": "kaiju-no-hanauta-1-7",
+      "original": "君に似合うんだよ",
+      "ruby": [{ "text": "君", "reading": "きみ" }, { "text": "に" }, { "text": "似", "reading": "に" }, { "text": "合", "reading": "あ" }, { "text": "うんだよ" }],
+      "hiragana": "きみ に にあうんだ よ",
+      "pronunciationKo": "키미니 니아운다요",
+      "translationKo": "너에게 정말 잘 어울려",
+      "grammarIds": ["noda"],
+      "kanjiIds": ["君"]
+    },
+    {
+      "id": "kaiju-no-hanauta-1-8",
+      "original": "ずっと見ていたいよ",
+      "ruby": [{ "text": "ずっと" }, { "text": "見", "reading": "み" }, { "text": "ていたいよ" }],
+      "hiragana": "ずっと みていたい よ",
+      "pronunciationKo": "쥫토 미테이타이요",
+      "translationKo": "계속 보고 싶어",
+      "grammarIds": ["teiru", "verb-tai"],
+      "kanjiIds": ["見"]
+    }
+  ],
+  "vocabulary": [
+    { "id": "kaiju-no-hanauta-1-omoidasu", "term": "思い出す", "reading": "おもいだす", "meaning": "떠올리다, 기억해 내다" },
+    { "id": "kaiju-no-hanauta-1-kaiwa", "term": "会話", "reading": "かいわ", "meaning": "대화" },
+    { "id": "kaiju-no-hanauta-1-senmei", "term": "鮮明", "reading": "せんめい", "meaning": "선명함, 분명함" },
+    { "id": "kaiju-no-hanauta-1-sagasu", "term": "探す", "reading": "さがす", "meaning": "찾다" },
+    { "id": "kaiju-no-hanauta-1-utau", "term": "歌う", "reading": "うたう", "meaning": "노래하다" },
+    { "id": "kaiju-no-hanauta-1-warau", "term": "笑う", "reading": "わらう", "meaning": "웃다" },
+    { "id": "kaiju-no-hanauta-1-niau", "term": "似合う", "reading": "にあう", "meaning": "잘 어울리다" },
+    { "id": "kaiju-no-hanauta-1-zutto", "term": "ずっと", "reading": "ずっと", "meaning": "계속, 내내" }
+  ],
+  "quiz": [
+    { "id": "kaiju-no-hanauta-1-q1", "prompt": "「思い出す」의 뜻은?", "options": ["잊어버리다", "떠올리다", "대화하다", "기다리다"], "answerIndex": 1, "explanation": "思い出す는 기억 속 사람이나 일을 다시 떠올리다라는 뜻입니다." },
+    { "id": "kaiju-no-hanauta-1-q2", "prompt": "「会話よりも鮮明だ」에서 비교의 기준은?", "options": ["노래", "얼굴", "대화", "기억"], "answerIndex": 2, "explanation": "より 앞의 会話가 비교의 기준이며, 노래가 그보다 선명하다고 말합니다." },
+    { "id": "kaiju-no-hanauta-1-q3", "prompt": "「行ってしまった」의 느낌에 가장 가까운 것은?", "options": ["갈 예정이다", "가 버린 것에 아쉬움이 있다", "가지 말라고 명령한다", "가고 싶지 않다"], "answerIndex": 1, "explanation": "〜てしまう는 완료와 함께 아쉬움이나 유감을 담을 수 있습니다." },
+    { "id": "kaiju-no-hanauta-1-q4", "prompt": "「探すんだよ」의 んだ가 더하는 느낌은?", "options": ["정중한 거절", "감정을 담은 설명과 강조", "과거의 후회", "행동의 금지"], "answerIndex": 1, "explanation": "んだ는 자신이 왜 그러는지, 어떤 마음인지를 설명하고 강조합니다." },
+    { "id": "kaiju-no-hanauta-1-q5", "prompt": "「ずっと見ていたい」의 자연스러운 뜻은?", "options": ["계속 보고 싶다", "이미 보았다", "보이지 않는다", "잠깐만 본다"], "answerIndex": 0, "explanation": "見ている의 지속 느낌에 〜たい가 붙어 계속 보고 싶다는 바람을 나타냅니다." }
+  ]
+}

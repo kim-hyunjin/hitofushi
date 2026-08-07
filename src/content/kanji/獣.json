@@ -1,0 +1,12 @@
+{
+  "character": "獣",
+  "onyomi": ["ジュウ"],
+  "kunyomi": ["けもの"],
+  "basicMeaning": "짐승, 야수",
+  "wordMeaning": "怪獣（かいじゅう）에서 크고 이상한 괴물을 나타내는 말의 뒷글자입니다.",
+  "mnemonic": "거친 숲에서 야수가 큰 발소리를 내며 다가오는 장면을 떠올려 보세요.",
+  "examples": [
+    { "word": "怪獣", "reading": "かいじゅう", "meaning": "괴수" },
+    { "word": "野獣", "reading": "やじゅう", "meaning": "야수" }
+  ]
+}

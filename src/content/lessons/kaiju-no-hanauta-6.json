@@ -1,0 +1,37 @@
+{
+  "songSlug": "kaiju-no-hanauta",
+  "lessonNumber": 6,
+  "title": "잠들지 않는 밤을 늘여 가며",
+  "subtitle": "계속되길 바라는 나날",
+  "description": "잠들 수 없던 밤과 잠들지 않았던 선택을 비교하고, 〜のに의 아쉬움과 〜ずに의 부정 연결을 익힙니다.",
+  "estimatedMinutes": 28,
+  "sentences": [
+    { "id": "kaiju-no-hanauta-6-1", "original": "ねぇ 僕ら", "ruby": [{ "text": "ねぇ " }, { "text": "僕", "reading": "ぼく" }, { "text": "ら" }], "hiragana": "ねぇ ぼくら", "pronunciationKo": "네에 보쿠라", "translationKo": "있지, 우리", "grammarIds": [], "kanjiIds": [] },
+    { "id": "kaiju-no-hanauta-6-2", "original": "眠れない夜に手を伸ばして", "ruby": [{ "text": "眠", "reading": "ねむ" }, { "text": "れない" }, { "text": "夜", "reading": "よる" }, { "text": "に" }, { "text": "手", "reading": "て" }, { "text": "を" }, { "text": "伸", "reading": "の" }, { "text": "ばして" }], "hiragana": "ねむれない よる に て を のばして", "pronunciationKo": "네무레나이 요루니 테오 노바시테", "translationKo": "잠들 수 없는 밤에 손을 뻗고", "grammarIds": ["potential-form", "te-form"], "kanjiIds": ["眠", "夜"] },
+    { "id": "kaiju-no-hanauta-6-3", "original": "眠らない夜をまた伸ばして", "ruby": [{ "text": "眠", "reading": "ねむ" }, { "text": "らない" }, { "text": "夜", "reading": "よる" }, { "text": "をまた" }, { "text": "伸", "reading": "の" }, { "text": "ばして" }], "hiragana": "ねむらない よる を また のばして", "pronunciationKo": "네무라나이 요루오 마타 노바시테", "translationKo": "잠들지 않는 밤을 또 늘여 가며", "grammarIds": ["te-form"], "kanjiIds": ["眠", "夜"] },
+    { "id": "kaiju-no-hanauta-6-4", "original": "眠くないまだね", "ruby": [{ "text": "眠", "reading": "ねむ" }, { "text": "くないまだね" }], "hiragana": "ねむくない まだ ね", "pronunciationKo": "네무쿠나이 마다네", "translationKo": "아직 졸리지 않지", "grammarIds": [], "kanjiIds": ["眠"] },
+    { "id": "kaiju-no-hanauta-6-5", "original": "そんな日々でいたいのにな", "ruby": [{ "text": "そんな" }, { "text": "日々", "reading": "ひび" }, { "text": "でいたいのにな" }], "hiragana": "そんな ひび で いたい のに な", "pronunciationKo": "손나 히비데 이타이노니나", "translationKo": "그런 나날 속에 계속 있고 싶은데", "grammarIds": ["verb-tai", "noni"], "kanjiIds": [] },
+    { "id": "kaiju-no-hanauta-6-6", "original": "懲りずに", "ruby": [{ "text": "懲", "reading": "こ" }, { "text": "りずに" }], "hiragana": "こりずに", "pronunciationKo": "코리즈니", "translationKo": "그래도 또, 질리지도 않고", "grammarIds": ["zuni"], "kanjiIds": [] },
+    { "id": "kaiju-no-hanauta-6-7", "original": "眠れない夜に手を伸ばして", "ruby": [{ "text": "眠", "reading": "ねむ" }, { "text": "れない" }, { "text": "夜", "reading": "よる" }, { "text": "に" }, { "text": "手", "reading": "て" }, { "text": "を" }, { "text": "伸", "reading": "の" }, { "text": "ばして" }], "hiragana": "ねむれない よる に て を のばして", "pronunciationKo": "네무레나이 요루니 테오 노바시테", "translationKo": "잠들 수 없는 밤에 손을 뻗고", "grammarIds": ["potential-form", "te-form"], "kanjiIds": ["眠", "夜"] },
+    { "id": "kaiju-no-hanauta-6-8", "original": "眠らない夜をまた伸ばして", "ruby": [{ "text": "眠", "reading": "ねむ" }, { "text": "らない" }, { "text": "夜", "reading": "よる" }, { "text": "をまた" }, { "text": "伸", "reading": "の" }, { "text": "ばして" }], "hiragana": "ねむらない よる を また のばして", "pronunciationKo": "네무라나이 요루오 마타 노바시테", "translationKo": "잠들지 않는 밤을 또 늘여 가며", "grammarIds": ["te-form"], "kanjiIds": ["眠", "夜"] },
+    { "id": "kaiju-no-hanauta-6-9", "original": "眠くないまだね", "ruby": [{ "text": "眠", "reading": "ねむ" }, { "text": "くないまだね" }], "hiragana": "ねむくない まだ ね", "pronunciationKo": "네무쿠나이 마다네", "translationKo": "아직 졸리지 않지", "grammarIds": [], "kanjiIds": ["眠"] },
+    { "id": "kaiju-no-hanauta-6-10", "original": "そんな夜に歌う怪獣の歌", "ruby": [{ "text": "そんな" }, { "text": "夜", "reading": "よる" }, { "text": "に" }, { "text": "歌", "reading": "うた" }, { "text": "う" }, { "text": "怪獣", "reading": "かいじゅう" }, { "text": "の" }, { "text": "歌", "reading": "うた" }], "hiragana": "そんな よる に うたう かいじゅう の うた", "pronunciationKo": "손나 요루니 우타우 카이주우노 우타", "translationKo": "그런 밤에 부르는 괴수의 노래", "grammarIds": ["noun-no-noun"], "kanjiIds": ["夜", "歌", "怪", "獣"] }
+  ],
+  "vocabulary": [
+    { "id": "kaiju-no-hanauta-6-bokura", "term": "僕ら", "reading": "ぼくら", "meaning": "우리" },
+    { "id": "kaiju-no-hanauta-6-nemureru", "term": "眠れる", "reading": "ねむれる", "meaning": "잠들 수 있다" },
+    { "id": "kaiju-no-hanauta-6-nemuru", "term": "眠る", "reading": "ねむる", "meaning": "잠들다" },
+    { "id": "kaiju-no-hanauta-6-te-wo-nobasu", "term": "手を伸ばす", "reading": "てをのばす", "meaning": "손을 뻗다" },
+    { "id": "kaiju-no-hanauta-6-nobasu", "term": "伸ばす", "reading": "のばす", "meaning": "뻗다, 늘이다" },
+    { "id": "kaiju-no-hanauta-6-nemui", "term": "眠い", "reading": "ねむい", "meaning": "졸리다" },
+    { "id": "kaiju-no-hanauta-6-korizuni", "term": "懲りずに", "reading": "こりずに", "meaning": "질리지 않고, 예전에 겪고도 또" },
+    { "id": "kaiju-no-hanauta-6-sonna", "term": "そんな", "reading": "そんな", "meaning": "그런" }
+  ],
+  "quiz": [
+    { "id": "kaiju-no-hanauta-6-q1", "prompt": "「眠れない」와 「眠らない」의 차이는?", "options": ["둘 다 완전히 같다", "앞은 잠들 수 없음, 뒤는 잠들지 않음", "앞은 과거, 뒤는 미래", "앞은 명령, 뒤는 요청"], "answerIndex": 1, "explanation": "眠れない는 가능형의 부정으로 잠들 수 없음을, 眠らない는 일반 부정으로 잠들지 않음을 나타냅니다." },
+    { "id": "kaiju-no-hanauta-6-q2", "prompt": "「夜を伸ばす」의 문맥상 뜻은?", "options": ["밤의 길이를 재다", "잠들지 않고 함께하는 시간을 늘이다", "밤을 줄이다", "손을 감추다"], "answerIndex": 1, "explanation": "물리적인 밤을 늘인다기보다 깨어 있는 시간을 이어 간다는 시적 표현입니다." },
+    { "id": "kaiju-no-hanauta-6-q3", "prompt": "「そんな日々でいたいのにな」의 のに가 드러내는 감정은?", "options": ["확신", "아쉬움과 이루어지지 않은 바람", "분노의 명령", "무관심"], "answerIndex": 1, "explanation": "のに로 끝나면 그런 나날이 계속되지 않은 현실에 대한 아쉬움이 남습니다." },
+    { "id": "kaiju-no-hanauta-6-q4", "prompt": "「懲りずに」의 〜ずに가 나타내는 뜻은?", "options": ["~한 뒤에", "~하지 않고", "~하고 싶어서", "~할 수 있게"], "answerIndex": 1, "explanation": "〜ずに는 〜ないで와 비슷하게 앞의 행동을 하지 않은 채 뒤 내용으로 이어 줍니다." },
+    { "id": "kaiju-no-hanauta-6-q5", "prompt": "아웃트로의 「そんな夜」에서 부르는 것은?", "options": ["새로운 사랑 노래", "괴수의 노래", "아침의 노래", "이별의 노래"], "answerIndex": 1, "explanation": "잠들지 않는 밤의 기억이 곡 전체의 상징인 괴수의 노래로 다시 돌아옵니다." }
+  ]
+}

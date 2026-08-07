@@ -79,6 +79,16 @@ export const songs: SongDefinition[] = [
       '서로를 너무 잘 아는 두 사람이 평범한 일상을 오가며 다시 사랑을 써 내려가는 마음을 따라갑니다.',
     youtubeVideoId: 'DdF-u3fe5pg',
   },
+  {
+    slug: 'kaiju-no-hanauta',
+    sequence: 8,
+    title: '怪獣の花唄',
+    artist: 'Vaundy',
+    kicker: '사라지지 않는 노래와 청춘의 기억',
+    description:
+      '모습을 감춘 친구의 노래와 잠들지 못한 밤에 빛나던 시간을 따라갑니다.',
+    youtubeVideoId: 'UM9XNpgrqVk',
+  },
 ];
 
 export function getSong(slug: string) {
