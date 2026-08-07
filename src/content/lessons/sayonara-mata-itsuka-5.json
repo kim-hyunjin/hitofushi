@@ -1,0 +1,76 @@
+{
+  "songSlug": "sayonara-mata-itsuka",
+  "lessonNumber": 5,
+  "title": "묶인 줄을 물어 끊고",
+  "subtitle": "〜たくて·수동형·명령형으로 해방의 순간 읽기",
+  "description": "사랑하고 싶지만 아픈 마음이 자신을 묶던 줄을 끊고, 호랑이처럼 앞으로 나아가는 장면을 익힙니다.",
+  "estimatedMinutes": 27,
+  "sentences": [
+    {
+      "id": "sayonara-mata-itsuka-5-1",
+      "original": "誰かを愛したくて でも痛くて いつしか雨霰",
+      "ruby": [{ "text": "誰", "reading": "だれ" }, { "text": "かを" }, { "text": "愛", "reading": "あい" }, { "text": "したくて でも" }, { "text": "痛", "reading": "いた" }, { "text": "くて いつしか" }, { "text": "雨霰", "reading": "あめあられ" }],
+      "hiragana": "だれか を あいしたくて でも いたくて いつしか あめあられ",
+      "pronunciationKo": "다레카오 아이시타쿠테 데모 이타쿠테 이츠시카 아메아라레",
+      "translationKo": "누군가를 사랑하고 싶어서, 하지만 아파서, 어느새 비와 우박",
+      "grammarIds": ["verb-tai", "i-adjective-kute", "demo"],
+      "kanjiIds": ["愛"]
+    },
+    {
+      "id": "sayonara-mata-itsuka-5-2",
+      "original": "繋がれていた縄を握りしめて しかと噛みちぎる",
+      "ruby": [{ "text": "繋", "reading": "つな" }, { "text": "がれていた" }, { "text": "縄", "reading": "なわ" }, { "text": "を" }, { "text": "握", "reading": "にぎ" }, { "text": "りしめて しかと" }, { "text": "噛", "reading": "か" }, { "text": "みちぎる" }],
+      "hiragana": "つながれていた なわ を にぎりしめて しかと かみちぎる",
+      "pronunciationKo": "츠나가레테이타 나와오 니기리시메테 시카토 카미치기루",
+      "translationKo": "묶여 있던 줄을 꽉 움켜쥐고 단단히 물어 끊는다",
+      "grammarIds": ["passive", "teita-teta", "te-form"],
+      "kanjiIds": []
+    },
+    {
+      "id": "sayonara-mata-itsuka-5-3",
+      "original": "貫け狙い定め 蓋し虎へ どこまでもゆけ",
+      "ruby": [{ "text": "貫", "reading": "つらぬ" }, { "text": "け" }, { "text": "狙", "reading": "ねら" }, { "text": "い" }, { "text": "定", "reading": "さだ" }, { "text": "め " }, { "text": "蓋", "reading": "けだ" }, { "text": "し" }, { "text": "虎", "reading": "とら" }, { "text": "へ どこまでもゆけ" }],
+      "hiragana": "つらぬけ ねらい さだめ けだし とら へ どこまでも ゆけ",
+      "pronunciationKo": "츠라누케 네라이사다메 케다시 토라에 도코마데모 유케",
+      "translationKo": "꿰뚫어라, 겨냥해 정하라, 생각건대 호랑이를 향해, 어디까지든 가라",
+      "grammarIds": ["imperative-form"],
+      "kanjiIds": []
+    },
+    {
+      "id": "sayonara-mata-itsuka-5-4",
+      "original": "100年先のあなたに会いたい",
+      "ruby": [{ "text": "100" }, { "text": "年", "reading": "ねん" }, { "text": "先", "reading": "さき" }, { "text": "のあなたに" }, { "text": "会", "reading": "あ" }, { "text": "いたい" }],
+      "hiragana": "ひゃくねんさき の あなた に あいたい",
+      "pronunciationKo": "햐쿠넨사키노 아나타니 아이타이",
+      "translationKo": "100년 뒤의 당신을 만나고 싶다",
+      "grammarIds": ["verb-tai", "noun-no-noun"],
+      "kanjiIds": ["先", "会"]
+    },
+    {
+      "id": "sayonara-mata-itsuka-5-5",
+      "original": "消え失せるなよ さよーならまたいつか！",
+      "ruby": [{ "text": "消", "reading": "き" }, { "text": "え" }, { "text": "失", "reading": "う" }, { "text": "せるなよ さよーならまたいつか！" }],
+      "hiragana": "きえうせる なよ さよーなら また いつか",
+      "pronunciationKo": "키에우세루나요 사요오나라 마타 이츠카",
+      "translationKo": "사라져 버리지 마, 안녕—언젠가 다시!",
+      "grammarIds": ["imperative-form"],
+      "kanjiIds": []
+    }
+  ],
+  "vocabulary": [
+    { "id": "sayonara-5-amearare", "term": "雨霰", "reading": "あめあられ", "meaning": "비와 우박, 빗발치듯 쏟아지는 것" },
+    { "id": "sayonara-5-tsunagareru", "term": "繋がれる", "reading": "つながれる", "meaning": "묶이다, 매이다" },
+    { "id": "sayonara-5-nigirishimeru", "term": "握りしめる", "reading": "にぎりしめる", "meaning": "꽉 움켜쥐다" },
+    { "id": "sayonara-5-shikato", "term": "しかと", "reading": "しかと", "meaning": "확실히, 단단히" },
+    { "id": "sayonara-5-kamichigiru", "term": "噛みちぎる", "reading": "かみちぎる", "meaning": "물어뜯어 끊다" },
+    { "id": "sayonara-5-kedashi", "term": "蓋し", "reading": "けだし", "meaning": "생각건대, 아마도", "note": "현대 일상회화에서는 드문 문어적 표현입니다." },
+    { "id": "sayonara-5-kieuseru", "term": "消え失せる", "reading": "きえうせる", "meaning": "완전히 사라지다" }
+  ],
+  "quiz": [
+    { "id": "sayonara-5-q1", "prompt": "「愛したくて」의 기본 의미는?", "options": ["사랑하고 싶어서", "사랑받았지만", "사랑하지 않고", "사랑할 수 있다면"], "answerIndex": 0, "explanation": "愛したい의 い가 くて로 바뀌어 소망과 뒤의 감정을 이어 줍니다." },
+    { "id": "sayonara-5-q2", "prompt": "「繋がれていた」에 사용된 태는?", "options": ["사역", "가능", "수동", "명령"], "answerIndex": 2, "explanation": "繋ぐ가 繋がれる가 되어 ‘묶이다’라는 수동의 상태를 나타냅니다." },
+    { "id": "sayonara-5-q3", "prompt": "「噛みちぎる」가 나타내는 동작은?", "options": ["가볍게 만지다", "물어서 끊다", "줄로 묶다", "손으로 밀다"], "answerIndex": 1, "explanation": "噛む와 ちぎる가 합쳐져 이로 물어뜯어 끊는 강한 동작을 나타냅니다." },
+    { "id": "sayonara-5-q4", "prompt": "「100年先のあなた」에서 の의 역할은?", "options": ["두 명사를 연결한다", "장소를 표시한다", "직접 목적어를 표시한다", "의문을 만든다"], "answerIndex": 0, "explanation": "の가 100年先와 あなた를 연결해 ‘100년 뒤의 당신’이라는 명사 덩어리를 만듭니다." },
+    { "id": "sayonara-5-q5", "prompt": "「消え失せるな」의 뜻은?", "options": ["완전히 사라져라", "사라졌을지도 모른다", "사라지지 마라", "사라지고 싶다"], "answerIndex": 2, "explanation": "동사 기본형 뒤의 な는 강한 금지 명령을 만듭니다." }
+  ]
+}

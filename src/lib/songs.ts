@@ -60,8 +60,18 @@ export const songs: SongDefinition[] = [
     youtubeVideoId: 'hS2BVRnQiYI',
   },
   {
-    slug: 'shukumei',
+    slug: 'sayonara-mata-itsuka',
     sequence: 6,
+    title: 'さよーならまたいつか！',
+    artist: '米津玄師',
+    kicker: '상처를 뚫고 끝내 마주하는 봄',
+    description:
+      '날개를 바라는 마음에서 스스로 구속을 끊고 날아오르기까지, 이별과 재생의 언어를 따라갑니다.',
+    youtubeVideoId: 'TGz8AXN3gLA',
+  },
+  {
+    slug: 'shukumei',
+    sequence: 7,
     title: '宿命',
     artist: 'Official髭男dism',
     kicker: '운명이 아니라도 스스로 불태우는 오늘',
