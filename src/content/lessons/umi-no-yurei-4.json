@@ -1,0 +1,75 @@
+{
+  "songSlug": "umi-no-yurei",
+  "lessonNumber": 4,
+  "title": "떨어져 있어도 설레는 마음",
+  "subtitle": "〜でも·의지형·인용의 と로 행복 외치기",
+  "description": "서로 멀리 떨어져 있어도 남는 설렘을 지금의 행복이라고 외치며, 빛 속에서 다시 별의 밤으로 향하는 후렴 후반을 읽습니다.",
+  "estimatedMinutes": 23,
+  "sentences": [
+    {
+      "id": "umi-no-yurei-4-1",
+      "original": "離れ離れでもときめくもの",
+      "ruby": [{ "text": "離", "reading": "はな" }, { "text": "れ" }, { "text": "離", "reading": "ばな" }, { "text": "れでもときめくもの" }],
+      "hiragana": "はなればなれ でも ときめく もの",
+      "pronunciationKo": "하나레바나레데모 토키메쿠 모노",
+      "translationKo": "서로 멀리 떨어져 있어도 가슴 뛰게 하는 것",
+      "grammarIds": ["demo-concessive", "relative-clause"],
+      "kanjiIds": ["離"]
+    },
+    {
+      "id": "umi-no-yurei-4-2",
+      "original": "叫ぼう今は幸せと",
+      "ruby": [{ "text": "叫", "reading": "さけ" }, { "text": "ぼう" }, { "text": "今", "reading": "いま" }, { "text": "は" }, { "text": "幸", "reading": "しあわ" }, { "text": "せと" }],
+      "hiragana": "さけぼう いま は しあわせ と",
+      "pronunciationKo": "사케보오 이마와 시아와세토",
+      "translationKo": "외치자, 지금은 행복하다고",
+      "grammarIds": ["volitional-form", "to-quotation"],
+      "kanjiIds": ["今", "幸"]
+    },
+    {
+      "id": "umi-no-yurei-4-3",
+      "original": "大切なことは言葉にならない",
+      "ruby": [{ "text": "大切", "reading": "たいせつ" }, { "text": "なことは" }, { "text": "言葉", "reading": "ことば" }, { "text": "にならない" }],
+      "hiragana": "たいせつな こと は ことば に ならない",
+      "pronunciationKo": "타이세츠나 코토와 코토바니 나라나이",
+      "translationKo": "소중한 것은 말이 되지 않아",
+      "grammarIds": ["noun-ni-naru"],
+      "kanjiIds": []
+    },
+    {
+      "id": "umi-no-yurei-4-4",
+      "original": "跳ねる光に溶かして",
+      "ruby": [{ "text": "跳", "reading": "は" }, { "text": "ねる" }, { "text": "光", "reading": "ひかり" }, { "text": "に" }, { "text": "溶", "reading": "と" }, { "text": "かして" }],
+      "hiragana": "はねる ひかり に とかして",
+      "pronunciationKo": "하네루 히카리니 토카시테",
+      "translationKo": "튀어 오르는 빛에 녹여서",
+      "grammarIds": ["relative-clause", "te-form"],
+      "kanjiIds": ["光"]
+    },
+    {
+      "id": "umi-no-yurei-4-5",
+      "original": "星が降る夜にあなたにあえた",
+      "ruby": [{ "text": "星", "reading": "ほし" }, { "text": "が" }, { "text": "降", "reading": "ふ" }, { "text": "る" }, { "text": "夜", "reading": "よる" }, { "text": "にあなたにあえた" }],
+      "hiragana": "ほし が ふる よる に あなた に あえた",
+      "pronunciationKo": "호시가 후루 요루니 아나타니 아에타",
+      "translationKo": "별이 쏟아지는 밤에 당신을 만날 수 있었어",
+      "grammarIds": ["relative-clause", "potential-form"],
+      "kanjiIds": ["星", "夜"]
+    }
+  ],
+  "vocabulary": [
+    { "id": "umi-no-yurei-4-hanarebanare", "term": "離れ離れ", "reading": "はなればなれ", "meaning": "서로 떨어져 있음" },
+    { "id": "umi-no-yurei-4-tokimeku", "term": "ときめく", "reading": "ときめく", "meaning": "가슴이 두근거리다, 설레다" },
+    { "id": "umi-no-yurei-4-sakebou", "term": "叫ぼう", "reading": "さけぼう", "meaning": "외치자", "note": "叫ぶ의 의지형으로, 자신의 결의나 함께하자는 제안을 나타냅니다." },
+    { "id": "umi-no-yurei-4-shiawase", "term": "幸せ", "reading": "しあわせ", "meaning": "행복, 행복함" },
+    { "id": "umi-no-yurei-4-haneru", "term": "跳ねる", "reading": "はねる", "meaning": "튀다, 튀어 오르다", "note": "빛이 물결 위에서 튀어 오르는 듯 반짝이는 이미지입니다." },
+    { "id": "umi-no-yurei-4-tokasu", "term": "溶かす", "reading": "とかす", "meaning": "녹이다, 녹여 풀다" }
+  ],
+  "quiz": [
+    { "id": "umi-no-yurei-4-q1", "prompt": "「離れ離れでも」의 뜻은?", "options": ["떨어지기 전에", "떨어져 있어도", "떨어져 있기 때문에", "떨어지지 않도록"], "answerIndex": 1, "explanation": "명사 + でも는 그런 상황이어도 뒤의 결과는 달라지지 않는다는 양보를 나타냅니다." },
+    { "id": "umi-no-yurei-4-q2", "prompt": "「叫ぼう」의 형태와 기능은?", "options": ["의지형: 외치자", "명령형: 외쳐라", "가능형: 외칠 수 있다", "수동형: 외침을 당하다"], "answerIndex": 0, "explanation": "叫ぶ의 끝 ぶ가 ぼう로 바뀐 의지형입니다. 여기서는 ‘외치자’는 결의를 나타냅니다." },
+    { "id": "umi-no-yurei-4-q3", "prompt": "「幸せと」의 と는 어떤 역할을 할까요?", "options": ["행복을 목적어로 만든다", "‘행복하다’는 내용을 인용한다", "행복과 다른 명사를 나열한다", "행복한 장소를 나타낸다"], "answerIndex": 1, "explanation": "と는 외치는 내용을 묶는 인용 조사입니다. 어순을 돌리면 「今は幸せと叫ぼう」가 됩니다." },
+    { "id": "umi-no-yurei-4-q4", "prompt": "「跳ねる光」가 그리는 것은?", "options": ["빛이 반짝이며 튀어 오르는 모습", "빛이 완전히 사라진 모습", "빛이 잠든 모습", "빛이 길을 막는 모습"], "answerIndex": 0, "explanation": "跳ねる는 작게 튜며 날아오르는 듯한 움직임입니다. 여기서는 물결 사이의 빛나는 빛을 역동적으로 그립니다." },
+    { "id": "umi-no-yurei-4-q5", "prompt": "「溶かして」의 기본형은?", "options": ["溶ける", "溶かす", "溶かる", "溶けている"], "answerIndex": 1, "explanation": "溶かす는 무언가를 녹게 하는 타동사이며, て형은 溶かして입니다." }
+  ]
+}

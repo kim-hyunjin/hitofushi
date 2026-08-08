@@ -1,0 +1,12 @@
+{
+  "character": "幽",
+  "onyomi": ["ユウ"],
+  "kunyomi": ["かすか", "くらい"],
+  "basicMeaning": "그육하다, 어두운 곳에 숨다",
+  "wordMeaning": "幽霊（ゆうれい）에서는 눈에 보이지 않는 그육한 세계에 속한 존재라는 느낌을 더합니다.",
+  "mnemonic": "어두운 그늘 속에 흐릿하게 숨어 있는 기운을 떠올려 보세요.",
+  "examples": [
+    { "word": "幽霊", "reading": "ゆうれい", "meaning": "유령" },
+    { "word": "幽か", "reading": "かすか", "meaning": "흐릿함, 아주 약함" }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "character": "潮",
+  "onyomi": ["チョウ"],
+  "kunyomi": ["しお"],
+  "basicMeaning": "조수, 바닷물",
+  "wordMeaning": "潮風（しおかぜ）에서는 바다에서 육지로 부는 바람과 그 바닷물 냄새를 나타냅니다.",
+  "mnemonic": "바닷물이 들어왔다 빠져나가는 조수의 흐름을 떠올려 보세요.",
+  "examples": [
+    { "word": "潮", "reading": "しお", "meaning": "조수, 바닷물" },
+    { "word": "潮風", "reading": "しおかぜ", "meaning": "바닷바람" }
+  ]
+}

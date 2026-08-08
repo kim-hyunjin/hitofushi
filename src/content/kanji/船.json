@@ -1,0 +1,12 @@
+{
+  "character": "船",
+  "onyomi": ["セン"],
+  "kunyomi": ["ふね", "ふな"],
+  "basicMeaning": "배, 선박",
+  "wordMeaning": "船を見送る（ふねをみおくる）에서 ふね로 읽으며, 바다로 멀어져 가는 대상을 나타냅니다.",
+  "mnemonic": "나뭇가지 너머로 멀어져 가는 배를 배웅하는 장면을 떠올려 보세요.",
+  "examples": [
+    { "word": "船", "reading": "ふね", "meaning": "배" },
+    { "word": "船長", "reading": "せんちょう", "meaning": "선장" }
+  ]
+}

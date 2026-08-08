@@ -1,0 +1,78 @@
+{
+  "songSlug": "umi-no-yurei",
+  "lessonNumber": 3,
+  "title": "여름 저녁의 배웅",
+  "subtitle": "명사 수식·て형·〜たら로 풍경 잇기",
+  "description": "배를 배웅하는 나뭇가지 끝, 흩날리는 꽃, 당신의 웃음소리와 볼의 감촉이 겹쳐지는 한여름의 풍경을 읽습니다.",
+  "estimatedMinutes": 25,
+  "sentences": [
+    {
+      "id": "umi-no-yurei-3-1",
+      "original": "茹だる夏の夕に梢が 船を見送る",
+      "ruby": [{ "text": "茹", "reading": "う" }, { "text": "だる" }, { "text": "夏", "reading": "なつ" }, { "text": "の" }, { "text": "夕", "reading": "ゆう" }, { "text": "に" }, { "text": "梢", "reading": "こずえ" }, { "text": "が " }, { "text": "船", "reading": "ふね" }, { "text": "を" }, { "text": "見送", "reading": "みおく" }, { "text": "る" }],
+      "hiragana": "うだる なつ の ゆう に こずえ が ふね を みおくる",
+      "pronunciationKo": "우다루 나츠노 유우니 코즈에가 후네오 미오쿠루",
+      "translationKo": "훅훅 찌는 여름 저녁, 나뭇가지 끝이 배를 배웅한다",
+      "grammarIds": ["relative-clause", "noun-no-noun"],
+      "kanjiIds": ["夏", "船"]
+    },
+    {
+      "id": "umi-no-yurei-3-2",
+      "original": "いくつかの歌を囁く 花を散らして",
+      "ruby": [{ "text": "いくつかの" }, { "text": "歌", "reading": "うた" }, { "text": "を" }, { "text": "囁", "reading": "ささや" }, { "text": "く " }, { "text": "花", "reading": "はな" }, { "text": "を" }, { "text": "散", "reading": "ち" }, { "text": "らして" }],
+      "hiragana": "いくつか の うた を ささやく はな を ちらして",
+      "pronunciationKo": "이쿠츠카노 우타오 사사야쿠 하나오 치라시테",
+      "translationKo": "몇 곡의 노래를 속삭이며 꽃을 흩날리고",
+      "grammarIds": ["te-form"],
+      "kanjiIds": ["歌", "花"]
+    },
+    {
+      "id": "umi-no-yurei-3-3",
+      "original": "あなたがどこかで笑う 声が聞こえる",
+      "ruby": [{ "text": "あなたがどこかで" }, { "text": "笑", "reading": "わら" }, { "text": "う " }, { "text": "声", "reading": "こえ" }, { "text": "が" }, { "text": "聞", "reading": "き" }, { "text": "こえる" }],
+      "hiragana": "あなた が どこか で わらう こえ が きこえる",
+      "pronunciationKo": "아나타가 도코카데 와라우 코에가 키코에루",
+      "translationKo": "당신이 어딘가에서 웃는 목소리가 들려",
+      "grammarIds": ["relative-clause"],
+      "kanjiIds": ["笑", "声"]
+    },
+    {
+      "id": "umi-no-yurei-3-4",
+      "original": "熱い頬の手触り",
+      "ruby": [{ "text": "熱", "reading": "あつ" }, { "text": "い" }, { "text": "頬", "reading": "ほお" }, { "text": "の" }, { "text": "手触", "reading": "てざわ" }, { "text": "り" }],
+      "hiragana": "あつい ほお の てざわり",
+      "pronunciationKo": "아츠이 호오노 테자와리",
+      "translationKo": "뜨거운 볼의 감촉",
+      "grammarIds": ["noun-no-noun"],
+      "kanjiIds": ["手"]
+    },
+    {
+      "id": "umi-no-yurei-3-5",
+      "original": "ねじれた道を進んだら その瞼が開く",
+      "ruby": [{ "text": "ねじれた" }, { "text": "道", "reading": "みち" }, { "text": "を" }, { "text": "進", "reading": "すす" }, { "text": "んだら その" }, { "text": "瞼", "reading": "まぶた" }, { "text": "が" }, { "text": "開", "reading": "ひら" }, { "text": "く" }],
+      "hiragana": "ねじれた みち を すすんだら その まぶた が ひらく",
+      "pronunciationKo": "네지레타 미치오 스슨다라 소노 마부타가 히라쿠",
+      "translationKo": "뒤틀린 길을 나아가면 그 눈꺼풀이 열려",
+      "grammarIds": ["relative-clause", "tara-conditional"],
+      "kanjiIds": ["道", "開"]
+    }
+  ],
+  "vocabulary": [
+    { "id": "umi-no-yurei-3-udaru", "term": "茹だる", "reading": "うだる", "meaning": "더위에 찌들다", "note": "「茹だるような暑さ」처럼 숨이 막힐 듯한 무더위를 나타냅니다." },
+    { "id": "umi-no-yurei-3-kozue", "term": "梢", "reading": "こずえ", "meaning": "나무 끝, 잔가지 끝" },
+    { "id": "umi-no-yurei-3-miokuru", "term": "見送る", "reading": "みおくる", "meaning": "배웅하다, 떠나는 것을 지켜보다" },
+    { "id": "umi-no-yurei-3-ikutsuka", "term": "いくつか", "reading": "いくつか", "meaning": "몇 개, 여럿" },
+    { "id": "umi-no-yurei-3-sasayaku", "term": "囁く", "reading": "ささやく", "meaning": "속삭이다" },
+    { "id": "umi-no-yurei-3-chirasu", "term": "散らす", "reading": "ちらす", "meaning": "흩날리다, 흩어지게 하다" },
+    { "id": "umi-no-yurei-3-tezawari", "term": "手触り", "reading": "てざわり", "meaning": "손으로 느끼는 감촉" },
+    { "id": "umi-no-yurei-3-nejireta", "term": "ねじれた", "reading": "ねじれた", "meaning": "뒤틀린, 꼬인" },
+    { "id": "umi-no-yurei-3-mabuta", "term": "瞼", "reading": "まぶた", "meaning": "눈꺼풀" }
+  ],
+  "quiz": [
+    { "id": "umi-no-yurei-3-q1", "prompt": "「茹だる夏」가 그리는 것은?", "options": ["시원한 여름", "숨이 막힐 듯 무더운 여름", "비가 오는 가을", "눈 쏟아지는 겨울"], "answerIndex": 1, "explanation": "茹だる는 몸이 삶아지는 듯 느껴질 정도로 심한 더위를 나타냅니다." },
+    { "id": "umi-no-yurei-3-q2", "prompt": "「見送る」의 뜻은?", "options": ["떠나는 것을 배웅하다", "배를 돌리다", "꽃을 보내다", "길을 잃다"], "answerIndex": 0, "explanation": "見送る는 떠나는 사람이나 탈것을 지켜보며 배웅하다는 뜻입니다. 가사에서는 나뭇가지 끝이 배를 배웅합니다." },
+    { "id": "umi-no-yurei-3-q3", "prompt": "「あなたがどこかで笑う」가 꾸미는 명사는?", "options": ["あなた", "どこか", "声", "笑う"], "answerIndex": 2, "explanation": "명사 声 앞의 문장 전체가 어떤 목소리인지 설명합니다." },
+    { "id": "umi-no-yurei-3-q4", "prompt": "「手触り」는 무엇을 나타낼까요?", "options": ["손으로 느끼는 감촉", "손을 보내는 동작", "발소리", "눈에 보이는 색"], "answerIndex": 0, "explanation": "手触り는 대상에 닿았을 때 손으로 느끼는 질감이나 감촉입니다." },
+    { "id": "umi-no-yurei-3-q5", "prompt": "「進んだら」가 나타내는 관계는?", "options": ["나아가기 전", "나아가면 일어나는 결과", "나아가지 못하는 이유", "반복해서 나아감"], "answerIndex": 1, "explanation": "동사 た형 + ら는 조건을 나타냅니다. 뒤틀린 길을 나아간 뒤에 눈꺼풀이 열리는 변화가 이어집니다." }
+  ]
+}

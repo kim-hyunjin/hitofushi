@@ -1,0 +1,12 @@
+{
+  "character": "幸",
+  "onyomi": ["コウ"],
+  "kunyomi": ["さいわい", "しあわせ"],
+  "basicMeaning": "행복, 다행",
+  "wordMeaning": "幸せ（しあわせ）로 읽으며, 멀리 떨어져 있어도 마음에 남는 설렘을 지금의 행복으로 선언합니다.",
+  "mnemonic": "가슴에 남은 설렘을 행복이라고 크게 외치는 순간을 떠올려 보세요.",
+  "examples": [
+    { "word": "幸せ", "reading": "しあわせ", "meaning": "행복" },
+    { "word": "幸運", "reading": "こううん", "meaning": "행운" }
+  ]
+}

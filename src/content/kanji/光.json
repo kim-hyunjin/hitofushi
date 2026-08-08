@@ -1,0 +1,12 @@
+{
+  "character": "光",
+  "onyomi": ["コウ"],
+  "kunyomi": ["ひかる", "ひかり"],
+  "basicMeaning": "빛",
+  "wordMeaning": "光る（ひかる）에서는 ‘빛나다’, 跳ねる光（はねるひかり）에서는 수면 위에서 튀는 듯한 빛나는 빛을 나타냅니다.",
+  "mnemonic": "수면 위에서 튀어 오르듯 반짝이는 빛을 떠올려 보세요.",
+  "examples": [
+    { "word": "光", "reading": "ひかり", "meaning": "빛" },
+    { "word": "光る", "reading": "ひかる", "meaning": "빛나다" }
+  ]
+}

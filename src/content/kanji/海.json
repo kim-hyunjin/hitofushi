@@ -1,0 +1,12 @@
+{
+  "character": "海",
+  "onyomi": ["カイ"],
+  "kunyomi": ["うみ"],
+  "basicMeaning": "바다",
+  "wordMeaning": "海の幽霊（うみのゆうれい）에서 うみ로 읽으며, 빛과 기억이 빛나는 이야기의 중심 무대를 나타냅니다.",
+  "mnemonic": "수평선까지 넓게 펼쳐진 바다와 그 위의 빛을 떠올려 보세요.",
+  "examples": [
+    { "word": "海", "reading": "うみ", "meaning": "바다" },
+    { "word": "海辺", "reading": "うみべ", "meaning": "바닷가" }
+  ]
+}

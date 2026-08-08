@@ -1,0 +1,12 @@
+{
+  "character": "道",
+  "onyomi": ["ドウ", "トウ"],
+  "kunyomi": ["みち"],
+  "basicMeaning": "길, 방법",
+  "wordMeaning": "ねじれた道（ねじれたみち）에서 みち로 읽으며, 곳지 않고 복잡하게 이어진 과정을 나타냅니다.",
+  "mnemonic": "꼬이고 뒤틀렸지만 끝까지 이어지는 길을 따라가 보세요.",
+  "examples": [
+    { "word": "道", "reading": "みち", "meaning": "길" },
+    { "word": "道路", "reading": "どうろ", "meaning": "도로" }
+  ]
+}

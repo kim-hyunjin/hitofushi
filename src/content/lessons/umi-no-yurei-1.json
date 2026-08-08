@@ -1,0 +1,78 @@
+{
+  "songSlug": "umi-no-yurei",
+  "lessonNumber": 1,
+  "title": "아무도 없는 방",
+  "subtitle": "수동형·〜ように·〜ておく로 재회를 기다리기",
+  "description": "바닷바람 냄새가 남은 빈 방에서, 언젠가 찾아올 당신이 헤매지 않도록 기다리는 도입부를 읽습니다.",
+  "estimatedMinutes": 25,
+  "sentences": [
+    {
+      "id": "umi-no-yurei-1-1",
+      "original": "開け放たれた この部屋には誰もいない",
+      "ruby": [{ "text": "開", "reading": "あ" }, { "text": "け" }, { "text": "放", "reading": "はな" }, { "text": "たれた この" }, { "text": "部屋", "reading": "へや" }, { "text": "には" }, { "text": "誰", "reading": "だれ" }, { "text": "もいない" }],
+      "hiragana": "あけはなたれた この へや には だれも いない",
+      "pronunciationKo": "아케하나타레타 코노 헤야니와 다레모 이나이",
+      "translationKo": "활짝 열린 이 방에는 아무도 없어",
+      "grammarIds": ["passive", "interrogative-mo-negative"],
+      "kanjiIds": ["開", "誰"]
+    },
+    {
+      "id": "umi-no-yurei-1-2",
+      "original": "潮風の匂い 滲みついた椅子がひとつ",
+      "ruby": [{ "text": "潮風", "reading": "しおかぜ" }, { "text": "の" }, { "text": "匂", "reading": "にお" }, { "text": "い " }, { "text": "滲", "reading": "し" }, { "text": "みついた" }, { "text": "椅子", "reading": "いす" }, { "text": "がひとつ" }],
+      "hiragana": "しおかぜ の におい しみついた いす が ひとつ",
+      "pronunciationKo": "시오카제노 니오이 시미츠이타 이스가 히토츠",
+      "translationKo": "바닷바람 냄새가 밴 의자 하나",
+      "grammarIds": ["noun-no-noun", "relative-clause"],
+      "kanjiIds": ["潮", "風"]
+    },
+    {
+      "id": "umi-no-yurei-1-3",
+      "original": "あなたが迷わないように 空けておくよ",
+      "ruby": [{ "text": "あなたが" }, { "text": "迷", "reading": "まよ" }, { "text": "わないように " }, { "text": "空", "reading": "あ" }, { "text": "けておくよ" }],
+      "hiragana": "あなた が まよわない ように あけておく よ",
+      "pronunciationKo": "아나타가 마요와나이 요오니 아케테오쿠요",
+      "translationKo": "당신이 헤매지 않도록 비워 둘게",
+      "grammarIds": ["nai-you-ni", "teoku"],
+      "kanjiIds": []
+    },
+    {
+      "id": "umi-no-yurei-1-4",
+      "original": "軋む戸を叩いて",
+      "ruby": [{ "text": "軋", "reading": "きし" }, { "text": "む" }, { "text": "戸", "reading": "と" }, { "text": "を" }, { "text": "叩", "reading": "たた" }, { "text": "いて" }],
+      "hiragana": "きしむ と を たたいて",
+      "pronunciationKo": "키시무 토오 타타이테",
+      "translationKo": "샐걱거리는 문을 두드리고",
+      "grammarIds": ["relative-clause", "te-form"],
+      "kanjiIds": []
+    },
+    {
+      "id": "umi-no-yurei-1-5",
+      "original": "なにから 話せばいいのか わからなくなるかな",
+      "ruby": [{ "text": "なにから " }, { "text": "話", "reading": "はな" }, { "text": "せばいいのか わからなくなるかな" }],
+      "hiragana": "なに から はなせば いい のか わからなくなる かな",
+      "pronunciationKo": "나니카라 하나세바 이이노카 와카라나꾸 나루카나",
+      "translationKo": "무엇부터 이야기해야 할지 모르게 되려나",
+      "grammarIds": ["ba-conditional", "verb-nominalizer-no", "nai-ku-naru"],
+      "kanjiIds": []
+    }
+  ],
+  "vocabulary": [
+    { "id": "umi-no-yurei-1-akehanatsu", "term": "開け放つ", "reading": "あけはなつ", "meaning": "활짝 열어 놓다" },
+    { "id": "umi-no-yurei-1-heya", "term": "部屋", "reading": "へや", "meaning": "방" },
+    { "id": "umi-no-yurei-1-shiokaze", "term": "潮風", "reading": "しおかぜ", "meaning": "바닷바람" },
+    { "id": "umi-no-yurei-1-shimitsuku", "term": "滲みつく", "reading": "しみつく", "meaning": "배다, 스며들다", "note": "냄새·얼룩·습관 등이 깊게 배어 쉽게 빠지지 않는 상태입니다." },
+    { "id": "umi-no-yurei-1-mayou", "term": "迷う", "reading": "まよう", "meaning": "헤매다, 망설이다" },
+    { "id": "umi-no-yurei-1-aketeoku", "term": "空けておく", "reading": "あけておく", "meaning": "미리 비워 두다" },
+    { "id": "umi-no-yurei-1-kishimu", "term": "軋む", "reading": "きしむ", "meaning": "샐걱거리다, 빠걱거리다" },
+    { "id": "umi-no-yurei-1-tataku", "term": "叩く", "reading": "たたく", "meaning": "두드리다" },
+    { "id": "umi-no-yurei-1-nanikara", "term": "なにから", "reading": "なにから", "meaning": "무엇부터" }
+  ],
+  "quiz": [
+    { "id": "umi-no-yurei-1-q1", "prompt": "「開け放たれた」가 나타내는 방의 상태는?", "options": ["활짝 열려 있다", "잠겨 있다", "새로 지어졌다", "어두워졌다"], "answerIndex": 0, "explanation": "開け放つ는 문이나 창을 완전히 열어 두다는 뜻입니다. 여기서는 수동형으로, 방이 활짝 열린 상태를 그립니다." },
+    { "id": "umi-no-yurei-1-q2", "prompt": "「誰もいない」의 뜻은?", "options": ["누군가 있다", "아무도 없다", "모두 와 있다", "누구인지 모른다"], "answerIndex": 1, "explanation": "의문사 誰 + も가 부정형 いない와 호응하여 ‘아무도 없다’라는 전면 부정을 만듭니다." },
+    { "id": "umi-no-yurei-1-q3", "prompt": "「迷わないように」가 나타내는 것은?", "options": ["헤맨 이유", "헤매지 않도록 하는 목적", "헤맨 경험", "헤매고 싶은 바람"], "answerIndex": 1, "explanation": "동사 ない형 + ように는 바람직하지 않은 결과가 일어나지 않도록 하는 목적을 나타냅니다." },
+    { "id": "umi-no-yurei-1-q4", "prompt": "「空けておく」와 가장 가까운 뜻은?", "options": ["지금 바로 채우다", "나중을 위해 비워 두다", "비운 일을 후회하다", "비울 수 없다"], "answerIndex": 1, "explanation": "〜ておく는 나중에 필요할 일을 예상해 미리 해 두는 표현입니다." },
+    { "id": "umi-no-yurei-1-q5", "prompt": "「話せばいい」의 자연스러운 뜻은?", "options": ["이야기하지 말아야 한다", "이야기했으면 좋았을 텐데", "이야기하면 된다", "이야기할 수 없다"], "answerIndex": 2, "explanation": "ば 조건형 + いい는 ‘어떻게 하면 되는지’를 나타냅니다. 여기서 なにから는 ‘무엇부터’라는 뜻을 더합니다." }
+  ]
+}

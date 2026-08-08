@@ -1,0 +1,12 @@
+{
+  "character": "風",
+  "onyomi": ["フウ", "フ"],
+  "kunyomi": ["かぜ", "かざ"],
+  "basicMeaning": "바람",
+  "wordMeaning": "潮風（しおかぜ）와 風薫る（かぜかおる）에서는 かぜ로 읽으며, 바다의 냄새와 재회의 장소를 잇습니다.",
+  "mnemonic": "바람이 방안과 모래사장을 지나가며 향기를 실어 나르는 모습을 떠올려 보세요.",
+  "examples": [
+    { "word": "風", "reading": "かぜ", "meaning": "바람" },
+    { "word": "台風", "reading": "たいふう", "meaning": "태풍" }
+  ]
+}

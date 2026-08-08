@@ -1,0 +1,12 @@
+{
+  "character": "離",
+  "onyomi": ["リ"],
+  "kunyomi": ["はなれる", "はなす"],
+  "basicMeaning": "떨어지다, 떼어 놓다",
+  "wordMeaning": "離れ離れ（はなればなれ）에서는 사람들이 서로 멀리 떨어져 있는 상태를 나타냅니다.",
+  "mnemonic": "두 사람이 서로 다른 방향으로 멀어져 가는 모습을 떠올려 보세요.",
+  "examples": [
+    { "word": "離れる", "reading": "はなれる", "meaning": "떨어지다" },
+    { "word": "離れ離れ", "reading": "はなればなれ", "meaning": "서로 헤어져 있음" }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "songSlug": "umi-no-yurei",
+  "lessonNumber": 2,
+  "title": "별이 쏟아지는 밤",
+  "subtitle": "가능형·〜はしない·〜になる로 기억 이야기하기",
+  "description": "별이 쏟아지는 밤에 만날 수 있었던 기적과, 말로는 표현할 수 없는 여름의 기억을 새기는 첫 후렴을 읽습니다.",
+  "estimatedMinutes": 24,
+  "sentences": [
+    {
+      "id": "umi-no-yurei-2-1",
+      "original": "星が降る夜にあなたにあえた",
+      "ruby": [{ "text": "星", "reading": "ほし" }, { "text": "が" }, { "text": "降", "reading": "ふ" }, { "text": "る" }, { "text": "夜", "reading": "よる" }, { "text": "にあなたにあえた" }],
+      "hiragana": "ほし が ふる よる に あなた に あえた",
+      "pronunciationKo": "호시가 후루 요루니 아나타니 아에타",
+      "translationKo": "별이 쏟아지는 밤에 당신을 만날 수 있었어",
+      "grammarIds": ["relative-clause", "potential-form"],
+      "kanjiIds": ["星", "夜"]
+    },
+    {
+      "id": "umi-no-yurei-2-2",
+      "original": "あの夜を忘れはしない",
+      "ruby": [{ "text": "あの" }, { "text": "夜", "reading": "よる" }, { "text": "を" }, { "text": "忘", "reading": "わす" }, { "text": "れはしない" }],
+      "hiragana": "あの よる を わすれはしない",
+      "pronunciationKo": "아노 요루오 와스레와 시나이",
+      "translationKo": "그날 밤을 결코 잊지 않아",
+      "grammarIds": ["verb-stem-wa-shinai"],
+      "kanjiIds": ["夜", "忘"]
+    },
+    {
+      "id": "umi-no-yurei-2-3",
+      "original": "大切なことは言葉にならない",
+      "ruby": [{ "text": "大切", "reading": "たいせつ" }, { "text": "なことは" }, { "text": "言葉", "reading": "ことば" }, { "text": "にならない" }],
+      "hiragana": "たいせつな こと は ことば に ならない",
+      "pronunciationKo": "타이세츠나 코토와 코토바니 나라나이",
+      "translationKo": "소중한 것은 말이 되지 않아",
+      "grammarIds": ["noun-ni-naru"],
+      "kanjiIds": []
+    },
+    {
+      "id": "umi-no-yurei-2-4",
+      "original": "夏の日に起きた全て",
+      "ruby": [{ "text": "夏", "reading": "なつ" }, { "text": "の" }, { "text": "日", "reading": "ひ" }, { "text": "に" }, { "text": "起", "reading": "お" }, { "text": "きた" }, { "text": "全", "reading": "すべ" }, { "text": "て" }],
+      "hiragana": "なつ の ひ に おきた すべて",
+      "pronunciationKo": "나츠노 히니 오키타 스베테",
+      "translationKo": "여름날에 일어난 모든 것",
+      "grammarIds": ["noun-no-noun", "relative-clause"],
+      "kanjiIds": ["夏", "日"]
+    },
+    {
+      "id": "umi-no-yurei-2-5",
+      "original": "思いがけず光るのは 海の幽霊",
+      "ruby": [{ "text": "思", "reading": "おも" }, { "text": "いがけず" }, { "text": "光", "reading": "ひか" }, { "text": "るのは " }, { "text": "海", "reading": "うみ" }, { "text": "の" }, { "text": "幽霊", "reading": "ゆうれい" }],
+      "hiragana": "おもいがけず ひかる のは うみ の ゆうれい",
+      "pronunciationKo": "오모이가케즈 히카루노와 우미노 유우레이",
+      "translationKo": "뜻밖에 빛나는 것은 바다의 유령",
+      "grammarIds": ["nowa", "noun-no-noun"],
+      "kanjiIds": ["思", "光", "海", "幽", "霊"]
+    }
+  ],
+  "vocabulary": [
+    { "id": "umi-no-yurei-2-hoshigafuru", "term": "星が降る", "reading": "ほしがふる", "meaning": "별이 쏟아지다", "note": "별이 매우 많은 밤하늘을 비유적으로 그리는 표현입니다." },
+    { "id": "umi-no-yurei-2-aeta", "term": "あえた", "reading": "あえた", "meaning": "만날 수 있었다", "note": "会う의 가능형 会える의 과거형입니다." },
+    { "id": "umi-no-yurei-2-wasurewashinai", "term": "忘れはしない", "reading": "わすれはしない", "meaning": "결코 잊지 않다" },
+    { "id": "umi-no-yurei-2-taisettsu", "term": "大切", "reading": "たいせつ", "meaning": "소중함, 소중한" },
+    { "id": "umi-no-yurei-2-kotoba", "term": "言葉", "reading": "ことば", "meaning": "말, 언어" },
+    { "id": "umi-no-yurei-2-subete", "term": "全て", "reading": "すべて", "meaning": "모든 것, 전부" },
+    { "id": "umi-no-yurei-2-omoigakezu", "term": "思いがけず", "reading": "おもいがけず", "meaning": "뜻밖에, 예상치 못하게" },
+    { "id": "umi-no-yurei-2-yurei", "term": "幽霊", "reading": "ゆうれい", "meaning": "유령, 귀신", "note": "여기서는 바다와 기억 속에서 예기치 않게 빛나는 존재의 이미지입니다." }
+  ],
+  "quiz": [
+    { "id": "umi-no-yurei-2-q1", "prompt": "「あえた」가 나타내는 것은?", "options": ["만나고 싶었다", "만날 수 있었다", "만나지 않았다", "만나야만 했다"], "answerIndex": 1, "explanation": "会う의 가능형 会える의 과거형이 会えた입니다. 실제로 만나는 일이 실현되었음을 나타냅니다." },
+    { "id": "umi-no-yurei-2-q2", "prompt": "「忘れはしない」가 더하는 느낌은?", "options": ["잊을지도 모른다는 추측", "결코 잊지 않겠다는 강한 의지", "잊어버리라는 명령", "이미 잊었다는 후회"], "answerIndex": 1, "explanation": "동사 ます형 어간 + は + しない는 그 행동만은 결코 하지 않겠다고 부정을 강조합니다." },
+    { "id": "umi-no-yurei-2-q3", "prompt": "「言葉にならない」와 가장 가까운 뜻은?", "options": ["말로 표현할 수 없다", "말이 점점 늘어난다", "말을 믿지 않는다", "말의 뜻을 바꾸다"], "answerIndex": 0, "explanation": "소중한 것이 ‘말’이라는 형태로 맺어지지 않는다는 말로, 표현할 수 없을 만큼 소중하다는 뜻입니다." },
+    { "id": "umi-no-yurei-2-q4", "prompt": "「夏の日に起きた全て」에서 全て를 꾸미는 부분은?", "options": ["夏の日に起きた", "夏の日に", "起きた全て", "全ての夏"], "answerIndex": 0, "explanation": "일본어는 보통형 문장을 명사 앞에 놓습니다. 「夏の日に起きた」 전체가 全て가 어떤 것인지 설명합니다." },
+    { "id": "umi-no-yurei-2-q5", "prompt": "「思いがけず」의 뜻은?", "options": ["생각한 대로", "뜻밖에", "오래 전부터", "마음껏"], "answerIndex": 1, "explanation": "思いがけず는 예상하지 못한 일이 벌어지는 모습을 나타내는 하나의 부사적 표현입니다." }
+  ]
+}
