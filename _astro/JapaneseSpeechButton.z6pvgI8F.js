@@ -1,0 +1,1 @@
+import{t as e}from"./JapaneseSpeechButton.uXzDnJc_.js";export{e as default};
