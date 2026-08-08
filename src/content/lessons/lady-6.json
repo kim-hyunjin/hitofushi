@@ -1,0 +1,32 @@
+{
+  "songSlug": "lady",
+  "lessonNumber": 6,
+  "title": "아무 말 없이 손을 잡아 줘",
+  "subtitle": "〜ないで와 〜てくれる, 〜以外",
+  "description": "말보다 손을 먼저 내밀고, 다른 누구도 생각할 수 없다는 마음으로 다시 시작하는 두 번째 후렴을 읽습니다.",
+  "estimatedMinutes": 22,
+  "sentences": [
+    {"id":"lady-6-1","original":"レディー 何も言わないで","ruby":[{"text":"レディー "},{"text":"何","reading":"なに"},{"text":"も"},{"text":"言","reading":"い"},{"text":"わないで"}],"hiragana":"れでぃー なにも いわないで","pronunciationKo":"레디이 나니모 이와나이데","translationKo":"레이디, 아무 말도 하지 말아 줘","grammarIds":["naide"],"kanjiIds":["言"]},
+    {"id":"lady-6-2","original":"ハニー 僕の手を取ってくれ","ruby":[{"text":"ハニー "},{"text":"僕","reading":"ぼく"},{"text":"の"},{"text":"手","reading":"て"},{"text":"を"},{"text":"取","reading":"と"},{"text":"ってくれ"}],"hiragana":"はにー ぼく の て を とってくれ","pronunciationKo":"하니이 보쿠노 테오 톳테쿠레","translationKo":"허니, 내 손을 잡아 줘","grammarIds":["noun-no-noun","te-kureru"],"kanjiIds":[]},
+    {"id":"lady-6-3","original":"君以外に 考えられないだけ","ruby":[{"text":"君","reading":"きみ"},{"text":"以外","reading":"いがい"},{"text":"に "},{"text":"考","reading":"かんが"},{"text":"えられないだけ"}],"hiragana":"きみ いがい に かんがえられない だけ","pronunciationKo":"키미 이가이니 칸가에라레나이다케","translationKo":"너 말고는 생각할 수 없을 뿐이야","grammarIds":["igai","potential-form"],"kanjiIds":["君"]},
+    {"id":"lady-6-4","original":"ベイビー あの頃みたいに恋がしたい","ruby":[{"text":"ベイビー あの"},{"text":"頃","reading":"ころ"},{"text":"みたいに"},{"text":"恋","reading":"こい"},{"text":"がしたい"}],"hiragana":"べいびー あのころ みたいに こい が したい","pronunciationKo":"베이비이 아노코로미타이니 코이가 시타이","translationKo":"베이비, 그 시절처럼 사랑하고 싶어","grammarIds":["mitai","verb-tai"],"kanjiIds":["恋"]},
+    {"id":"lady-6-5","original":"書き散らしていく 踊り続ける","ruby":[{"text":"書","reading":"か"},{"text":"き"},{"text":"散","reading":"ち"},{"text":"らしていく "},{"text":"踊","reading":"おど"},{"text":"り"},{"text":"続","reading":"つづ"},{"text":"ける"}],"hiragana":"かきちらしていく おどりつづける","pronunciationKo":"카키치라시테이쿠 오도리츠즈케루","translationKo":"마구 써 내려가며 계속 춤춰","grammarIds":["teiku-teku"],"kanjiIds":["書","続"]}
+  ],
+  "vocabulary": [
+    {"id":"lady-6-nanimo","term":"何も","reading":"なにも","meaning":"아무것도, 아무 말도","note":"부정형과 함께 쓰여 전면 부정을 만듭니다."},
+    {"id":"lady-6-tewotoru","term":"手を取る","reading":"てをとる","meaning":"손을 잡다"},
+    {"id":"lady-6-kureru","term":"くれる","reading":"くれる","meaning":"(나에게) 해 주다"},
+    {"id":"lady-6-igai","term":"以外","reading":"いがい","meaning":"이외, ~말고"},
+    {"id":"lady-6-kangaerareru","term":"考えられる","reading":"かんがえられる","meaning":"생각할 수 있다"},
+    {"id":"lady-6-anokoro","term":"あの頃","reading":"あのころ","meaning":"그 시절, 그때"},
+    {"id":"lady-6-odoritsuzukeru","term":"踊り続ける","reading":"おどりつづける","meaning":"계속 춤추다"},
+    {"id":"lady-6-kakichirasu","term":"書き散らす","reading":"かきちらす","meaning":"마구 써대다"}
+  ],
+  "quiz": [
+    {"id":"lady-6-q1","prompt":"「何も言わないで」의 자연스러운 뜻은?","options":["무엇이든 말해 줘","아무 말도 하지 말아 줘","말한 뒤에 와 줘","말할 수 있으면 알려 줘"],"answerIndex":1,"explanation":"何も가 부정형 言わない와 만나 ‘아무 말도 하지 않다’를 만들고, 〜ないで가 부탁을 나타냅니다."},
+    {"id":"lady-6-q2","prompt":"「取ってくれ」에 담긴 요청은?","options":["잡지 마","잡아 줘","잡을 수 있어","잡았을지도 몰라"],"answerIndex":1,"explanation":"〜てくれる의 명령형 〜てくれ는 친밀하고 직접적인 ‘~해 줘’입니다."},
+    {"id":"lady-6-q3","prompt":"「君以外に考えられない」가 강조하는 것은?","options":["모두가 가능함","상대의 유일함","생각할 필요 없음","과거의 후회"],"answerIndex":1,"explanation":"以外와 부정형이 결합해 너 말고는 누구도 생각할 수 없다고 강조합니다."},
+    {"id":"lady-6-q4","prompt":"「あの頃みたいに」는 무엇을 바라는 말인가요?","options":["그 시절과 단절하기","그 시절처럼 다시 사랑하기","그 시절을 잊기","그 시절보다 멀어지기"],"answerIndex":1,"explanation":"みたいに가 과거의 사랑과 닮은 방식으로 다시 사랑하고 싶은 마음을 나타냅니다."},
+    {"id":"lady-6-q5","prompt":"「書き散らしていく」와 「踊り続ける」의 공통된 흐름은?","options":["관계를 끝냄","앞으로도 이야기를 이어 감","과거만 지움","움직임을 멈춤"],"answerIndex":1,"explanation":"써 내려가고 계속 춤춘다는 두 동작 모두 관계가 앞으로 이어짐을 보여 줍니다."}
+  ]
+}

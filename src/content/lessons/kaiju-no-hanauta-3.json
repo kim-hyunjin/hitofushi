@@ -1,0 +1,35 @@
+{
+  "songSlug": "kaiju-no-hanauta",
+  "lessonNumber": 3,
+  "title": "기타를 든 너를 기억해",
+  "subtitle": "잊을 수 없는 마음과 결심",
+  "description": "기타를 든 너를 떠올리며 이제는 내가 노래하겠다고 말하는 절에서 가능형, 〜から, 〜てくれる를 복습합니다.",
+  "estimatedMinutes": 25,
+  "sentences": [
+    { "id": "kaiju-no-hanauta-3-1", "original": "思い出すのは君がいた", "ruby": [{ "text": "思", "reading": "おも" }, { "text": "い" }, { "text": "出", "reading": "だ" }, { "text": "すのは" }, { "text": "君", "reading": "きみ" }, { "text": "がいた" }], "hiragana": "おもいだす のは きみ が いた", "pronunciationKo": "오모이다스 노와 키미가 이타", "translationKo": "떠오르는 건, 너가 있었지", "grammarIds": ["nowa"], "kanjiIds": ["君"] },
+    { "id": "kaiju-no-hanauta-3-2", "original": "ギター持ってる君がいた", "ruby": [{ "text": "ギター" }, { "text": "持", "reading": "も" }, { "text": "ってる" }, { "text": "君", "reading": "きみ" }, { "text": "がいた" }], "hiragana": "ぎたあ もってる きみ が いた", "pronunciationKo": "기타아 못테루 키미가 이타", "translationKo": "기타를 들고 있던 너가 있었지", "grammarIds": ["teiru"], "kanjiIds": ["君"] },
+    { "id": "kaiju-no-hanauta-3-3", "original": "忘れられないんだよ", "ruby": [{ "text": "忘", "reading": "わす" }, { "text": "れられないんだよ" }], "hiragana": "わすれられないんだ よ", "pronunciationKo": "와스레라레나인다요", "translationKo": "도저히 잊을 수가 없어", "grammarIds": ["potential-form", "noda"], "kanjiIds": [] },
+    { "id": "kaiju-no-hanauta-3-4", "original": "だから僕が歌うよ", "ruby": [{ "text": "だから" }, { "text": "僕", "reading": "ぼく" }, { "text": "が" }, { "text": "歌", "reading": "うた" }, { "text": "うよ" }], "hiragana": "だから ぼく が うたう よ", "pronunciationKo": "다카라 보쿠가 우타우요", "translationKo": "그러니까 내가 노래할게", "grammarIds": ["kara"], "kanjiIds": ["歌"] },
+    { "id": "kaiju-no-hanauta-3-5", "original": "でも最後に見たいのは", "ruby": [{ "text": "でも" }, { "text": "最後", "reading": "さいご" }, { "text": "に" }, { "text": "見", "reading": "み" }, { "text": "たいのは" }], "hiragana": "でも さいご に みたい のは", "pronunciationKo": "데모 사이고니 미타이 노와", "translationKo": "하지만 마지막으로 보고 싶은 건", "grammarIds": ["verb-tai", "nowa"], "kanjiIds": ["見"] },
+    { "id": "kaiju-no-hanauta-3-6", "original": "きっともう君の夢の中", "ruby": [{ "text": "きっともう" }, { "text": "君", "reading": "きみ" }, { "text": "の" }, { "text": "夢", "reading": "ゆめ" }, { "text": "の" }, { "text": "中", "reading": "なか" }], "hiragana": "きっと もう きみ の ゆめ の なか", "pronunciationKo": "키토 모오 키미노 유메노 나카", "translationKo": "분명 이제는 너의 꿈속에", "grammarIds": ["noun-no-noun"], "kanjiIds": ["君", "夢"] },
+    { "id": "kaiju-no-hanauta-3-7", "original": "もう一度 また聞かせてくれよ", "ruby": [{ "text": "もう" }, { "text": "一度", "reading": "いちど" }, { "text": " また" }, { "text": "聞", "reading": "き" }, { "text": "かせてくれよ" }], "hiragana": "もう いちど また きかせて くれ よ", "pronunciationKo": "모오 이치도 마타 키카세테 쿠레요", "translationKo": "한 번 더, 다시 들려줘", "grammarIds": ["te-kureru"], "kanjiIds": ["聞"] },
+    { "id": "kaiju-no-hanauta-3-8", "original": "聞きたいんだ", "ruby": [{ "text": "聞", "reading": "き" }, { "text": "きたいんだ" }], "hiragana": "ききたいんだ", "pronunciationKo": "키키타인다", "translationKo": "정말 듣고 싶어", "grammarIds": ["verb-tai", "noda"], "kanjiIds": ["聞"] }
+  ],
+  "vocabulary": [
+    { "id": "kaiju-no-hanauta-3-guitar", "term": "ギター", "reading": "ぎたあ", "meaning": "기타" },
+    { "id": "kaiju-no-hanauta-3-motsu", "term": "持つ", "reading": "もつ", "meaning": "들다, 가지다" },
+    { "id": "kaiju-no-hanauta-3-motteru", "term": "持ってる", "reading": "もってる", "meaning": "들고 있다", "note": "持っている의 회화적인 축약형입니다." },
+    { "id": "kaiju-no-hanauta-3-wasureru", "term": "忘れる", "reading": "わすれる", "meaning": "잊다" },
+    { "id": "kaiju-no-hanauta-3-wasurerarenai", "term": "忘れられない", "reading": "わすれられない", "meaning": "잊을 수 없다" },
+    { "id": "kaiju-no-hanauta-3-dakara", "term": "だから", "reading": "だから", "meaning": "그러니까, 그래서" },
+    { "id": "kaiju-no-hanauta-3-boku", "term": "僕", "reading": "ぼく", "meaning": "나, 저(주로 남성이 쓰는 일칭)" },
+    { "id": "kaiju-no-hanauta-3-ichido", "term": "一度", "reading": "いちど", "meaning": "한 번" }
+  ],
+  "quiz": [
+    { "id": "kaiju-no-hanauta-3-q1", "prompt": "「持ってる」의 줄이지 않은 형태는?", "options": ["持っている", "持ってくれる", "持ちたい", "持たない"], "answerIndex": 0, "explanation": "회화와 노래에서 〜ている의 い가 빠져 〜てる로 자주 줄어듭니다." },
+    { "id": "kaiju-no-hanauta-3-q2", "prompt": "「忘れられない」의 뜻은?", "options": ["잊고 싶다", "잊을 수 없다", "잊어버렸다", "잊지 말라"], "answerIndex": 1, "explanation": "忘れる의 가능형 忘れられる을 부정하여 잊을 수 없다고 말합니다." },
+    { "id": "kaiju-no-hanauta-3-q3", "prompt": "「だから僕が歌うよ」에서 화자의 결심은?", "options": ["노래를 멈춘다", "대신 내가 노래한다", "기타를 버린다", "꿈에서 깨어난다"], "answerIndex": 1, "explanation": "잊을 수 없는 너의 노래를 이어서 자신이 부르겠다는 결심입니다." },
+    { "id": "kaiju-no-hanauta-3-q4", "prompt": "「だから」가 연결하는 관계는?", "options": ["원인과 결과", "두 대상의 비교", "가정과 후회", "시간의 순서만"], "answerIndex": 0, "explanation": "앞의 잊을 수 없는 마음이 이유가 되어, 내가 노래하겠다는 결과로 이어집니다." },
+    { "id": "kaiju-no-hanauta-3-q5", "prompt": "2절에서 화자가 구체적으로 떠올리는 모습은?", "options": ["책을 읽는 너", "기타를 든 너", "잠든 너", "혼자 걷는 너"], "answerIndex": 1, "explanation": "「ギター持ってる君がいた」가 기타를 들고 있던 너의 모습을 직접 그립니다." }
+  ]
+}

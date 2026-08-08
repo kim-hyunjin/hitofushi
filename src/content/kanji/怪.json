@@ -1,0 +1,12 @@
+{
+  "character": "怪",
+  "onyomi": ["カイ"],
+  "kunyomi": ["あやしい", "あやしむ"],
+  "basicMeaning": "괴이하다, 수상하다",
+  "wordMeaning": "怪獣（かいじゅう）에서 일상을 벗어난 괴이한 존재의 느낌을 더합니다.",
+  "mnemonic": "익숙한 세상 밖에서 정체를 알 수 없는 존재가 나타난 장면을 떠올려 보세요.",
+  "examples": [
+    { "word": "怪獣", "reading": "かいじゅう", "meaning": "괴수" },
+    { "word": "奇怪", "reading": "きかい", "meaning": "기괴함" }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "songSlug": "wasurerumaeni",
+  "lessonNumber": 7,
+  "title": "눈을 비비고 적어 두는 꿈",
+  "subtitle": "〜なら의 가정과 て형으로 이어지는 행동",
+  "description": "마지막 후렴이 미완의 움직임으로 바뀌고, 꿈에서 깬다면 잊기 전에 눈을 비비며 기록하겠다는 다짐으로 이어집니다.",
+  "estimatedMinutes": 24,
+  "sentences": [
+    {
+      "id": "wasurerumaeni-7-1", "original": "僕ら夢の中",
+      "ruby": [{ "text": "僕", "reading": "ぼく" }, { "text": "ら" }, { "text": "夢", "reading": "ゆめ" }, { "text": "の" }, { "text": "中", "reading": "なか" }],
+      "hiragana": "ぼくら ゆめ の なか", "pronunciationKo": "보쿠라 유메노 나카", "translationKo": "우리는 꿈속에 있어",
+      "grammarIds": ["noun-no-noun"], "kanjiIds": ["僕", "夢"]
+    },
+    {
+      "id": "wasurerumaeni-7-2", "original": "消えそうな灯火探して話をしている",
+      "ruby": [{ "text": "消", "reading": "き" }, { "text": "えそうな" }, { "text": "灯火", "reading": "ともしび" }, { "text": "探", "reading": "さが" }, { "text": "して" }, { "text": "話", "reading": "はなし" }, { "text": "をしている" }],
+      "hiragana": "きえそうな ともしび さがして はなし を している", "pronunciationKo": "키에소오나 토모시비 사가시테 하나시오 시테이루", "translationKo": "꺼질 듯한 불빛을 찾으며 이야기를 나누고 있어",
+      "grammarIds": ["sou-na-appearance", "te-form", "teiru"], "kanjiIds": ["灯", "探", "話"]
+    },
+    {
+      "id": "wasurerumaeni-7-3", "original": "これが夢ならば 試そうか",
+      "ruby": [{ "text": "これが" }, { "text": "夢", "reading": "ゆめ" }, { "text": "ならば " }, { "text": "試", "reading": "ため" }, { "text": "そうか" }],
+      "hiragana": "これ が ゆめ ならば ためそう か", "pronunciationKo": "코레가 유메나라바 타메소오카", "translationKo": "이게 꿈이라면 시험해 볼까",
+      "grammarIds": ["naraba", "volitional-form"], "kanjiIds": ["夢", "試"]
+    },
+    {
+      "id": "wasurerumaeni-7-4", "original": "繊細な思い出だけを引っ張り合い",
+      "ruby": [{ "text": "繊細", "reading": "せんさい" }, { "text": "な" }, { "text": "思", "reading": "おも" }, { "text": "い" }, { "text": "出", "reading": "で" }, { "text": "だけを" }, { "text": "引", "reading": "ひ" }, { "text": "っ" }, { "text": "張", "reading": "ぱ" }, { "text": "り" }, { "text": "合", "reading": "あ" }, { "text": "い" }],
+      "hiragana": "せんさいな おもいで だけを ひっぱりあい", "pronunciationKo": "센사이나 오모이데다케오 힛파리아이", "translationKo": "섬세한 추억만을 서로 잡아당기고",
+      "grammarIds": [], "kanjiIds": ["細", "思"]
+    },
+    {
+      "id": "wasurerumaeni-7-5", "original": "もしもこの夢が覚めるなら",
+      "ruby": [{ "text": "もしもこの" }, { "text": "夢", "reading": "ゆめ" }, { "text": "が" }, { "text": "覚", "reading": "さ" }, { "text": "めるなら" }],
+      "hiragana": "もしも この ゆめ が さめる なら", "pronunciationKo": "모시모 코노 유메가 사메루나라", "translationKo": "만약 이 꿈에서 깬다면",
+      "grammarIds": ["naraba"], "kanjiIds": ["夢", "覚"]
+    },
+    {
+      "id": "wasurerumaeni-7-6", "original": "目を擦り書き留めて忘れる前に",
+      "ruby": [{ "text": "目", "reading": "め" }, { "text": "を" }, { "text": "擦", "reading": "こす" }, { "text": "り" }, { "text": "書", "reading": "か" }, { "text": "き" }, { "text": "留", "reading": "と" }, { "text": "めて" }, { "text": "忘", "reading": "わす" }, { "text": "れる" }, { "text": "前", "reading": "まえ" }, { "text": "に" }],
+      "hiragana": "め を こすり かきとめて わすれる まえ に", "pronunciationKo": "메오 코스리 카키토메테 와스레루 마에니", "translationKo": "눈을 비비고 적어 두어, 잊기 전에",
+      "grammarIds": ["te-form", "mae-ni"], "kanjiIds": ["目", "留", "忘"]
+    }
+  ],
+  "vocabulary": [
+    { "id": "wasurerumaeni-7-moshimo", "term": "もしも", "reading": "もしも", "meaning": "만약, 만일" },
+    { "id": "wasurerumaeni-7-nara", "term": "〜なら", "reading": "〜なら", "meaning": "~라면" },
+    { "id": "wasurerumaeni-7-me-kosuru", "term": "目を擦る", "reading": "めをこする", "meaning": "눈을 비비다" },
+    { "id": "wasurerumaeni-7-kakitomeru", "term": "書き留める", "reading": "かきとめる", "meaning": "잊지 않도록 적어 두다" },
+    { "id": "wasurerumaeni-7-wasureru", "term": "忘れる", "reading": "わすれる", "meaning": "잊다" },
+    { "id": "wasurerumaeni-7-hippariai", "term": "引っ張り合い", "reading": "ひっぱりあい", "meaning": "서로 잡아당기며, 서로 잡아당기기" },
+    { "id": "wasurerumaeni-7-maeni", "term": "前に", "reading": "まえに", "meaning": "~하기 전에" }
+  ],
+  "quiz": [
+    { "id": "wasurerumaeni-7-q1", "prompt": "마지막 후렴의 「引っ張り合い」가 주는 효과는?", "options": ["문장을 단호하게 끝낸다", "다음 장면으로 동작을 이어 간다", "과거를 부정한다", "상대를 명령한다"], "answerIndex": 1, "explanation": "ます형 어간과 같은 引っ張り合い로 멈추어 다음의 가정과 기록 장면으로 여운 있게 이어집니다." },
+    { "id": "wasurerumaeni-7-q2", "prompt": "「もしも」와 잘 어울리는 것은?", "options": ["조건 표현 〜なら", "완료 표현 〜てしまう", "인용 표현 〜って", "금지 표현 〜な"], "answerIndex": 0, "explanation": "もしも는 가정을 강조하며 〜なら, 〜たら 같은 조건 표현과 자주 어울립니다." },
+    { "id": "wasurerumaeni-7-q3", "prompt": "「夢が覚める」의 뜻은?", "options": ["꿈을 기억하다", "꿈에서 깨다", "꿈을 꾸게 하다", "꿈을 기록하다"], "answerIndex": 1, "explanation": "覚める는 잠이나 꿈의 상태가 끝나 정신이 드는 것을 말합니다." },
+    { "id": "wasurerumaeni-7-q4", "prompt": "「書き留める」는 왜 하는 행동인가요?", "options": ["남에게 보여 주려고", "잊지 않도록 기록하려고", "글씨를 지우려고", "꿈을 끝내려고"], "answerIndex": 1, "explanation": "書き留める는 나중에 잊지 않도록 중요한 내용을 적어 두는 것입니다." },
+    { "id": "wasurerumaeni-7-q5", "prompt": "이 단원의 행동 순서로 알맞은 것은?", "options": ["잊기 → 기록하기 → 깨기", "꿈에서 깨기 → 눈을 비비고 기록하기 → 잊기", "기록하기 → 꿈꾸기 → 잊기", "눈 비비기 → 잊기 → 꿈꾸기"], "answerIndex": 1, "explanation": "꿈에서 깬다면 눈을 비비고 곧바로 적어, 완전히 잊기 전에 붙잡으려 합니다." }
+  ]
+}

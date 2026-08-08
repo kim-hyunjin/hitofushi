@@ -1,0 +1,50 @@
+{
+  "songSlug": "wasurerumaeni",
+  "lessonNumber": 5,
+  "title": "다시 붙잡는 섬세한 기억",
+  "subtitle": "반복되는 후렴으로 표현 굳히기",
+  "description": "사랑할 용기를 빈 뒤 다시 돌아오는 후렴을 읽으며 조건, 의지형, 진행 표현을 자연스럽게 익힙니다.",
+  "estimatedMinutes": 16,
+  "sentences": [
+    {
+      "id": "wasurerumaeni-5-1", "original": "僕ら夢の中",
+      "ruby": [{ "text": "僕", "reading": "ぼく" }, { "text": "ら" }, { "text": "夢", "reading": "ゆめ" }, { "text": "の" }, { "text": "中", "reading": "なか" }],
+      "hiragana": "ぼくら ゆめ の なか", "pronunciationKo": "보쿠라 유메노 나카", "translationKo": "우리는 꿈속에 있어",
+      "grammarIds": ["noun-no-noun"], "kanjiIds": ["僕", "夢"]
+    },
+    {
+      "id": "wasurerumaeni-5-2", "original": "消えそうな灯火探して話をしている",
+      "ruby": [{ "text": "消", "reading": "き" }, { "text": "えそうな" }, { "text": "灯火", "reading": "ともしび" }, { "text": "探", "reading": "さが" }, { "text": "して" }, { "text": "話", "reading": "はなし" }, { "text": "をしている" }],
+      "hiragana": "きえそうな ともしび さがして はなし を している", "pronunciationKo": "키에소오나 토모시비 사가시테 하나시오 시테이루", "translationKo": "꺼질 듯한 불빛을 찾으며 이야기를 나누고 있어",
+      "grammarIds": ["sou-na-appearance", "te-form", "teiru"], "kanjiIds": ["灯", "探", "話"]
+    },
+    {
+      "id": "wasurerumaeni-5-3", "original": "これが夢ならば 試そうか",
+      "ruby": [{ "text": "これが" }, { "text": "夢", "reading": "ゆめ" }, { "text": "ならば " }, { "text": "試", "reading": "ため" }, { "text": "そうか" }],
+      "hiragana": "これ が ゆめ ならば ためそう か", "pronunciationKo": "코레가 유메나라바 타메소오카", "translationKo": "이게 꿈이라면 시험해 볼까",
+      "grammarIds": ["naraba", "volitional-form"], "kanjiIds": ["夢", "試"]
+    },
+    {
+      "id": "wasurerumaeni-5-4", "original": "繊細な思い出だけを引っ張り合って",
+      "ruby": [{ "text": "繊細", "reading": "せんさい" }, { "text": "な" }, { "text": "思", "reading": "おも" }, { "text": "い" }, { "text": "出", "reading": "で" }, { "text": "だけを" }, { "text": "引", "reading": "ひ" }, { "text": "っ" }, { "text": "張", "reading": "ぱ" }, { "text": "り" }, { "text": "合", "reading": "あ" }, { "text": "って" }],
+      "hiragana": "せんさいな おもいで だけを ひっぱりあって", "pronunciationKo": "센사이나 오모이데다케오 힛파리앗테", "translationKo": "섬세한 추억만을 서로 잡아당기며",
+      "grammarIds": ["te-form"], "kanjiIds": ["細", "思"]
+    }
+  ],
+  "vocabulary": [
+    { "id": "wasurerumaeni-5-yumenonaka", "term": "夢の中", "reading": "ゆめのなか", "meaning": "꿈속" },
+    { "id": "wasurerumaeni-5-kieru", "term": "消える", "reading": "きえる", "meaning": "꺼지다, 사라지다" },
+    { "id": "wasurerumaeni-5-tomoshibi", "term": "灯火", "reading": "ともしび", "meaning": "등불, 희미한 불빛" },
+    { "id": "wasurerumaeni-5-tamesou", "term": "試そう", "reading": "ためそう", "meaning": "시험해 보자, 시도해 보자" },
+    { "id": "wasurerumaeni-5-omoide", "term": "思い出", "reading": "おもいで", "meaning": "추억" },
+    { "id": "wasurerumaeni-5-dake", "term": "だけ", "reading": "だけ", "meaning": "~만, ~뿐" },
+    { "id": "wasurerumaeni-5-au", "term": "〜合う", "reading": "〜あう", "meaning": "서로 ~하다", "note": "동사 어간에 붙어 서로 주고받는 동작을 나타냅니다." }
+  ],
+  "quiz": [
+    { "id": "wasurerumaeni-5-q1", "prompt": "「夢の中」에서 の의 역할은?", "options": ["두 명사를 연결한다", "과거를 만든다", "부정을 만든다", "질문을 만든다"], "answerIndex": 0, "explanation": "명사 + の + 명사 구조로 夢와 中를 연결해 ‘꿈속’이라는 뜻을 만듭니다." },
+    { "id": "wasurerumaeni-5-q2", "prompt": "「消えそう」는 어떤 상태인가요?", "options": ["반드시 이미 사라짐", "곧 사라질 듯함", "사라지지 않음", "사라지게 함"], "answerIndex": 1, "explanation": "〜そう는 겉으로 보아 어떤 일이 곧 일어날 듯한 모습을 나타냅니다." },
+    { "id": "wasurerumaeni-5-q3", "prompt": "「ならば」가 세우는 것은?", "options": ["조건과 가정", "명령", "과거 경험", "비교"], "answerIndex": 0, "explanation": "これが夢라는 상황을 가정한 뒤 試そうか라는 제안을 이어 갑니다." },
+    { "id": "wasurerumaeni-5-q4", "prompt": "「試そう」는 어떤 활용형인가요?", "options": ["부정형", "가능형", "의지형", "수동형"], "answerIndex": 2, "explanation": "試す의 의지형 試そう는 ‘시험해 보자’라는 뜻입니다." },
+    { "id": "wasurerumaeni-5-q5", "prompt": "「引っ張り合う」의 合う가 더하는 뜻은?", "options": ["갑자기 시작하다", "서로 함께 하다", "끝내 버리다", "할 수 있다"], "answerIndex": 1, "explanation": "동사 어간 + 合う는 둘 이상이 그 행동을 서로 한다는 뜻입니다." }
+  ]
+}

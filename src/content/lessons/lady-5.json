@@ -1,0 +1,36 @@
+{
+  "songSlug": "lady",
+  "lessonNumber": 5,
+  "title": "상처까지 끌어안고 사라지자",
+  "subtitle": "〜たり〜たり와 〜ふりをする, 의지형 〜よう",
+  "description": "밀고 당기고 상처받은 척하는 사랑의 여러 얼굴을 나열한 뒤, 지금 함께 사라지자고 손을 내미는 장면을 읽습니다.",
+  "estimatedMinutes": 25,
+  "sentences": [
+    {"id":"lady-5-1","original":"引っ張ったり噛み付いたり","ruby":[{"text":"引","reading":"ひ"},{"text":"っ"},{"text":"張","reading":"ぱ"},{"text":"ったり"},{"text":"噛","reading":"か"},{"text":"み"},{"text":"付","reading":"つ"},{"text":"いたり"}],"hiragana":"ひっぱったり かみついたり","pronunciationKo":"힛팟타리 카미츠이타리","translationKo":"잡아당기기도 하고 물어뜯기도 하고","grammarIds":["tari-tari"],"kanjiIds":[]},
+    {"id":"lady-5-2","original":"傷ついたふりしてみたり","ruby":[{"text":"傷","reading":"きず"},{"text":"ついたふりしてみたり"}],"hiragana":"きずついた ふり してみたり","pronunciationKo":"키즈츠이타 후리시테미타리","translationKo":"상처받은 척해 보기도 하고","grammarIds":["furi-wo-suru","te-miru","tari-tari"],"kanjiIds":["傷"]},
+    {"id":"lady-5-3","original":"明日の朝に持ち越したり","ruby":[{"text":"明日","reading":"あした"},{"text":"の"},{"text":"朝","reading":"あさ"},{"text":"に"},{"text":"持","reading":"も"},{"text":"ち"},{"text":"越","reading":"こ"},{"text":"したり"}],"hiragana":"あした の あさ に もちこしたり","pronunciationKo":"아시타노 아사니 모치코시타리","translationKo":"내일 아침으로 미루기도 하고","grammarIds":["noun-no-noun","tari-tari"],"kanjiIds":["明"]},
+    {"id":"lady-5-4","original":"浮ついたりして","ruby":[{"text":"浮","reading":"うわ"},{"text":"ついたりして"}],"hiragana":"うわついたり して","pronunciationKo":"우와츠이타리시테","translationKo":"들뜨기도 하면서","grammarIds":["tari-tari","te-form"],"kanjiIds":[]},
+    {"id":"lady-5-5","original":"思いきり傷つきたい","ruby":[{"text":"思","reading":"おも"},{"text":"いきり"},{"text":"傷","reading":"きず"},{"text":"つきたい"}],"hiragana":"おもいきり きずつきたい","pronunciationKo":"오모이키리 키즈츠키타이","translationKo":"마음껏 상처받고 싶어","grammarIds":["verb-tai"],"kanjiIds":["思","傷"]},
+    {"id":"lady-5-6","original":"いつまでもそばにいたい","ruby":[{"text":"いつまでもそばにいたい"}],"hiragana":"いつまでも そば に いたい","pronunciationKo":"이츠마데모 소바니 이타이","translationKo":"언제까지나 곁에 있고 싶어","grammarIds":["verb-tai"],"kanjiIds":[]},
+    {"id":"lady-5-7","original":"今すぐ行方をくらまそう","ruby":[{"text":"今","reading":"いま"},{"text":"すぐ"},{"text":"行方","reading":"ゆくえ"},{"text":"をくらまそう"}],"hiragana":"いますぐ ゆくえ を くらまそう","pronunciationKo":"이마스구 유쿠에오 쿠라마소오","translationKo":"지금 당장 자취를 감추자","grammarIds":["volitional-form"],"kanjiIds":["行"]},
+    {"id":"lady-5-8","original":"(Oh oh ah)","ruby":[{"text":"(Oh oh ah)"}],"hiragana":"おー おー あー","pronunciationKo":"오 오 아","translationKo":"(오 오 아)","grammarIds":[],"kanjiIds":[]}
+  ],
+  "vocabulary": [
+    {"id":"lady-5-hipparu","term":"引っ張る","reading":"ひっぱる","meaning":"잡아당기다, 끌다"},
+    {"id":"lady-5-kamitsuku","term":"噛み付く","reading":"かみつく","meaning":"달려들어 물다, 물어뜯다"},
+    {"id":"lady-5-kizutsuku","term":"傷つく","reading":"きずつく","meaning":"상처받다, 다치다"},
+    {"id":"lady-5-furi","term":"ふり","reading":"ふり","meaning":"~인 척함"},
+    {"id":"lady-5-mochikosu","term":"持ち越す","reading":"もちこす","meaning":"다음으로 넘기다, 미루다"},
+    {"id":"lady-5-uwatsuku","term":"浮つく","reading":"うわつく","meaning":"들뜨다, 마음이 흔들리다"},
+    {"id":"lady-5-omoikiri","term":"思いきり","reading":"おもいきり","meaning":"마음껏, 실컷"},
+    {"id":"lady-5-yukue","term":"行方","reading":"ゆくえ","meaning":"행방, 간 곳"},
+    {"id":"lady-5-kuramasu","term":"くらます","reading":"くらます","meaning":"감추다","note":"行方をくらます는 ‘자취를 감추다, 종적을 감추다’라는 관용 표현입니다."}
+  ],
+  "quiz": [
+    {"id":"lady-5-q1","prompt":"이어지는 여러 「〜たり」가 하는 일은?","options":["행동의 순서를 확정한다","대표적인 행동들을 나열한다","모든 행동을 금지한다","원인 하나만 고른다"],"answerIndex":1,"explanation":"〜たり〜たり는 여러 행동 가운데 대표적인 예를 느슨하게 나열합니다."},
+    {"id":"lady-5-q2","prompt":"「傷ついたふり」의 뜻은?","options":["상처를 치료함","상처받은 척함","상처를 피함","상처를 잊음"],"answerIndex":1,"explanation":"보통형 + ふり는 실제와 달리 그렇게 보이도록 행동하는 ‘~인 척’을 뜻합니다."},
+    {"id":"lady-5-q3","prompt":"「してみたり」의 〜てみる가 더하는 의미는?","options":["시험 삼아 해 보다","하지 말다","이미 끝내다","대신 해 주다"],"answerIndex":0,"explanation":"동사 て형 + みる는 어떤 행동을 직접 시도해 봄을 나타냅니다."},
+    {"id":"lady-5-q4","prompt":"「行方をくらます」는 어떤 뜻인가요?","options":["길을 묻다","목적지를 정하다","자취를 감추다","집으로 돌아오다"],"answerIndex":2,"explanation":"행방을 알 수 없게 만든다는 뜻의 관용 표현입니다."},
+    {"id":"lady-5-q5","prompt":"「くらまそう」의 의지형은 어떤 제안인가요?","options":["함께 사라지자","혼자 기다리자","내일 다시 말하자","상처를 피하자"],"answerIndex":0,"explanation":"5단 동사 くらます의 의지형 くらまそう가 함께 행동하자는 제안을 만듭니다."}
+  ]
+}

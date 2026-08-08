@@ -3,10 +3,10 @@
   "onyomi": ["ニチ", "ジツ"],
   "kunyomi": ["ひ", "か"],
   "basicMeaning": "해, 날",
-  "wordMeaning": "今日（きょう）에서 今과 함께 ‘오늘’을 나타냅니다.",
-  "mnemonic": "하늘에 떠 있는 네모난 해와 하루의 흐름을 떠올려 보세요.",
+  "wordMeaning": "今日（きょう）, 昨日（きのう）, 日々（ひび）처럼 오늘과 어제, 이어지는 나날을 나타냅니다.",
+  "mnemonic": "매일 떠오르는 네모난 해가 하루의 칸을 하나씩 채우는 모습을 떠올려 보세요.",
   "examples": [
     { "word": "今日", "reading": "きょう", "meaning": "오늘" },
-    { "word": "毎日", "reading": "まいにち", "meaning": "매일" }
+    { "word": "日々", "reading": "ひび", "meaning": "나날" }
   ]
 }

@@ -1,0 +1,54 @@
+{
+  "songSlug": "kaiju-no-hanauta",
+  "lessonNumber": 2,
+  "title": "다시 들려줘, 괴수의 노래",
+  "subtitle": "바람과 부탁을 크게 외치기",
+  "description": "다시 노래를 듣고 싶은 마음과 후렴의 외침을 통해 〜てくれる, 명령형, 〜てしまう를 배웁니다.",
+  "estimatedMinutes": 27,
+  "sentences": [
+    {
+      "id": "kaiju-no-hanauta-2-1", "original": "でも最後に見たいのは", "ruby": [{ "text": "でも" }, { "text": "最後", "reading": "さいご" }, { "text": "に" }, { "text": "見", "reading": "み" }, { "text": "たいのは" }], "hiragana": "でも さいご に みたい のは", "pronunciationKo": "데모 사이고니 미타이 노와", "translationKo": "하지만 마지막으로 보고 싶은 건", "grammarIds": ["verb-tai", "nowa"], "kanjiIds": ["見"]
+    },
+    {
+      "id": "kaiju-no-hanauta-2-2", "original": "きっともう君の夢の中", "ruby": [{ "text": "きっともう" }, { "text": "君", "reading": "きみ" }, { "text": "の" }, { "text": "夢", "reading": "ゆめ" }, { "text": "の" }, { "text": "中", "reading": "なか" }], "hiragana": "きっと もう きみ の ゆめ の なか", "pronunciationKo": "키토 모오 키미노 유메노 나카", "translationKo": "분명 이제는 너의 꿈속에", "grammarIds": ["noun-no-noun"], "kanjiIds": ["君", "夢"]
+    },
+    {
+      "id": "kaiju-no-hanauta-2-3", "original": "もう一度", "ruby": [{ "text": "もう" }, { "text": "一度", "reading": "いちど" }], "hiragana": "もう いちど", "pronunciationKo": "모오 이치도", "translationKo": "한 번 더", "grammarIds": [], "kanjiIds": []
+    },
+    {
+      "id": "kaiju-no-hanauta-2-4", "original": "また聞かせてくれよ", "ruby": [{ "text": "また" }, { "text": "聞", "reading": "き" }, { "text": "かせてくれよ" }], "hiragana": "また きかせて くれ よ", "pronunciationKo": "마타 키카세테 쿠레요", "translationKo": "다시 들려줘", "grammarIds": ["te-kureru"], "kanjiIds": ["聞"]
+    },
+    {
+      "id": "kaiju-no-hanauta-2-5", "original": "聞きたいんだ", "ruby": [{ "text": "聞", "reading": "き" }, { "text": "きたいんだ" }], "hiragana": "ききたいんだ", "pronunciationKo": "키키타인다", "translationKo": "정말 듣고 싶어", "grammarIds": ["verb-tai", "noda"], "kanjiIds": ["聞"]
+    },
+    {
+      "id": "kaiju-no-hanauta-2-6", "original": "もっと騒げ怪獣の歌", "ruby": [{ "text": "もっと" }, { "text": "騒", "reading": "さわ" }, { "text": "げ" }, { "text": "怪獣", "reading": "かいじゅう" }, { "text": "の" }, { "text": "歌", "reading": "うた" }], "hiragana": "もっと さわげ かいじゅう の うた", "pronunciationKo": "못토 사와게 카이주우노 우타", "translationKo": "더 크게 울려라, 괴수의 노래", "grammarIds": ["imperative-form", "noun-no-noun"], "kanjiIds": ["怪", "獣", "歌"]
+    },
+    {
+      "id": "kaiju-no-hanauta-2-7", "original": "まだ消えない 夢の歌唱えて", "ruby": [{ "text": "まだ" }, { "text": "消", "reading": "き" }, { "text": "えない " }, { "text": "夢", "reading": "ゆめ" }, { "text": "の" }, { "text": "歌", "reading": "うた" }, { "text": "唱", "reading": "とな" }, { "text": "えて" }], "hiragana": "まだ きえない ゆめ の うた となえて", "pronunciationKo": "마다 키에나이 유메노 우타 토나에테", "translationKo": "아직 사라지지 않은 꿈의 노래를 불러 줘", "grammarIds": ["te-form", "noun-no-noun"], "kanjiIds": ["消", "夢", "歌"]
+    },
+    {
+      "id": "kaiju-no-hanauta-2-8", "original": "君がいつも歌う怪獣の歌", "ruby": [{ "text": "君", "reading": "きみ" }, { "text": "がいつも" }, { "text": "歌", "reading": "うた" }, { "text": "う" }, { "text": "怪獣", "reading": "かいじゅう" }, { "text": "の" }, { "text": "歌", "reading": "うた" }], "hiragana": "きみ が いつも うたう かいじゅう の うた", "pronunciationKo": "키미가 이츠모 우타우 카이주우노 우타", "translationKo": "너가 언제나 부르던 괴수의 노래", "grammarIds": ["noun-no-noun"], "kanjiIds": ["君", "歌", "怪", "獣"]
+    },
+    {
+      "id": "kaiju-no-hanauta-2-9", "original": "まだ消えない 口ずさんでしまうよ", "ruby": [{ "text": "まだ" }, { "text": "消", "reading": "き" }, { "text": "えない " }, { "text": "口", "reading": "くち" }, { "text": "ずさんでしまうよ" }], "hiragana": "まだ きえない くちずさんで しまう よ", "pronunciationKo": "마다 키에나이 쿠치즈산데 시마우요", "translationKo": "아직 사라지지 않아, 나도 모르게 흥얼거리게 돼", "grammarIds": ["te-shimau"], "kanjiIds": ["消", "口"]
+    }
+  ],
+  "vocabulary": [
+    { "id": "kaiju-no-hanauta-2-saigo", "term": "最後", "reading": "さいご", "meaning": "마지막" },
+    { "id": "kaiju-no-hanauta-2-yume-no-naka", "term": "夢の中", "reading": "ゆめのなか", "meaning": "꿈속" },
+    { "id": "kaiju-no-hanauta-2-kikaseru", "term": "聞かせる", "reading": "きかせる", "meaning": "들려주다" },
+    { "id": "kaiju-no-hanauta-2-sawagu", "term": "騒ぐ", "reading": "さわぐ", "meaning": "떠들다, 소란스럽게 하다" },
+    { "id": "kaiju-no-hanauta-2-kaiju", "term": "怪獣", "reading": "かいじゅう", "meaning": "괴수" },
+    { "id": "kaiju-no-hanauta-2-kieru", "term": "消える", "reading": "きえる", "meaning": "사라지다, 꺼지다" },
+    { "id": "kaiju-no-hanauta-2-tonaeru", "term": "唱える", "reading": "となえる", "meaning": "소리 내어 외우다, 부르다" },
+    { "id": "kaiju-no-hanauta-2-kuchizusamu", "term": "口ずさむ", "reading": "くちずさむ", "meaning": "흥얼거리다" }
+  ],
+  "quiz": [
+    { "id": "kaiju-no-hanauta-2-q1", "prompt": "「聞かせてくれよ」의 뜻은?", "options": ["듣지 마", "다시 들려줘", "들었어", "듣고 싶지 않아"], "answerIndex": 1, "explanation": "聞かせる에 〜てくれ가 붙어 화자를 위해 들려 달라는 요청이 됩니다." },
+    { "id": "kaiju-no-hanauta-2-q2", "prompt": "「騒げ」의 동사 원형은?", "options": ["騒ぐ", "消える", "唱える", "探す"], "answerIndex": 0, "explanation": "5단 동사 騒ぐ의 끝 ぐ를 げ로 바꾸면 명령형 騒げ가 됩니다." },
+    { "id": "kaiju-no-hanauta-2-q3", "prompt": "「まだ消えない」에 가장 가까운 뜻은?", "options": ["이미 사라졌다", "아직 사라지지 않았다", "곧 사라질 것이다", "사라지게 해 달라"], "answerIndex": 1, "explanation": "まだ와 부정형이 함께 쓰이면 아직 그 상태가 끝나지 않았음을 나타냅니다." },
+    { "id": "kaiju-no-hanauta-2-q4", "prompt": "「口ずさんでしまう」의 느낌은?", "options": ["의도적으로 노래를 멈춘다", "나도 모르게 흥얼거리게 된다", "연주를 시작한다", "노래를 잊었다"], "answerIndex": 1, "explanation": "〜てしまう가 의지와 상관없이 그렇게 되어 버린 느낌을 더합니다." },
+    { "id": "kaiju-no-hanauta-2-q5", "prompt": "후렴에서 「怪獣の歌」는 무엇으로 남아 있나요?", "options": ["사라진 대화", "계속 떠오르고 흥얼거리게 되는 기억", "새로 배운 언어", "버려진 기타"], "answerIndex": 1, "explanation": "사라지지 않은 노래가 화자 안에 남아 자연스럽게 흥얼거리게 합니다." }
+  ]
+}

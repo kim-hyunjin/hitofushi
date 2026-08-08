@@ -1,0 +1,65 @@
+{
+  "songSlug": "shukumei",
+  "lessonNumber": 1,
+  "title": "심장에서 터져 나온 목소리",
+  "subtitle": "〜から와 동사 어간 + 出す",
+  "description": "서로 다른 목소리가 한 멜로디로 합쳐져 군청색 하늘에 울리는 첫 장면을 읽습니다.",
+  "estimatedMinutes": 20,
+  "sentences": [
+    {
+      "id": "shukumei-1-1",
+      "original": "心臓からあふれ出した声で",
+      "ruby": [{"text":"心臓","reading":"しんぞう"},{"text":"からあふれ"},{"text":"出","reading":"だ"},{"text":"した"},{"text":"声","reading":"こえ"},{"text":"で"}],
+      "hiragana": "しんぞう から あふれだした こえ で",
+      "pronunciationKo": "신조오카라 아후레다시타 코에데",
+      "translationKo": "심장에서 흘러넘쳐 나온 목소리로",
+      "grammarIds": ["kara", "verb-stem-dasu"],
+      "kanjiIds": ["心", "声"]
+    },
+    {
+      "id": "shukumei-1-2",
+      "original": "歌うメロディ 振り向いた未来",
+      "ruby": [{"text":"歌","reading":"うた"},{"text":"うメロディ "},{"text":"振","reading":"ふ"},{"text":"り"},{"text":"向","reading":"む"},{"text":"いた"},{"text":"未来","reading":"みらい"}],
+      "hiragana": "うたう めろでぃ ふりむいた みらい",
+      "pronunciationKo": "우타우 메로디 후리무이타 미라이",
+      "translationKo": "노래하는 멜로디, 뒤돌아본 미래",
+      "grammarIds": [],
+      "kanjiIds": ["歌", "未", "来"]
+    },
+    {
+      "id": "shukumei-1-3",
+      "original": "君から あふれ出した声と",
+      "ruby": [{"text":"君","reading":"きみ"},{"text":"から あふれ"},{"text":"出","reading":"だ"},{"text":"した"},{"text":"声","reading":"こえ"},{"text":"と"}],
+      "hiragana": "きみ から あふれだした こえ と",
+      "pronunciationKo": "키미카라 아후레다시타 코에토",
+      "translationKo": "너에게서 흘러넘쳐 나온 목소리와",
+      "grammarIds": ["kara", "verb-stem-dasu"],
+      "kanjiIds": ["君", "声"]
+    },
+    {
+      "id": "shukumei-1-4",
+      "original": "合わさって響いた 群青の空の下",
+      "ruby": [{"text":"合","reading":"あ"},{"text":"わさって"},{"text":"響","reading":"ひび"},{"text":"いた "},{"text":"群青","reading":"ぐんじょう"},{"text":"の"},{"text":"空","reading":"そら"},{"text":"の"},{"text":"下","reading":"した"}],
+      "hiragana": "あわさって ひびいた ぐんじょう の そら の した",
+      "pronunciationKo": "아와삿테 히비이타 군조오노 소라노 시타",
+      "translationKo": "한데 어우러져 울려 퍼졌어, 군청색 하늘 아래",
+      "grammarIds": ["te-form", "noun-no-noun"],
+      "kanjiIds": ["合", "空"]
+    }
+  ],
+  "vocabulary": [
+    {"id":"shukumei-1-shinzou","term":"心臓","reading":"しんぞう","meaning":"심장"},
+    {"id":"shukumei-1-afuredasu","term":"あふれ出す","reading":"あふれだす","meaning":"넘쳐흐르기 시작하다, 쏟아져 나오다"},
+    {"id":"shukumei-1-koe","term":"声","reading":"こえ","meaning":"목소리"},
+    {"id":"shukumei-1-furimuku","term":"振り向く","reading":"ふりむく","meaning":"뒤돌아보다"},
+    {"id":"shukumei-1-mirai","term":"未来","reading":"みらい","meaning":"미래"},
+    {"id":"shukumei-1-hibiku","term":"響く","reading":"ひびく","meaning":"울리다, 메아리치다"},
+    {"id":"shukumei-1-gunjou","term":"群青","reading":"ぐんじょう","meaning":"군청색, 짙은 파란색"}
+  ],
+  "quiz": [
+    {"id":"shukumei-1-q1","prompt":"「心臓から」의 から가 나타내는 것은?","options":["출발점","목적지","비교","양보"],"answerIndex":0,"explanation":"장소나 근원을 나타내는 から로, 목소리가 심장에서 솟아남을 그립니다."},
+    {"id":"shukumei-1-q2","prompt":"「あふれ出した」의 느낌으로 가장 알맞은 것은?","options":["조용히 멈췄다","갑자기 밖으로 쏟아져 나오기 시작했다","안으로 숨겼다","다시 되돌렸다"],"answerIndex":1,"explanation":"동사 어간 + 出す는 움직임이나 변화가 힘 있게 시작되는 순간을 나타냅니다."},
+    {"id":"shukumei-1-q3","prompt":"두 목소리는 결국 어떻게 되나요?","options":["서로 멀어진다","침묵한다","합쳐져 하늘 아래 울린다","각자 다른 노래를 부른다"],"answerIndex":2,"explanation":"君의 목소리와 화자의 목소리가 合わさって 하나의 울림이 됩니다."},
+    {"id":"shukumei-1-q4","prompt":"「群青」는 어떤 색인가요?","options":["밝은 노랑","짙은 파랑","연한 분홍","회색"],"answerIndex":1,"explanation":"群青은 깊고 선명한 푸른색을 가리킵니다."}
+  ]
+}

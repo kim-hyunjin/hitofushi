@@ -70,8 +70,48 @@ export const songs: SongDefinition[] = [
     youtubeVideoId: 'TGz8AXN3gLA',
   },
   {
-    slug: 'umi-no-yurei',
+    slug: 'lady',
     sequence: 7,
+    title: 'LADY',
+    artist: '米津玄師',
+    kicker: '익숙한 하루를 다시 사랑하는 방법',
+    description:
+      '서로를 너무 잘 아는 두 사람이 평범한 일상을 오가며 다시 사랑을 써 내려가는 마음을 따라갑니다.',
+    youtubeVideoId: 'DdF-u3fe5pg',
+  },
+  {
+    slug: 'kaiju-no-hanauta',
+    sequence: 8,
+    title: '怪獣の花唄',
+    artist: 'Vaundy',
+    kicker: '사라지지 않는 노래와 청춘의 기억',
+    description:
+      '모습을 감춘 친구의 노래와 잠들지 못한 밤에 빛나던 시간을 따라갑니다.',
+    youtubeVideoId: 'UM9XNpgrqVk',
+  },
+  {
+    slug: 'shukumei',
+    sequence: 9,
+    title: '宿命',
+    artist: 'Official髭男dism',
+    kicker: '운명이 아니라도 스스로 불태우는 오늘',
+    description:
+      '불안과 기대의 무게를 끌어안고, 동료와 서로를 비추며 숙명에 맞서는 뜨거운 응원가를 따라갑니다.',
+    youtubeVideoId: '-kgOFJG881I',
+  },
+  {
+    slug: 'wasurerumaeni',
+    sequence: 10,
+    title: '忘れる前に',
+    artist: 'Vaundy',
+    kicker: '꿈이 사라지기 전에 붙잡는 기억',
+    description:
+      '꿈속에서 희미해지는 사랑과 기억을 더듬어 찾고, 완전히 잊기 전에 붙잡으려는 마음을 따라갑니다.',
+    youtubeVideoId: 'Hy7GWPkrZv0',
+  },
+  {
+    slug: 'umi-no-yurei',
+    sequence: 11,
     title: '海の幽霊',
     artist: '米津玄師',
     kicker: '바다와 여름빛에 남은 재회의 기억',
