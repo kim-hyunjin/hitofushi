@@ -1,0 +1,12 @@
+{
+  "character": "誰",
+  "onyomi": ["スイ"],
+  "kunyomi": ["だれ", "たれ"],
+  "basicMeaning": "누구",
+  "wordMeaning": "誰もいない（だれもいない）에서는 부정형과 호응해 ‘아무도 없다’를 나타냅니다.",
+  "mnemonic": "말을 건네며 저 사람이 누구인지 묻는 장면을 떠올려 보세요.",
+  "examples": [
+    { "word": "誰", "reading": "だれ", "meaning": "누구" },
+    { "word": "誰か", "reading": "だれか", "meaning": "누군가" }
+  ]
+}

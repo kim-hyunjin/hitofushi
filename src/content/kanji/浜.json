@@ -1,0 +1,12 @@
+{
+  "character": "浜",
+  "onyomi": ["ヒン"],
+  "kunyomi": ["はま"],
+  "basicMeaning": "바닷가, 물가",
+  "wordMeaning": "砂浜（すなはま）에서 はま로 읽으며, 바다와 육지가 만나는 모래 해변을 나타냅니다.",
+  "mnemonic": "파도가 모래와 만나는 바닷가 경계를 떠올려 보세요.",
+  "examples": [
+    { "word": "砂浜", "reading": "すなはま", "meaning": "모래사장" },
+    { "word": "海浜", "reading": "かいひん", "meaning": "해변" }
+  ]
+}

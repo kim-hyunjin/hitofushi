@@ -109,6 +109,16 @@ export const songs: SongDefinition[] = [
       '꿈속에서 희미해지는 사랑과 기억을 더듬어 찾고, 완전히 잊기 전에 붙잡으려는 마음을 따라갑니다.',
     youtubeVideoId: 'Hy7GWPkrZv0',
   },
+  {
+    slug: 'umi-no-yurei',
+    sequence: 11,
+    title: '海の幽霊',
+    artist: '米津玄師',
+    kicker: '바다와 여름빛에 남은 재회의 기억',
+    description:
+      '아무도 없는 방에서 향긋한 바람의 모래사장까지, 말로 표현할 수 없는 소중한 여름의 기억과 재회의 약속을 따라갑니다.',
+    youtubeVideoId: '1s84rIhPuhk',
+  },
 ];
 
 export function getSong(slug: string) {

@@ -1,1 +1,13 @@
-{"character":"幸","onyomi":["コウ"],"kunyomi":["しあわせ","さいわい"],"basicMeaning":"행복, 다행","wordMeaning":"不幸（ふこう）에서는 부정의 不와 결합해 행복하지 않은 상태를 나타냅니다.","mnemonic":"두 손으로 놓치고 싶지 않은 작은 행복을 꼭 붙드는 모습을 떠올려 보세요.","examples":[{"word":"幸せ","reading":"しあわせ","meaning":"행복"},{"word":"不幸","reading":"ふこう","meaning":"불행"}]}
+{
+  "character": "幸",
+  "onyomi": ["コウ"],
+  "kunyomi": ["しあわせ", "さいわい"],
+  "basicMeaning": "행복, 다행",
+  "wordMeaning": "幸せ（しあわせ）는 행복한 상태를 나타내며, 不幸（ふこう）에서는 부정의 不와 결합해 행복하지 않은 상태를 나타냅니다.",
+  "mnemonic": "두 손으로 놓치고 싶지 않은 행복을 꼭 붙들고 크게 외치는 모습을 떠올려 보세요.",
+  "examples": [
+    { "word": "幸せ", "reading": "しあわせ", "meaning": "행복" },
+    { "word": "幸運", "reading": "こううん", "meaning": "행운" },
+    { "word": "不幸", "reading": "ふこう", "meaning": "불행" }
+  ]
+}

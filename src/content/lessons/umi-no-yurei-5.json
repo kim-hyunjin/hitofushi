@@ -1,0 +1,75 @@
+{
+  "songSlug": "umi-no-yurei",
+  "lessonNumber": 5,
+  "title": "향긋한 바람의 모래사장",
+  "subtitle": "반복과 〜ましょう로 재회 약속하기",
+  "description": "그때와 여름의 모든 기억을 다시 가슴에 새기고, 향긋한 바람이 부는 모래사장에서의 재회를 약속하며 노래를 마무리합니다.",
+  "estimatedMinutes": 22,
+  "sentences": [
+    {
+      "id": "umi-no-yurei-5-1",
+      "original": "あのときを忘れはしない",
+      "ruby": [{ "text": "あのときを" }, { "text": "忘", "reading": "わす" }, { "text": "れはしない" }],
+      "hiragana": "あの とき を わすれはしない",
+      "pronunciationKo": "아노 토키오 와스레와 시나이",
+      "translationKo": "그때를 결코 잊지 않아",
+      "grammarIds": ["verb-stem-wa-shinai"],
+      "kanjiIds": ["忘"]
+    },
+    {
+      "id": "umi-no-yurei-5-2",
+      "original": "大切なことは言葉にならない",
+      "ruby": [{ "text": "大切", "reading": "たいせつ" }, { "text": "なことは" }, { "text": "言葉", "reading": "ことば" }, { "text": "にならない" }],
+      "hiragana": "たいせつな こと は ことば に ならない",
+      "pronunciationKo": "타이세츠나 코토와 코토바니 나라나이",
+      "translationKo": "소중한 것은 말이 되지 않아",
+      "grammarIds": ["noun-ni-naru"],
+      "kanjiIds": []
+    },
+    {
+      "id": "umi-no-yurei-5-3",
+      "original": "夏の日に起きた全て",
+      "ruby": [{ "text": "夏", "reading": "なつ" }, { "text": "の" }, { "text": "日", "reading": "ひ" }, { "text": "に" }, { "text": "起", "reading": "お" }, { "text": "きた" }, { "text": "全", "reading": "すべ" }, { "text": "て" }],
+      "hiragana": "なつ の ひ に おきた すべて",
+      "pronunciationKo": "나츠노 히니 오키타 스베테",
+      "translationKo": "여름날에 일어난 모든 것",
+      "grammarIds": ["noun-no-noun", "relative-clause"],
+      "kanjiIds": ["夏", "日"]
+    },
+    {
+      "id": "umi-no-yurei-5-4",
+      "original": "思いがけず光るのは 海の幽霊",
+      "ruby": [{ "text": "思", "reading": "おも" }, { "text": "いがけず" }, { "text": "光", "reading": "ひか" }, { "text": "るのは " }, { "text": "海", "reading": "うみ" }, { "text": "の" }, { "text": "幽霊", "reading": "ゆうれい" }],
+      "hiragana": "おもいがけず ひかる のは うみ の ゆうれい",
+      "pronunciationKo": "오모이가케즈 히카루노와 우미노 유우레이",
+      "translationKo": "뜻밖에 빛나는 것은 바다의 유령",
+      "grammarIds": ["nowa", "noun-no-noun"],
+      "kanjiIds": ["思", "光", "海", "幽", "霊"]
+    },
+    {
+      "id": "umi-no-yurei-5-5",
+      "original": "風薫る砂浜で また会いましょう",
+      "ruby": [{ "text": "風", "reading": "かぜ" }, { "text": "薫", "reading": "かお" }, { "text": "る" }, { "text": "砂浜", "reading": "すなはま" }, { "text": "で また" }, { "text": "会", "reading": "あ" }, { "text": "いましょう" }],
+      "hiragana": "かぜ かおる すなはま で また あいましょう",
+      "pronunciationKo": "카제 카오루 스나하마데 마타 아이마쇼오",
+      "translationKo": "향긋한 바람이 부는 모래사장에서 다시 만나요",
+      "grammarIds": ["relative-clause", "volitional-form"],
+      "kanjiIds": ["風", "砂", "浜", "会"]
+    }
+  ],
+  "vocabulary": [
+    { "id": "umi-no-yurei-5-anotoki", "term": "あのとき", "reading": "あのとき", "meaning": "그때" },
+    { "id": "umi-no-yurei-5-natsunohi", "term": "夏の日", "reading": "なつのひ", "meaning": "여름날" },
+    { "id": "umi-no-yurei-5-kazekaoru", "term": "風薫る", "reading": "かぜかおる", "meaning": "향긋한 바람이 불다", "note": "초여름의 신선한 바람이 식물의 향기를 싣어 나르는 듯한 시적 표현입니다." },
+    { "id": "umi-no-yurei-5-sunahama", "term": "砂浜", "reading": "すなはま", "meaning": "모래사장, 모래밭 해변" },
+    { "id": "umi-no-yurei-5-mata", "term": "また", "reading": "また", "meaning": "다시, 또" },
+    { "id": "umi-no-yurei-5-aimashou", "term": "会いましょう", "reading": "あいましょう", "meaning": "만나요, 만납시다", "note": "会う의 정중한 의지형으로, 재회를 부드럽게 제안합니다." }
+  ],
+  "quiz": [
+    { "id": "umi-no-yurei-5-q1", "prompt": "마지막 후렴에서 「あの夜」 대신 쓴 말은?", "options": ["あのとき", "この夜", "夏の風", "あの船"], "answerIndex": 0, "explanation": "마지막에는 「あのときを忘れはしない」라고 하여, 한 밤에서 만남의 시간 전체로 기억의 범위가 넓어집니다." },
+    { "id": "umi-no-yurei-5-q2", "prompt": "「起きた全て」의 어순을 한국어에 가깝게 바꾸면?", "options": ["모든 것이 일어났다", "일어난 모든 것", "일어나지 않은 것", "모든 날에 일어났다"], "answerIndex": 1, "explanation": "과거형 起きた가 명사 全て를 앞에서 꾸며 ‘일어난 모든 것’이 됩니다." },
+    { "id": "umi-no-yurei-5-q3", "prompt": "「風薫る」가 전하는 감각과 가장 가까운 것은?", "options": ["향긋하고 신선한 바람", "모래를 휘감는 태풍", "얼음처럼 차가운 바람", "바람이 완전히 멈춘 상태"], "answerIndex": 0, "explanation": "風薫る는 꽃이나 연한 잎의 향기를 품은 듯한 초여름의 상쾌한 바람을 느끼게 하는 표현입니다." },
+    { "id": "umi-no-yurei-5-q4", "prompt": "「風薫る砂浜」에서 꾸밈을 받는 명사는?", "options": ["風", "薫る", "砂浜", "また"], "answerIndex": 2, "explanation": "「風が薫る」의 조사 が가 시적으로 생략되었고, 그 문장이 명사 砂浜를 앞에서 꾸믹니다." },
+    { "id": "umi-no-yurei-5-q5", "prompt": "「また会いましょう」에 담긴 화자의 의도는?", "options": ["재회를 정중하게 제안한다", "만남을 금지한다", "이미 만났다고 회상한다", "만날 수 없다고 포기한다"], "answerIndex": 0, "explanation": "〜ましょう는 ます형의 의지 표현으로, 상대에게 함께할 행동을 정중하게 제안합니다." }
+  ]
+}
