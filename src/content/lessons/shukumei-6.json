@@ -10,8 +10,8 @@
     {"id":"shukumei-6-2","original":"期待背負って立って 重さに臆病になるけど","ruby":[{"text":"期待","reading":"きたい"},{"text":"背負","reading":"せお"},{"text":"って"},{"text":"立","reading":"た"},{"text":"って "},{"text":"重","reading":"おも"},{"text":"さに"},{"text":"臆病","reading":"おくびょう"},{"text":"になるけど"}],"hiragana":"きたい せおって たって おもさ に おくびょう に なる けど","pronunciationKo":"키타이 세옷테 탓테 오모사니 오쿠뵤오니 나루케도","translationKo":"기대를 짊어지고 서서 그 무게에 겁이 나기도 하지만","grammarIds":["te-form","kedo"],"kanjiIds":["重"]},
     {"id":"shukumei-6-3","original":"僕らの背番号 それは背中じゃなく 瞳の奥のアンサー","ruby":[{"text":"僕","reading":"ぼく"},{"text":"らの"},{"text":"背番号","reading":"せばんごう"},{"text":" それは"},{"text":"背中","reading":"せなか"},{"text":"じゃなく "},{"text":"瞳","reading":"ひとみ"},{"text":"の"},{"text":"奥","reading":"おく"},{"text":"のアンサー"}],"hiragana":"ぼくら の せばんごう それ は せなか じゃなく ひとみ の おく の あんさー","pronunciationKo":"보쿠라노 세방고오 소레와 세나카자나쿠 히토미노 오쿠노 안사아","translationKo":"우리의 등번호, 그것은 등이 아니라 눈동자 깊은 곳의 답",
       "grammarIds":["janakute","noun-no-noun"],"kanjiIds":["僕","瞳"]},
-    {"id":"shukumei-6-4","original":"重なって 照らし合ってく forever","ruby":[{"text":"重","reading":"かさ"},{"text":"なって "},{"text":"照","reading":"て"},{"text":"らし"},{"text":"合","reading":"あ"},{"text":"ってく forever"}],"hiragana":"かさなって てらしあってく ふぉーえばー","pronunciationKo":"카사낫테 테라시앗테쿠 포에바아","translationKo":"겹쳐져 서로를 비춰 가, 영원히",
-      "grammarIds":["te-form","verb-stem-au","teiku-teku"],"kanjiIds":["重","合"]}
+    {"id":"shukumei-6-4","original":"重なって 照らしあってくFOREVER","ruby":[{"text":"重","reading":"かさ"},{"text":"なって "},{"text":"照","reading":"て"},{"text":"らしあってくFOREVER"}],"hiragana":"かさなって てらしあってく ふぉーえばー","pronunciationKo":"카사낫테 테라시앗테쿠 포에바아","translationKo":"겹쳐져 서로를 비춰 가, 영원히",
+      "grammarIds":["te-form","verb-stem-au","teiku-teku"],"kanjiIds":["重"]}
   ],
   "vocabulary": [
     {"id":"shukumei-6-negai","term":"願い","reading":"ねがい","meaning":"소원, 바람"},
@@ -20,7 +20,7 @@
     {"id":"shukumei-6-okubyou","term":"臆病","reading":"おくびょう","meaning":"겁이 많음, 겁쟁이임"},
     {"id":"shukumei-6-sebangou","term":"背番号","reading":"せばんごう","meaning":"등번호"},
     {"id":"shukumei-6-hitomi","term":"瞳","reading":"ひとみ","meaning":"눈동자"},
-    {"id":"shukumei-6-terashiau","term":"照らし合う","reading":"てらしあう","meaning":"서로를 비추다"}
+    {"id":"shukumei-6-terashiau","term":"照らしあう","reading":"てらしあう","meaning":"서로를 비추다"}
   ],
   "quiz": [
     {"id":"shukumei-6-q1","prompt":"「汗まみれ」는 어떤 상태인가요?","options":["땀이 전혀 나지 않음","온몸이 땀에 뒤덮임","물을 마심","옷을 갈아입음"],"answerIndex":1,"explanation":"〜まみれ는 액체나 가루 등이 몸이나 표면에 잔뜩 묻은 상태입니다."},

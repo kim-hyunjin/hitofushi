@@ -3,19 +3,19 @@
   "lessonNumber": 4,
   "title": "잊지 않기 위해 세운 맹세",
   "subtitle": "회화 축약 〜てんだ와 목적의 〜ように",
-  "description": "두 사람이 말과 맹세를 스스로에게 부과하며 깨지지 않고 잊히지 않을 사랑을 노래하는 대목입니다.",
+  "description": "두 사람이 말과 맹세를 스스로에게 부과하며 잊지 않을 사랑을 노래하는 대목입니다.",
   "estimatedMinutes": 20,
   "sentences": [
     {
-      "id": "odoriko-4-1", "original": "ah、思いを蹴って 二人でしてんだ",
-      "ruby": [{ "text": "ah、" }, { "text": "思", "reading": "おも" }, { "text": "いを" }, { "text": "蹴", "reading": "け" }, { "text": "って " }, { "text": "二人", "reading": "ふたり" }, { "text": "でしてんだ" }],
-      "hiragana": "おもい を けって ふたり で してんだ", "pronunciationKo": "아, 오모이오 켓테 후타리데 시텐다", "translationKo": "아, 마음을 걷어차고 둘이서 그러고 있어",
+      "id": "odoriko-4-1", "original": "思いを蹴って 二人でしてんだ",
+      "ruby": [{ "text": "思", "reading": "おも" }, { "text": "いを" }, { "text": "蹴", "reading": "け" }, { "text": "って " }, { "text": "二人", "reading": "ふたり" }, { "text": "でしてんだ" }],
+      "hiragana": "おもい を けって ふたり で してんだ", "pronunciationKo": "오모이오 켓테 후타리데 시텐다", "translationKo": "마음을 걷어차고 둘이서 그러고 있어",
       "grammarIds": ["te-form", "nda-contraction"], "kanjiIds": []
     },
     {
       "id": "odoriko-4-2", "original": "壊れない愛を歌う",
-      "ruby": [{ "text": "壊", "reading": "こわ" }, { "text": "れない" }, { "text": "愛", "reading": "あい" }, { "text": "を" }, { "text": "歌", "reading": "うた" }, { "text": "う" }],
-      "hiragana": "こわれない あい を うたう", "pronunciationKo": "코와레나이 아이오 우타우", "translationKo": "깨지지 않는 사랑을 노래해",
+      "ruby": [{ "text": "壊", "reading": "わす" }, { "text": "れない" }, { "text": "愛", "reading": "あい" }, { "text": "を" }, { "text": "歌", "reading": "うた" }, { "text": "う" }],
+      "hiragana": "わすれない あい を うたう", "pronunciationKo": "와스레나이 아이오 우타우", "translationKo": "잊지 않을 사랑을 노래해",
       "grammarIds": [], "kanjiIds": ["愛", "歌"]
     },
     {
@@ -40,7 +40,7 @@
   "vocabulary": [
     { "id": "odoriko-4-omoi", "term": "思い", "reading": "おもい", "meaning": "마음, 생각, 감정" },
     { "id": "odoriko-4-keru", "term": "蹴る", "reading": "ける", "meaning": "차다, 걷어차다" },
-    { "id": "odoriko-4-kowareru", "term": "壊れる", "reading": "こわれる", "meaning": "깨지다, 망가지다" },
+    { "id": "odoriko-4-wasureru", "term": "壊(わす)れない", "reading": "わすれない", "meaning": "잊지 않다", "note": "표기는 壊를 쓰지만 이 가사에서는 忘れない와 같은 わすれない로 읽는 특수 독음입니다." },
     { "id": "odoriko-4-utau", "term": "歌う", "reading": "うたう", "meaning": "노래하다" },
     { "id": "odoriko-4-kasu", "term": "課す", "reading": "かす", "meaning": "부과하다, 과하다" },
     { "id": "odoriko-4-chikai", "term": "誓い", "reading": "ちかい", "meaning": "맹세" },
@@ -48,7 +48,7 @@
   ],
   "quiz": [
     { "id": "odoriko-4-q1", "prompt": "「してんだ」를 풀어 쓴 형태는?", "options": ["しているんだ", "してみたい", "してはいけない", "しておいた"], "answerIndex": 0, "explanation": "회화와 노래에서는 しているんだ가 してんだ로 압축되기도 합니다." },
-    { "id": "odoriko-4-q2", "prompt": "「壊れない愛」의 뜻은?", "options": ["잊은 사랑", "깨지지 않는 사랑", "끝난 사랑", "숨겨 둔 사랑"], "answerIndex": 1, "explanation": "壊れる는 ‘깨지다’이고, 壊れない는 그 부정형입니다. 뒤의 忘れない와 소리가 비슷해 의미가 이어집니다." },
+    { "id": "odoriko-4-q2", "prompt": "가사의 「壊れない」는 어떻게 읽나요?", "options": ["わすれない", "こわれない", "きえない", "おわれない"], "answerIndex": 0, "explanation": "표기는 壊를 쓰지만 わすれない로 읽습니다. 이어지는 忘れない와 소리를 겹친 특수한 가사 표현입니다." },
     { "id": "odoriko-4-q3", "prompt": "「言葉を二人に課して」에서 に가 가리키는 것은?", "options": ["말의 출발점", "말을 부과받는 대상", "노래하는 장소", "맹세한 시간"], "answerIndex": 1, "explanation": "課す와 함께 쓰인 に는 의무나 과제를 부과받는 대상을 표시합니다." },
     { "id": "odoriko-4-q4", "prompt": "「誓いをたてる」와 가장 가까운 뜻은?", "options": ["맹세를 깨다", "맹세하다", "말을 잊다", "노래를 멈추다"], "answerIndex": 1, "explanation": "誓いを立てる는 문자 그대로 ‘맹세를 세우다’, 자연스럽게는 ‘맹세하다’라는 관용 표현입니다." },
     { "id": "odoriko-4-q5", "prompt": "마지막 「ように」가 나타내는 것은?", "options": ["비교", "목적과 바람", "과거 경험", "강한 명령"], "answerIndex": 1, "explanation": "여기서는 잊지 않을 사랑을 계속 노래하게 되기를 바라는 목적과 소망을 나타냅니다." }

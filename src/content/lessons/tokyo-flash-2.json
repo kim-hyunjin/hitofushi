@@ -50,11 +50,9 @@
     },
     {
       "id": "tokyo-flash-2-4",
-      "original": "AGE越しの性愛者でいいの",
+      "original": "AGEごしの性愛者でいいの",
       "ruby": [
-        { "text": "AGE" },
-        { "text": "越", "reading": "ご" },
-        { "text": "しの" },
+        { "text": "AGEごしの" },
         { "text": "性愛者", "reading": "せいあいしゃ" },
         { "text": "でいいの" }
       ],
@@ -62,7 +60,7 @@
       "pronunciationKo": "에이지 고시노 세이아이샤데 이이노",
       "translationKo": "AGE 너머의 사랑을 하는 사람이어도 괜찮아",
       "grammarIds": ["noun-no-noun", "de-ii"],
-      "kanjiIds": ["越", "性", "愛", "者"]
+      "kanjiIds": ["性", "愛", "者"]
     }
   ],
   "vocabulary": [
@@ -72,7 +70,7 @@
     { "id": "tokyo-flash-2-miseru", "term": "みせる", "reading": "みせる", "meaning": "보여 주다" },
     { "id": "tokyo-flash-2-gan", "term": "癌にかかる", "reading": "がんにかかる", "meaning": "암에 걸리다" },
     { "id": "tokyo-flash-2-mitai", "term": "みたい", "reading": "みたい", "meaning": "~인 것 같다" },
-    { "id": "tokyo-flash-2-goshi", "term": "越し", "reading": "ごし", "meaning": "~을 사이에 두고, ~ 너머로" },
+    { "id": "tokyo-flash-2-goshi", "term": "ごし", "reading": "ごし", "meaning": "~을 사이에 두고, ~ 너머로" },
     { "id": "tokyo-flash-2-seiaisha", "term": "性愛者", "reading": "せいあいしゃ", "meaning": "성애자, 성적인 사랑을 하는 사람", "note": "가사의 영어 말놀이와 결합된 독특한 표현입니다." }
   ],
   "quiz": [

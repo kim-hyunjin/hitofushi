@@ -37,10 +37,10 @@
       "grammarIds": ["passive"], "kanjiIds": ["目", "君"]
     },
     {
-      "id": "wasurerumaeni-4-6", "original": "奥に潜んだ竜に、幻の願いを",
-      "ruby": [{ "text": "奥", "reading": "おく" }, { "text": "に" }, { "text": "潜", "reading": "ひそ" }, { "text": "んだ" }, { "text": "竜", "reading": "りゅう" }, { "text": "に、" }, { "text": "幻", "reading": "まぼろし" }, { "text": "の" }, { "text": "願", "reading": "ねが" }, { "text": "いを" }],
-      "hiragana": "おく に ひそんだ りゅう に まぼろし の ねがい を", "pronunciationKo": "오쿠니 히손다 류우니, 마보로시노 네가이오", "translationKo": "깊숙이 숨어 있던 용에게 환상의 소원을",
-      "grammarIds": ["noun-no-noun"], "kanjiIds": []
+      "id": "wasurerumaeni-4-6", "original": "奥に潜んだ竜に、幻う願いを",
+      "ruby": [{ "text": "奥", "reading": "おく" }, { "text": "に" }, { "text": "潜", "reading": "ひそ" }, { "text": "んだ" }, { "text": "竜", "reading": "りゅう" }, { "text": "に、" }, { "text": "幻", "reading": "まぼろ" }, { "text": "う" }, { "text": "願", "reading": "ねが" }, { "text": "いを" }],
+      "hiragana": "おく に ひそんだ りゅう に まぼろう ねがい を", "pronunciationKo": "오쿠니 히손다 류우니, 마보로오 네가이오", "translationKo": "깊숙이 숨어 있던 용에게, 환상을 그리는 소원을",
+      "grammarIds": ["relative-clause"], "kanjiIds": []
     },
     {
       "id": "wasurerumaeni-4-7", "original": "「今だけ持たせて、愛する勇気を」",
@@ -58,6 +58,7 @@
     { "id": "wasurerumaeni-4-tsuneru", "term": "つねる", "reading": "つねる", "meaning": "꼬집다" },
     { "id": "wasurerumaeni-4-me-ubawareru", "term": "目を奪われる", "reading": "めをうばわれる", "meaning": "눈길을 빼앗기다, 매료되다" },
     { "id": "wasurerumaeni-4-hisomu", "term": "潜む", "reading": "ひそむ", "meaning": "숨어 있다, 잠복하다" },
+    { "id": "wasurerumaeni-4-maborou", "term": "幻う", "reading": "まぼろう", "meaning": "환상을 그리다, 환영처럼 떠올리다", "note": "幻을 동사처럼 쓴 가사 속 시적인 표현입니다." },
     { "id": "wasurerumaeni-4-yuuki", "term": "勇気", "reading": "ゆうき", "meaning": "용기" }
   ],
   "quiz": [

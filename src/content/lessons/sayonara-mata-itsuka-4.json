@@ -38,8 +38,8 @@
     },
     {
       "id": "sayonara-mata-itsuka-4-4",
-      "original": "(ああ居なかった)",
-      "ruby": [{ "text": "(ああ" }, { "text": "居", "reading": "い" }, { "text": "なかった)" }],
+      "original": "ああ居なかった",
+      "ruby": [{ "text": "ああ" }, { "text": "居", "reading": "い" }, { "text": "なかった" }],
       "hiragana": "ああ いなかった",
       "pronunciationKo": "아아 이나캇타",
       "translationKo": "아아, 없었다",

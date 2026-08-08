@@ -42,16 +42,14 @@
     },
     {
       "id": "vintage-6-3",
-      "original": "褪せた思い出もビンテージなんて言って",
+      "original": "褪せた思い出もビンテージなんていって",
       "ruby": [
         { "text": "褪", "reading": "あ" },
         { "text": "せた" },
         { "text": "思", "reading": "おも" },
         { "text": "い" },
         { "text": "出", "reading": "で" },
-        { "text": "もビンテージなんて" },
-        { "text": "言", "reading": "い" },
-        { "text": "って" }
+        { "text": "もビンテージなんていって" }
       ],
       "hiragana": "あせた おもいで も びんてーじ なんて いって",
       "pronunciationKo": "아세타 오모이데모 빈테에지난테 잇테",

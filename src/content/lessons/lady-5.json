@@ -12,8 +12,7 @@
     {"id":"lady-5-4","original":"浮ついたりして","ruby":[{"text":"浮","reading":"うわ"},{"text":"ついたりして"}],"hiragana":"うわついたり して","pronunciationKo":"우와츠이타리시테","translationKo":"들뜨기도 하면서","grammarIds":["tari-tari","te-form"],"kanjiIds":[]},
     {"id":"lady-5-5","original":"思いきり傷つきたい","ruby":[{"text":"思","reading":"おも"},{"text":"いきり"},{"text":"傷","reading":"きず"},{"text":"つきたい"}],"hiragana":"おもいきり きずつきたい","pronunciationKo":"오모이키리 키즈츠키타이","translationKo":"마음껏 상처받고 싶어","grammarIds":["verb-tai"],"kanjiIds":["思","傷"]},
     {"id":"lady-5-6","original":"いつまでもそばにいたい","ruby":[{"text":"いつまでもそばにいたい"}],"hiragana":"いつまでも そば に いたい","pronunciationKo":"이츠마데모 소바니 이타이","translationKo":"언제까지나 곁에 있고 싶어","grammarIds":["verb-tai"],"kanjiIds":[]},
-    {"id":"lady-5-7","original":"今すぐ行方をくらまそう","ruby":[{"text":"今","reading":"いま"},{"text":"すぐ"},{"text":"行方","reading":"ゆくえ"},{"text":"をくらまそう"}],"hiragana":"いますぐ ゆくえ を くらまそう","pronunciationKo":"이마스구 유쿠에오 쿠라마소오","translationKo":"지금 당장 자취를 감추자","grammarIds":["volitional-form"],"kanjiIds":["行"]},
-    {"id":"lady-5-8","original":"(Oh oh ah)","ruby":[{"text":"(Oh oh ah)"}],"hiragana":"おー おー あー","pronunciationKo":"오 오 아","translationKo":"(오 오 아)","grammarIds":[],"kanjiIds":[]}
+    {"id":"lady-5-7","original":"今すぐ行方をくらまそう","ruby":[{"text":"今","reading":"いま"},{"text":"すぐ"},{"text":"行方","reading":"ゆくえ"},{"text":"をくらまそう"}],"hiragana":"いますぐ ゆくえ を くらまそう","pronunciationKo":"이마스구 유쿠에오 쿠라마소오","translationKo":"지금 당장 자취를 감추자","grammarIds":["volitional-form"],"kanjiIds":["行"]}
   ],
   "vocabulary": [
     {"id":"lady-5-hipparu","term":"引っ張る","reading":"ひっぱる","meaning":"잡아당기다, 끌다"},

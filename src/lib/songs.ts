@@ -12,7 +12,7 @@ export const songs: SongDefinition[] = [
   {
     slug: 'vintage',
     sequence: 1,
-    title: 'Vintage',
+    title: 'ビンテージ',
     artist: 'Official髭男dism',
     kicker: '상처마저 사랑하게 되는 시간',
     description:

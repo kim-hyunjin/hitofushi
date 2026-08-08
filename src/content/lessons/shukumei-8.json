@@ -6,16 +6,16 @@
   "description": "핵심 후렴을 다시 다지고, 숙명을 불태우는 데서 한 걸음 더 나아가 그것을 내걸고 맞서는 마지막 문장을 완성합니다.",
   "estimatedMinutes": 24,
   "sentences": [
-    {"id":"shukumei-8-1","original":"届け!","ruby":[{"text":"届","reading":"とど"},{"text":"け!"}],"hiragana":"とどけ","pronunciationKo":"토도케","translationKo":"닿아라!","grammarIds":["imperative-form"],"kanjiIds":[]},
+    {"id":"shukumei-8-1","original":"届け！","ruby":[{"text":"届","reading":"とど"},{"text":"け！"}],"hiragana":"とどけ","pronunciationKo":"토도케","translationKo":"닿아라!","grammarIds":["imperative-form"],"kanjiIds":[]},
     {"id":"shukumei-8-2","original":"奇跡じゃなくていい 美しくなくていい","ruby":[{"text":"奇跡","reading":"きせき"},{"text":"じゃなくていい "},{"text":"美","reading":"うつく"},{"text":"しくなくていい"}],"hiragana":"きせき じゃなくて いい うつくしく なくて いい","pronunciationKo":"키세키자나쿠테 이이 우츠쿠시쿠나쿠테 이이","translationKo":"기적이 아니어도 돼, 아름답지 않아도 돼","grammarIds":["nakute-ii"],"kanjiIds":["奇","跡"]},
-    {"id":"shukumei-8-3","original":"生きがいってやつが光輝くから","ruby":[{"text":"生","reading":"い"},{"text":"きがいってやつが"},{"text":"光輝","reading":"ひかりかがや"},{"text":"くから"}],"hiragana":"いきがい って やつ が ひかりかがやく から","pronunciationKo":"이키가잇테 야츠가 히카리카가야쿠카라","translationKo":"삶의 보람이라는 녀석이 눈부시게 빛나니까","grammarIds":["tte-quotation","kara"],"kanjiIds":["生","光","輝"]},
+    {"id":"shukumei-8-3","original":"生き甲斐ってやつが光り輝くから","ruby":[{"text":"生","reading":"い"},{"text":"き"},{"text":"甲斐","reading":"がい"},{"text":"ってやつが"},{"text":"光","reading":"ひか"},{"text":"り"},{"text":"輝","reading":"かがや"},{"text":"くから"}],"hiragana":"いきがい って やつ が ひかりかがやく から","pronunciationKo":"이키가잇테 야츠가 히카리카가야쿠카라","translationKo":"삶의 보람이라는 녀석이 눈부시게 빛나니까","grammarIds":["tte-quotation","kara"],"kanjiIds":["生","光","輝"]},
     {"id":"shukumei-8-4","original":"切れないバッテリー 魂の限り","ruby":[{"text":"切","reading":"き"},{"text":"れないバッテリー "},{"text":"魂","reading":"たましい"},{"text":"の"},{"text":"限","reading":"かぎ"},{"text":"り"}],"hiragana":"きれない ばってりー たましい の かぎり","pronunciationKo":"키레나이 밧테리이 타마시이노 카기리","translationKo":"끊어지지 않는 배터리, 영혼이 다하는 한","grammarIds":["noun-no-kagiri"],"kanjiIds":["魂"]},
     {"id":"shukumei-8-5","original":"宿命ってやつを燃やして 暴れ出すだけなんだ","ruby":[{"text":"宿命","reading":"しゅくめい"},{"text":"ってやつを"},{"text":"燃","reading":"も"},{"text":"やして "},{"text":"暴","reading":"あば"},{"text":"れ"},{"text":"出","reading":"だ"},{"text":"すだけなんだ"}],"hiragana":"しゅくめい って やつ を もやして あばれだす だけ なんだ","pronunciationKo":"슈쿠메잇테 야츠오 모야시테 아바레다스 다케난다","translationKo":"숙명이라는 녀석을 불태워 힘껏 날뛸 뿐이야","grammarIds":["tte-quotation","te-form","verb-stem-dasu","n-da"],"kanjiIds":["宿","命"]},
     {"id":"shukumei-8-6","original":"ただ宿命ってやつをかざして 立ち向かうだけなんだ","ruby":[{"text":"ただ"},{"text":"宿命","reading":"しゅくめい"},{"text":"ってやつをかざして "},{"text":"立","reading":"た"},{"text":"ち"},{"text":"向","reading":"む"},{"text":"かうだけなんだ"}],"hiragana":"ただ しゅくめい って やつ を かざして たちむかう だけ なんだ","pronunciationKo":"타다 슈쿠메잇테 야츠오 카자시테 타치무카우 다케난다","translationKo":"그저 숙명이라는 녀석을 내걸고 맞설 뿐이야","grammarIds":["tte-quotation","te-form","n-da"],"kanjiIds":["宿","命"]}
   ],
   "vocabulary": [
     {"id":"shukumei-8-kiseki","term":"奇跡","reading":"きせき","meaning":"기적"},
-    {"id":"shukumei-8-ikigai","term":"生きがい","reading":"いきがい","meaning":"삶의 보람, 살아가는 이유"},
+    {"id":"shukumei-8-ikigai","term":"生き甲斐","reading":"いきがい","meaning":"삶의 보람, 살아가는 이유"},
     {"id":"shukumei-8-kagiri","term":"限り","reading":"かぎり","meaning":"한계, 끝; ~하는 한"},
     {"id":"shukumei-8-shukumei","term":"宿命","reading":"しゅくめい","meaning":"숙명"},
     {"id":"shukumei-8-kazasu","term":"かざす","reading":"かざす","meaning":"치켜들다, 내걸다"},
@@ -23,7 +23,7 @@
     {"id":"shukumei-8-tada","term":"ただ","reading":"ただ","meaning":"그저, 오직"}
   ],
   "quiz": [
-    {"id":"shukumei-8-q1","prompt":"후렴이 기적과 아름다움을 필수로 여기지 않는 이유는?","options":["아무것도 중요하지 않아서","삶의 보람 자체가 빛나기 때문에","배터리가 끊어졌기 때문에","미래를 잊었기 때문에"],"answerIndex":1,"explanation":"生きがい가 빛나므로 결과가 기적적이거나 겉보기에 아름다울 필요가 없다고 말합니다."},
+    {"id":"shukumei-8-q1","prompt":"후렴이 기적과 아름다움을 필수로 여기지 않는 이유는?","options":["아무것도 중요하지 않아서","삶의 보람 자체가 빛나기 때문에","배터리가 끊어졌기 때문에","미래를 잊었기 때문에"],"answerIndex":1,"explanation":"生き甲斐가 빛나므로 결과가 기적적이거나 겉보기에 아름다울 필요가 없다고 말합니다."},
     {"id":"shukumei-8-q2","prompt":"「ただ」가 마지막 문장에 더하는 느낌은?","options":["복잡한 조건을 단다","오직 한 행동에 결의를 모은다","과거를 후회한다","상대에게 질문한다"],"answerIndex":1,"explanation":"ただ는 여러 계산을 내려놓고 ‘그저 맞선다’는 단순하고 단단한 결의를 강조합니다."},
     {"id":"shukumei-8-q3","prompt":"「かざして」에 가장 가까운 장면은?","options":["숙명을 숨긴다","숙명을 버린다","숙명을 깃발처럼 내건다","숙명을 남에게 맡긴다"],"answerIndex":2,"explanation":"かざす는 손에 든 것을 높이 치켜들거나 어떤 가치·명분을 내세우는 동작입니다."},
     {"id":"shukumei-8-q4","prompt":"마지막 「立ち向かう」가 완성하는 주제는?","options":["정해진 운명에 수동적으로 따른다","숙명을 자신의 힘으로 삼아 정면으로 맞선다","경쟁을 피해 돌아선다","아름다운 결과만 기다린다"],"answerIndex":1,"explanation":"숙명은 체념의 이유가 아니라 두려움에 정면으로 맞서게 하는 깃발이 됩니다."},

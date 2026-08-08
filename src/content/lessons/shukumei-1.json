@@ -28,13 +28,13 @@
     },
     {
       "id": "shukumei-1-3",
-      "original": "君から あふれ出した声と",
-      "ruby": [{"text":"君","reading":"きみ"},{"text":"から あふれ"},{"text":"出","reading":"だ"},{"text":"した"},{"text":"声","reading":"こえ"},{"text":"と"}],
+      "original": "君から溢れだした声と",
+      "ruby": [{"text":"君","reading":"きみ"},{"text":"から"},{"text":"溢","reading":"あふ"},{"text":"れだした"},{"text":"声","reading":"こえ"},{"text":"と"}],
       "hiragana": "きみ から あふれだした こえ と",
       "pronunciationKo": "키미카라 아후레다시타 코에토",
       "translationKo": "너에게서 흘러넘쳐 나온 목소리와",
       "grammarIds": ["kara", "verb-stem-dasu"],
-      "kanjiIds": ["君", "声"]
+      "kanjiIds": ["君", "溢", "声"]
     },
     {
       "id": "shukumei-1-4",

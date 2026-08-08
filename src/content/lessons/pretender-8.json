@@ -49,8 +49,8 @@
       "grammarIds": ["mo-mo", "kedo"], "kanjiIds": []
     },
     {
-      "id": "pretender-8-8", "original": "とても「綺麗だ」",
-      "ruby": [{ "text": "とても「" }, { "text": "綺麗", "reading": "きれい" }, { "text": "だ」" }],
+      "id": "pretender-8-8", "original": "「とても綺麗だ」",
+      "ruby": [{ "text": "「とても" }, { "text": "綺麗", "reading": "きれい" }, { "text": "だ」" }],
       "hiragana": "とても きれい だ",
       "pronunciationKo": "토테모 키레이다",
       "translationKo": "정말 ‘아름다워’",

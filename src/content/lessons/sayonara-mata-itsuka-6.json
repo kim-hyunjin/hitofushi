@@ -8,8 +8,8 @@
   "sentences": [
     {
       "id": "sayonara-mata-itsuka-6-1",
-      "original": "(今恋に落ちて また砕けて 離れ離れ)",
-      "ruby": [{ "text": "(" }, { "text": "今", "reading": "いま" }, { "text": "恋", "reading": "こい" }, { "text": "に" }, { "text": "落", "reading": "お" }, { "text": "ちて また" }, { "text": "砕", "reading": "くだ" }, { "text": "けて " }, { "text": "離", "reading": "はな" }, { "text": "れ" }, { "text": "離", "reading": "ばな" }, { "text": "れ)" }],
+      "original": "今恋に落ちて また砕けて 離れ離れ",
+      "ruby": [{ "text": "今", "reading": "いま" }, { "text": "恋", "reading": "こい" }, { "text": "に" }, { "text": "落", "reading": "お" }, { "text": "ちて また" }, { "text": "砕", "reading": "くだ" }, { "text": "けて " }, { "text": "離", "reading": "はな" }, { "text": "れ" }, { "text": "離", "reading": "ばな" }, { "text": "れ" }],
       "hiragana": "いま こい に おちて また くだけて はなればなれ",
       "pronunciationKo": "이마 코이니 오치테 마타 쿠다케테 하나레바나레",
       "translationKo": "지금 사랑에 빠지고 다시 부서져 서로 멀리 떨어져",
@@ -28,8 +28,8 @@
     },
     {
       "id": "sayonara-mata-itsuka-6-3",
-      "original": "(今羽を広げ 気儘に飛べ どこまでもゆけ)",
-      "ruby": [{ "text": "(" }, { "text": "今", "reading": "いま" }, { "text": "羽", "reading": "はね" }, { "text": "を" }, { "text": "広", "reading": "ひろ" }, { "text": "げ " }, { "text": "気儘", "reading": "きまま" }, { "text": "に" }, { "text": "飛", "reading": "と" }, { "text": "べ どこまでもゆけ)" }],
+      "original": "今羽を広げ 気儘に飛べ どこまでもゆけ",
+      "ruby": [{ "text": "今", "reading": "いま" }, { "text": "羽", "reading": "はね" }, { "text": "を" }, { "text": "広", "reading": "ひろ" }, { "text": "げ " }, { "text": "気儘", "reading": "きまま" }, { "text": "に" }, { "text": "飛", "reading": "と" }, { "text": "べ どこまでもゆけ" }],
       "hiragana": "いま はね を ひろげ きまま に とべ どこまでも ゆけ",
       "pronunciationKo": "이마 하네오 히로게 키마마니 토베 도코마데모 유케",
       "translationKo": "지금 날개를 펼쳐, 마음 가는 대로 날아라, 어디까지든 가라",

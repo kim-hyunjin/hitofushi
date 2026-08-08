@@ -59,15 +59,15 @@
     },
     {
       "id": "nichijo-5-4",
-      "original": "しんどいなあぁなんて嘆いたって迷惑みたいだ",
+      "original": "しんどいなぁなんて嘆いたって迷惑みたいだ",
       "ruby": [
-        { "text": "しんどいなあぁなんて" },
+        { "text": "しんどいなぁなんて" },
         { "text": "嘆", "reading": "なげ" },
         { "text": "いたって" },
         { "text": "迷惑", "reading": "めいわく" },
         { "text": "みたいだ" }
       ],
-      "hiragana": "しんどい なあぁ なんて なげいたって めいわく みたいだ",
+      "hiragana": "しんどい なぁ なんて なげいたって めいわく みたいだ",
       "pronunciationKo": "신도이나아 난테 나게이탓테 메이와쿠미타이다",
       "translationKo": "‘힘드네’라고 한탄해 봐도 민폐인 것 같아",
       "grammarIds": ["nante", "tte-concessive", "mitai"],

@@ -2,9 +2,9 @@
   "songSlug": "tokyo-flash",
   "lessonNumber": 4,
   "title": "벼랑 끝의 단편적인 이야기",
-  "subtitle": "과거의 지속과 접미사 〜的",
-  "description": "두 번째 절의 거친 비유를 읽으며 과거에 이어지던 상태와 ‘~적’이라는 성질을 만드는 표현을 익힙니다.",
-  "estimatedMinutes": 20,
+  "subtitle": "과거의 지속·접미사 〜的와 되돌아오는 후렴",
+  "description": "두 번째 절의 거친 비유를 읽고, STAY 말놀이와 후렴이 다시 이어지는 원곡의 흐름을 완성합니다.",
+  "estimatedMinutes": 32,
   "sentences": [
     {
       "id": "tokyo-flash-4-1",
@@ -81,6 +81,136 @@
       "translationKo": "아아, 이제 됐어",
       "grammarIds": [],
       "kanjiIds": []
+    },
+    {
+      "id": "tokyo-flash-4-7",
+      "original": "STAYまだここにいてね 君の",
+      "ruby": [{ "text": "STAYまだここにいてね " }, { "text": "君", "reading": "きみ" }, { "text": "の" }],
+      "hiragana": "STAY まだ ここに いてね きみの",
+      "pronunciationKo": "스테이 마다 코코니 이테네 키미노",
+      "translationKo": "STAY, 아직 여기 있어 줘, 너의",
+      "grammarIds": ["te-ne-yo"],
+      "kanjiIds": ["君"]
+    },
+    {
+      "id": "tokyo-flash-4-8",
+      "original": "FAKEの笑顔をみせてよみせてよ",
+      "ruby": [{ "text": "FAKEの" }, { "text": "笑顔", "reading": "えがお" }, { "text": "をみせてよみせてよ" }],
+      "hiragana": "FAKE の えがお を みせてよ みせてよ",
+      "pronunciationKo": "페이크노 에가오오 미세테요 미세테요",
+      "translationKo": "FAKE인 미소를 보여 줘, 보여 줘",
+      "grammarIds": ["te-ne-yo"],
+      "kanjiIds": ["笑", "顔"]
+    },
+    {
+      "id": "tokyo-flash-4-9",
+      "original": "STAGE4の癌にかかっているみたいかい？",
+      "ruby": [{ "text": "STAGE4の" }, { "text": "癌", "reading": "がん" }, { "text": "にかかっているみたいかい？" }],
+      "hiragana": "STAGE4 の がん に かかっている みたいかい",
+      "pronunciationKo": "스테이지 포오노 간니 카캇테이루 미타이카이",
+      "translationKo": "STAGE 4의 암에 걸린 것 같니?",
+      "grammarIds": ["teiru", "mitai"],
+      "kanjiIds": ["癌"]
+    },
+    {
+      "id": "tokyo-flash-4-10",
+      "original": "AGEごしの性愛者でいいの",
+      "ruby": [{ "text": "AGEごしの" }, { "text": "性愛者", "reading": "せいあいしゃ" }, { "text": "でいいの" }],
+      "hiragana": "AGE ごし の せいあいしゃ で いいの",
+      "pronunciationKo": "에이지 고시노 세이아이샤데 이이노",
+      "translationKo": "AGE 너머의 사랑을 하는 사람이어도 괜찮아",
+      "grammarIds": ["noun-no-noun", "de-ii"],
+      "kanjiIds": ["性", "愛", "者"]
+    },
+    {
+      "id": "tokyo-flash-4-11",
+      "original": "東京フラッシュ",
+      "ruby": [{ "text": "東京", "reading": "とうきょう" }, { "text": "フラッシュ" }],
+      "hiragana": "とうきょう ふらっしゅ",
+      "pronunciationKo": "토오쿄오 후랏슈",
+      "translationKo": "도쿄 플래시",
+      "grammarIds": [],
+      "kanjiIds": ["東", "京"]
+    },
+    {
+      "id": "tokyo-flash-4-12",
+      "original": "君の目が覚めたら",
+      "ruby": [{ "text": "君", "reading": "きみ" }, { "text": "の" }, { "text": "目", "reading": "め" }, { "text": "が" }, { "text": "覚", "reading": "さ" }, { "text": "めたら" }],
+      "hiragana": "きみ の め が さめたら",
+      "pronunciationKo": "키미노 메가 사메타라",
+      "translationKo": "네가 눈을 뜨면",
+      "grammarIds": ["noun-no-noun", "tara-conditional"],
+      "kanjiIds": ["君", "目", "覚"]
+    },
+    {
+      "id": "tokyo-flash-4-13",
+      "original": "どこへ行こうどこへ行こう",
+      "ruby": [{ "text": "どこへ" }, { "text": "行", "reading": "い" }, { "text": "こうどこへ" }, { "text": "行", "reading": "い" }, { "text": "こう" }],
+      "hiragana": "どこへ いこう どこへ いこう",
+      "pronunciationKo": "도코에 이코오 도코에 이코오",
+      "translationKo": "어디로 갈까, 어디로 갈까",
+      "grammarIds": ["volitional-form"],
+      "kanjiIds": ["行"]
+    },
+    {
+      "id": "tokyo-flash-4-14",
+      "original": "変わらないよ",
+      "ruby": [{ "text": "変", "reading": "か" }, { "text": "わらないよ" }],
+      "hiragana": "かわらないよ",
+      "pronunciationKo": "카와라나이요",
+      "translationKo": "변하지 않아",
+      "grammarIds": [],
+      "kanjiIds": ["変"]
+    },
+    {
+      "id": "tokyo-flash-4-15",
+      "original": "東京フラッシュ",
+      "ruby": [{ "text": "東京", "reading": "とうきょう" }, { "text": "フラッシュ" }],
+      "hiragana": "とうきょう ふらっしゅ",
+      "pronunciationKo": "토오쿄오 후랏슈",
+      "translationKo": "도쿄 플래시",
+      "grammarIds": [],
+      "kanjiIds": ["東", "京"]
+    },
+    {
+      "id": "tokyo-flash-4-16",
+      "original": "君と手を繋いだら",
+      "ruby": [{ "text": "君", "reading": "きみ" }, { "text": "と" }, { "text": "手", "reading": "て" }, { "text": "を" }, { "text": "繋", "reading": "つな" }, { "text": "いだら" }],
+      "hiragana": "きみ と て を つないだら",
+      "pronunciationKo": "키미토 테오 츠나이다라",
+      "translationKo": "너와 손을 잡으면",
+      "grammarIds": ["tara-conditional"],
+      "kanjiIds": ["君", "手", "繋"]
+    },
+    {
+      "id": "tokyo-flash-4-17",
+      "original": "どこへ行こうどこへ行こう",
+      "ruby": [{ "text": "どこへ" }, { "text": "行", "reading": "い" }, { "text": "こうどこへ" }, { "text": "行", "reading": "い" }, { "text": "こう" }],
+      "hiragana": "どこへ いこう どこへ いこう",
+      "pronunciationKo": "도코에 이코오 도코에 이코오",
+      "translationKo": "어디로 갈까, 어디로 갈까",
+      "grammarIds": ["volitional-form"],
+      "kanjiIds": ["行"]
+    },
+    {
+      "id": "tokyo-flash-4-18",
+      "original": "変わらないよ",
+      "ruby": [{ "text": "変", "reading": "か" }, { "text": "わらないよ" }],
+      "hiragana": "かわらないよ",
+      "pronunciationKo": "카와라나이요",
+      "translationKo": "변하지 않아",
+      "grammarIds": [],
+      "kanjiIds": ["変"]
+    },
+    {
+      "id": "tokyo-flash-4-19",
+      "original": "東京フラッシュ",
+      "ruby": [{ "text": "東京", "reading": "とうきょう" }, { "text": "フラッシュ" }],
+      "hiragana": "とうきょう ふらっしゅ",
+      "pronunciationKo": "토오쿄오 후랏슈",
+      "translationKo": "도쿄 플래시",
+      "grammarIds": [],
+      "kanjiIds": ["東", "京"]
     }
   ],
   "vocabulary": [

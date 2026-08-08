@@ -2,18 +2,18 @@
   "songSlug": "umi-no-yurei",
   "lessonNumber": 4,
   "title": "떨어져 있어도 설레는 마음",
-  "subtitle": "〜でも·의지형·인용의 と로 행복 외치기",
+  "subtitle": "〜ても·의지형·인용의 と로 행복 외치기",
   "description": "서로 멀리 떨어져 있어도 남는 설렘을 지금의 행복이라고 외치며, 빛 속에서 다시 별의 밤으로 향하는 후렴 후반을 읽습니다.",
   "estimatedMinutes": 23,
   "sentences": [
     {
       "id": "umi-no-yurei-4-1",
-      "original": "離れ離れでもときめくもの",
-      "ruby": [{ "text": "離", "reading": "はな" }, { "text": "れ" }, { "text": "離", "reading": "ばな" }, { "text": "れでもときめくもの" }],
-      "hiragana": "はなればなれ でも ときめく もの",
-      "pronunciationKo": "하나레바나레데모 토키메쿠 모노",
+      "original": "離れ離れてもときめくもの",
+      "ruby": [{ "text": "離", "reading": "はな" }, { "text": "れ" }, { "text": "離", "reading": "ばな" }, { "text": "れてもときめくもの" }],
+      "hiragana": "はなればなれ ても ときめく もの",
+      "pronunciationKo": "하나레바나레테모 토키메쿠 모노",
       "translationKo": "서로 멀리 떨어져 있어도 가슴 뛰게 하는 것",
-      "grammarIds": ["demo-concessive", "relative-clause"],
+      "grammarIds": ["temo", "relative-clause"],
       "kanjiIds": ["離"]
     },
     {
@@ -66,7 +66,7 @@
     { "id": "umi-no-yurei-4-tokasu", "term": "溶かす", "reading": "とかす", "meaning": "녹이다, 녹여 풀다" }
   ],
   "quiz": [
-    { "id": "umi-no-yurei-4-q1", "prompt": "「離れ離れでも」의 뜻은?", "options": ["떨어지기 전에", "떨어져 있어도", "떨어져 있기 때문에", "떨어지지 않도록"], "answerIndex": 1, "explanation": "명사 + でも는 그런 상황이어도 뒤의 결과는 달라지지 않는다는 양보를 나타냅니다." },
+    { "id": "umi-no-yurei-4-q1", "prompt": "「離れ離れても」의 뜻은?", "options": ["떨어지기 전에", "떨어져 있어도", "떨어져 있기 때문에", "떨어지지 않도록"], "answerIndex": 1, "explanation": "〜ても는 ‘~해도, ~이더라도’라는 양보를 나타냅니다. 여기서는 서로 떨어져 있는 상황이어도 설렘이 남는다는 뜻입니다." },
     { "id": "umi-no-yurei-4-q2", "prompt": "「叫ぼう」의 형태와 기능은?", "options": ["의지형: 외치자", "명령형: 외쳐라", "가능형: 외칠 수 있다", "수동형: 외침을 당하다"], "answerIndex": 0, "explanation": "叫ぶ의 끝 ぶ가 ぼう로 바뀐 의지형입니다. 여기서는 ‘외치자’는 결의를 나타냅니다." },
     { "id": "umi-no-yurei-4-q3", "prompt": "「幸せと」의 と는 어떤 역할을 할까요?", "options": ["행복을 목적어로 만든다", "‘행복하다’는 내용을 인용한다", "행복과 다른 명사를 나열한다", "행복한 장소를 나타낸다"], "answerIndex": 1, "explanation": "と는 외치는 내용을 묶는 인용 조사입니다. 어순을 돌리면 「今は幸せと叫ぼう」가 됩니다." },
     { "id": "umi-no-yurei-4-q4", "prompt": "「跳ねる光」가 그리는 것은?", "options": ["빛이 반짝이며 튀어 오르는 모습", "빛이 완전히 사라진 모습", "빛이 잠든 모습", "빛이 길을 막는 모습"], "answerIndex": 0, "explanation": "跳ねる는 작게 튜며 날아오르는 듯한 움직임입니다. 여기서는 물결 사이의 빛나는 빛을 역동적으로 그립니다." },

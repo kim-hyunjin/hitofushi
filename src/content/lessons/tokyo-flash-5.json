@@ -2,22 +2,22 @@
   "songSlug": "tokyo-flash",
   "lessonNumber": 5,
   "title": "그만두지 못하는 습관",
-  "subtitle": "인용의 〜なんて와 후렴 복습",
-  "description": "관계를 끝내려는 마음이 다시 상대의 미소에 붙잡히는 브리지를 읽고, 조건형과 의지형이 반복되는 후렴을 완성합니다.",
+  "subtitle": "이유를 묻는 なんで와 후렴 복습",
+  "description": "관계를 끝낼까 떠올린 이유를 스스로 되묻다가 다시 상대의 미소에 붙잡히는 브리지를 읽고, 조건형과 의지형이 반복되는 후렴을 완성합니다.",
   "estimatedMinutes": 26,
   "sentences": [
     {
       "id": "tokyo-flash-5-1",
-      "original": "もうやめにしようかなんて思うんだ あぁ",
+      "original": "もうやめにしようかなんで思うんだ あぁ",
       "ruby": [
-        { "text": "もうやめにしようかなんて" },
+        { "text": "もうやめにしようかなんで" },
         { "text": "思", "reading": "おも" },
         { "text": "うんだ あぁ" }
       ],
-      "hiragana": "もう やめに しようか なんて おもうんだ あぁ",
-      "pronunciationKo": "모오 야메니 시요오카 난테 오모운다 아아",
-      "translationKo": "이제 그만둘까 하고 생각해, 아아",
-      "grammarIds": ["volitional-form", "nante", "n-da"],
+      "hiragana": "もう やめに しようか なんで おもうんだ あぁ",
+      "pronunciationKo": "모오 야메니 시요오카 난데 오모운다 아아",
+      "translationKo": "이제 그만둘까, 왜 그렇게 생각하는 거지, 아아",
+      "grammarIds": ["volitional-form", "n-da"],
       "kanjiIds": ["思"]
     },
     {
@@ -187,11 +187,11 @@
     { "id": "tokyo-flash-5-mata", "term": "また", "reading": "また", "meaning": "다시, 또" },
     { "id": "tokyo-flash-5-hora", "term": "ほら", "reading": "ほら", "meaning": "봐, 자" },
     { "id": "tokyo-flash-5-kuseninaru", "term": "クセになる", "reading": "くせになる", "meaning": "버릇이 되다, 자꾸 끌리게 되다", "note": "반복해서 찾게 되는 매력에도 자주 쓰는 표현입니다." },
-    { "id": "tokyo-flash-5-nante", "term": "なんて", "reading": "なんて", "meaning": "~라고, ~라니" }
+    { "id": "tokyo-flash-5-nande", "term": "なんで", "reading": "なんで", "meaning": "왜, 어째서" }
   ],
   "quiz": [
     { "id": "tokyo-flash-5-q1", "prompt": "「やめにしようか」의 의지형이 나타내는 느낌은?", "options": ["그만둘까 하고 자문한다", "반드시 그만두라고 명령한다", "그만둔 적이 없다고 부정한다", "그만둘 수 없다고 단정한다"], "answerIndex": 0, "explanation": "しよう는 する의 의지형이며 か와 함께 ‘~할까’라는 망설임이나 제안을 만듭니다." },
-    { "id": "tokyo-flash-5-q2", "prompt": "「〜なんて思う」에서 なんて의 역할은?", "options": ["앞의 생각을 인용해 가볍게 꺼낸다", "장소를 표시한다", "원인을 확정한다", "상대를 높인다"], "answerIndex": 0, "explanation": "なんて는 ‘그만둘까’라는 생각을 인용하면서 감정과 가벼운 거리감을 더합니다." },
+    { "id": "tokyo-flash-5-q2", "prompt": "「なんで思うんだ」의 なんで가 묻는 것은?", "options": ["그렇게 생각하는 이유", "생각한 장소", "생각한 상대", "생각한 횟수"], "answerIndex": 0, "explanation": "なんで는 ‘왜, 어째서’라는 이유의 의문사로, 그만둘까 생각한 이유를 스스로 되묻는 흐름을 만듭니다." },
     { "id": "tokyo-flash-5-q3", "prompt": "「笑顔や仕草」에서 や가 암시하는 것은?", "options": ["두 가지만 전부다", "미소와 몸짓 같은 여러 모습", "둘 중 하나만 고른다", "앞말을 강하게 부정한다"], "answerIndex": 1, "explanation": "や는 대표적인 예를 나열하므로, 말하지 않은 다른 모습도 있음을 암시합니다." },
     { "id": "tokyo-flash-5-q4", "prompt": "「なってんだ」의 풀어 쓴 형태는?", "options": ["なっているんだ", "なっていたら", "なってみたい", "なってこない"], "answerIndex": 0, "explanation": "회화에서 なっているんだ가 なってるんだ를 거쳐 なってんだ처럼 줄어들 수 있습니다." },
     { "id": "tokyo-flash-5-q5", "prompt": "브리지 뒤에 후렴이 다시 오는 효과로 가장 알맞은 것은?", "options": ["관계를 끝내려 해도 익숙한 바람으로 되돌아간다", "새로운 인물이 등장한다", "시간이 과거로 완전히 바뀐다", "화자가 도쿄를 떠났음을 확정한다"], "answerIndex": 0, "explanation": "그만두려는 생각 뒤에 미소와 몸짓이 다시 습관처럼 떠오르고, 함께 갈 곳을 묻는 후렴으로 돌아갑니다." }

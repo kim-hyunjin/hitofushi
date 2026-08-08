@@ -24,11 +24,11 @@
       "grammarIds": ["tabi-ni"], "kanjiIds": []
     },
     {
-      "id": "pretender-6-4", "original": "君はいない その事実に Cry…",
-      "ruby": [{ "text": "君", "reading": "きみ" }, { "text": "はいない その" }, { "text": "事実", "reading": "じじつ" }, { "text": "に Cry…" }],
+      "id": "pretender-6-4", "original": "君はいない その事実に Cry...",
+      "ruby": [{ "text": "君", "reading": "きみ" }, { "text": "はいない その" }, { "text": "事実", "reading": "じじつ" }, { "text": "に Cry..." }],
       "hiragana": "きみ は いない その じじつ に くらい",
       "pronunciationKo": "키미와 이나이 소노 지지츠니 크라이",
-      "translationKo": "너는 없어, 그 사실에 Cry…",
+      "translationKo": "너는 없어, 그 사실에 Cry...",
       "grammarIds": [], "kanjiIds": ["君"]
     },
     {

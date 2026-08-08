@@ -31,13 +31,13 @@
     },
     {
       "id": "tokyo-flash-1-3",
-      "original": "あぁ、君もうまいね",
+      "original": "ぁあ、君もうまいね",
       "ruby": [
-        { "text": "あぁ、" },
+        { "text": "ぁあ、" },
         { "text": "君", "reading": "きみ" },
         { "text": "もうまいね" }
       ],
-      "hiragana": "あぁ きみ も うまいね",
+      "hiragana": "ぁあ きみ も うまいね",
       "pronunciationKo": "아아 키미모 우마이네",
       "translationKo": "아아, 너도 능숙하네",
       "grammarIds": [],
