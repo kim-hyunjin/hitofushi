@@ -1,0 +1,87 @@
+{
+  "songSlug": "yesterday",
+  "lessonNumber": 4,
+  "title": "세상의 손가락질을 뒤로하고",
+  "subtitle": "명령형·〜ても·〜ずに로 전진하기",
+  "description": "경적과 사이렌도 들리지 않을 만큼 한 사람에게 달려가며 다른 구조 신호마저 외면하는 후렴을 읽습니다.",
+  "estimatedMinutes": 28,
+  "sentences": [
+    {
+      "id": "yesterday-4-1",
+      "original": "街のクラクションも サイレンも",
+      "ruby": [{ "text": "街", "reading": "まち" }, { "text": "のクラクションも サイレンも" }],
+      "hiragana": "まち の くらくしょん も さいれん も",
+      "pronunciationKo": "마치노 쿠라쿠숀모 사이렌모",
+      "translationKo": "거리의 경적도 사이렌도",
+      "grammarIds": ["mo-mo", "noun-no-noun"],
+      "kanjiIds": ["街"]
+    },
+    {
+      "id": "yesterday-4-2",
+      "original": "届きやしないほど",
+      "ruby": [{ "text": "届", "reading": "とど" }, { "text": "きやしないほど" }],
+      "hiragana": "とどきやしない ほど",
+      "pronunciationKo": "토도키야 시나이 호도",
+      "translationKo": "닿지 않을 정도로",
+      "grammarIds": ["verb-stem-wa-shinai", "hodo"],
+      "kanjiIds": []
+    },
+    {
+      "id": "yesterday-4-3",
+      "original": "遥か先へ進め 身勝手すぎる恋だと",
+      "ruby": [{ "text": "遥", "reading": "はる" }, { "text": "か" }, { "text": "先", "reading": "さき" }, { "text": "へ" }, { "text": "進", "reading": "すす" }, { "text": "め " }, { "text": "身勝手", "reading": "みがって" }, { "text": "すぎる" }, { "text": "恋", "reading": "こい" }, { "text": "だと" }],
+      "hiragana": "はるか さき へ すすめ みがって すぎる こい だ と",
+      "pronunciationKo": "하루카 사키에 스스메 미갓테스기루 코이다토",
+      "translationKo": "아득히 앞으로 나아가라, 너무 제멋대로인 사랑이라고",
+      "grammarIds": ["imperative-form", "sugiru", "to-quotation"],
+      "kanjiIds": ["先", "恋"]
+    },
+    {
+      "id": "yesterday-4-4",
+      "original": "世界が後ろから指さしても",
+      "ruby": [{ "text": "世界", "reading": "せかい" }, { "text": "が" }, { "text": "後", "reading": "うし" }, { "text": "ろから" }, { "text": "指", "reading": "ゆび" }, { "text": "さしても" }],
+      "hiragana": "せかい が うしろ から ゆびさしても",
+      "pronunciationKo": "세카이가 우시로카라 유비사시테모",
+      "translationKo": "세상이 뒤에서 손가락질해도",
+      "grammarIds": ["temo"],
+      "kanjiIds": []
+    },
+    {
+      "id": "yesterday-4-5",
+      "original": "振り向かず進め 必死で君の元へ急ぐよ",
+      "ruby": [{ "text": "振", "reading": "ふ" }, { "text": "り" }, { "text": "向", "reading": "む" }, { "text": "かず" }, { "text": "進", "reading": "すす" }, { "text": "め " }, { "text": "必死", "reading": "ひっし" }, { "text": "で" }, { "text": "君", "reading": "きみ" }, { "text": "の" }, { "text": "元", "reading": "もと" }, { "text": "へ" }, { "text": "急", "reading": "いそ" }, { "text": "ぐよ" }],
+      "hiragana": "ふりむかず すすめ ひっし で きみ の もと へ いそぐ よ",
+      "pronunciationKo": "후리무카즈 스스메 힛시데 키미노 모토에 이소구요",
+      "translationKo": "뒤돌아보지 말고 나아가라, 필사적으로 네 곁으로 서두를게",
+      "grammarIds": ["zuni", "imperative-form", "noun-no-noun"],
+      "kanjiIds": ["君"]
+    },
+    {
+      "id": "yesterday-4-6",
+      "original": "道の途中で聞こえた SOS さえ 気づかないふりで",
+      "ruby": [{ "text": "道", "reading": "みち" }, { "text": "の" }, { "text": "途中", "reading": "とちゅう" }, { "text": "で" }, { "text": "聞", "reading": "き" }, { "text": "こえた SOS さえ " }, { "text": "気", "reading": "き" }, { "text": "づかないふりで" }],
+      "hiragana": "みち の とちゅう で きこえた えすおーえす さえ きづかない ふり で",
+      "pronunciationKo": "미치노 토추우데 키코에타 에스오오에스사에 키즈카나이 후리데",
+      "translationKo": "길 도중에 들린 SOS조차 눈치채지 못한 척한 채",
+      "grammarIds": ["relative-clause", "sae", "furi-wo-suru"],
+      "kanjiIds": ["道", "聞", "気"]
+    }
+  ],
+  "vocabulary": [
+    { "id": "yesterday-4-kurakushon", "term": "クラクション", "reading": "くらくしょん", "meaning": "자동차 경적" },
+    { "id": "yesterday-4-todoku", "term": "届く", "reading": "とどく", "meaning": "닿다, 도달하다" },
+    { "id": "yesterday-4-migatte", "term": "身勝手", "reading": "みがって", "meaning": "제멋대로임, 이기적임" },
+    { "id": "yesterday-4-yubisasu", "term": "指さす", "reading": "ゆびさす", "meaning": "손가락질하다, 가리키다" },
+    { "id": "yesterday-4-furimuku", "term": "振り向く", "reading": "ふりむく", "meaning": "뒤돌아보다" },
+    { "id": "yesterday-4-hisshi", "term": "必死", "reading": "ひっし", "meaning": "필사적임" },
+    { "id": "yesterday-4-moto", "term": "元", "reading": "もと", "meaning": "곁, 있는 곳" },
+    { "id": "yesterday-4-kizuku", "term": "気づく", "reading": "きづく", "meaning": "알아차리다, 깨닫다" }
+  ],
+  "quiz": [
+    { "id": "yesterday-4-q1", "prompt": "「クラクションも サイレンも」에서 반복된 も의 기능은?", "options": ["둘 중 하나만 고른다", "두 소리를 모두 포함한다", "두 소리를 비교한다", "두 소리를 부정한다"], "answerIndex": 1, "explanation": "〜も〜も는 여러 대상을 모두 포함해 ‘~도 ~도’라고 나열합니다." },
+    { "id": "yesterday-4-q2", "prompt": "「進め」는 어떤 형태인가요?", "options": ["가능형", "수동형", "명령형", "가정형"], "answerIndex": 2, "explanation": "進む의 명령형 進め는 자신을 밀어붙이는 강한 격려와 결의를 만듭니다." },
+    { "id": "yesterday-4-q3", "prompt": "「世界が後ろから指さしても」의 뜻은?", "options": ["세상이 뒤에서 손가락질하므로", "세상이 뒤에서 손가락질해도", "세상이 손가락질하지 않도록", "세상에 손가락질하라고"], "answerIndex": 1, "explanation": "동사 て형 + も는 앞의 조건에도 뒤의 행동이 달라지지 않는 양보를 나타냅니다." },
+    { "id": "yesterday-4-q4", "prompt": "「振り向かず」와 가장 가까운 뜻은?", "options": ["뒤돌아보면서", "뒤돌아본 뒤", "뒤돌아보지 않고", "뒤돌아보고 싶어서"], "answerIndex": 2, "explanation": "〜ず는 〜ないで와 비슷한 부정 연결로, 어떤 행동을 하지 않은 채 다음 행동을 이어 갑니다." },
+    { "id": "yesterday-4-q5", "prompt": "화자가 길에서 들린 SOS에 보인 태도는?", "options": ["즉시 구조한다", "누구의 신호인지 묻는다", "알아차리지 못한 척한다", "세상에 알린다"], "answerIndex": 2, "explanation": "君에게 달려가는 데 몰두한 나머지 SOS조차 気づかないふり를 합니다. 사랑의 이기적인 면도 함께 드러나는 대목입니다." }
+  ]
+}

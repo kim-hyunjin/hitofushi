@@ -1,0 +1,77 @@
+{
+  "songSlug": "yesterday",
+  "lessonNumber": 2,
+  "title": "이상론을 버려야 하는 자리",
+  "subtitle": "〜なくちゃ와 동사 어간 + きる",
+  "description": "모두를 배려하고 싶은 본심과 한 사람을 지키기 위해 이상을 내려놓아야 하는 현실의 충돌을 읽습니다.",
+  "estimatedMinutes": 25,
+  "sentences": [
+    {
+      "id": "yesterday-2-1",
+      "original": "本当はいつでも誰もと思いやり合っていたい",
+      "ruby": [{ "text": "本当", "reading": "ほんとう" }, { "text": "はいつでも" }, { "text": "誰", "reading": "だれ" }, { "text": "もと" }, { "text": "思", "reading": "おも" }, { "text": "いやり" }, { "text": "合", "reading": "あ" }, { "text": "っていたい" }],
+      "hiragana": "ほんとう は いつでも だれも と おもいやりあって いたい",
+      "pronunciationKo": "혼토오와 이츠데모 다레모토 오모이야리앗테 이타이",
+      "translationKo": "사실은 언제나 누구와든 서로 배려하고 싶어",
+      "grammarIds": ["verb-stem-au", "verb-tai"],
+      "kanjiIds": ["誰", "思", "合"]
+    },
+    {
+      "id": "yesterday-2-2",
+      "original": "でもそんな悠長な理想論は ここでは捨てなくちゃな",
+      "ruby": [{ "text": "でもそんな" }, { "text": "悠長", "reading": "ゆうちょう" }, { "text": "な" }, { "text": "理想論", "reading": "りそうろん" }, { "text": "は ここでは" }, { "text": "捨", "reading": "す" }, { "text": "てなくちゃな" }],
+      "hiragana": "でも そんな ゆうちょうな りそうろん は ここ では すてなくちゃ な",
+      "pronunciationKo": "데모 손나 유우초오나 리소오론와 코코데와 스테나쿠챠나",
+      "translationKo": "하지만 그런 태평한 이상론은 여기서는 버려야겠네",
+      "grammarIds": ["nakucha"],
+      "kanjiIds": ["想"]
+    },
+    {
+      "id": "yesterday-2-3",
+      "original": "遥か先で君へ 狙いを定めた恐怖を",
+      "ruby": [{ "text": "遥", "reading": "はる" }, { "text": "か" }, { "text": "先", "reading": "さき" }, { "text": "で" }, { "text": "君", "reading": "きみ" }, { "text": "へ " }, { "text": "狙", "reading": "ねら" }, { "text": "いを" }, { "text": "定", "reading": "さだ" }, { "text": "めた" }, { "text": "恐怖", "reading": "きょうふ" }, { "text": "を" }],
+      "hiragana": "はるか さき で きみ へ ねらい を さだめた きょうふ を",
+      "pronunciationKo": "하루카 사키데 키미에 네라이오 사다메타 쿄오후오",
+      "translationKo": "저 멀리서 너를 향해 조준한 공포를",
+      "grammarIds": ["relative-clause"],
+      "kanjiIds": ["先", "君"]
+    },
+    {
+      "id": "yesterday-2-4",
+      "original": "どれだけ僕は払いきれるんだろう",
+      "ruby": [{ "text": "どれだけ" }, { "text": "僕", "reading": "ぼく" }, { "text": "は" }, { "text": "払", "reading": "はら" }, { "text": "いきれるんだろう" }],
+      "hiragana": "どれだけ ぼく は はらいきれるんだろう",
+      "pronunciationKo": "도레다케 보쿠와 하라이키레룬다로오",
+      "translationKo": "나는 얼마나 남김없이 물리칠 수 있을까",
+      "grammarIds": ["verb-stem-kiru", "darou"],
+      "kanjiIds": ["僕", "払"]
+    },
+    {
+      "id": "yesterday-2-5",
+      "original": "半信半疑で世間体 気にしてばっかのイエスタデイ",
+      "ruby": [{ "text": "半信半疑", "reading": "はんしんはんぎ" }, { "text": "で" }, { "text": "世間体", "reading": "せけんてい" }, { "text": " " }, { "text": "気", "reading": "き" }, { "text": "にしてばっかのイエスタデイ" }],
+      "hiragana": "はんしんはんぎ で せけんてい き に して ばっか の いえすたでい",
+      "pronunciationKo": "한신한기데 세켄테이 키니시테 밧카노 이에스타데이",
+      "translationKo": "반신반의하며 남의 시선만 신경 쓰던 예스터데이",
+      "grammarIds": ["bakka", "relative-clause"],
+      "kanjiIds": ["気"]
+    }
+  ],
+  "vocabulary": [
+    { "id": "yesterday-2-omoiyaru", "term": "思いやる", "reading": "おもいやる", "meaning": "배려하다, 헤아리다" },
+    { "id": "yesterday-2-yuuchou", "term": "悠長", "reading": "ゆうちょう", "meaning": "느긋함, 태평함", "note": "시간이 촉박한데도 지나치게 여유로운 태도를 비판할 때 자주 씁니다." },
+    { "id": "yesterday-2-risouron", "term": "理想論", "reading": "りそうろん", "meaning": "이상론" },
+    { "id": "yesterday-2-neraiwosadameru", "term": "狙いを定める", "reading": "ねらいをさだめる", "meaning": "겨냥하다, 목표를 정하다" },
+    { "id": "yesterday-2-kyoufu", "term": "恐怖", "reading": "きょうふ", "meaning": "공포, 두려움" },
+    { "id": "yesterday-2-haraikiru", "term": "払いきる", "reading": "はらいきる", "meaning": "남김없이 물리치다" },
+    { "id": "yesterday-2-hanshinhangi", "term": "半信半疑", "reading": "はんしんはんぎ", "meaning": "반신반의" },
+    { "id": "yesterday-2-sekentei", "term": "世間体", "reading": "せけんてい", "meaning": "세간의 평판, 남의 시선" }
+  ],
+  "quiz": [
+    { "id": "yesterday-2-q1", "prompt": "「思いやり合う」에서 合う가 더하는 뜻은?", "options": ["혼자 배려하다", "서로 배려하다", "배려를 그만두다", "배려하는 척하다"], "answerIndex": 1, "explanation": "동사 어간 + 合う는 둘 이상이 같은 행동을 서로 주고받음을 나타냅니다." },
+    { "id": "yesterday-2-q2", "prompt": "「捨てなくちゃ」의 기본 의미는?", "options": ["버려서는 안 된다", "버릴지도 모른다", "버려야 한다", "버리고 싶지 않다"], "answerIndex": 2, "explanation": "〜なくちゃ는 〜なくてはならない가 줄어든 회화형으로 의무를 나타냅니다." },
+    { "id": "yesterday-2-q3", "prompt": "「払いきれる」가 강조하는 것은?", "options": ["조금만 물리친다", "끝까지 남김없이 물리칠 수 있다", "물리치기 시작한다", "남에게 물리쳐 달라고 한다"], "answerIndex": 1, "explanation": "동사 어간 + きる는 행동의 완수를 나타내며, きれる는 그 가능형입니다." },
+    { "id": "yesterday-2-q4", "prompt": "「気にしてばっか」에 가장 가까운 뜻은?", "options": ["전혀 신경 쓰지 않음", "가끔 떠올림", "그것만 계속 신경 씀", "이미 잊어버림"], "answerIndex": 2, "explanation": "ばっか는 ばかり의 회화형으로, 한 행동에 치우쳐 반복되는 상태를 나타냅니다." },
+    { "id": "yesterday-2-q5", "prompt": "이 구간에서 화자가 버리려는 것은 무엇인가요?", "options": ["너를 지키겠다는 마음", "모두를 배려할 수 있다는 느긋한 이상론", "공포를 물리칠 힘", "자신의 과거 기억"], "answerIndex": 1, "explanation": "모두와 서로 배려하고 싶은 본심은 있지만, 지금은 한 사람을 지키기 위해 그 이상론을 내려놓으려 합니다." }
+  ]
+}
