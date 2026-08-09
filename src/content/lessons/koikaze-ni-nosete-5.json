@@ -1,0 +1,28 @@
+{
+  "songSlug": "koikaze-ni-nosete",
+  "lessonNumber": 5,
+  "title": "다시 돌아온 웃음과 추억",
+  "subtitle": "반복되는 후렴의 감정 확인",
+  "description": "동일한 후렴을 다시 만나며, 웃음과 슬픔이 함께 존재하는 관계의 여운을 확인합니다.",
+  "estimatedMinutes": 14,
+  "sentences": [
+    { "id": "koikaze-ni-nosete-5-1", "original": "くだらない愛で", "ruby": [{ "text": "くだらない" }, { "text": "愛", "reading": "あい" }, { "text": "で" }], "hiragana": "くだらない あい で", "pronunciationKo": "쿠다라나이 아이데", "translationKo": "별것 아닌 사랑으로", "grammarIds": [], "kanjiIds": ["愛"] },
+    { "id": "koikaze-ni-nosete-5-2", "original": "僕たちはいつも笑っている", "ruby": [{ "text": "僕", "reading": "ぼく" }, { "text": "たちはいつも" }, { "text": "笑", "reading": "わら" }, { "text": "っている" }], "hiragana": "ぼくたち は いつも わらっている", "pronunciationKo": "보쿠타치와 이츠모 와랏테이루", "translationKo": "우리는 언제나 웃고 있어", "grammarIds": ["teiru"], "kanjiIds": ["僕", "笑"] },
+    { "id": "koikaze-ni-nosete-5-3", "original": "思い出す日々が", "ruby": [{ "text": "思", "reading": "おも" }, { "text": "い" }, { "text": "出", "reading": "だ" }, { "text": "す" }, { "text": "日々", "reading": "ひび" }, { "text": "が" }], "hiragana": "おもいだす ひび が", "pronunciationKo": "오모이다스 히비가", "translationKo": "떠올리는 나날이", "grammarIds": ["relative-clause"], "kanjiIds": ["思", "日"] },
+    { "id": "koikaze-ni-nosete-5-4", "original": "僕たちを悲しませるの", "ruby": [{ "text": "僕", "reading": "ぼく" }, { "text": "たちを" }, { "text": "悲", "reading": "かな" }, { "text": "しませるの" }], "hiragana": "ぼくたち を かなしませる の", "pronunciationKo": "보쿠타치오 카나시마세루노", "translationKo": "우리를 슬프게 하는 거야", "grammarIds": ["causative", "sentence-final-no"], "kanjiIds": ["僕", "悲"] },
+    { "id": "koikaze-ni-nosete-5-5", "original": "ねぇ", "ruby": [{ "text": "ねぇ" }], "hiragana": "ねぇ", "pronunciationKo": "네에", "translationKo": "있지", "grammarIds": [], "kanjiIds": [] }
+  ],
+  "vocabulary": [
+    { "id": "koikaze-ni-nosete-5-ai-de", "term": "愛で", "reading": "あいで", "meaning": "사랑으로", "note": "조사 で가 웃는 방식이나 바탕이 되는 사랑을 표시합니다." },
+    { "id": "koikaze-ni-nosete-5-waratteiru", "term": "笑っている", "reading": "わらっている", "meaning": "웃고 있다" },
+    { "id": "koikaze-ni-nosete-5-omoidasu-hibi", "term": "思い出す日々", "reading": "おもいだすひび", "meaning": "떠올리는 나날" },
+    { "id": "koikaze-ni-nosete-5-kanashimu", "term": "悲しむ", "reading": "かなしむ", "meaning": "슬퍼하다" },
+    { "id": "koikaze-ni-nosete-5-nee", "term": "ねぇ", "reading": "ねぇ", "meaning": "있지, 저기", "note": "상대에게 부드럽게 말을 건네거나 공감을 구하는 표현입니다." }
+  ],
+  "quiz": [
+    { "id": "koikaze-ni-nosete-5-q1", "prompt": "「愛で」의 で를 문맥에 맞게 옮긴 것은?", "options": ["사랑에게만", "사랑으로", "사랑부터", "사랑보다"], "answerIndex": 1, "explanation": "여기의 で는 웃는 것의 바탕이나 방식을 '사랑으로'라고 연결합니다." },
+    { "id": "koikaze-ni-nosete-5-q2", "prompt": "반복된 후렴에서도 현재형으로 표현된 동작은?", "options": ["笑っている", "笑っていた", "笑わせる", "笑わない"], "answerIndex": 0, "explanation": "笑っている는 현재의 지속이나 반복되는 상태를 나타냅니다." },
+    { "id": "koikaze-ni-nosete-5-q3", "prompt": "「思い出す日々」의 구조는?", "options": ["동사가 앞에서 명사를 꾸민", "명사가 동사를 명령함", "두 조사가 대조를 만듦", "사역형이 인용을 만듦"], "answerIndex": 0, "explanation": "思い出す가 보통형으로 뒤의 日々를 꾸며 '떠올리는 나날'이 됩니다." },
+    { "id": "koikaze-ni-nosete-5-q4", "prompt": "문장 끝의 「の」가 더하는 느낌은?", "options": ["친밀하게 설명하는 여운", "거친 명령", "공식적인 발표", "완강한 부정"], "answerIndex": 0, "explanation": "평서문 끝의 の는 사정을 부드럽게 설명하는 '거야'와 같은 여운을 줍니다." }
+  ]
+}

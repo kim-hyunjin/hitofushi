@@ -1,0 +1,35 @@
+{
+  "songSlug": "koikaze-ni-nosete",
+  "lessonNumber": 7,
+  "title": "마음이 시들 때까지",
+  "subtitle": "〜まで와 의지형으로 전하는 약속",
+  "description": "말이 깊이를 더하는 밤에 서로를 찾고, 함께 웃자는 답 끝에 마침내 눈을 맞추는 장면을 읽습니다.",
+  "estimatedMinutes": 22,
+  "sentences": [
+    { "id": "koikaze-ni-nosete-7-1", "original": "言葉が深める惑星の夜に今", "ruby": [{ "text": "言葉", "reading": "ことば" }, { "text": "が" }, { "text": "深", "reading": "ふか" }, { "text": "める" }, { "text": "惑星", "reading": "わくせい" }, { "text": "の" }, { "text": "夜", "reading": "よる" }, { "text": "に" }, { "text": "今", "reading": "いま" }], "hiragana": "ことば が ふかめる わくせい の よる に いま", "pronunciationKo": "코토바가 후카메루 와쿠세이노 요루니 이마", "translationKo": "지금, 말이 깊이를 더하는 이 행성의 밤에", "grammarIds": ["relative-clause", "noun-no-noun"], "kanjiIds": ["言", "深", "星", "夜", "今"] },
+    { "id": "koikaze-ni-nosete-7-2", "original": "あなたを探して", "ruby": [{ "text": "あなたを" }, { "text": "探", "reading": "さが" }, { "text": "して" }], "hiragana": "あなた を さがして", "pronunciationKo": "아나타오 사가시테", "translationKo": "너를 찾아서", "grammarIds": ["te-form"], "kanjiIds": ["探"] },
+    { "id": "koikaze-ni-nosete-7-3", "original": "答えた", "ruby": [{ "text": "答", "reading": "こた" }, { "text": "えた" }], "hiragana": "こたえた", "pronunciationKo": "코타에타", "translationKo": "대답했어", "grammarIds": [], "kanjiIds": [] },
+    { "id": "koikaze-ni-nosete-7-4", "original": "「心枯れるまで、共に笑っていよう」", "ruby": [{ "text": "「" }, { "text": "心", "reading": "こころ" }, { "text": "枯", "reading": "か" }, { "text": "れるまで、" }, { "text": "共", "reading": "とも" }, { "text": "に" }, { "text": "笑", "reading": "わら" }, { "text": "っていよう」" }], "hiragana": "「こころ かれる まで、ともに わらっていよう」", "pronunciationKo": "「코코로 카레루마데, 토모니 와랏테이요오」", "translationKo": "「마음이 시들 때까지, 함께 웃고 있자」", "grammarIds": ["made", "teiru", "volitional-form"], "kanjiIds": ["心", "笑"] },
+    { "id": "koikaze-ni-nosete-7-5", "original": "やっと二人", "ruby": [{ "text": "やっと" }, { "text": "二人", "reading": "ふたり" }], "hiragana": "やっと ふたり", "pronunciationKo": "얏토 후타리", "translationKo": "마침내 두 사람", "grammarIds": [], "kanjiIds": [] },
+    { "id": "koikaze-ni-nosete-7-6", "original": "目を合わせて気付いたの", "ruby": [{ "text": "目", "reading": "め" }, { "text": "を" }, { "text": "合", "reading": "あ" }, { "text": "わせて" }, { "text": "気付", "reading": "きづ" }, { "text": "いたの" }], "hiragana": "め を あわせて きづいた の", "pronunciationKo": "메오 아와세테 키즈이타노", "translationKo": "눈을 맞추고서야 깨달은 거야", "grammarIds": ["te-form", "sentence-final-no"], "kanjiIds": ["目", "合", "気"] }
+  ],
+  "vocabulary": [
+    { "id": "koikaze-ni-nosete-7-kotoba", "term": "言葉", "reading": "ことば", "meaning": "말, 언어" },
+    { "id": "koikaze-ni-nosete-7-fukameru", "term": "深める", "reading": "ふかめる", "meaning": "깊게 하다, 깊이를 더하다" },
+    { "id": "koikaze-ni-nosete-7-wakusei", "term": "惑星", "reading": "わくせい", "meaning": "행성" },
+    { "id": "koikaze-ni-nosete-7-sagasu", "term": "探す", "reading": "さがす", "meaning": "찾다" },
+    { "id": "koikaze-ni-nosete-7-kotaeru", "term": "答える", "reading": "こたえる", "meaning": "대답하다" },
+    { "id": "koikaze-ni-nosete-7-kokoro-kareru", "term": "心枯れる", "reading": "こころかれる", "meaning": "마음이 시들다", "note": "조사 が를 생략한 시적인 표현으로 볼 수 있습니다." },
+    { "id": "koikaze-ni-nosete-7-tomoni", "term": "共に", "reading": "ともに", "meaning": "함께" },
+    { "id": "koikaze-ni-nosete-7-yatto", "term": "やっと", "reading": "やっと", "meaning": "간신히, 마침내" },
+    { "id": "koikaze-ni-nosete-7-me-wo-awaseru", "term": "目を合わせる", "reading": "めをあわせる", "meaning": "눈을 마주치다" }
+  ],
+  "quiz": [
+    { "id": "koikaze-ni-nosete-7-q1", "prompt": "「深める」의 뜻은?", "options": ["얇게 만들다", "깊게 하다", "넓게 펼치다", "빠르게 끝내다"], "answerIndex": 1, "explanation": "深める는 관계나 이해, 감정 등의 깊이를 더하다라는 뜻입니다." },
+    { "id": "koikaze-ni-nosete-7-q2", "prompt": "「心枯れるまで」에서 〜まで가 표시하는 것은?", "options": ["시작점", "끝점", "원인", "비교"], "answerIndex": 1, "explanation": "〜まで는 동작이나 상태가 이어지는 끝을 '~까지'로 나타냅니다." },
+    { "id": "koikaze-ni-nosete-7-q3", "prompt": "「笑っていよう」가 담는 느낌은?", "options": ["함께 계속 웃고 있자는 제안", "웃음을 멈추라는 명령", "이미 웃음이 끝났다는 회상", "웃을 수 없다는 포기"], "answerIndex": 0, "explanation": "〜ている의 의지형인 〜ていよう는 그 상태를 함께 계속하자는 다짐을 표현합니다." },
+    { "id": "koikaze-ni-nosete-7-q4", "prompt": "「心枯れる」에서 시적으로 생략된 것으로 볼 수 있는 조사는?", "options": ["を", "に", "が", "と"], "answerIndex": 2, "explanation": "일반적인 문장으로는 心が枯れる라고 할 수 있으며, 가사에서는 が가 생략된 것으로 볼 수 있습니다." },
+    { "id": "koikaze-ni-nosete-7-q5", "prompt": "두 사람의 시선은 이 구간에서 어떻게 변하나요?", "options": ["마침내 눈을 마주친다", "다시 시선을 완전히 피한다", "서로의 뒷모습만 본다", "서로를 찾지 못한다"], "answerIndex": 0, "explanation": "目をそらす, 目を凝らす를 거쳐 이제는 目を合わせる에 이르러 관계의 변화가 완성됩니다." },
+    { "id": "koikaze-ni-nosete-7-q6", "prompt": "「言葉が深める惑星の夜」의 해석에 대한 설명으로 알맞은 것은?", "options": ["시적 어순이므로 말이 밤이나 관계의 깊이를 더한다고 읽을 수 있다", "행성이 말을 지우는 의미로만 확정된다", "천체 과학의 정확한 용어이다", "밤을 끝내는 명령문이다"], "answerIndex": 0, "explanation": "명사의 연결이 열려 있는 시적 구절이므로, 말이 밤이나 두 사람의 관계를 깊게 한다는 이미지로 읽을 수 있지만 하나로 단정할 필요는 없습니다." }
+  ]
+}

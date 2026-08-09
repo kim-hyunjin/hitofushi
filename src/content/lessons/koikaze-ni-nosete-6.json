@@ -1,0 +1,30 @@
+{
+  "songSlug": "koikaze-ni-nosete",
+  "lessonNumber": 6,
+  "title": "두 사람이 다시 외우는 마법",
+  "subtitle": "繰り返す와 「2人」의 읽기",
+  "description": "두 번째 후렴의 후반부를 읽으며 반복과 사역형을 복습하고, 숫자로 적힌 2人의 읽기를 익힙니다.",
+  "estimatedMinutes": 16,
+  "sentences": [
+    { "id": "koikaze-ni-nosete-6-1", "original": "くだらない愛で", "ruby": [{ "text": "くだらない" }, { "text": "愛", "reading": "あい" }, { "text": "で" }], "hiragana": "くだらない あい で", "pronunciationKo": "쿠다라나이 아이데", "translationKo": "별것 아닌 사랑으로", "grammarIds": [], "kanjiIds": ["愛"] },
+    { "id": "koikaze-ni-nosete-6-2", "original": "僕たちはいつも笑っていた", "ruby": [{ "text": "僕", "reading": "ぼく" }, { "text": "たちはいつも" }, { "text": "笑", "reading": "わら" }, { "text": "っていた" }], "hiragana": "ぼくたち は いつも わらっていた", "pronunciationKo": "보쿠타치와 이츠모 와랏테이타", "translationKo": "우리는 언제나 웃고 있었어", "grammarIds": ["teiru"], "kanjiIds": ["僕", "笑"] },
+    { "id": "koikaze-ni-nosete-6-3", "original": "繰り返す日々が", "ruby": [{ "text": "繰", "reading": "く" }, { "text": "り" }, { "text": "返", "reading": "かえ" }, { "text": "す" }, { "text": "日々", "reading": "ひび" }, { "text": "が" }], "hiragana": "くりかえす ひび が", "pronunciationKo": "쿠리카에스 히비가", "translationKo": "반복되는 나날이", "grammarIds": ["relative-clause"], "kanjiIds": ["日"] },
+    { "id": "koikaze-ni-nosete-6-4", "original": "僕たちを振り向かせるの", "ruby": [{ "text": "僕", "reading": "ぼく" }, { "text": "たちを" }, { "text": "振", "reading": "ふ" }, { "text": "り" }, { "text": "向", "reading": "む" }, { "text": "かせるの" }], "hiragana": "ぼくたち を ふりむかせる の", "pronunciationKo": "보쿠타치오 후리무카세루노", "translationKo": "우리를 뒤돌아보게 하는 거야", "grammarIds": ["causative", "sentence-final-no"], "kanjiIds": ["僕"] },
+    { "id": "koikaze-ni-nosete-6-5", "original": "ねぇそっと2人", "ruby": [{ "text": "ねぇそっと" }, { "text": "2人", "reading": "ふたり" }], "hiragana": "ねぇ そっと ふたり", "pronunciationKo": "네에 솟토 후타리", "translationKo": "있지, 살며시 두 사람", "grammarIds": [], "kanjiIds": [] },
+    { "id": "koikaze-ni-nosete-6-6", "original": "魔法を唱えるの", "ruby": [{ "text": "魔法", "reading": "まほう" }, { "text": "を" }, { "text": "唱", "reading": "とな" }, { "text": "えるの" }], "hiragana": "まほう を となえる の", "pronunciationKo": "마호오오 토나에루노", "translationKo": "마법을 외우는 거야", "grammarIds": ["sentence-final-no"], "kanjiIds": ["魔"] },
+    { "id": "koikaze-ni-nosete-6-7", "original": "恋風邪にのせて", "ruby": [{ "text": "恋風邪", "reading": "こいかぜ" }, { "text": "にのせて" }], "hiragana": "こいかぜ に のせて", "pronunciationKo": "코이카제니 노세테", "translationKo": "사랑 감기에 실어서", "grammarIds": ["te-form"], "kanjiIds": ["恋", "風"] }
+  ],
+  "vocabulary": [
+    { "id": "koikaze-ni-nosete-6-waratteita", "term": "笑っていた", "reading": "わらっていた", "meaning": "웃고 있었다" },
+    { "id": "koikaze-ni-nosete-6-kurikaesu-hibi", "term": "繰り返す日々", "reading": "くりかえすひび", "meaning": "반복되는 나날" },
+    { "id": "koikaze-ni-nosete-6-futari", "term": "2人", "reading": "ふたり", "meaning": "두 사람", "note": "数字로 써도 二人과 같이 ふたり로 읽습니다." },
+    { "id": "koikaze-ni-nosete-6-tonaeru", "term": "唱える", "reading": "となえる", "meaning": "소리 내어 외우다" },
+    { "id": "koikaze-ni-nosete-6-koikaze-ni-nosete", "term": "恋風邪にのせて", "reading": "こいかぜにのせて", "meaning": "사랑 감기에 실어서" }
+  ],
+  "quiz": [
+    { "id": "koikaze-ni-nosete-6-q1", "prompt": "「2人」의 읽기는?", "options": ["ににん", "ふたり", "にじん", "ふたつ"], "answerIndex": 1, "explanation": "사람 두 명을 세는 2人는 특별히 ふたり로 읽습니다." },
+    { "id": "koikaze-ni-nosete-6-q2", "prompt": "「繰り返す日々」의 느낌에 가장 가까운 것은?", "options": ["한 번뿐인 축제", "되풀이되는 일상", "예측할 수 없는 미래", "완전히 사라진 기억"], "answerIndex": 1, "explanation": "繰り返す는 같은 일을 되풀이하다라는 뜻으로, 일상의 반복을 보여 줍니다." },
+    { "id": "koikaze-ni-nosete-6-q3", "prompt": "「笑っていた」를 현재 지속형으로 바꾸면?", "options": ["笑っている", "笑ってみる", "笑わせる", "笑わない"], "answerIndex": 0, "explanation": "いた를 いる로 바꾸면 현재의 지속되는 상태를 나타내는 笑っている가 됩니다." },
+    { "id": "koikaze-ni-nosete-6-q4", "prompt": "후렴의 끝에서 두 사람이 하는 행동은?", "options": ["마법을 외운다", "창문을 닫는다", "비를 피한다", "풍경을 잊는다"], "answerIndex": 0, "explanation": "ねぇそっと2人と 부른 뒤 魔法を唱えるの로 이어집니다." }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "songSlug": "koikaze-ni-nosete",
+  "lessonNumber": 8,
+  "title": "사랑 감기에 실어",
+  "subtitle": "현재와 추억을 함께 안는 마무리",
+  "description": "현재의 웃음과 과거의 웃음, 슬픔과 뒤돌아보기를 한데 안고 제목의 마법으로 돌아오며 전체 곡을 정리합니다.",
+  "estimatedMinutes": 26,
+  "sentences": [
+    { "id": "koikaze-ni-nosete-8-1", "original": "くだらない愛で", "ruby": [{ "text": "くだらない" }, { "text": "愛", "reading": "あい" }, { "text": "で" }], "hiragana": "くだらない あい で", "pronunciationKo": "쿠다라나이 아이데", "translationKo": "별것 아닌 사랑으로", "grammarIds": [], "kanjiIds": ["愛"] },
+    { "id": "koikaze-ni-nosete-8-2", "original": "僕たちはいつも笑っている", "ruby": [{ "text": "僕", "reading": "ぼく" }, { "text": "たちはいつも" }, { "text": "笑", "reading": "わら" }, { "text": "っている" }], "hiragana": "ぼくたち は いつも わらっている", "pronunciationKo": "보쿠타치와 이츠모 와랏테이루", "translationKo": "우리는 언제나 웃고 있어", "grammarIds": ["teiru"], "kanjiIds": ["僕", "笑"] },
+    { "id": "koikaze-ni-nosete-8-3", "original": "思い出す日々が", "ruby": [{ "text": "思", "reading": "おも" }, { "text": "い" }, { "text": "出", "reading": "だ" }, { "text": "す" }, { "text": "日々", "reading": "ひび" }, { "text": "が" }], "hiragana": "おもいだす ひび が", "pronunciationKo": "오모이다스 히비가", "translationKo": "떠올리는 나날이", "grammarIds": ["relative-clause"], "kanjiIds": ["思", "日"] },
+    { "id": "koikaze-ni-nosete-8-4", "original": "僕たちを悲しませるの", "ruby": [{ "text": "僕", "reading": "ぼく" }, { "text": "たちを" }, { "text": "悲", "reading": "かな" }, { "text": "しませるの" }], "hiragana": "ぼくたち を かなしませる の", "pronunciationKo": "보쿠타치오 카나시마세루노", "translationKo": "우리를 슬프게 하는 거야", "grammarIds": ["causative", "sentence-final-no"], "kanjiIds": ["僕", "悲"] },
+    { "id": "koikaze-ni-nosete-8-5", "original": "ねぇ", "ruby": [{ "text": "ねぇ" }], "hiragana": "ねぇ", "pronunciationKo": "네에", "translationKo": "있지", "grammarIds": [], "kanjiIds": [] },
+    { "id": "koikaze-ni-nosete-8-6", "original": "くだらない愛で", "ruby": [{ "text": "くだらない" }, { "text": "愛", "reading": "あい" }, { "text": "で" }], "hiragana": "くだらない あい で", "pronunciationKo": "쿠다라나이 아이데", "translationKo": "별것 아닌 사랑으로", "grammarIds": [], "kanjiIds": ["愛"] },
+    { "id": "koikaze-ni-nosete-8-7", "original": "僕たちはいつも笑っていた", "ruby": [{ "text": "僕", "reading": "ぼく" }, { "text": "たちはいつも" }, { "text": "笑", "reading": "わら" }, { "text": "っていた" }], "hiragana": "ぼくたち は いつも わらっていた", "pronunciationKo": "보쿠타치와 이츠모 와랏테이타", "translationKo": "우리는 언제나 웃고 있었어", "grammarIds": ["teiru"], "kanjiIds": ["僕", "笑"] },
+    { "id": "koikaze-ni-nosete-8-8", "original": "繰り返す日々が", "ruby": [{ "text": "繰", "reading": "く" }, { "text": "り" }, { "text": "返", "reading": "かえ" }, { "text": "す" }, { "text": "日々", "reading": "ひび" }, { "text": "が" }], "hiragana": "くりかえす ひび が", "pronunciationKo": "쿠리카에스 히비가", "translationKo": "반복되는 나날이", "grammarIds": ["relative-clause"], "kanjiIds": ["日"] },
+    { "id": "koikaze-ni-nosete-8-9", "original": "僕たちを振り向かせるの", "ruby": [{ "text": "僕", "reading": "ぼく" }, { "text": "たちを" }, { "text": "振", "reading": "ふ" }, { "text": "り" }, { "text": "向", "reading": "む" }, { "text": "かせるの" }], "hiragana": "ぼくたち を ふりむかせる の", "pronunciationKo": "보쿠타치오 후리무카세루노", "translationKo": "우리를 뒤돌아보게 하는 거야", "grammarIds": ["causative", "sentence-final-no"], "kanjiIds": ["僕"] },
+    { "id": "koikaze-ni-nosete-8-10", "original": "ねぇそっと二人", "ruby": [{ "text": "ねぇそっと" }, { "text": "二人", "reading": "ふたり" }], "hiragana": "ねぇ そっと ふたり", "pronunciationKo": "네에 솟토 후타리", "translationKo": "있지, 살며시 두 사람", "grammarIds": [], "kanjiIds": [] },
+    { "id": "koikaze-ni-nosete-8-11", "original": "魔法を唱えるの", "ruby": [{ "text": "魔法", "reading": "まほう" }, { "text": "を" }, { "text": "唱", "reading": "とな" }, { "text": "えるの" }], "hiragana": "まほう を となえる の", "pronunciationKo": "마호오오 토나에루노", "translationKo": "마법을 외우는 거야", "grammarIds": ["sentence-final-no"], "kanjiIds": ["魔"] },
+    { "id": "koikaze-ni-nosete-8-12", "original": "恋風邪にのせて", "ruby": [{ "text": "恋風邪", "reading": "こいかぜ" }, { "text": "にのせて" }], "hiragana": "こいかぜ に のせて", "pronunciationKo": "코이카제니 노세테", "translationKo": "사랑 감기에 실어서", "grammarIds": ["te-form"], "kanjiIds": ["恋", "風"] }
+  ],
+  "vocabulary": [
+    { "id": "koikaze-ni-nosete-8-genzai", "term": "〜ている", "reading": "ている", "meaning": "~하고 있다, ~한 상태이다" },
+    { "id": "koikaze-ni-nosete-8-kako", "term": "〜ていた", "reading": "ていた", "meaning": "~하고 있었다, ~한 상태였다" },
+    { "id": "koikaze-ni-nosete-8-kanashimaseru", "term": "悲しませる", "reading": "かなしませる", "meaning": "슬프게 하다" },
+    { "id": "koikaze-ni-nosete-8-furimukaseru", "term": "振り向かせる", "reading": "ふりむかせる", "meaning": "뒤돌아보게 하다" },
+    { "id": "koikaze-ni-nosete-8-mahou-wo-tonaeru", "term": "魔法を唱える", "reading": "まほうをとなえる", "meaning": "마법을 외우다" },
+    { "id": "koikaze-ni-nosete-8-sotto-futari", "term": "そっと二人", "reading": "そっとふたり", "meaning": "살며시, 두 사람" },
+    { "id": "koikaze-ni-nosete-8-nosete", "term": "のせて", "reading": "のせて", "meaning": "실어서, 얹어서" }
+  ],
+  "quiz": [
+    { "id": "koikaze-ni-nosete-8-q1", "prompt": "마지막 후렴에서 현재의 웃음을 나타내는 형태는?", "options": ["笑っている", "笑っていた", "笑わせる", "笑わない"], "answerIndex": 0, "explanation": "笑っている는 현재의 지속되는 웃음을, 笑っていた는 과거의 웃음을 나타냅니다." },
+    { "id": "koikaze-ni-nosete-8-q2", "prompt": "마지막 후렴이 나란히 놓는 두 시점은?", "options": ["현재와 과거", "미래와 가정", "명령과 금지", "시작과 정지"], "answerIndex": 0, "explanation": "笑っている와 笑っていた가 나란히 배치되어 현재의 관계와 과거의 추억을 함께 떠올리게 합니다." },
+    { "id": "koikaze-ni-nosete-8-q3", "prompt": "「思い出す日々」와 「繰り返す日々」의 차이는?", "options": ["앞은 떠올리는 나날, 뒤는 반복되는 나날", "앞은 미래, 뒤는 과거", "앞은 웃음, 뒤는 분노", "두 표현의 뜻은 완전히 같다"], "answerIndex": 0, "explanation": "思い出す는 기억을 떠올리는 행위를, 繰り返す는 같은 흐름이 되풀이되는 모습을 나타냅니다." },
+    { "id": "koikaze-ni-nosete-8-q4", "prompt": "「悲しませる」와 「振り向かせる」의 공통점은?", "options": ["둘 다 사역형이다", "둘 다 수동형이다", "둘 다 명령형이다", "둘 다 부정형이다"], "answerIndex": 0, "explanation": "두 표현 모두 '슬프게 하다', '뒤돌아보게 하다'처럼 다른 대상에게 변화를 일으키는 사역형입니다." },
+    { "id": "koikaze-ni-nosete-8-q5", "prompt": "곡 전체에서 시선의 변화를 바른 순서로 나열한 것은?", "options": ["目をそらす → 目を凝らす → 目を合わせる", "目を合わせる → 目をそらす → 目を凝らす", "目を凝らす → 目を合わせる → 目をそらす", "目をそらす → 目を合わせる → 目を凝らす"], "answerIndex": 0, "explanation": "시선을 피하던 두 사람은 자세히 보기 시작하고, 마침내 눈을 마주칩니다." },
+    { "id": "koikaze-ni-nosete-8-q6", "prompt": "곡의 마지막이 「恋風邪にのせて」로 닫히며 남기는 이미지는?", "options": ["두 사람의 마음과 약속을 사랑 감기에 실어 전함", "모든 추억을 지우고 헤어짐", "풍경의 변화를 거부함", "마법이 실패했음을 선언함"], "answerIndex": 0, "explanation": "마법을 외운 두 사람의 마음이 제목의 조어와 만나며, 약속을 전하는 이미지로 마무리됩니다." }
+  ]
+}
