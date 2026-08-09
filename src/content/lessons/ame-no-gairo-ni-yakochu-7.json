@@ -1,0 +1,63 @@
+{
+  "songSlug": "ame-no-gairo-ni-yakochu",
+  "lessonNumber": 7,
+  "title": "거세지는 비에도 흐르지 않게",
+  "subtitle": "〜られるように·〜ないように로 남기는 바람",
+  "description": "어떤 순간에도 곁에 있고, 두 사람의 약속이 거세지는 비에 씻겨 가지 않기를 바라며 노래를 마무리합니다.",
+  "estimatedMinutes": 19,
+  "sentences": [
+    {
+      "id": "ame-no-gairo-ni-yakochu-7-1",
+      "original": "いつだってそばにいられるように",
+      "ruby": [{ "text": "いつだってそばにいられるように" }],
+      "hiragana": "いつだって そば に いられる ように",
+      "pronunciationKo": "이츠닷테 소바니 이라레루 요오니",
+      "translationKo": "언제라도 곁에 있을 수 있도록",
+      "grammarIds": ["potential-form", "you-ni"],
+      "kanjiIds": []
+    },
+    {
+      "id": "ame-no-gairo-ni-yakochu-7-2",
+      "original": "誰も知らない約束が",
+      "ruby": [{ "text": "誰", "reading": "だれ" }, { "text": "も" }, { "text": "知", "reading": "し" }, { "text": "らない" }, { "text": "約束", "reading": "やくそく" }, { "text": "が" }],
+      "hiragana": "だれ も しらない やくそく が",
+      "pronunciationKo": "다레모 시라나이 야쿠소쿠가",
+      "translationKo": "아무도 모르는 약속이",
+      "grammarIds": ["relative-clause"],
+      "kanjiIds": ["誰"]
+    },
+    {
+      "id": "ame-no-gairo-ni-yakochu-7-3",
+      "original": "強まる雨に流れないように",
+      "ruby": [{ "text": "強", "reading": "つよ" }, { "text": "まる" }, { "text": "雨", "reading": "あめ" }, { "text": "に" }, { "text": "流", "reading": "なが" }, { "text": "れないように" }],
+      "hiragana": "つよまる あめ に ながれない ように",
+      "pronunciationKo": "츠요마루 아메니 나가레나이 요오니",
+      "translationKo": "거세지는 비에 흘러가 버리지 않도록",
+      "grammarIds": ["relative-clause", "nai-you-ni"],
+      "kanjiIds": ["強", "雨"]
+    },
+    {
+      "id": "ame-no-gairo-ni-yakochu-7-4",
+      "original": "君とどこまでも行けるように",
+      "ruby": [{ "text": "君", "reading": "きみ" }, { "text": "とどこまでも" }, { "text": "行", "reading": "い" }, { "text": "けるように" }],
+      "hiragana": "きみ と どこまでも いける ように",
+      "pronunciationKo": "키미토 도코마데모 이케루 요오니",
+      "translationKo": "너와 어디까지든 갈 수 있도록",
+      "grammarIds": ["potential-form", "you-ni"],
+      "kanjiIds": ["君", "行"]
+    }
+  ],
+  "vocabulary": [
+    { "id": "ame-no-gairo-ni-yakochu-7-itsudatte", "term": "いつだって", "reading": "いつだって", "meaning": "언제라도, 언제나" },
+    { "id": "ame-no-gairo-ni-yakochu-7-soba", "term": "そば", "reading": "そば", "meaning": "곁, 가까운 곳" },
+    { "id": "ame-no-gairo-ni-yakochu-7-tsuyomaru", "term": "強まる", "reading": "つよまる", "meaning": "강해지다, 거세지다" },
+    { "id": "ame-no-gairo-ni-yakochu-7-nagareru", "term": "流れる", "reading": "ながれる", "meaning": "흐르다, 떠내려가다" },
+    { "id": "ame-no-gairo-ni-yakochu-7-irareru", "term": "いられる", "reading": "いられる", "meaning": "있을 수 있다, 머물 수 있다", "note": "いる의 가능형입니다." }
+  ],
+  "quiz": [
+    { "id": "ame-no-gairo-ni-yakochu-7-q1", "prompt": "「そばにいられるように」의 뜻은?", "options": ["곁에 있을 수 있도록", "곁을 떠났기 때문에", "곁에 있으라는 명령", "곁에 있었는지 묻기"], "answerIndex": 0, "explanation": "いられる는 ‘있을 수 있다’, ように는 그 가능 상태를 바라는 목표를 나타냅니다." },
+    { "id": "ame-no-gairo-ni-yakochu-7-q2", "prompt": "「強まる雨」에서 強まる가 꾸미는 명사는?", "options": ["雨", "約束", "君", "そば"], "answerIndex": 0, "explanation": "동사 보통형 強まる가 바로 뒤의 雨를 꾸며 ‘거세지는 비’가 됩니다." },
+    { "id": "ame-no-gairo-ni-yakochu-7-q3", "prompt": "「流れないように」가 피하고 싶은 결과는?", "options": ["약속이 비에 떠내려가는 것", "비가 그치는 것", "두 사람이 노래하는 것", "길 끝에 도착하는 것"], "answerIndex": 0, "explanation": "부정형 + ように는 원하지 않는 결과가 생기지 않도록 바라는 목적을 나타냅니다." },
+    { "id": "ame-no-gairo-ni-yakochu-7-q4", "prompt": "마지막 「君とどこまでも行けるように」가 되돌려 강조하는 것은?", "options": ["둘이 계속 함께 가고 싶은 소망", "혼자 남으려는 결심", "약속을 잊으려는 마음", "비를 피하려는 계획"], "answerIndex": 0, "explanation": "앞 후렴의 문장을 마지막에 다시 놓아, 비 속에서도 함께 가겠다는 곡의 중심 소망을 되새깁니다." }
+  ]
+}

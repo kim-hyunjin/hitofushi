@@ -1,0 +1,74 @@
+{
+  "songSlug": "ame-no-gairo-ni-yakochu",
+  "lessonNumber": 1,
+  "title": "빗빛 아래 떨리던 두 손",
+  "subtitle": "〜か〜か·수동형·〜合う로 장면 열기",
+  "description": "비에 번지는 거리의 불빛 아래, 어른이 되고 싶어 어설픈 말과 웃음을 주고받던 두 사람의 기억을 읽습니다.",
+  "estimatedMinutes": 24,
+  "sentences": [
+    {
+      "id": "ame-no-gairo-ni-yakochu-1-1",
+      "original": "震えていたのは君の手か僕の手の方か",
+      "ruby": [{ "text": "震", "reading": "ふる" }, { "text": "えていたのは" }, { "text": "君", "reading": "きみ" }, { "text": "の" }, { "text": "手", "reading": "て" }, { "text": "か" }, { "text": "僕", "reading": "ぼく" }, { "text": "の" }, { "text": "手", "reading": "て" }, { "text": "の" }, { "text": "方", "reading": "ほう" }, { "text": "か" }],
+      "hiragana": "ふるえていた のは きみ の て か ぼく の て の ほう か",
+      "pronunciationKo": "후루에테이타노와 키미노 테카 보쿠노 테노 호오카",
+      "translationKo": "떨고 있던 건 네 손이었을까, 아니면 내 손 쪽이었을까",
+      "grammarIds": ["nowa", "ka-ka", "teiru"],
+      "kanjiIds": ["震", "君", "手", "僕"]
+    },
+    {
+      "id": "ame-no-gairo-ni-yakochu-1-2",
+      "original": "街のライトが雨に照らされて弾ける夜に",
+      "ruby": [{ "text": "街", "reading": "まち" }, { "text": "のライトが" }, { "text": "雨", "reading": "あめ" }, { "text": "に" }, { "text": "照", "reading": "て" }, { "text": "らされて" }, { "text": "弾", "reading": "はじ" }, { "text": "ける" }, { "text": "夜", "reading": "よる" }, { "text": "に" }],
+      "hiragana": "まち の らいと が あめ に てらされて はじける よる に",
+      "pronunciationKo": "마치노 라이토가 아메니 테라사레테 하지케루 요루니",
+      "translationKo": "거리의 불빛이 비에 비쳐 튀어 오르는 밤에",
+      "grammarIds": ["passive", "te-form", "relative-clause"],
+      "kanjiIds": ["街", "雨", "夜"]
+    },
+    {
+      "id": "ame-no-gairo-ni-yakochu-1-3",
+      "original": "僕らはただ大人になりたくて 背伸びをして",
+      "ruby": [{ "text": "僕", "reading": "ぼく" }, { "text": "らはただ" }, { "text": "大人", "reading": "おとな" }, { "text": "になりたくて " }, { "text": "背伸", "reading": "せの" }, { "text": "びをして" }],
+      "hiragana": "ぼくら は ただ おとな に なりたくて せのび を して",
+      "pronunciationKo": "보쿠라와 타다 오토나니 나리타쿠테 세노비오 시테",
+      "translationKo": "우리는 그저 어른이 되고 싶어서 발돋움을 하고",
+      "grammarIds": ["verb-tai", "i-adjective-kute", "te-form"],
+      "kanjiIds": ["僕"]
+    },
+    {
+      "id": "ame-no-gairo-ni-yakochu-1-4",
+      "original": "チグハグな言葉を交わしあって 笑いあったんだ",
+      "ruby": [{ "text": "チグハグな" }, { "text": "言葉", "reading": "ことば" }, { "text": "を" }, { "text": "交", "reading": "か" }, { "text": "わしあって " }, { "text": "笑", "reading": "わら" }, { "text": "いあったんだ" }],
+      "hiragana": "ちぐはぐな ことば を かわしあって わらいあったんだ",
+      "pronunciationKo": "치구하구나 코토바오 카와시앗테 와라이앗탄다",
+      "translationKo": "앞뒤가 맞지 않는 말을 주고받으며 함께 웃었던 거야",
+      "grammarIds": ["verb-stem-au", "te-form", "n-da"],
+      "kanjiIds": ["言", "笑"]
+    },
+    {
+      "id": "ame-no-gairo-ni-yakochu-1-5",
+      "original": "二人でだったら行けるよね 地球の隅っこへ",
+      "ruby": [{ "text": "二人", "reading": "ふたり" }, { "text": "でだったら" }, { "text": "行", "reading": "い" }, { "text": "けるよね " }, { "text": "地球", "reading": "ちきゅう" }, { "text": "の" }, { "text": "隅", "reading": "すみ" }, { "text": "っこへ" }],
+      "hiragana": "ふたり で だったら いける よね ちきゅう の すみっこ へ",
+      "pronunciationKo": "후타리데닷타라 이케루요네 치큐우노 스밋코에",
+      "translationKo": "둘이 함께라면 갈 수 있겠지, 지구 구석까지",
+      "grammarIds": ["tara-conditional", "potential-form"],
+      "kanjiIds": ["行"]
+    }
+  ],
+  "vocabulary": [
+    { "id": "ame-no-gairo-ni-yakochu-1-furueru", "term": "震える", "reading": "ふるえる", "meaning": "떨다, 떨리다" },
+    { "id": "ame-no-gairo-ni-yakochu-1-terasareru", "term": "照らされる", "reading": "てらされる", "meaning": "빛을 받다, 비추어지다", "note": "照らす의 수동형입니다." },
+    { "id": "ame-no-gairo-ni-yakochu-1-hajikeru", "term": "弾ける", "reading": "はじける", "meaning": "튀다, 터지다" },
+    { "id": "ame-no-gairo-ni-yakochu-1-senobi", "term": "背伸び", "reading": "せのび", "meaning": "발돋움; 분수보다 어른스럽게 행동함" },
+    { "id": "ame-no-gairo-ni-yakochu-1-chiguhagu", "term": "チグハグ", "reading": "ちぐはぐ", "meaning": "서로 어긋남, 앞뒤가 맞지 않음" },
+    { "id": "ame-no-gairo-ni-yakochu-1-sumikko", "term": "隅っこ", "reading": "すみっこ", "meaning": "구석, 한쪽 끝" }
+  ],
+  "quiz": [
+    { "id": "ame-no-gairo-ni-yakochu-1-q1", "prompt": "「君の手か僕の手の方か」가 나란히 놓는 두 가능성은?", "options": ["네 손인지 내 손인지", "오른손인지 왼손인지", "손인지 발인지", "밤인지 낮인지"], "answerIndex": 0, "explanation": "〜か〜か는 두 가능성을 ‘~인지 ~인지’로 나란히 제시합니다." },
+    { "id": "ame-no-gairo-ni-yakochu-1-q2", "prompt": "「雨に照らされて」에서 照らされる의 형태는?", "options": ["가능형", "수동형", "명령형", "사역형"], "answerIndex": 1, "explanation": "照らす가 照らされる로 바뀌어 불빛이 비로부터 비침을 받는 장면을 만듭니다." },
+    { "id": "ame-no-gairo-ni-yakochu-1-q3", "prompt": "「背伸びをして」가 여기서 암시하는 태도는?", "options": ["실제로 키를 재기만 함", "어른스럽게 보이려 애씀", "등을 다쳐 쉬고 있음", "멀리 달아남"], "answerIndex": 1, "explanation": "背伸び는 발돋움이라는 본뜻에서, 자기 나이보다 성숙해 보이려 애쓰는 태도도 나타냅니다." },
+    { "id": "ame-no-gairo-ni-yakochu-1-q4", "prompt": "「交わしあう」「笑いあう」의 合う가 더하는 뜻은?", "options": ["서로 행동을 주고받다", "행동을 끝내다", "억지로 행동시키다", "행동하지 못하다"], "answerIndex": 0, "explanation": "동사 어간 뒤의 合う는 둘 이상이 서로 같은 행동을 주고받는다는 뜻입니다." }
+  ]
+}

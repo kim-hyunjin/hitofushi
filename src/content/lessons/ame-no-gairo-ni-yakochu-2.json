@@ -1,0 +1,63 @@
+{
+  "songSlug": "ame-no-gairo-ni-yakochu",
+  "lessonNumber": 2,
+  "title": "아무도 모르는 약속",
+  "subtitle": "관형절·〜ていく·〜ほど로 약속 노래하기",
+  "description": "둘만 아는 약속을 주고받으며 걸어가고, 슬픈 노래를 덮을 만큼 크게 사랑을 노래하는 첫 후렴을 읽습니다.",
+  "estimatedMinutes": 20,
+  "sentences": [
+    {
+      "id": "ame-no-gairo-ni-yakochu-2-1",
+      "original": "誰も知らない約束を",
+      "ruby": [{ "text": "誰", "reading": "だれ" }, { "text": "も" }, { "text": "知", "reading": "し" }, { "text": "らない" }, { "text": "約束", "reading": "やくそく" }, { "text": "を" }],
+      "hiragana": "だれ も しらない やくそく を",
+      "pronunciationKo": "다레모 시라나이 야쿠소쿠오",
+      "translationKo": "아무도 모르는 약속을",
+      "grammarIds": ["relative-clause"],
+      "kanjiIds": ["誰"]
+    },
+    {
+      "id": "ame-no-gairo-ni-yakochu-2-2",
+      "original": "交わしあって僕ら歩いて行くんだ",
+      "ruby": [{ "text": "交", "reading": "か" }, { "text": "わしあって" }, { "text": "僕", "reading": "ぼく" }, { "text": "ら" }, { "text": "歩", "reading": "ある" }, { "text": "いて" }, { "text": "行", "reading": "い" }, { "text": "くんだ" }],
+      "hiragana": "かわしあって ぼくら あるいて いくんだ",
+      "pronunciationKo": "카와시앗테 보쿠라 아루이테 이쿤다",
+      "translationKo": "서로 주고받으며 우리는 걸어가는 거야",
+      "grammarIds": ["verb-stem-au", "te-form", "teiku-teku", "n-da"],
+      "kanjiIds": ["僕", "行"]
+    },
+    {
+      "id": "ame-no-gairo-ni-yakochu-2-3",
+      "original": "大げさなほどに愛を歌うよ",
+      "ruby": [{ "text": "大", "reading": "おお" }, { "text": "げさなほどに" }, { "text": "愛", "reading": "あい" }, { "text": "を" }, { "text": "歌", "reading": "うた" }, { "text": "うよ" }],
+      "hiragana": "おおげさな ほど に あい を うたう よ",
+      "pronunciationKo": "오오게사나 호도니 아이오 우타우요",
+      "translationKo": "과장스러울 정도로 사랑을 노래할게",
+      "grammarIds": ["hodo"],
+      "kanjiIds": ["愛", "歌"]
+    },
+    {
+      "id": "ame-no-gairo-ni-yakochu-2-4",
+      "original": "悲しい歌を塗りつぶすように",
+      "ruby": [{ "text": "悲", "reading": "かな" }, { "text": "しい" }, { "text": "歌", "reading": "うた" }, { "text": "を" }, { "text": "塗", "reading": "ぬ" }, { "text": "りつぶすように" }],
+      "hiragana": "かなしい うた を ぬりつぶす ように",
+      "pronunciationKo": "카나시이 우타오 누리츠부스 요오니",
+      "translationKo": "슬픈 노래를 덧칠해 지워 버리듯이",
+      "grammarIds": ["you-ni-simile"],
+      "kanjiIds": ["悲", "歌"]
+    }
+  ],
+  "vocabulary": [
+    { "id": "ame-no-gairo-ni-yakochu-2-yakusoku", "term": "約束", "reading": "やくそく", "meaning": "약속" },
+    { "id": "ame-no-gairo-ni-yakochu-2-kawashiau", "term": "交わしあう", "reading": "かわしあう", "meaning": "서로 주고받다" },
+    { "id": "ame-no-gairo-ni-yakochu-2-ookesa", "term": "大げさ", "reading": "おおげさ", "meaning": "과장스러움, 유난스러움" },
+    { "id": "ame-no-gairo-ni-yakochu-2-ai", "term": "愛", "reading": "あい", "meaning": "사랑" },
+    { "id": "ame-no-gairo-ni-yakochu-2-nuritsubusu", "term": "塗りつぶす", "reading": "ぬりつぶす", "meaning": "빈틈없이 칠하다, 덧칠해 지우다" }
+  ],
+  "quiz": [
+    { "id": "ame-no-gairo-ni-yakochu-2-q1", "prompt": "「誰も知らない約束」에서 約束를 꾸미는 부분은?", "options": ["誰も知らない", "約束を", "誰も", "知らない約束を 모두"], "answerIndex": 0, "explanation": "동사 보통형 知らない가 앞의 誰も와 함께 뒤 명사 約束를 꾸밉니다." },
+    { "id": "ame-no-gairo-ni-yakochu-2-q2", "prompt": "「歩いて行く」가 나타내는 흐름은?", "options": ["앞으로 걸어 나감", "이미 걷기를 끝냄", "걷지 말라는 부탁", "걸을 수 없음"], "answerIndex": 0, "explanation": "〜ていく는 현재를 기준으로 앞으로 이어지는 움직임이나 변화를 나타냅니다." },
+    { "id": "ame-no-gairo-ni-yakochu-2-q3", "prompt": "「大げさなほどに」의 뜻과 가장 가까운 것은?", "options": ["과장스러울 정도로", "과장스럽지 않게", "과장스러웠기 때문에", "과장스러운 척만 하며"], "answerIndex": 0, "explanation": "ほど는 어느 정도에 이른 상태를 ‘~할 정도로’라고 나타냅니다." },
+    { "id": "ame-no-gairo-ni-yakochu-2-q4", "prompt": "「悲しい歌を塗りつぶすように」가 그리는 이미지는?", "options": ["사랑의 노래로 슬픔을 덮는 모습", "슬픈 노래를 조용히 반복하는 모습", "노래 가사를 종이에 옮기는 모습", "비가 모든 노래를 멈추는 모습"], "answerIndex": 0, "explanation": "塗りつぶす는 덧칠해 원래 것을 보이지 않게 하는 동사로, 사랑의 노래가 슬픔을 덮는 비유를 만듭니다." }
+  ]
+}

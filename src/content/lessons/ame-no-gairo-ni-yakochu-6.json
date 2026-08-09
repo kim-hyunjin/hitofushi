@@ -1,0 +1,73 @@
+{
+  "songSlug": "ame-no-gairo-ni-yakochu",
+  "lessonNumber": 6,
+  "title": "다시 걸어가는 두 사람",
+  "subtitle": "되풀이되는 후렴과 〜たい時も〜時も",
+  "description": "처음의 약속과 사랑 노래를 다시 확인하고, 사라지고 싶은 때와 기분 좋은 때를 모두 끌어안는 마지막 후렴 전반을 읽습니다.",
+  "estimatedMinutes": 22,
+  "sentences": [
+    {
+      "id": "ame-no-gairo-ni-yakochu-6-1",
+      "original": "誰も知らない約束を",
+      "ruby": [{ "text": "誰", "reading": "だれ" }, { "text": "も" }, { "text": "知", "reading": "し" }, { "text": "らない" }, { "text": "約束", "reading": "やくそく" }, { "text": "を" }],
+      "hiragana": "だれ も しらない やくそく を",
+      "pronunciationKo": "다레모 시라나이 야쿠소쿠오",
+      "translationKo": "아무도 모르는 약속을",
+      "grammarIds": ["relative-clause"],
+      "kanjiIds": ["誰"]
+    },
+    {
+      "id": "ame-no-gairo-ni-yakochu-6-2",
+      "original": "交わしあって僕ら歩いて行くんだ",
+      "ruby": [{ "text": "交", "reading": "か" }, { "text": "わしあって" }, { "text": "僕", "reading": "ぼく" }, { "text": "ら" }, { "text": "歩", "reading": "ある" }, { "text": "いて" }, { "text": "行", "reading": "い" }, { "text": "くんだ" }],
+      "hiragana": "かわしあって ぼくら あるいて いくんだ",
+      "pronunciationKo": "카와시앗테 보쿠라 아루이테 이쿤다",
+      "translationKo": "서로 주고받으며 우리는 걸어가는 거야",
+      "grammarIds": ["verb-stem-au", "te-form", "teiku-teku", "n-da"],
+      "kanjiIds": ["僕", "行"]
+    },
+    {
+      "id": "ame-no-gairo-ni-yakochu-6-3",
+      "original": "大げさなほどに愛を歌うよ",
+      "ruby": [{ "text": "大", "reading": "おお" }, { "text": "げさなほどに" }, { "text": "愛", "reading": "あい" }, { "text": "を" }, { "text": "歌", "reading": "うた" }, { "text": "うよ" }],
+      "hiragana": "おおげさな ほど に あい を うたう よ",
+      "pronunciationKo": "오오게사나 호도니 아이오 우타우요",
+      "translationKo": "과장스러울 정도로 사랑을 노래할게",
+      "grammarIds": ["hodo"],
+      "kanjiIds": ["愛", "歌"]
+    },
+    {
+      "id": "ame-no-gairo-ni-yakochu-6-4",
+      "original": "悲しい歌を塗りつぶすように",
+      "ruby": [{ "text": "悲", "reading": "かな" }, { "text": "しい" }, { "text": "歌", "reading": "うた" }, { "text": "を" }, { "text": "塗", "reading": "ぬ" }, { "text": "りつぶすように" }],
+      "hiragana": "かなしい うた を ぬりつぶす ように",
+      "pronunciationKo": "카나시이 우타오 누리츠부스 요오니",
+      "translationKo": "슬픈 노래를 덧칠해 지워 버리듯이",
+      "grammarIds": ["you-ni-simile"],
+      "kanjiIds": ["悲", "歌"]
+    },
+    {
+      "id": "ame-no-gairo-ni-yakochu-6-5",
+      "original": "消えたい時も気持ちいい時も",
+      "ruby": [{ "text": "消", "reading": "き" }, { "text": "えたい" }, { "text": "時", "reading": "とき" }, { "text": "も" }, { "text": "気持", "reading": "きも" }, { "text": "ちいい" }, { "text": "時", "reading": "とき" }, { "text": "も" }],
+      "hiragana": "きえたい とき も きもちいい とき も",
+      "pronunciationKo": "키에타이 토키모 키모치이이 토키모",
+      "translationKo": "사라지고 싶은 때도 기분 좋은 때도",
+      "grammarIds": ["verb-tai", "relative-clause", "mo-mo"],
+      "kanjiIds": ["消", "時", "気"]
+    }
+  ],
+  "vocabulary": [
+    { "id": "ame-no-gairo-ni-yakochu-6-kieru", "term": "消える", "reading": "きえる", "meaning": "사라지다, 꺼지다" },
+    { "id": "ame-no-gairo-ni-yakochu-6-kietai", "term": "消えたい", "reading": "きえたい", "meaning": "사라지고 싶다" },
+    { "id": "ame-no-gairo-ni-yakochu-6-kimochiii", "term": "気持ちいい", "reading": "きもちいい", "meaning": "기분 좋다, 상쾌하다" },
+    { "id": "ame-no-gairo-ni-yakochu-6-itsu", "term": "時", "reading": "とき", "meaning": "때, 시간" },
+    { "id": "ame-no-gairo-ni-yakochu-6-utau", "term": "歌う", "reading": "うたう", "meaning": "노래하다" }
+  ],
+  "quiz": [
+    { "id": "ame-no-gairo-ni-yakochu-6-q1", "prompt": "되풀이된 「約束を」는 뒤의 어느 행동과 이어지나요?", "options": ["交わしあって", "知らない", "歌うよ", "消えたい"], "answerIndex": 0, "explanation": "줄바꿈을 넘어 「約束を交わしあって」가 되어 ‘약속을 서로 주고받고’라는 뜻을 만듭니다." },
+    { "id": "ame-no-gairo-ni-yakochu-6-q2", "prompt": "「大げさなほどに」가 사랑 노래에 더하는 느낌은?", "options": ["유난스럽게 클 만큼 힘주어 노래함", "목소리를 숨겨 노래함", "노래를 완전히 잊음", "다른 사람만 노래하게 함"], "answerIndex": 0, "explanation": "ほど가 과장스럽다고 느껴질 만큼 큰 사랑 노래라는 정도를 강조합니다." },
+    { "id": "ame-no-gairo-ni-yakochu-6-q3", "prompt": "「消えたい時も気持ちいい時も」에서 반복되는 も의 기능은?", "options": ["서로 다른 두 때를 모두 포함한다", "둘 중 하나만 고른다", "원인을 설명한다", "시간의 순서를 정한다"], "answerIndex": 0, "explanation": "〜も〜も는 힘든 때와 좋은 때를 어느 한쪽도 빼지 않고 모두 포함합니다." },
+    { "id": "ame-no-gairo-ni-yakochu-6-q4", "prompt": "「消えたい」는 어떻게 만들어졌나요?", "options": ["消える의 어간 + たい", "消える의 수동형", "消える의 명령형", "消える의 て형"], "answerIndex": 0, "explanation": "消えます에서 ます를 뺀 消え에 たい를 붙여 ‘사라지고 싶다’라는 희망을 나타냅니다." }
+  ]
+}

@@ -119,6 +119,16 @@ export const songs: SongDefinition[] = [
       '아무도 없는 방에서 향긋한 바람의 모래사장까지, 말로 표현할 수 없는 소중한 여름의 기억과 재회의 약속을 따라갑니다.',
     youtubeVideoId: '1s84rIhPuhk',
   },
+  {
+    slug: 'ame-no-gairo-ni-yakochu',
+    sequence: 12,
+    title: '雨の街路に夜光蟲',
+    artist: '米津玄師',
+    kicker: '빗속에서도 흘러가지 않을 두 사람의 약속',
+    description:
+      '엇갈린 말과 서툰 허세 속에서도 서로의 손을 잡고, 슬픈 노래를 덮을 만큼 사랑을 노래하는 두 사람의 약속을 따라갑니다.',
+    youtubeVideoId: 'XZDZZEAbaZg',
+  },
 ];
 
 export function getSong(slug: string) {

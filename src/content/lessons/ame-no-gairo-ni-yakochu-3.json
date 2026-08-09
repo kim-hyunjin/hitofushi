@@ -1,0 +1,73 @@
+{
+  "songSlug": "ame-no-gairo-ni-yakochu",
+  "lessonNumber": 3,
+  "title": "정답 없는 틀린 그림 찾기",
+  "subtitle": "〜みたいだ·인용의 と·간접 의문 〜か",
+  "description": "무엇이 옳은지 알 수 없는 관계를 틀린 그림 찾기에 빗대고, 허세 뒤에서 이미 알고 있던 길의 끝을 마주합니다.",
+  "estimatedMinutes": 25,
+  "sentences": [
+    {
+      "id": "ame-no-gairo-ni-yakochu-3-1",
+      "original": "曖昧な作りの間違い探しみたいだった",
+      "ruby": [{ "text": "曖昧", "reading": "あいまい" }, { "text": "な" }, { "text": "作", "reading": "つく" }, { "text": "りの" }, { "text": "間違", "reading": "まちが" }, { "text": "い" }, { "text": "探", "reading": "さが" }, { "text": "しみたいだった" }],
+      "hiragana": "あいまいな つくり の まちがいさがし みたいだった",
+      "pronunciationKo": "아이마이나 츠쿠리노 마치가이사가시 미타이닷타",
+      "translationKo": "애매하게 만들어진 틀린 그림 찾기 같았어",
+      "grammarIds": ["noun-no-noun", "mitai"],
+      "kanjiIds": ["探"]
+    },
+    {
+      "id": "ame-no-gairo-ni-yakochu-3-2",
+      "original": "何が間違いで何が正しいかわからない",
+      "ruby": [{ "text": "何", "reading": "なに" }, { "text": "が" }, { "text": "間違", "reading": "まちが" }, { "text": "いで" }, { "text": "何", "reading": "なに" }, { "text": "が" }, { "text": "正", "reading": "ただ" }, { "text": "しいかわからない" }],
+      "hiragana": "なに が まちがい で なに が ただしい か わからない",
+      "pronunciationKo": "나니가 마치가이데 나니가 타다시이카 와카라나이",
+      "translationKo": "무엇이 틀렸고 무엇이 옳은지 모르겠어",
+      "grammarIds": ["embedded-question-ka", "negative-form"],
+      "kanjiIds": []
+    },
+    {
+      "id": "ame-no-gairo-ni-yakochu-3-3",
+      "original": "僕らはただ「これで正しいんだ」と強がったけど",
+      "ruby": [{ "text": "僕", "reading": "ぼく" }, { "text": "らはただ「これで" }, { "text": "正", "reading": "ただ" }, { "text": "しいんだ」と" }, { "text": "強", "reading": "つよ" }, { "text": "がったけど" }],
+      "hiragana": "ぼくら は ただ「これで ただしいんだ」と つよがった けど",
+      "pronunciationKo": "보쿠라와 타다 코레데 타다시인다토 츠요갓타케도",
+      "translationKo": "우리는 그저 ‘이게 맞는 거야’라고 허세를 부렸지만",
+      "grammarIds": ["n-da", "to-quotation", "kedo"],
+      "kanjiIds": ["僕", "強"]
+    },
+    {
+      "id": "ame-no-gairo-ni-yakochu-3-4",
+      "original": "本当はわかってたよ 道の先に何があるのか",
+      "ruby": [{ "text": "本当", "reading": "ほんとう" }, { "text": "はわかってたよ " }, { "text": "道", "reading": "みち" }, { "text": "の" }, { "text": "先", "reading": "さき" }, { "text": "に" }, { "text": "何", "reading": "なに" }, { "text": "があるのか" }],
+      "hiragana": "ほんとう は わかってた よ みち の さき に なに が ある のか",
+      "pronunciationKo": "혼토오와 와캇테타요 미치노 사키니 나니가 아루노카",
+      "translationKo": "사실은 알고 있었어, 길 끝에 무엇이 있는지",
+      "grammarIds": ["teita-teta", "noun-no-noun", "embedded-question-ka"],
+      "kanjiIds": ["道", "先"]
+    },
+    {
+      "id": "ame-no-gairo-ni-yakochu-3-5",
+      "original": "何度だって誓い合って今 地球の隅っこへ",
+      "ruby": [{ "text": "何度", "reading": "なんど" }, { "text": "だって" }, { "text": "誓", "reading": "ちか" }, { "text": "い" }, { "text": "合", "reading": "あ" }, { "text": "って" }, { "text": "今", "reading": "いま" }, { "text": " " }, { "text": "地球", "reading": "ちきゅう" }, { "text": "の" }, { "text": "隅", "reading": "すみ" }, { "text": "っこへ" }],
+      "hiragana": "なんど だって ちかいあって いま ちきゅう の すみっこ へ",
+      "pronunciationKo": "난도닷테 치카이앗테 이마 치큐우노 스밋코에",
+      "translationKo": "몇 번이고 서로 맹세하며 지금, 지구 구석까지",
+      "grammarIds": ["verb-stem-au", "te-form"],
+      "kanjiIds": ["今"]
+    }
+  ],
+  "vocabulary": [
+    { "id": "ame-no-gairo-ni-yakochu-3-aimai", "term": "曖昧", "reading": "あいまい", "meaning": "애매함, 모호함" },
+    { "id": "ame-no-gairo-ni-yakochu-3-machigaisagashi", "term": "間違い探し", "reading": "まちがいさがし", "meaning": "틀린 그림 찾기, 오류 찾기" },
+    { "id": "ame-no-gairo-ni-yakochu-3-tadashii", "term": "正しい", "reading": "ただしい", "meaning": "옳다, 바르다" },
+    { "id": "ame-no-gairo-ni-yakochu-3-tsuyogaru", "term": "強がる", "reading": "つよがる", "meaning": "강한 척하다, 허세를 부리다" },
+    { "id": "ame-no-gairo-ni-yakochu-3-chikaiau", "term": "誓い合う", "reading": "ちかいあう", "meaning": "서로 맹세하다" }
+  ],
+  "quiz": [
+    { "id": "ame-no-gairo-ni-yakochu-3-q1", "prompt": "「間違い探しみたいだった」의 みたいだった가 나타내는 것은?", "options": ["과거의 비유와 인상", "미래의 확정", "상대에 대한 명령", "행동의 불가능"], "answerIndex": 0, "explanation": "〜みたいだ는 ‘~인 것 같다, ~같다’라는 인상이나 비유를 나타내며, だった는 그 과거형입니다." },
+    { "id": "ame-no-gairo-ni-yakochu-3-q2", "prompt": "「何が正しいかわからない」에서 か의 역할은?", "options": ["문장 속 의문을 묶는다", "이유를 나타낸다", "대상을 강조한다", "명령을 만든다"], "answerIndex": 0, "explanation": "か가 ‘무엇이 옳은지’라는 의문 내용을 묶어 わからない의 대상으로 만듭니다." },
+    { "id": "ame-no-gairo-ni-yakochu-3-q3", "prompt": "「これで正しいんだ」と에서 と가 표시하는 것은?", "options": ["허세 부리며 한 판단의 내용", "함께 행동한 상대", "이동한 목적지", "비교의 기준"], "answerIndex": 0, "explanation": "と는 ‘이게 맞는 거야’라는 말이나 생각을 인용해 強がった와 연결합니다." },
+    { "id": "ame-no-gairo-ni-yakochu-3-q4", "prompt": "「わかってた」의 줄이지 않은 형태는?", "options": ["わかっていた", "わかっていく", "わかってみた", "わからなかった"], "answerIndex": 0, "explanation": "노래와 회화에서는 과거 지속·상태의 〜ていた에서 い가 빠져 〜てた가 되곤 합니다." }
+  ]
+}
