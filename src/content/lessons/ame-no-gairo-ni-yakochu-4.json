@@ -1,0 +1,63 @@
+{
+  "songSlug": "ame-no-gairo-ni-yakochu",
+  "lessonNumber": 4,
+  "title": "겹친 손에 쥔 약속",
+  "subtitle": "수동형·〜たって·가능형 + ように",
+  "description": "겹친 두 손에 약속을 꼭 쥐고, 비웃음을 받아도 함께 어디까지든 가기 위해 사랑을 노래하는 두 번째 후렴을 읽습니다.",
+  "estimatedMinutes": 20,
+  "sentences": [
+    {
+      "id": "ame-no-gairo-ni-yakochu-4-1",
+      "original": "誰も知らない約束が",
+      "ruby": [{ "text": "誰", "reading": "だれ" }, { "text": "も" }, { "text": "知", "reading": "し" }, { "text": "らない" }, { "text": "約束", "reading": "やくそく" }, { "text": "が" }],
+      "hiragana": "だれ も しらない やくそく が",
+      "pronunciationKo": "다레모 시라나이 야쿠소쿠가",
+      "translationKo": "아무도 모르는 약속이",
+      "grammarIds": ["relative-clause"],
+      "kanjiIds": ["誰"]
+    },
+    {
+      "id": "ame-no-gairo-ni-yakochu-4-2",
+      "original": "重なった手と手に握られた",
+      "ruby": [{ "text": "重", "reading": "かさ" }, { "text": "なった" }, { "text": "手", "reading": "て" }, { "text": "と" }, { "text": "手", "reading": "て" }, { "text": "に" }, { "text": "握", "reading": "にぎ" }, { "text": "られた" }],
+      "hiragana": "かさなった て と て に にぎられた",
+      "pronunciationKo": "카사낫타 테토 테니 니기라레타",
+      "translationKo": "포개진 손과 손에 꼭 쥐어졌어",
+      "grammarIds": ["relative-clause", "passive"],
+      "kanjiIds": ["重", "手"]
+    },
+    {
+      "id": "ame-no-gairo-ni-yakochu-4-3",
+      "original": "馬鹿にされたって愛を歌うよ",
+      "ruby": [{ "text": "馬鹿", "reading": "ばか" }, { "text": "にされたって" }, { "text": "愛", "reading": "あい" }, { "text": "を" }, { "text": "歌", "reading": "うた" }, { "text": "うよ" }],
+      "hiragana": "ばか に されたって あい を うたう よ",
+      "pronunciationKo": "바카니 사레탓테 아이오 우타우요",
+      "translationKo": "바보 취급을 받아도 사랑을 노래할게",
+      "grammarIds": ["passive", "tte-concessive"],
+      "kanjiIds": ["愛", "歌"]
+    },
+    {
+      "id": "ame-no-gairo-ni-yakochu-4-4",
+      "original": "君とどこまでも行けるように",
+      "ruby": [{ "text": "君", "reading": "きみ" }, { "text": "とどこまでも" }, { "text": "行", "reading": "い" }, { "text": "けるように" }],
+      "hiragana": "きみ と どこまでも いける ように",
+      "pronunciationKo": "키미토 도코마데모 이케루 요오니",
+      "translationKo": "너와 어디까지든 갈 수 있도록",
+      "grammarIds": ["potential-form", "you-ni"],
+      "kanjiIds": ["君", "行"]
+    }
+  ],
+  "vocabulary": [
+    { "id": "ame-no-gairo-ni-yakochu-4-kasanaru", "term": "重なる", "reading": "かさなる", "meaning": "겹치다, 포개지다" },
+    { "id": "ame-no-gairo-ni-yakochu-4-nigiru", "term": "握る", "reading": "にぎる", "meaning": "쥐다, 움켜잡다" },
+    { "id": "ame-no-gairo-ni-yakochu-4-bakanisuru", "term": "馬鹿にする", "reading": "ばかにする", "meaning": "바보 취급하다, 얕보다" },
+    { "id": "ame-no-gairo-ni-yakochu-4-dokomademo", "term": "どこまでも", "reading": "どこまでも", "meaning": "어디까지나, 한없이" },
+    { "id": "ame-no-gairo-ni-yakochu-4-ikeru", "term": "行ける", "reading": "いける", "meaning": "갈 수 있다", "note": "行く의 가능형입니다." }
+  ],
+  "quiz": [
+    { "id": "ame-no-gairo-ni-yakochu-4-q1", "prompt": "앞 후렴의 「約束を」가 여기서 「約束が」로 바뀐 효과는?", "options": ["약속이 문장의 주어가 된다", "약속이 이동 장소가 된다", "약속이 비교 대상이 된다", "약속이 사라졌음을 뜻한다"], "answerIndex": 0, "explanation": "を로 행동의 대상을 표시했던 약속이, 여기서는 が를 받아 ‘손에 쥐어진’ 주어가 됩니다." },
+    { "id": "ame-no-gairo-ni-yakochu-4-q2", "prompt": "「握られた」의 기본형은?", "options": ["握る", "握れる", "握らせる", "握っている"], "answerIndex": 0, "explanation": "握られた는 握る의 수동형 握られる가 과거형으로 바뀐 말입니다." },
+    { "id": "ame-no-gairo-ni-yakochu-4-q3", "prompt": "「馬鹿にされたって」의 뜻은?", "options": ["바보 취급을 받아도", "바보 취급을 받기 전에", "바보 취급을 받았기 때문에", "바보 취급을 받지 않도록"], "answerIndex": 0, "explanation": "〜たって는 회화적인 양보 표현으로, 여기서는 평가와 상관없이 사랑을 노래하겠다는 뜻입니다." },
+    { "id": "ame-no-gairo-ni-yakochu-4-q4", "prompt": "「行けるように」가 나타내는 소망은?", "options": ["갈 수 있게 되기를 바람", "이미 다녀왔음을 회상함", "가지 말라고 명령함", "갈 곳을 질문함"], "answerIndex": 0, "explanation": "가능형 行ける 뒤의 ように는 함께 어디까지든 갈 수 있기를 바라는 목표를 나타냅니다." }
+  ]
+}
