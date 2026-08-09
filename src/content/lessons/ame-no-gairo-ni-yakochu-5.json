@@ -13,7 +13,7 @@
       "hiragana": "さめないで って きえないで って",
       "pronunciationKo": "사메나이뎃테 키에나이뎃테",
       "translationKo": "깨지 말라고, 식지 말라고, 사라지지 말라고",
-      "grammarIds": ["te-form-request", "tte-quotation"],
+      "grammarIds": ["naide", "tte-quotation"],
       "kanjiIds": []
     },
     {
