@@ -1,0 +1,87 @@
+{
+  "songSlug": "yesterday",
+  "lessonNumber": 3,
+  "title": "한 방울에 무너진 이성",
+  "subtitle": "〜まま와 명사 + だって",
+  "description": "겁먹었던 손의 기억과 상대가 흘린 눈물 한 방울이 화자의 이성을 빼앗는 순간을 읽습니다.",
+  "estimatedMinutes": 27,
+  "sentences": [
+    {
+      "id": "yesterday-3-1",
+      "original": "ポケットの中で怯えたこの手は",
+      "ruby": [{ "text": "ポケットの" }, { "text": "中", "reading": "なか" }, { "text": "で" }, { "text": "怯", "reading": "おび" }, { "text": "えたこの" }, { "text": "手", "reading": "て" }, { "text": "は" }],
+      "hiragana": "ぽけっと の なか で おびえた この て は",
+      "pronunciationKo": "포켓토노 나카데 오비에타 코노 테와",
+      "translationKo": "주머니 속에서 겁먹고 떨던 이 손은",
+      "grammarIds": ["relative-clause"],
+      "kanjiIds": ["手"]
+    },
+    {
+      "id": "yesterday-3-2",
+      "original": "まだ忘れられないまま",
+      "ruby": [{ "text": "まだ" }, { "text": "忘", "reading": "わす" }, { "text": "れられないまま" }],
+      "hiragana": "まだ わすれられない まま",
+      "pronunciationKo": "마다 와스레라레나이 마마",
+      "translationKo": "아직 잊지 못한 채",
+      "grammarIds": ["mama", "potential-form"],
+      "kanjiIds": ["忘"]
+    },
+    {
+      "id": "yesterday-3-3",
+      "original": "「何度傷ついたって 仕方ないよ」と言って",
+      "ruby": [{ "text": "「" }, { "text": "何度", "reading": "なんど" }, { "text": "傷", "reading": "きず" }, { "text": "ついたって " }, { "text": "仕方", "reading": "しかた" }, { "text": "ないよ」と" }, { "text": "言", "reading": "い" }, { "text": "って" }],
+      "hiragana": "なんど きずついたって しかたない よ と いって",
+      "pronunciationKo": "난도 키즈츠이탓테 시카타나이요토 잇테",
+      "translationKo": "‘몇 번을 상처받더라도 어쩔 수 없어’라고 말하며",
+      "grammarIds": ["tte-concessive", "to-quotation", "te-form"],
+      "kanjiIds": ["傷", "言"]
+    },
+    {
+      "id": "yesterday-3-4",
+      "original": "うつむいて君が溢した 儚くなまぬるい涙",
+      "ruby": [{ "text": "うつむいて" }, { "text": "君", "reading": "きみ" }, { "text": "が" }, { "text": "溢", "reading": "こぼ" }, { "text": "した " }, { "text": "儚", "reading": "はかな" }, { "text": "くなまぬるい" }, { "text": "涙", "reading": "なみだ" }],
+      "hiragana": "うつむいて きみ が こぼした はかなく なまぬるい なみだ",
+      "pronunciationKo": "우츠무이테 키미가 코보시타 하카나쿠 나마누루이 나미다",
+      "translationKo": "고개 숙인 네가 흘린 덧없고 미지근한 눈물",
+      "grammarIds": ["te-form", "relative-clause", "i-adjective-kute"],
+      "kanjiIds": ["君", "溢"]
+    },
+    {
+      "id": "yesterday-3-5",
+      "original": "ただの一粒だって 僕を不甲斐なさで",
+      "ruby": [{ "text": "ただの" }, { "text": "一粒", "reading": "ひとつぶ" }, { "text": "だって " }, { "text": "僕", "reading": "ぼく" }, { "text": "を" }, { "text": "不甲斐", "reading": "ふがい" }, { "text": "なさで" }],
+      "hiragana": "ただ の ひとつぶ だって ぼく を ふがいなさ で",
+      "pronunciationKo": "타다노 히토츠부닷테 보쿠오 후가이나사데",
+      "translationKo": "단 한 방울이라도 나를 한심함으로",
+      "grammarIds": ["datte-even"],
+      "kanjiIds": ["僕", "不"]
+    },
+    {
+      "id": "yesterday-3-6",
+      "original": "溺れさせて 理性を奪うには十分すぎた",
+      "ruby": [{ "text": "溺", "reading": "おぼ" }, { "text": "れさせて " }, { "text": "理性", "reading": "りせい" }, { "text": "を" }, { "text": "奪", "reading": "うば" }, { "text": "うには" }, { "text": "十分", "reading": "じゅうぶん" }, { "text": "すぎた" }],
+      "hiragana": "おぼれさせて りせい を うばう には じゅうぶん すぎた",
+      "pronunciationKo": "오보레사세테 리세이오 우바우니와 주우분스기타",
+      "translationKo": "빠뜨리고 이성을 빼앗기에는 너무나 충분했어",
+      "grammarIds": ["causative", "sugiru"],
+      "kanjiIds": ["性", "分"]
+    }
+  ],
+  "vocabulary": [
+    { "id": "yesterday-3-obieru", "term": "怯える", "reading": "おびえる", "meaning": "겁먹다, 무서워 떨다" },
+    { "id": "yesterday-3-wasurerarenai", "term": "忘れられない", "reading": "わすれられない", "meaning": "잊을 수 없다" },
+    { "id": "yesterday-3-shikatanai", "term": "仕方ない", "reading": "しかたない", "meaning": "어쩔 수 없다" },
+    { "id": "yesterday-3-utsumuku", "term": "うつむく", "reading": "うつむく", "meaning": "고개를 숙이다" },
+    { "id": "yesterday-3-kobosu", "term": "溢す", "reading": "こぼす", "meaning": "흘리다, 쏟다" },
+    { "id": "yesterday-3-hakanai", "term": "儚い", "reading": "はかない", "meaning": "덧없다, 허무하다" },
+    { "id": "yesterday-3-namanurui", "term": "なまぬるい", "reading": "なまぬるい", "meaning": "미지근하다" },
+    { "id": "yesterday-3-fugainasa", "term": "不甲斐なさ", "reading": "ふがいなさ", "meaning": "한심함, 무기력함" }
+  ],
+  "quiz": [
+    { "id": "yesterday-3-q1", "prompt": "「忘れられないまま」의 뜻은?", "options": ["완전히 잊은 뒤", "잊고 싶은 만큼", "잊지 못한 상태 그대로", "잊어도 괜찮게"], "answerIndex": 2, "explanation": "〜まま는 앞의 상태가 바뀌지 않고 이어짐을 나타냅니다." },
+    { "id": "yesterday-3-q2", "prompt": "「溢した」의 읽기는 무엇인가요?", "options": ["あふした", "こぼした", "ながした", "おとした"], "answerIndex": 1, "explanation": "이 문맥의 溢す는 こぼす로 읽으며, 눈물을 흘리거나 쏟는다는 뜻입니다." },
+    { "id": "yesterday-3-q3", "prompt": "「一粒だって」가 강조하는 것은?", "options": ["눈물이 많았다는 사실", "눈물 한 방울조차 큰 영향을 준다는 사실", "눈물이 전혀 없었다는 사실", "눈물의 온도가 차갑다는 사실"], "answerIndex": 1, "explanation": "명사 + だって는 예상보다 작은 대상까지 들어 ‘~라도, ~조차’라고 강조합니다." },
+    { "id": "yesterday-3-q4", "prompt": "눈물 한 방울이 화자에게 한 일은?", "options": ["기억을 지워 주었다", "이성을 빼앗을 만큼 무력감에 빠뜨렸다", "공포를 모두 물리쳐 주었다", "마음을 차분하게 했다"], "answerIndex": 1, "explanation": "눈물은 화자를 不甲斐なさ에 빠뜨리고 理性을 빼앗기에 충분했다고 표현됩니다." },
+    { "id": "yesterday-3-q5", "prompt": "「十分すぎた」가 나타내는 정도는?", "options": ["충분하지 않았다", "딱 알맞았다", "필요 이상으로 충분했다", "조금 부족했다"], "answerIndex": 2, "explanation": "〜すぎる는 적당한 정도를 넘었음을 나타내므로 ‘너무나 충분했다’라는 뜻입니다." }
+  ]
+}

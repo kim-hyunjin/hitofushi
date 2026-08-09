@@ -1,0 +1,76 @@
+{
+  "songSlug": "yesterday",
+  "lessonNumber": 1,
+  "title": "몇 번이라도 되찾겠다는 약속",
+  "subtitle": "〜たって와 〜てみせる로 결의 말하기",
+  "description": "무지개 같은 미소를 되찾기 위해 자신이 악역이 되어도 좋다고 다짐하는 도입부를 읽습니다.",
+  "estimatedMinutes": 24,
+  "sentences": [
+    {
+      "id": "yesterday-1-1",
+      "original": "何度失ったって 取り返してみせるよ",
+      "ruby": [{ "text": "何度", "reading": "なんど" }, { "text": "失", "reading": "うしな" }, { "text": "ったって " }, { "text": "取", "reading": "と" }, { "text": "り" }, { "text": "返", "reading": "かえ" }, { "text": "してみせるよ" }],
+      "hiragana": "なんど うしなったって とりかえして みせる よ",
+      "pronunciationKo": "난도 우시낫탓테 토리카에시테 미세루요",
+      "translationKo": "몇 번을 잃더라도 반드시 되찾고 말 거야",
+      "grammarIds": ["tte-concessive", "te-miseru"],
+      "kanjiIds": []
+    },
+    {
+      "id": "yesterday-1-2",
+      "original": "雨上がり 虹がかかった空みたいな君の笑みを",
+      "ruby": [{ "text": "雨上", "reading": "あめあ" }, { "text": "がり " }, { "text": "虹", "reading": "にじ" }, { "text": "がかかった" }, { "text": "空", "reading": "そら" }, { "text": "みたいな" }, { "text": "君", "reading": "きみ" }, { "text": "の" }, { "text": "笑", "reading": "え" }, { "text": "みを" }],
+      "hiragana": "あめあがり にじ が かかった そら みたいな きみ の えみ を",
+      "pronunciationKo": "아메아가리 니지가 카캇타 소라미타이나 키미노 에미오",
+      "translationKo": "비가 갠 뒤 무지개가 걸린 하늘 같은 네 미소를",
+      "grammarIds": ["relative-clause", "mitai", "noun-no-noun"],
+      "kanjiIds": ["空", "君", "笑"]
+    },
+    {
+      "id": "yesterday-1-3",
+      "original": "例えばその代償に 誰かの表情を",
+      "ruby": [{ "text": "例", "reading": "たと" }, { "text": "えばその" }, { "text": "代償", "reading": "だいしょう" }, { "text": "に " }, { "text": "誰", "reading": "だれ" }, { "text": "かの" }, { "text": "表情", "reading": "ひょうじょう" }, { "text": "を" }],
+      "hiragana": "たとえば その だいしょう に だれか の ひょうじょう を",
+      "pronunciationKo": "타토에바 소노 다이쇼오니 다레카노 효오조오오",
+      "translationKo": "가령 그 대가로 누군가의 표정을",
+      "grammarIds": ["noun-no-noun"],
+      "kanjiIds": ["代", "誰"]
+    },
+    {
+      "id": "yesterday-1-4",
+      "original": "曇らせてしまったっていい",
+      "ruby": [{ "text": "曇", "reading": "くも" }, { "text": "らせてしまったっていい" }],
+      "hiragana": "くもらせて しまったって いい",
+      "pronunciationKo": "쿠모라세테 시맛탓테 이이",
+      "translationKo": "흐리게 해 버린대도 괜찮아",
+      "grammarIds": ["causative", "te-shimau", "tte-concessive"],
+      "kanjiIds": []
+    },
+    {
+      "id": "yesterday-1-5",
+      "original": "悪者は僕だけでいい",
+      "ruby": [{ "text": "悪者", "reading": "わるもの" }, { "text": "は" }, { "text": "僕", "reading": "ぼく" }, { "text": "だけでいい" }],
+      "hiragana": "わるもの は ぼく だけ で いい",
+      "pronunciationKo": "와루모노와 보쿠다케데 이이",
+      "translationKo": "악역은 나 하나면 돼",
+      "grammarIds": ["de-ii"],
+      "kanjiIds": ["悪", "僕"]
+    }
+  ],
+  "vocabulary": [
+    { "id": "yesterday-1-nando", "term": "何度", "reading": "なんど", "meaning": "몇 번, 몇 차례" },
+    { "id": "yesterday-1-ushinau", "term": "失う", "reading": "うしなう", "meaning": "잃다" },
+    { "id": "yesterday-1-torikaesu", "term": "取り返す", "reading": "とりかえす", "meaning": "되찾다, 만회하다" },
+    { "id": "yesterday-1-ameagari", "term": "雨上がり", "reading": "あめあがり", "meaning": "비가 갠 뒤" },
+    { "id": "yesterday-1-emi", "term": "笑み", "reading": "えみ", "meaning": "미소", "note": "笑顔보다 문학적이고 부드러운 느낌을 주는 말입니다." },
+    { "id": "yesterday-1-daishou", "term": "代償", "reading": "だいしょう", "meaning": "대가, 희생" },
+    { "id": "yesterday-1-hyoujou", "term": "表情", "reading": "ひょうじょう", "meaning": "표정" },
+    { "id": "yesterday-1-warumono", "term": "悪者", "reading": "わるもの", "meaning": "악인, 악역" }
+  ],
+  "quiz": [
+    { "id": "yesterday-1-q1", "prompt": "「失ったって」가 나타내는 뜻은?", "options": ["잃었기 때문에", "잃더라도", "잃지 않도록", "잃고 싶어서"], "answerIndex": 1, "explanation": "동사 た형 + って는 회화적인 양보 표현으로, 여기서는 ‘몇 번 잃더라도’라는 뜻입니다." },
+    { "id": "yesterday-1-q2", "prompt": "「取り返してみせる」에 담긴 태도는?", "options": ["되찾을지 망설인다", "남에게 되찾아 달라고 부탁한다", "반드시 되찾겠다고 다짐한다", "이미 되찾았다고 회상한다"], "answerIndex": 2, "explanation": "〜てみせる는 어려움이 있어도 그 행동을 반드시 실현해 보이겠다는 강한 결의를 나타냅니다." },
+    { "id": "yesterday-1-q3", "prompt": "화자가 되찾으려는 것은 무엇인가요?", "options": ["비가 내리는 거리", "무지개 같은 너의 미소", "누군가의 대가", "자신의 명예"], "answerIndex": 1, "explanation": "첫 문장의 목적어는 다음 행의 「虹がかかった空みたいな君の笑み」로 이어집니다." },
+    { "id": "yesterday-1-q4", "prompt": "「悪者は僕だけでいい」의 의미로 가장 가까운 것은?", "options": ["모두가 악역이어야 한다", "너만 악역이면 된다", "비난은 자신만 감당하겠다", "악역은 아무도 없어야 한다"], "answerIndex": 2, "explanation": "다른 이의 표정을 흐리게 하는 대가가 생겨도 자신 혼자 악역이 되겠다는 각오입니다." }
+  ]
+}

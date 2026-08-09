@@ -1,0 +1,77 @@
+{
+  "songSlug": "yesterday",
+  "lessonNumber": 7,
+  "title": "놓지 않은 손으로 무지개 너머",
+  "subtitle": "〜さえ·〜そうな·〜ながら로 마지막 약속하기",
+  "description": "알 수 없는 미래에도 시선을 멈추지 않고, 서툴게 맞잡은 손을 놓지 않겠다는 마지막 약속을 읽습니다.",
+  "estimatedMinutes": 26,
+  "sentences": [
+    {
+      "id": "yesterday-7-1",
+      "original": "(未来の僕は知らない だから視線は止まらない",
+      "ruby": [{ "text": "(" }, { "text": "未来", "reading": "みらい" }, { "text": "の" }, { "text": "僕", "reading": "ぼく" }, { "text": "は" }, { "text": "知", "reading": "し" }, { "text": "らない だから" }, { "text": "視線", "reading": "しせん" }, { "text": "は" }, { "text": "止", "reading": "と" }, { "text": "まらない" }],
+      "hiragana": "みらい の ぼく は しらない だから しせん は とまらない",
+      "pronunciationKo": "미라이노 보쿠와 시라나이 다카라 시센와 토마라나이",
+      "translationKo": "(미래의 나는 몰라, 그러니 시선은 멈추지 않아",
+      "grammarIds": ["noun-no-noun", "kara"],
+      "kanjiIds": ["未", "来", "僕"]
+    },
+    {
+      "id": "yesterday-7-2",
+      "original": "謎めいた表現技法 意味深な君の気性)",
+      "ruby": [{ "text": "謎", "reading": "なぞ" }, { "text": "めいた" }, { "text": "表現技法", "reading": "ひょうげんぎほう" }, { "text": " " }, { "text": "意味深", "reading": "いみしん" }, { "text": "な" }, { "text": "君", "reading": "きみ" }, { "text": "の" }, { "text": "気性", "reading": "きしょう" }, { "text": ")" }],
+      "hiragana": "なぞめいた ひょうげんぎほう いみしんな きみ の きしょう",
+      "pronunciationKo": "나조메이타 효오겐기호오 이미신나 키미노 키쇼오",
+      "translationKo": "수수께끼 같은 표현 기법, 의미심장한 너의 기질)",
+      "grammarIds": ["relative-clause", "noun-no-noun"],
+      "kanjiIds": ["意", "深", "君", "気", "性"]
+    },
+    {
+      "id": "yesterday-7-3",
+      "original": "アイラブユーさえ 風に飛ばされそうな時でも",
+      "ruby": [{ "text": "アイラブユーさえ " }, { "text": "風", "reading": "かぜ" }, { "text": "に" }, { "text": "飛", "reading": "と" }, { "text": "ばされそうな" }, { "text": "時", "reading": "とき" }, { "text": "でも" }],
+      "hiragana": "あいらぶゆー さえ かぜ に とばされそうな とき でも",
+      "pronunciationKo": "아이 라부 유우사에 카제니 토바사레소오나 토키데모",
+      "translationKo": "‘아이 러브 유’조차 바람에 날아갈 듯한 때라도",
+      "grammarIds": ["sae", "passive", "sou-na-appearance", "demo-concessive"],
+      "kanjiIds": ["風", "時"]
+    },
+    {
+      "id": "yesterday-7-4",
+      "original": "不器用ながら繋いだ この手はもう",
+      "ruby": [{ "text": "不器用", "reading": "ぶきよう" }, { "text": "ながら" }, { "text": "繋", "reading": "つな" }, { "text": "いだ この" }, { "text": "手", "reading": "て" }, { "text": "はもう" }],
+      "hiragana": "ぶきよう ながら つないだ この て は もう",
+      "pronunciationKo": "부키요오나가라 츠나이다 코노 테와 모오",
+      "translationKo": "서툴지만 맞잡은 이 손은 이제",
+      "grammarIds": ["nagara", "relative-clause"],
+      "kanjiIds": ["不", "繋", "手"]
+    },
+    {
+      "id": "yesterday-7-5",
+      "original": "決して離さずに 虹の先へ",
+      "ruby": [{ "text": "決", "reading": "けっ" }, { "text": "して" }, { "text": "離", "reading": "はな" }, { "text": "さずに " }, { "text": "虹", "reading": "にじ" }, { "text": "の" }, { "text": "先", "reading": "さき" }, { "text": "へ" }],
+      "hiragana": "けっして はなさずに にじ の さき へ",
+      "pronunciationKo": "켓시테 하나사즈니 니지노 사키에",
+      "translationKo": "결코 놓지 않고 무지개 너머로",
+      "grammarIds": ["zuni", "noun-no-noun"],
+      "kanjiIds": ["離", "先"]
+    }
+  ],
+  "vocabulary": [
+    { "id": "yesterday-7-shisen", "term": "視線", "reading": "しせん", "meaning": "시선" },
+    { "id": "yesterday-7-nazomeita", "term": "謎めいた", "reading": "なぞめいた", "meaning": "수수께끼 같은, 신비로운" },
+    { "id": "yesterday-7-hyougengihou", "term": "表現技法", "reading": "ひょうげんぎほう", "meaning": "표현 기법" },
+    { "id": "yesterday-7-imishin", "term": "意味深", "reading": "いみしん", "meaning": "의미심장함", "note": "意味深長을 줄인 회화적인 표현입니다." },
+    { "id": "yesterday-7-kishou", "term": "気性", "reading": "きしょう", "meaning": "기질, 성미" },
+    { "id": "yesterday-7-bukiyou", "term": "不器用", "reading": "ぶきよう", "meaning": "서투름, 서툴다" },
+    { "id": "yesterday-7-tsunagu", "term": "繋ぐ", "reading": "つなぐ", "meaning": "잇다, 손을 잡다" },
+    { "id": "yesterday-7-kesshite", "term": "決して", "reading": "けっして", "meaning": "결코, 절대로", "note": "뒤의 부정 표현과 호응해 강한 부정을 만듭니다." }
+  ],
+  "quiz": [
+    { "id": "yesterday-7-q1", "prompt": "「だから」가 앞뒤 문장을 잇는 관계는?", "options": ["비교", "이유와 결과", "인용", "동시 동작"], "answerIndex": 1, "explanation": "미래를 알지 못한다는 사실을 이유로, 시선을 멈추지 않는다는 태도가 이어집니다." },
+    { "id": "yesterday-7-q2", "prompt": "「飛ばされそうな」의 의미는?", "options": ["이미 날아가 버린", "날아가지 못하는", "금방이라도 날려 갈 듯한", "일부러 날려 보내는"], "answerIndex": 2, "explanation": "飛ばされる는 ‘날려 가다’라는 수동형이고, 〜そうな는 눈앞의 모양으로 보아 곧 그럴 듯한 상태를 나타냅니다." },
+    { "id": "yesterday-7-q3", "prompt": "「不器用ながら」가 나타내는 대비는?", "options": ["서툴기 때문에 손을 놓는다", "서툴지만 그래도 손을 맞잡는다", "서툰 척하면서 도망간다", "서투르지 않다고 부정한다"], "answerIndex": 1, "explanation": "여기서 〜ながら는 앞의 성질을 인정하면서 뒤의 내용과 대비하는 ‘~이지만’의 뜻입니다." },
+    { "id": "yesterday-7-q4", "prompt": "「決して」와 호응하는 표현은?", "options": ["離さずに", "虹の", "先へ", "この手"], "answerIndex": 0, "explanation": "決して는 뒤의 부정형과 함께 ‘결코 ~하지 않다’라는 강한 부정을 만듭니다." },
+    { "id": "yesterday-7-q5", "prompt": "마지막의 「虹」는 도입부와 어떻게 이어지나요?", "options": ["처음의 비를 다시 내리게 한다", "처음 되찾고 싶었던 미소의 비유를 목적지로 되살린다", "세상의 손가락질을 뜻한다", "과거로 돌아가자는 뜻이다"], "answerIndex": 1, "explanation": "도입부에서 네 미소는 무지개가 걸린 하늘에 비유됩니다. 마지막에는 맞잡은 손으로 그 무지개 너머를 향합니다." }
+  ]
+}

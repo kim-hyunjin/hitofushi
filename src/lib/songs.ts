@@ -120,8 +120,18 @@ export const songs: SongDefinition[] = [
     youtubeVideoId: '1s84rIhPuhk',
   },
   {
-    slug: 'ame-no-gairo-ni-yakochu',
+    slug: 'yesterday',
     sequence: 12,
+    title: 'イエスタデイ',
+    artist: 'Official髭男dism',
+    kicker: '어제를 떠나 단 한 사람에게 달려가는 결의',
+    description:
+      '모두를 배려하려던 이상과 작별하고, 세상의 손가락질 속에서도 사랑하는 한 사람을 지키러 나아가는 마음을 따라갑니다.',
+    youtubeVideoId: 'DuMqFknYHBs',
+  },
+  {
+    slug: 'ame-no-gairo-ni-yakochu',
+    sequence: 13,
     title: '雨の街路に夜光蟲',
     artist: '米津玄師',
     kicker: '빗속에서도 흘러가지 않을 두 사람의 약속',
