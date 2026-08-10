@@ -1,0 +1,32 @@
+{
+  "songSlug": "koikaze-ni-nosete",
+  "lessonNumber": 2,
+  "title": "웃음과 슬픔을 안겨 주는 나날",
+  "subtitle": "〜ている의 지속과 사역형",
+  "description": "별것 아닌 사랑으로 웃는 현재와, 떠올린 나날이 줄 수 있는 슬픔을 함께 읽습니다.",
+  "estimatedMinutes": 18,
+  "sentences": [
+    { "id": "koikaze-ni-nosete-2-1", "original": "くだらない愛で", "ruby": [{ "text": "くだらない" }, { "text": "愛", "reading": "あい" }, { "text": "で" }], "hiragana": "くだらない あい で", "pronunciationKo": "쿠다라나이 아이데", "translationKo": "별것 아닌 사랑으로", "grammarIds": [], "kanjiIds": ["愛"] },
+    { "id": "koikaze-ni-nosete-2-2", "original": "僕たちはいつも笑っている", "ruby": [{ "text": "僕", "reading": "ぼく" }, { "text": "たちはいつも" }, { "text": "笑", "reading": "わら" }, { "text": "っている" }], "hiragana": "ぼくたち は いつも わらっている", "pronunciationKo": "보쿠타치와 이츠모 와랏테이루", "translationKo": "우리는 언제나 웃고 있어", "grammarIds": ["teiru"], "kanjiIds": ["僕", "笑"] },
+    { "id": "koikaze-ni-nosete-2-3", "original": "思い出す日々が", "ruby": [{ "text": "思", "reading": "おも" }, { "text": "い" }, { "text": "出", "reading": "だ" }, { "text": "す" }, { "text": "日々", "reading": "ひび" }, { "text": "が" }], "hiragana": "おもいだす ひび が", "pronunciationKo": "오모이다스 히비가", "translationKo": "떠올리는 나날이", "grammarIds": ["relative-clause"], "kanjiIds": ["思", "日"] },
+    { "id": "koikaze-ni-nosete-2-4", "original": "僕たちを悲しませるの", "ruby": [{ "text": "僕", "reading": "ぼく" }, { "text": "たちを" }, { "text": "悲", "reading": "かな" }, { "text": "しませるの" }], "hiragana": "ぼくたち を かなしませる の", "pronunciationKo": "보쿠타치오 카나시마세루노", "translationKo": "우리를 슬프게 하는 거야", "grammarIds": ["causative", "sentence-final-no"], "kanjiIds": ["僕", "悲"] },
+    { "id": "koikaze-ni-nosete-2-5", "original": "ねぇ", "ruby": [{ "text": "ねぇ" }], "hiragana": "ねぇ", "pronunciationKo": "네에", "translationKo": "있지", "grammarIds": [], "kanjiIds": [] }
+  ],
+  "vocabulary": [
+    { "id": "koikaze-ni-nosete-2-kudaranai", "term": "くだらない", "reading": "くだらない", "meaning": "별것 아니다, 시시하다" },
+    { "id": "koikaze-ni-nosete-2-ai", "term": "愛", "reading": "あい", "meaning": "사랑" },
+    { "id": "koikaze-ni-nosete-2-bokutachi", "term": "僕たち", "reading": "ぼくたち", "meaning": "우리들, 우리" },
+    { "id": "koikaze-ni-nosete-2-itsumo", "term": "いつも", "reading": "いつも", "meaning": "언제나, 늘" },
+    { "id": "koikaze-ni-nosete-2-warau", "term": "笑う", "reading": "わらう", "meaning": "웃다" },
+    { "id": "koikaze-ni-nosete-2-omoidasu", "term": "思い出す", "reading": "おもいだす", "meaning": "떠올리다, 기억해 내다" },
+    { "id": "koikaze-ni-nosete-2-hibi", "term": "日々", "reading": "ひび", "meaning": "나날, 매일" },
+    { "id": "koikaze-ni-nosete-2-kanashimaseru", "term": "悲しませる", "reading": "かなしませる", "meaning": "슬프게 하다" }
+  ],
+  "quiz": [
+    { "id": "koikaze-ni-nosete-2-q1", "prompt": "가사 속 「くだらない愛」에 가까운 해석은?", "options": ["위대하고 영원한 사랑", "별것 아닌 소박한 사랑", "속임수로 얻은 사랑", "이미 끝난 사랑"], "answerIndex": 1, "explanation": "くだらない는 보통 '별것 아닌, 시시한'이라는 뜻이지만, 여기서는 두 사람이 함께 웃는 소박한 애정을 담습니다." },
+    { "id": "koikaze-ni-nosete-2-q2", "prompt": "「笑っている」의 〜ている가 나타내는 것은?", "options": ["계속되는 현재의 상태", "한 번의 명령", "과거에 대한 후회", "웃음의 부정"], "answerIndex": 0, "explanation": "笑っている는 현재 웃는 상태나 반복되는 모습을 나타냅니다." },
+    { "id": "koikaze-ni-nosete-2-q3", "prompt": "「思い出す」의 뜻은?", "options": ["잊어버리다", "떠올리다", "새로 만들다", "외면하다"], "answerIndex": 1, "explanation": "思い出す는 기억 속의 일을 다시 떠올리다라는 뜻입니다." },
+    { "id": "koikaze-ni-nosete-2-q4", "prompt": "「悲しませる」는 무엇을 나타내나요?", "options": ["슬프게 되다", "슬프게 하다", "슬프지 않다", "슬픔을 참다"], "answerIndex": 1, "explanation": "悲しむ의 사역형인 悲しませる는 누군가를 '슬프게 하다'라는 뜻입니다." },
+    { "id": "koikaze-ni-nosete-2-q5", "prompt": "이 구간에서 추억은 두 사람에게 어떤 감정을 주나요?", "options": ["슬픔", "분노", "지루함", "안도"], "answerIndex": 0, "explanation": "思い出す日々が僕たちを悲しませると 이어지므로, 떠올린 나날이 두 사람을 슬프게 합니다." }
+  ]
+}

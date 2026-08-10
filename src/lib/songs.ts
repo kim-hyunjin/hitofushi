@@ -139,6 +139,16 @@ export const songs: SongDefinition[] = [
       '엇갈린 말과 서툰 허세 속에서도 서로의 손을 잡고, 슬픈 노래를 덮을 만큼 사랑을 노래하는 두 사람의 약속을 따라갑니다.',
     youtubeVideoId: 'XZDZZEAbaZg',
   },
+  {
+    slug: 'koikaze-ni-nosete',
+    sequence: 14,
+    title: '恋風邪にのせて',
+    artist: 'Vaundy',
+    kicker: '엇갈리던 시선이 마침내 닿는 순간',
+    description:
+      '변하는 풍경과 반복되는 나날 속에서, 서로를 피하던 두 사람이 눈을 맞추고 함께 웃기로 하는 마음을 따라갑니다.',
+    youtubeVideoId: '1FIhcdocT-k',
+  },
 ];
 
 export function getSong(slug: string) {

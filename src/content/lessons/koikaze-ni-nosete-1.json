@@ -1,0 +1,37 @@
+{
+  "songSlug": "koikaze-ni-nosete",
+  "lessonNumber": 1,
+  "title": "변해 가는 풍경 너머로",
+  "subtitle": "〜ゆく와 〜越しに로 여는 첫 장면",
+  "description": "창문 너머에서 불어온 그리운 바람과, 서로를 의식하면서도 시선을 피하는 두 사람을 읽습니다.",
+  "estimatedMinutes": 24,
+  "sentences": [
+    { "id": "koikaze-ni-nosete-1-1", "original": "変わりゆく景色", "ruby": [{ "text": "変", "reading": "か" }, { "text": "わりゆく" }, { "text": "景色", "reading": "けしき" }], "hiragana": "かわりゆく けしき", "pronunciationKo": "카와리유쿠 케시키", "translationKo": "변해 가는 풍경", "grammarIds": ["masu-stem-yuku"], "kanjiIds": ["変", "景"] },
+    { "id": "koikaze-ni-nosete-1-2", "original": "窓越しに覗いた", "ruby": [{ "text": "窓越", "reading": "まどご" }, { "text": "しに" }, { "text": "覗", "reading": "のぞ" }, { "text": "いた" }], "hiragana": "まどごし に のぞいた", "pronunciationKo": "마도고시니 노조이타", "translationKo": "창문 너머로 들여다봤어", "grammarIds": ["noun-goshi-ni"], "kanjiIds": ["越"] },
+    { "id": "koikaze-ni-nosete-1-3", "original": "懐かしい風が呼んできた", "ruby": [{ "text": "懐", "reading": "なつ" }, { "text": "かしい" }, { "text": "風", "reading": "かぜ" }, { "text": "が" }, { "text": "呼", "reading": "よ" }, { "text": "んできた" }], "hiragana": "なつかしい かぜ が よんできた", "pronunciationKo": "나츠카시이 카제가 욘데키타", "translationKo": "그리운 바람이 불러왔어", "grammarIds": ["te-kuru"], "kanjiIds": ["風"] },
+    { "id": "koikaze-ni-nosete-1-4", "original": "どっかで", "ruby": [{ "text": "どっかで" }], "hiragana": "どっかで", "pronunciationKo": "돗카데", "translationKo": "어딘가에서", "grammarIds": [], "kanjiIds": [] },
+    { "id": "koikaze-ni-nosete-1-5", "original": "見えない", "ruby": [{ "text": "見", "reading": "み" }, { "text": "えない" }], "hiragana": "みえない", "pronunciationKo": "미에나이", "translationKo": "보이지 않아", "grammarIds": ["negative-form"], "kanjiIds": ["見"] },
+    { "id": "koikaze-ni-nosete-1-6", "original": "互いを互いに", "ruby": [{ "text": "互", "reading": "たが" }, { "text": "いを" }, { "text": "互", "reading": "たが" }, { "text": "いに" }], "hiragana": "たがい を たがい に", "pronunciationKo": "타가이오 타가이니", "translationKo": "서로를 서로에게", "grammarIds": [], "kanjiIds": [] },
+    { "id": "koikaze-ni-nosete-1-7", "original": "合図して", "ruby": [{ "text": "合図", "reading": "あいず" }, { "text": "して" }], "hiragana": "あいず して", "pronunciationKo": "아이즈시테", "translationKo": "신호를 보내고", "grammarIds": ["te-form"], "kanjiIds": ["合", "図"] },
+    { "id": "koikaze-ni-nosete-1-8", "original": "そっと二人", "ruby": [{ "text": "そっと" }, { "text": "二人", "reading": "ふたり" }], "hiragana": "そっと ふたり", "pronunciationKo": "솟토 후타리", "translationKo": "살며시 두 사람", "grammarIds": [], "kanjiIds": [] },
+    { "id": "koikaze-ni-nosete-1-9", "original": "目をそらして気付いたの", "ruby": [{ "text": "目", "reading": "め" }, { "text": "をそらして" }, { "text": "気付", "reading": "きづ" }, { "text": "いたの" }], "hiragana": "め を そらして きづいた の", "pronunciationKo": "메오 소라시테 키즈이타노", "translationKo": "눈을 피하고서야 깨달은 거야", "grammarIds": ["te-form", "sentence-final-no"], "kanjiIds": ["目", "気"] }
+  ],
+  "vocabulary": [
+    { "id": "koikaze-ni-nosete-1-kawariyuku", "term": "変わりゆく", "reading": "かわりゆく", "meaning": "변해 가다", "note": "変わっていく보다 문학적인 여운이 강합니다." },
+    { "id": "koikaze-ni-nosete-1-keshiki", "term": "景色", "reading": "けしき", "meaning": "풍경, 경치" },
+    { "id": "koikaze-ni-nosete-1-madogoshi", "term": "窓越し", "reading": "まどごし", "meaning": "창문을 사이에 두고, 창문 너머로" },
+    { "id": "koikaze-ni-nosete-1-nozoku", "term": "覗く", "reading": "のぞく", "meaning": "들여다보다, 엿보다" },
+    { "id": "koikaze-ni-nosete-1-natsukashii", "term": "懐かしい", "reading": "なつかしい", "meaning": "그립다, 추억이 돋다" },
+    { "id": "koikaze-ni-nosete-1-dokka", "term": "どっか", "reading": "どっか", "meaning": "어딘가", "note": "どこか가 회화에서 줄어든 형태입니다." },
+    { "id": "koikaze-ni-nosete-1-aizu", "term": "合図する", "reading": "あいずする", "meaning": "신호를 보내다" },
+    { "id": "koikaze-ni-nosete-1-me-wo-sorasu", "term": "目をそらす", "reading": "めをそらす", "meaning": "시선을 피하다" },
+    { "id": "koikaze-ni-nosete-1-kizuku", "term": "気付く", "reading": "きづく", "meaning": "깨닫다, 알아차리다" }
+  ],
+  "quiz": [
+    { "id": "koikaze-ni-nosete-1-q1", "prompt": "「変わりゆく」가 나타내는 흐름은?", "options": ["변화가 계속 이어짐", "변화가 완전히 멈춤", "과거 상태로 돌아감", "변화를 강요함"], "answerIndex": 0, "explanation": "연용형 + ゆく는 어떤 변화가 앞으로 계속 진행되는 느낌을 줍니다." },
+    { "id": "koikaze-ni-nosete-1-q2", "prompt": "「窓越しに」의 뜻은?", "options": ["창문을 닫자마자", "창문 너머로", "창문 아래에서", "창문을 열지 못해서"], "answerIndex": 1, "explanation": "명사 + 越しに는 그 대상을 사이에 두고 너머로 행하는 시선이나 소통을 나타냅니다." },
+    { "id": "koikaze-ni-nosete-1-q3", "prompt": "「呼んできた」의 〜てきた가 더하는 느낌은?", "options": ["화자에게 다가옴", "명령을 내림", "단지 예측함", "행동을 금지함"], "answerIndex": 0, "explanation": "〜てくる는 움직임이나 감각이 화자 쪽으로 다가오는 방향을 표현할 수 있습니다." },
+    { "id": "koikaze-ni-nosete-1-q4", "prompt": "「どっか」의 본래 형태는?", "options": ["どうか", "どちら", "どこか", "どれか"], "answerIndex": 2, "explanation": "どっか는 どこか의 구어적인 축약으로 '어딘가'라는 뜻입니다." },
+    { "id": "koikaze-ni-nosete-1-q5", "prompt": "두 사람의 조심스러운 관계를 가장 잘 보여 주는 표현은?", "options": ["景色を変える", "目をそらす", "窓を壊す", "風を止める"], "answerIndex": 1, "explanation": "目をそらす는 서로를 의식하면서도 시선을 피하는 두 사람의 머뭇거림을 보여 줍니다." }
+  ]
+}

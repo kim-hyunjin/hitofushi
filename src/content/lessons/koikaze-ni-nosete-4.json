@@ -1,0 +1,35 @@
+{
+  "songSlug": "koikaze-ni-nosete",
+  "lessonNumber": 4,
+  "title": "빗줄기 너머 섞여 가는 풍경",
+  "subtitle": "반복 속의 변화와 시선",
+  "description": "창문이 비로, 그리운 바람이 따뜻한 바람으로 바뀌 두 번째 장면에서 두 사람의 시선이 달라집니다.",
+  "estimatedMinutes": 23,
+  "sentences": [
+    { "id": "koikaze-ni-nosete-4-1", "original": "混ざりゆく景色", "ruby": [{ "text": "混", "reading": "ま" }, { "text": "ざりゆく" }, { "text": "景色", "reading": "けしき" }], "hiragana": "まざりゆく けしき", "pronunciationKo": "마자리유쿠 케시키", "translationKo": "섞여 가는 풍경", "grammarIds": ["masu-stem-yuku"], "kanjiIds": ["景"] },
+    { "id": "koikaze-ni-nosete-4-2", "original": "雨越しに覗いた", "ruby": [{ "text": "雨越", "reading": "あめご" }, { "text": "しに" }, { "text": "覗", "reading": "のぞ" }, { "text": "いた" }], "hiragana": "あめごし に のぞいた", "pronunciationKo": "아메고시니 노조이타", "translationKo": "빗줄 너머로 들여다봤어", "grammarIds": ["noun-goshi-ni"], "kanjiIds": ["越"] },
+    { "id": "koikaze-ni-nosete-4-3", "original": "暖かい風が呼んできた", "ruby": [{ "text": "暖", "reading": "あたた" }, { "text": "かい" }, { "text": "風", "reading": "かぜ" }, { "text": "が" }, { "text": "呼", "reading": "よ" }, { "text": "んできた" }], "hiragana": "あたたかい かぜ が よんできた", "pronunciationKo": "아타타카이 카제가 욘데키타", "translationKo": "따뜻한 바람이 불러왔어", "grammarIds": ["te-kuru"], "kanjiIds": ["風"] },
+    { "id": "koikaze-ni-nosete-4-4", "original": "どっかで", "ruby": [{ "text": "どっかで" }], "hiragana": "どっかで", "pronunciationKo": "돗카데", "translationKo": "어딘가에서", "grammarIds": [], "kanjiIds": [] },
+    { "id": "koikaze-ni-nosete-4-5", "original": "消えない", "ruby": [{ "text": "消", "reading": "き" }, { "text": "えない" }], "hiragana": "きえない", "pronunciationKo": "키에나이", "translationKo": "사라지지 않아", "grammarIds": ["negative-form"], "kanjiIds": ["消"] },
+    { "id": "koikaze-ni-nosete-4-6", "original": "互いを互いに", "ruby": [{ "text": "互", "reading": "たが" }, { "text": "いを" }, { "text": "互", "reading": "たが" }, { "text": "いに" }], "hiragana": "たがい を たがい に", "pronunciationKo": "타가이오 타가이니", "translationKo": "서로를 서로에게", "grammarIds": [], "kanjiIds": [] },
+    { "id": "koikaze-ni-nosete-4-7", "original": "合図して", "ruby": [{ "text": "合図", "reading": "あいず" }, { "text": "して" }], "hiragana": "あいず して", "pronunciationKo": "아이즈시테", "translationKo": "신호를 보내고", "grammarIds": ["te-form"], "kanjiIds": ["合", "図"] },
+    { "id": "koikaze-ni-nosete-4-8", "original": "そっと二人", "ruby": [{ "text": "そっと" }, { "text": "二人", "reading": "ふたり" }], "hiragana": "そっと ふたり", "pronunciationKo": "솟토 후타리", "translationKo": "살며시 두 사람", "grammarIds": [], "kanjiIds": [] },
+    { "id": "koikaze-ni-nosete-4-9", "original": "目を凝らして気付いたの", "ruby": [{ "text": "目", "reading": "め" }, { "text": "を" }, { "text": "凝", "reading": "こ" }, { "text": "らして" }, { "text": "気付", "reading": "きづ" }, { "text": "いたの" }], "hiragana": "め を こらして きづいた の", "pronunciationKo": "메오 코라시테 키즈이타노", "translationKo": "눈을 응시하고서야 깨달은 거야", "grammarIds": ["te-form", "sentence-final-no"], "kanjiIds": ["目", "気"] }
+  ],
+  "vocabulary": [
+    { "id": "koikaze-ni-nosete-4-mazariyuku", "term": "混ざりゆく", "reading": "まざりゆく", "meaning": "섞여 가다" },
+    { "id": "koikaze-ni-nosete-4-amegoshi", "term": "雨越し", "reading": "あめごし", "meaning": "비를 사이에 두고, 빗줄 너머로", "note": "비를 시선의 매개로 그린 시적인 표현입니다." },
+    { "id": "koikaze-ni-nosete-4-atatakai", "term": "暖かい", "reading": "あたたかい", "meaning": "따뜻하다" },
+    { "id": "koikaze-ni-nosete-4-kieru", "term": "消える", "reading": "きえる", "meaning": "사라지다, 꺼지다" },
+    { "id": "koikaze-ni-nosete-4-tagaini", "term": "互いに", "reading": "たがいに", "meaning": "서로, 서로에게" },
+    { "id": "koikaze-ni-nosete-4-me-wo-korasu", "term": "目を凝らす", "reading": "めをこらす", "meaning": "응시하다, 눈여겨보다" },
+    { "id": "koikaze-ni-nosete-4-yobu", "term": "呼ぶ", "reading": "よぶ", "meaning": "부르다" }
+  ],
+  "quiz": [
+    { "id": "koikaze-ni-nosete-4-q1", "prompt": "「混ざりゆく」의 뜻은?", "options": ["갈라지기 시작하다", "섞여 가다", "완전히 멈추다", "순서를 정하다"], "answerIndex": 1, "explanation": "混ざる의 연용형에 ゆく가 붙어 여러 것이 점차 섞여 가는 흐름을 나타냅니다." },
+    { "id": "koikaze-ni-nosete-4-q2", "prompt": "「雨越しに」를 이 가사에서 어떻게 읽을 수 있나요?", "options": ["비가 끝난 뒤에만", "빗줄을 사이에 두고 그 너머로", "비를 피해 실내로", "비를 건너뜬 뒤에"], "answerIndex": 1, "explanation": "雨越しに는 일상적인 고정 표현보다 비를 사이에 둔 시선을 그린 가사적 표현입니다." },
+    { "id": "koikaze-ni-nosete-4-q3", "prompt": "첫 절의 「見えない」와 대응하는 두 번째 절의 표현은?", "options": ["消えない", "暖かい", "混ざりゆく", "凝らして"], "answerIndex": 0, "explanation": "첫 절의 '보이지 않는'은 두 번째 절에서 '사라지지 않는'으로 바뀌어 두 장면을 연결합니다." },
+    { "id": "koikaze-ni-nosete-4-q4", "prompt": "「目を凝らす」의 뜻은?", "options": ["눈을 감다", "시선을 피하다", "주의 깊게 응시하다", "눈물을 흘리다"], "answerIndex": 2, "explanation": "目を凝らす는 보려는 대상에 시선을 모아 자세히 보다라는 뜻입니다." },
+    { "id": "koikaze-ni-nosete-4-q5", "prompt": "첫 절과 비교했을 때 두 사람의 시선은 어떻게 바뀌나요?", "options": ["피하던 시선이 자세히 보는 시선으로 바뀌다", "서로를 보던 시선이 완전히 닫힌다", "시선의 변화가 없다", "풍경만 보게 된다"], "answerIndex": 0, "explanation": "目をそらす에서 目を凝らす로 바뀌며, 서로를 마주할 준비가 되어 가는 흐름을 보여 줍니다." }
+  ]
+}
