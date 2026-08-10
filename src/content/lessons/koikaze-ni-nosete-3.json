@@ -22,7 +22,7 @@
     { "id": "koikaze-ni-nosete-3-mahou", "term": "魔法", "reading": "まほう", "meaning": "마법" },
     { "id": "koikaze-ni-nosete-3-tonaeru", "term": "唱える", "reading": "となえる", "meaning": "외우다, 주문을 외치다" },
     { "id": "koikaze-ni-nosete-3-koikaze", "term": "恋風邪", "reading": "こいかぜ", "meaning": "사랑 감기", "note": "恋과 風邪를 겹친 제목의 시적인 조어로 볼 수 있습니다." },
-    { "id": "koikaze-ni-nosete-3-noseru", "term": "のせる", "reading": "のせる", "meaning": "싣다, 떤얹다", "note": "이 가사에서는 마음이나 마법을 어떤 매개에 싣는 이미지를 만듭니다." }
+    { "id": "koikaze-ni-nosete-3-noseru", "term": "のせる", "reading": "のせる", "meaning": "싣다, 얹다", "note": "이 가사에서는 마음이나 마법을 어떤 매개에 싣는 이미지를 만듭니다." }
   ],
   "quiz": [
     { "id": "koikaze-ni-nosete-3-q1", "prompt": "「笑っていた」의 시점은?", "options": ["현재에 계속 웃고 있음", "과거에 계속 웃고 있었음", "앞으로 웃을 예정임", "웃지 못함"], "answerIndex": 1, "explanation": "〜ていた는 과거의 지속되던 동작이나 상태를 나타냅니다." },
