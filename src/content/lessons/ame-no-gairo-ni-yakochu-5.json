@@ -1,0 +1,63 @@
+{
+  "songSlug": "ame-no-gairo-ni-yakochu",
+  "lessonNumber": 5,
+  "title": "들켜 버린 거짓말",
+  "subtitle": "부탁의 〜ないで·인용의 って·〜ていた",
+  "description": "마음이 깨지도 식지도, 사라지지도 않기를 바라면서 어디든 갈 수 있다고 했던 훤히 보이는 거짓말을 돌아봅니다.",
+  "estimatedMinutes": 20,
+  "sentences": [
+    {
+      "id": "ame-no-gairo-ni-yakochu-5-1",
+      "original": "さめないでって きえないでって",
+      "ruby": [{ "text": "さめないでって きえないでって" }],
+      "hiragana": "さめないで って きえないで って",
+      "pronunciationKo": "사메나이뎃테 키에나이뎃테",
+      "translationKo": "깨지 말라고, 식지 말라고, 사라지지 말라고",
+      "grammarIds": ["naide", "tte-quotation"],
+      "kanjiIds": []
+    },
+    {
+      "id": "ame-no-gairo-ni-yakochu-5-2",
+      "original": "馬鹿みたいに願っているんだ",
+      "ruby": [{ "text": "馬鹿", "reading": "ばか" }, { "text": "みたいに" }, { "text": "願", "reading": "ねが" }, { "text": "っているんだ" }],
+      "hiragana": "ばか みたいに ねがっているんだ",
+      "pronunciationKo": "바카미타이니 네갓테이룬다",
+      "translationKo": "바보처럼 바라고 있는 거야",
+      "grammarIds": ["mitai", "teiru", "n-da"],
+      "kanjiIds": ["願"]
+    },
+    {
+      "id": "ame-no-gairo-ni-yakochu-5-3",
+      "original": "どこにだって行けるんだって",
+      "ruby": [{ "text": "どこにだって" }, { "text": "行", "reading": "い" }, { "text": "けるんだって" }],
+      "hiragana": "どこ に だって いけるんだ って",
+      "pronunciationKo": "도코니닷테 이케룬닷테",
+      "translationKo": "어디든 갈 수 있는 거라고",
+      "grammarIds": ["potential-form", "n-da", "tte-quotation"],
+      "kanjiIds": ["行"]
+    },
+    {
+      "id": "ame-no-gairo-ni-yakochu-5-4",
+      "original": "ばればれの嘘をついていた",
+      "ruby": [{ "text": "ばればれの" }, { "text": "嘘", "reading": "うそ" }, { "text": "をついていた" }],
+      "hiragana": "ばればれ の うそ を ついていた",
+      "pronunciationKo": "바레바레노 우소오 츠이테이타",
+      "translationKo": "훤히 들여다보이는 거짓말을 하고 있었어",
+      "grammarIds": ["noun-no-noun", "teiru"],
+      "kanjiIds": []
+    }
+  ],
+  "vocabulary": [
+    { "id": "ame-no-gairo-ni-yakochu-5-samenai", "term": "さめない", "reading": "さめない", "meaning": "깨지 않다; 식지 않다", "note": "히라가나 표기라 覚めない와 冷めない가 겹쳐 읽힐 수 있습니다." },
+    { "id": "ame-no-gairo-ni-yakochu-5-kienai", "term": "きえない", "reading": "きえない", "meaning": "사라지지 않다, 꺼지지 않다" },
+    { "id": "ame-no-gairo-ni-yakochu-5-negau", "term": "願う", "reading": "ねがう", "meaning": "바라다, 소원하다" },
+    { "id": "ame-no-gairo-ni-yakochu-5-barebare", "term": "ばればれ", "reading": "ばればれ", "meaning": "빤히 들여다보임, 들통이 뻔함" },
+    { "id": "ame-no-gairo-ni-yakochu-5-usowotsuku", "term": "嘘をつく", "reading": "うそをつく", "meaning": "거짓말을 하다" }
+  ],
+  "quiz": [
+    { "id": "ame-no-gairo-ni-yakochu-5-q1", "prompt": "히라가나 「さめないで」에 겹쳐 읽힐 수 있는 두 뜻은?", "options": ["깨지 말아 줘 / 식지 말아 줘", "걷지 말아 줘 / 뛰지 말아 줘", "울지 말아 줘 / 웃지 말아 줘", "오지 말아 줘 / 가지 말아 줘"], "answerIndex": 0, "explanation": "한자를 쓰지 않아 覚める와 冷める가 모두 떠오를 수 있습니다. 꿈이나 마음이 깨지거나 식지 않기를 바라는 중의적인 표현입니다." },
+    { "id": "ame-no-gairo-ni-yakochu-5-q2", "prompt": "「〜ないでって」에서 って의 역할은?", "options": ["간절한 부탁 내용을 인용한다", "장소를 표시한다", "수단을 나타낸다", "비교 대상을 고른다"], "answerIndex": 0, "explanation": "부정 부탁인 〜ないで를 って가 인용해, 마음속으로 되풀이하는 바람처럼 들리게 합니다." },
+    { "id": "ame-no-gairo-ni-yakochu-5-q3", "prompt": "「どこにだって行ける」의 뜻은?", "options": ["어디든 갈 수 있다", "어디에도 갈 수 없다", "어디로 갔는지 모른다", "어디에 가야 한다"], "answerIndex": 0, "explanation": "どこにだって는 범위를 가리지 않는 ‘어디에든’, 行ける는 ‘갈 수 있다’입니다." },
+    { "id": "ame-no-gairo-ni-yakochu-5-q4", "prompt": "「ばればれの嘘」는 어떤 거짓말인가요?", "options": ["남에게 이미 훤히 들킨 거짓말", "아무도 눈치채지 못한 거짓말", "기억에서 사라진 거짓말", "선의로만 한 거짓말"], "answerIndex": 0, "explanation": "ばればれ는 감추려 해도 사실이 훤히 드러나 있는 상태를 나타냅니다." }
+  ]
+}

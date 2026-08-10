@@ -1,0 +1,66 @@
+{
+  "songSlug": "yesterday",
+  "lessonNumber": 6,
+  "title": "두 사람만의 우주로",
+  "subtitle": "명령형과 〜ずに로 반복되는 결의",
+  "description": "세상의 평가를 뒤로한 채 망설임 없이 나아가 떨리던 손으로 상대를 데리고 나오는 절정을 읽습니다.",
+  "estimatedMinutes": 23,
+  "sentences": [
+    {
+      "id": "yesterday-6-1",
+      "original": "遥か先へ進め 幼すぎる恋だと",
+      "ruby": [{ "text": "遥", "reading": "はる" }, { "text": "か" }, { "text": "先", "reading": "さき" }, { "text": "へ" }, { "text": "進", "reading": "すす" }, { "text": "め " }, { "text": "幼", "reading": "おさな" }, { "text": "すぎる" }, { "text": "恋", "reading": "こい" }, { "text": "だと" }],
+      "hiragana": "はるか さき へ すすめ おさなすぎる こい だ と",
+      "pronunciationKo": "하루카 사키에 스스메 오사나스기루 코이다토",
+      "translationKo": "아득히 앞으로 나아가라, 너무 철없는 사랑이라고",
+      "grammarIds": ["imperative-form", "sugiru", "to-quotation"],
+      "kanjiIds": ["先", "恋"]
+    },
+    {
+      "id": "yesterday-6-2",
+      "original": "世界が後ろから指さしても",
+      "ruby": [{ "text": "世界", "reading": "せかい" }, { "text": "が" }, { "text": "後", "reading": "うし" }, { "text": "ろから" }, { "text": "指", "reading": "ゆび" }, { "text": "さしても" }],
+      "hiragana": "せかい が うしろ から ゆびさしても",
+      "pronunciationKo": "세카이가 우시로카라 유비사시테모",
+      "translationKo": "세상이 뒤에서 손가락질해도",
+      "grammarIds": ["temo"],
+      "kanjiIds": []
+    },
+    {
+      "id": "yesterday-6-3",
+      "original": "迷わずに進め 進め 二人だけの宇宙へと",
+      "ruby": [{ "text": "迷", "reading": "まよ" }, { "text": "わずに" }, { "text": "進", "reading": "すす" }, { "text": "め " }, { "text": "進", "reading": "すす" }, { "text": "め " }, { "text": "二人", "reading": "ふたり" }, { "text": "だけの" }, { "text": "宇宙", "reading": "うちゅう" }, { "text": "へと" }],
+      "hiragana": "まよわずに すすめ すすめ ふたり だけ の うちゅう へ と",
+      "pronunciationKo": "마요와즈니 스스메 스스메 후타리다케노 우추우에토",
+      "translationKo": "망설이지 말고 나아가, 나아가, 두 사람만의 우주로",
+      "grammarIds": ["zuni", "imperative-form", "noun-no-noun"],
+      "kanjiIds": []
+    },
+    {
+      "id": "yesterday-6-4",
+      "original": "ポケットの中で震えた この手で今 君を連れ出して",
+      "ruby": [{ "text": "ポケットの" }, { "text": "中", "reading": "なか" }, { "text": "で" }, { "text": "震", "reading": "ふる" }, { "text": "えた この" }, { "text": "手", "reading": "て" }, { "text": "で" }, { "text": "今", "reading": "いま" }, { "text": " " }, { "text": "君", "reading": "きみ" }, { "text": "を" }, { "text": "連", "reading": "つ" }, { "text": "れ" }, { "text": "出", "reading": "だ" }, { "text": "して" }],
+      "hiragana": "ぽけっと の なか で ふるえた この て で いま きみ を つれだして",
+      "pronunciationKo": "포켓토노 나카데 후루에타 코노 테데 이마 키미오 츠레다시테",
+      "translationKo": "주머니 속에서 떨던 이 손으로 지금 너를 데리고 나가",
+      "grammarIds": ["relative-clause", "te-form"],
+      "kanjiIds": ["震", "手", "今", "君", "連"]
+    }
+  ],
+  "vocabulary": [
+    { "id": "yesterday-6-osanasugiru", "term": "幼すぎる", "reading": "おさなすぎる", "meaning": "너무 어리다, 너무 철없다" },
+    { "id": "yesterday-6-mayou", "term": "迷う", "reading": "まよう", "meaning": "망설이다, 헤매다" },
+    { "id": "yesterday-6-futari", "term": "二人", "reading": "ふたり", "meaning": "두 사람" },
+    { "id": "yesterday-6-uchuu", "term": "宇宙", "reading": "うちゅう", "meaning": "우주" },
+    { "id": "yesterday-6-furueru", "term": "震える", "reading": "ふるえる", "meaning": "떨리다" },
+    { "id": "yesterday-6-tsuredasu", "term": "連れ出す", "reading": "つれだす", "meaning": "데리고 나가다" },
+    { "id": "yesterday-6-harukasaki", "term": "遥か先", "reading": "はるかさき", "meaning": "아득히 먼 앞" }
+  ],
+  "quiz": [
+    { "id": "yesterday-6-q1", "prompt": "첫 후렴의 「身勝手すぎる」가 여기서는 무엇으로 바뀌었나요?", "options": ["美しすぎる", "幼すぎる", "強すぎる", "悲しすぎる"], "answerIndex": 1, "explanation": "두 번째 후렴은 사랑을 ‘너무 이기적이다’에서 ‘너무 철없다’로 바꾸어 세상의 다른 평가를 보여 줍니다." },
+    { "id": "yesterday-6-q2", "prompt": "「迷わずに」의 자연스러운 뜻은?", "options": ["망설이면서", "망설인 뒤에", "망설이지 않고", "망설일 수 있도록"], "answerIndex": 2, "explanation": "〜ずに는 〜ないで와 비슷하며, 여기서는 迷わないで라는 뜻입니다." },
+    { "id": "yesterday-6-q3", "prompt": "「進め 進め」의 반복이 만드는 효과는?", "options": ["의문을 부드럽게 만든다", "전진하라는 결의를 거듭 밀어붙인다", "과거를 천천히 회상한다", "상대의 허락을 구한다"], "answerIndex": 1, "explanation": "명령형을 연달아 반복해 망설임을 끊고 앞으로 향하는 속도와 힘을 높입니다." },
+    { "id": "yesterday-6-q4", "prompt": "화자의 손은 어떻게 달라졌나요?", "options": ["떨던 손으로 이제 상대를 데리고 나간다", "상대를 놓고 주머니에 숨는다", "공포 때문에 움직이지 못한다", "세상을 향해 손가락질한다"], "answerIndex": 0, "explanation": "앞에서는 주머니 속에서 겁먹었던 손이, 이제는 君を連れ出す 행동의 주체가 됩니다." },
+    { "id": "yesterday-6-q5", "prompt": "「二人だけの宇宙」가 나타내는 방향은?", "options": ["모두가 함께하는 사회", "과거의 교실", "두 사람만의 세계", "아무도 없는 현실"], "answerIndex": 2, "explanation": "宇宙는 문자 그대로의 우주이면서, 세상의 평가가 닿지 않는 두 사람만의 세계를 비유합니다." }
+  ]
+}

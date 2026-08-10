@@ -1,0 +1,77 @@
+{
+  "songSlug": "yesterday",
+  "lessonNumber": 5,
+  "title": "어제와 작별하고 얻고 싶은 힘",
+  "subtitle": "〜けど·〜でも·〜ための로 마음 잇기",
+  "description": "동경하던 모습과 달라진 자신을 받아들이며 오직 한 사람을 지킬 힘을 바라는 장면을 읽습니다.",
+  "estimatedMinutes": 22,
+  "sentences": [
+    {
+      "id": "yesterday-5-1",
+      "original": "バイバイ イエスタデイ",
+      "ruby": [{ "text": "バイバイ イエスタデイ" }],
+      "hiragana": "ばいばい いえすたでい",
+      "pronunciationKo": "바이바이 이에스타데이",
+      "translationKo": "잘 가, 예스터데이",
+      "grammarIds": [],
+      "kanjiIds": []
+    },
+    {
+      "id": "yesterday-5-2",
+      "original": "ごめんね 名残惜しいけど行くよ",
+      "ruby": [{ "text": "ごめんね " }, { "text": "名残惜", "reading": "なごりお" }, { "text": "しいけど" }, { "text": "行", "reading": "い" }, { "text": "くよ" }],
+      "hiragana": "ごめん ね なごりおしい けど いく よ",
+      "pronunciationKo": "고멘네 나고리오시이케도 이쿠요",
+      "translationKo": "미안해, 아쉽지만 갈게",
+      "grammarIds": ["kedo"],
+      "kanjiIds": ["行"]
+    },
+    {
+      "id": "yesterday-5-3",
+      "original": "いつかの憧れと違う僕でも",
+      "ruby": [{ "text": "いつかの" }, { "text": "憧", "reading": "あこが" }, { "text": "れと" }, { "text": "違", "reading": "ちが" }, { "text": "う" }, { "text": "僕", "reading": "ぼく" }, { "text": "でも" }],
+      "hiragana": "いつか の あこがれ と ちがう ぼく でも",
+      "pronunciationKo": "이츠카노 아코가레토 치가우 보쿠데모",
+      "translationKo": "언젠가 동경하던 모습과 다른 나라도",
+      "grammarIds": ["relative-clause", "demo-concessive"],
+      "kanjiIds": ["僕"]
+    },
+    {
+      "id": "yesterday-5-4",
+      "original": "ただ一人だけ 君だけ 守るための強さを",
+      "ruby": [{ "text": "ただ" }, { "text": "一人", "reading": "ひとり" }, { "text": "だけ " }, { "text": "君", "reading": "きみ" }, { "text": "だけ " }, { "text": "守", "reading": "まも" }, { "text": "るための" }, { "text": "強", "reading": "つよ" }, { "text": "さを" }],
+      "hiragana": "ただ ひとり だけ きみ だけ まもる ため の つよさ を",
+      "pronunciationKo": "타다 히토리다케 키미다케 마모루 타메노 츠요사오",
+      "translationKo": "단 한 사람, 너 하나만 지키기 위한 강함을",
+      "grammarIds": ["relative-clause"],
+      "kanjiIds": ["君", "強"]
+    },
+    {
+      "id": "yesterday-5-5",
+      "original": "何よりも望んでいた この手に今",
+      "ruby": [{ "text": "何", "reading": "なに" }, { "text": "よりも" }, { "text": "望", "reading": "のぞ" }, { "text": "んでいた この" }, { "text": "手", "reading": "て" }, { "text": "に" }, { "text": "今", "reading": "いま" }],
+      "hiragana": "なに よりも のぞんでいた この て に いま",
+      "pronunciationKo": "나니요리모 노존데이타 코노 테니 이마",
+      "translationKo": "무엇보다 바라왔던 이 손에, 지금",
+      "grammarIds": ["yori", "teiru", "relative-clause"],
+      "kanjiIds": ["手", "今"]
+    }
+  ],
+  "vocabulary": [
+    { "id": "yesterday-5-baibai", "term": "バイバイ", "reading": "ばいばい", "meaning": "잘 가, 안녕" },
+    { "id": "yesterday-5-nagorioshii", "term": "名残惜しい", "reading": "なごりおしい", "meaning": "헤어지기 아쉽다, 미련이 남다" },
+    { "id": "yesterday-5-akogare", "term": "憧れ", "reading": "あこがれ", "meaning": "동경, 선망" },
+    { "id": "yesterday-5-chigau", "term": "違う", "reading": "ちがう", "meaning": "다르다" },
+    { "id": "yesterday-5-hitori", "term": "一人", "reading": "ひとり", "meaning": "한 사람, 혼자" },
+    { "id": "yesterday-5-mamoru", "term": "守る", "reading": "まもる", "meaning": "지키다, 보호하다" },
+    { "id": "yesterday-5-tsuyosa", "term": "強さ", "reading": "つよさ", "meaning": "강함, 힘" },
+    { "id": "yesterday-5-nozomu", "term": "望む", "reading": "のぞむ", "meaning": "바라다, 원하다" }
+  ],
+  "quiz": [
+    { "id": "yesterday-5-q1", "prompt": "「名残惜しい」는 어떤 마음인가요?", "options": ["만남이 두렵다", "헤어지기 아쉽고 미련이 남는다", "상대에게 화가 난다", "과거를 완전히 잊었다"], "answerIndex": 1, "explanation": "名残惜しい는 떠나거나 끝낼 때 아쉬움과 미련이 남는 마음을 나타냅니다." },
+    { "id": "yesterday-5-q2", "prompt": "「僕でも」의 でも가 나타내는 뜻은?", "options": ["나이기 때문에", "나와 함께", "그런 나라도", "나만 아니면"], "answerIndex": 2, "explanation": "명사 + でも는 앞의 상황을 인정하면서도 뒤의 결과가 이어지는 양보를 나타냅니다." },
+    { "id": "yesterday-5-q3", "prompt": "화자가 가장 바라는 힘은 무엇인가요?", "options": ["모두에게 인정받는 힘", "과거로 돌아가는 힘", "너 한 사람을 지키는 힘", "아무도 만나지 않는 힘"], "answerIndex": 2, "explanation": "「ただ一人だけ 君だけ 守るための強さ」라고 대상을 한 사람으로 좁힙니다." },
+    { "id": "yesterday-5-q4", "prompt": "「何よりも」의 뜻은?", "options": ["무엇 때문이라도", "무엇보다도", "아무것도 없이", "몇 번이고"], "answerIndex": 1, "explanation": "より는 비교 기준을 나타내며, 何よりも는 ‘다른 무엇보다도’라는 뜻입니다." },
+    { "id": "yesterday-5-q5", "prompt": "이 구간의 「イエスタデイ」는 무엇과의 작별로 읽을 수 있나요?", "options": ["과거의 망설이던 자신", "사랑하는 상대", "앞으로의 미래", "거리의 사람들"], "answerIndex": 0, "explanation": "문맥상 남의 시선을 신경 쓰던 과거와 작별하고, 달라진 자신으로 앞으로 나아가려는 전환입니다." }
+  ]
+}
