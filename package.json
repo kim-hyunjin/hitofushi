@@ -8,8 +8,7 @@
     "build": "astro check && astro build",
     "test": "vitest run src",
     "test:e2e": "playwright test",
-    "build:pages": "astro check && cross-env PUBLIC_BASE_PATH=/hitofushi/ PUBLIC_SITE_URL=https://kim-hyunjin.github.io astro build",
-    "deploy": "npm run build:pages && gh-pages -d dist --nojekyll",
+    "deploy": "npm run build && gh-pages -d dist --nojekyll",
     "preview": "astro preview",
     "astro": "astro"
   },
