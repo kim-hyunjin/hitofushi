@@ -48,19 +48,22 @@ const learningActive = pathname.includes('/my-learning/');
     <title>{pageTitle}</title>
   </head>
   <body>
-    <a class="skip-link" href="#main-content">본문으로 건너뛰기</a>
-    <header class="site-header">
-      <PageShell class="header-inner">
-        <a class="brand" href={withBase('/')} aria-label="HitoFushi 홈">
-          <span class="brand-mark" aria-hidden="true">あ</span>
+    <a
+      class="fixed left-2 top-2 z-100 -translate-y-[150%] rounded-lg bg-primary px-4 py-[0.7rem] text-primary-foreground focus:translate-y-0"
+      href="#main-content"
+    >본문으로 건너뛰기</a>
+    <header class="sticky top-0 z-40 border-b border-[color-mix(in_srgb,var(--border)_78%,transparent)] bg-[color-mix(in_srgb,var(--background)_88%,transparent)] backdrop-blur-2xl">
+      <PageShell class="flex min-h-[4.6rem] items-center justify-between gap-4 max-[42rem]:min-h-17">
+        <a class="inline-flex items-center gap-[0.7rem] leading-[1.15]" href={withBase('/')} aria-label="HitoFushi 홈">
+          <span class="grid aspect-square w-[2.4rem] place-items-center rounded-full bg-primary text-[1.2rem] text-primary-foreground [font-family:Georgia,serif]" aria-hidden="true">あ</span>
           <span>
-            <strong>HitoFushi</strong>
-            <small>한 소절씩, 내 속도로</small>
+            <strong class="block text-[0.95rem] tracking-[-0.03em]">HitoFushi</strong>
+            <small class="mt-[0.2rem] block text-[0.68rem] text-muted-foreground max-[42rem]:hidden">한 소절씩, 내 속도로</small>
           </span>
         </a>
 
-        <div class="header-actions">
-          <NavigationMenu class="desktop-nav" aria-label="주요 메뉴">
+        <div class="flex items-center gap-[0.55rem]">
+          <NavigationMenu class="[&_[data-slot=navigation-menu-link]]:gap-[0.4rem] max-[42rem]:hidden" aria-label="주요 메뉴">
             <NavigationMenuList>
               <NavigationMenuItem>
                 <NavigationMenuLink href={withBase('/songs/')} active={songsActive}>
@@ -80,7 +83,7 @@ const learningActive = pathname.includes('/my-learning/');
           <ThemeToggle ariaLabel="라이트·다크 테마 전환" size="sm" />
 
           <Sheet>
-            <SheetTrigger class="mobile-menu-trigger" aria-label="메뉴 열기">
+            <SheetTrigger class="hidden size-9 place-items-center rounded-lg border border-border bg-transparent text-foreground max-[42rem]:grid" aria-label="메뉴 열기">
               <Menu class="size-5" aria-hidden="true" />
             </SheetTrigger>
             <SheetContent class="w-[min(21rem,88vw)]" side="right">
@@ -88,7 +91,10 @@ const learningActive = pathname.includes('/my-learning/');
                 <SheetTitle>HitoFushi</SheetTitle>
                 <SheetDescription>공부할 노래와 내 학습 기록으로 이동합니다.</SheetDescription>
               </SheetHeader>
-              <nav class="mobile-nav" aria-label="모바일 주요 메뉴">
+              <nav
+                class="mt-4 grid gap-2 [&_a]:flex [&_a]:min-h-12 [&_a]:items-center [&_a]:gap-3 [&_a]:rounded-lg [&_a]:px-[0.9rem] [&_a]:py-3 [&_a]:font-[750] [&_a]:text-muted-foreground [&_a:hover]:bg-secondary [&_a:hover]:text-secondary-foreground [&_a[aria-current=page]]:bg-secondary [&_a[aria-current=page]]:text-secondary-foreground"
+                aria-label="모바일 주요 메뉴"
+              >
                 <a href={withBase('/')}>
                   <Home class="size-5" aria-hidden="true" /> 홈
                 </a>
@@ -110,132 +116,3 @@ const learningActive = pathname.includes('/my-learning/');
     </main>
   </body>
 </html>
-
-<style>
-  .skip-link {
-    position: fixed;
-    z-index: 100;
-    top: 0.5rem;
-    left: 0.5rem;
-    padding: 0.7rem 1rem;
-    border-radius: var(--radius);
-    background: var(--primary);
-    color: var(--primary-foreground);
-    transform: translateY(-150%);
-  }
-
-  .skip-link:focus {
-    transform: translateY(0);
-  }
-
-  .site-header {
-    position: sticky;
-    z-index: 40;
-    top: 0;
-    border-bottom: 1px solid color-mix(in srgb, var(--border) 78%, transparent);
-    background: color-mix(in srgb, var(--background) 88%, transparent);
-    backdrop-filter: blur(1rem);
-  }
-
-  .header-inner {
-    min-height: 4.6rem;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 1rem;
-  }
-
-  .brand {
-    display: inline-flex;
-    align-items: center;
-    gap: 0.7rem;
-    line-height: 1.15;
-  }
-
-  .brand-mark {
-    display: grid;
-    width: 2.4rem;
-    aspect-ratio: 1;
-    place-items: center;
-    border-radius: 50%;
-    background: var(--primary);
-    color: var(--primary-foreground);
-    font-family: Georgia, serif;
-    font-size: 1.2rem;
-  }
-
-  .brand strong,
-  .brand small {
-    display: block;
-  }
-
-  .brand strong {
-    font-size: 0.95rem;
-    letter-spacing: -0.03em;
-  }
-
-  .brand small {
-    margin-top: 0.2rem;
-    color: var(--muted-foreground);
-    font-size: 0.68rem;
-  }
-
-  .header-actions {
-    display: flex;
-    align-items: center;
-    gap: 0.55rem;
-  }
-
-  .desktop-nav :global([data-slot='navigation-menu-link']) {
-    gap: 0.4rem;
-  }
-
-  .mobile-menu-trigger {
-    display: none;
-    width: 2.25rem;
-    height: 2.25rem;
-    place-items: center;
-    border: 1px solid var(--border);
-    border-radius: var(--radius);
-    background: transparent;
-    color: var(--foreground);
-  }
-
-  .mobile-nav {
-    display: grid;
-    gap: 0.5rem;
-    margin-top: 1rem;
-  }
-
-  .mobile-nav a {
-    display: flex;
-    min-height: 3rem;
-    align-items: center;
-    gap: 0.75rem;
-    padding: 0.75rem 0.9rem;
-    border-radius: var(--radius);
-    color: var(--muted-foreground);
-    font-weight: 750;
-  }
-
-  .mobile-nav a:hover,
-  .mobile-nav a[aria-current='page'] {
-    background: var(--secondary);
-    color: var(--secondary-foreground);
-  }
-
-  @media (max-width: 42rem) {
-    .header-inner {
-      min-height: 4.25rem;
-    }
-
-    .brand small,
-    .desktop-nav {
-      display: none;
-    }
-
-    .mobile-menu-trigger {
-      display: grid;
-    }
-  }
-</style>

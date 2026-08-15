@@ -34,6 +34,13 @@ test('레슨 읽기 설정과 학습 대화상자가 동작한다', async ({ pag
   await page.goto('songs/lady/lessons/1/');
 
   await expect(page.getByRole('heading', { level: 1 })).toBeVisible();
+
+  const videoFrame = page.locator('[data-slot="aspect-ratio-wrapper"]').first();
+  await expect(videoFrame).toBeVisible();
+  const videoFrameBox = await videoFrame.boundingBox();
+  expect(videoFrameBox).not.toBeNull();
+  expect(Math.abs(videoFrameBox!.height - videoFrameBox!.width * 9 / 16)).toBeLessThan(2);
+
   await page.getByRole('button', { name: '읽기', exact: true }).click();
   await expect(page.locator('html')).toHaveAttribute('data-reading-mode', 'reading');
 

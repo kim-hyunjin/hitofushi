@@ -1,6 +1,6 @@
 ---
-import BaseLayout from '../../../layouts/BaseLayout.astro';
-import { Badge } from '../../../components/starwind/badge';
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import { Badge } from '@/components/starwind/badge';
 import {
   Breadcrumb,
   BreadcrumbItem,
@@ -8,15 +8,15 @@ import {
   BreadcrumbList,
   BreadcrumbPage,
   BreadcrumbSeparator,
-} from '../../../components/starwind/breadcrumb';
-import { Button } from '../../../components/starwind/button';
-import { Card } from '../../../components/starwind/card';
-import Eyebrow from '../../../components/Eyebrow';
-import PageShell from '../../../components/PageShell.astro';
+} from '@/components/starwind/breadcrumb';
+import { Button } from '@/components/starwind/button';
+import { Card } from '@/components/starwind/card';
+import Eyebrow from '@/components/Eyebrow';
+import PageShell from '@/components/PageShell.astro';
 import { getCollection } from 'astro:content';
-import { withBase } from '../../../lib/paths';
-import { songs, type SongDefinition } from '../../../lib/songs';
-import { getLessonsForSong } from '../../../lib/content';
+import { withBase } from '@/lib/paths';
+import { songs, type SongDefinition } from '@/lib/songs';
+import { getLessonsForSong } from '@/lib/content';
 
 export function getStaticPaths() {
   return songs.map((song) => ({
@@ -45,8 +45,8 @@ if (!songLessons.length) {
   title={song.title}
   description={`${song.title} 가사로 배우는 HitoFushi 일본어 학습 과정`}
 >
-  <section class="song-hero">
-    <PageShell class="song-hero-inner">
+  <section class="overflow-hidden bg-[var(--hero)] py-14 text-[var(--hero-foreground)]">
+    <PageShell class="flex items-center justify-between gap-4">
       <div>
         <Breadcrumb class="mb-5 text-[var(--on-ink-soft)]">
           <BreadcrumbList>
@@ -56,16 +56,19 @@ if (!songLessons.length) {
           </BreadcrumbList>
         </Breadcrumb>
         <Eyebrow tone="hero">SONG {String(song.sequence).padStart(2, '0')}</Eyebrow>
-        <h1>{song.title}</h1>
-        <p class="song-kicker">{song.artist} · {song.kicker}</p>
+        <h1 class="mb-[0.6rem] text-[length:clamp(3.6rem,16vw,7rem)] font-medium italic leading-[0.9] tracking-[-0.06em] [font-family:Georgia,serif]">{song.title}</h1>
+        <p class="mb-0 text-[var(--on-ink-soft)]">{song.artist} · {song.kicker}</p>
       </div>
-      <div class="song-disc" aria-hidden="true">
-        <span>あ</span>
+      <div
+        class="hidden aspect-square w-56 place-items-center rounded-full bg-[radial-gradient(circle,var(--paper)_0_9%,transparent_10%_18%,rgb(255_255_255_/_16%)_19%_20%,transparent_21%),repeating-radial-gradient(circle,#203e59_0_4px,#19344d_5px_8px)] shadow-[0_2rem_5rem_rgb(0_0_0_/_25%)] min-[42rem]:grid"
+        aria-hidden="true"
+      >
+        <span class="grid aspect-square w-[2.6rem] place-items-center rounded-full bg-accent">あ</span>
       </div>
     </PageShell>
   </section>
 
-  <PageShell as="section" class="song-overview">
+  <PageShell as="section" class="py-16 pb-20">
     <div class="mb-8 max-w-152">
       <Eyebrow>학습 안내</Eyebrow>
       <h2 class="mb-[0.7rem] text-[length:clamp(1.7rem,6vw,2.7rem)] font-semibold leading-[1.2] tracking-[-0.04em] [font-family:Georgia,'Noto_Serif_KR',serif]">
@@ -74,7 +77,7 @@ if (!songLessons.length) {
       <p class="text-muted-foreground">{song.description} 핵심 문법과 어휘, 한자를 익힌 뒤 가사 전체를 최종 점검합니다.</p>
     </div>
 
-    <div class="lesson-list">
+    <div class="grid gap-4">
       {
         songLessons.map((lesson) => {
           const grammarIds = [
@@ -82,17 +85,17 @@ if (!songLessons.length) {
           ].slice(0, 4);
 
           return (
-            <Card class="lesson-list-card" role="article">
-              <div class="lesson-index">
+            <Card class="grid gap-[1.2rem] rounded-lg border border-border bg-card p-6 shadow-[var(--shadow)] min-[42rem]:grid-cols-[4rem_1fr_auto] min-[42rem]:items-center min-[42rem]:p-8" role="article">
+              <div class="text-[2rem] text-accent [font-family:Georgia,serif]">
                 {String(lesson.data.lessonNumber).padStart(2, '0')}
               </div>
-              <div class="lesson-summary">
-                <span>
+              <div>
+                <span class="text-[0.8rem] font-[750] text-muted-foreground">
                   약 {lesson.data.estimatedMinutes}분 · {lesson.data.sentences.length}문장
                 </span>
-                <h3>{lesson.data.title}</h3>
-                <p>{lesson.data.description}</p>
-                <div class="lesson-tags">
+                <h3 class="my-[0.3rem] text-[1.4rem]">{lesson.data.title}</h3>
+                <p class="text-muted-foreground">{lesson.data.description}</p>
+                <div class="flex flex-wrap gap-[0.4rem]">
                   {grammarIds.map((id) => <Badge variant="secondary">{grammarMap.get(id) ?? id}</Badge>)}
                 </div>
               </div>
@@ -105,15 +108,15 @@ if (!songLessons.length) {
           );
         })
       }
-      <Card class="lesson-list-card final-card" role="article">
-        <div class="lesson-index">完</div>
-        <div class="lesson-summary">
-          <span>
+      <Card class="grid gap-[1.2rem] rounded-lg border border-warning bg-[linear-gradient(135deg,color-mix(in_srgb,var(--warning)_18%,var(--card)),var(--card))] p-6 shadow-[var(--shadow)] min-[42rem]:grid-cols-[4rem_1fr_auto] min-[42rem]:items-center min-[42rem]:p-8" role="article">
+        <div class="text-[2rem] text-accent-foreground [font-family:Georgia,serif]">完</div>
+        <div>
+          <span class="text-[0.8rem] font-[750] text-muted-foreground">
             최종 단원 · {songLessons.reduce((total, lesson) => total + lesson.data.sentences.length, 0)}문장
           </span>
-          <h3>가사 전문과 최종 점검</h3>
-          <p>가사를 처음부터 끝까지 한눈에 읽고, 해석을 떠올리며 이해한 문장을 직접 점검합니다.</p>
-          <div class="lesson-tags">
+          <h3 class="my-[0.3rem] text-[1.4rem]">가사 전문과 최종 점검</h3>
+          <p class="text-muted-foreground">가사를 처음부터 끝까지 한눈에 읽고, 해석을 떠올리며 이해한 문장을 직접 점검합니다.</p>
+          <div class="flex flex-wrap gap-[0.4rem]">
             <Badge variant="warning">가사 전문</Badge>
             <Badge variant="warning">이해도 자가점검</Badge>
             <Badge variant="warning">자동 저장</Badge>
@@ -126,128 +129,3 @@ if (!songLessons.length) {
     </div>
   </PageShell>
 </BaseLayout>
-
-<style>
-  .song-hero {
-    overflow: hidden;
-    padding: 3.5rem 0;
-    background: var(--hero);
-    color: var(--hero-foreground);
-  }
-
-  .song-hero-inner {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 1rem;
-  }
-
-  .song-hero h1 {
-    margin-bottom: 0.6rem;
-    font-family: Georgia, serif;
-    font-size: clamp(3.6rem, 16vw, 7rem);
-    font-style: italic;
-    font-weight: 500;
-    letter-spacing: -0.06em;
-    line-height: 0.9;
-  }
-
-  .song-kicker {
-    margin-bottom: 0;
-    color: var(--on-ink-soft);
-  }
-
-  .song-disc {
-    display: none;
-    width: 14rem;
-    aspect-ratio: 1;
-    place-items: center;
-    border-radius: 50%;
-    background:
-      radial-gradient(
-        circle,
-        var(--paper) 0 9%,
-        transparent 10% 18%,
-        rgb(255 255 255 / 16%) 19% 20%,
-        transparent 21%
-      ),
-      repeating-radial-gradient(circle, #203e59 0 4px, #19344d 5px 8px);
-    box-shadow: 0 2rem 5rem rgb(0 0 0 / 25%);
-  }
-
-  .song-disc span {
-    display: grid;
-    width: 2.6rem;
-    aspect-ratio: 1;
-    place-items: center;
-    border-radius: 50%;
-    background: var(--accent);
-  }
-
-  .song-overview {
-    padding: 4rem 0 5rem;
-  }
-
-  .lesson-list {
-    display: grid;
-    gap: 1rem;
-  }
-
-  .lesson-list-card {
-    display: grid;
-    gap: 1.2rem;
-    padding: 1.5rem;
-    border: 1px solid var(--line);
-    border-radius: var(--radius);
-    background: var(--card);
-    box-shadow: var(--shadow);
-  }
-
-  .lesson-index {
-    color: var(--accent);
-    font-family: Georgia, serif;
-    font-size: 2rem;
-  }
-
-  .final-card {
-    border-color: var(--warning);
-    background: linear-gradient(135deg, color-mix(in srgb, var(--warning) 18%, var(--card)), var(--card));
-  }
-
-  .final-card .lesson-index {
-    color: var(--accent-foreground);
-  }
-
-  .lesson-summary > span {
-    color: var(--ink-soft);
-    font-size: 0.8rem;
-    font-weight: 750;
-  }
-
-  .lesson-summary h3 {
-    margin: 0.3rem 0;
-    font-size: 1.4rem;
-  }
-
-  .lesson-summary p {
-    color: var(--ink-soft);
-  }
-
-  .lesson-tags {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.4rem;
-  }
-
-  @media (min-width: 42rem) {
-    .song-disc {
-      display: grid;
-    }
-
-    .lesson-list-card {
-      grid-template-columns: 4rem 1fr auto;
-      align-items: center;
-      padding: 2rem;
-    }
-  }
-</style>

@@ -1,12 +1,12 @@
 ---
-import BaseLayout from '../../layouts/BaseLayout.astro';
-import Eyebrow from '../../components/Eyebrow';
-import PageShell from '../../components/PageShell.astro';
-import { Button } from '../../components/starwind/button';
-import { Card } from '../../components/starwind/card';
-import { getOrderedLessons } from '../../lib/content';
-import { withBase } from '../../lib/paths';
-import { songs } from '../../lib/songs';
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import Eyebrow from '@/components/Eyebrow';
+import PageShell from '@/components/PageShell.astro';
+import { Button } from '@/components/starwind/button';
+import { Card } from '@/components/starwind/card';
+import { getOrderedLessons } from '@/lib/content';
+import { withBase } from '@/lib/paths';
+import { songs } from '@/lib/songs';
 
 const lessons = await getOrderedLessons();
 const songCards = songs.map((song) => {
@@ -34,18 +34,18 @@ const songCards = songs.map((song) => {
   title="노래 목록"
   description="노래 가사로 일본어를 공부할 수 있는 곡과 단원 목록"
 >
-  <section class="catalog-hero">
+  <section class="bg-[var(--hero)] py-18 text-[var(--hero-foreground)]">
     <PageShell>
       <Eyebrow tone="hero">SONG LIBRARY</Eyebrow>
-      <h1>노래로 시작하는<br />일본어 공부</h1>
-      <p>
+      <h1 class="mb-[1.2rem] max-w-[12ch] text-[length:clamp(2.8rem,10vw,5.4rem)] font-medium leading-[1.05] tracking-[-0.06em] [font-family:Georgia,'Noto_Serif_KR',serif]">노래로 시작하는<br />일본어 공부</h1>
+      <p class="mb-0 max-w-136 text-[var(--on-ink-soft)]">
         한 곡의 감정과 이야기를 따라가며 가사, 문법, 어휘와 한자를
         차근차근 익혀 보세요.
       </p>
     </PageShell>
   </section>
 
-  <PageShell as="section" class="catalog-section" aria-labelledby="song-list-title">
+  <PageShell as="section" class="py-16 pb-20" aria-labelledby="song-list-title">
     <div class="mb-8 max-w-152">
       <Eyebrow>학습 가능한 노래</Eyebrow>
       <h2
@@ -54,18 +54,21 @@ const songCards = songs.map((song) => {
       >지금 만날 수 있는 곡</h2>
     </div>
 
-    <div class="song-list">
+    <div class="grid gap-5">
       {
         songCards.map((song) => (
-          <Card class="song-card" role="article">
-            <div class="song-number" aria-hidden="true">
+          <Card
+            class="grid gap-6 rounded-xl border border-border bg-card p-6 shadow-[var(--shadow)] md:grid-cols-[4rem_1fr_auto] md:items-start md:p-8 [&_[data-slot=button]]:self-end"
+            role="article"
+          >
+            <div class="text-[2.4rem] text-accent [font-family:Georgia,serif]" aria-hidden="true">
               {String(song.sequence).padStart(2, '0')}
             </div>
-            <div class="song-copy">
-              <span>{song.artist} · 전곡 과정</span>
-              <h3>{song.title}</h3>
-              <p>{song.description}</p>
-              <dl>
+            <div>
+              <span class="text-xs font-extrabold text-muted-foreground">{song.artist} · 전곡 과정</span>
+              <h3 class="mb-[0.7rem] mt-1 text-[length:clamp(2.5rem,8vw,4.4rem)] font-medium italic tracking-[-0.05em] [font-family:Georgia,serif]">{song.title}</h3>
+              <p class="max-w-168 text-muted-foreground">{song.description}</p>
+              <dl class="m-0 mt-6 grid grid-cols-2 gap-[0.6rem] md:grid-cols-4 [&_div]:rounded-xl [&_div]:bg-muted [&_div]:p-[0.8rem] [&_dt]:text-[0.68rem] [&_dt]:font-extrabold [&_dt]:text-muted-foreground [&_dd]:mb-0 [&_dd]:ml-0 [&_dd]:mt-[0.1rem] [&_dd]:text-[1.2rem] [&_dd]:[font-family:Georgia,serif]">
                 <div>
                   <dt>단원</dt>
                   <dd>{song.lessonCount}</dd>
@@ -93,113 +96,3 @@ const songCards = songs.map((song) => {
     </div>
   </PageShell>
 </BaseLayout>
-
-<style>
-  .catalog-hero {
-    padding: 4.5rem 0;
-    background: var(--hero);
-    color: var(--hero-foreground);
-  }
-
-  .catalog-hero h1 {
-    max-width: 12ch;
-    margin-bottom: 1.2rem;
-    font-family: Georgia, "Noto Serif KR", serif;
-    font-size: clamp(2.8rem, 10vw, 5.4rem);
-    font-weight: 500;
-    letter-spacing: -0.06em;
-    line-height: 1.05;
-  }
-
-  .catalog-hero p:last-child {
-    max-width: 34rem;
-    margin-bottom: 0;
-    color: var(--on-ink-soft);
-  }
-
-  .catalog-section {
-    padding: 4rem 0 5rem;
-  }
-
-  .song-list {
-    display: grid;
-    gap: 1.25rem;
-  }
-
-  .song-card {
-    display: grid;
-    gap: 1.5rem;
-    padding: 1.5rem;
-    border: 1px solid var(--line);
-    border-radius: calc(var(--radius) + 0.25rem);
-    background: var(--surface);
-    box-shadow: var(--shadow);
-  }
-
-  .song-number {
-    color: var(--accent);
-    font-family: Georgia, serif;
-    font-size: 2.4rem;
-  }
-
-  .song-copy > span {
-    color: var(--ink-soft);
-    font-size: 0.75rem;
-    font-weight: 800;
-  }
-
-  .song-copy h3 {
-    margin: 0.25rem 0 0.7rem;
-    font-family: Georgia, serif;
-    font-size: clamp(2.5rem, 8vw, 4.4rem);
-    font-style: italic;
-    font-weight: 500;
-    letter-spacing: -0.05em;
-  }
-
-  .song-copy > p {
-    max-width: 42rem;
-    color: var(--ink-soft);
-  }
-
-  .song-copy dl {
-    display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 0.6rem;
-    margin: 1.5rem 0 0;
-  }
-
-  .song-copy dl div {
-    padding: 0.8rem;
-    border-radius: 0.75rem;
-    background: var(--muted);
-  }
-
-  .song-copy dt {
-    color: var(--ink-soft);
-    font-size: 0.68rem;
-    font-weight: 800;
-  }
-
-  .song-copy dd {
-    margin: 0.1rem 0 0;
-    font-family: Georgia, serif;
-    font-size: 1.2rem;
-  }
-
-  .song-card :global([data-slot='button']) {
-    align-self: end;
-  }
-
-  @media (min-width: 48rem) {
-    .song-card {
-      grid-template-columns: 4rem 1fr auto;
-      align-items: start;
-      padding: 2rem;
-    }
-
-    .song-copy dl {
-      grid-template-columns: repeat(4, minmax(0, 1fr));
-    }
-  }
-</style>

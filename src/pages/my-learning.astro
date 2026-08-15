@@ -40,44 +40,19 @@ const lessonSummaries: LearningLessonSummary[] = lessons.map((entry) => {
   title="내 학습"
   description="이 브라우저에 저장된 일본어 문장 진도, 퀴즈 점수와 즐겨찾기 어휘"
 >
-  <section class="learning-hero">
+  <section class="py-14 pb-16">
     <PageShell>
       <Eyebrow>MY LEARNING</Eyebrow>
-      <h1>내 학습</h1>
-      <p>
+      <h1 class="mb-[0.8rem] text-[length:clamp(3rem,12vw,6rem)] font-medium leading-none tracking-[-0.06em] [font-family:Georgia,'Noto_Serif_KR',serif]">내 학습</h1>
+      <p class="mb-0 max-w-152 text-muted-foreground">
         익힌 문장과 퀴즈 점수, 다시 보고 싶은 어휘를 한곳에서 확인하세요.
         기록은 현재 기기의 브라우저에만 저장됩니다.
       </p>
     </PageShell>
   </section>
 
-  <PageShell class="learning-page">
+  <PageShell class="pb-20">
     <ReadingControls client:load />
     <LearningDashboard lessons={lessonSummaries} client:load />
   </PageShell>
 </BaseLayout>
-
-<style>
-  .learning-hero {
-    padding: 3.5rem 0 4rem;
-  }
-
-  .learning-hero h1 {
-    margin-bottom: 0.8rem;
-    font-family: Georgia, "Noto Serif KR", serif;
-    font-size: clamp(3rem, 12vw, 6rem);
-    font-weight: 500;
-    letter-spacing: -0.06em;
-    line-height: 1;
-  }
-
-  .learning-hero p:last-child {
-    max-width: 38rem;
-    margin-bottom: 0;
-    color: var(--ink-soft);
-  }
-
-  .learning-page {
-    padding-bottom: 5rem;
-  }
-</style>
