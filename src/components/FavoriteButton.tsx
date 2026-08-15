@@ -1,3 +1,5 @@
+import { IconStar, IconStarFilled } from '@tabler/icons-react';
+import { Toggle } from './starwind-react/toggle';
 import { useProgress } from '../hooks/useProgress';
 import { updateProgress } from '../lib/progress';
 
@@ -21,14 +23,15 @@ export default function FavoriteButton({ vocabularyId, label }: Props) {
   };
 
   return (
-    <button
-      type="button"
-      class={favorite ? 'favorite-button is-favorite' : 'favorite-button'}
+    <Toggle
+      size="sm"
+      variant="outline"
+      className="favorite-button rounded-full"
       aria-label={`${label} ${favorite ? '즐겨찾기 해제' : '즐겨찾기 추가'}`}
-      aria-pressed={favorite}
-      onClick={toggle}
+      pressed={favorite}
+      onPressedChange={toggle}
     >
-      <span aria-hidden="true">{favorite ? '★' : '☆'}</span>
-    </button>
+      {favorite ? <IconStarFilled className="size-4 text-warning" aria-hidden="true" /> : <IconStar className="size-4" aria-hidden="true" />}
+    </Toggle>
   );
 }

@@ -1,6 +1,13 @@
 ---
 import { render, type CollectionEntry } from 'astro:content';
 import JapaneseSpeechButton from './JapaneseSpeechButton';
+import {
+  Dialog,
+  DialogContent,
+  DialogDescription,
+  DialogTitle,
+  DialogTrigger,
+} from './starwind/dialog';
 import '../styles/study-popover.css';
 
 interface Props {
@@ -20,73 +27,57 @@ const { Content } = await render(entry);
 const titleId = `${popoverId}-title`;
 ---
 
-<button
-  type="button"
-  class:list={['trigger', variant]}
-  popovertarget={popoverId}
-  aria-haspopup="dialog"
->
-  {
-    variant === 'index' ? (
-      <>
-        <span>{sequence}</span>
-        <strong>{entry.data.title}</strong>
-        <span aria-hidden="true">＋</span>
-      </>
-    ) : (
-      entry.data.title
-    )
-  }
-</button>
-
-<div
-  id={popoverId}
-  class="popover study-popover"
-  popover="auto"
-  role="dialog"
-  aria-labelledby={titleId}
->
-  <header>
-    <div>
-      <p>GRAMMAR · {entry.data.level}</p>
-      <h2 id={titleId}>{entry.data.title}</h2>
-    </div>
-    <button
-      type="button"
-      class="close study-popover-close"
-      popovertarget={popoverId}
-      popovertargetaction="hide"
-      aria-label="문법 설명 닫기"
-    >
-      ×
-    </button>
-  </header>
-  <code>{entry.data.pattern}</code>
-  <p class="summary">{entry.data.summary}</p>
-  <div class="prose">
-    <Content />
-  </div>
-  <section class="examples" aria-label="문법 예문">
-    <p>예문</p>
+<Dialog>
+  <DialogTrigger class:list={['trigger', variant]} aria-haspopup="dialog">
     {
-      entry.data.examples.map((example, index) => (
-        <article>
-          <div class="example-japanese">
-            <strong lang="ja">{example.japanese}</strong>
-            <JapaneseSpeechButton
-              sentenceId={`${popoverId}-example-${index}`}
-              text={example.japanese}
-              label={`${example.japanese} 발음`}
-              compact
-              client:visible
-            />
-          </div>
-          <span>{example.korean}</span>
-        </article>
-      ))
+      variant === 'index' ? (
+        <>
+          <span>{sequence}</span>
+          <strong>{entry.data.title}</strong>
+          <span aria-hidden="true">＋</span>
+        </>
+      ) : (
+        entry.data.title
+      )
     }
-  </section>
-</div>
+  </DialogTrigger>
+
+  <DialogContent id={popoverId} class="popover study-popover overflow-y-auto p-0">
+    <header>
+      <div>
+        <p>GRAMMAR · {entry.data.level}</p>
+        <DialogTitle id={titleId} class="!text-[length:clamp(1.8rem,7vw,2.7rem)] !font-medium !text-inherit">
+          {entry.data.title}
+        </DialogTitle>
+      </div>
+    </header>
+    <code>{entry.data.pattern}</code>
+    <DialogDescription class="summary !text-muted-foreground">{entry.data.summary}</DialogDescription>
+    <div class="prose">
+      <Content />
+    </div>
+    <section class="examples" aria-label="문법 예문">
+      <p>예문</p>
+      {
+        entry.data.examples.map((example, index) => (
+          <article>
+            <div class="example-japanese">
+              <strong lang="ja">{example.japanese}</strong>
+              <JapaneseSpeechButton
+                sentenceId={`${popoverId}-example-${index}`}
+                text={example.japanese}
+                label={`${example.japanese} 발음`}
+                compact
+                client:visible
+              />
+            </div>
+            <span>{example.korean}</span>
+          </article>
+        ))
+      }
+    </section>
+  </DialogContent>
+</Dialog>
 
 <style>
   .trigger {
@@ -103,7 +94,7 @@ const titleId = `${popoverId}-title`;
   .chip {
     padding: 0.28rem 0.5rem;
     border-radius: 0.45rem;
-    background: #ece9e1;
+    background: var(--muted);
     font-size: 0.72rem;
     font-weight: 700;
   }
@@ -146,8 +137,12 @@ const titleId = `${popoverId}-title`;
     justify-content: space-between;
     gap: 1rem;
     padding: 1.3rem 1.3rem 1rem;
-    background: var(--ink);
-    color: var(--white);
+    background: var(--hero);
+    color: var(--hero-foreground);
+  }
+
+  .popover :global([data-slot='dialog-close']) {
+    color: var(--hero-foreground);
   }
 
   .popover header p {
@@ -167,16 +162,13 @@ const titleId = `${popoverId}-title`;
     line-height: 1.12;
   }
 
-  .close {
-  }
-
   .popover > code {
     display: inline-block;
     margin: 1.25rem 1.25rem 0;
     padding: 0.55rem 0.7rem;
     border-radius: 0.55rem;
     background: var(--accent-pale);
-    color: #7c2d20;
+    color: var(--accent-foreground);
     font-family: "Noto Sans JP", monospace;
     font-size: 0.8rem;
   }
@@ -198,7 +190,7 @@ const titleId = `${popoverId}-title`;
   .prose :global(code) {
     padding: 0.12rem 0.3rem;
     border-radius: 0.3rem;
-    background: #f0ede5;
+    background: var(--muted);
     color: var(--accent-dark);
   }
 

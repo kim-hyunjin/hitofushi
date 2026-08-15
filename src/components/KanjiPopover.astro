@@ -1,6 +1,13 @@
 ---
 import type { CollectionEntry } from 'astro:content';
 import JapaneseSpeechButton from './JapaneseSpeechButton';
+import {
+  Dialog,
+  DialogContent,
+  DialogDescription,
+  DialogTitle,
+  DialogTrigger,
+} from './starwind/dialog';
 import '../styles/study-popover.css';
 
 interface Props {
@@ -18,40 +25,26 @@ const kanji = entry.data;
 const titleId = `${popoverId}-title`;
 ---
 
-<button
-  type="button"
-  class:list={['trigger', variant]}
-  popovertarget={popoverId}
-  aria-haspopup="dialog"
-  lang="ja"
->
-  <strong>{kanji.character}</strong>
-  {variant === 'grid' && <span>{kanji.basicMeaning.split(',')[0]}</span>}
-</button>
+<Dialog>
+  <DialogTrigger class:list={['trigger', variant]} aria-haspopup="dialog" lang="ja">
+    <strong>{kanji.character}</strong>
+    {variant === 'grid' && <span>{kanji.basicMeaning.split(',')[0]}</span>}
+  </DialogTrigger>
 
-<div
-  id={popoverId}
-  class="popover study-popover"
-  popover="auto"
-  role="dialog"
-  aria-labelledby={titleId}
->
-  <header>
-    <div class="glyph" lang="ja">{kanji.character}</div>
-    <div class="title">
-      <p>KANJI NOTE</p>
-      <h2 id={titleId}>{kanji.basicMeaning}</h2>
-    </div>
-    <button
-      type="button"
-      class="close study-popover-close"
-      popovertarget={popoverId}
-      popovertargetaction="hide"
-      aria-label="한자 설명 닫기"
-    >
-      ×
-    </button>
-  </header>
+  <DialogContent id={popoverId} class="popover study-popover overflow-y-auto p-0">
+    <header>
+      <div class="glyph" lang="ja">{kanji.character}</div>
+      <div class="title">
+        <p>KANJI NOTE</p>
+        <DialogTitle id={titleId} class="!text-[length:clamp(1.8rem,7vw,2.7rem)] !font-medium !text-inherit">
+          {kanji.basicMeaning}
+        </DialogTitle>
+      </div>
+    </header>
+
+    <DialogDescription class="sr-only">
+      {kanji.character}의 음독, 훈독, 의미와 학습용 연상법
+    </DialogDescription>
 
   <dl class="readings">
     <div>
@@ -140,7 +133,8 @@ const titleId = `${popoverId}-title`;
       }
     </div>
   </section>
-</div>
+  </DialogContent>
+</Dialog>
 
 <style>
   .trigger {
@@ -154,7 +148,7 @@ const titleId = `${popoverId}-title`;
     min-width: 2rem;
     padding: 0.28rem 0.5rem;
     border-radius: 0.45rem;
-    background: #ece9e1;
+    background: var(--muted);
     font-size: 0.9rem;
     text-align: center;
   }
@@ -205,8 +199,12 @@ const titleId = `${popoverId}-title`;
     align-items: center;
     gap: 1rem;
     padding: 1.2rem;
-    background: var(--ink);
-    color: var(--white);
+    background: var(--hero);
+    color: var(--hero-foreground);
+  }
+
+  .popover :global([data-slot='dialog-close']) {
+    color: var(--hero-foreground);
   }
 
   .glyph {
@@ -236,9 +234,6 @@ const titleId = `${popoverId}-title`;
     font-weight: 500;
     letter-spacing: -0.04em;
     line-height: 1.15;
-  }
-
-  .close {
   }
 
   .readings {
@@ -310,7 +305,7 @@ const titleId = `${popoverId}-title`;
   .mnemonic small {
     display: block;
     margin-top: 0.7rem;
-    color: #7c2d20;
+    color: var(--accent-foreground);
   }
 
   .examples {

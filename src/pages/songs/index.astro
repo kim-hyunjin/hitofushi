@@ -1,5 +1,7 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import { Button } from '../../components/starwind/button';
+import { Card } from '../../components/starwind/card';
 import { getOrderedLessons } from '../../lib/content';
 import { withBase } from '../../lib/paths';
 import { songs } from '../../lib/songs';
@@ -50,7 +52,7 @@ const songCards = songs.map((song) => {
     <div class="song-list">
       {
         songCards.map((song) => (
-          <article class="song-card">
+          <Card class="song-card" role="article">
             <div class="song-number" aria-hidden="true">
               {String(song.sequence).padStart(2, '0')}
             </div>
@@ -77,10 +79,10 @@ const songCards = songs.map((song) => {
                 </div>
               </dl>
             </div>
-            <a class="primary-link" href={withBase(`/songs/${song.slug}/`)}>
+            <Button href={withBase(`/songs/${song.slug}/`)}>
               학습 과정 보기 <span aria-hidden="true">→</span>
-            </a>
-          </article>
+            </Button>
+          </Card>
         ))
       }
     </div>
@@ -90,8 +92,8 @@ const songCards = songs.map((song) => {
 <style>
   .catalog-hero {
     padding: 4.5rem 0;
-    background: var(--ink);
-    color: var(--white);
+    background: var(--hero);
+    color: var(--hero-foreground);
   }
 
   .catalog-hero :global(.eyebrow) {
@@ -111,7 +113,7 @@ const songCards = songs.map((song) => {
   .catalog-hero p:last-child {
     max-width: 34rem;
     margin-bottom: 0;
-    color: #c7d0d8;
+    color: var(--on-ink-soft);
   }
 
   .catalog-section {
@@ -169,7 +171,7 @@ const songCards = songs.map((song) => {
   .song-copy dl div {
     padding: 0.8rem;
     border-radius: 0.75rem;
-    background: #f0ede5;
+    background: var(--muted);
   }
 
   .song-copy dt {
@@ -184,7 +186,7 @@ const songCards = songs.map((song) => {
     font-size: 1.2rem;
   }
 
-  .song-card :global(.primary-link) {
+  .song-card :global([data-slot='button']) {
     align-self: end;
   }
 

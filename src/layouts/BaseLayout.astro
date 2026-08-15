@@ -1,6 +1,26 @@
 ---
+import { ThemeInitScript } from '@starwind-ui/astro/theme';
+import Menu from '@tabler/icons/outline/menu-2.svg';
+import Home from '@tabler/icons/outline/home.svg';
+import Library from '@tabler/icons/outline/books.svg';
+import Chart from '@tabler/icons/outline/chart-dots-3.svg';
+import '@/styles/starwind.css';
 import '../styles/global.css';
-import ThemeSelector from '../components/ThemeSelector.astro';
+import { ThemeToggle } from '../components/starwind/theme-toggle';
+import {
+  NavigationMenu,
+  NavigationMenuItem,
+  NavigationMenuLink,
+  NavigationMenuList,
+} from '../components/starwind/navigation-menu';
+import {
+  Sheet,
+  SheetContent,
+  SheetDescription,
+  SheetHeader,
+  SheetTitle,
+  SheetTrigger,
+} from '../components/starwind/sheet';
 import { withBase } from '../lib/paths';
 
 interface Props {
@@ -10,52 +30,76 @@ interface Props {
 
 const { title, description } = Astro.props;
 const pageTitle = title === 'HitoFushi' ? title : `${title} | HitoFushi`;
+const pathname = Astro.url.pathname;
+const songsActive = pathname.includes('/songs/');
+const learningActive = pathname.includes('/my-learning/');
 ---
 
 <!doctype html>
-<html lang="ko" data-theme="indigo-ume" data-reading-mode="beginner" data-show-translations="true">
+<html lang="ko" data-reading-mode="beginner" data-show-translations="true">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
     <meta name="description" content={description} />
-    <meta name="theme-color" content="#26354d" />
-    <script is:inline>
-      (() => {
-        const savedTheme = (() => {
-          try {
-            return localStorage.getItem('hitofushi-theme');
-          } catch {
-            return null;
-          }
-        })();
-        const theme = savedTheme === 'classic' ? 'classic' : 'indigo-ume';
-        document.documentElement.dataset.theme = theme;
-        if (theme === 'classic') {
-          document
-            .querySelector('meta[name="theme-color"]')
-            ?.setAttribute('content', '#17324d');
-        }
-      })();
-    </script>
+    <meta name="theme-color" media="(prefers-color-scheme: light)" content="#fefae0" />
+    <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#171a12" />
+    <ThemeInitScript />
     <title>{pageTitle}</title>
   </head>
   <body>
     <a class="skip-link" href="#main-content">본문으로 건너뛰기</a>
     <header class="site-header">
       <div class="shell header-inner">
-        <a class="brand" href={withBase('/')}>
+        <a class="brand" href={withBase('/')} aria-label="HitoFushi 홈">
           <span class="brand-mark" aria-hidden="true">あ</span>
           <span>
             <strong>HitoFushi</strong>
             <small>한 소절씩, 내 속도로</small>
           </span>
         </a>
+
         <div class="header-actions">
-          <nav aria-label="주요 메뉴">
-            <a href={withBase('/songs/')}>노래 목록</a>
-            <a href={withBase('/my-learning/')}>내 학습</a>
-          </nav>
-          <ThemeSelector />
+          <NavigationMenu class="desktop-nav" aria-label="주요 메뉴">
+            <NavigationMenuList>
+              <NavigationMenuItem>
+                <NavigationMenuLink href={withBase('/songs/')} active={songsActive}>
+                  <Library class="size-4" aria-hidden="true" />
+                  노래 목록
+                </NavigationMenuLink>
+              </NavigationMenuItem>
+              <NavigationMenuItem>
+                <NavigationMenuLink href={withBase('/my-learning/')} active={learningActive}>
+                  <Chart class="size-4" aria-hidden="true" />
+                  내 학습
+                </NavigationMenuLink>
+              </NavigationMenuItem>
+            </NavigationMenuList>
+          </NavigationMenu>
+
+          <ThemeToggle ariaLabel="라이트·다크 테마 전환" size="sm" />
+
+          <Sheet>
+            <SheetTrigger class="mobile-menu-trigger" aria-label="메뉴 열기">
+              <Menu class="size-5" aria-hidden="true" />
+            </SheetTrigger>
+            <SheetContent class="w-[min(21rem,88vw)]" side="right">
+              <SheetHeader>
+                <SheetTitle>HitoFushi</SheetTitle>
+                <SheetDescription>공부할 노래와 내 학습 기록으로 이동합니다.</SheetDescription>
+              </SheetHeader>
+              <nav class="mobile-nav" aria-label="모바일 주요 메뉴">
+                <a href={withBase('/')}>
+                  <Home class="size-5" aria-hidden="true" /> 홈
+                </a>
+                <a href={withBase('/songs/')} aria-current={songsActive ? 'page' : undefined}>
+                  <Library class="size-5" aria-hidden="true" /> 노래 목록
+                </a>
+                <a href={withBase('/my-learning/')} aria-current={learningActive ? 'page' : undefined}>
+                  <Chart class="size-5" aria-hidden="true" /> 내 학습
+                </a>
+              </nav>
+            </SheetContent>
+          </Sheet>
         </div>
       </div>
     </header>
@@ -73,9 +117,9 @@ const pageTitle = title === 'HitoFushi' ? title : `${title} | HitoFushi`;
     top: 0.5rem;
     left: 0.5rem;
     padding: 0.7rem 1rem;
-    border-radius: 0.5rem;
-    background: var(--ink);
-    color: var(--white);
+    border-radius: var(--radius);
+    background: var(--primary);
+    color: var(--primary-foreground);
     transform: translateY(-150%);
   }
 
@@ -84,15 +128,16 @@ const pageTitle = title === 'HitoFushi' ? title : `${title} | HitoFushi`;
   }
 
   .site-header {
-    position: relative;
-    z-index: 10;
-    border-bottom: 1px solid rgb(var(--ink-rgb) / 12%);
-    background: rgb(var(--paper-rgb) / 88%);
+    position: sticky;
+    z-index: 40;
+    top: 0;
+    border-bottom: 1px solid color-mix(in srgb, var(--border) 78%, transparent);
+    background: color-mix(in srgb, var(--background) 88%, transparent);
     backdrop-filter: blur(1rem);
   }
 
   .header-inner {
-    min-height: 4.8rem;
+    min-height: 4.6rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -112,8 +157,8 @@ const pageTitle = title === 'HitoFushi' ? title : `${title} | HitoFushi`;
     aspect-ratio: 1;
     place-items: center;
     border-radius: 50%;
-    background: var(--ink);
-    color: var(--paper);
+    background: var(--primary);
+    color: var(--primary-foreground);
     font-family: Georgia, serif;
     font-size: 1.2rem;
   }
@@ -130,56 +175,66 @@ const pageTitle = title === 'HitoFushi' ? title : `${title} | HitoFushi`;
 
   .brand small {
     margin-top: 0.2rem;
-    color: var(--ink-soft);
+    color: var(--muted-foreground);
     font-size: 0.68rem;
-  }
-
-  .site-header nav {
-    display: flex;
-    gap: 0.35rem;
   }
 
   .header-actions {
     display: flex;
     align-items: center;
-    justify-content: flex-end;
     gap: 0.55rem;
   }
 
-  .site-header nav a {
-    padding: 0.5rem 0.65rem;
-    border-radius: 99rem;
-    color: var(--ink-soft);
-    font-size: 0.8rem;
-    font-weight: 700;
+  .desktop-nav :global([data-slot='navigation-menu-link']) {
+    gap: 0.4rem;
   }
 
-  .site-header nav a:hover {
-    background: var(--white);
-    color: var(--ink);
+  .mobile-menu-trigger {
+    display: none;
+    width: 2.25rem;
+    height: 2.25rem;
+    place-items: center;
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    background: transparent;
+    color: var(--foreground);
   }
 
-  @media (min-width: 42rem) {
-    .site-header nav a {
-      padding-inline: 0.9rem;
-      font-size: 0.85rem;
-    }
+  .mobile-nav {
+    display: grid;
+    gap: 0.5rem;
+    margin-top: 1rem;
   }
 
-  @media (max-width: 35rem) {
+  .mobile-nav a {
+    display: flex;
+    min-height: 3rem;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 0.75rem 0.9rem;
+    border-radius: var(--radius);
+    color: var(--muted-foreground);
+    font-weight: 750;
+  }
+
+  .mobile-nav a:hover,
+  .mobile-nav a[aria-current='page'] {
+    background: var(--secondary);
+    color: var(--secondary-foreground);
+  }
+
+  @media (max-width: 42rem) {
     .header-inner {
-      min-height: 4.4rem;
-      flex-wrap: wrap;
-      padding-block: 0.65rem;
+      min-height: 4.25rem;
     }
 
-    .brand small {
+    .brand small,
+    .desktop-nav {
       display: none;
     }
 
-    .header-actions {
-      width: 100%;
-      justify-content: space-between;
+    .mobile-menu-trigger {
+      display: grid;
     }
   }
 </style>

@@ -1,5 +1,14 @@
 ---
 import BaseLayout from '../../../layouts/BaseLayout.astro';
+import {
+  Breadcrumb,
+  BreadcrumbItem,
+  BreadcrumbLink,
+  BreadcrumbList,
+  BreadcrumbPage,
+  BreadcrumbSeparator,
+} from '../../../components/starwind/breadcrumb';
+import { Button } from '../../../components/starwind/button';
 import LyricsReview, {
   type LyricsReviewGroup,
 } from '../../../components/LyricsReview';
@@ -40,7 +49,13 @@ const sentenceCount = groups.reduce((total, group) => total + group.sentences.le
   <section class="review-hero">
     <div class="shell review-hero-inner">
       <div>
-        <a class="breadcrumb" href={withBase(`/songs/${song.slug}/`)}>{song.title}</a>
+        <Breadcrumb class="mb-5 text-[var(--on-ink-soft)]">
+          <BreadcrumbList>
+            <BreadcrumbItem><BreadcrumbLink href={withBase(`/songs/${song.slug}/`)}>{song.title}</BreadcrumbLink></BreadcrumbItem>
+            <BreadcrumbSeparator />
+            <BreadcrumbItem><BreadcrumbPage class="text-[var(--hero-foreground)]">최종 점검</BreadcrumbPage></BreadcrumbItem>
+          </BreadcrumbList>
+        </Breadcrumb>
         <p class="eyebrow">FINAL REVIEW</p>
         <h1>가사 전문과<br />최종 점검</h1>
         <p>{song.artist} · {sentenceCount}문장으로 한 곡을 마무리해요.</p>
@@ -71,7 +86,7 @@ const sentenceCount = groups.reduce((total, group) => total + group.sentences.le
 
     <nav class="review-footer" aria-label="노래 학습 이동">
       <a href={withBase(`/songs/${song.slug}/`)}>← 단원 목록으로</a>
-      <a class="primary-link" href={withBase('/songs/')}>다른 노래 고르기 →</a>
+      <Button href={withBase('/songs/')}>다른 노래 고르기 →</Button>
     </nav>
   </div>
 </BaseLayout>
@@ -80,12 +95,8 @@ const sentenceCount = groups.reduce((total, group) => total + group.sentences.le
   .review-hero {
     overflow: hidden;
     padding: 3rem 0 3.5rem;
-    background: var(--ink);
-    color: var(--white);
-  }
-
-  .review-hero :global(.breadcrumb) {
-    color: #b9c6d0;
+    background: var(--hero);
+    color: var(--hero-foreground);
   }
 
   .review-hero :global(.eyebrow) {
@@ -110,7 +121,7 @@ const sentenceCount = groups.reduce((total, group) => total + group.sentences.le
 
   .review-hero p:last-child {
     margin-bottom: 0;
-    color: #c7d0d8;
+    color: var(--on-ink-soft);
   }
 
   .final-mark {
@@ -139,7 +150,7 @@ const sentenceCount = groups.reduce((total, group) => total + group.sentences.le
 
   .final-mark small {
     margin-top: 0.5rem;
-    color: #b9c6d0;
+    color: var(--on-ink-soft);
     font-size: 0.65rem;
     font-weight: 850;
     letter-spacing: 0.18em;

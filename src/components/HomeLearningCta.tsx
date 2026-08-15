@@ -1,4 +1,6 @@
-import { useEffect, useState } from 'preact/hooks';
+import { IconArrowRight } from '@tabler/icons-react';
+import { useEffect, useState } from 'react';
+import { Button } from './starwind-react/button';
 import { loadProgress } from '../lib/progress';
 
 interface HomeLessonSummary {
@@ -47,9 +49,9 @@ export default function HomeLearningCta({ lessons }: Props) {
   }, [lessons]);
 
   return (
-    <a class="primary-link" href={href}>
+    <Button as="a" href={href} size="lg">
       {hasHistory ? '이어서 학습하기' : '첫 단원 시작하기'}
-      <span aria-hidden="true">→</span>
-    </a>
+      <IconArrowRight className="size-4" aria-hidden="true" />
+    </Button>
   );
 }
