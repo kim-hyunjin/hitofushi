@@ -96,7 +96,7 @@ input:focus-visible {
 }
 
 rt {
-  color: var(--accent-pale);
+  color: var(--accent-dark);
   font-family: inherit;
   font-size: 0.42em;
 }
