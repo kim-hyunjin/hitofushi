@@ -20,7 +20,7 @@ export default function ProgressPanel({ lessonId, sentenceIds }: Props) {
     <Card className="sticky top-24 border-border/80 bg-card/90 shadow-sm backdrop-blur">
       <CardHeader className="pb-3">
         <Eyebrow>내 진도</Eyebrow>
-        <CardTitle id="progress-title" className="font-serif text-3xl">
+        <CardTitle id="progress-title" className="text-3xl">
           {completionPercent}% 완료
         </CardTitle>
         <p className="text-sm text-muted-foreground">

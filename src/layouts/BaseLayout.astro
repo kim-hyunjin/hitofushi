@@ -4,6 +4,8 @@ import Menu from '@tabler/icons/outline/menu-2.svg';
 import Home from '@tabler/icons/outline/home.svg';
 import Library from '@tabler/icons/outline/books.svg';
 import Chart from '@tabler/icons/outline/chart-dots-3.svg';
+import '@fontsource-variable/figtree';
+import '@fontsource-variable/figtree/wght-italic.css';
 import '@/styles/starwind.css';
 import '../styles/global.css';
 import PageShell from '../components/PageShell.astro';
@@ -55,7 +57,7 @@ const learningActive = pathname.includes('/my-learning/');
     <header class="sticky top-0 z-40 border-b border-[color-mix(in_srgb,var(--border)_78%,transparent)] bg-[color-mix(in_srgb,var(--background)_88%,transparent)] backdrop-blur-2xl">
       <PageShell class="flex min-h-[4.6rem] items-center justify-between gap-4 max-[42rem]:min-h-17">
         <a class="inline-flex items-center gap-[0.7rem] leading-[1.15]" href={withBase('/')} aria-label="HitoFushi 홈">
-          <span class="grid aspect-square w-[2.4rem] place-items-center rounded-full bg-primary text-[1.2rem] text-primary-foreground [font-family:Georgia,serif]" aria-hidden="true">あ</span>
+          <span class="grid aspect-square w-[2.4rem] place-items-center rounded-full bg-primary text-[1.2rem] text-primary-foreground" aria-hidden="true">あ</span>
           <span>
             <strong class="block text-[0.95rem] tracking-[-0.03em]">HitoFushi</strong>
             <small class="mt-[0.2rem] block text-[0.68rem] text-muted-foreground max-[42rem]:hidden">한 소절씩, 내 속도로</small>

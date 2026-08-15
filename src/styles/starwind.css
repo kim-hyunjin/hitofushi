@@ -80,8 +80,8 @@
   --card-foreground: #2f371d;
   --popover: #fffdf0;
   --popover-foreground: #2f371d;
-  --primary: #819a30;
-  --primary-foreground: #182000;
+  --primary: #526516;
+  --primary-foreground: #fefae0;
   --primary-accent: #93aa48;
   --secondary: #ccd5ae;
   --secondary-foreground: #2f371d;
@@ -106,8 +106,8 @@
   /* sidebar variables */
   --sidebar-background: #e9edc9;
   --sidebar-foreground: #2f371d;
-  --sidebar-primary: #819a30;
-  --sidebar-primary-foreground: #182000;
+  --sidebar-primary: #526516;
+  --sidebar-primary-foreground: #fefae0;
   --sidebar-accent: #ccd5ae;
   --sidebar-accent-foreground: #2f371d;
   --sidebar-border: #b8c495;

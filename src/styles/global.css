@@ -23,7 +23,8 @@
   --hero-foreground: #fefae0;
   --shadow: 0 16px 50px rgb(47 55 29 / 10%);
   font-family:
-    Inter, Pretendard, "Noto Sans KR", "Noto Sans JP", system-ui, sans-serif;
+    "Figtree Variable", Pretendard, "Noto Sans KR", "Noto Sans JP", system-ui,
+    sans-serif;
   color: var(--ink);
   background: var(--paper);
   font-synthesis: none;
@@ -64,6 +65,10 @@ body {
 button,
 input {
   font: inherit;
+}
+
+code {
+  font-family: inherit;
 }
 
 button,

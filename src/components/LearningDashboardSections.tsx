@@ -31,7 +31,7 @@ export function LearningSummarySection({ summary, lessonCount }: SummaryProps) {
       <CardHeader className="md:flex-row md:items-end md:justify-between">
         <div>
           <Eyebrow tone="accent">전체 학습 현황</Eyebrow>
-          <CardTitle id="learning-summary-title" className="font-serif text-4xl text-inherit">
+          <CardTitle id="learning-summary-title" className="text-4xl text-inherit">
             {summary.overallPercent}% 완료
           </CardTitle>
           <p className="mt-2 text-sm text-[var(--on-ink-soft)]">이 기기의 브라우저에 저장된 기록입니다.</p>
@@ -44,7 +44,7 @@ export function LearningSummarySection({ summary, lessonCount }: SummaryProps) {
           {stats.map(([label, value]) => (
             <div key={label} className="rounded-xl bg-white/8 p-3">
               <dt className="text-xs text-[var(--on-ink-soft)]">{label}</dt>
-              <dd className="mt-1 font-serif text-xl font-bold">{value}</dd>
+              <dd className="mt-1 text-xl font-bold">{value}</dd>
             </div>
           ))}
         </dl>
@@ -119,7 +119,7 @@ export function FavoriteVocabularySection({ items }: { items: LearningVocabulary
             <Card key={item.id} className="border-border/80 bg-card shadow-sm">
               <CardHeader className="flex-row items-start justify-between gap-3">
                 <a href={item.href}>
-                  <CardTitle className="font-serif text-3xl" lang="ja">{item.term}</CardTitle>
+                  <CardTitle className="text-3xl" lang="ja">{item.term}</CardTitle>
                   <span className="text-sm text-muted-foreground" lang="ja">{item.reading}</span>
                 </a>
                 <JapaneseSpeechButton sentenceId={`${item.id}-favorite`} text={item.reading} label={`${item.term} 발음`} compact />

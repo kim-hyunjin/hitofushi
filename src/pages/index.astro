@@ -50,11 +50,11 @@ const courseCards = songs.slice(0, 5).map((song) => {
   title="HitoFushi"
   description="노래 가사를 한 소절씩 읽으며 일본어 문법, 어휘, 한자를 익히는 학습 사이트"
 >
-  <section class="relative overflow-hidden py-16 pb-[4.5rem] after:absolute after:-bottom-32 after:-right-8 after:-z-10 after:text-[22rem] after:leading-none after:text-[rgb(var(--ink-rgb)_/_3%)] after:content-['歌'] after:[font-family:Georgia,serif] lg:py-24 lg:pb-28">
+  <section class="relative overflow-hidden py-16 pb-[4.5rem] after:absolute after:-bottom-32 after:-right-8 after:-z-10 after:text-[22rem] after:leading-none after:text-[rgb(var(--ink-rgb)_/_3%)] after:content-['歌'] lg:py-24 lg:pb-28">
     <PageShell class="grid gap-[2.2rem] min-[42rem]:grid-cols-1 min-[42rem]:items-center">
       <div>
         <Eyebrow>노래 한 소절이 오늘의 교재</Eyebrow>
-        <h1 class="mb-[1.4rem] text-[length:clamp(2.7rem,10vw,5.7rem)] font-medium leading-[1.08] tracking-[-0.065em] [font-family:Georgia,'Noto_Serif_KR',serif] [&_em]:not-italic [&_em]:text-accent">
+        <h1 class="mb-[1.4rem] text-[length:clamp(2.7rem,10vw,5.7rem)] font-medium leading-[1.08] tracking-[-0.065em] [&_em]:not-italic [&_em]:text-accent">
           외우기 전에,<br />
           <em>마음으로 읽는 일본어</em>
         </h1>
@@ -75,7 +75,7 @@ const courseCards = songs.slice(0, 5).map((song) => {
     {
       courseCards.map((song) => (
         <Card
-          class="grid gap-6 rounded-lg border-[color-mix(in_srgb,var(--primary)_28%,var(--border))] bg-[color-mix(in_srgb,var(--card)_82%,var(--secondary))] p-8 [&_h2]:mb-[0.4rem] [&_h2]:text-[2.3rem] [&_h2]:[font-family:Georgia,serif] [&_p]:mb-0 min-[42rem]:grid-cols-[1.2fr_1fr] min-[42rem]:items-center min-[42rem]:p-10 min-[42rem]:[&_[data-slot=button]]:justify-self-start"
+          class="grid gap-6 rounded-lg border-[color-mix(in_srgb,var(--primary)_28%,var(--border))] bg-[color-mix(in_srgb,var(--card)_82%,var(--secondary))] p-8 [&_h2]:mb-[0.4rem] [&_h2]:text-[2.3rem] [&_p]:mb-0 min-[42rem]:grid-cols-[1.2fr_1fr] min-[42rem]:items-center min-[42rem]:p-10 min-[42rem]:[&_[data-slot=button]]:justify-self-start"
           role="article"
         >
           <div>
@@ -83,7 +83,7 @@ const courseCards = songs.slice(0, 5).map((song) => {
             <h2>{song.title}</h2>
             <p>{song.description}</p>
           </div>
-          <div class="grid grid-cols-2 gap-[0.7rem] min-[42rem]:grid-cols-4 [&_span]:rounded-xl [&_span]:bg-[color-mix(in_srgb,var(--background)_52%,transparent)] [&_span]:p-[0.8rem] [&_span]:text-[0.8rem] [&_span]:text-muted-foreground [&_strong]:block [&_strong]:text-2xl [&_strong]:text-foreground [&_strong]:[font-family:Georgia,serif]">
+          <div class="grid grid-cols-2 gap-[0.7rem] min-[42rem]:grid-cols-4 [&_span]:rounded-xl [&_span]:bg-[color-mix(in_srgb,var(--background)_52%,transparent)] [&_span]:p-[0.8rem] [&_span]:text-[0.8rem] [&_span]:text-muted-foreground [&_strong]:block [&_strong]:text-2xl [&_strong]:text-foreground">
             <span><strong>{song.sentenceCount}</strong> 문장</span>
             <span><strong>{song.vocabularyCount}</strong> 단어</span>
             <span><strong>{song.kanjiCount}</strong> 한자</span>

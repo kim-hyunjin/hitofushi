@@ -15,6 +15,7 @@
   },
   "dependencies": {
     "@astrojs/react": "^6.0.2",
+    "@fontsource-variable/figtree": "^5.3.0",
     "@starwind-ui/astro": "^1.0.0",
     "@starwind-ui/react": "^1.0.0",
     "@starwind-ui/runtime": "^1.0.0",

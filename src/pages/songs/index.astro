@@ -37,7 +37,7 @@ const songCards = songs.map((song) => {
   <section class="bg-[var(--hero)] py-18 text-[var(--hero-foreground)]">
     <PageShell>
       <Eyebrow tone="hero">SONG LIBRARY</Eyebrow>
-      <h1 class="mb-[1.2rem] max-w-[12ch] text-[length:clamp(2.8rem,10vw,5.4rem)] font-medium leading-[1.05] tracking-[-0.06em] [font-family:Georgia,'Noto_Serif_KR',serif]">노래로 시작하는<br />일본어 공부</h1>
+      <h1 class="mb-[1.2rem] max-w-[12ch] text-[length:clamp(2.8rem,10vw,5.4rem)] font-medium leading-[1.05] tracking-[-0.06em]">노래로 시작하는<br />일본어 공부</h1>
       <p class="mb-0 max-w-136 text-[var(--on-ink-soft)]">
         한 곡의 감정과 이야기를 따라가며 가사, 문법, 어휘와 한자를
         차근차근 익혀 보세요.
@@ -50,7 +50,7 @@ const songCards = songs.map((song) => {
       <Eyebrow>학습 가능한 노래</Eyebrow>
       <h2
         id="song-list-title"
-        class="mb-[0.7rem] text-[length:clamp(1.7rem,6vw,2.7rem)] font-semibold leading-[1.2] tracking-[-0.04em] [font-family:Georgia,'Noto_Serif_KR',serif]"
+        class="mb-[0.7rem] text-[length:clamp(1.7rem,6vw,2.7rem)] font-semibold leading-[1.2] tracking-[-0.04em]"
       >지금 만날 수 있는 곡</h2>
     </div>
 
@@ -61,14 +61,14 @@ const songCards = songs.map((song) => {
             class="grid gap-6 rounded-xl border border-border bg-card p-6 shadow-[var(--shadow)] md:grid-cols-[4rem_1fr_auto] md:items-start md:p-8 [&_[data-slot=button]]:self-end"
             role="article"
           >
-            <div class="text-[2.4rem] text-accent [font-family:Georgia,serif]" aria-hidden="true">
+            <div class="text-[2.4rem] text-accent" aria-hidden="true">
               {String(song.sequence).padStart(2, '0')}
             </div>
             <div>
               <span class="text-xs font-extrabold text-muted-foreground">{song.artist} · 전곡 과정</span>
-              <h3 class="mb-[0.7rem] mt-1 text-[length:clamp(2.5rem,8vw,4.4rem)] font-medium italic tracking-[-0.05em] [font-family:Georgia,serif]">{song.title}</h3>
+              <h3 class="mb-[0.7rem] mt-1 text-[length:clamp(2.5rem,8vw,4.4rem)] font-medium italic tracking-[-0.05em]">{song.title}</h3>
               <p class="max-w-168 text-muted-foreground">{song.description}</p>
-              <dl class="m-0 mt-6 grid grid-cols-2 gap-[0.6rem] md:grid-cols-4 [&_div]:rounded-xl [&_div]:bg-muted [&_div]:p-[0.8rem] [&_dt]:text-[0.68rem] [&_dt]:font-extrabold [&_dt]:text-muted-foreground [&_dd]:mb-0 [&_dd]:ml-0 [&_dd]:mt-[0.1rem] [&_dd]:text-[1.2rem] [&_dd]:[font-family:Georgia,serif]">
+              <dl class="m-0 mt-6 grid grid-cols-2 gap-[0.6rem] md:grid-cols-4 [&_div]:rounded-xl [&_div]:bg-muted [&_div]:p-[0.8rem] [&_dt]:text-[0.68rem] [&_dt]:font-extrabold [&_dt]:text-muted-foreground [&_dd]:mb-0 [&_dd]:ml-0 [&_dd]:mt-[0.1rem] [&_dd]:text-[1.2rem] [&_dd]:">
                 <div>
                   <dt>단원</dt>
                   <dd>{song.lessonCount}</dd>

@@ -66,24 +66,24 @@ const youtubeEmbedUrl = `https://www.youtube-nocookie.com/embed/${song.youtubeVi
 ---
 
 <BaseLayout title={lesson.title} description={lesson.description}>
-  <section class="bg-[var(--hero)] py-10 pb-12 text-[var(--hero-foreground)]">
+  <section class="border-b border-border bg-card/40 py-8 text-foreground min-[42rem]:py-10">
     <PageShell>
-      <Breadcrumb class="mb-5 text-[var(--on-ink-soft)]">
+      <Breadcrumb class="mb-5 text-muted-foreground">
         <BreadcrumbList>
           <BreadcrumbItem><BreadcrumbLink href={withBase(`/songs/${song.slug}/`)}>{song.title}</BreadcrumbLink></BreadcrumbItem>
           <BreadcrumbSeparator />
-          <BreadcrumbItem><BreadcrumbPage class="text-[var(--hero-foreground)]">단원 {lesson.lessonNumber}</BreadcrumbPage></BreadcrumbItem>
+          <BreadcrumbItem><BreadcrumbPage class="text-foreground">단원 {lesson.lessonNumber}</BreadcrumbPage></BreadcrumbItem>
         </BreadcrumbList>
       </Breadcrumb>
       <div class="flex items-end justify-between gap-4">
         <div>
-          <Eyebrow tone="hero">LESSON {String(lesson.lessonNumber).padStart(2, '0')}</Eyebrow>
-          <h1 class="mb-[0.35rem] text-[length:clamp(2.2rem,9vw,4.3rem)] font-medium leading-[1.08] tracking-[-0.055em] [font-family:Georgia,'Noto_Serif_KR',serif]">{lesson.title}</h1>
-          <p class="mb-0 text-[var(--on-ink-soft)]">{lesson.subtitle}</p>
+          <Eyebrow>LESSON {String(lesson.lessonNumber).padStart(2, '0')}</Eyebrow>
+          <h1 class="mb-[0.35rem] text-[length:clamp(2.2rem,9vw,4.3rem)] font-medium leading-[1.08] tracking-[-0.055em]">{lesson.title}</h1>
+          <p class="mb-0 text-muted-foreground">{lesson.subtitle}</p>
         </div>
-        <div class="hidden text-center min-[42rem]:block">
-          <strong class="block text-[3.5rem] leading-none text-[var(--yellow)] [font-family:Georgia,serif]">{lesson.estimatedMinutes}</strong>
-          <span class="block text-xs">분 코스</span>
+        <div class="hidden min-w-28 rounded-xl bg-[var(--hero)] px-5 py-4 text-center text-[var(--hero-foreground)] shadow-sm min-[42rem]:block">
+          <strong class="block text-[3.5rem] leading-none text-[var(--yellow)]">{lesson.estimatedMinutes}</strong>
+          <span class="mt-1 block text-xs text-[var(--on-ink-soft)]">분 코스</span>
         </div>
       </div>
     </PageShell>
@@ -97,7 +97,7 @@ const youtubeEmbedUrl = `https://www.youtube-nocookie.com/embed/${song.youtubeVi
         <div class="mb-4 flex items-end justify-between gap-4 max-[31.99rem]:flex-col max-[31.99rem]:items-start">
           <div>
             <Eyebrow>곡 듣기</Eyebrow>
-            <h2 id="song-player-title" class="mb-0 text-[1.6rem] font-semibold leading-[1.2] tracking-[-0.04em] [font-family:Georgia,'Noto_Serif_KR',serif]">{song.title} 들으며 익히기</h2>
+            <h2 id="song-player-title" class="mb-0 text-[1.6rem] font-semibold leading-[1.2] tracking-[-0.04em]">{song.title} 들으며 익히기</h2>
           </div>
           <Button class="shrink-0 text-[0.78rem] font-bold text-muted-foreground underline underline-offset-[0.2em]" variant="ghost" size="sm" href={youtubeWatchUrl} target="_blank" rel="noopener noreferrer">
             YouTube에서 보기
@@ -138,7 +138,7 @@ const youtubeEmbedUrl = `https://www.youtube-nocookie.com/embed/${song.youtubeVi
         <div class="mb-6 min-[42rem]:flex min-[42rem]:items-end min-[42rem]:justify-between min-[42rem]:gap-4">
           <div>
             <Eyebrow>주요 어휘</Eyebrow>
-            <h2 id="vocabulary-title" class="mb-[0.7rem] text-[length:clamp(1.7rem,6vw,2.7rem)] font-semibold leading-[1.2] tracking-[-0.04em] [font-family:Georgia,'Noto_Serif_KR',serif]">문장 안에서 단어 익히기</h2>
+            <h2 id="vocabulary-title" class="mb-[0.7rem] text-[length:clamp(1.7rem,6vw,2.7rem)] font-semibold leading-[1.2] tracking-[-0.04em]">문장 안에서 단어 익히기</h2>
           </div>
           <p class="mb-0 max-w-112 text-[0.84rem] text-muted-foreground">별표를 눌러 이 기기에 즐겨찾기를 남길 수 있어요.</p>
         </div>
@@ -150,7 +150,7 @@ const youtubeEmbedUrl = `https://www.youtube-nocookie.com/embed/${song.youtubeVi
           <div class="mb-4">
             <div>
               <Eyebrow>플래시카드</Eyebrow>
-              <h2 class="mb-[0.7rem] text-[1.6rem] font-semibold leading-[1.2] tracking-[-0.04em] [font-family:Georgia,'Noto_Serif_KR',serif]">뜻이 바로 떠오르나요?</h2>
+              <h2 class="mb-[0.7rem] text-[1.6rem] font-semibold leading-[1.2] tracking-[-0.04em]">뜻이 바로 떠오르나요?</h2>
             </div>
           </div>
           <Flashcards items={lesson.vocabulary} client:visible />
@@ -159,7 +159,7 @@ const youtubeEmbedUrl = `https://www.youtube-nocookie.com/embed/${song.youtubeVi
           <div class="mb-4">
             <div>
               <Eyebrow>한자 노트</Eyebrow>
-              <h2 class="mb-[0.7rem] text-[1.6rem] font-semibold leading-[1.2] tracking-[-0.04em] [font-family:Georgia,'Noto_Serif_KR',serif]">이번 단원의 {orderedKanji.length}자</h2>
+              <h2 class="mb-[0.7rem] text-[1.6rem] font-semibold leading-[1.2] tracking-[-0.04em]">이번 단원의 {orderedKanji.length}자</h2>
             </div>
           </div>
           <div class="grid grid-cols-5 overflow-hidden rounded-lg border border-border bg-card">
@@ -183,7 +183,7 @@ const youtubeEmbedUrl = `https://www.youtube-nocookie.com/embed/${song.youtubeVi
         <div class="mb-6 min-[42rem]:flex min-[42rem]:items-end min-[42rem]:justify-between min-[42rem]:gap-4">
           <div>
             <Eyebrow>마무리 퀴즈</Eyebrow>
-            <h2 id="quiz-title" class="mb-[0.7rem] text-[length:clamp(1.7rem,6vw,2.7rem)] font-semibold leading-[1.2] tracking-[-0.04em] [font-family:Georgia,'Noto_Serif_KR',serif]">표현을 제대로 만났는지 확인해요</h2>
+            <h2 id="quiz-title" class="mb-[0.7rem] text-[length:clamp(1.7rem,6vw,2.7rem)] font-semibold leading-[1.2] tracking-[-0.04em]">표현을 제대로 만났는지 확인해요</h2>
           </div>
           <p class="mb-0 max-w-112 text-[0.84rem] text-muted-foreground">최고 점수는 이 기기에 자동 저장됩니다.</p>
         </div>
@@ -194,7 +194,7 @@ const youtubeEmbedUrl = `https://www.youtube-nocookie.com/embed/${song.youtubeVi
         <div class="mb-6 min-[42rem]:flex min-[42rem]:items-end min-[42rem]:justify-between min-[42rem]:gap-4">
           <div>
             <Eyebrow>문법 색인</Eyebrow>
-            <h2 id="grammar-title" class="mb-[0.7rem] text-[length:clamp(1.7rem,6vw,2.7rem)] font-semibold leading-[1.2] tracking-[-0.04em] [font-family:Georgia,'Noto_Serif_KR',serif]">이 단원의 표현 한눈에 보기</h2>
+            <h2 id="grammar-title" class="mb-[0.7rem] text-[length:clamp(1.7rem,6vw,2.7rem)] font-semibold leading-[1.2] tracking-[-0.04em]">이 단원의 표현 한눈에 보기</h2>
           </div>
         </div>
         <div class="grid border-t border-foreground">

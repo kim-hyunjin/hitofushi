@@ -56,7 +56,7 @@ if (!songLessons.length) {
           </BreadcrumbList>
         </Breadcrumb>
         <Eyebrow tone="hero">SONG {String(song.sequence).padStart(2, '0')}</Eyebrow>
-        <h1 class="mb-[0.6rem] text-[length:clamp(3.6rem,16vw,7rem)] font-medium italic leading-[0.9] tracking-[-0.06em] [font-family:Georgia,serif]">{song.title}</h1>
+        <h1 class="mb-[0.6rem] text-[length:clamp(3.6rem,16vw,7rem)] font-medium italic leading-[0.9] tracking-[-0.06em]">{song.title}</h1>
         <p class="mb-0 text-[var(--on-ink-soft)]">{song.artist} · {song.kicker}</p>
       </div>
       <div
@@ -71,7 +71,7 @@ if (!songLessons.length) {
   <PageShell as="section" class="py-16 pb-20">
     <div class="mb-8 max-w-152">
       <Eyebrow>학습 안내</Eyebrow>
-      <h2 class="mb-[0.7rem] text-[length:clamp(1.7rem,6vw,2.7rem)] font-semibold leading-[1.2] tracking-[-0.04em] [font-family:Georgia,'Noto_Serif_KR',serif]">
+      <h2 class="mb-[0.7rem] text-[length:clamp(1.7rem,6vw,2.7rem)] font-semibold leading-[1.2] tracking-[-0.04em]">
         {songLessons.length + 1}개 단원으로 읽는 한 곡
       </h2>
       <p class="text-muted-foreground">{song.description} 핵심 문법과 어휘, 한자를 익힌 뒤 가사 전체를 최종 점검합니다.</p>
@@ -86,7 +86,7 @@ if (!songLessons.length) {
 
           return (
             <Card class="grid gap-[1.2rem] rounded-lg border border-border bg-card p-6 shadow-[var(--shadow)] min-[42rem]:grid-cols-[4rem_1fr_auto] min-[42rem]:items-center min-[42rem]:p-8" role="article">
-              <div class="text-[2rem] text-accent [font-family:Georgia,serif]">
+              <div class="text-[2rem] text-accent">
                 {String(lesson.data.lessonNumber).padStart(2, '0')}
               </div>
               <div>
@@ -109,7 +109,7 @@ if (!songLessons.length) {
         })
       }
       <Card class="grid gap-[1.2rem] rounded-lg border border-warning bg-[linear-gradient(135deg,color-mix(in_srgb,var(--warning)_18%,var(--card)),var(--card))] p-6 shadow-[var(--shadow)] min-[42rem]:grid-cols-[4rem_1fr_auto] min-[42rem]:items-center min-[42rem]:p-8" role="article">
-        <div class="text-[2rem] text-accent-foreground [font-family:Georgia,serif]">完</div>
+        <div class="text-[2rem] text-accent-foreground">完</div>
         <div>
           <span class="text-[0.8rem] font-[750] text-muted-foreground">
             최종 단원 · {songLessons.reduce((total, lesson) => total + lesson.data.sentences.length, 0)}문장

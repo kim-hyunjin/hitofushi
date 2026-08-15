@@ -32,7 +32,7 @@ export default function Flashcards({ items }: Props) {
           </span>
           {!flipped ? (
             <span className="grid gap-2">
-              <strong className="font-serif text-5xl font-medium" lang="ja">{item.term}</strong>
+              <strong className="text-5xl font-medium" lang="ja">{item.term}</strong>
               <span className="text-sm text-muted-foreground" lang="ja">{item.reading}</span>
               <small className="mt-5 flex items-center justify-center gap-1.5 text-xs text-muted-foreground">
                 <IconRefresh className="size-4" aria-hidden="true" /> 눌러서 뜻 보기

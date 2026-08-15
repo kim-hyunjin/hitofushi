@@ -17,7 +17,7 @@ export default function Eyebrow({ tone = 'default', className, ...props }: Props
   return (
     <p
       className={twMerge(
-        'mb-2.5 text-xs font-[850] uppercase tracking-[0.14em]',
+        'mb-2.5 text-xs font-[850] uppercase',
         toneClasses[tone],
         className,
       )}

@@ -106,12 +106,12 @@ export default function LyricsReview({ songSlug, songTitle, groups }: Props) {
             <Eyebrow tone="hero">최종 이해도</Eyebrow>
             <h2
               id="review-progress-title"
-              className="mb-0 text-[length:clamp(1.5rem,5vw,2.2rem)] font-semibold [font-family:Georgia,'Noto_Serif_KR',serif]"
+              className="mb-0 text-[length:clamp(1.5rem,5vw,2.2rem)] font-semibold"
             >
               {completed} / {sentences.length}문장 이해
             </h2>
           </div>
-          <strong className="text-[2.5rem] leading-none text-[var(--yellow)] [font-family:Georgia,serif]">{percent}%</strong>
+          <strong className="text-[2.5rem] leading-none text-[var(--yellow)]">{percent}%</strong>
         </div>
         <Progress value={percent} variant="primary" label={`${songTitle} 가사 이해도 ${percent}%`} />
         <p className="mb-0 max-w-176 text-[0.82rem] text-[var(--on-ink-soft)]">
@@ -125,7 +125,7 @@ export default function LyricsReview({ songSlug, songTitle, groups }: Props) {
           className="flex items-center gap-4 rounded-lg border border-[color-mix(in_srgb,var(--success)_65%,var(--border))] bg-[color-mix(in_srgb,var(--success)_20%,var(--card))] p-5"
           aria-live="polite"
         >
-          <span className="shrink-0 text-[1.1rem] italic text-foreground [font-family:Georgia,serif]" aria-hidden="true">できた!</span>
+          <span className="shrink-0 text-[1.1rem] italic text-foreground" aria-hidden="true">できた!</span>
           <div>
             <h2 className="mb-0.5 text-[1.15rem]">가사 전체를 이해했어요</h2>
             <p className="mb-0 text-[0.82rem] text-muted-foreground">{songTitle}의 모든 문장을 최종 점검했습니다. 이제 곡을 들으며 가사를 따라 읽어 보세요.</p>
@@ -170,7 +170,7 @@ export default function LyricsReview({ songSlug, songTitle, groups }: Props) {
               key={group.lessonNumber}
             >
               <div className="mb-4 flex items-center gap-[0.7rem] border-b border-border pb-3">
-                <span className="text-[1.35rem] text-accent [font-family:Georgia,serif]">{String(group.lessonNumber).padStart(2, '0')}</span>
+                <span className="text-[1.35rem] text-accent">{String(group.lessonNumber).padStart(2, '0')}</span>
                 <h2 className="mb-0 text-sm">{group.title}</h2>
               </div>
               <ol className="m-0 grid list-none gap-[0.85rem] p-0">
@@ -179,7 +179,7 @@ export default function LyricsReview({ songSlug, songTitle, groups }: Props) {
                   return (
                     <li className="grid grid-cols-[minmax(0,1fr)_auto] items-start gap-3" key={sentence.id}>
                       <div>
-                        <p className="mb-0.5 text-[1.03rem] font-semibold leading-[1.9] [font-family:Georgia,'Noto_Serif_JP',serif] [&_rt]:text-[var(--accent-dark)]">
+                        <p className="mb-0.5 text-[1.03rem] font-semibold leading-[1.9] [&_rt]:text-[var(--accent-dark)]">
                           <JapaneseLine sentence={sentence} showFurigana={showFurigana} />
                         </p>
                         {showTranslations && (
@@ -216,7 +216,7 @@ export default function LyricsReview({ songSlug, songTitle, groups }: Props) {
             <Eyebrow>이 문장은 무슨 뜻일까요?</Eyebrow>
             <h2
               id="check-card-title"
-              className="mx-auto my-10 max-w-192 text-[length:clamp(1.65rem,6vw,3.1rem)] font-medium leading-[1.7] [font-family:Georgia,'Noto_Serif_JP',serif] [&_rt]:text-[var(--accent-dark)]"
+              className="mx-auto my-10 max-w-192 text-[length:clamp(1.65rem,6vw,3.1rem)] font-medium leading-[1.7] [&_rt]:text-[var(--accent-dark)]"
             >
               <JapaneseLine sentence={current} showFurigana={showFurigana} />
             </h2>

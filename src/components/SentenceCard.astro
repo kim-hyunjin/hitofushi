@@ -25,7 +25,7 @@ const speechText = sentence.ruby
   role="article"
 >
   <header class="mb-[1.3rem] flex items-center justify-between gap-4">
-    <span class="text-base text-accent [font-family:Georgia,serif]">{String(number).padStart(2, '0')}</span>
+    <span class="text-base text-accent">{String(number).padStart(2, '0')}</span>
     <div class="flex flex-wrap justify-end gap-[0.45rem]">
       <JapaneseSpeechButton
         sentenceId={sentence.id}
@@ -37,7 +37,7 @@ const speechText = sentence.ruby
   </header>
 
   <p
-    class="mb-[1.3rem] text-[length:clamp(1.45rem,6.5vw,2rem)] leading-[2] tracking-[0.025em] [font-family:'Noto_Serif_JP','Yu_Mincho',serif] [&_rt]:text-[var(--accent-dark)] [html[data-reading-mode=reading]_&_rt]:invisible [html[data-reading-mode=reading]_&_ruby:focus_rt]:visible [html[data-reading-mode=reading]_&_ruby:hover_rt]:visible"
+    class="mb-[1.3rem] text-[length:clamp(1.45rem,6.5vw,2rem)] leading-[2] tracking-[0.025em] [&_rt]:text-[var(--accent-dark)] [html[data-reading-mode=reading]_&_rt]:invisible [html[data-reading-mode=reading]_&_ruby:focus_rt]:visible [html[data-reading-mode=reading]_&_ruby:hover_rt]:visible"
     lang="ja"
   >
     {

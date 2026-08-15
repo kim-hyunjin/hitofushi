@@ -42,7 +42,7 @@ export default function ReadingControls() {
           </span>
           <div>
             <Eyebrow>읽기 설정</Eyebrow>
-            <h2 className="mb-0 text-lg font-extrabold tracking-tight" id="reading-mode-title">
+            <h2 className="mb-0 text-lg font-semibold tracking-tight" id="reading-mode-title">
               지금의 나에게 맞춰 보기
             </h2>
           </div>

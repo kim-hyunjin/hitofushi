@@ -54,7 +54,7 @@ export default function Quiz({ lessonId, questions }: Props) {
     return (
       <Card className="border-primary/40 bg-card shadow-sm" aria-live="polite">
         <CardContent className="grid place-items-center gap-4 p-8 text-center">
-          <span className="font-serif text-4xl text-primary" aria-hidden="true">できた!</span>
+          <span className="text-4xl text-primary" aria-hidden="true">できた!</span>
           <div>
             <h3 className="text-2xl font-extrabold">{questions.length}문제 중 {score}문제 정답</h3>
             <p className="mt-2 text-muted-foreground">
