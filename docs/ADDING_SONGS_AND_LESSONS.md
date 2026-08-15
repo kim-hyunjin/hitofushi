@@ -229,22 +229,22 @@ examples:
 의존성을 처음 설치할 때:
 
 ```sh
-npm ci
+pnpm install --frozen-lockfile
 ```
 
 편집하면서 확인할 때:
 
 ```sh
-npm run dev
+pnpm dev
 ```
 
 최종 확인:
 
 ```sh
-npm run build
+pnpm build
 ```
 
-`npm run build`는 콘텐츠 스키마와 Astro/TypeScript 오류를 검사하고 모든 정적
+`pnpm build`는 콘텐츠 스키마와 Astro/TypeScript 오류를 검사하고 모든 정적
 페이지를 생성합니다. 빌드 성공만으로 일본어와 번역의 정확성이 보장되지는
 않으므로 브라우저에서도 다음을 확인합니다.
 
@@ -260,12 +260,12 @@ npm run build
 검수가 끝나면 변경 사항을 커밋한 뒤 로컬에서 배포합니다.
 
 ```sh
-npm run deploy
+pnpm deploy
 ```
 
 이 명령은 GitHub Pages용 하위 경로로 사이트를 다시 빌드하고 `dist` 결과물을
 `gh-pages` 브랜치에 푸시합니다. 즉시 운영 사이트를 바꾸는 명령이므로 반드시
-로컬 검수와 `npm run build`를 먼저 완료합니다.
+로컬 검수와 `pnpm build`를 먼저 완료합니다.
 
 배포 주소:
 <https://kim-hyunjin.github.io/hitofushi/>
@@ -280,6 +280,6 @@ npm run deploy
 - [ ] 정답 번호와 퀴즈 해설을 다시 확인했다.
 - [ ] 단원 및 곡 페이지의 고정 문구와 링크를 수정했다.
 - [ ] 홈 또는 곡 목록에서 새 자료에 접근할 수 있다.
-- [ ] `npm run build`가 오류 없이 끝난다.
+- [ ] `pnpm build`가 오류 없이 끝난다.
 - [ ] 데스크톱과 모바일에서 학습 흐름을 확인했다.
-- [ ] 검수 후 `npm run deploy`로 배포했다.
+- [ ] 검수 후 `pnpm deploy`로 배포했다.

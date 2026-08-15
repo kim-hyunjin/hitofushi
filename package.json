@@ -2,13 +2,14 @@
   "name": "hitofushi",
   "version": "0.1.0",
   "private": true,
+  "packageManager": "pnpm@11.17.0",
   "type": "module",
   "scripts": {
     "dev": "astro dev",
     "build": "astro check && astro build",
     "test": "vitest run src",
     "test:e2e": "playwright test",
-    "deploy": "npm run build && gh-pages -d dist --nojekyll",
+    "deploy": "pnpm run build && gh-pages -d dist --nojekyll",
     "preview": "astro preview",
     "astro": "astro"
   },
@@ -16,6 +17,7 @@
     "@astrojs/react": "^6.0.2",
     "@starwind-ui/astro": "^1.0.0",
     "@starwind-ui/react": "^1.0.0",
+    "@starwind-ui/runtime": "^1.0.0",
     "@tabler/icons": "^3.46.0",
     "@tabler/icons-react": "^3.46.0",
     "@tailwindcss/forms": "^0.5.11",

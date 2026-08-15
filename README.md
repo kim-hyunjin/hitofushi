@@ -6,11 +6,11 @@
 ## 로컬 실행
 
 ```sh
-npm install
-npm run dev
+pnpm install
+pnpm dev
 ```
 
-정적 빌드는 `npm run build`로 확인합니다.
+정적 빌드는 `pnpm build`로 확인합니다.
 
 ## 학습 자료 추가
 
@@ -23,7 +23,7 @@ npm run dev
 로컬에서 정적 사이트를 빌드하고 결과물을 `gh-pages` 브랜치에 배포합니다.
 
 ```sh
-npm run deploy
+pnpm deploy
 ```
 
 배포 주소는 <https://kim-hyunjin.github.io/hitofushi/>입니다.
