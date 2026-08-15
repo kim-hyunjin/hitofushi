@@ -1,3 +1,5 @@
+import { IconCircle, IconCircleCheckFilled } from '@tabler/icons-react';
+import { Toggle } from './starwind-react/toggle';
 import { useProgress } from '../hooks/useProgress';
 import { updateProgress } from '../lib/progress';
 
@@ -20,14 +22,15 @@ export default function SentenceProgress({ sentenceId }: Props) {
   };
 
   return (
-    <button
-      type="button"
-      class={completed ? 'sentence-check is-complete' : 'sentence-check'}
-      aria-pressed={completed}
-      onClick={toggle}
+    <Toggle
+      variant={completed ? 'default' : 'outline'}
+      size="sm"
+      className="sentence-check"
+      pressed={completed}
+      onPressedChange={toggle}
     >
-      <span aria-hidden="true">{completed ? '✓' : '○'}</span>
+      {completed ? <IconCircleCheckFilled className="size-4" aria-hidden="true" /> : <IconCircle className="size-4" aria-hidden="true" />}
       {completed ? '학습 완료' : '이 문장 익혔어요'}
-    </button>
+    </Toggle>
   );
 }

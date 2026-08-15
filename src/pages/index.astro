@@ -1,6 +1,8 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 import HomeLearningCta from '../components/HomeLearningCta';
+import { Button } from '../components/starwind/button';
+import { Card } from '../components/starwind/card';
 import { getOrderedLessons } from '../lib/content';
 import { withBase } from '../lib/paths';
 import { songs } from '../lib/songs';
@@ -60,7 +62,7 @@ const courseCards = songs.slice(0, 5).map((song) => {
         </p>
         <div class="hero-actions">
           <HomeLearningCta lessons={homeLessonSummaries} client:load />
-          <a class="text-link" href={withBase('/songs/')}>노래 목록 보기</a>
+          <Button variant="ghost" href={withBase('/songs/')}>노래 목록 보기</Button>
         </div>
       </div>
       
@@ -70,7 +72,7 @@ const courseCards = songs.slice(0, 5).map((song) => {
   <section class="shell current-courses" aria-label="노래별 학습 과정">
     {
       courseCards.map((song) => (
-        <article class="current-course">
+        <Card class="current-course" role="article">
           <div>
             <p class="eyebrow">{song.sequence}번째 곡</p>
             <h2>{song.title}</h2>
@@ -82,10 +84,10 @@ const courseCards = songs.slice(0, 5).map((song) => {
             <span><strong>{song.kanjiCount}</strong> 한자</span>
             <span><strong>{song.estimatedMinutes}</strong> 분</span>
           </div>
-          <a class="primary-link" href={withBase(`/songs/${song.slug}/`)}>
+          <Button href={withBase(`/songs/${song.slug}/`)}>
             학습 내용 살펴보기
-          </a>
-        </article>
+          </Button>
+        </Card>
       ))
     }
   </section>
@@ -143,13 +145,6 @@ const courseCards = songs.slice(0, 5).map((song) => {
     gap: 1.25rem;
   }
 
-  .text-link {
-    padding: 0.5rem 0;
-    border-bottom: 1px solid currentColor;
-    font-size: 0.9rem;
-    font-weight: 750;
-  }
-
   .sample-label {
     color: var(--mint);
     font-size: 0.68rem;
@@ -178,7 +173,8 @@ const courseCards = songs.slice(0, 5).map((song) => {
     gap: 1.5rem;
     padding: 2rem;
     border-radius: var(--radius);
-    background: var(--mint);
+    border-color: color-mix(in srgb, var(--primary) 28%, var(--border));
+    background: color-mix(in srgb, var(--card) 82%, var(--secondary));
   }
 
   .current-course h2 {
@@ -200,7 +196,7 @@ const courseCards = songs.slice(0, 5).map((song) => {
   .course-stats span {
     padding: 0.8rem;
     border-radius: 0.75rem;
-    background: rgb(255 255 255 / 38%);
+    background: color-mix(in srgb, var(--background) 52%, transparent);
     color: var(--ink-soft);
     font-size: 0.8rem;
   }
@@ -228,7 +224,7 @@ const courseCards = songs.slice(0, 5).map((song) => {
       padding: 2.5rem;
     }
 
-    .current-course :global(.primary-link) {
+    .current-course :global([data-slot='button']) {
       justify-self: start;
     }
 

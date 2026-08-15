@@ -1,6 +1,8 @@
+import { IconDeviceFloppy } from '@tabler/icons-react';
+import { Card, CardContent, CardHeader, CardTitle } from './starwind-react/card';
+import { Progress } from './starwind-react/progress';
 import { useProgress } from '../hooks/useProgress';
 import { percent } from '../lib/learningSummary';
-import styles from './ProgressPanel.module.css';
 
 interface Props {
   lessonId: string;
@@ -14,16 +16,23 @@ export default function ProgressPanel({ lessonId, sentenceIds }: Props) {
   const completionPercent = percent(completed, sentenceIds.length);
 
   return (
-    <aside class={styles.panel} aria-labelledby="progress-title">
-      <div>
-        <p class="eyebrow">내 진도</p>
-        <h2 id="progress-title">{completionPercent}% 완료</h2>
-        <p>문장 {sentenceIds.length}개 중 {completed}개 · 최고 퀴즈 {progress.quizScores[lessonId] ?? 0}점</p>
-      </div>
-      <div class={styles.progressTrack} aria-label={`문장 학습 진도 ${completionPercent}%`}>
-        <span style={{ width: `${completionPercent}%` }} />
-      </div>
-      <p class={styles.storageNote}>이 기기의 브라우저에만 저장됩니다.</p>
-    </aside>
+    <Card className="sticky top-24 border-border/80 bg-card/90 shadow-sm backdrop-blur">
+      <CardHeader className="pb-3">
+        <p className="eyebrow">내 진도</p>
+        <CardTitle id="progress-title" className="font-serif text-3xl">
+          {completionPercent}% 완료
+        </CardTitle>
+        <p className="text-sm text-muted-foreground">
+          문장 {sentenceIds.length}개 중 {completed}개 · 최고 퀴즈 {progress.quizScores[lessonId] ?? 0}점
+        </p>
+      </CardHeader>
+      <CardContent className="space-y-4">
+        <Progress value={completionPercent} variant="primary" label={`문장 학습 진도 ${completionPercent}%`} />
+        <p className="flex items-center gap-1.5 text-xs text-muted-foreground">
+          <IconDeviceFloppy className="size-4" aria-hidden="true" />
+          이 기기의 브라우저에만 저장됩니다.
+        </p>
+      </CardContent>
+    </Card>
   );
 }

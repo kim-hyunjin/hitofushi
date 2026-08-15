@@ -1,5 +1,16 @@
 ---
 import BaseLayout from '../../../layouts/BaseLayout.astro';
+import { Badge } from '../../../components/starwind/badge';
+import {
+  Breadcrumb,
+  BreadcrumbItem,
+  BreadcrumbLink,
+  BreadcrumbList,
+  BreadcrumbPage,
+  BreadcrumbSeparator,
+} from '../../../components/starwind/breadcrumb';
+import { Button } from '../../../components/starwind/button';
+import { Card } from '../../../components/starwind/card';
 import { getCollection } from 'astro:content';
 import { withBase } from '../../../lib/paths';
 import { songs, type SongDefinition } from '../../../lib/songs';
@@ -35,7 +46,13 @@ if (!songLessons.length) {
   <section class="song-hero">
     <div class="shell song-hero-inner">
       <div>
-        <a class="breadcrumb" href={withBase('/')}>홈</a>
+        <Breadcrumb class="mb-5 text-[var(--on-ink-soft)]">
+          <BreadcrumbList>
+            <BreadcrumbItem><BreadcrumbLink href={withBase('/')}>홈</BreadcrumbLink></BreadcrumbItem>
+            <BreadcrumbSeparator />
+            <BreadcrumbItem><BreadcrumbPage class="text-[var(--hero-foreground)]">{song.title}</BreadcrumbPage></BreadcrumbItem>
+          </BreadcrumbList>
+        </Breadcrumb>
         <p class="eyebrow">SONG {String(song.sequence).padStart(2, '0')}</p>
         <h1>{song.title}</h1>
         <p class="song-kicker">{song.artist} · {song.kicker}</p>
@@ -61,7 +78,7 @@ if (!songLessons.length) {
           ].slice(0, 4);
 
           return (
-            <article class="lesson-list-card">
+            <Card class="lesson-list-card" role="article">
               <div class="lesson-index">
                 {String(lesson.data.lessonNumber).padStart(2, '0')}
               </div>
@@ -72,20 +89,19 @@ if (!songLessons.length) {
                 <h3>{lesson.data.title}</h3>
                 <p>{lesson.data.description}</p>
                 <div class="lesson-tags">
-                  {grammarIds.map((id) => <span>{grammarMap.get(id) ?? id}</span>)}
+                  {grammarIds.map((id) => <Badge variant="secondary">{grammarMap.get(id) ?? id}</Badge>)}
                 </div>
               </div>
-              <a
-                class="primary-link"
+              <Button
                 href={withBase(`/songs/${song.slug}/lessons/${lesson.data.lessonNumber}/`)}
               >
                 단원 시작 <span aria-hidden="true">→</span>
-              </a>
-            </article>
+              </Button>
+            </Card>
           );
         })
       }
-      <article class="lesson-list-card final-card">
+      <Card class="lesson-list-card final-card" role="article">
         <div class="lesson-index">完</div>
         <div class="lesson-summary">
           <span>
@@ -94,15 +110,15 @@ if (!songLessons.length) {
           <h3>가사 전문과 최종 점검</h3>
           <p>가사를 처음부터 끝까지 한눈에 읽고, 해석을 떠올리며 이해한 문장을 직접 점검합니다.</p>
           <div class="lesson-tags">
-            <span>가사 전문</span>
-            <span>이해도 자가점검</span>
-            <span>자동 저장</span>
+            <Badge variant="warning">가사 전문</Badge>
+            <Badge variant="warning">이해도 자가점검</Badge>
+            <Badge variant="warning">자동 저장</Badge>
           </div>
         </div>
-        <a class="primary-link" href={withBase(`/songs/${song.slug}/review/`)}>
+        <Button href={withBase(`/songs/${song.slug}/review/`)}>
           최종 점검 <span aria-hidden="true">→</span>
-        </a>
-      </article>
+        </Button>
+      </Card>
     </div>
   </section>
 </BaseLayout>
@@ -111,12 +127,8 @@ if (!songLessons.length) {
   .song-hero {
     overflow: hidden;
     padding: 3.5rem 0;
-    background: var(--ink);
-    color: var(--white);
-  }
-
-  .song-hero :global(.breadcrumb) {
-    color: #b9c6d0;
+    background: var(--hero);
+    color: var(--hero-foreground);
   }
 
   .song-hero :global(.eyebrow) {
@@ -142,7 +154,7 @@ if (!songLessons.length) {
 
   .song-kicker {
     margin-bottom: 0;
-    color: #c7d0d8;
+    color: var(--on-ink-soft);
   }
 
   .song-disc {
@@ -187,7 +199,7 @@ if (!songLessons.length) {
     padding: 1.5rem;
     border: 1px solid var(--line);
     border-radius: var(--radius);
-    background: var(--surface);
+    background: var(--card);
     box-shadow: var(--shadow);
   }
 
@@ -198,12 +210,12 @@ if (!songLessons.length) {
   }
 
   .final-card {
-    border-color: #d7b955;
-    background: linear-gradient(135deg, #fffaf0, var(--surface));
+    border-color: var(--warning);
+    background: linear-gradient(135deg, color-mix(in srgb, var(--warning) 18%, var(--card)), var(--card));
   }
 
   .final-card .lesson-index {
-    color: #9b7810;
+    color: var(--accent-foreground);
   }
 
   .lesson-summary > span {
@@ -225,15 +237,6 @@ if (!songLessons.length) {
     display: flex;
     flex-wrap: wrap;
     gap: 0.4rem;
-  }
-
-  .lesson-tags span {
-    padding: 0.3rem 0.6rem;
-    border-radius: 99rem;
-    background: var(--accent-pale);
-    color: #7c2d20;
-    font-size: 0.75rem;
-    font-weight: 750;
   }
 
   @media (min-width: 42rem) {

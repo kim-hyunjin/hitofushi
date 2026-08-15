@@ -1,4 +1,11 @@
-import { useMemo, useState } from 'preact/hooks';
+import { IconArrowLeft, IconArrowRight, IconCheck, IconCircle } from '@tabler/icons-react';
+import { useMemo, useState } from 'react';
+import { Badge } from './starwind-react/badge';
+import { Button } from './starwind-react/button';
+import { Progress } from './starwind-react/progress';
+import { Switch } from './starwind-react/switch';
+import { Tabs, TabsList, TabsTrigger } from './starwind-react/tabs';
+import { Toggle } from './starwind-react/toggle';
 import { useProgress } from '../hooks/useProgress';
 import { updateProgress } from '../lib/progress';
 import type { LessonSentence } from '../lib/types';
@@ -89,27 +96,18 @@ export default function LyricsReview({ songSlug, songTitle, groups }: Props) {
   };
 
   return (
-    <div class={styles.review}>
-      <section class={styles.progressCard} aria-labelledby="review-progress-title">
-        <div class={styles.progressCopy}>
+    <div className={styles.review}>
+      <section className={styles.progressCard} aria-labelledby="review-progress-title">
+        <div className={styles.progressCopy}>
           <div>
-            <p class="eyebrow">최종 이해도</p>
+            <p className="eyebrow">최종 이해도</p>
             <h2 id="review-progress-title">
               {completed} / {sentences.length}문장 이해
             </h2>
           </div>
           <strong>{percent}%</strong>
         </div>
-        <div
-          class={styles.progressTrack}
-          role="progressbar"
-          aria-valuemin={0}
-          aria-valuemax={sentences.length}
-          aria-valuenow={completed}
-          aria-label={`${songTitle} 가사 이해도 ${percent}%`}
-        >
-          <span style={{ width: `${percent}%` }} />
-        </div>
+        <Progress value={percent} variant="primary" label={`${songTitle} 가사 이해도 ${percent}%`} />
         <p>
           해석을 보기 전에 뜻을 떠올린 뒤, 내 해석과 맞았던 문장을 표시해 보세요.
           결과는 이 기기에 자동 저장됩니다.
@@ -117,7 +115,7 @@ export default function LyricsReview({ songSlug, songTitle, groups }: Props) {
       </section>
 
       {percent === 100 && (
-        <section class={styles.completeBanner} aria-live="polite">
+        <section className={styles.completeBanner} aria-live="polite">
           <span aria-hidden="true">できた!</span>
           <div>
             <h2>가사 전체를 이해했어요</h2>
@@ -126,52 +124,40 @@ export default function LyricsReview({ songSlug, songTitle, groups }: Props) {
         </section>
       )}
 
-      <div class={styles.toolbar}>
-        <div class={styles.tabs} role="tablist" aria-label="최종 단원 보기 방식">
-          <button
-            type="button"
-            role="tab"
-            aria-selected={view === 'lyrics'}
-            class={view === 'lyrics' ? styles.activeTab : ''}
-            onClick={() => setView('lyrics')}
-          >
-            가사 전문
-          </button>
-          <button
-            type="button"
-            role="tab"
-            aria-selected={view === 'check'}
-            class={view === 'check' ? styles.activeTab : ''}
-            onClick={continueUnchecked}
-          >
-            문장별 자가점검
-          </button>
-        </div>
-        <label class={styles.toggle}>
-          <input
-            type="checkbox"
-            checked={showFurigana}
-            onChange={() => setShowFurigana((value) => !value)}
-          />
-          <span>후리가나</span>
-        </label>
+      <div className={`${styles.toolbar} !flex !flex-wrap !items-center !gap-3`}>
+        <Tabs
+          value={view}
+          onValueChange={(next) => next === 'check' ? continueUnchecked() : setView('lyrics')}
+          aria-label="최종 단원 보기 방식"
+        >
+          <TabsList>
+            <TabsTrigger value="lyrics">가사 전문</TabsTrigger>
+            <TabsTrigger value="check">문장별 자가점검</TabsTrigger>
+          </TabsList>
+        </Tabs>
+        <Switch
+          id="review-furigana"
+          checked={showFurigana}
+          onCheckedChange={setShowFurigana}
+          label="후리가나"
+          size="sm"
+        />
         {view === 'lyrics' && (
-          <label class={styles.toggle}>
-            <input
-              type="checkbox"
-              checked={showTranslations}
-              onChange={() => setShowTranslations((value) => !value)}
-            />
-            <span>해석</span>
-          </label>
+          <Switch
+            id="review-translations"
+            checked={showTranslations}
+            onCheckedChange={setShowTranslations}
+            label="해석"
+            size="sm"
+          />
         )}
       </div>
 
       {view === 'lyrics' ? (
-        <section class={styles.lyricsSheet} aria-label={`${songTitle} 가사 전문`}>
+        <section className={styles.lyricsSheet} aria-label={`${songTitle} 가사 전문`}>
           {groups.map((group) => (
-            <div class={styles.lyricsGroup} key={group.lessonNumber}>
-              <div class={styles.groupHeading}>
+            <div className={styles.lyricsGroup} key={group.lessonNumber}>
+              <div className={styles.groupHeading}>
                 <span>{String(group.lessonNumber).padStart(2, '0')}</span>
                 <h2>{group.title}</h2>
               </div>
@@ -179,24 +165,25 @@ export default function LyricsReview({ songSlug, songTitle, groups }: Props) {
                 {group.sentences.map((sentence) => {
                   const understood = reviewedSet.has(sentence.id);
                   return (
-                    <li class={understood ? styles.understoodLine : ''} key={sentence.id}>
+                    <li className={understood ? styles.understoodLine : ''} key={sentence.id}>
                       <div>
-                        <p class={styles.japanese}>
+                        <p className={styles.japanese}>
                           <JapaneseLine sentence={sentence} showFurigana={showFurigana} />
                         </p>
                         {showTranslations && (
-                          <p class={styles.translation}>{sentence.translationKo}</p>
+                          <p className={styles.translation}>{sentence.translationKo}</p>
                         )}
                       </div>
-                      <button
-                        type="button"
-                        aria-pressed={understood}
+                      <Toggle
+                        pressed={understood}
+                        size="sm"
+                        variant="outline"
                         disabled={!ready}
-                        onClick={() => setUnderstood(sentence.id, !understood)}
+                        onPressedChange={(pressed) => setUnderstood(sentence.id, pressed)}
                       >
-                        <span aria-hidden="true">{understood ? '✓' : '○'}</span>
+                        {understood ? <IconCheck className="size-4" aria-hidden="true" /> : <IconCircle className="size-4" aria-hidden="true" />}
                         {understood ? '이해함' : '확인 전'}
-                      </button>
+                      </Toggle>
                     </li>
                   );
                 })}
@@ -205,48 +192,47 @@ export default function LyricsReview({ songSlug, songTitle, groups }: Props) {
           ))}
         </section>
       ) : current ? (
-        <section class={styles.checkCard} aria-labelledby="check-card-title">
-          <div class={styles.checkMeta}>
+        <section className={styles.checkCard} aria-labelledby="check-card-title">
+          <div className={styles.checkMeta}>
             <span>문장 {currentIndex + 1} / {sentences.length}</span>
-            {reviewedSet.has(current.id) && <span class={styles.checkedBadge}>이해 표시됨</span>}
+            {reviewedSet.has(current.id) && <Badge variant="success">이해 표시됨</Badge>}
           </div>
-          <div class={styles.checkPrompt}>
-            <p class="eyebrow">이 문장은 무슨 뜻일까요?</p>
-            <h2 id="check-card-title" class={styles.checkJapanese}>
+          <div className={styles.checkPrompt}>
+            <p className="eyebrow">이 문장은 무슨 뜻일까요?</p>
+            <h2 id="check-card-title" className={styles.checkJapanese}>
               <JapaneseLine sentence={current} showFurigana={showFurigana} />
             </h2>
             {!answerRevealed ? (
-              <button
-                type="button"
-                class={styles.revealButton}
-                onClick={() => setAnswerRevealed(true)}
-              >
+              <Button onClick={() => setAnswerRevealed(true)}>
                 뜻 확인하기
-              </button>
+              </Button>
             ) : (
-              <div class={styles.answer} aria-live="polite">
+              <div className={styles.answer} aria-live="polite">
                 <span>해석</span>
                 <p>{current.translationKo}</p>
                 <small lang="ja">{current.hiragana}</small>
-                <div class={styles.answerActions}>
-                  <button type="button" onClick={() => chooseResult(true)} disabled={!ready}>
+                <div className={styles.answerActions}>
+                  <Button onClick={() => chooseResult(true)} disabled={!ready}>
                     내 해석과 같아요
-                  </button>
-                  <button
-                    type="button"
-                    class={styles.secondaryButton}
+                  </Button>
+                  <Button
+                    variant="outline"
                     onClick={() => chooseResult(false)}
                     disabled={!ready}
                   >
                     다시 볼게요
-                  </button>
+                  </Button>
                 </div>
               </div>
             )}
           </div>
-          <div class={styles.checkNavigation}>
-            <button type="button" onClick={() => goTo(currentIndex - 1)}>← 이전</button>
-            <button type="button" onClick={() => goTo(currentIndex + 1)}>다음 →</button>
+          <div className={styles.checkNavigation}>
+            <Button variant="ghost" onClick={() => goTo(currentIndex - 1)}>
+              <IconArrowLeft className="size-4" aria-hidden="true" /> 이전
+            </Button>
+            <Button variant="ghost" onClick={() => goTo(currentIndex + 1)}>
+              다음 <IconArrowRight className="size-4" aria-hidden="true" />
+            </Button>
           </div>
         </section>
       ) : null}

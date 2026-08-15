@@ -1,8 +1,11 @@
-import { useEffect } from 'preact/hooks';
+import { IconBook, IconLanguage } from '@tabler/icons-react';
+import { useEffect } from 'react';
+import { Card, CardContent } from './starwind-react/card';
+import { Switch } from './starwind-react/switch';
+import { ToggleGroup, ToggleGroupItem } from './starwind-react/toggle-group';
 import { useProgress } from '../hooks/useProgress';
 import { updateProgress } from '../lib/progress';
 import type { ReadingMode } from '../lib/types';
-import styles from './ReadingControls.module.css';
 
 const modes: { id: ReadingMode; label: string; hint: string }[] = [
   { id: 'beginner', label: '입문', hint: '모든 읽기 도움 표시' },
@@ -23,42 +26,55 @@ export default function ReadingControls() {
     applyDisplay(mode, showTranslations);
   }, [mode, showTranslations]);
 
-  const chooseMode = (nextMode: ReadingMode) => {
+  const chooseMode = (values: string[]) => {
+    const nextMode = values[0] as ReadingMode | undefined;
+    if (!nextMode) return;
     updateProgress((current) => ({ ...current, readingMode: nextMode }));
   };
 
-  const toggleTranslations = () => {
-    const next = !showTranslations;
-    updateProgress((current) => ({ ...current, showTranslations: next }));
-  };
-
   return (
-    <section class={styles.readingControls} aria-labelledby="reading-mode-title">
-      <div>
-        <p class="eyebrow">읽기 설정</p>
-        <h2 id="reading-mode-title">지금의 나에게 맞춰 보기</h2>
-      </div>
-      <div class={styles.modeOptions} role="group" aria-label="읽기 모드">
-        {modes.map((item) => (
-          <button
-            type="button"
-            class={`${styles.modeButton} ${mode === item.id ? styles.active : ''}`}
-            aria-pressed={mode === item.id}
-            onClick={() => chooseMode(item.id)}
-            title={item.hint}
+    <Card className="mb-6 border-border/80 bg-card/80 shadow-sm backdrop-blur">
+      <CardContent className="flex flex-col gap-5 p-5 md:flex-row md:items-center md:justify-between">
+        <div className="flex items-start gap-3">
+          <span className="grid size-10 shrink-0 place-items-center rounded-full bg-primary text-primary-foreground">
+            <IconBook className="size-5" aria-hidden="true" />
+          </span>
+          <div>
+            <p className="eyebrow">읽기 설정</p>
+            <h2 className="mb-0 text-lg font-extrabold tracking-tight" id="reading-mode-title">
+              지금의 나에게 맞춰 보기
+            </h2>
+          </div>
+        </div>
+
+        <div className="flex flex-wrap items-center gap-4">
+          <ToggleGroup
+            aria-labelledby="reading-mode-title"
+            value={[mode]}
+            onValueChange={chooseMode}
+            variant="outline"
+            size="sm"
+            spacing={0}
           >
-            {item.label}
-          </button>
-        ))}
-      </div>
-      <label class={styles.translationToggle}>
-        <input
-          type="checkbox"
-          checked={showTranslations}
-          onChange={toggleTranslations}
-        />
-        <span>번역 표시</span>
-      </label>
-    </section>
+            {modes.map((item) => (
+              <ToggleGroupItem key={item.id} value={item.id} title={item.hint}>
+                {item.label}
+              </ToggleGroupItem>
+            ))}
+          </ToggleGroup>
+
+          <Switch
+            id="show-translations"
+            checked={showTranslations}
+            onCheckedChange={(checked) =>
+              updateProgress((current) => ({ ...current, showTranslations: checked }))
+            }
+            label="번역 표시"
+            size="sm"
+          />
+        </div>
+        <IconLanguage className="sr-only" aria-hidden="true" />
+      </CardContent>
+    </Card>
   );
 }

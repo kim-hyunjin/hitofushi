@@ -2,6 +2,7 @@
 import type { VocabularyItem } from '../lib/types';
 import FavoriteButton from './FavoriteButton';
 import JapaneseSpeechButton from './JapaneseSpeechButton';
+import { Card } from './starwind/card';
 
 interface Props {
   items: VocabularyItem[];
@@ -13,7 +14,7 @@ const { items } = Astro.props;
 <div class="vocabulary-list">
   {
     items.map((item) => (
-      <article class="vocabulary-item">
+      <Card class="vocabulary-item" role="article">
         <div>
           <p class="vocabulary-term">
             <strong lang="ja">{item.term}</strong>
@@ -36,7 +37,7 @@ const { items } = Astro.props;
             client:visible
           />
         </div>
-      </article>
+      </Card>
     ))
   }
 </div>
@@ -55,7 +56,7 @@ const { items } = Astro.props;
     gap: 0.8rem;
     padding: 1rem;
     border-bottom: 1px solid var(--line);
-    background: rgb(255 253 248 / 60%);
+    background: color-mix(in srgb, var(--card) 84%, transparent);
   }
 
   .vocabulary-item p {
@@ -96,15 +97,15 @@ const { items } = Astro.props;
     aspect-ratio: 1;
     border: 0;
     border-radius: 50%;
-    background: #ece9e1;
-    color: #8b8175;
+    background: var(--muted);
+    color: var(--muted-foreground);
     font-size: 1.25rem;
     cursor: pointer;
   }
 
   .vocabulary-item :global(.favorite-button.is-favorite) {
-    background: #fff1bd;
-    color: #a47100;
+    background: color-mix(in srgb, var(--warning) 24%, var(--card));
+    color: var(--accent-foreground);
   }
 
   @media (min-width: 42rem) {
