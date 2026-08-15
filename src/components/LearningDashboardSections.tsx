@@ -11,6 +11,7 @@ import {
   type LearningVocabularySummary,
 } from '../lib/learningSummary';
 import JapaneseSpeechButton from './JapaneseSpeechButton';
+import Eyebrow from './Eyebrow';
 
 interface SummaryProps {
   summary: LearningSummary;
@@ -29,7 +30,7 @@ export function LearningSummarySection({ summary, lessonCount }: SummaryProps) {
     <Card className="overflow-hidden border-0 bg-[var(--hero)] text-[var(--hero-foreground)] shadow-lg" aria-labelledby="learning-summary-title">
       <CardHeader className="md:flex-row md:items-end md:justify-between">
         <div>
-          <p className="eyebrow !text-accent">전체 학습 현황</p>
+          <Eyebrow tone="accent">전체 학습 현황</Eyebrow>
           <CardTitle id="learning-summary-title" className="font-serif text-4xl text-inherit">
             {summary.overallPercent}% 완료
           </CardTitle>
@@ -64,7 +65,7 @@ export function LessonProgressSection({ lessons, progress }: LessonProgressProps
     <section aria-labelledby="lesson-progress-title">
       <div className="mb-5 flex flex-wrap items-end justify-between gap-3">
         <div>
-          <p className="eyebrow">단원별 진도</p>
+          <Eyebrow>단원별 진도</Eyebrow>
           <h2 className="text-3xl font-extrabold tracking-tight" id="lesson-progress-title">어디까지 공부했나요?</h2>
         </div>
         <p className="text-sm text-muted-foreground">학습할 문장을 선택하거나 퀴즈 최고 점수를 확인하세요.</p>
@@ -107,7 +108,7 @@ export function FavoriteVocabularySection({ items }: { items: LearningVocabulary
     <section aria-labelledby="favorites-title">
       <div className="mb-5 flex flex-wrap items-end justify-between gap-3">
         <div>
-          <p className="eyebrow">즐겨찾기 어휘</p>
+          <Eyebrow>즐겨찾기 어휘</Eyebrow>
           <h2 className="text-3xl font-extrabold tracking-tight" id="favorites-title">다시 보고 싶은 단어</h2>
         </div>
         <p className="text-sm text-muted-foreground">단원에서 별표를 누른 어휘만 모아 보여 줍니다.</p>

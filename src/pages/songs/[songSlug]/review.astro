@@ -9,6 +9,8 @@ import {
   BreadcrumbSeparator,
 } from '../../../components/starwind/breadcrumb';
 import { Button } from '../../../components/starwind/button';
+import Eyebrow from '../../../components/Eyebrow';
+import PageShell from '../../../components/PageShell.astro';
 import LyricsReview, {
   type LyricsReviewGroup,
 } from '../../../components/LyricsReview';
@@ -47,7 +49,7 @@ const sentenceCount = groups.reduce((total, group) => total + group.sentences.le
   description={`${song.title} 가사 ${sentenceCount}문장을 한눈에 보고 이해도를 최종 점검합니다.`}
 >
   <section class="review-hero">
-    <div class="shell review-hero-inner">
+    <PageShell class="review-hero-inner">
       <div>
         <Breadcrumb class="mb-5 text-[var(--on-ink-soft)]">
           <BreadcrumbList>
@@ -56,7 +58,7 @@ const sentenceCount = groups.reduce((total, group) => total + group.sentences.le
             <BreadcrumbItem><BreadcrumbPage class="text-[var(--hero-foreground)]">최종 점검</BreadcrumbPage></BreadcrumbItem>
           </BreadcrumbList>
         </Breadcrumb>
-        <p class="eyebrow">FINAL REVIEW</p>
+        <Eyebrow tone="hero">FINAL REVIEW</Eyebrow>
         <h1>가사 전문과<br />최종 점검</h1>
         <p>{song.artist} · {sentenceCount}문장으로 한 곡을 마무리해요.</p>
       </div>
@@ -64,12 +66,12 @@ const sentenceCount = groups.reduce((total, group) => total + group.sentences.le
         <span>完</span>
         <small>FINAL</small>
       </div>
-    </div>
+    </PageShell>
   </section>
 
-  <div class="shell review-page">
+  <PageShell class="review-page">
     <div class="review-intro">
-      <p class="eyebrow">한 곡 다시 읽기</p>
+      <Eyebrow>한 곡 다시 읽기</Eyebrow>
       <h2>배운 가사를 처음부터 끝까지 연결해 보세요</h2>
       <p>
         전체 가사에서는 앞서 익힌 문장을 단원별로 빠르게 훑을 수 있습니다.
@@ -88,7 +90,7 @@ const sentenceCount = groups.reduce((total, group) => total + group.sentences.le
       <a href={withBase(`/songs/${song.slug}/`)}>← 단원 목록으로</a>
       <Button href={withBase('/songs/')}>다른 노래 고르기 →</Button>
     </nav>
-  </div>
+  </PageShell>
 </BaseLayout>
 
 <style>
@@ -97,10 +99,6 @@ const sentenceCount = groups.reduce((total, group) => total + group.sentences.le
     padding: 3rem 0 3.5rem;
     background: var(--hero);
     color: var(--hero-foreground);
-  }
-
-  .review-hero :global(.eyebrow) {
-    color: var(--yellow);
   }
 
   .review-hero-inner {

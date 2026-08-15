@@ -20,10 +20,13 @@ const speechText = sentence.ruby
   .join('');
 ---
 
-<Card class="sentence-card" role="article">
-  <header class="sentence-heading">
-    <span class="sentence-number">{String(number).padStart(2, '0')}</span>
-    <div class="sentence-actions">
+<Card
+  class="relative overflow-hidden border border-border bg-card p-[1.35rem] before:absolute before:left-0 before:top-0 before:h-full before:w-[0.28rem] before:origin-bottom before:scale-y-0 before:bg-accent before:transition-transform before:duration-200 before:content-[''] hover:before:scale-y-100 min-[42rem]:p-[1.8rem]"
+  role="article"
+>
+  <header class="mb-[1.3rem] flex items-center justify-between gap-4">
+    <span class="text-base text-accent [font-family:Georgia,serif]">{String(number).padStart(2, '0')}</span>
+    <div class="flex flex-wrap justify-end gap-[0.45rem]">
       <JapaneseSpeechButton
         sentenceId={sentence.id}
         text={speechText}
@@ -33,7 +36,10 @@ const speechText = sentence.ruby
     </div>
   </header>
 
-  <p class="sentence-original" lang="ja">
+  <p
+    class="mb-[1.3rem] text-[length:clamp(1.45rem,6.5vw,2rem)] leading-[2] tracking-[0.025em] [font-family:'Noto_Serif_JP','Yu_Mincho',serif] [&_rt]:text-[var(--accent-dark)] [html[data-reading-mode=reading]_&_rt]:invisible [html[data-reading-mode=reading]_&_ruby:focus_rt]:visible [html[data-reading-mode=reading]_&_ruby:hover_rt]:visible"
+    lang="ja"
+  >
     {
       sentence.ruby.map((segment) =>
         segment.reading ? (
@@ -46,21 +52,21 @@ const speechText = sentence.ruby
       )
     }
   </p>
-  <div class="reading-layers">
-    <p class="layer-hiragana" lang="ja">
-      <span>ひらがな</span>{sentence.hiragana}
+  <div class="grid gap-[0.7rem]">
+    <p class="m-0 grid grid-cols-[4.6rem_1fr] gap-[0.7rem] text-sm text-muted-foreground [html[data-reading-mode=elementary]_&]:hidden [html[data-reading-mode=reading]_&]:hidden" lang="ja">
+      <span class="text-[0.68rem] font-extrabold text-muted-foreground">ひらがな</span>{sentence.hiragana}
     </p>
-    <p class="layer-pronunciation">
-      <span>발음 도움</span>{sentence.pronunciationKo}
+    <p class="m-0 grid grid-cols-[4.6rem_1fr] gap-[0.7rem] text-sm text-muted-foreground [html[data-reading-mode=elementary]_&]:hidden [html[data-reading-mode=reading]_&]:hidden">
+      <span class="text-[0.68rem] font-extrabold text-muted-foreground">발음 도움</span>{sentence.pronunciationKo}
     </p>
-    <p class="layer-translation">
-      <span>뜻</span>{sentence.translationKo}
+    <p class="m-0 grid grid-cols-[4.6rem_1fr] gap-[0.7rem] text-sm font-bold text-foreground [html[data-show-translations=false]_&]:hidden">
+      <span class="text-[0.68rem] font-extrabold text-muted-foreground">뜻</span>{sentence.translationKo}
     </p>
   </div>
 
-  <footer class="sentence-links">
-    <div>
-      <span class="link-label">문법</span>
+  <footer class="mt-[1.35rem] grid gap-[0.8rem] border-t border-dashed border-border pt-4 min-[42rem]:grid-cols-[1fr_auto] min-[42rem]:items-start">
+    <div class="flex flex-wrap items-center gap-[0.38rem]">
+      <span class="w-[2.8rem] text-[0.68rem] font-extrabold text-muted-foreground">문법</span>
       {
         grammar.map((entry, index) => (
           <GrammarPopover
@@ -70,8 +76,8 @@ const speechText = sentence.ruby
         ))
       }
     </div>
-    <div>
-      <span class="link-label">한자</span>
+    <div class="flex flex-wrap items-center gap-[0.38rem]">
+      <span class="w-[2.8rem] text-[0.68rem] font-extrabold text-muted-foreground">한자</span>
       {
         kanji.map((entry, index) => (
           <KanjiPopover
@@ -83,162 +89,3 @@ const speechText = sentence.ruby
     </div>
   </footer>
 </Card>
-
-<style>
-  .sentence-card {
-    position: relative;
-    overflow: hidden;
-    padding: 1.35rem;
-    border: 1px solid var(--line);
-    border-radius: var(--radius);
-    background: var(--surface);
-  }
-
-  .sentence-card::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 0.28rem;
-    height: 100%;
-    background: var(--accent);
-    transform: scaleY(0);
-    transform-origin: bottom;
-    transition: transform 180ms ease;
-  }
-
-  .sentence-card:hover::before {
-    transform: scaleY(1);
-  }
-
-  .sentence-heading {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 1rem;
-    margin-bottom: 1.3rem;
-  }
-
-  .sentence-number {
-    color: var(--accent);
-    font-family: Georgia, serif;
-    font-size: 1rem;
-  }
-
-  .sentence-actions {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-end;
-    gap: 0.45rem;
-  }
-
-  .sentence-heading :global(.sentence-check) {
-    display: inline-flex;
-    align-items: center;
-    gap: 0.4rem;
-    padding: 0.35rem 0.55rem;
-    border: 1px solid var(--line);
-    border-radius: 99rem;
-    background: transparent;
-    color: var(--ink-soft);
-    font-size: 0.72rem;
-    font-weight: 750;
-    cursor: pointer;
-  }
-
-  .sentence-heading :global(.sentence-check.is-complete) {
-    border-color: var(--mint);
-    background: color-mix(in srgb, var(--success) 22%, var(--card));
-    color: var(--foreground);
-  }
-
-  .sentence-original {
-    margin-bottom: 1.3rem;
-    font-family: "Noto Serif JP", "Yu Mincho", serif;
-    font-size: clamp(1.45rem, 6.5vw, 2rem);
-    letter-spacing: 0.025em;
-    line-height: 2;
-  }
-
-  .sentence-original rt {
-    color: var(--accent-dark);
-  }
-
-  .reading-layers {
-    display: grid;
-    gap: 0.7rem;
-  }
-
-  .reading-layers p {
-    display: grid;
-    grid-template-columns: 4.6rem 1fr;
-    gap: 0.7rem;
-    margin: 0;
-    color: var(--ink-soft);
-    font-size: 0.88rem;
-  }
-
-  .reading-layers p > span {
-    color: var(--muted-foreground);
-    font-size: 0.68rem;
-    font-weight: 800;
-  }
-
-  .layer-translation {
-    color: var(--ink) !important;
-    font-weight: 700;
-  }
-
-  .sentence-links {
-    display: grid;
-    gap: 0.8rem;
-    margin-top: 1.35rem;
-    padding-top: 1rem;
-    border-top: 1px dashed var(--line);
-  }
-
-  .sentence-links > div {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    gap: 0.38rem;
-  }
-
-  .link-label {
-    width: 2.8rem;
-    color: var(--muted-foreground);
-    font-size: 0.68rem;
-    font-weight: 800;
-  }
-
-  :global(html[data-reading-mode="elementary"]) .layer-hiragana,
-  :global(html[data-reading-mode="elementary"]) .layer-pronunciation,
-  :global(html[data-reading-mode="reading"]) .layer-hiragana,
-  :global(html[data-reading-mode="reading"]) .layer-pronunciation {
-    display: none;
-  }
-
-  :global(html[data-reading-mode="reading"]) .sentence-original rt {
-    visibility: hidden;
-  }
-
-  :global(html[data-reading-mode="reading"]) .sentence-original ruby:hover rt,
-  :global(html[data-reading-mode="reading"]) .sentence-original ruby:focus rt {
-    visibility: visible;
-  }
-
-  :global(html[data-show-translations="false"]) .layer-translation {
-    display: none;
-  }
-
-  @media (min-width: 42rem) {
-    .sentence-card {
-      padding: 1.8rem;
-    }
-
-    .sentence-links {
-      grid-template-columns: 1fr auto;
-      align-items: start;
-    }
-  }
-</style>

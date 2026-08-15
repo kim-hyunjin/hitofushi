@@ -24,6 +24,7 @@ import {
   type LearningLessonSummary,
 } from '../lib/learningSummary';
 import { downloadProgress, parseProgress } from '../lib/progressTransfer';
+import Eyebrow from './Eyebrow';
 import {
   FavoriteVocabularySection,
   LearningSummarySection,
@@ -88,7 +89,7 @@ export default function LearningDashboard({ lessons }: Props) {
 
       <Card className="border-border/80 bg-card shadow-sm" aria-labelledby="progress-transfer-title">
         <CardHeader>
-          <p className="eyebrow">학습 기록 관리</p>
+          <Eyebrow>학습 기록 관리</Eyebrow>
           <CardTitle id="progress-transfer-title" className="text-2xl">전체 진도 옮기기</CardTitle>
           <p className="max-w-2xl text-sm text-muted-foreground">
             익힌 문장, 퀴즈 최고 점수, 가사 최종 점검, 즐겨찾기 어휘와 읽기 설정을 JSON 파일로

@@ -1,7 +1,7 @@
 import { expect, test } from '@playwright/test';
 
 test('홈과 테마 전환이 정상 동작한다', async ({ page }) => {
-  await page.goto('/');
+  await page.goto('./');
 
   await expect(page.getByRole('heading', { level: 1 })).toBeVisible();
   await expect(page.getByRole('link', { name: 'HitoFushi 홈' })).toBeVisible();
@@ -19,7 +19,7 @@ test('홈과 테마 전환이 정상 동작한다', async ({ page }) => {
 
 test('모바일 메뉴가 열리고 가로 스크롤이 생기지 않는다', async ({ page, isMobile }) => {
   test.skip(!isMobile, '모바일 프로젝트에서만 실행합니다.');
-  await page.goto('/');
+  await page.goto('./');
 
   await expect.poll(() => page.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth))
     .toBe(true);
@@ -31,7 +31,7 @@ test('모바일 메뉴가 열리고 가로 스크롤이 생기지 않는다', as
 });
 
 test('레슨 읽기 설정과 학습 대화상자가 동작한다', async ({ page }) => {
-  await page.goto('/songs/lady/lessons/1/');
+  await page.goto('songs/lady/lessons/1/');
 
   await expect(page.getByRole('heading', { level: 1 })).toBeVisible();
   await page.getByRole('button', { name: '읽기', exact: true }).click();
@@ -45,7 +45,7 @@ test('레슨 읽기 설정과 학습 대화상자가 동작한다', async ({ pag
 });
 
 test('내 학습 대시보드가 렌더링된다', async ({ page }) => {
-  await page.goto('/my-learning/');
+  await page.goto('my-learning/');
   await expect(page.getByRole('heading', { level: 1 })).toBeVisible();
   await expect(page.getByText('전체 학습 현황', { exact: true })).toBeVisible();
 });

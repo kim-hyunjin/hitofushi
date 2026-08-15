@@ -1,6 +1,8 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+import Eyebrow from '../components/Eyebrow';
 import HomeLearningCta from '../components/HomeLearningCta';
+import PageShell from '../components/PageShell.astro';
 import { Button } from '../components/starwind/button';
 import { Card } from '../components/starwind/card';
 import { getOrderedLessons } from '../lib/content';
@@ -49,9 +51,9 @@ const courseCards = songs.slice(0, 5).map((song) => {
   description="노래 가사를 한 소절씩 읽으며 일본어 문법, 어휘, 한자를 익히는 학습 사이트"
 >
   <section class="home-hero">
-    <div class="shell hero-grid">
+    <PageShell class="hero-grid">
       <div class="hero-copy">
-        <p class="eyebrow">노래 한 소절이 오늘의 교재</p>
+        <Eyebrow>노래 한 소절이 오늘의 교재</Eyebrow>
         <h1>
           외우기 전에,<br />
           <em>마음으로 읽는 일본어</em>
@@ -66,15 +68,15 @@ const courseCards = songs.slice(0, 5).map((song) => {
         </div>
       </div>
       
-    </div>
+    </PageShell>
   </section>
 
-  <section class="shell current-courses" aria-label="노래별 학습 과정">
+  <PageShell as="section" class="current-courses" aria-label="노래별 학습 과정">
     {
       courseCards.map((song) => (
         <Card class="current-course" role="article">
           <div>
-            <p class="eyebrow">{song.sequence}번째 곡</p>
+            <Eyebrow>{song.sequence}번째 곡</Eyebrow>
             <h2>{song.title}</h2>
             <p>{song.description}</p>
           </div>
@@ -90,7 +92,7 @@ const courseCards = songs.slice(0, 5).map((song) => {
         </Card>
       ))
     }
-  </section>
+  </PageShell>
 </BaseLayout>
 
 <style>

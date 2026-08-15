@@ -1,5 +1,7 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import Eyebrow from '../../components/Eyebrow';
+import PageShell from '../../components/PageShell.astro';
 import { Button } from '../../components/starwind/button';
 import { Card } from '../../components/starwind/card';
 import { getOrderedLessons } from '../../lib/content';
@@ -33,20 +35,23 @@ const songCards = songs.map((song) => {
   description="노래 가사로 일본어를 공부할 수 있는 곡과 단원 목록"
 >
   <section class="catalog-hero">
-    <div class="shell">
-      <p class="eyebrow">SONG LIBRARY</p>
+    <PageShell>
+      <Eyebrow tone="hero">SONG LIBRARY</Eyebrow>
       <h1>노래로 시작하는<br />일본어 공부</h1>
       <p>
         한 곡의 감정과 이야기를 따라가며 가사, 문법, 어휘와 한자를
         차근차근 익혀 보세요.
       </p>
-    </div>
+    </PageShell>
   </section>
 
-  <section class="shell catalog-section" aria-labelledby="song-list-title">
-    <div class="section-intro">
-      <p class="eyebrow">학습 가능한 노래</p>
-      <h2 id="song-list-title">지금 만날 수 있는 곡</h2>
+  <PageShell as="section" class="catalog-section" aria-labelledby="song-list-title">
+    <div class="mb-8 max-w-152">
+      <Eyebrow>학습 가능한 노래</Eyebrow>
+      <h2
+        id="song-list-title"
+        class="mb-[0.7rem] text-[length:clamp(1.7rem,6vw,2.7rem)] font-semibold leading-[1.2] tracking-[-0.04em] [font-family:Georgia,'Noto_Serif_KR',serif]"
+      >지금 만날 수 있는 곡</h2>
     </div>
 
     <div class="song-list">
@@ -86,7 +91,7 @@ const songCards = songs.map((song) => {
         ))
       }
     </div>
-  </section>
+  </PageShell>
 </BaseLayout>
 
 <style>
@@ -94,10 +99,6 @@ const songCards = songs.map((song) => {
     padding: 4.5rem 0;
     background: var(--hero);
     color: var(--hero-foreground);
-  }
-
-  .catalog-hero :global(.eyebrow) {
-    color: var(--yellow);
   }
 
   .catalog-hero h1 {

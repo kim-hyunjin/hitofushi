@@ -11,6 +11,8 @@ import {
 } from '../../../components/starwind/breadcrumb';
 import { Button } from '../../../components/starwind/button';
 import { Card } from '../../../components/starwind/card';
+import Eyebrow from '../../../components/Eyebrow';
+import PageShell from '../../../components/PageShell.astro';
 import { getCollection } from 'astro:content';
 import { withBase } from '../../../lib/paths';
 import { songs, type SongDefinition } from '../../../lib/songs';
@@ -44,7 +46,7 @@ if (!songLessons.length) {
   description={`${song.title} 가사로 배우는 HitoFushi 일본어 학습 과정`}
 >
   <section class="song-hero">
-    <div class="shell song-hero-inner">
+    <PageShell class="song-hero-inner">
       <div>
         <Breadcrumb class="mb-5 text-[var(--on-ink-soft)]">
           <BreadcrumbList>
@@ -53,21 +55,23 @@ if (!songLessons.length) {
             <BreadcrumbItem><BreadcrumbPage class="text-[var(--hero-foreground)]">{song.title}</BreadcrumbPage></BreadcrumbItem>
           </BreadcrumbList>
         </Breadcrumb>
-        <p class="eyebrow">SONG {String(song.sequence).padStart(2, '0')}</p>
+        <Eyebrow tone="hero">SONG {String(song.sequence).padStart(2, '0')}</Eyebrow>
         <h1>{song.title}</h1>
         <p class="song-kicker">{song.artist} · {song.kicker}</p>
       </div>
       <div class="song-disc" aria-hidden="true">
         <span>あ</span>
       </div>
-    </div>
+    </PageShell>
   </section>
 
-  <section class="shell song-overview">
-    <div class="section-intro">
-      <p class="eyebrow">학습 안내</p>
-      <h2>{songLessons.length + 1}개 단원으로 읽는 한 곡</h2>
-      <p>{song.description} 핵심 문법과 어휘, 한자를 익힌 뒤 가사 전체를 최종 점검합니다.</p>
+  <PageShell as="section" class="song-overview">
+    <div class="mb-8 max-w-152">
+      <Eyebrow>학습 안내</Eyebrow>
+      <h2 class="mb-[0.7rem] text-[length:clamp(1.7rem,6vw,2.7rem)] font-semibold leading-[1.2] tracking-[-0.04em] [font-family:Georgia,'Noto_Serif_KR',serif]">
+        {songLessons.length + 1}개 단원으로 읽는 한 곡
+      </h2>
+      <p class="text-muted-foreground">{song.description} 핵심 문법과 어휘, 한자를 익힌 뒤 가사 전체를 최종 점검합니다.</p>
     </div>
 
     <div class="lesson-list">
@@ -120,7 +124,7 @@ if (!songLessons.length) {
         </Button>
       </Card>
     </div>
-  </section>
+  </PageShell>
 </BaseLayout>
 
 <style>
@@ -129,10 +133,6 @@ if (!songLessons.length) {
     padding: 3.5rem 0;
     background: var(--hero);
     color: var(--hero-foreground);
-  }
-
-  .song-hero :global(.eyebrow) {
-    color: var(--yellow);
   }
 
   .song-hero-inner {

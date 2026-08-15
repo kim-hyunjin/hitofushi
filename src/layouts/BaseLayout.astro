@@ -6,6 +6,7 @@ import Library from '@tabler/icons/outline/books.svg';
 import Chart from '@tabler/icons/outline/chart-dots-3.svg';
 import '@/styles/starwind.css';
 import '../styles/global.css';
+import PageShell from '../components/PageShell.astro';
 import { ThemeToggle } from '../components/starwind/theme-toggle';
 import {
   NavigationMenu,
@@ -49,7 +50,7 @@ const learningActive = pathname.includes('/my-learning/');
   <body>
     <a class="skip-link" href="#main-content">본문으로 건너뛰기</a>
     <header class="site-header">
-      <div class="shell header-inner">
+      <PageShell class="header-inner">
         <a class="brand" href={withBase('/')} aria-label="HitoFushi 홈">
           <span class="brand-mark" aria-hidden="true">あ</span>
           <span>
@@ -101,7 +102,7 @@ const learningActive = pathname.includes('/my-learning/');
             </SheetContent>
           </Sheet>
         </div>
-      </div>
+      </PageShell>
     </header>
 
     <main id="main-content">

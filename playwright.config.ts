@@ -7,13 +7,13 @@ export default defineConfig({
   retries: process.env.CI ? 2 : 0,
   reporter: 'list',
   use: {
-    baseURL: 'http://127.0.0.1:4399',
+    baseURL: 'http://127.0.0.1:4399/hitofushi/',
     trace: 'on-first-retry',
     screenshot: 'only-on-failure',
   },
   webServer: {
     command: 'npm run build && npm run preview -- --host 127.0.0.1 --port 4399',
-    url: 'http://127.0.0.1:4399',
+    url: 'http://127.0.0.1:4399/hitofushi/',
     reuseExistingServer: !process.env.CI,
   },
   projects: [

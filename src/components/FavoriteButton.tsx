@@ -26,7 +26,9 @@ export default function FavoriteButton({ vocabularyId, label }: Props) {
     <Toggle
       size="sm"
       variant="outline"
-      className="favorite-button rounded-full"
+      className={favorite
+        ? "size-10 shrink-0 rounded-full border-0 bg-[color-mix(in_srgb,var(--warning)_24%,var(--card))] p-0 text-xl text-accent-foreground"
+        : "size-10 shrink-0 rounded-full border-0 bg-muted p-0 text-xl text-muted-foreground"}
       aria-label={`${label} ${favorite ? '즐겨찾기 해제' : '즐겨찾기 추가'}`}
       pressed={favorite}
       onPressedChange={toggle}

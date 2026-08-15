@@ -11,19 +11,22 @@ interface Props {
 const { items } = Astro.props;
 ---
 
-<div class="vocabulary-list">
+<div class="grid gap-[0.65rem] min-[42rem]:grid-cols-2">
   {
     items.map((item) => (
-      <Card class="vocabulary-item" role="article">
-        <div>
-          <p class="vocabulary-term">
-            <strong lang="ja">{item.term}</strong>
-            <span lang="ja">{item.reading}</span>
+      <Card
+        class="flex min-w-0 flex-row items-start justify-between gap-[0.8rem] border-0 border-b border-border bg-[color-mix(in_srgb,var(--card)_84%,transparent)] p-4 min-[42rem]:rounded-[0.9rem] min-[42rem]:border"
+        role="article"
+      >
+        <div class="[&_p]:mb-0.5">
+          <p class="flex flex-wrap items-baseline gap-[0.7rem]">
+            <strong class="text-[1.15rem] [font-family:'Noto_Serif_JP',serif]" lang="ja">{item.term}</strong>
+            <span class="text-[0.78rem] text-[var(--accent-dark)]" lang="ja">{item.reading}</span>
           </p>
           <p>{item.meaning}</p>
-          {item.note && <small>{item.note}</small>}
+          {item.note && <small class="text-muted-foreground">{item.note}</small>}
         </div>
-        <div class="vocabulary-actions">
+        <div class="flex shrink-0 items-center gap-[0.4rem]">
           <JapaneseSpeechButton
             sentenceId={`${item.id}-vocabulary`}
             text={item.reading}
@@ -41,81 +44,3 @@ const { items } = Astro.props;
     ))
   }
 </div>
-
-<style>
-  .vocabulary-list {
-    display: grid;
-    gap: 0.65rem;
-  }
-
-  .vocabulary-item {
-    display: flex;
-    min-width: 0;
-    align-items: flex-start;
-    justify-content: space-between;
-    gap: 0.8rem;
-    padding: 1rem;
-    border-bottom: 1px solid var(--line);
-    background: color-mix(in srgb, var(--card) 84%, transparent);
-  }
-
-  .vocabulary-item p {
-    margin-bottom: 0.15rem;
-  }
-
-  .vocabulary-item small {
-    color: var(--ink-soft);
-  }
-
-  .vocabulary-term {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: baseline;
-    gap: 0.7rem;
-  }
-
-  .vocabulary-term strong {
-    font-family: "Noto Serif JP", serif;
-    font-size: 1.15rem;
-  }
-
-  .vocabulary-term span {
-    color: var(--accent-dark);
-    font-size: 0.78rem;
-  }
-
-  .vocabulary-actions {
-    display: flex;
-    flex: 0 0 auto;
-    align-items: center;
-    gap: 0.4rem;
-  }
-
-  .vocabulary-item :global(.favorite-button) {
-    flex: 0 0 auto;
-    width: 2.5rem;
-    aspect-ratio: 1;
-    border: 0;
-    border-radius: 50%;
-    background: var(--muted);
-    color: var(--muted-foreground);
-    font-size: 1.25rem;
-    cursor: pointer;
-  }
-
-  .vocabulary-item :global(.favorite-button.is-favorite) {
-    background: color-mix(in srgb, var(--warning) 24%, var(--card));
-    color: var(--accent-foreground);
-  }
-
-  @media (min-width: 42rem) {
-    .vocabulary-list {
-      grid-template-columns: repeat(2, 1fr);
-    }
-
-    .vocabulary-item {
-      border: 1px solid var(--line);
-      border-radius: 0.9rem;
-    }
-  }
-</style>

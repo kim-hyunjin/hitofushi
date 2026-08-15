@@ -25,7 +25,9 @@ export default function SentenceProgress({ sentenceId }: Props) {
     <Toggle
       variant={completed ? 'default' : 'outline'}
       size="sm"
-      className="sentence-check"
+      className={completed
+        ? "rounded-full border-secondary bg-[color-mix(in_srgb,var(--success)_22%,var(--card))] px-[0.55rem] py-[0.35rem] text-xs font-bold text-foreground"
+        : "rounded-full border-border bg-transparent px-[0.55rem] py-[0.35rem] text-xs font-bold text-muted-foreground"}
       pressed={completed}
       onPressedChange={toggle}
     >

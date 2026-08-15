@@ -6,6 +6,7 @@ import { ToggleGroup, ToggleGroupItem } from './starwind-react/toggle-group';
 import { useProgress } from '../hooks/useProgress';
 import { updateProgress } from '../lib/progress';
 import type { ReadingMode } from '../lib/types';
+import Eyebrow from './Eyebrow';
 
 const modes: { id: ReadingMode; label: string; hint: string }[] = [
   { id: 'beginner', label: '입문', hint: '모든 읽기 도움 표시' },
@@ -40,7 +41,7 @@ export default function ReadingControls() {
             <IconBook className="size-5" aria-hidden="true" />
           </span>
           <div>
-            <p className="eyebrow">읽기 설정</p>
+            <Eyebrow>읽기 설정</Eyebrow>
             <h2 className="mb-0 text-lg font-extrabold tracking-tight" id="reading-mode-title">
               지금의 나에게 맞춰 보기
             </h2>

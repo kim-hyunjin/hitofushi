@@ -1,9 +1,11 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+import Eyebrow from '../components/Eyebrow';
 import LearningDashboard, {
   type LearningLessonSummary,
 } from '../components/LearningDashboard';
 import ReadingControls from '../components/ReadingControls';
+import PageShell from '../components/PageShell.astro';
 import { getOrderedLessons } from '../lib/content';
 import { withBase } from '../lib/paths';
 import { getSong } from '../lib/songs';
@@ -39,20 +41,20 @@ const lessonSummaries: LearningLessonSummary[] = lessons.map((entry) => {
   description="이 브라우저에 저장된 일본어 문장 진도, 퀴즈 점수와 즐겨찾기 어휘"
 >
   <section class="learning-hero">
-    <div class="shell">
-      <p class="eyebrow">MY LEARNING</p>
+    <PageShell>
+      <Eyebrow>MY LEARNING</Eyebrow>
       <h1>내 학습</h1>
       <p>
         익힌 문장과 퀴즈 점수, 다시 보고 싶은 어휘를 한곳에서 확인하세요.
         기록은 현재 기기의 브라우저에만 저장됩니다.
       </p>
-    </div>
+    </PageShell>
   </section>
 
-  <div class="shell learning-page">
+  <PageShell class="learning-page">
     <ReadingControls client:load />
     <LearningDashboard lessons={lessonSummaries} client:load />
-  </div>
+  </PageShell>
 </BaseLayout>
 
 <style>

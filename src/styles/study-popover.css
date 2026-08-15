@@ -1,9 +1,0 @@
-.study-popover {
-  padding: 0;
-  overflow-y: auto;
-  border: 1px solid var(--line);
-  border-radius: calc(var(--radius) + 0.25rem);
-  background: var(--surface);
-  color: var(--ink);
-  box-shadow: 0 2rem 7rem rgb(23 50 77 / 28%);
-}

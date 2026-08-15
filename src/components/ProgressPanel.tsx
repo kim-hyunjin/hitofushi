@@ -3,6 +3,7 @@ import { Card, CardContent, CardHeader, CardTitle } from './starwind-react/card'
 import { Progress } from './starwind-react/progress';
 import { useProgress } from '../hooks/useProgress';
 import { percent } from '../lib/learningSummary';
+import Eyebrow from './Eyebrow';
 
 interface Props {
   lessonId: string;
@@ -18,7 +19,7 @@ export default function ProgressPanel({ lessonId, sentenceIds }: Props) {
   return (
     <Card className="sticky top-24 border-border/80 bg-card/90 shadow-sm backdrop-blur">
       <CardHeader className="pb-3">
-        <p className="eyebrow">내 진도</p>
+        <Eyebrow>내 진도</Eyebrow>
         <CardTitle id="progress-title" className="font-serif text-3xl">
           {completionPercent}% 완료
         </CardTitle>

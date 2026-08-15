@@ -8,7 +8,6 @@ import {
   DialogTitle,
   DialogTrigger,
 } from './starwind/dialog';
-import '../styles/study-popover.css';
 
 interface Props {
   entry: CollectionEntry<'grammar'>;
@@ -28,7 +27,14 @@ const titleId = `${popoverId}-title`;
 ---
 
 <Dialog>
-  <DialogTrigger class:list={['trigger', variant]} aria-haspopup="dialog">
+  <DialogTrigger
+    class:list={[
+      'cursor-pointer border-0 font-[inherit] text-foreground hover:text-[var(--accent-dark)]',
+      variant === 'chip' && 'rounded-[0.45rem] bg-muted px-2 py-[0.28rem] text-xs font-bold hover:bg-secondary',
+      variant === 'index' && 'grid min-h-[3.8rem] w-full grid-cols-[2.5rem_1fr_auto] items-center gap-[0.8rem] border-b border-border bg-transparent p-0 text-left [&_span]:text-xs [&_span]:text-muted-foreground [&_span:last-child]:text-base [&_span:last-child]:text-accent',
+    ]}
+    aria-haspopup="dialog"
+  >
     {
       variant === 'index' ? (
         <>
@@ -42,27 +48,33 @@ const titleId = `${popoverId}-title`;
     }
   </DialogTrigger>
 
-  <DialogContent id={popoverId} class="popover study-popover overflow-y-auto p-0">
-    <header>
+  <DialogContent
+    id={popoverId}
+    class="max-h-[min(42rem,calc(100%_-_1.5rem))] w-[min(38rem,calc(100%_-_1.5rem))] overflow-y-auto rounded-xl border border-border bg-card p-0 text-foreground shadow-[0_2rem_7rem_rgb(23_50_77_/_28%)] [&_[data-slot=dialog-close]]:text-[var(--hero-foreground)]"
+  >
+    <header class="flex items-start justify-between gap-4 bg-[var(--hero)] px-[1.3rem] pb-4 pt-[1.3rem] text-[var(--hero-foreground)]">
       <div>
-        <p>GRAMMAR · {entry.data.level}</p>
-        <DialogTitle id={titleId} class="!text-[length:clamp(1.8rem,7vw,2.7rem)] !font-medium !text-inherit">
+        <p class="mb-1.5 text-[0.68rem] font-[850] tracking-[0.12em] text-[var(--yellow)]">GRAMMAR · {entry.data.level}</p>
+        <DialogTitle
+          id={titleId}
+          class="mb-0 text-[length:clamp(1.8rem,7vw,2.7rem)]! font-medium! leading-[1.12] tracking-[-0.045em] text-inherit! [font-family:Georgia,'Noto_Serif_KR',serif]"
+        >
           {entry.data.title}
         </DialogTitle>
       </div>
     </header>
-    <code>{entry.data.pattern}</code>
-    <DialogDescription class="summary !text-muted-foreground">{entry.data.summary}</DialogDescription>
-    <div class="prose">
+    <code class="mx-5 mt-5 inline-block rounded-[0.55rem] bg-secondary px-[0.7rem] py-[0.55rem] text-[0.8rem] text-accent-foreground [font-family:'Noto_Sans_JP',monospace]">{entry.data.pattern}</code>
+    <DialogDescription class="mx-5 mt-4 font-bold text-muted-foreground!">{entry.data.summary}</DialogDescription>
+    <div class="px-5 pt-4 [&_code]:rounded-[0.3rem] [&_code]:bg-muted [&_code]:px-[0.3rem] [&_code]:py-[0.12rem] [&_code]:text-[var(--accent-dark)] [&_p]:mb-4">
       <Content />
     </div>
-    <section class="examples" aria-label="문법 예문">
-      <p>예문</p>
+    <section class="mt-[0.4rem] bg-secondary px-5 pb-[1.4rem] pt-[1.2rem]" aria-label="문법 예문">
+      <p class="mb-[0.4rem] text-[0.68rem] font-[850] tracking-[0.12em] text-muted-foreground">예문</p>
       {
         entry.data.examples.map((example, index) => (
-          <article>
-            <div class="example-japanese">
-              <strong lang="ja">{example.japanese}</strong>
+          <article class="grid gap-[0.1rem] border-t border-[rgb(23_50_77_/_16%)] py-[0.65rem]">
+            <div class="flex items-center justify-between gap-[0.8rem]">
+              <strong class="[font-family:'Noto_Serif_JP',serif]" lang="ja">{example.japanese}</strong>
               <JapaneseSpeechButton
                 sentenceId={`${popoverId}-example-${index}`}
                 text={example.japanese}
@@ -71,163 +83,10 @@ const titleId = `${popoverId}-title`;
                 client:visible
               />
             </div>
-            <span>{example.korean}</span>
+            <span class="text-[0.8rem] text-muted-foreground">{example.korean}</span>
           </article>
         ))
       }
     </section>
   </DialogContent>
 </Dialog>
-
-<style>
-  .trigger {
-    border: 0;
-    color: var(--ink);
-    font: inherit;
-    cursor: pointer;
-  }
-
-  .trigger:hover {
-    color: var(--accent-dark);
-  }
-
-  .chip {
-    padding: 0.28rem 0.5rem;
-    border-radius: 0.45rem;
-    background: var(--muted);
-    font-size: 0.72rem;
-    font-weight: 700;
-  }
-
-  .chip:hover {
-    background: var(--accent-pale);
-  }
-
-  .index {
-    display: grid;
-    grid-template-columns: 2.5rem 1fr auto;
-    width: 100%;
-    min-height: 3.8rem;
-    align-items: center;
-    gap: 0.8rem;
-    padding: 0;
-    border-bottom: 1px solid var(--line);
-    background: transparent;
-    text-align: left;
-  }
-
-  .index span {
-    color: var(--ink-soft);
-    font-size: 0.72rem;
-  }
-
-  .index span:last-child {
-    color: var(--accent);
-    font-size: 1rem;
-  }
-
-  .popover {
-    width: min(38rem, calc(100% - 1.5rem));
-    max-height: min(42rem, calc(100% - 1.5rem));
-  }
-
-  .popover header {
-    display: flex;
-    align-items: flex-start;
-    justify-content: space-between;
-    gap: 1rem;
-    padding: 1.3rem 1.3rem 1rem;
-    background: var(--hero);
-    color: var(--hero-foreground);
-  }
-
-  .popover :global([data-slot='dialog-close']) {
-    color: var(--hero-foreground);
-  }
-
-  .popover header p {
-    margin-bottom: 0.35rem;
-    color: var(--yellow);
-    font-size: 0.68rem;
-    font-weight: 850;
-    letter-spacing: 0.12em;
-  }
-
-  .popover h2 {
-    margin-bottom: 0;
-    font-family: Georgia, "Noto Serif KR", serif;
-    font-size: clamp(1.8rem, 7vw, 2.7rem);
-    font-weight: 500;
-    letter-spacing: -0.045em;
-    line-height: 1.12;
-  }
-
-  .popover > code {
-    display: inline-block;
-    margin: 1.25rem 1.25rem 0;
-    padding: 0.55rem 0.7rem;
-    border-radius: 0.55rem;
-    background: var(--accent-pale);
-    color: var(--accent-foreground);
-    font-family: "Noto Sans JP", monospace;
-    font-size: 0.8rem;
-  }
-
-  .summary {
-    margin: 1rem 1.25rem 0;
-    color: var(--ink-soft);
-    font-weight: 700;
-  }
-
-  .prose {
-    padding: 1rem 1.25rem 0;
-  }
-
-  .prose :global(p) {
-    margin-bottom: 1rem;
-  }
-
-  .prose :global(code) {
-    padding: 0.12rem 0.3rem;
-    border-radius: 0.3rem;
-    background: var(--muted);
-    color: var(--accent-dark);
-  }
-
-  .examples {
-    margin-top: 0.4rem;
-    padding: 1.2rem 1.25rem 1.4rem;
-    background: var(--mint);
-  }
-
-  .examples > p {
-    margin-bottom: 0.4rem;
-    color: var(--ink-soft);
-    font-size: 0.68rem;
-    font-weight: 850;
-    letter-spacing: 0.12em;
-  }
-
-  .examples article {
-    display: grid;
-    gap: 0.1rem;
-    padding: 0.65rem 0;
-    border-top: 1px solid rgb(23 50 77 / 16%);
-  }
-
-  .examples strong {
-    font-family: "Noto Serif JP", serif;
-  }
-
-  .example-japanese {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 0.8rem;
-  }
-
-  .examples span {
-    color: var(--ink-soft);
-    font-size: 0.8rem;
-  }
-</style>
