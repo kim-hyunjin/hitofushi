@@ -1,0 +1,1 @@
+import{t as e}from"./JapaneseSpeechButton.KEvROa4E.js";export{e as default};
