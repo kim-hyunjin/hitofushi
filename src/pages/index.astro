@@ -14,7 +14,7 @@ const homeLessonSummaries = orderedLessons.map((entry) => ({
   sentenceIds: entry.data.sentences.map((sentence) => sentence.id),
   vocabularyIds: entry.data.vocabulary.map((item) => item.id),
 }));
-const courseCards = songs.map((song) => {
+const courseCards = songs.slice(0, 5).map((song) => {
   const songLessons = orderedLessons.filter(
     (entry) => entry.data.songSlug === song.slug,
   );
@@ -63,40 +63,7 @@ const courseCards = songs.map((song) => {
           <a class="text-link" href={withBase('/songs/')}>노래 목록 보기</a>
         </div>
       </div>
-      <div class="hero-sample" aria-label="학습 예시">
-        <span class="sample-label">TODAY'S LINE · 01</span>
-        <p lang="ja">
-          <ruby>口喧嘩<rt>くちげんか</rt></ruby>なんか<br />
-          したくもないから
-        </p>
-        <div class="sample-divider"></div>
-        <small>말다툼 같은 건 하고 싶지 않으니까</small>
-      </div>
-    </div>
-  </section>
-
-  <section class="shell home-section">
-    <div class="section-intro">
-      <p class="eyebrow">한 문장을 세 번 만나요</p>
-      <h2>처음에는 친절하게, 나중에는 온전히</h2>
-      <p>읽기 도움을 단계적으로 줄이며 일본어 원문에 가까워집니다.</p>
-    </div>
-    <div class="mode-preview-grid">
-      <article>
-        <span>01</span>
-        <h3>입문 모드</h3>
-        <p>원문과 뜻을 함께 보며 문장의 전체 흐름을 익힙니다.</p>
-      </article>
-      <article>
-        <span>02</span>
-        <h3>초급 모드</h3>
-        <p>번역을 곁에 두고 일본어 어순과 표현에 집중합니다.</p>
-      </article>
-      <article>
-        <span>03</span>
-        <h3>읽기 모드</h3>
-        <p>원문을 먼저 읽고, 어려운 한자의 읽기는 직접 확인합니다.</p>
-      </article>
+      
     </div>
   </section>
 
@@ -149,7 +116,6 @@ const courseCards = songs.map((song) => {
   }
 
   .hero-copy h1 {
-    max-width: 12ch;
     margin-bottom: 1.4rem;
     font-family: Georgia, "Noto Serif KR", serif;
     font-size: clamp(2.7rem, 10vw, 5.7rem);
@@ -184,42 +150,12 @@ const courseCards = songs.map((song) => {
     font-weight: 750;
   }
 
-  .hero-sample {
-    position: relative;
-    align-self: end;
-    padding: 2rem 1.5rem 1.6rem;
-    border: 1px solid rgb(var(--ink-rgb) / 12%);
-    border-radius: 50% 50% 1.5rem 1.5rem;
-    background: var(--ink);
-    color: var(--white);
-    box-shadow: var(--shadow);
-  }
-
-  .hero-sample::before {
-    content: "";
-    position: absolute;
-    top: 1.25rem;
-    right: 1.25rem;
-    width: 0.8rem;
-    aspect-ratio: 1;
-    border-radius: 50%;
-    background: var(--accent);
-  }
-
   .sample-label {
     color: var(--mint);
     font-size: 0.68rem;
     font-weight: 800;
     letter-spacing: 0.12em;
-  }
-
-  .hero-sample > p {
-    margin: 1.6rem 0;
-    font-family: "Noto Serif JP", "Yu Mincho", serif;
-    font-size: clamp(1.6rem, 7vw, 2.6rem);
-    letter-spacing: 0.04em;
-    line-height: 1.7;
-  }
+  }  
 
   .sample-divider {
     width: 3.5rem;
@@ -228,11 +164,6 @@ const courseCards = songs.map((song) => {
     background: var(--accent);
   }
 
-  .hero-sample small {
-    color: var(--on-ink-muted);
-  }
-
-  .home-section,
   .current-courses {
     margin-bottom: 5rem;
   }
@@ -240,40 +171,6 @@ const courseCards = songs.map((song) => {
   .current-courses {
     display: grid;
     gap: 1.25rem;
-  }
-
-  .mode-preview-grid {
-    display: grid;
-    overflow: hidden;
-    border: 1px solid var(--line);
-    border-radius: var(--radius);
-    background: var(--surface);
-  }
-
-  .mode-preview-grid article {
-    padding: 1.6rem;
-    border-bottom: 1px solid var(--line);
-  }
-
-  .mode-preview-grid article:last-child {
-    border: 0;
-  }
-
-  .mode-preview-grid article > span {
-    color: var(--accent);
-    font-family: Georgia, serif;
-    font-size: 0.85rem;
-  }
-
-  .mode-preview-grid h3 {
-    margin: 0.7rem 0 0.45rem;
-    font-size: 1.1rem;
-  }
-
-  .mode-preview-grid p {
-    margin-bottom: 0;
-    color: var(--ink-soft);
-    font-size: 0.9rem;
   }
 
   .current-course {
@@ -317,22 +214,12 @@ const courseCards = songs.map((song) => {
 
   @media (min-width: 42rem) {
     .hero-grid {
-      grid-template-columns: 1.2fr 0.8fr;
+      grid-template-columns: 1fr;
       align-items: center;
     }
 
     .hero-sample {
       padding: 2.7rem 2.2rem 2rem;
-    }
-
-    .mode-preview-grid {
-      grid-template-columns: repeat(3, 1fr);
-    }
-
-    .mode-preview-grid article {
-      min-height: 13rem;
-      border-right: 1px solid var(--line);
-      border-bottom: 0;
     }
 
     .current-course {
