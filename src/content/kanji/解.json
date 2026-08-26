@@ -1,12 +1,28 @@
 {
   "character": "解",
-  "onyomi": ["カイ", "ゲ"],
-  "kunyomi": ["と（く）", "と（かす）", "と（ける）"],
+  "onyomi": [
+    "カイ",
+    "ゲ"
+  ],
+  "kunyomi": [
+    "と（く）",
+    "と（かす）",
+    "と（ける）"
+  ],
   "basicMeaning": "풀다",
   "wordMeaning": "魔法が解ける（まほうがとける）에서는 걸려 있던 마법의 효력이 풀린다는 뜻입니다.",
   "mnemonic": "단단히 묶인 것을 칼로 나누어 풀어내는 모습을 떠올려 보세요.",
   "examples": [
-    { "word": "解ける", "reading": "とける", "meaning": "풀리다" },
-    { "word": "理解", "reading": "りかい", "meaning": "이해" }
-  ]
+    {
+      "word": "解ける",
+      "reading": "とける",
+      "meaning": "풀리다"
+    },
+    {
+      "word": "理解",
+      "reading": "りかい",
+      "meaning": "이해"
+    }
+  ],
+  "koreanReading": "해"
 }

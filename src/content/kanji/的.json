@@ -1,12 +1,25 @@
 {
   "character": "的",
-  "onyomi": ["テキ"],
-  "kunyomi": ["まと"],
+  "onyomi": [
+    "テキ"
+  ],
+  "kunyomi": [
+    "まと"
+  ],
   "basicMeaning": "과녁, ~적",
   "wordMeaning": "断片的（だんぺんてき）에서 てき로 읽어 ‘단편적인’이라는 성질을 만듭니다.",
   "mnemonic": "과녁의 한 점처럼 앞말의 성질을 정확히 가리킨다고 떠올려 보세요.",
   "examples": [
-    { "word": "断片的", "reading": "だんぺんてき", "meaning": "단편적" },
-    { "word": "目的", "reading": "もくてき", "meaning": "목적" }
-  ]
+    {
+      "word": "断片的",
+      "reading": "だんぺんてき",
+      "meaning": "단편적"
+    },
+    {
+      "word": "目的",
+      "reading": "もくてき",
+      "meaning": "목적"
+    }
+  ],
+  "koreanReading": "적"
 }

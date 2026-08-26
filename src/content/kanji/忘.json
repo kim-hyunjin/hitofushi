@@ -1,12 +1,25 @@
 {
   "character": "忘",
-  "onyomi": ["ボウ"],
-  "kunyomi": ["わすれる"],
+  "onyomi": [
+    "ボウ"
+  ],
+  "kunyomi": [
+    "わすれる"
+  ],
   "basicMeaning": "잊다",
   "wordMeaning": "忘れる（わすれる）로 읽어 기억이나 해야 할 일을 마음에서 놓치는 것을 나타냅니다.",
   "mnemonic": "마음(心) 위에서 무언가가 사라져 기억하지 못하는 장면을 떠올려 보세요.",
   "examples": [
-    { "word": "忘れる", "reading": "わすれる", "meaning": "잊다" },
-    { "word": "忘れ物", "reading": "わすれもの", "meaning": "두고 온 물건" }
-  ]
+    {
+      "word": "忘れる",
+      "reading": "わすれる",
+      "meaning": "잊다"
+    },
+    {
+      "word": "忘れ物",
+      "reading": "わすれもの",
+      "meaning": "두고 온 물건"
+    }
+  ],
+  "koreanReading": "망"
 }

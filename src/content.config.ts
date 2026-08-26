@@ -76,6 +76,7 @@ const kanji = defineCollection({
     character: z.string().length(1),
     onyomi: z.array(z.string()),
     kunyomi: z.array(z.string()),
+    koreanReading: z.string(),
     basicMeaning: z.string(),
     wordMeaning: z.string(),
     mnemonic: z.string(),

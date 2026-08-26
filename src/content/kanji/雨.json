@@ -1,12 +1,26 @@
 {
   "character": "雨",
-  "onyomi": ["ウ"],
-  "kunyomi": ["あめ", "あま"],
+  "onyomi": [
+    "ウ"
+  ],
+  "kunyomi": [
+    "あめ",
+    "あま"
+  ],
   "basicMeaning": "비",
   "wordMeaning": "雨（あめ）로 읽어 내리는 비를 나타냅니다. 이 곡에서는 거리의 빛과 두 사람의 약속을 둘러싼 배경이 됩니다.",
   "mnemonic": "창문 너머로 빗방울 네 점이 떨어지는 모습을 떠올려 보세요.",
   "examples": [
-    { "word": "雨", "reading": "あめ", "meaning": "비" },
-    { "word": "大雨", "reading": "おおあめ", "meaning": "큰비, 폭우" }
-  ]
+    {
+      "word": "雨",
+      "reading": "あめ",
+      "meaning": "비"
+    },
+    {
+      "word": "大雨",
+      "reading": "おおあめ",
+      "meaning": "큰비, 폭우"
+    }
+  ],
+  "koreanReading": "우"
 }

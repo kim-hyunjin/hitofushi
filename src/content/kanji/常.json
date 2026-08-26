@@ -1,12 +1,26 @@
 {
   "character": "常",
-  "onyomi": ["ジョウ"],
-  "kunyomi": ["つね", "とこ"],
+  "onyomi": [
+    "ジョウ"
+  ],
+  "kunyomi": [
+    "つね",
+    "とこ"
+  ],
   "basicMeaning": "항상, 보통",
   "wordMeaning": "日常（にちじょう）에서 매일 반복되는 평소의 생활을 뜻합니다.",
   "mnemonic": "매일 같은 옷을 걸어 두는 평소의 자리를 떠올려 보세요.",
   "examples": [
-    { "word": "日常", "reading": "にちじょう", "meaning": "일상" },
-    { "word": "常に", "reading": "つねに", "meaning": "항상" }
-  ]
+    {
+      "word": "日常",
+      "reading": "にちじょう",
+      "meaning": "일상"
+    },
+    {
+      "word": "常に",
+      "reading": "つねに",
+      "meaning": "항상"
+    }
+  ],
+  "koreanReading": "상"
 }

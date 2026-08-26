@@ -1,12 +1,26 @@
 {
   "character": "繋",
-  "onyomi": ["ケイ"],
-  "kunyomi": ["つなぐ", "つながる"],
+  "onyomi": [
+    "ケイ"
+  ],
+  "kunyomi": [
+    "つなぐ",
+    "つながる"
+  ],
   "basicMeaning": "잇다, 연결하다",
   "wordMeaning": "手を繋ぐ（てをつなぐ）에서 つなぐ로 읽어 서로 손을 잡는 것을 나타냅니다.",
   "mnemonic": "두 사람 사이를 실로 단단히 이어 놓는 모습을 떠올려 보세요.",
   "examples": [
-    { "word": "繋ぐ", "reading": "つなぐ", "meaning": "잇다, 잡다" },
-    { "word": "繋がる", "reading": "つながる", "meaning": "이어지다" }
-  ]
+    {
+      "word": "繋ぐ",
+      "reading": "つなぐ",
+      "meaning": "잇다, 잡다"
+    },
+    {
+      "word": "繋がる",
+      "reading": "つながる",
+      "meaning": "이어지다"
+    }
+  ],
+  "koreanReading": "계"
 }

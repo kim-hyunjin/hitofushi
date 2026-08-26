@@ -1,12 +1,26 @@
 {
   "character": "仕",
-  "onyomi": ["シ", "ジ"],
-  "kunyomi": ["つかえる"],
+  "onyomi": [
+    "シ",
+    "ジ"
+  ],
+  "kunyomi": [
+    "つかえる"
+  ],
   "basicMeaning": "섬기다, 일하다",
   "wordMeaning": "仕草（しぐさ）에서 し로 읽어 사람의 몸짓이나 행동거지를 나타냅니다.",
   "mnemonic": "사람이 맡은 일을 하며 몸을 움직이는 모습을 떠올려 보세요.",
   "examples": [
-    { "word": "仕草", "reading": "しぐさ", "meaning": "몸짓" },
-    { "word": "仕事", "reading": "しごと", "meaning": "일" }
-  ]
+    {
+      "word": "仕草",
+      "reading": "しぐさ",
+      "meaning": "몸짓"
+    },
+    {
+      "word": "仕事",
+      "reading": "しごと",
+      "meaning": "일"
+    }
+  ],
+  "koreanReading": "사"
 }

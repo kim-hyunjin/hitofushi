@@ -1,12 +1,25 @@
 {
   "character": "溢",
-  "onyomi": ["イツ"],
-  "kunyomi": ["あふれる"],
+  "onyomi": [
+    "イツ"
+  ],
+  "kunyomi": [
+    "あふれる"
+  ],
   "basicMeaning": "넘치다",
   "wordMeaning": "溢れる（あふれる）로 읽어 추억이 가득 차 밖으로 넘칠 만큼 많아짐을 나타냅니다.",
   "mnemonic": "그릇에 물이 가득 차 가장자리 밖으로 흐르는 모습을 떠올려 보세요.",
   "examples": [
-    { "word": "溢れる", "reading": "あふれる", "meaning": "넘치다" },
-    { "word": "溢れ出す", "reading": "あふれだす", "meaning": "흘러넘치기 시작하다" }
-  ]
+    {
+      "word": "溢れる",
+      "reading": "あふれる",
+      "meaning": "넘치다"
+    },
+    {
+      "word": "溢れ出す",
+      "reading": "あふれだす",
+      "meaning": "흘러넘치기 시작하다"
+    }
+  ],
+  "koreanReading": "일"
 }

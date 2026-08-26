@@ -1,12 +1,26 @@
 {
   "character": "色",
-  "onyomi": ["ショク", "シキ"],
-  "kunyomi": ["いろ"],
+  "onyomi": [
+    "ショク",
+    "シキ"
+  ],
+  "kunyomi": [
+    "いろ"
+  ],
   "basicMeaning": "색, 빛깔",
   "wordMeaning": "色（いろ）로 읽어 두 사람의 시간이 만들어 내는 고유한 빛깔을 나타냅니다.",
   "mnemonic": "서로 다른 기억이 섞여 하나뿐인 새로운 색이 되는 모습을 떠올려 보세요.",
   "examples": [
-    { "word": "色", "reading": "いろ", "meaning": "색" },
-    { "word": "景色", "reading": "けしき", "meaning": "경치" }
-  ]
+    {
+      "word": "色",
+      "reading": "いろ",
+      "meaning": "색"
+    },
+    {
+      "word": "景色",
+      "reading": "けしき",
+      "meaning": "경치"
+    }
+  ],
+  "koreanReading": "색"
 }

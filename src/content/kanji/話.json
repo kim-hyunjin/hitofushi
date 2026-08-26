@@ -1,12 +1,26 @@
 {
   "character": "話",
-  "onyomi": ["ワ"],
-  "kunyomi": ["はな（す）", "はなし"],
+  "onyomi": [
+    "ワ"
+  ],
+  "kunyomi": [
+    "はな（す）",
+    "はなし"
+  ],
   "basicMeaning": "말하다, 이야기",
   "wordMeaning": "話をする（はなしをする）는 상대와 이야기를 나누는 것을 뜻합니다.",
   "mnemonic": "말씀(言)이 혀(舌)를 통해 이야기로 나온다고 떠올려 보세요.",
   "examples": [
-    { "word": "話す", "reading": "はなす", "meaning": "말하다" },
-    { "word": "会話", "reading": "かいわ", "meaning": "회화, 대화" }
-  ]
+    {
+      "word": "話す",
+      "reading": "はなす",
+      "meaning": "말하다"
+    },
+    {
+      "word": "会話",
+      "reading": "かいわ",
+      "meaning": "회화, 대화"
+    }
+  ],
+  "koreanReading": "화"
 }

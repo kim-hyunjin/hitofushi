@@ -23,7 +23,7 @@ import GrammarPopover from '@/components/GrammarPopover.astro';
 import KanjiPopover from '@/components/KanjiPopover.astro';
 import { withBase } from '@/lib/paths';
 import { getSong } from '@/lib/songs';
-import { getLessonReferences } from '@/lib/content';
+import { getLessonReferences, getOrderedLessons } from '@/lib/content';
 
 export async function getStaticPaths() {
   const lessons = await getCollection('lessons');
@@ -63,6 +63,18 @@ if (missingKanjiIds.length) {
 const orderedKanji = [...new Set(lessonKanji)].map((character) => kanjiMap.get(character)!);
 const youtubeWatchUrl = `https://www.youtube.com/watch?v=${song.youtubeVideoId}`;
 const youtubeEmbedUrl = `https://www.youtube-nocookie.com/embed/${song.youtubeVideoId}`;
+
+const orderedLessons = await getOrderedLessons();
+const currentIndex = orderedLessons.findIndex(
+  (entry) => entry.data.songSlug === lesson.songSlug
+    && entry.data.lessonNumber === lesson.lessonNumber,
+);
+const prevLesson = currentIndex > 0 ? orderedLessons[currentIndex - 1] : null;
+const nextLesson = currentIndex >= 0 && currentIndex < orderedLessons.length - 1
+  ? orderedLessons[currentIndex + 1]
+  : null;
+const lessonHref = (entry: CollectionEntry<'lessons'>) =>
+  withBase(`/songs/${entry.data.songSlug}/lessons/${entry.data.lessonNumber}/`);
 ---
 
 <BaseLayout title={lesson.title} description={lesson.description}>
@@ -80,10 +92,6 @@ const youtubeEmbedUrl = `https://www.youtube-nocookie.com/embed/${song.youtubeVi
           <Eyebrow>LESSON {String(lesson.lessonNumber).padStart(2, '0')}</Eyebrow>
           <h1 class="mb-[0.35rem] text-[length:clamp(2.2rem,9vw,4.3rem)] font-medium leading-[1.08] tracking-[-0.055em]">{lesson.title}</h1>
           <p class="mb-0 text-muted-foreground">{lesson.subtitle}</p>
-        </div>
-        <div class="hidden min-w-28 rounded-xl bg-[var(--hero)] px-5 py-4 text-center text-[var(--hero-foreground)] shadow-sm min-[42rem]:block">
-          <strong class="block text-[3.5rem] leading-none text-[var(--yellow)]">{lesson.estimatedMinutes}</strong>
-          <span class="mt-1 block text-xs text-[var(--on-ink-soft)]">분 코스</span>
         </div>
       </div>
     </PageShell>
@@ -173,9 +181,6 @@ const youtubeEmbedUrl = `https://www.youtube-nocookie.com/embed/${song.youtubeVi
               ))
             }
           </div>
-          <p class="mt-[0.8rem] text-xs text-muted-foreground">
-            팝오버의 연상법은 학습용 기억 장치이며 실제 어원 설명이 아닙니다.
-          </p>
         </div>
       </section>
 
@@ -210,14 +215,56 @@ const youtubeEmbedUrl = `https://www.youtube-nocookie.com/embed/${song.youtubeVi
           }
         </div>
       </section>
+
+      {
+        (prevLesson || nextLesson) && (
+          <nav class="border-t border-border pt-8" aria-label="이전/다음 레슨 이동">
+            <div class="grid gap-3 min-[32rem]:grid-cols-2">
+              {
+                prevLesson ? (
+                  <Button
+                    class="h-auto flex-col items-start justify-start gap-1 whitespace-normal rounded-xl bg-card px-5 py-4 text-left"
+                    variant="outline"
+                    href={lessonHref(prevLesson)}
+                  >
+                    <span class="text-xs font-medium text-muted-foreground">← 이전 레슨</span>
+                    <span class="text-[length:clamp(1.05rem,3vw,1.35rem)] font-semibold leading-snug tracking-[-0.03em] text-foreground">
+                      {prevLesson.data.lessonNumber}. {prevLesson.data.title}
+                    </span>
+                  </Button>
+                ) : (
+                  <span aria-hidden="true"></span>
+                )
+              }
+              {
+                nextLesson ? (
+                  <Button
+                    class="h-auto flex-col items-end justify-start gap-1 whitespace-normal rounded-xl bg-card px-5 py-4 text-right"
+                    variant="outline"
+                    href={lessonHref(nextLesson)}
+                  >
+                    <span class="text-xs font-medium text-muted-foreground">다음 레슨 →</span>
+                    <span class="text-[length:clamp(1.05rem,3vw,1.35rem)] font-semibold leading-snug tracking-[-0.03em] text-foreground">
+                      {nextLesson.data.lessonNumber}. {nextLesson.data.title}
+                    </span>
+                  </Button>
+                ) : (
+                  <span aria-hidden="true"></span>
+                )
+              }
+            </div>
+          </nav>
+        )
+      }
     </div>
 
-    <div class="lg:order-2">
+    <div class="mt-8 lg:order-2 lg:mt-0">
       <ProgressPanel
         lessonId={lessonEntry.id}
         sentenceIds={lesson.sentences.map((sentence) => sentence.id)}
         client:idle
       />
     </div>
+
   </PageShell>
 </BaseLayout>

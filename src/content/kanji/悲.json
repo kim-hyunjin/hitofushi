@@ -1,12 +1,26 @@
 {
   "character": "悲",
-  "onyomi": ["ヒ"],
-  "kunyomi": ["かなしい", "かなしむ"],
+  "onyomi": [
+    "ヒ"
+  ],
+  "kunyomi": [
+    "かなしい",
+    "かなしむ"
+  ],
   "basicMeaning": "슬프다, 슬퍼하다",
   "wordMeaning": "悲しい（かなしい）로 읽어 슬픈 감정을 나타냅니다.",
   "mnemonic": "마음속에 비가 내리는 듯한 슬픈 장면을 떠올려 보세요.",
   "examples": [
-    { "word": "悲しい", "reading": "かなしい", "meaning": "슬프다" },
-    { "word": "悲劇", "reading": "ひげき", "meaning": "비극" }
-  ]
+    {
+      "word": "悲しい",
+      "reading": "かなしい",
+      "meaning": "슬프다"
+    },
+    {
+      "word": "悲劇",
+      "reading": "ひげき",
+      "meaning": "비극"
+    }
+  ],
+  "koreanReading": "비"
 }

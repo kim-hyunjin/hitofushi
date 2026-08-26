@@ -1,12 +1,23 @@
 {
   "character": "癌",
-  "onyomi": ["ガン"],
+  "onyomi": [
+    "ガン"
+  ],
   "kunyomi": [],
   "basicMeaning": "암",
   "wordMeaning": "癌（がん）으로 읽어 질병인 암을 나타냅니다.",
   "mnemonic": "가사에서는 STAGE4와 이어져 관계의 심각함을 과장하는 장면을 떠올려 보세요.",
   "examples": [
-    { "word": "癌", "reading": "がん", "meaning": "암" },
-    { "word": "胃癌", "reading": "いがん", "meaning": "위암" }
-  ]
+    {
+      "word": "癌",
+      "reading": "がん",
+      "meaning": "암"
+    },
+    {
+      "word": "胃癌",
+      "reading": "いがん",
+      "meaning": "위암"
+    }
+  ],
+  "koreanReading": "암"
 }

@@ -1,12 +1,25 @@
 {
   "character": "麗",
-  "onyomi": ["レイ"],
-  "kunyomi": ["うるわしい"],
+  "onyomi": [
+    "レイ"
+  ],
+  "kunyomi": [
+    "うるわしい"
+  ],
   "basicMeaning": "곱다, 아름답다",
   "wordMeaning": "綺麗（きれい）에서 쓰여 상대의 모습과 존재가 아름답다는 뜻을 만듭니다.",
   "mnemonic": "빛 속에서 가지런하고 아름답게 빛나는 모습을 떠올려 보세요.",
   "examples": [
-    { "word": "綺麗", "reading": "きれい", "meaning": "아름답다, 깨끗하다" },
-    { "word": "麗しい", "reading": "うるわしい", "meaning": "아름답다, 곱다" }
-  ]
+    {
+      "word": "綺麗",
+      "reading": "きれい",
+      "meaning": "아름답다, 깨끗하다"
+    },
+    {
+      "word": "麗しい",
+      "reading": "うるわしい",
+      "meaning": "아름답다, 곱다"
+    }
+  ],
+  "koreanReading": "려"
 }

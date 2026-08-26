@@ -1,12 +1,25 @@
 {
   "character": "単",
-  "onyomi": ["タン"],
-  "kunyomi": ["ひとえ"],
+  "onyomi": [
+    "タン"
+  ],
+  "kunyomi": [
+    "ひとえ"
+  ],
   "basicMeaning": "하나, 단순하다",
   "wordMeaning": "単純（たんじゅん）에서 たん으로 읽어 복잡하지 않은 상태를 나타냅니다.",
   "mnemonic": "여러 갈래 없이 하나만 남은 단순한 길을 떠올려 보세요.",
   "examples": [
-    { "word": "単純", "reading": "たんじゅん", "meaning": "단순함" },
-    { "word": "単語", "reading": "たんご", "meaning": "단어" }
-  ]
+    {
+      "word": "単純",
+      "reading": "たんじゅん",
+      "meaning": "단순함"
+    },
+    {
+      "word": "単語",
+      "reading": "たんご",
+      "meaning": "단어"
+    }
+  ],
+  "koreanReading": "단"
 }

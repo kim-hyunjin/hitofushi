@@ -1,12 +1,26 @@
 {
   "character": "光",
-  "onyomi": ["コウ"],
-  "kunyomi": ["ひかり", "ひかる"],
+  "onyomi": [
+    "コウ"
+  ],
+  "kunyomi": [
+    "ひかり",
+    "ひかる"
+  ],
   "basicMeaning": "빛, 빛나다",
   "wordMeaning": "光る（ひかる）와 光輝く（ひかりかがやく）에서는 빛을 내며 반짝이는 모습을, 跳ねる光（はねるひかり）에서는 수면 위에서 튀어 오르는 듯한 빛을 나타냅니다.",
   "mnemonic": "불꽃과 수면 위에서 사방으로 뻗으며 반짝이는 빛을 떠올려 보세요.",
   "examples": [
-    { "word": "光", "reading": "ひかり", "meaning": "빛" },
-    { "word": "光る", "reading": "ひかる", "meaning": "빛나다" }
-  ]
+    {
+      "word": "光",
+      "reading": "ひかり",
+      "meaning": "빛"
+    },
+    {
+      "word": "光る",
+      "reading": "ひかる",
+      "meaning": "빛나다"
+    }
+  ],
+  "koreanReading": "광"
 }

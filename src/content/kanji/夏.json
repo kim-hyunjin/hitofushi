@@ -1,12 +1,26 @@
 {
   "character": "夏",
-  "onyomi": ["カ", "ゲ"],
-  "kunyomi": ["なつ"],
+  "onyomi": [
+    "カ",
+    "ゲ"
+  ],
+  "kunyomi": [
+    "なつ"
+  ],
   "basicMeaning": "여름",
   "wordMeaning": "夏の日（なつのひ）와 茹だる夏（うだるなつ）에서 이야기의 기억이 태어난 계절을 나타냅니다.",
   "mnemonic": "강한 햇빛과 뜨거운 공기로 가득한 여름날을 떠올려 보세요.",
   "examples": [
-    { "word": "夏", "reading": "なつ", "meaning": "여름" },
-    { "word": "初夏", "reading": "しょか", "meaning": "초여름" }
-  ]
+    {
+      "word": "夏",
+      "reading": "なつ",
+      "meaning": "여름"
+    },
+    {
+      "word": "初夏",
+      "reading": "しょか",
+      "meaning": "초여름"
+    }
+  ],
+  "koreanReading": "하"
 }

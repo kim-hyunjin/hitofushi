@@ -1,12 +1,25 @@
 {
   "character": "魂",
-  "onyomi": ["コン"],
-  "kunyomi": ["たましい"],
+  "onyomi": [
+    "コン"
+  ],
+  "kunyomi": [
+    "たましい"
+  ],
   "basicMeaning": "혼, 영혼",
   "wordMeaning": "魂（たましい）로 사람의 생명력과 정신의 중심을 나타냅니다.",
   "mnemonic": "구름처럼 보이지 않지만 사람 안에 깃든 혼을 떠올려 보세요.",
   "examples": [
-    { "word": "魂", "reading": "たましい", "meaning": "혼, 영혼" },
-    { "word": "闘魂", "reading": "とうこん", "meaning": "투혼" }
-  ]
+    {
+      "word": "魂",
+      "reading": "たましい",
+      "meaning": "혼, 영혼"
+    },
+    {
+      "word": "闘魂",
+      "reading": "とうこん",
+      "meaning": "투혼"
+    }
+  ],
+  "koreanReading": "혼"
 }

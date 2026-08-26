@@ -1,12 +1,25 @@
 {
   "character": "花",
-  "onyomi": ["カ"],
-  "kunyomi": ["はな"],
+  "onyomi": [
+    "カ"
+  ],
+  "kunyomi": [
+    "はな"
+  ],
   "basicMeaning": "꽃",
   "wordMeaning": "花を散らして（はなをちらして）에서 はな로 읽으며, 배웅의 풍경에 흩날리는 색채를 더합니다.",
   "mnemonic": "바람을 타고 여러 갈래로 흩날리는 꽃잎을 떠올려 보세요.",
   "examples": [
-    { "word": "花", "reading": "はな", "meaning": "꽃" },
-    { "word": "花火", "reading": "はなび", "meaning": "불꽃놀이" }
-  ]
+    {
+      "word": "花",
+      "reading": "はな",
+      "meaning": "꽃"
+    },
+    {
+      "word": "花火",
+      "reading": "はなび",
+      "meaning": "불꽃놀이"
+    }
+  ],
+  "koreanReading": "화"
 }

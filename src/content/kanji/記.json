@@ -1,12 +1,25 @@
 {
   "character": "記",
-  "onyomi": ["キ"],
-  "kunyomi": ["しるす"],
+  "onyomi": [
+    "キ"
+  ],
+  "kunyomi": [
+    "しるす"
+  ],
   "basicMeaning": "기록하다, 적다",
   "wordMeaning": "記憶（きおく）에서 마음에 남겨 기억하는 작용을 나타냅니다.",
   "mnemonic": "사라지지 않도록 중요한 일을 글로 적어 두는 모습을 떠올려 보세요.",
   "examples": [
-    { "word": "記憶", "reading": "きおく", "meaning": "기억" },
-    { "word": "日記", "reading": "にっき", "meaning": "일기" }
-  ]
+    {
+      "word": "記憶",
+      "reading": "きおく",
+      "meaning": "기억"
+    },
+    {
+      "word": "日記",
+      "reading": "にっき",
+      "meaning": "일기"
+    }
+  ],
+  "koreanReading": "기"
 }

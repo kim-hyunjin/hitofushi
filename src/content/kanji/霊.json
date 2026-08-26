@@ -1,12 +1,26 @@
 {
   "character": "霊",
-  "onyomi": ["レイ", "リョウ"],
-  "kunyomi": ["たま"],
+  "onyomi": [
+    "レイ",
+    "リョウ"
+  ],
+  "kunyomi": [
+    "たま"
+  ],
   "basicMeaning": "영혼, 신령",
   "wordMeaning": "幽霊（ゆうれい）에서 れい로 읽으며, 모습은 보이지 않아도 느껴지는 존재를 나타냅니다.",
   "mnemonic": "눈에 보이지 않아도 바다의 빛과 기억 속에서 느껴지는 영혼을 떠올려 보세요.",
   "examples": [
-    { "word": "幽霊", "reading": "ゆうれい", "meaning": "유령" },
-    { "word": "霊感", "reading": "れいかん", "meaning": "영감, 신비한 감응" }
-  ]
+    {
+      "word": "幽霊",
+      "reading": "ゆうれい",
+      "meaning": "유령"
+    },
+    {
+      "word": "霊感",
+      "reading": "れいかん",
+      "meaning": "영감, 신비한 감응"
+    }
+  ],
+  "koreanReading": "령"
 }

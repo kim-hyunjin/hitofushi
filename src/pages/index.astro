@@ -38,10 +38,6 @@ const courseCards = songs.slice(0, 5).map((song) => {
         entry.data.sentences.flatMap((sentence) => sentence.kanjiIds),
       ),
     ).size,
-    estimatedMinutes: songLessons.reduce(
-      (total, entry) => total + entry.data.estimatedMinutes,
-      0,
-    ),
   };
 });
 ---
@@ -64,7 +60,6 @@ const courseCards = songs.slice(0, 5).map((song) => {
         </p>
         <div class="flex flex-wrap items-center gap-5">
           <HomeLearningCta lessons={homeLessonSummaries} client:load />
-          <Button variant="ghost" href={withBase('/songs/')}>노래 목록 보기</Button>
         </div>
       </div>
       
@@ -83,11 +78,10 @@ const courseCards = songs.slice(0, 5).map((song) => {
             <h2>{song.title}</h2>
             <p>{song.description}</p>
           </div>
-          <div class="grid grid-cols-2 gap-[0.7rem] min-[42rem]:grid-cols-4 [&_span]:rounded-xl [&_span]:bg-[color-mix(in_srgb,var(--background)_52%,transparent)] [&_span]:p-[0.8rem] [&_span]:text-[0.8rem] [&_span]:text-muted-foreground [&_strong]:block [&_strong]:text-2xl [&_strong]:text-foreground">
+          <div class="grid grid-cols-2 gap-[0.7rem] min-[42rem]:grid-cols-3 [&_span]:rounded-xl [&_span]:bg-[color-mix(in_srgb,var(--background)_52%,transparent)] [&_span]:p-[0.8rem] [&_span]:text-[0.8rem] [&_span]:text-muted-foreground [&_strong]:block [&_strong]:text-2xl [&_strong]:text-foreground">
             <span><strong>{song.sentenceCount}</strong> 문장</span>
             <span><strong>{song.vocabularyCount}</strong> 단어</span>
             <span><strong>{song.kanjiCount}</strong> 한자</span>
-            <span><strong>{song.estimatedMinutes}</strong> 분</span>
           </div>
           <Button href={withBase(`/songs/${song.slug}/`)}>
             학습 내용 살펴보기
@@ -95,5 +89,8 @@ const courseCards = songs.slice(0, 5).map((song) => {
         </Card>
       ))
     }
+    <div class="flex justify-center">
+      <Button variant="ghost" href={withBase('/songs/')}>전체 노래 보기</Button>
+    </div>
   </PageShell>
 </BaseLayout>

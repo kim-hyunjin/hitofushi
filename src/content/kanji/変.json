@@ -1,13 +1,31 @@
 {
   "character": "変",
-  "onyomi": ["ヘン"],
-  "kunyomi": ["かわる", "かえる"],
+  "onyomi": [
+    "ヘン"
+  ],
+  "kunyomi": [
+    "かわる",
+    "かえる"
+  ],
   "basicMeaning": "변하다, 바꾸다",
   "wordMeaning": "変わる（かわる）는 상태나 모습이 달라지는 것을 나타내며, 変わらない（かわらない）는 ‘변하지 않는다’는 뜻입니다.",
   "mnemonic": "익숙했던 모습이 이전과 다른 모습으로 뒤바뀌는 장면을 떠올려 보세요.",
   "examples": [
-    { "word": "変わる", "reading": "かわる", "meaning": "변하다" },
-    { "word": "変化", "reading": "へんか", "meaning": "변화" },
-    { "word": "大変", "reading": "たいへん", "meaning": "큰일, 힘듦" }
-  ]
+    {
+      "word": "変わる",
+      "reading": "かわる",
+      "meaning": "변하다"
+    },
+    {
+      "word": "変化",
+      "reading": "へんか",
+      "meaning": "변화"
+    },
+    {
+      "word": "大変",
+      "reading": "たいへん",
+      "meaning": "큰일, 힘듦"
+    }
+  ],
+  "koreanReading": "변"
 }

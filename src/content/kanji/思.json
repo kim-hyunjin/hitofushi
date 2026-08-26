@@ -1,13 +1,30 @@
 {
   "character": "思",
-  "onyomi": ["シ"],
-  "kunyomi": ["おもう"],
+  "onyomi": [
+    "シ"
+  ],
+  "kunyomi": [
+    "おもう"
+  ],
   "basicMeaning": "생각하다, 마음",
   "wordMeaning": "思う（おもう）는 마음속으로 생각하거나 느끼는 것을, 思い出す（おもいだす）는 기억 속의 일을 다시 떠올리는 것을, 思いきり（おもいきり）는 망설임을 내려놓고 마음껏 하는 정도를 나타냅니다.",
   "mnemonic": "마음(心) 위의 밭(田)에서 여러 생각이 자라나는 모습을 떠올려 보세요.",
   "examples": [
-    { "word": "思う", "reading": "おもう", "meaning": "생각하다" },
-    { "word": "思い出す", "reading": "おもいだす", "meaning": "떠올리다, 기억해 내다" },
-    { "word": "思いきり", "reading": "おもいきり", "meaning": "마음껏" }
-  ]
+    {
+      "word": "思う",
+      "reading": "おもう",
+      "meaning": "생각하다"
+    },
+    {
+      "word": "思い出す",
+      "reading": "おもいだす",
+      "meaning": "떠올리다, 기억해 내다"
+    },
+    {
+      "word": "思いきり",
+      "reading": "おもいきり",
+      "meaning": "마음껏"
+    }
+  ],
+  "koreanReading": "사"
 }

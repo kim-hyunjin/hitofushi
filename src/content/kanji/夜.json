@@ -1,12 +1,26 @@
 {
   "character": "夜",
-  "onyomi": ["ヤ"],
-  "kunyomi": ["よ", "よる"],
+  "onyomi": [
+    "ヤ"
+  ],
+  "kunyomi": [
+    "よ",
+    "よる"
+  ],
   "basicMeaning": "밤",
   "wordMeaning": "夜（よる）로 읽어 해가 진 뒤의 시간을 나타냅니다.",
   "mnemonic": "해가 지고 길의 앞이 어두워진 밤을 떠올려 보세요.",
   "examples": [
-    { "word": "夜", "reading": "よる", "meaning": "밤" },
-    { "word": "今夜", "reading": "こんや", "meaning": "오늘 밤" }
-  ]
+    {
+      "word": "夜",
+      "reading": "よる",
+      "meaning": "밤"
+    },
+    {
+      "word": "今夜",
+      "reading": "こんや",
+      "meaning": "오늘 밤"
+    }
+  ],
+  "koreanReading": "야"
 }

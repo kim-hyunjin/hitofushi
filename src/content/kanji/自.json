@@ -1,12 +1,26 @@
 {
   "character": "自",
-  "onyomi": ["ジ", "シ"],
-  "kunyomi": ["みずから"],
+  "onyomi": [
+    "ジ",
+    "シ"
+  ],
+  "kunyomi": [
+    "みずから"
+  ],
   "basicMeaning": "스스로, 자기",
   "wordMeaning": "自分에서 다른 사람이 아닌 ‘자기 자신’을 가리킵니다.",
   "mnemonic": "거울 속 자신의 얼굴을 똑바로 바라보는 장면을 떠올려 보세요.",
   "examples": [
-    { "word": "自分", "reading": "じぶん", "meaning": "자신" },
-    { "word": "自由", "reading": "じゆう", "meaning": "자유" }
-  ]
+    {
+      "word": "自分",
+      "reading": "じぶん",
+      "meaning": "자신"
+    },
+    {
+      "word": "自由",
+      "reading": "じゆう",
+      "meaning": "자유"
+    }
+  ],
+  "koreanReading": "자"
 }

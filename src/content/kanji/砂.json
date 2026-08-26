@@ -1,12 +1,26 @@
 {
   "character": "砂",
-  "onyomi": ["サ", "シャ"],
-  "kunyomi": ["すな"],
+  "onyomi": [
+    "サ",
+    "シャ"
+  ],
+  "kunyomi": [
+    "すな"
+  ],
   "basicMeaning": "모래",
   "wordMeaning": "砂浜（すなはま）에서 すな로 읽으며, 재회를 약속하는 바닷가의 모래를 나타냅니다.",
   "mnemonic": "손가락 사이로 흘러내리는 작은 모래알을 떠올려 보세요.",
   "examples": [
-    { "word": "砂", "reading": "すな", "meaning": "모래" },
-    { "word": "砂浜", "reading": "すなはま", "meaning": "모래사장" }
-  ]
+    {
+      "word": "砂",
+      "reading": "すな",
+      "meaning": "모래"
+    },
+    {
+      "word": "砂浜",
+      "reading": "すなはま",
+      "meaning": "모래사장"
+    }
+  ],
+  "koreanReading": "사"
 }

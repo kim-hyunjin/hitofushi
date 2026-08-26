@@ -1,12 +1,25 @@
 {
   "character": "肌",
-  "onyomi": ["キ"],
-  "kunyomi": ["はだ"],
+  "onyomi": [
+    "キ"
+  ],
+  "kunyomi": [
+    "はだ"
+  ],
   "basicMeaning": "피부",
   "wordMeaning": "肌荒れ（はだあれ）에서 거칠어지고 트러블이 난 피부를 뜻합니다.",
   "mnemonic": "몸의 바깥을 감싸는 얇은 피부를 손으로 만지는 장면을 떠올려 보세요.",
   "examples": [
-    { "word": "肌", "reading": "はだ", "meaning": "피부" },
-    { "word": "肌荒れ", "reading": "はだあれ", "meaning": "피부 트러블" }
-  ]
+    {
+      "word": "肌",
+      "reading": "はだ",
+      "meaning": "피부"
+    },
+    {
+      "word": "肌荒れ",
+      "reading": "はだあれ",
+      "meaning": "피부 트러블"
+    }
+  ],
+  "koreanReading": "기"
 }

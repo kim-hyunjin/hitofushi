@@ -1,12 +1,28 @@
 {
   "character": "分",
-  "onyomi": ["ブン", "フン", "ブ"],
-  "kunyomi": ["わける", "わかる"],
+  "onyomi": [
+    "ブン",
+    "フン",
+    "ブ"
+  ],
+  "kunyomi": [
+    "わける",
+    "わかる"
+  ],
   "basicMeaning": "나누다, 부분, 알다",
   "wordMeaning": "自分에서 자신에게 해당하는 몫이나 존재를 가리키는 말의 일부입니다.",
   "mnemonic": "하나를 둘로 나누어 각자의 몫을 구분하는 장면을 떠올려 보세요.",
   "examples": [
-    { "word": "自分", "reading": "じぶん", "meaning": "자신" },
-    { "word": "分かる", "reading": "わかる", "meaning": "알다" }
-  ]
+    {
+      "word": "自分",
+      "reading": "じぶん",
+      "meaning": "자신"
+    },
+    {
+      "word": "分かる",
+      "reading": "わかる",
+      "meaning": "알다"
+    }
+  ],
+  "koreanReading": "분"
 }

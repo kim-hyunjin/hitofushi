@@ -58,7 +58,12 @@ export default function ReadingControls() {
             spacing={0}
           >
             {modes.map((item) => (
-              <ToggleGroupItem key={item.id} value={item.id} title={item.hint}>
+              <ToggleGroupItem
+                key={item.id}
+                value={item.id}
+                title={item.hint}
+                className="data-[state=on]:bg-foreground data-[state=on]:text-background data-[state=on]:hover:bg-foreground data-[state=on]:hover:text-background"
+              >
                 {item.label}
               </ToggleGroupItem>
             ))}

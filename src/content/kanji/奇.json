@@ -1,12 +1,23 @@
 {
   "character": "奇",
-  "onyomi": ["キ"],
-  "kunyomi": [] ,
+  "onyomi": [
+    "キ"
+  ],
+  "kunyomi": [],
   "basicMeaning": "기이하다, 뜻밖이다",
   "wordMeaning": "奇跡（きせき）에서 상식으로 설명하기 어려운 놀라운 일을 나타냅니다.",
   "mnemonic": "크게 기대어 선 낯설고 놀라운 모습을 떠올려 보세요.",
   "examples": [
-    { "word": "奇跡", "reading": "きせき", "meaning": "기적" },
-    { "word": "奇妙", "reading": "きみょう", "meaning": "기묘함" }
-  ]
+    {
+      "word": "奇跡",
+      "reading": "きせき",
+      "meaning": "기적"
+    },
+    {
+      "word": "奇妙",
+      "reading": "きみょう",
+      "meaning": "기묘함"
+    }
+  ],
+  "koreanReading": "기"
 }

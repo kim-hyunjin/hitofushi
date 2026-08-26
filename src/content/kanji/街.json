@@ -1,12 +1,26 @@
 {
   "character": "街",
-  "onyomi": ["ガイ", "カイ"],
-  "kunyomi": ["まち"],
+  "onyomi": [
+    "ガイ",
+    "カイ"
+  ],
+  "kunyomi": [
+    "まち"
+  ],
   "basicMeaning": "거리",
   "wordMeaning": "街（まち）로 읽어 상점과 집이 모인 거리나 번화가를 나타냅니다.",
   "mnemonic": "길(行) 사이에 흙으로 다져진 마을 거리가 이어진 모습을 떠올려 보세요.",
   "examples": [
-    { "word": "街", "reading": "まち", "meaning": "거리, 번화가" },
-    { "word": "街角", "reading": "まちかど", "meaning": "길모퉁이" }
-  ]
+    {
+      "word": "街",
+      "reading": "まち",
+      "meaning": "거리, 번화가"
+    },
+    {
+      "word": "街角",
+      "reading": "まちかど",
+      "meaning": "길모퉁이"
+    }
+  ],
+  "koreanReading": "가"
 }

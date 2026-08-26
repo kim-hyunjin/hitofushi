@@ -1,12 +1,26 @@
 {
   "character": "恋",
-  "onyomi": ["レン"],
-  "kunyomi": ["こい", "こいしい"],
+  "onyomi": [
+    "レン"
+  ],
+  "kunyomi": [
+    "こい",
+    "こいしい"
+  ],
   "basicMeaning": "사랑, 그리워하다",
   "wordMeaning": "恋愛（れんあい）와 恋（こい）에서 쓰여 누군가를 좋아하고 그리워하는 사랑을 나타냅니다.",
   "mnemonic": "마음속에서 한 사람을 계속 그리워하는 모습을 떠올려 보세요.",
   "examples": [
-    { "word": "恋", "reading": "こい", "meaning": "사랑, 연애 감정" },
-    { "word": "恋愛", "reading": "れんあい", "meaning": "연애" }
-  ]
+    {
+      "word": "恋",
+      "reading": "こい",
+      "meaning": "사랑, 연애 감정"
+    },
+    {
+      "word": "恋愛",
+      "reading": "れんあい",
+      "meaning": "연애"
+    }
+  ],
+  "koreanReading": "련"
 }

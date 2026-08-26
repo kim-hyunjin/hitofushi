@@ -1,12 +1,26 @@
 {
   "character": "笑",
-  "onyomi": ["ショウ"],
-  "kunyomi": ["わらう", "えむ"],
+  "onyomi": [
+    "ショウ"
+  ],
+  "kunyomi": [
+    "わらう",
+    "えむ"
+  ],
   "basicMeaning": "웃다, 미소",
   "wordMeaning": "笑える（わらえる）로 읽어 ‘웃을 수 있다’는 가능을 나타냅니다.",
   "mnemonic": "추억을 돌아보며 얼굴에 번지는 미소를 떠올려 보세요.",
   "examples": [
-    { "word": "笑う", "reading": "わらう", "meaning": "웃다" },
-    { "word": "笑顔", "reading": "えがお", "meaning": "웃는 얼굴" }
-  ]
+    {
+      "word": "笑う",
+      "reading": "わらう",
+      "meaning": "웃다"
+    },
+    {
+      "word": "笑顔",
+      "reading": "えがお",
+      "meaning": "웃는 얼굴"
+    }
+  ],
+  "koreanReading": "소"
 }

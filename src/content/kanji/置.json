@@ -1,12 +1,25 @@
 {
   "character": "置",
-  "onyomi": ["チ"],
-  "kunyomi": ["おく"],
+  "onyomi": [
+    "チ"
+  ],
+  "kunyomi": [
+    "おく"
+  ],
   "basicMeaning": "두다, 놓다",
   "wordMeaning": "置いてくる（おいてくる）에서 어떤 곳에 물건이나 기억을 남겨 두고 오는 동작을 나타냅니다.",
   "mnemonic": "책상 위 정해진 자리에 물건을 내려놓는 모습을 떠올려 보세요.",
   "examples": [
-    { "word": "置く", "reading": "おく", "meaning": "두다, 놓다" },
-    { "word": "物置", "reading": "ものおき", "meaning": "창고" }
-  ]
+    {
+      "word": "置く",
+      "reading": "おく",
+      "meaning": "두다, 놓다"
+    },
+    {
+      "word": "物置",
+      "reading": "ものおき",
+      "meaning": "창고"
+    }
+  ],
+  "koreanReading": "치"
 }

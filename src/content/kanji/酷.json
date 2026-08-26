@@ -1,12 +1,25 @@
 {
   "character": "酷",
-  "onyomi": ["コク"],
-  "kunyomi": ["ひど"],
+  "onyomi": [
+    "コク"
+  ],
+  "kunyomi": [
+    "ひど"
+  ],
   "basicMeaning": "심하다, 가혹하다",
   "wordMeaning": "酷く（ひどく）에서 상태가 몹시 심해짐을 나타냅니다.",
   "mnemonic": "너무 독해 얼굴을 찌푸리게 되는 심한 상태를 떠올려 보세요.",
   "examples": [
-    { "word": "酷い", "reading": "ひどい", "meaning": "심하다, 지독하다" },
-    { "word": "残酷", "reading": "ざんこく", "meaning": "잔혹함" }
-  ]
+    {
+      "word": "酷い",
+      "reading": "ひどい",
+      "meaning": "심하다, 지독하다"
+    },
+    {
+      "word": "残酷",
+      "reading": "ざんこく",
+      "meaning": "잔혹함"
+    }
+  ],
+  "koreanReading": "혹"
 }

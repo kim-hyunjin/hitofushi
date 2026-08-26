@@ -1,12 +1,26 @@
 {
   "character": "残",
-  "onyomi": ["ザン"],
-  "kunyomi": ["のこる", "のこす"],
+  "onyomi": [
+    "ザン"
+  ],
+  "kunyomi": [
+    "のこる",
+    "のこす"
+  ],
   "basicMeaning": "남다, 남기다",
   "wordMeaning": "残る（のこる）로 읽어 다른 것이 사라진 뒤에도 그대로 있는 것을 나타냅니다.",
   "mnemonic": "모두 지나간 자리에도 작은 흔적 하나가 남아 있는 모습을 떠올려 보세요.",
   "examples": [
-    { "word": "残る", "reading": "のこる", "meaning": "남다" },
-    { "word": "残す", "reading": "のこす", "meaning": "남기다" }
-  ]
+    {
+      "word": "残る",
+      "reading": "のこる",
+      "meaning": "남다"
+    },
+    {
+      "word": "残す",
+      "reading": "のこす",
+      "meaning": "남기다"
+    }
+  ],
+  "koreanReading": "잔"
 }

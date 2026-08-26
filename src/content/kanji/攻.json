@@ -1,12 +1,25 @@
 {
   "character": "攻",
-  "onyomi": ["コウ"],
-  "kunyomi": ["せめる"],
+  "onyomi": [
+    "コウ"
+  ],
+  "kunyomi": [
+    "せめる"
+  ],
   "basicMeaning": "공격하다",
   "wordMeaning": "攻撃（こうげき）에서 こう로 읽어 상대를 치는 행동을 나타냅니다.",
   "mnemonic": "상대의 빈틈을 향해 밀고 들어가는 모습을 떠올려 보세요.",
   "examples": [
-    { "word": "攻撃", "reading": "こうげき", "meaning": "공격" },
-    { "word": "攻める", "reading": "せめる", "meaning": "공격하다" }
-  ]
+    {
+      "word": "攻撃",
+      "reading": "こうげき",
+      "meaning": "공격"
+    },
+    {
+      "word": "攻める",
+      "reading": "せめる",
+      "meaning": "공격하다"
+    }
+  ],
+  "koreanReading": "공"
 }

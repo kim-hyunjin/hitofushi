@@ -1,12 +1,25 @@
 {
   "character": "辞",
-  "onyomi": ["ジ"],
-  "kunyomi": ["や"],
+  "onyomi": [
+    "ジ"
+  ],
+  "kunyomi": [
+    "や"
+  ],
   "basicMeaning": "그만두다, 말",
   "wordMeaning": "辞める（やめる）에서 하던 일이나 직장을 그만둠을 뜻합니다.",
   "mnemonic": "마지막 말을 남기고 자리에서 물러나는 장면을 떠올려 보세요.",
   "examples": [
-    { "word": "辞める", "reading": "やめる", "meaning": "그만두다" },
-    { "word": "辞書", "reading": "じしょ", "meaning": "사전" }
-  ]
+    {
+      "word": "辞める",
+      "reading": "やめる",
+      "meaning": "그만두다"
+    },
+    {
+      "word": "辞書",
+      "reading": "じしょ",
+      "meaning": "사전"
+    }
+  ],
+  "koreanReading": "사"
 }

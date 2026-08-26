@@ -1,12 +1,26 @@
 {
   "character": "悪",
-  "onyomi": ["アク", "オ"],
-  "kunyomi": ["わる"],
+  "onyomi": [
+    "アク",
+    "オ"
+  ],
+  "kunyomi": [
+    "わる"
+  ],
   "basicMeaning": "나쁘다",
   "wordMeaning": "悪い日（わるいひ）에서 좋지 않은 하루를 나타냅니다.",
   "mnemonic": "마음 아래에 불편한 기운이 쌓인 나쁜 상태를 떠올려 보세요.",
   "examples": [
-    { "word": "悪い", "reading": "わるい", "meaning": "나쁘다" },
-    { "word": "最悪", "reading": "さいあく", "meaning": "최악" }
-  ]
+    {
+      "word": "悪い",
+      "reading": "わるい",
+      "meaning": "나쁘다"
+    },
+    {
+      "word": "最悪",
+      "reading": "さいあく",
+      "meaning": "최악"
+    }
+  ],
+  "koreanReading": "악"
 }

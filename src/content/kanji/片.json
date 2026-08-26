@@ -1,12 +1,25 @@
 {
   "character": "片",
-  "onyomi": ["ヘン"],
-  "kunyomi": ["かた"],
+  "onyomi": [
+    "ヘン"
+  ],
+  "kunyomi": [
+    "かた"
+  ],
   "basicMeaning": "조각, 한쪽",
   "wordMeaning": "断片的（だんぺんてき）에서 ぺん으로 소리가 변해 흩어진 조각의 성질을 나타냅니다.",
   "mnemonic": "온전한 하나에서 떨어져 나온 작은 한쪽 조각을 떠올려 보세요.",
   "examples": [
-    { "word": "断片", "reading": "だんぺん", "meaning": "단편, 조각" },
-    { "word": "片手", "reading": "かたて", "meaning": "한 손" }
-  ]
+    {
+      "word": "断片",
+      "reading": "だんぺん",
+      "meaning": "단편, 조각"
+    },
+    {
+      "word": "片手",
+      "reading": "かたて",
+      "meaning": "한 손"
+    }
+  ],
+  "koreanReading": "편"
 }

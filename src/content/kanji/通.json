@@ -1,12 +1,27 @@
 {
   "character": "通",
-  "onyomi": ["ツウ", "ツ"],
-  "kunyomi": ["とお", "かよ"],
+  "onyomi": [
+    "ツウ",
+    "ツ"
+  ],
+  "kunyomi": [
+    "とお",
+    "かよ"
+  ],
   "basicMeaning": "통하다",
   "wordMeaning": "通知（つうち）에서 소식이나 내용을 전달한다는 뜻을 만듭니다.",
   "mnemonic": "길을 따라 소식이 막힘없이 오가는 모습을 떠올려 보세요.",
   "examples": [
-    { "word": "通知", "reading": "つうち", "meaning": "알림, 통지" },
-    { "word": "通る", "reading": "とおる", "meaning": "통과하다" }
-  ]
+    {
+      "word": "通知",
+      "reading": "つうち",
+      "meaning": "알림, 통지"
+    },
+    {
+      "word": "通る",
+      "reading": "とおる",
+      "meaning": "통과하다"
+    }
+  ],
+  "koreanReading": "통"
 }

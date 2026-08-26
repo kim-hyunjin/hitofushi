@@ -1,12 +1,26 @@
 {
   "character": "細",
-  "onyomi": ["サイ"],
-  "kunyomi": ["ほそい", "こまかい"],
+  "onyomi": [
+    "サイ"
+  ],
+  "kunyomi": [
+    "ほそい",
+    "こまかい"
+  ],
   "basicMeaning": "가늘다, 자세하다",
   "wordMeaning": "細心에서 작은 부분까지 놓치지 않는 ‘세심함’을 나타냅니다.",
   "mnemonic": "아주 가는 실의 작은 결까지 살펴보는 모습을 떠올려 보세요.",
   "examples": [
-    { "word": "細心", "reading": "さいしん", "meaning": "세심함" },
-    { "word": "細い", "reading": "ほそい", "meaning": "가늘다" }
-  ]
+    {
+      "word": "細心",
+      "reading": "さいしん",
+      "meaning": "세심함"
+    },
+    {
+      "word": "細い",
+      "reading": "ほそい",
+      "meaning": "가늘다"
+    }
+  ],
+  "koreanReading": "세"
 }

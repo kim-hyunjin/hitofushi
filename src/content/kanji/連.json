@@ -1,12 +1,27 @@
 {
   "character": "連",
-  "onyomi": ["レン"],
-  "kunyomi": ["つらなる", "つらねる", "つれる"],
+  "onyomi": [
+    "レン"
+  ],
+  "kunyomi": [
+    "つらなる",
+    "つらねる",
+    "つれる"
+  ],
   "basicMeaning": "이어지다, 데려가다",
   "wordMeaning": "連なってく（つらなってく）로 읽어 나날이 앞으로 계속 이어짐을 나타냅니다.",
   "mnemonic": "하루가 손을 잡고 긴 행렬처럼 이어지는 모습을 떠올려 보세요.",
   "examples": [
-    { "word": "連なる", "reading": "つらなる", "meaning": "줄지어 이어지다" },
-    { "word": "連続", "reading": "れんぞく", "meaning": "연속" }
-  ]
+    {
+      "word": "連なる",
+      "reading": "つらなる",
+      "meaning": "줄지어 이어지다"
+    },
+    {
+      "word": "連続",
+      "reading": "れんぞく",
+      "meaning": "연속"
+    }
+  ],
+  "koreanReading": "련"
 }

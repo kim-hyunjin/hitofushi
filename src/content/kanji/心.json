@@ -1,12 +1,25 @@
 {
   "character": "心",
-  "onyomi": ["シン"],
-  "kunyomi": ["こころ"],
+  "onyomi": [
+    "シン"
+  ],
+  "kunyomi": [
+    "こころ"
+  ],
   "basicMeaning": "마음, 중심",
   "wordMeaning": "細心에서 조심스럽고 세밀하게 쓰는 ‘마음’을 나타냅니다.",
   "mnemonic": "가슴속에서 여러 방향으로 뛰는 마음의 움직임을 떠올려 보세요.",
   "examples": [
-    { "word": "心", "reading": "こころ", "meaning": "마음" },
-    { "word": "安心", "reading": "あんしん", "meaning": "안심" }
-  ]
+    {
+      "word": "心",
+      "reading": "こころ",
+      "meaning": "마음"
+    },
+    {
+      "word": "安心",
+      "reading": "あんしん",
+      "meaning": "안심"
+    }
+  ],
+  "koreanReading": "심"
 }

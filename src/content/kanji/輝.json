@@ -1,12 +1,25 @@
 {
   "character": "輝",
-  "onyomi": ["キ"],
-  "kunyomi": ["かがやく"],
+  "onyomi": [
+    "キ"
+  ],
+  "kunyomi": [
+    "かがやく"
+  ],
   "basicMeaning": "빛나다, 찬란하다",
   "wordMeaning": "輝く（かがやく）로 밝게 빛나거나 훌륭하게 돋보임을 나타냅니다.",
   "mnemonic": "빛이 수레바퀴처럼 힘차게 퍼져 나가는 모습을 떠올려 보세요.",
   "examples": [
-    { "word": "輝く", "reading": "かがやく", "meaning": "빛나다" },
-    { "word": "光輝", "reading": "こうき", "meaning": "광휘" }
-  ]
+    {
+      "word": "輝く",
+      "reading": "かがやく",
+      "meaning": "빛나다"
+    },
+    {
+      "word": "光輝",
+      "reading": "こうき",
+      "meaning": "광휘"
+    }
+  ],
+  "koreanReading": "휘"
 }

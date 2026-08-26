@@ -1,12 +1,26 @@
 {
   "character": "歪",
-  "onyomi": ["ワイ"],
-  "kunyomi": ["ゆがむ", "ひずむ"],
+  "onyomi": [
+    "ワイ"
+  ],
+  "kunyomi": [
+    "ゆがむ",
+    "ひずむ"
+  ],
   "basicMeaning": "일그러지다, 비뚤어지다",
   "wordMeaning": "歪まない（ゆがまない）로 읽어 마음이 본래 모습에서 비뚤어지지 않음을 나타냅니다.",
   "mnemonic": "곧은 선이 압력을 받아 비뚤어지는 모습을 떠올려 보세요.",
   "examples": [
-    { "word": "歪む", "reading": "ゆがむ", "meaning": "일그러지다" },
-    { "word": "歪み", "reading": "ひずみ", "meaning": "왜곡, 뒤틀림" }
-  ]
+    {
+      "word": "歪む",
+      "reading": "ゆがむ",
+      "meaning": "일그러지다"
+    },
+    {
+      "word": "歪み",
+      "reading": "ひずみ",
+      "meaning": "왜곡, 뒤틀림"
+    }
+  ],
+  "koreanReading": "왜"
 }

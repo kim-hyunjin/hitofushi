@@ -1,12 +1,25 @@
 {
   "character": "壁",
-  "onyomi": ["ヘキ"],
-  "kunyomi": ["かべ"],
+  "onyomi": [
+    "ヘキ"
+  ],
+  "kunyomi": [
+    "かべ"
+  ],
   "basicMeaning": "벽",
   "wordMeaning": "絶壁（ぜっぺき）에서는 ぺき로 소리가 변해 수직으로 선 절벽을 나타냅니다.",
   "mnemonic": "앞을 막아선 높고 단단한 벽을 떠올려 보세요.",
   "examples": [
-    { "word": "絶壁", "reading": "ぜっぺき", "meaning": "절벽" },
-    { "word": "壁", "reading": "かべ", "meaning": "벽" }
-  ]
+    {
+      "word": "絶壁",
+      "reading": "ぜっぺき",
+      "meaning": "절벽"
+    },
+    {
+      "word": "壁",
+      "reading": "かべ",
+      "meaning": "벽"
+    }
+  ],
+  "koreanReading": "벽"
 }

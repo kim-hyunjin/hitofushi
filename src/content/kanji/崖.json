@@ -1,12 +1,25 @@
 {
   "character": "崖",
-  "onyomi": ["ガイ"],
-  "kunyomi": ["がけ"],
+  "onyomi": [
+    "ガイ"
+  ],
+  "kunyomi": [
+    "がけ"
+  ],
   "basicMeaning": "벼랑, 절벽",
   "wordMeaning": "断崖絶壁（だんがいぜっぺき）에서 がい로 읽어 깎아지른 절벽을 나타냅니다.",
   "mnemonic": "산의 가장자리가 갑자기 끊어진 가파른 벼랑을 떠올려 보세요.",
   "examples": [
-    { "word": "断崖", "reading": "だんがい", "meaning": "단애, 깎아지른 절벽" },
-    { "word": "崖", "reading": "がけ", "meaning": "벼랑" }
-  ]
+    {
+      "word": "断崖",
+      "reading": "だんがい",
+      "meaning": "단애, 깎아지른 절벽"
+    },
+    {
+      "word": "崖",
+      "reading": "がけ",
+      "meaning": "벼랑"
+    }
+  ],
+  "koreanReading": "애"
 }

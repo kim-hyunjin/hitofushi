@@ -1,12 +1,28 @@
 {
   "character": "生",
-  "onyomi": ["セイ", "ショウ"],
-  "kunyomi": ["いきる", "うまれる", "なま"],
+  "onyomi": [
+    "セイ",
+    "ショウ"
+  ],
+  "kunyomi": [
+    "いきる",
+    "うまれる",
+    "なま"
+  ],
   "basicMeaning": "살다, 나다, 생",
   "wordMeaning": "生きる에서 삶을 이어 가는 ‘살다’라는 뜻으로 쓰였습니다.",
   "mnemonic": "땅을 뚫고 새싹이 자라나는 생명의 모습을 떠올려 보세요.",
   "examples": [
-    { "word": "生きる", "reading": "いきる", "meaning": "살다" },
-    { "word": "学生", "reading": "がくせい", "meaning": "학생" }
-  ]
+    {
+      "word": "生きる",
+      "reading": "いきる",
+      "meaning": "살다"
+    },
+    {
+      "word": "学生",
+      "reading": "がくせい",
+      "meaning": "학생"
+    }
+  ],
+  "koreanReading": "생"
 }

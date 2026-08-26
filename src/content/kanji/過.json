@@ -1,12 +1,27 @@
 {
   "character": "過",
-  "onyomi": ["カ"],
-  "kunyomi": ["すぎる", "すごす", "あやまち"],
+  "onyomi": [
+    "カ"
+  ],
+  "kunyomi": [
+    "すぎる",
+    "すごす",
+    "あやまち"
+  ],
   "basicMeaning": "지나가다, 지나치다",
   "wordMeaning": "過去（かこ）에서 이미 지나간 시간을, 過ぎてく에서 흘러가는 시간을 나타냅니다.",
   "mnemonic": "길 위의 한 지점을 건너 앞으로 지나가는 시간을 떠올려 보세요.",
   "examples": [
-    { "word": "過去", "reading": "かこ", "meaning": "과거" },
-    { "word": "過ぎる", "reading": "すぎる", "meaning": "지나가다, 지나치다" }
-  ]
+    {
+      "word": "過去",
+      "reading": "かこ",
+      "meaning": "과거"
+    },
+    {
+      "word": "過ぎる",
+      "reading": "すぎる",
+      "meaning": "지나가다, 지나치다"
+    }
+  ],
+  "koreanReading": "과"
 }

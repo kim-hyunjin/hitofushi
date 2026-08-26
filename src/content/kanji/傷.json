@@ -1,12 +1,27 @@
 {
   "character": "傷",
-  "onyomi": ["ショウ"],
-  "kunyomi": ["きず", "いたむ", "きずつく"],
+  "onyomi": [
+    "ショウ"
+  ],
+  "kunyomi": [
+    "きず",
+    "いたむ",
+    "きずつく"
+  ],
   "basicMeaning": "상처, 다치다",
   "wordMeaning": "傷（きず）와 傷跡（きずあと）에서 몸이나 마음에 남은 상처를 나타냅니다.",
   "mnemonic": "아문 뒤에도 흔적이 남아 지난 일을 기억하게 하는 상처를 떠올려 보세요.",
   "examples": [
-    { "word": "傷", "reading": "きず", "meaning": "상처" },
-    { "word": "傷跡", "reading": "きずあと", "meaning": "상처 자국" }
-  ]
+    {
+      "word": "傷",
+      "reading": "きず",
+      "meaning": "상처"
+    },
+    {
+      "word": "傷跡",
+      "reading": "きずあと",
+      "meaning": "상처 자국"
+    }
+  ],
+  "koreanReading": "상"
 }

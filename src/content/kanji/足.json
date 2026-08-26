@@ -1,1 +1,27 @@
-{"character":"足","onyomi":["ソク"],"kunyomi":["あし","たりる","たす"],"basicMeaning":"발, 족하다","wordMeaning":"足音（あしおと）에서 사람이 걸을 때 발이 내는 소리를 나타냅니다.","mnemonic":"걸음을 옮길 때마다 바닥에 작은 발소리가 남는 모습을 떠올려 보세요.","examples":[{"word":"足音","reading":"あしおと","meaning":"발소리"},{"word":"足りる","reading":"たりる","meaning":"충분하다"}]}
+{
+  "character": "足",
+  "onyomi": [
+    "ソク"
+  ],
+  "kunyomi": [
+    "あし",
+    "たりる",
+    "たす"
+  ],
+  "basicMeaning": "발, 족하다",
+  "wordMeaning": "足音（あしおと）에서 사람이 걸을 때 발이 내는 소리를 나타냅니다.",
+  "mnemonic": "걸음을 옮길 때마다 바닥에 작은 발소리가 남는 모습을 떠올려 보세요.",
+  "examples": [
+    {
+      "word": "足音",
+      "reading": "あしおと",
+      "meaning": "발소리"
+    },
+    {
+      "word": "足りる",
+      "reading": "たりる",
+      "meaning": "충분하다"
+    }
+  ],
+  "koreanReading": "족"
+}

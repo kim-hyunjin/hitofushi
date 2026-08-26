@@ -1,12 +1,25 @@
 {
   "character": "先",
-  "onyomi": ["セン"],
-  "kunyomi": ["さき"],
+  "onyomi": [
+    "セン"
+  ],
+  "kunyomi": [
+    "さき"
+  ],
   "basicMeaning": "앞, 먼저",
   "wordMeaning": "率先에서 다른 사람보다 ‘먼저’ 행동한다는 뜻입니다.",
   "mnemonic": "발을 내디뎌 다른 이보다 한 걸음 먼저 나간 모습을 떠올려 보세요.",
   "examples": [
-    { "word": "先", "reading": "さき", "meaning": "앞, 먼저" },
-    { "word": "先生", "reading": "せんせい", "meaning": "선생님" }
-  ]
+    {
+      "word": "先",
+      "reading": "さき",
+      "meaning": "앞, 먼저"
+    },
+    {
+      "word": "先生",
+      "reading": "せんせい",
+      "meaning": "선생님"
+    }
+  ],
+  "koreanReading": "선"
 }

@@ -1,12 +1,23 @@
 {
   "character": "感",
-  "onyomi": ["カン"],
+  "onyomi": [
+    "カン"
+  ],
   "kunyomi": [],
   "basicMeaning": "느끼다, 느낌",
   "wordMeaning": "感情（かんじょう）에서 쓰여 마음속에서 일어나는 느낌이나 정서를 나타냅니다.",
   "mnemonic": "어떤 일을 겪은 뒤 마음속에 울림이 남는 모습을 떠올려 보세요.",
   "examples": [
-    { "word": "感情", "reading": "かんじょう", "meaning": "감정" },
-    { "word": "感動", "reading": "かんどう", "meaning": "감동" }
-  ]
+    {
+      "word": "感情",
+      "reading": "かんじょう",
+      "meaning": "감정"
+    },
+    {
+      "word": "感動",
+      "reading": "かんどう",
+      "meaning": "감동"
+    }
+  ],
+  "koreanReading": "감"
 }

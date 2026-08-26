@@ -1,12 +1,26 @@
 {
   "character": "眠",
-  "onyomi": ["ミン"],
-  "kunyomi": ["ねむる", "ねむい"],
+  "onyomi": [
+    "ミン"
+  ],
+  "kunyomi": [
+    "ねむる",
+    "ねむい"
+  ],
   "basicMeaning": "잠들다, 졸리다",
   "wordMeaning": "眠れない（ねむれない）와 眠くない（ねむくない）에서 잠들지 못하거나 졸리지 않은 밤을 그립니다.",
   "mnemonic": "밤이 깊어도 눈을 감지 못하고 깨어 있는 모습을 떠올려 보세요.",
   "examples": [
-    { "word": "眠る", "reading": "ねむる", "meaning": "잠들다" },
-    { "word": "睡眠", "reading": "すいみん", "meaning": "수면" }
-  ]
+    {
+      "word": "眠る",
+      "reading": "ねむる",
+      "meaning": "잠들다"
+    },
+    {
+      "word": "睡眠",
+      "reading": "すいみん",
+      "meaning": "수면"
+    }
+  ],
+  "koreanReading": "면"
 }

@@ -1,1 +1,25 @@
-{"character":"泣","onyomi":["キュウ"],"kunyomi":["なく"],"basicMeaning":"울다","wordMeaning":"泣ける（なける）는 눈물이 나거나 감동해 울게 됨을 나타냅니다.","mnemonic":"눈가에서 물방울이 흘러내리는 모습을 떠올려 보세요.","examples":[{"word":"泣く","reading":"なく","meaning":"울다"},{"word":"泣ける","reading":"なける","meaning":"눈물이 나다, 울 수 있다"}]}
+{
+  "character": "泣",
+  "onyomi": [
+    "キュウ"
+  ],
+  "kunyomi": [
+    "なく"
+  ],
+  "basicMeaning": "울다",
+  "wordMeaning": "泣ける（なける）는 눈물이 나거나 감동해 울게 됨을 나타냅니다.",
+  "mnemonic": "눈가에서 물방울이 흘러내리는 모습을 떠올려 보세요.",
+  "examples": [
+    {
+      "word": "泣く",
+      "reading": "なく",
+      "meaning": "울다"
+    },
+    {
+      "word": "泣ける",
+      "reading": "なける",
+      "meaning": "눈물이 나다, 울 수 있다"
+    }
+  ],
+  "koreanReading": "읍"
+}

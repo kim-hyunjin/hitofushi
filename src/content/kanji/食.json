@@ -1,12 +1,27 @@
 {
   "character": "食",
-  "onyomi": ["ショク", "ジキ"],
-  "kunyomi": ["く（う）", "た（べる）"],
+  "onyomi": [
+    "ショク",
+    "ジキ"
+  ],
+  "kunyomi": [
+    "く（う）",
+    "た（べる）"
+  ],
   "basicMeaning": "먹다",
   "wordMeaning": "食われる（くわれる）는 거친 말투의 食う가 수동형이 되어 ‘먹히다’를 뜻합니다.",
   "mnemonic": "뚜껑 아래 그릇에 담긴 음식을 떠서 먹는 모습을 떠올려 보세요.",
   "examples": [
-    { "word": "食べる", "reading": "たべる", "meaning": "먹다" },
-    { "word": "食事", "reading": "しょくじ", "meaning": "식사" }
-  ]
+    {
+      "word": "食べる",
+      "reading": "たべる",
+      "meaning": "먹다"
+    },
+    {
+      "word": "食事",
+      "reading": "しょくじ",
+      "meaning": "식사"
+    }
+  ],
+  "koreanReading": "식"
 }

@@ -22,6 +22,8 @@ const {
 } = Astro.props;
 const kanji = entry.data;
 const titleId = `${popoverId}-title`;
+const kanjiName = kanji.basicMeaning.split(/[ ,]/)[0];
+const gridLabel = [kanjiName, kanji.koreanReading].filter(Boolean).join(' ');
 ---
 
 <Dialog>
@@ -40,7 +42,7 @@ const titleId = `${popoverId}-title`;
         variant === 'grid' && "text-[1.55rem] font-medium",
       ]}
     >{kanji.character}</strong>
-    {variant === 'grid' && <span class="text-[0.65rem] text-muted-foreground">{kanji.basicMeaning.split(',')[0]}</span>}
+    {variant === 'grid' && <span class="text-[0.65rem] text-muted-foreground">{gridLabel}</span>}
   </DialogTrigger>
 
   <DialogContent
@@ -55,7 +57,7 @@ const titleId = `${popoverId}-title`;
           id={titleId}
           class="mb-0 text-[length:clamp(1.4rem,6vw,2.4rem)]! font-medium! leading-[1.15] tracking-[-0.04em] text-inherit!"
         >
-          {kanji.basicMeaning}
+          {kanji.basicMeaning} <span lang="ja">({kanji.koreanReading})</span>
         </DialogTitle>
       </div>
     </header>

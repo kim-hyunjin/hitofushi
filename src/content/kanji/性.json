@@ -1,12 +1,26 @@
 {
   "character": "性",
-  "onyomi": ["セイ", "ショウ"],
-  "kunyomi": ["さが"],
+  "onyomi": [
+    "セイ",
+    "ショウ"
+  ],
+  "kunyomi": [
+    "さが"
+  ],
   "basicMeaning": "성질, 성",
   "wordMeaning": "性愛者（せいあいしゃ）에서 せい로 읽어 성적인 사랑과 관련된 뜻을 만듭니다.",
   "mnemonic": "마음이 타고난 성질로 드러나는 모습을 떠올려 보세요.",
   "examples": [
-    { "word": "性格", "reading": "せいかく", "meaning": "성격" },
-    { "word": "可能性", "reading": "かのうせい", "meaning": "가능성" }
-  ]
+    {
+      "word": "性格",
+      "reading": "せいかく",
+      "meaning": "성격"
+    },
+    {
+      "word": "可能性",
+      "reading": "かのうせい",
+      "meaning": "가능성"
+    }
+  ],
+  "koreanReading": "성"
 }

@@ -1,12 +1,27 @@
 {
   "character": "開",
-  "onyomi": ["カイ"],
-  "kunyomi": ["あく", "あける", "ひらく"],
+  "onyomi": [
+    "カイ"
+  ],
+  "kunyomi": [
+    "あく",
+    "あける",
+    "ひらく"
+  ],
   "basicMeaning": "열다",
   "wordMeaning": "開け放たれた（あけはなたれた）에서는 방이 활짝 열린 상태를 나타냅니다. 瞼が開く（まぶたがひらく）에서는 ひらく로 읽습니다.",
   "mnemonic": "문이 양쪽으로 활짝 열려 길이 나는 모습을 떠올려 보세요.",
   "examples": [
-    { "word": "開ける", "reading": "あける", "meaning": "열다" },
-    { "word": "開く", "reading": "ひらく", "meaning": "펼치다, 열리다" }
-  ]
+    {
+      "word": "開ける",
+      "reading": "あける",
+      "meaning": "열다"
+    },
+    {
+      "word": "開く",
+      "reading": "ひらく",
+      "meaning": "펼치다, 열리다"
+    }
+  ],
+  "koreanReading": "개"
 }

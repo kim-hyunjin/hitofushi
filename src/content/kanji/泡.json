@@ -1,12 +1,25 @@
 {
   "character": "泡",
-  "onyomi": ["ホウ"],
-  "kunyomi": ["あわ"],
+  "onyomi": [
+    "ホウ"
+  ],
+  "kunyomi": [
+    "あわ"
+  ],
   "basicMeaning": "거품",
   "wordMeaning": "泡（あわ）로 읽어 액체 속이나 표면에 생기는 공기 방울을 나타냅니다.",
   "mnemonic": "물(氵)이 작은 덩어리를 감싸 동그란 거품이 된 모습을 떠올려 보세요.",
   "examples": [
-    { "word": "泡", "reading": "あわ", "meaning": "거품" },
-    { "word": "水泡", "reading": "すいほう", "meaning": "물거품, 수포" }
-  ]
+    {
+      "word": "泡",
+      "reading": "あわ",
+      "meaning": "거품"
+    },
+    {
+      "word": "水泡",
+      "reading": "すいほう",
+      "meaning": "물거품, 수포"
+    }
+  ],
+  "koreanReading": "포"
 }

@@ -1,12 +1,25 @@
 {
   "character": "確",
-  "onyomi": ["カク"],
-  "kunyomi": ["たし"],
+  "onyomi": [
+    "カク"
+  ],
+  "kunyomi": [
+    "たし"
+  ],
   "basicMeaning": "확실하다",
   "wordMeaning": "確かめる（たしかめる）에서 사실인지 확인한다는 뜻입니다.",
   "mnemonic": "단단한 돌처럼 흔들리지 않는 사실을 확인한다고 떠올려 보세요.",
   "examples": [
-    { "word": "確かめる", "reading": "たしかめる", "meaning": "확인하다" },
-    { "word": "確認", "reading": "かくにん", "meaning": "확인" }
-  ]
+    {
+      "word": "確かめる",
+      "reading": "たしかめる",
+      "meaning": "확인하다"
+    },
+    {
+      "word": "確認",
+      "reading": "かくにん",
+      "meaning": "확인"
+    }
+  ],
+  "koreanReading": "확"
 }

@@ -22,10 +22,6 @@ const songCards = songs.map((song) => {
       (total, entry) => total + entry.data.vocabulary.length,
       0,
     ),
-    estimatedMinutes: songLessons.reduce(
-      (total, entry) => total + entry.data.estimatedMinutes,
-      0,
-    ),
   };
 });
 ---
@@ -65,10 +61,10 @@ const songCards = songs.map((song) => {
               {String(song.sequence).padStart(2, '0')}
             </div>
             <div>
-              <span class="text-xs font-extrabold text-muted-foreground">{song.artist} · 전곡 과정</span>
+              <span class="text-xs font-extrabold text-muted-foreground">{song.artist}</span>
               <h3 class="mb-[0.7rem] mt-1 text-[length:clamp(2.5rem,8vw,4.4rem)] font-medium italic tracking-[-0.05em]">{song.title}</h3>
               <p class="max-w-168 text-muted-foreground">{song.description}</p>
-              <dl class="m-0 mt-6 grid grid-cols-2 gap-[0.6rem] md:grid-cols-4 [&_div]:rounded-xl [&_div]:bg-muted [&_div]:p-[0.8rem] [&_dt]:text-[0.68rem] [&_dt]:font-extrabold [&_dt]:text-muted-foreground [&_dd]:mb-0 [&_dd]:ml-0 [&_dd]:mt-[0.1rem] [&_dd]:text-[1.2rem] [&_dd]:">
+              <dl class="m-0 mt-6 grid grid-cols-2 gap-[0.6rem] md:grid-cols-3 [&_div]:rounded-xl [&_div]:bg-muted [&_div]:p-[0.8rem] [&_dt]:text-[0.68rem] [&_dt]:font-extrabold [&_dt]:text-muted-foreground [&_dd]:mb-0 [&_dd]:ml-0 [&_dd]:mt-[0.1rem] [&_dd]:text-[1.2rem] [&_dd]:">
                 <div>
                   <dt>단원</dt>
                   <dd>{song.lessonCount}</dd>
@@ -80,10 +76,6 @@ const songCards = songs.map((song) => {
                 <div>
                   <dt>어휘</dt>
                   <dd>{song.vocabularyCount}</dd>
-                </div>
-                <div>
-                  <dt>학습 시간</dt>
-                  <dd>약 {song.estimatedMinutes}분</dd>
                 </div>
               </dl>
             </div>

@@ -1,12 +1,26 @@
 {
   "character": "虚",
-  "onyomi": ["キョ", "コ"],
-  "kunyomi": ["むなしい"],
+  "onyomi": [
+    "キョ",
+    "コ"
+  ],
+  "kunyomi": [
+    "むなしい"
+  ],
   "basicMeaning": "비다, 허무하다",
   "wordMeaning": "虚しい에서 마음이 빈 듯한 ‘허무함’을 나타냅니다.",
   "mnemonic": "채워져 있어야 할 자리가 텅 빈 방처럼 느껴지는 모습을 떠올려 보세요.",
   "examples": [
-    { "word": "虚しい", "reading": "むなしい", "meaning": "허무하다" },
-    { "word": "虚無", "reading": "きょむ", "meaning": "허무" }
-  ]
+    {
+      "word": "虚しい",
+      "reading": "むなしい",
+      "meaning": "허무하다"
+    },
+    {
+      "word": "虚無",
+      "reading": "きょむ",
+      "meaning": "허무"
+    }
+  ],
+  "koreanReading": "허"
 }

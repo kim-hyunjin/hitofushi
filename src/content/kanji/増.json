@@ -1,12 +1,27 @@
 {
   "character": "増",
-  "onyomi": ["ゾウ"],
-  "kunyomi": ["ます", "ふえる", "ふやす"],
+  "onyomi": [
+    "ゾウ"
+  ],
+  "kunyomi": [
+    "ます",
+    "ふえる",
+    "ふやす"
+  ],
   "basicMeaning": "늘다, 늘리다",
   "wordMeaning": "増えた（ふえた）로 읽어 둘의 추억이 이전보다 많아진 상태를 나타냅니다.",
   "mnemonic": "하루가 지날 때마다 추억 상자가 하나씩 늘어나는 모습을 떠올려 보세요.",
   "examples": [
-    { "word": "増える", "reading": "ふえる", "meaning": "늘어나다" },
-    { "word": "増加", "reading": "ぞうか", "meaning": "증가" }
-  ]
+    {
+      "word": "増える",
+      "reading": "ふえる",
+      "meaning": "늘어나다"
+    },
+    {
+      "word": "増加",
+      "reading": "ぞうか",
+      "meaning": "증가"
+    }
+  ],
+  "koreanReading": "증"
 }

@@ -1,12 +1,25 @@
 {
   "character": "計",
-  "onyomi": ["ケイ"],
-  "kunyomi": ["はか"],
+  "onyomi": [
+    "ケイ"
+  ],
+  "kunyomi": [
+    "はか"
+  ],
   "basicMeaning": "재다, 계획하다",
   "wordMeaning": "計られる（はかられる）에서 기준에 따라 재어지고 평가됨을 나타냅니다.",
   "mnemonic": "말한 수치를 하나씩 세어 기준과 비교하는 장면을 떠올려 보세요.",
   "examples": [
-    { "word": "計る", "reading": "はかる", "meaning": "재다" },
-    { "word": "計画", "reading": "けいかく", "meaning": "계획" }
-  ]
+    {
+      "word": "計る",
+      "reading": "はかる",
+      "meaning": "재다"
+    },
+    {
+      "word": "計画",
+      "reading": "けいかく",
+      "meaning": "계획"
+    }
+  ],
+  "koreanReading": "계"
 }

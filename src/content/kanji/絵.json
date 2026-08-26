@@ -1,12 +1,24 @@
 {
   "character": "絵",
-  "onyomi": ["カイ", "エ"],
+  "onyomi": [
+    "カイ",
+    "エ"
+  ],
   "kunyomi": [],
   "basicMeaning": "그림",
   "wordMeaning": "絵画（かいが）에서 눈에 보이는 그림이나 회화를 나타냅니다.",
   "mnemonic": "하얀 화폭 위에 여러 색으로 장면을 그리는 모습을 떠올려 보세요.",
   "examples": [
-    { "word": "絵", "reading": "え", "meaning": "그림" },
-    { "word": "絵本", "reading": "えほん", "meaning": "그림책" }
-  ]
+    {
+      "word": "絵",
+      "reading": "え",
+      "meaning": "그림"
+    },
+    {
+      "word": "絵本",
+      "reading": "えほん",
+      "meaning": "그림책"
+    }
+  ],
+  "koreanReading": "회"
 }

@@ -1,12 +1,26 @@
 {
   "character": "私",
-  "onyomi": ["シ"],
-  "kunyomi": ["わたし", "わたくし"],
+  "onyomi": [
+    "シ"
+  ],
+  "kunyomi": [
+    "わたし",
+    "わたくし"
+  ],
   "basicMeaning": "나, 사사로움",
   "wordMeaning": "私（わたし）로 읽어 성별과 관계없이 널리 쓰는 기본적인 1인칭입니다.",
   "mnemonic": "공적인 곳과 구분되는 나만의 사적인 영역을 떠올려 보세요.",
   "examples": [
-    { "word": "私", "reading": "わたし", "meaning": "나" },
-    { "word": "私生活", "reading": "しせいかつ", "meaning": "사생활" }
-  ]
+    {
+      "word": "私",
+      "reading": "わたし",
+      "meaning": "나"
+    },
+    {
+      "word": "私生活",
+      "reading": "しせいかつ",
+      "meaning": "사생활"
+    }
+  ],
+  "koreanReading": "사"
 }

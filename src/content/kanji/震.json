@@ -1,12 +1,25 @@
 {
   "character": "震",
-  "onyomi": ["シン"],
-  "kunyomi": ["ふる"],
+  "onyomi": [
+    "シン"
+  ],
+  "kunyomi": [
+    "ふる"
+  ],
   "basicMeaning": "떨리다",
   "wordMeaning": "震える（ふるえる）에서 몸이나 물건이 떨리고 진동함을 나타냅니다.",
   "mnemonic": "비가 내리는 하늘 아래 땅까지 흔들리는 모습을 떠올려 보세요.",
   "examples": [
-    { "word": "震える", "reading": "ふるえる", "meaning": "떨리다" },
-    { "word": "地震", "reading": "じしん", "meaning": "지진" }
-  ]
+    {
+      "word": "震える",
+      "reading": "ふるえる",
+      "meaning": "떨리다"
+    },
+    {
+      "word": "地震",
+      "reading": "じしん",
+      "meaning": "지진"
+    }
+  ],
+  "koreanReading": "진"
 }

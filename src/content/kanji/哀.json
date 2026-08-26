@@ -1,12 +1,26 @@
 {
   "character": "哀",
-  "onyomi": ["アイ"],
-  "kunyomi": ["あわれ", "あわれむ"],
+  "onyomi": [
+    "アイ"
+  ],
+  "kunyomi": [
+    "あわれ",
+    "あわれむ"
+  ],
   "basicMeaning": "슬픔, 가엾게 여기다",
   "wordMeaning": "喜怒哀楽（きどあいらく）에서 슬픔의 감정을 나타냅니다.",
   "mnemonic": "누군가의 아픔을 바라보며 함께 슬퍼하는 마음을 떠올려 보세요.",
   "examples": [
-    { "word": "哀れ", "reading": "あわれ", "meaning": "가련함, 애처로움" },
-    { "word": "哀愁", "reading": "あいしゅう", "meaning": "애수" }
-  ]
+    {
+      "word": "哀れ",
+      "reading": "あわれ",
+      "meaning": "가련함, 애처로움"
+    },
+    {
+      "word": "哀愁",
+      "reading": "あいしゅう",
+      "meaning": "애수"
+    }
+  ],
+  "koreanReading": "애"
 }

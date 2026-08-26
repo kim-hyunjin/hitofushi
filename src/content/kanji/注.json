@@ -1,12 +1,25 @@
 {
   "character": "注",
-  "onyomi": ["チュウ"],
-  "kunyomi": ["そそぐ"],
+  "onyomi": [
+    "チュウ"
+  ],
+  "kunyomi": [
+    "そそぐ"
+  ],
   "basicMeaning": "붓다, 집중하다",
   "wordMeaning": "注意에서 마음을 한곳에 모아 ‘주의를 기울이는’ 뜻을 만듭니다.",
   "mnemonic": "물줄기를 한 지점에 정확히 붓듯 시선을 모은다고 떠올려 보세요.",
   "examples": [
-    { "word": "注意", "reading": "ちゅうい", "meaning": "주의" },
-    { "word": "注ぐ", "reading": "そそぐ", "meaning": "붓다" }
-  ]
+    {
+      "word": "注意",
+      "reading": "ちゅうい",
+      "meaning": "주의"
+    },
+    {
+      "word": "注ぐ",
+      "reading": "そそぐ",
+      "meaning": "붓다"
+    }
+  ],
+  "koreanReading": "주"
 }
