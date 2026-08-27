@@ -47,7 +47,7 @@ const gridLabel = [kanjiName, kanji.koreanReading].filter(Boolean).join(' ');
 
   <DialogContent
     id={popoverId}
-    class="max-h-[min(44rem,calc(100%_-_1.5rem))] w-[min(42rem,calc(100%_-_1.5rem))] overflow-y-auto rounded-xl border border-border bg-card p-0 text-foreground shadow-[0_2rem_7rem_rgb(23_50_77_/_28%)] [&_[data-slot=dialog-close]]:text-[var(--hero-foreground)]"
+    class="max-h-[calc(100dvh_-_5.5rem)] w-[min(42rem,calc(100%_-_1.5rem))] overflow-y-auto sm:max-h-[min(44rem,calc(100%_-_1.5rem))] rounded-xl border border-border bg-card p-0 text-foreground shadow-[0_2rem_7rem_rgb(23_50_77_/_28%)] [&_[data-slot=dialog-close]]:text-[var(--hero-foreground)]"
   >
     <header class="grid grid-cols-[auto_1fr_auto] items-center gap-4 bg-[var(--hero)] p-[1.2rem] text-[var(--hero-foreground)]">
       <div class="grid aspect-square w-16 place-items-center rounded-full bg-background text-[2.5rem] text-foreground" lang="ja">{kanji.character}</div>
