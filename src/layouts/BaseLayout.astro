@@ -123,5 +123,34 @@ const learningActive = pathname.includes('/my-learning/');
     <main id="main-content">
       <slot />
     </main>
+
+    <script>
+      // starwind's dialog/drawer runtime auto-focuses the first focusable
+      // element inside the popup on open, which shows the site's thick
+      // focus-visible outline on a random control (e.g. a speech button)
+      // right when it opens. Redirect that initial focus to the dialog
+      // panel itself, which isn't styled by the focus-visible rule, while
+      // leaving real keyboard Tab navigation untouched.
+      new MutationObserver((mutations) => {
+        for (const mutation of mutations) {
+          const content = mutation.target;
+          if (
+            !(content instanceof HTMLElement) ||
+            !content.hasAttribute('data-sw-dialog-content') ||
+            content.getAttribute('data-state') !== 'open'
+          ) {
+            continue;
+          }
+          const active = document.activeElement;
+          if (active instanceof HTMLElement && active !== content && content.contains(active)) {
+            content.focus({ preventScroll: true });
+          }
+        }
+      }).observe(document.documentElement, {
+        attributes: true,
+        attributeFilter: ['data-state'],
+        subtree: true,
+      });
+    </script>
   </body>
 </html>
