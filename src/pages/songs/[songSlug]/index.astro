@@ -109,7 +109,7 @@ if (!songLessons.length) {
         })
       }
       <Card class="grid gap-[1.2rem] rounded-lg border border-warning bg-[linear-gradient(135deg,color-mix(in_srgb,var(--warning)_18%,var(--card)),var(--card))] p-6 shadow-[var(--shadow)] min-[42rem]:grid-cols-[4rem_1fr_auto] min-[42rem]:items-center min-[42rem]:p-8" role="article">
-        <div class="text-[2rem] text-accent-foreground">完</div>
+        <div class="text-[2rem] text-accent">完</div>
         <div>
           <span class="text-[0.8rem] font-[750] text-muted-foreground">
             최종 단원 · {songLessons.reduce((total, lesson) => total + lesson.data.sentences.length, 0)}문장 · {songLessons.reduce((total, lesson) => total + lesson.data.vocabulary.length, 0)}단어

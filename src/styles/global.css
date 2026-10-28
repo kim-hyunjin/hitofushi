@@ -1,27 +1,27 @@
 :root {
   --ink: var(--foreground);
-  --ink-rgb: 47 55 29;
+  --ink-rgb: 34 38 46;
   --ink-soft: var(--muted-foreground);
   --paper: var(--background);
-  --paper-rgb: 254 250 224;
+  --paper-rgb: 246 241 231;
   --surface: var(--card);
-  --surface-rgb: 233 237 201;
-  --white: #fffdf0;
+  --surface-rgb: 236 229 214;
+  --white: #fbf8f1;
   --line: var(--border);
-  --accent-dark: #526516;
+  --accent-dark: #1e4a6d;
   --accent-pale: var(--secondary);
   --mint: var(--secondary);
   --yellow: var(--accent);
-  --yellow-rgb: 212 163 115;
-  --ink-hover: #3f4c1d;
-  --on-ink-soft: #dce3c2;
-  --on-ink-muted: #eef0d8;
+  --yellow-rgb: 192 67 46;
+  --ink-hover: #343a46;
+  --on-ink-soft: #c9cfd8;
+  --on-ink-muted: #e3e6eb;
   --surface-muted: var(--muted);
   --ink-faint: var(--muted-foreground);
   --track: var(--border);
-  --hero: #2f371d;
-  --hero-foreground: #fefae0;
-  --shadow: 0 16px 50px rgb(47 55 29 / 10%);
+  --hero: #1b2f45;
+  --hero-foreground: #f6f1e7;
+  --shadow: 0 16px 50px rgb(34 38 46 / 10%);
   font-family:
     "Figtree Variable", "Pretendard Variable", Pretendard, "Noto Sans KR",
     "Noto Sans JP", system-ui, sans-serif;
@@ -31,16 +31,16 @@
 }
 
 .dark {
-  --ink-rgb: 243 240 214;
-  --paper-rgb: 23 26 18;
-  --surface-rgb: 34 39 25;
-  --accent-dark: #d4a373;
-  --yellow-rgb: 212 163 115;
+  --ink-rgb: 236 230 216;
+  --paper-rgb: 20 22 27;
+  --surface-rgb: 29 32 40;
+  --accent-dark: #8fb3d4;
+  --yellow-rgb: 226 105 79;
   --ink-hover: #ffffff;
-  --on-ink-soft: #b9bea7;
-  --on-ink-muted: #d9ddc6;
-  --hero: #222719;
-  --hero-foreground: #f3f0d6;
+  --on-ink-soft: #b3b9c4;
+  --on-ink-muted: #d6dae1;
+  --hero: #182536;
+  --hero-foreground: #ece6d8;
   --shadow: 0 16px 50px rgb(0 0 0 / 24%);
 }
 
