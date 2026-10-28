@@ -50,6 +50,8 @@
 
 html {
   scroll-behavior: smooth;
+  /* Keep the scrollbar gutter reserved so dialog scroll-lock doesn't shift the layout. */
+  scrollbar-gutter: stable;
 }
 
 body {
